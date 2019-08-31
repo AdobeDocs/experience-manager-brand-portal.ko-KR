@@ -9,16 +9,16 @@ content-type: 참조
 topic-tags: 소개
 discoiquuid: A 70 CE 694-81 D 1-4829-9 E 61-B 6412 E 013 E 5 C
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # 브랜드 포털에서 에셋 검색 {#browsing-assets-on-brand-portal}
 
-[!DNL AEM] assets [! DNL 브랜드 포털은 다양한 보기 옵션을 사용하는 동안 리소스를 검색하고, 자산 계층을 탐색하고, 자산을 검색할 수 있도록 해주는 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
+AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하는 동안 리소스를 검색하고, 자산 계층을 탐색하고, 자산을 검색할 수 있도록 해주는 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
 
-[!DNL AEM] 상단에 [!DNL AEM] 있는 도구 모음에서 로고를 사용하면 관리 도구 패널에 액세스할 수 있습니다.
+상단에 있는 AEM 도구 모음의 AEM 로고를 사용하면 관리 도구 패널에 액세스할 수 있습니다.
 
 ![](assets/aemlogo.png)
 
@@ -26,17 +26,17 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 
 ![](assets/bp_subheader.png)
 
-레일 선택기에서 왼쪽 상단에 있는 [!DNL Brand Portal] 레일 선택기를 사용하여 자산 계층을 탐색하고, 검색을 능률화하고, 리소스를 표시하는 옵션을 표시할 수 있습니다.
+브랜드 포털의 왼쪽 상단에 있는 레일 선택기는 자산 계층을 탐색하고, 검색을 능률화하고, 리소스를 표시하는 옵션을 표시하는 옵션을 제공합니다.
 
 ![](assets/siderail-1.png)
 
-오른쪽 상단의 보기 선택기에서 사용 가능한 보기 (카드, 열 및 목록) 를 사용하여 자산을 보고, 탐색하고, 선택할 수 [!DNL Brand Portal]있습니다.
+브랜드 포털에서 오른쪽 상단의 보기 선택기에서 사용 가능한 보기 (카드, 열 및 목록) 를 사용하여 자산을 보고, 탐색하고, 선택할 수 있습니다.
 
 ![](assets/viewselector.png)
 
 ## 리소스 보기 및 선택 {#viewing-and-selecting-resources}
 
-보기, 탐색 및 선택은 모든 보기에서 개념적으로는 같지만 사용 중인 보기에 따라 처리 방식이 약간 다릅니다.
+각 보기에서 보기, 탐색 및 선택은 개념적으로는 모든 보기에서 동일하지만 사용 중인 보기에 따라 처리 방식이 약간 다릅니다.
 
 사용 가능한 보기를 사용하여 리소스를 보고, 탐색하고, (추가 작업을 위해) 선택할 수 있습니다.
 
@@ -54,7 +54,7 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 * 유형
 * 제목
 * 이름
-* 자산이 [!DNL Brand Portal] 게시된 날짜 및 시간 [!DNL AEM]
+* AEM에서 브랜드 포털에 자산이 게시된 날짜 및 시간
 * 크기
 * 크기
 
@@ -67,7 +67,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 카드 보기에서는 카드 보기에서 관리자가 아닌 사용자 (편집자, 뷰어 및 손님 사용자) 에게 폴더 계층 구조 정보를 표시합니다. 이 기능을 사용하면 상위 계층 구조와 관련하여 사용자가 폴더 위치를 알 수 있습니다.
 폴더 계층 정보는 다른 폴더 계층 구조에서 공유되는 다른 폴더와 유사한 이름의 폴더를 구별하는 데 특히 유용합니다. 관리자가 아닌 사용자가 공유된 자산의 폴더 구조를 모를 경우 비슷한 이름의 자산 /folders 이 혼동스러운 것처럼 보입니다.
 
-* 각 카드에 표시된 경로가 카드 크기에 맞게 잘립니다. 그러나 사용자는 전체 경로를 잘린 패스 위에 가리키는 도구 Tipon로 볼 수 있습니다.
+* 각 카드에 표시된 경로가 카드 크기에 맞게 잘립니다. 그러나 잘린 패스 위로 마우스를 가져가면 전체 경로를 도구 팁으로 볼 수 있습니다.
 
 ![](assets/folder-hierarchy1.png)
 
@@ -75,10 +75,10 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 개요 옵션은 관리자가 아닌 사용자 (편집자, 뷰어, 손님 사용자) 에게 사용할 수 있으므로 선택한 자산/폴더의 자산 속성을 볼 수 있습니다. 개요 옵션이 표시됩니다.
 
-1. 자산/폴더를 선택하는 상단의 도구 모음에서
-2. 를 선택합니다.
+* 자산/폴더를 선택하는 상단의 도구 모음에서
+* 를 선택합니다.
 
-자산/폴더를 선택하는 동안 개요 옵션을 선택하면 사용자는 자산 작성의 제목, 경로 및 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지 선택 개요 옵션을 사용하면 자산의 메타데이터를 볼 수 있습니다.
+자산/폴더를 선택하는 동안 [!UICONTROL 개요] 옵션을 선택하면 사용자는 자산 작성의 제목, 경로 및 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지 선택 개요 옵션을 사용하면 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 #### 카드 보기에서 설정 보기
 
-보기 선택기에서 설정 보기를 선택하면 설정 보기 대화 상자가 열립니다. 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이렇게 하면 보기를 개인화하고 표시되는 썸네일 수를 제어할 수 있습니다.
+[!UICONTROL 보기 선택기에서] 설정 보기를 선택하면 **[!UICONTROL 설정 보기]** 대화 상자가 열립니다. 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이렇게 하면 보기를 개인화하고 표시되는 썸네일 수를 제어할 수 있습니다.
 
 ![](assets/cardviewsettings.png)
 
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 목록 보기에서 설정 보기
 
-목록 보기에는 기본적으로 자산 **이름이** 첫 번째 열로 표시됩니다. 자산 제목, 로케일, 유형, 차원, 크기, 등급, 게시 상태 등의 추가 정보도 표시됩니다. 그러나 보기 설정을 사용하여 표시할 열을 선택할 수는 있습니다.
+목록 보기에는 기본적으로 자산 [!UICONTROL 이름이] 첫 번째 열로 표시됩니다. 자산 [!UICONTROL 제목], [!UICONTROL 로케일], [!UICONTROL 유형], [!UICONTROL 차원], [!UICONTROL 크기], [!UICONTROL 등급,]게시 상태 등의 추가 정보도 표시됩니다. However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -139,7 +139,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 * 제목
 * 이름
 * 크기
-* 자산이 [!DNL Brand Portal] 게시된 날짜 및 시간 [!DNL AEM]
+* AEM에서 브랜드 포털에 자산이 게시된 날짜 및 시간
 * 크기
 * 유형
 * 세부 사항 옵션 - 자산의 세부 사항 페이지에 이동
@@ -232,7 +232,7 @@ Comment Type: draft
 
 이러한 보기 외에도 트리 보기를 사용하여 원하는 자산 또는 폴더를 보고 선택하는 동안 자산 계층 구조를 드릴다운합니다.
 
-트리 보기를 열려면 왼쪽 상단의 레일 선택기를 탭/클릭하고 메뉴에서 **컨텐츠 트리를** 선택합니다.
+트리 보기를 열려면 왼쪽 상단의 레일 선택기를 탭/클릭하고 메뉴에서 **[!UICONTROL 컨텐츠 트리를]** 선택합니다.
 
 ![](assets/contenttree.png)
 
@@ -246,7 +246,7 @@ Comment Type: draft
 
 ![](assets/asset-detail.png)
 
-자산의 메타데이터를 개요하거나 다양한 표현물을 보려면 자산 세부 사항 페이지에서 레일 선택기 사용을 참조하십시오.
+자산의 메타데이터를 보거나 다양한 표현물을 보려면 자산 세부 사항 페이지에서 레일 선택기 사용을 참조하십시오.
 
 ![](assets/asset-overview.png)
 
@@ -254,8 +254,8 @@ Comment Type: draft
 
 ![](assets/renditions.png)
 
-자산 속성 페이지를 열려면 상단 막대의 *속성 (P)* 옵션을 사용합니다.
+자산 속성 페이지를 열려면 상단 막대의 **[!UICONTROL 속성 (P)]** 옵션을 사용합니다.
 
 ![](assets/asset-properties.png)
 
-자산 관계도에 게시되므로 자산의 속성 페이지에서 모든 관련 자산 (AEM의 소스 또는 파생된 자산) 의 목록을 볼 [!DNL AEM][!DNL Brand Portal]수도 있습니다.
+또한 자산 관계가 AEM에서 브랜드 포털에 게시되므로 자산의 속성 페이지에서 모든 관련 자산 (AEM의 경우 소스 또는 파생된 자산) 의 목록을 볼 수 있습니다.
