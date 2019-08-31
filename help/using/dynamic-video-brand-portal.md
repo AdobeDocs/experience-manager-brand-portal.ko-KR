@@ -10,7 +10,7 @@ content-type: 참조
 topic-tags: download-install
 discoiquuid: E 18 D 992 A-A 3 B 5-45 F 2-9696-8161993213 EE
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
 
 ---
 
@@ -112,13 +112,10 @@ AEM 작성자 인스턴스가 다이내믹 미디어 하이브리드 모드에�
 
 1. AEM 로고를 선택하여 브랜드 포털에서 상단에 있는 도구 모음에서 관리 도구에 액세스합니다.
 
-2. 관리 도구 패널에서 **[!UICONTROL 비디오]** 타일을 선택합니다.
-
-![브랜드 포털에서 다이내믹 미디어 하이브리드 구성](assets/DMHybrid-Video.png)
-
-**[!UICONTROL Edit Dynamic Media Configuration]** 페이지가 열립니다.
-
-![브랜드 포털에서 다이내믹한 미디어 하이브리드 구성](assets/edit-dynamic-media-config.png)
+2. 관리 도구 패널에서 **[!UICONTROL 비디오]** 타일을 선택합니다.<br />
+   ![브랜드 포털에서 다이내믹 미디어 하이브리드 구성](assets/DMHybrid-Video.png)
+   **[!UICONTROL Edit Dynamic Media Configuration]** 페이지가 열립니다.<br />
+   ![브랜드 포털에서 다이내믹한 미디어 하이브리드 구성](assets/edit-dynamic-media-config.png)
 
 3. **[!UICONTROL 등록 ID]** 및 **[!UICONTROL 비디오 서비스 URL]** (DM-게이트웨이 URL) 를 지정합니다. 이러한 세부 사항이 AEM 작성자 인스턴스의 **[!UICONTROL 도구 &gt; 클라우드 서비스에]** 있는 것과 동일한지 확인하십시오.
 
@@ -132,12 +129,10 @@ AEM 작성자 인스턴스가 다이내믹 미디어- [!UICONTROL Scene 7] 모�
 
 1. AEM 로고를 선택하여 브랜드 포털에서 상단에 있는 도구 모음에서 관리 도구에 액세스합니다.
 
-2. 관리 도구 패널에서 **[!UICONTROL 다이내믹 미디어 구성]** 타일을 선택합니다.
+2. 관리 도구 패널에서 **[!UICONTROL 다이내믹 미디어 구성]** 타일을 선택합니다.<br />
    ![브랜드 포털에서 DM [!UICONTROL Scene 7] 구성](assets/DMS7-Tile.png)
-
-[!UICONTROL Edit Dynamic Media Configuration] 페이지가 열립니다.
-
-![브랜드 포털에서 Scene 7 구성](assets/S7Config.png)
+   [!UICONTROL Edit Dynamic Media Configuration] 페이지가 열립니다.<br />
+   ![브랜드 포털에서 Scene 7 구성](assets/S7Config.png)
 
 3. 제공:
    * [!UICONTROL 제목]
