@@ -10,26 +10,26 @@ products: sg_ Experiencemanager/brand_ portal
 content-type: 참조
 discoiquuid: F 77003 BA -31 FE -4 A 9 E -96 C 8-DBC 4 C 2 EBA 79 E
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # 자산의 디지털 권한 관리 {#manage-digital-rights-of-assets}
 
-브랜드를 보호하기 위해서는 크리에이티브 에셋과 브랜드 자료를 안전하게 배포하고 사용해야 합니다. 만료 날짜 (및 시간) 를에 [!DNL AEM] 게시된 승인된 자산에 연관시키거나, 조건부 사용을 위해 이러한 자산에 라이선스를 부여함으로써 [!DNL Brand Portal]조직 및 외부에서 실시할 수 있습니다. 또한, 공유된 [!DNL Brand Portal] 자산에 대한 링크에 대한 만료 날짜를 지정할 [!DNL Brand Portal]수도 있습니다.
+브랜드를 보호하기 위해서는 크리에이티브 에셋과 브랜드 자료를 안전하게 배포하고 사용해야 합니다. 만료일 (및 시간) 를 AEM에서 브랜드 포털에 게시된 승인된 자산에 연관시키거나 이러한 자산에 대한 조건부 사용을 통해 조직 및 외부에서 실시할 수 있습니다. 브랜드 포털에서 브랜드 포털에서 공유한 에셋에 대한 링크 만료 날짜를 지정할 수도 있습니다.
 
-자산이 어떻게 보호되고 관련 사용 권한을 [!DNL Brand Portal] 이해하는지 알아보려면 읽어 보십시오.
+브랜드 포털에서 자산이 안전하게 보호되는 방법을 알아보고 관련 사용 권한을 파악합니다.
 
 ## 자산 만료 {#asset-expiration}
 
-자산 만료는 조직 전체에서 브랜드 포털에서 승인된 자산의 사용을 제어하는 효과적인 방법입니다. 자산에서 [!DNL AEM] 브랜드 포털에 게시된 모든 자산에 만료일을 지정하여 다른 사용자 역할별로 이러한 자산의 사용을 제한할 수 있습니다.
+자산 만료는 조직 전체에서 브랜드 포털에서 승인된 자산의 사용을 제어하는 효과적인 방법입니다. AEM 자산에서 브랜드 포털에 게시된 모든 자산에 만료일을 지정하여 다른 사용자 역할별로 이러한 자산의 사용을 제한할 수 있습니다.
 
 ### 만료된 자산과 관련된 사용 권한 {#usage-permissions-expired-assets}
 
-에서 [!DNL Brand Portal], 관리자는 만료된 자산을 보고, 다운로드하고, 컬렉션에 추가할 수 있습니다. 반면에 편집자와 뷰어는 만료된 에셋을 보고 컬렉션에 추가할 수만 있습니다.
+브랜드 포털에서 관리자는 만료된 에셋을 보고 다운로드하고 컬렉션에 추가할 수 있습니다. 반면에 편집자와 뷰어는 만료된 에셋을 보고 컬렉션에 추가할 수만 있습니다.
 
-관리자는 만료된 에셋을 자산에서 [!DNL AEM] 에 게시할 [!DNL Brand Portal]수 있습니다. 그러나 만료된 자산은 잉크를 통해 공유할 수 [!DNL Brand Portal]없습니다. 만료되거나 만료되지 않은 에셋을 모두 포함하는 폴더에서 만료된 에셋을 선택하면 링크 **[!UICONTROL 공유]** 작업을 사용할 수 없습니다. 그러나 만료되거나 만료되지 않은 에셋이 포함된 폴더를 선택하면 [!UICONTROL 공유] 및 **[!UICONTROL 공유 링크]** 작업을 사용할 수 있습니다.
+관리자는 만료된 자산을 AEM 자산에서 브랜드 포털에 게시할 수 있습니다. 그러나 만료된 자산은 브랜드 포털에서 잉크를 통해 공유할 수 없습니다. 만료되거나 만료되지 않은 에셋을 모두 포함하는 폴더에서 만료된 에셋을 선택하면 링크 **[!UICONTROL 공유]** 작업을 사용할 수 없습니다. 그러나 만료되거나 만료되지 않은 에셋이 포함된 폴더를 선택하면 [!UICONTROL 공유] 및 **[!UICONTROL 공유 링크]** 작업을 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -37,12 +37,12 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 
 다음 표에는 만료된 자산의 사용 권한이 표시됩니다.
 
-|  | **링크 공유** | **다운로드** | **속성** | **컬렉션에 추가** | **삭제** |
+|  | **[!UICONTROL 링크 공유]** | **[!UICONTROL 다운로드]** | **[!UICONTROL 속성]** | **[!UICONTROL 컬렉션에 추가]** | **[!UICONTROL 삭제]** |
 |---|---|---|---|---|---|
-| **관리자** | 사용할 수 없음 | available | available | available | available |
-| **편집자** | 사용할 수 없음 | 사용할 수 없음 | available | available | 사용할 수 없음 |
-| **뷰어** | 사용할 수 없음 | 사용할 수 없음 | available | available | 사용할 수 없음 |
-| **손님 사용자** | 사용할 수 없음 | 사용할 수 없음 | available | available | 사용할 수 없음 |
+| **[!UICONTROL 관리자]** | 사용할 수 없음 | available | available | available | available |
+| **[!UICONTROL 편집기]** | 사용할 수 없음 | 사용할 수 없음 | available | available | 사용할 수 없음 |
+| **[!UICONTROL viewer]** | 사용할 수 없음 | 사용할 수 없음 | available | available | 사용할 수 없음 |
+| **[!UICONTROL 손님 사용자]** | 사용할 수 없음 | 사용할 수 없음 | available | available | 사용할 수 없음 |
 
 >[!NOTE]
 >
@@ -64,21 +64,21 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 
 ![](assets/asset-link-sharing.png)
 
-링크를 통해 공유한 에셋은 [!DNL Brand Portal] 관리자 및 편집자가 설정한 날짜와 시간에 만료되며 만료 날짜 이후에 더 이상 보고 다운로드할 수 없습니다. 링크를 통해 공유된 에셋은 조직의 일부가 아닌 외부 사용자가 볼 수도 있으므로, 만료를 지정하여 승인된 자산이 보호되고 지정된 시간 이상으로 알 수 없는 엔티티에 노출되지 않도록 할 수 있습니다.
+링크를 통해 공유한 에셋은 브랜드 포털 관리자 및 편집자가 설정한 날짜와 시간에 만료되며 만료일 이후에 더 이상 보고 다운로드할 수 없습니다. 링크를 통해 공유된 에셋은 조직의 일부가 아닌 외부 사용자가 볼 수도 있으므로, 만료를 지정하여 승인된 자산이 보호되고 지정된 시간 이상으로 알 수 없는 엔티티에 노출되지 않도록 할 수 있습니다.
 
 링크 공유에 대한 자세한 내용은 자산 [공유를 링크로 참조하십시오](../using/brand-portal-link-share.md).
 
 ## 라이선스가 부여된 에셋 {#licensed-assets}
 
-라이선스가 부여된 에셋은 브랜드 포털에서 다운로드하기 전에 라이선스 계약을 수락할 수 있습니다. 라이센스 에셋에 대한 본 계약은 공유 링크를 통해 [!DNL Brand Portal] 또는 공유 링크를 통해 직접 에셋을 다운로드할 때 제공됩니다. 만료되었거나 만료되지 않은 경우, 라이센스가 보호된 자산은 모든 사용자가 볼 수 있습니다. 그러나 만료된 라이센스 에셋의 다운로드 및 사용은 제한됩니다. 만료된 라이센스 에셋의 비헤이비어와 사용자 역할을 기반으로 허용되는 활동의 영향에 대해 알려면, 만료된 에셋의 [사용 권한을 참조하십시오](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+라이선스가 부여된 에셋은 브랜드 포털에서 다운로드하기 전에 라이선스 계약을 수락할 수 있습니다. 라이센스 에셋에 대한 본 계약은 브랜드 포털 또는 공유 링크를 통해 에셋을 직접 다운로드할 때 제공됩니다. 만료되었거나 만료되지 않은 경우, 라이센스가 보호된 자산은 모든 사용자가 볼 수 있습니다. 그러나 만료된 라이센스 에셋의 다운로드 및 사용은 제한됩니다. 만료된 라이센스 에셋의 비헤이비어와 사용자 역할을 기반으로 허용되는 활동의 영향에 대해 알려면, 만료된 에셋의 [사용 권한을 참조하십시오](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-라이센스 보호된 자산은 자산에 [연결된 라이센스 계약을](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 가지며, 이는 자산에 자산의 [메타데이터 속성을](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 설정하여 [!DNL AEM] 수행됩니다.
+라이센스 보호된 자산은 [AEM 자산에서 자산의](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) [메타데이터 속성을](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 설정하여 수행되는 라이센스 계약을 따르게 됩니다.
 
 라이센스 보호된 에셋을 다운로드하도록 선택하면 [!UICONTROL 저작권 관리] 페이지로 리디렉션됩니다.
 
 ![](assets/asset-copyright-mgmt.png)
 
-여기에서 에셋을 선택하여 관련 라이선스 계약을 다운로드하고 수락해야 합니다. 사용권 계약에 동의하지 않으면 **[!UICONTROL 다운로드]** 단추가 활성화되지 않습니다.
+여기에서 에셋을 선택하여 관련 라이선스 계약을 다운로드하고 수락해야 합니다. 사용권 계약에 동의하지 않으면 [!UICONTROL 다운로드] 단추가 활성화되지 않습니다.
 
 ![](assets/licensed-asset-download-2.png)
 
