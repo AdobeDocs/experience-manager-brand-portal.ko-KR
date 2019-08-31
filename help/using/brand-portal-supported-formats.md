@@ -9,12 +9,12 @@ products: sg_ Experiencemanager/brand_ portal
 topic-tags: 소개
 discoiquuid: fe 1 c 2 df 8-39 f 4-4 d 5 c -91 d 1-7 b 6 cd 4 f 1 f 589
 translation-type: tm+mt
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# 지원되는 파일 형식{#supported-file-formats}
+# 지원되는 파일 형식 {#supported-file-formats}
 
 각 AEM Assets 브랜드 포털은 행렬에 지정된 특정 파일 형식을 지원합니다.
 
@@ -85,4 +85,4 @@ source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
 | ✓ | 이 파일 형식은 이 기능을 지원합니다. |
 | ✕ | 이 파일 형식은 이 기능을 지원하지 않습니다. |
 | NA | 이 기능은 이 파일 형식에는 적용되지 않습니다. |
-| * | 이 기능은 AEM 작성자 인스턴스에서는 이 파일 형식에 대한 Add-on 지원을 필요로 하지만 브랜드 포털에 에셋을 게시한 후에는 브랜드 포털에 추가해야 합니다. |
+| * | 이 기능을 사용하려면 AEM 작성자 인스턴스에서는 이 파일 형식에 대한 Add-on 지원이 필요하지만 브랜드 포털에 에셋을 게시한 후에는 브랜드 포털에서 지원되지 않습니다. |
