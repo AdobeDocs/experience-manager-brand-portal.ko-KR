@@ -9,7 +9,7 @@ topic-tags: 관리
 products: sg_ Experiencemanager/brand_ portal
 discoiquuid: A 512 DFA 0-FEF 3-4 C 3 F-A 389-A 0 A 3 A 7415 BAC
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -41,8 +41,6 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 AEM (Author) 에서 에셋의 피라미드형 TIFF (PTIFF) 를 만들려면 Dynamic Media 하이브리드 모드를 활성화해야 합니다. 이러한 자산이 브랜드 포털에 게시되면 이미지 사전 설정이 적용되고 다이내믹 표현물이 표시됩니다.
 
 1. 맨 위의 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
-
-   ![](assets/AEMlogo.png)
 
 2. 관리 도구 패널에서 **[!UICONTROL 이미지 사전 설정을]**&#x200B;클릭합니다.
 
