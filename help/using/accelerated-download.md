@@ -10,7 +10,7 @@ content-type: 참조
 products: sg_ Experiencemanager/brand_ portal
 discoiquuid: 301 F 7 A 0 B -5527-4 AAC-B 731-BFC 145 FED 0 C 0
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 파일을 더 빨리 다운로드하려면 다음을 확인하십시오.
 
-* **[!UICONTROL 관리 도구 패널의]** [!UICONTROL 일반 설정에서] 다운로드 가속 (기본적으로 비활성화됨) 를 활성화합니다.
+* **[!UICONTROL 관리 도구 패널의]** [!UICONTROL 일반 설정에서] 다운로드 가속 (기본적으로 비활성화되어 있음) 를 활성화합니다.
 * 포트 33001 (TCP 및 UDP 모두) 이 방화벽에서 열려 있습니다. 사전 요구 사항에 대한 자세한 내용은 [Aspera Connect 클라이언트 설명서를 참조하십시오](https://downloads.asperasoft.com/en/documentation/8).
 * 관리자 권한을 사용하여 Aspera Connect를 설치합니다.
 * Aspera Transfer Client의 플랫폼 지원은 [Aspera Connect Platform Support Matrix](https://www.asperasoft.com/company/support/transfer-clients/)를 참조하십시오.
