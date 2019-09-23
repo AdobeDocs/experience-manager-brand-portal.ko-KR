@@ -48,33 +48,33 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 인증을 받지 않고 브랜드 포털에서 자산에 대한 액세스 권한이 제한된 모든 사용자는 게스트 사용자입니다. 게스트 세션을 통해 공개 폴더 및 컬렉션에 액세스할 수 있습니다. 게스트 사용자는 자산 세부 사항을 탐색하고 공개 폴더 및 컬렉션의 구성원에 대한 전체 자산 보기를 가질 수 있습니다. 공개 자산을 검색, 다운로드 및 Lightbox 컬렉션에 추가할 [!UICONTROL 수] 있습니다.
 
-하지만 게스트 세션에서는 컬렉션을 만들고 저장한 검색을 제한하여 추가로 공유할 수 있습니다. 게스트 세션의 사용자는 폴더 및 컬렉션 설정에 액세스할 수 없으며 에셋을 링크로 공유할 수 없습니다. 손님 사용자가 수행할 수 있는 작업 목록은 다음과 같습니다.
+하지만 게스트 세션에서는 컬렉션을 만들고 저장한 검색을 제한하여 추가로 공유할 수 있습니다. 게스트 세션의 사용자는 폴더 및 컬렉션 설정에 액세스할 수 없으며 에셋을 링크로 공유할 수 없습니다. Here is a list of tasks that a guest user can perform:
 
 [공개 에셋 검색 및 액세스](browse-assets-brand-portal.md)
 
-[공개 자산 검색](brand-portal-searching.md)
+[Search public assets](brand-portal-searching.md)
 
-[공개 자산 다운로드](brand-portal-download-users.md)
+[Download public assets](brand-portal-download-users.md)
 
-[[!UICONTROL Lightbox]에 자산 추가](brand-portal-light-box.md#add-assets-to-lightbox)
+[Add assets to [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 뷰어 {#viewer}
 
-브랜드 포털의 표준 사용자는 일반적으로 뷰어 역할을 가진 사용자입니다. 이 역할을 가진 사용자는 허용된 폴더, 컬렉션 및 자산에 액세스할 수 있습니다. 또한 사용자는 자산(원본 또는 특정 표현물)을 검색, 미리 보기, 다운로드 및 내보내고 계정 설정을 구성하고 자산을 검색할 수 있습니다. 다음은 뷰어가 수행할 수 있는 작업 목록입니다.
+A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
 [자산 찾아보기](browse-assets-brand-portal.md)
 
-[자산 검색](brand-portal-searching.md)
+[Search for assets](brand-portal-searching.md)
 
-[자산 다운로드](brand-portal-download-users.md)
+[Download assets](brand-portal-download-users.md)
 
 ### 편집자 {#editor}
 
-편집기 역할을 가진 사용자는 뷰어가 수행할 수 있는 모든 작업을 수행할 수 있습니다. 또한 편집기는 관리자가 공유하는 파일과 폴더를 볼 수 있습니다. 편집기의 역할을 가진 사용자는 콘텐트(파일, 폴더, 컬렉션)를 다른 사람과 공유할 수도 있습니다.
+A user with the role of Editor can perform all tasks that a Viewer can perform. In addition, and Editor can view the files and folders that an administrator shares. The user with the role of an Editor can also share content (files, folders, collections) with others.
 
-뷰어가 수행할 수 있는 작업 외에 편집기는 다음 추가 작업을 수행할 수 있습니다.
+Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
 
-[폴더 공유](brand-portal-sharing-folders.md)
+[Share folders](brand-portal-sharing-folders.md)
 
 [컬렉션 공유](brand-portal-share-collection.md)
 
@@ -125,36 +125,38 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 액세스를 요청하려면 다음을 수행합니다.
 
-1. 브랜드 포털 로그인 페이지에서 액세스 **[!UICONTROL 필요]** **[!UICONTROL ?]**. 하지만 게스트 세션에 입장하려면 Guest Access에 해당하는 **[!UICONTROL 여기를]** 클릭 **[!UICONTROL ?]**&#x200B;을 선택합니다.
+1. From the Brand Portal login page, select Click here corresponding to Need Access?********. 하지만 게스트 세션에 입장하려면 Guest Access에 해당하는 **[!UICONTROL 여기를]** 클릭 **[!UICONTROL ?]**&#x200B;을 선택합니다.
 
    ![브랜드 포털 로그인 화면](assets/bp-login-requestaccess.png)
 
-   액세스 [!UICONTROL 요청] 페이지가 열립니다.
+   The Request Access page opens.
 
-2. 조직의 브랜드 포털에 대한 액세스를 요청하려면 유효한 Adobe ID, Enterprise ID [!UICONTROL 또는]Federated [!UICONTROL ID가]있어야 합니다.
+2. To request access to an organization’s Brand Portal, you must have a valid Adobe ID, Enterprise ID, or Federated ID.
 
-   액세스 [!UICONTROL 요청] 페이지에서 ID(시나리오 1)를 사용하여 로그인하거나 Adobe ID(시나리오 2) [!UICONTROL 를] 만듭니다.
+   In the Request Access page, sign in using your ID (scenario 1) or create an Adobe ID (scenario 2):
    ![[!UICONTROL 액세스 요청]](assets/bplogin_request_access_2.png)
 
-   **시나리오 1**
-   1. Adobe ID, Enterprise ID [!UICONTROL 또는 Federated ID가]있는 [!UICONTROL 경우][로그인] ****을 클릭합니다.
-로그인 [!UICONTROL 페이지가] 열립니다.
-   2. Adobe ID [!UICONTROL 자격 증명을] 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
-   ![Adobe 로그인](assets/bplogin_request_access_3.png)
+   **Scenario 1**
+   1. If you have an Adobe ID, Enterprise ID, or Federated ID, click Sign In.
+****
+The Sign in page opens.
+   2. Provide your Adobe ID credentials and click Sign in.****<br />
+   ![Adobe sign in](assets/bplogin_request_access_3.png)
 
-   액세스 요청 [!UICONTROL 페이지로 리디렉션됩니다] .
-   **시나리오 2**
-   1. Adobe ID가 없는 [!UICONTROL 경우]ID를 만들려면 [액세스 요청] **[!UICONTROL 페이지에서]** [!UICONTROL [Adobe ID] 가져오기]를클릭합니다.
-로그인 [!UICONTROL 페이지가] 열립니다.
+   You are redirected to the Request Access page.
+   **Scenario 2**
+   1. If you do not have an Adobe ID, to create one, click Get an Adobe ID from the Request Access page.
+****
+The Sign in page opens.
    2. Click **[!UICONTROL Get an Adobe ID]**.
 등록 [!UICONTROL 페이지가] 열립니다.
    3. 이름과 성, 이메일 ID 및 암호를 입력합니다.
-   4. 등록을 **[!UICONTROL 선택합니다]**.<br />
+   4. Select Sign up.****<br />
    ![](assets/bplogin_request_access_5.png)
 
    액세스 요청 [!UICONTROL 페이지로 리디렉션됩니다] .
 
-3. 다음 페이지에는 액세스 권한을 요청하는 데 사용한 이름 및 이메일 ID가 표시됩니다. 관리자의 주석을 놓고 [제출]을 **[!UICONTROL 클릭합니다]**.
+3. 다음 페이지에는 액세스 권한을 요청하는 데 사용한 이름 및 이메일 ID가 표시됩니다. Leave a comment for the administrator, and click Submit.****
 
    ![](assets/bplogin-request-access.png)
 
