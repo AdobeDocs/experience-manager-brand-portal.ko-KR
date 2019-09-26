@@ -1,8 +1,8 @@
 ---
 title: AEM Assets 브랜드 포털의 새로운 기능
 seo-title: AEM Assets 브랜드 포털의 새로운 기능
-description: 6.4.4의 새로운 기능과 향상된 기능을 살펴보십시오.
-seo-description: 6.4.4의 새로운 기능과 향상된 기능을 살펴보십시오.
+description: 6.4.5의 새로운 기능과 향상된 기능을 살펴보십시오.
+seo-description: 6.4.5의 새로운 기능과 향상된 기능을 살펴보십시오.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: 참조
 topic-tags: 소개
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
 
 ---
 
@@ -19,15 +19,59 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 장치 간 외부 사용자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스 위험을 줄일 수 있습니다. Adobe는 전반적인 브랜드 포털 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 개선 사항에 대한 간략한 개요를 제공합니다.
 
-## 6.4.4의 변경 사항 {#what-is-changing-in}
+## 6.4.5의 변경 사항 {#what-changed-in-645}
 
-브랜드 포털 6.4.4 릴리스에서는 텍스트 검색 및 주요 고객 요청에 대한 개선 사항에 중점을 둡니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+브랜드 포털 6.4.5는 유효한 브랜드 포털 사용자(외부 에이전시/팀)가 브랜드 포털에서 자산을 업로드하고 AEM 작성 환경에 액세스할 필요 없이 AEM 자산에 게시하기 위한 공동 플랫폼을 제공하는 데 중점을 둔 기능 릴리스입니다. 이 기능의 이름은 브랜드 포털에서 **자산 소싱으로 지정됩니다**. 이 기능은 자산을 전세계 다른 브랜드 포털 사용자와 공유하고 기여하는 양방향 메커니즘을 제공하여 고객 경험을 개선합니다.
+
+### 브랜드 포털의 자산 소싱 {#asset-sourcing-in-bp}
+
+자산 소싱 기능을 사용하면 AEM 관리자가 자산 기여도라는 추가 속성을 사용하여 새 폴더를 만들&#x200B;**수 있습니다**. 만들어진 새 폴더는 *자산 기여도* a.k.a로 호출됩니다.기여도 ** 폴더. 기여도 폴더가 AEM에서 만들어지면 내부 워크플로우가 트리거되어 기여도 폴더 아래에 두 개의 하위 폴더(즉-NEW 및 SHARED)를 추가로 만듭니다.
+
+AEM 관리자는 기여도 폴더에 대한 간단한 내용을 업로드하고, 참조를 위해 SHARED **폴더에** 기본 자산을 업로드하고, 활성 브랜드 포털 사용자를 지정하여 기여도 폴더에 액세스하고, 기여도 폴더를 브랜드 포털에 게시함으로써 요구 사항을 정의합니다. 기여도 폴더가 게시되면 기여도 폴더에 대한 액세스 권한이 있는 브랜드 포털 사용자는 자신의 브랜드 포털 인스턴스에 로그인하고 NEW 폴더에 있는 콘텐츠/자산(파일 또는 폴더)을 업로드하여 **게시하기 시작할 수** 있습니다. 모든 콘텐츠를 업로드한 후 브랜드 포털 사용자는 기여도 폴더를 AEM에 수동으로 게시합니다. AEM 자산에 게시된 콘텐츠/자산을 가져오고 반영하는 데 몇 분이 걸릴 수 있습니다.
+
+기존 기능은 그대로 유지되므로 브랜드 포털 사용자는 기여도 폴더뿐만 아니라 허용된 다른 폴더에서도 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고 속성을 수정하고 컬렉션에 자산을 추가할 수 있습니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+
+>[!NOTE]
+>
+>브랜드 포털 사용자는 콘텐츠/에셋을 새 폴더에만 업로드할 **수** 있습니다.
+
+>[!NOTE]
+>
+>Maximum upload limit for any Brand Portal account/tenant is **10** GB.
+
+
+
+![](assets/asset-sourcing.png)
+
+### 브랜드 포털에서 자산 업로드 {#upload-assets-in-bp}
+
+활성 브랜드 포털 사용자는 기여도 폴더가 공유될 때마다 Pulse 및 이메일 알림을 받습니다. They can download the brief document attached to the contribution folder and download the baseline content/assets from the SHARED folder to understand the requirement.****
+
+The Brand Portal users having permission to access the contribution folder can upload assets only to the NEW folder. **** However, they can upload multiple assets or folders containing multiple assets.
+
+![](assets/upload-asset6.png)
+
+![](assets/upload-asset4.png)
+
+>[!NOTE]
+>
+>Brand Portal users do not have permission to delete an uploaded asset.
+
+### Publish contribution folder to AEM Assets {#publish-assets-to-aem}
+
+After uploading the assets in the NEW folder, Brand Portal user manually publishes the contribution folder to AEM. **** It may take few minutes to import and reflect the published content/assets in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+
+![](assets/upload-asset5.png)
+
+## What changed in 6.4.4 {#what-changed-in-644}
+
+브랜드 포털 6.4.4 릴리스에서는 텍스트 검색 및 주요 고객 요청에 대한 개선 사항에 중점을 둡니다. See latest Brand Portal Release Notes.[](brand-portal-release-notes.md)
 
 ### 향상된 검색 기능 {#search-enhancements}
 
-브랜드 포털 6.4.4 버전부터는 필터링 창에서 속성 조건자에 대한 부분 텍스트 검색을 지원합니다. 부분 텍스트 검색을 허용하려면 검색 양식에서 속성 **조건자에서** 부분 검색을 활성화해야 합니다.
+Brand Portal 6.4.4 onwards supports partial text search on property predicate in filtering pane. To allow partial text search you need to enable Partial Search in Property Predicate in the search form.****
 
-부분 텍스트 검색 및 와일드카드 검색에 대한 자세한 내용을 살펴보십시오.
+Read on to know more about partial text search and wildcard search.
 
 #### 부분 구문 검색 {#partial-phrase-search}
 
@@ -59,7 +103,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 >
 >부분 검색 **확인란을 선택하면** 기본적으로 **대소문자** 무시가 선택됩니다.
 
-[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## 6.4.3의 변경 사항 {#what-changed-in}
 
@@ -80,43 +124,44 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 공유 폴더는 가상 폴더의 각 디렉토리 내에 구성됩니다. 이러한 가상 폴더는 잠금 아이콘을 사용하여 인식할 수 있습니다.
 
-가상 폴더의 기본 축소판은 첫 번째 공유 폴더의 축소판 이미지입니다.
+Note that the default thumbnail of the virtual folders is the thumbnail image of the first shared folder.
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
-### 특정 폴더 계층 구조 또는 경로에서 검색
+### Search in specific folder hierarchy or path
 
 **경로 브라우저** 조건자는 특정 디렉토리에서 자산을 검색할 수 있도록 검색 양식에서 도입됩니다. 경로 브라우저에 대한 검색 조건자의 기본 검색 경로는 */content/dam/mac/&lt;tenant-id&gt;/*&#x200B;이며 기본 검색 양식을 편집하여 구성할 수 있습니다.
 
-* 관리 사용자는 경로 브라우저를 사용하여 브랜드 포털의 모든 폴더 디렉토리로 이동할 수 있습니다.
-* 관리자가 아닌 사용자는 경로 브라우저를 사용하여 공유된 폴더만 탐색(그리고 상위 폴더로 다시 이동)할 수 있습니다.
-예를 들어 */content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* 는 관리자가 아닌 사용자와 공유됩니다. 사용자는 경로 브라우저를 사용하여 folderC 내에서 자산을 검색할 수 있습니다. 또한 이 사용자는 folderB 및 folderA로 이동할 수 있습니다. 이 사용자는 사용자와 공유된 folderC의 상위 폴더이기 때문입니다.
+* Admin users can use Path Browser to navigate to any folder directory on Brand Portal.
+* Non-admin users can use Path Browser to navigate only to the folders (and navigate back to the parent folders) shared with them.
+For example, /content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC is shared with a non-admin user. ** The user can search for assets within folderC using Path Browser. This user can also navigate to folderB and folderA (since they are ancestors of the folderC that is shared with the user).
 
 ![](assets/edit-search-form.png)
 
-**사용 사례**
+**The use case**
 
-이제 루트 폴더에서 시작하지 않고 탐색한 특정 폴더 내에서 자산 검색을 제한할 수 있습니다.
+You can now restrict asset search within a specific folder you have browsed to, instead of beginning at the root folder.
 
-이러한 폴더 아래에서 검색하면 사용자와 공유된 자산에서만 결과가 반환됩니다.
+Note that searching under these folders returns results only from the assets that have been shared with the user.
 
 ![](assets/filter-panel.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### 다이내믹 미디어 비디오 변환 지원
+### Dynamic Media video renditions support
 
 AEM 작성자 인스턴스가 Dynamic Media 하이브리드 모드에 있는 사용자는 원본 비디오 파일 외에도 다이내믹 미디어 변환을 미리 보고 다운로드할 수 있습니다.
 
-특정 임차인 계정에서 다이내믹 미디어 표현물을 미리 보고 다운로드할 수 있도록 관리자는 관리 도구 패널에서 비디오 **구성에서 다이내믹 미디어 구성** (비디오 서비스 URL(DM-게이트웨이 URL) 및 등록 ID) **을** 지정해야 합니다.
+To allow preview and download of dynamic media renditions on specific tenant accounts, administrators need to specify Dynamic Media Configuration (video service URL (DM-Gateway URL) and registration ID to fetch the dynamic video) in Video configuration from admin tools panel.********
 
-**사용 사례** Dynamic Media 비디오를 미리 볼 수 있는 날짜:
+**The use case
+Dynamic Media videos can be previewed on:**
 
-* 자산 세부 사항 페이지
+* Asset details page
 * 자산의 카드 보기
-* 링크 공유 미리 보기 페이지
+* Link share preview page
 
 다이내믹 미디어 비디오 인코딩은 다음 사이트에서 다운로드할 수 있습니다.
 
@@ -125,7 +170,7 @@ AEM 작성자 인스턴스가 Dynamic Media 하이브리드 모드에 있는 사
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 브랜드 포털에 예약된 게시
 
@@ -136,7 +181,7 @@ AEM(6.4.2.0) [에서](https://helpx.adobe.com/experience-manager/6-4/release-not
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### URL에서 구성 가능한 테넌트 별칭
 
@@ -149,7 +194,7 @@ AEM(6.4.2.0) [에서](https://helpx.adobe.com/experience-manager/6-4/release-not
 
 **사용 사례**&#x200B;조직은 Adobe에서 제공하는 URL을 고수하는 대신 포털 URL을 사용자 정의하여 브랜딩 요구 사항을 충족할 수 있습니다.
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 향상된 다운로드 환경
 
@@ -170,25 +215,25 @@ AEM 브랜드 포털을 통해 고객이 포털에 액세스할 수 있습니다
 
 조직에서 여러 개의 동시 손님 세션을 사용할 수 있으며 조직당 총 사용자 할당량의 10%로 제한됩니다.
 
-게스트 세션은 2시간 동안 활성 상태로 유지됩니다. 따라서 lightbox의 상태는 세션 시작 시간으로부터 2시간까지 유지됩니다. 2시간 후 게스트 세션을 다시 시작해야 하므로 라이트박스 상태가 손실됩니다.
+게스트 세션은 2시간 동안 활성 상태로 유지됩니다. 따라서 lightbox의 상태는 세션 시작 시간으로부터 2시간까지 유지됩니다. After two hours, the guest session has to restart, so the lightbox state is lost.
 
 ### 다운로드 시간 단축
 
-브랜드 포털 사용자는 IBM Aspera Connect 기반의 빠른 다운로드를 활용하여 최대 25배 더 빠르게 다운로드할 수 있으며 전 세계 위치에 관계없이 매끄러운 다운로드 경험을 제공할 수 있습니다. 브랜드 포털 또는 공유 링크에서 에셋을 보다 빠르게 다운로드하려면 조직에서 다운로드 가속이 **활성화된 경우 다운로드 대화 상자에서** 다운로드 가속 활성화 옵션을 선택해야 합니다.
+Brand Portal users can leverage IBM Aspera Connect based fast downloads to get speeds up to 25x faster and enjoy a seamless download experience irrespective of their location across the globe. To download the assets faster from Brand Portal or the shared link, users need to select Enable Download Acceleration option in download dialog, provided download acceleration is enabled on their organization.****
 
 ![](assets/donload-assets-dialog-2.png)
 
-조직에 대해 IBM Aspera 기반 가속 다운로드를 활성화하려면 관리자가 관리 도구 **패널의 일반 설정에서** 다운로드 가속 사용(기본적으로 비활성화됨) [](brand-portal-general-configuration.md#allow-download-acceleration) 옵션을활성화합니다. 브랜드 포털 및 공유 링크에서 에셋 파일을 더 빨리 다운로드하기 위한 사전 요구 사항 및 문제 해결 단계에 대한 자세한 내용은 [가이드를 참조하십시오](../using/accelerated-download.md#main-pars-header).
+To enable IBM Aspera based accelerated download for the organization, administrators Enable Download Acceleration option (which is disabled by default) from General Settings in the administrative tools panel. ****[](brand-portal-general-configuration.md#allow-download-acceleration) To know more about prerequisites and troubleshooting steps for downloading asset files faster from Brand Portal and shared links, refer Guide to accelerate downloads from Brand Portal.[](../using/accelerated-download.md#main-pars-header)
 
 ### 사용자 로그인 보고서
 
-사용자 로그인을 추적하는 새로운 보고서가 도입되었습니다. 사용자 **로그인** 보고서는 조직이 위임된 관리자 및 브랜드 포털의 다른 사용자를 감사하고 계속 확인할 수 있도록 하는 데 도움이 될 수 있습니다.
+사용자 로그인을 추적하는 새로운 보고서가 도입되었습니다. The User Logins report can be instrumental in enabling organizations to audit and keep a check on the delegated administrators and other users of Brand Portal.****
 
-보고서 로그는 보고서 생성 시기까지 브랜드 포털 6.4.2 배포에서 각 사용자의 이름, 이메일 ID, 개인(관리자, 뷰어, 편집기, 손님), 그룹, 마지막 로그인, 활동 상태 및 로그인 수를 표시합니다. 관리자는 보고서를 .csv로 내보낼 수 있습니다. 다른 보고서와 함께 사용자 로그인 보고서를 사용하면 승인된 브랜드 리소스와의 사용자 상호 작용을 보다 자세히 모니터링하여 기업 규정 준수 사무소가 준수되도록 할 수 있습니다.
+The report logs display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation. Administrators can export the report as .csv. 다른 보고서와 함께 사용자 로그인 보고서를 사용하면 승인된 브랜드 리소스와의 사용자 상호 작용을 보다 자세히 모니터링하여 기업 규정 준수 사무소가 준수되도록 할 수 있습니다.
 
 ![](assets/user-logins-1.png)
 
-### 원본 표현물에 액세스
+### Access to original renditions
 
 관리자는 원본 이미지 파일(.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop)에 대한 사용자 액세스를 제한하고 저해상도에 액세스할 수 있습니다. 브랜드 포털 또는 공유 링크에서 다운로드하는 표현물. 이 액세스는 관리 도구 패널의 사용자 역할 페이지의 그룹 탭에서 사용자 그룹 수준에서 제어할 수 있습니다.
 
@@ -233,10 +278,10 @@ AEM 브랜드 포털을 통해 고객이 포털에 액세스할 수 있습니다
 
 * 게스트 액세스 허용
 * 사용자가 브랜드 포털에 대한 액세스를 요청할 수 있도록 허용
-* 관리자가 브랜드 포털에서 자산 삭제 허용
-* 공개 컬렉션 만들기 허용
-* 공개 스마트 컬렉션 만들기 허용
-* 다운로드 가속 허용
+* Allow administrators to delete assets from Brand Portal
+* Allow creation of public collections
+* Allow creation of public smart collections
+* Allow Download Acceleration
 
 위의 구성은 관리 도구 패널의 액세스 및 일반 설정에서 사용할 수 있습니다.
 
@@ -489,7 +534,7 @@ Adobe는 브랜드 포털 사용자 경험을 AEM과 정렬하기 위해 Coral 3
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**Qus. 기존 자산, 기능 또는 구성을 이용하지 못할 수 있습니까?**
+**Ques. 기존 자산, 기능 또는 구성을 이용하지 못할 수 있습니까?**
 Ans**.** 모든 기존 기능과 구성은 그대로 유지됩니다. 최종 사용자는 영향을 받지 않으며 컨텐츠는 그대로 유지됩니다.
 
 **Ques. 새로운 버전의 브랜드 포털로 전환하는 경우**
