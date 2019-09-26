@@ -10,7 +10,7 @@ topic-tags: 공유
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -92,7 +92,7 @@ AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승�
 
    ![](assets/licensed-asset-download.png)
 
-   다운로드 [!UICONTROL 대화] 상자가 나타납니다.
+   다운로드 [!UICONTROL 대화] 상자가 나타납니다.<br />
    ![](assets/download-linkshare.png)
 
    * 링크로 공유된 자산 파일의 다운로드 속도를 높이려면 다운로드 가속 **[!UICONTROL 사용 옵션을 선택하고 마법사를]** 따르십시오 [](../using/accelerated-download.md#download-workflow-using-file-accelerator). 브랜드 포털에서 에셋을 빠르게 다운로드하는 방법에 대한 자세한 내용은 [브랜드 포털에서 다운로드 시간을 단축하기 위한 안내서를 참조하십시오](../using/accelerated-download.md).
