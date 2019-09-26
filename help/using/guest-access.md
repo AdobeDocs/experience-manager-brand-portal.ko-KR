@@ -10,7 +10,7 @@ content-type: 참조
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -39,7 +39,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 게스트 세션 기간 {#guest-session-duration}
 
-게스트 사용자 세션은 2시간 동안 활성 상태로 유지됩니다. 즉, Lightbox의 상태는 세션 시작 [!UICONTROL 시간으로부터] 1시간 동안 유지되며 2시간 후 현재 게스트 세션이 다시 시작되어 Lightbox 상태가 손실됩니다.\
+게스트 사용자 세션은 2시간 동안 활성 상태로 유지됩니다. 즉, Lightbox의 상태는 세션 시작 [!UICONTROL 시간으로부터] 1시간, 2시간 후 현재 게스트 세션이 다시 시작되어 Lightbox 상태가 손실됩니다.\
 예를 들어 게스트 사용자는 1500시간에 브랜드 포털에 로그인하고 16:50시간에 다운로드할 수 있도록 Lightbox에 자산을 추가합니다. 사용자가 17:00 [!UICONTROL 시간 전에 Lightbox] 컬렉션(또는 해당 에셋)을 [!UICONTROL 다운로드하지 않으면] 사용자가 1시간(1700시간)이 끝날 때 세션을 다시 시작해야 하므로 Lightbox는 비어 있게 됩니다.
 
 ## 동시 손님 세션 허용됨 {#concurrent-guest-sessions-allowed}
@@ -83,7 +83,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)
+![](assets/overview-rail-selector-1.png)<br />
 
 **[!UICONTROL 왼쪽 레일의 탐색]** 옵션을 사용하면 파일에서 컬렉션으로 이동하고 게스트 세션에서 다시 탐색할 수 있으므로 사용자는 파일이나 컬렉션의 자산을 검색할 수 있습니다.
 
