@@ -2,15 +2,15 @@
 title: 브랜드 포털에서 자산 검색
 seo-title: AEM 브랜드 포털에서 자산 검색 및 저장된 검색
 description: 브랜드 포털 검색 기능을 사용하면 옴니서치를 사용하여 관련 자산을 신속하게 검색할 수 있으며 검색 필터를 통해 검색 범위를 좁힐 수 있습니다. 나중에 스마트 컬렉션으로 검색을 저장할 수 있습니다.
-seo-description: 브랜드 포털 검색 기능을 사용하면 옴니서치를 사용하여 관련 자산을 신속하게 검색할 수 있으며 검색 필터를 통해 검색 범위를 좁힐 수 있습니다. 나중에 스마트 컬렉션으로 검색을 저장할 수 있습니다.
-uuid: c295198-bdc0-4853-a13a-661e6a9ec61f
+seo-description: 브랜드 포털 검색 기능을 사용하면 옴니서치를 사용하여 관련 자산을 신속하게 검색할 수 있으며 검색 필터를 통해 검색 범위를 좁힐 수 있습니다. Save your searches as smart collections for future.
+uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: 참조
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
+source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 ---
 
@@ -41,15 +41,17 @@ source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
 
    *omnisearch를 사용한 자산 검색*
 
+스마트 태그 자산 검색 비헤이비어에 대한 자세한 내용은 검색 결과 및 비헤이비어를 [](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)참조하십시오.
+
 ## 필터 패널에서 패싯을 사용하여 검색 {#search-using-facets-in-filters-panel}
 
-필터 패널에서 검색 패싯을 사용하면 검색 경험에 세부기간을 추가하고 검색 기능을 효율적으로 사용할 수 있습니다. 검색 패싯은 복잡한 검색을 수행할 수 있도록 해주는 여러 차원(예측)을 사용합니다. 원하는 세부 수준으로 드릴다운하여 보다 집중적인 검색을 수행할 수 있습니다.
+Search facets in the Filters panel add granularity to your search experience and make the search functionality efficient. 검색 패싯은 복잡한 검색을 수행할 수 있도록 해주는 여러 차원(예측)을 사용합니다. You can easily drill down to the desired level of detail for a more focused search.
 
-예를 들어, 이미지를 찾고 있는 경우 비트맵과 벡터 이미지 중 어느 것을 원하는지 선택할 수 있습니다. 파일 유형 검색 패싯에서 이미지의 MIME 유형을 지정하여 검색 범위를 더 줄일 수 있습니다. 마찬가지로 문서를 검색할 때 형식(예: PDF 또는 MS Word 형식)을 지정할 수 있습니다.
+For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.
 
-![브랜드 포털의](assets/file-type-search.png "브랜드 포털 필터 패널의 필터 패널")
+![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
-[ [!UICONTROL 필터] ] 패널에는 [!UICONTROL 경로 브라우저], [!UICONTROL 경로 유형], [!UICONTROL 파일 크기], 파일 [!UICONTROL 방향,]위치, 상태 및 시간 초과, 시간 초과, 그러나 기본 검색 양식에서 조건자를 추가하거나 제거하여 필터 [패널에서](../using/brand-portal-search-facets.md) 사용자 정의 검색 패싯을  추가하거나 특정 검색 패싯을 제거할 수 있습니다. 브랜드 포털에서 사용 가능한 [검색 예측 목록을 참조하십시오](../using/brand-portal-search-facets.md#list-of-search-predicates).
+[ [!UICONTROL 필터] ] 패널에는 [!UICONTROL 경로 브라우저], [!UICONTROL 경로 유형], [!UICONTROL 파일 크기], 파일 [!UICONTROL 방향,]위치, 상태 및 시간 초과, 시간 초과, However, you can [add custom search facets](../using/brand-portal-search-facets.md) or remove specific search facets from the [!UICONTROL Filters] panel by adding or removing predicates in the underlying Search Form. See the list of the available and usable search predicates on Brand Portal.[](../using/brand-portal-search-facets.md#list-of-search-predicates)
 
 사용 가능한 [검색 패싯을](../using/brand-portal-search-facets.md)사용하여 검색에 필터를 적용하려면:
 
@@ -63,21 +65,21 @@ source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
    * **[!UICONTROL 경로]** 브라우저를 사용하여 특정 디렉토리에서 자산을 검색합니다. 경로 브라우저에 대한 조건자의 기본 검색 경로는 **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**&#x200B;이며 기본 검색 양식을 편집하여 구성할 수 있습니다.
    >[!NOTE]
    >
-   >관리자가 아닌 사용자에게 필터 [!UICONTROL 패널의] 경로 브라우저는 [!UICONTROL 해당] 사용자와 공유된 폴더의 컨텐츠 구조만 표시합니다.\
-   >사용자를 관리하기 위해 경로 브라우저를 사용하면 브랜드 포털의 모든 폴더로 이동할 수 있습니다.
+   >To non-admin users, Path Browser in Filter panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
+   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
 
-   * **[!UICONTROL 파일]** 유형을 사용하여 원하는 에셋 파일의 유형(이미지, 문서, 멀티미디어, 아카이브)을 지정합니다. 또한 검색의 범위를 좁힐 수 있습니다. 예를 들어 문서의 이미지 또는 형식(PDF 또는 MS Word)에 대한 MIME 유형(Tiff, Bitmap, GIMP Images)을 지정할 수 있습니다.
-   * **[!UICONTROL 파일]** 크기를 기준으로 자산을 검색할 수 있습니다. 크기 범위의 하한과 상한을 지정하여 검색 범위를 좁히고 검색할 측정 단위를 지정할 수 있습니다.
+   * **[!UICONTROL 파일]** 유형을 사용하여 원하는 에셋 파일의 유형(이미지, 문서, 멀티미디어, 아카이브)을 지정합니다. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS Word) for the documents.
+   * **[!UICONTROL File Size to search for assets based on their size.]** 크기 범위의 하한과 상한을 지정하여 검색 범위를 좁히고 검색할 측정 단위를 지정할 수 있습니다.
    * **[!UICONTROL 승인(승인됨, 변경사항 요청, 거부됨, 보류 중) 및 만료와 같은 자산 상태에 따라 자산을 검색하는 상태]** .
-   * **[!UICONTROL 자산의]** 등급을 기준으로 자산을 검색하는 평균 등급.
+   * **[!UICONTROL Average Rating to search for assets based on the rating of the assets.]**
    * **[!UICONTROL 자산의 방향]** (가로, 세로, 정사각형)을 기준으로 자산을 검색하는 방향입니다.
    * **[!UICONTROL 자산의 스타일(컬러, 단색)을 기반으로 자산을 검색하려면 스타일을]** 지정합니다.
    * **[!UICONTROL 비디오 형식을]** 기반으로 비디오 에셋을 검색할 수 있는 비디오 형식(DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
    기본 검색 양식을 편집하여 필터 패널에서 [사용자 정의 검색 패싯을](../using/brand-portal-search-facets.md) 사용할 수 있습니다.
 
-   * **[!UICONTROL 속성]** 설명(검색 양식에서 사용되는 경우)을 사용하면 조건자가 매핑되는 메타데이터 속성과 일치하는 자산을 검색할 수 있습니다.\
+   * **[!UICONTROL Property Predicate if used in the search form, lets you search for assets that match a metadata property to which the predicate is mapped.]**\
       예를 들어 속성 조건자가 에 매핑된 경우 [!UICONTROL `jcr:content /metadata/dc:title`]해당 제목을 기준으로 자산을 검색할 수 있습니다.\
-      속성 [!UICONTROL 조건자는] 다음에 대한 텍스트 검색을 지원합니다.
+      The Property Predicate supports text searches for:
 
       **부분 구문**
 속성 조건부에서 부분 구문을 사용하여 자산 검색을 허용하도록 검색 양식에서 **[!UICONTROL 부분 검색]확인란을 활성화합니다.**\
@@ -111,18 +113,18 @@ source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
 
 1. 스마트 컬렉션 **[!UICONTROL 저장을 탭/클릭하고]** 스마트 컬렉션의 이름을 제공합니다.
 
-   모든 사용자가 스마트 컬렉션을 액세스할 수 있도록 하려면 [공용]을 **[!UICONTROL 선택합니다]**. 스마트 컬렉션이 만들어져서 저장된 검색 목록에 추가되었음을 확인하는 메시지가 표시됩니다.
+   To make the smart collection accessible to all users, select Public. **** 스마트 컬렉션이 만들어져서 저장된 검색 목록에 추가되었음을 확인하는 메시지가 표시됩니다.
 
    >[!NOTE]
    >
-   >관리자가 아닌 사용자는 조직의 브랜드 포털에서 관리자가 아닌 사용자가 만든 많은 수의 공개 스마트 컬렉션을 공유하지 못하도록 할 수 있습니다. 조직은 관리 도구 패널에서 **[!UICONTROL 사용 가능한 일반]** 설정에서 공개 스마트 컬렉션 생성 **** 허용 구성을 비활성화할 수 있습니다.
+   >관리자가 아닌 사용자는 조직의 브랜드 포털에서 관리자가 아닌 사용자가 만든 많은 수의 공개 스마트 컬렉션을 공유하지 못하도록 할 수 있습니다. Organizations can disable the Allow public smart collections creation configuration from General settings available in admin tools panel.********
 
    ![](assets/save_smartcollectionui.png)
 
-2. 스마트 컬렉션을 다른 이름으로 저장하고 공개 확인란을 선택하거나 **[!UICONTROL 지우려면 스마트]** 컬렉션 **[!UICONTROL 편집을 클릭합니다]**.
+2. To save the smart collection in a different name, and select or clear the Public checkbox, click Edit Smart Collection.********
 
    ![](assets/edit_smartcollection.png)
 
-3. 스마트 **[!UICONTROL 컬렉션 편집]** 대화 상자에서 다른 **[!UICONTROL 이름으로]** 저장을 선택하고 스마트 컬렉션의 이름을 입력합니다. **[!UICONTROL 저장을 클릭합니다]**.
+3. On the Edit Smart Collection dialog box, select Save As and enter a name for the smart collection. ******** **[!UICONTROL 저장을 클릭합니다]**.
 
    ![](assets/saveas_smartsearch.png)
