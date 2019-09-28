@@ -10,7 +10,7 @@ content-type: 참조
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -78,7 +78,6 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 * 자산/폴더 선택 상단에 있는 도구 모음에서.
 * 레일 선택기 선택 드롭다운에서
-
 자산/ [!UICONTROL 폴더를] 선택한 동안 개요 옵션을 선택하면 제목, 경로 및 자산 생성 시간을 볼 수 있습니다. 반면에 자산 세부 사항 페이지에서 개요 [!UICONTROL 옵션을 선택하면] 사용자가 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option-1.png)
