@@ -9,7 +9,7 @@ topic-tags: 관리
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    ![](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 보고서 만들기/ **[!UICONTROL 관리를 클릭하여]** 자산 **[!UICONTROL 보고서]** 페이지를 엽니다.
+1. 관리 도구 패널에서 보고서 만들기/ **[!UICONTROL 관리를 클릭하여]** 자산 **[!UICONTROL 보고서]** 페이지를 엽니다.
 
    ![](assets/access-asset-reports.png)
 
-3. 자산 **[!UICONTROL 보고서]** 페이지에서 사용량 보고서와 기타 생성된 보고서에 액세스합니다.
+1. 자산 **[!UICONTROL 보고서]** 페이지에서 사용량 보고서와 기타 생성된 보고서에 액세스합니다.
 
    >[!NOTE]
    >
@@ -48,7 +48,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    ![](assets/user-logins.png)
 
-   [!UICONTROL 특정 날짜 및 시간 범위에서 다운로드한 모든 자산에 대한 보고서 목록과 세부 정보를 다운로드합니다] .
+   [!UICONTROL Download] report lists and details about all the assets downloaded in a specific date and time range.
 
    ![](assets/download-report.png)
 
@@ -56,32 +56,32 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
    >
    >자산 다운로드 [!UICONTROL 보고서는] 개별적으로 선택되어 브랜드 포털에서 다운로드한 자산만 표시합니다. 사용자가 에셋이 포함된 폴더를 다운로드한 경우, 보고서는 폴더 또는 폴더 내의 에셋을 표시하지 않습니다.
 
-   [!UICONTROL 만료] 보고서는 특정 기간 동안 만료된 모든 자산을 나열하고 자세히 설명합니다.
+   [!UICONTROL Expiration] report lists and details all the assets that expired in a specific time frame.
 
    ![](assets/expiration-report.png)
 
-   [!UICONTROL 게시] 보고서 목록을 작성하고 지정된 기간 동안 AEM에서 브랜드 포털에 게시된 모든 자산에 대한 정보를 제공합니다.
+   [!UICONTROL Publish] report lists and gives information about all the assets that are published from AEM to Brand Portal in a specified time frame.
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >콘텐츠 조각을 브랜드 포털에 게시할 수 없으므로 게시 보고서에 콘텐츠 조각에 대한 정보가 표시되지 않습니다.
+   >Publish Report does not display information about content fragments, as the content fragments cannot be published to the Brand Portal.
 
-   [!UICONTROL 링크 공유 보고서는] 브랜드 포털 인터페이스에서 링크를 통해 공유되는 모든 자산을 특정 기간 동안 나열합니다. 또한 이 보고서는 링크를 통해 공유된 자산이 언제 사용자인지, 언제 링크가 만료되는지, 그리고 테넌트에 대한 공유 링크 수(및 자산 링크가 공유된 사용자)를 알려줍니다. 링크 공유 보고서 열은 사용자 정의할 수 없습니다.
+   [!UICONTROL Link Share report lists all the assets shared through links from Brand Portal interface in a specific time frame. ] The report also informs when was the asset shared via link, by which user, when does the link expire, and the number of shared links for the tenant (and users with whom the asset link was shared). The columns of Link Share Report are not customizable.
 
    ![](assets/link-share-report.png)
 
    >[!NOTE]
    >
-   >링크 공유 보고서는 링크를 통해 공유된 자산에 대한 액세스 권한이 있거나 링크를 통해 자산을 다운로드한 사용자를 표시하지 않습니다.
+   >The Link Share Report does not display users who have access to the asset shared via the link or have downloaded the asset through the link.
    >
    >
-   >공유 링크를 통한 다운로드를 추적하려면 보고서 만들기 페이지에서 링크 공유 **[!UICONTROL 다운로드만]** 옵션을 선택한 후 다운로드 보고서를 **[!UICONTROL 생성해야]** 합니다. 그러나 이 경우 사용자(다운로드한 사람)는 익명으로 처리됩니다.
+   >For tracking downloads through the shared link, you need to generate download report after selecting Only Link Share Downloads option on Create Report page. ******** However, user (Downloaded by) is anonymous in this case.
 
-## 보고서 생성 {#generate-reports}
+## Generate reports {#generate-reports}
 
-관리자는 생성된 다음 표준 보고서를 생성하고 관리하면 나중에 [액세스할](../using/brand-portal-reports.md#main-pars-header) 수 있도록 저장됩니다.
+Administrators can generate and manage the following standard reports, once generated, they are saved to be accessed later:[](../using/brand-portal-reports.md#main-pars-header)
 
 * 사용자 로그인
 * 다운로드
@@ -89,22 +89,22 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 * 게시
 * 공유 링크
 
-다운로드, 만료 및 게시 보고서의 열을 보기 위해 사용자 지정할 수 있습니다. 보고서를 생성하려면 다음 단계를 수행합니다.
+The columns in the Download, Expiration, and Publish report can be customized for viewing. To generate a report, follow these steps:
 
-1. 맨 위의 도구 모음에서 AEM 로고를 탭/클릭하여 관리 도구에 액세스합니다.
+1. From toolbar at the top, tap/click the AEM logo to access administrative tools.
 
    ![](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 보고서 만들기/관리를 탭/클릭하여 **[!UICONTROL 자산]** 보고서 **[!UICONTROL 페이지를 엽니다]** .
+1. 관리 도구 패널에서 보고서 만들기/관리를 탭/클릭하여 **[!UICONTROL 자산]** 보고서 **[!UICONTROL 페이지를 엽니다]** .
 
    ![](assets/asset-reports.png)
 
-3. 자산 보고서 페이지에서 만들기를 탭/ **[!UICONTROL 클릭합니다]**.
-4. 보고서 **[!UICONTROL 만들기]** 페이지에서 만들 보고서를 선택하고 다음을 탭/ **[!UICONTROL 클릭합니다]**.
+1. 자산 보고서 페이지에서 만들기를 탭/ **[!UICONTROL 클릭합니다]**.
+1. 보고서 **[!UICONTROL 만들기]** 페이지에서 만들 보고서를 선택하고 다음을 탭/ **[!UICONTROL 클릭합니다]**.
 
    ![](assets/crete-report.png)
 
-5. 보고서 세부 사항을 구성합니다. 제목, 설명, 폴더 구조(보고서를 실행 및 생성해야 하는 위치), 다운로드, 만료 및 [!UICONTROL 게시]보고서의 날짜 [!UICONTROL 범위를] 지정합니다.
+1. 보고서 세부 사항을 구성합니다. 제목, 설명, 폴더 구조(보고서를 실행 및 생성해야 하는 위치), 다운로드, 만료 및 [!UICONTROL 게시]보고서의 날짜 [!UICONTROL 범위를] 지정합니다.
 
    ![](assets/create-report-page.png)
 
@@ -116,8 +116,8 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
    >
    >보고서 제목의 특수 문자 번호 및 비율은 보고서 생성 시 하이픈(-)으로 대체됩니다.
 
-6. 다음을 탭/ **[!UICONTROL 클릭하여]**&#x200B;다운로드, 만료 및 게시 보고서의 열을 구성합니다.
-7. 필요에 따라 해당 확인란을 선택하거나 선택 취소합니다. 예를 들어 다운로드 보고서에서 사용자(자산을 다운로드한 사용자)의 이름을 보려면 [!UICONTROL 다운로드자] ( **[!UICONTROL 다운로드한 사람)를]**&#x200B;선택합니다. 다음 이미지는 다운로드 보고서에서 기본 열을 선택하는 방법을 보여줍니다.
+1. 다음을 탭/ **[!UICONTROL 클릭하여]**&#x200B;다운로드, 만료 및 게시 보고서의 열을 구성합니다.
+1. 필요에 따라 해당 확인란을 선택하거나 선택 취소합니다. 예를 들어 다운로드 보고서에서 사용자(자산을 다운로드한 사용자)의 이름을 보려면 [!UICONTROL 다운로드자] ( **[!UICONTROL 다운로드한 사람)를]**&#x200B;선택합니다. 다음 이미지는 다운로드 보고서에서 기본 열을 선택하는 방법을 보여줍니다.
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
    다운로드, 게시 또는 만료 보고서에 사용자 지정 열을 추가하려면 다음 단계를 따르십시오.
 
    1. 사용자 지정 열을 표시하려면 사용자 지정 열 **[!UICONTROL 내에서 추가를]** 탭/ [!UICONTROL 클릭합니다].
-   2. 열 이름 필드에 열 이름을 **[!UICONTROL 지정합니다]** .
-   3. 속성 선택기를 사용하여 열을 매핑해야 하는 속성을 선택합니다.
+   1. 열 이름 필드에 열 이름을 **[!UICONTROL 지정합니다]** .
+   1. 속성 선택기를 사용하여 열을 매핑해야 하는 속성을 선택합니다.
 
       ![](assets/property-picker.png)
 또는 속성 경로 필드에 경로를 입력합니다.
@@ -136,7 +136,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
       사용자 정의 열을 더 추가하려면 추가를 탭/클릭하고 **2단계와 3단계를** 반복합니다.
 
-8. **[!UICONTROL 만들기를 탭/클릭합니다]**. 보고서 생성이 시작되었음을 알리는 메시지가 표시됩니다.
+1. **[!UICONTROL 만들기를 탭/클릭합니다]**. 보고서 생성이 시작되었음을 알리는 메시지가 표시됩니다.
 
 ## 보고서 다운로드 {#download-reports}
 
