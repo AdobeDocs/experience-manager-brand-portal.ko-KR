@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 소개
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,9 +31,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 * 손님 사용자
 * 뷰어
 * 편집자
-* 관리자
-
-다음 표에는 이러한 역할의 사용자가 수행할 수 있는 작업이 나와 있습니다.
+* 관리다음 표에는 이러한 역할의 사용자가 수행할 수 있는 작업이 나와 있습니다.
 
 |  | **찾아보기** | **검색** | **다운로드** | **폴더 공유** | **컬렉션 공유** | **링크로 자산 공유** | **관리 도구에 액세스** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -46,11 +44,11 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ### Guest user {#guest-user}
 
-인증을 받지 않고 브랜드 포털에서 자산에 대한 액세스 권한이 제한된 모든 사용자는 게스트 사용자입니다. The guest session allows users access to public folders and collections. As a guest user, you can browse through asset details and have full asset view of members of public folders and collections. 공개 자산을 검색, 다운로드 및 Lightbox 컬렉션에 추가할 [!UICONTROL 수] 있습니다.
+인증을 받지 않고 브랜드 포털에서 자산에 대한 액세스 권한이 제한된 모든 사용자는 게스트 사용자입니다. 게스트 세션을 통해 공개 폴더 및 컬렉션에 액세스할 수 있습니다. 게스트 사용자는 자산 세부 사항을 탐색하고 공개 폴더 및 컬렉션의 구성원에 대한 전체 자산 보기를 가질 수 있습니다. 공개 자산을 검색, 다운로드 및 Lightbox 컬렉션에 추가할 [!UICONTROL 수] 있습니다.
 
 하지만 게스트 세션에서는 컬렉션을 만들고 저장한 검색을 제한하여 추가로 공유할 수 있습니다. 게스트 세션의 사용자는 폴더 및 컬렉션 설정에 액세스할 수 없으며 에셋을 링크로 공유할 수 없습니다. 손님 사용자가 수행할 수 있는 작업 목록은 다음과 같습니다.
 
-[Browse and access public assets](browse-assets-brand-portal.md)
+[공개 에셋 검색 및 액세스](browse-assets-brand-portal.md)
 
 [공개 자산 검색](brand-portal-searching.md)
 
@@ -100,7 +98,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 위의 작업 외에 AEM 자산의 작성자는 다음 작업을 수행할 수 있습니다.
 
-[Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[브랜드 포털과 AEM 자산 통합 구성](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
 [브랜드 포털에 폴더 게시](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -131,30 +129,30 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    액세스 [!UICONTROL 요청] 페이지가 열립니다.
 
-2. 조직의 브랜드 포털에 대한 액세스를 요청하려면 유효한 Adobe ID, Enterprise ID [!UICONTROL 또는]Federated [!UICONTROL ID가]있어야 합니다.
+1. 조직의 브랜드 포털에 대한 액세스를 요청하려면 유효한 Adobe ID, Enterprise ID [!UICONTROL 또는]Federated [!UICONTROL ID가]있어야 합니다.
 
    액세스 [!UICONTROL 요청] 페이지에서 ID(시나리오 1)를 사용하여 로그인하거나 Adobe ID(시나리오 2) [!UICONTROL 를] 만듭니다.<br />
-   ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
+   ![[!UICONTROL 액세스 요청]](assets/bplogin_request_access_2.png)
 
    **시나리오 1**
    1. Adobe ID, Enterprise ID [!UICONTROL 또는 Federated ID가]있는 [!UICONTROL 경우][로그인] ****을 클릭합니다.
 로그인 [!UICONTROL 페이지가] 열립니다.
-   2. Adobe ID [!UICONTROL 자격 증명을] 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
+   1. Adobe ID [!UICONTROL 자격 증명을] 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
    ![Adobe 로그인](assets/bplogin_request_access_3.png)
 
    액세스 요청 [!UICONTROL 페이지로 리디렉션됩니다] .<br />
    **시나리오 2**
    1. Adobe ID가 없는 [!UICONTROL 경우]ID를 만들려면 [액세스 요청] **[!UICONTROL 페이지에서]** [!UICONTROL [Adobe ID] 가져오기]를클릭합니다.
 로그인 [!UICONTROL 페이지가] 열립니다.
-   2. Click **[!UICONTROL Get an Adobe ID]**.
+   1. Click **[!UICONTROL Get an Adobe ID]**.
 등록 [!UICONTROL 페이지가] 열립니다.
-   3. 이름과 성, 이메일 ID 및 암호를 입력합니다.
-   4. 등록을 **[!UICONTROL 선택합니다]**.<br />
+   1. 이름과 성, 이메일 ID 및 암호를 입력합니다.
+   1. 등록을 **[!UICONTROL 선택합니다]**.<br />
    ![](assets/bplogin_request_access_5.png)
 
    액세스 요청 [!UICONTROL 페이지로 리디렉션됩니다] .
 
-3. 다음 페이지에는 액세스 권한을 요청하는 데 사용한 이름 및 이메일 ID가 표시됩니다. 관리자의 주석을 놓고 [제출]을 **[!UICONTROL 클릭합니다]**.<br />
+1. 다음 페이지에는 액세스 권한을 요청하는 데 사용한 이름 및 이메일 ID가 표시됩니다. 관리자의 주석을 놓고 [제출]을 **[!UICONTROL 클릭합니다]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -180,7 +178,7 @@ Adobe Experience Cloud 설정에서 브랜드 포털 언어를 변경할 [!UICON
 1. 상단 [!UICONTROL 메뉴에서 사용자] &gt; [!UICONTROL 프로필] 편집을 선택합니다.<br />
    ![프로필 편집](assets/EditBPProfile.png)
 
-2. Experience [!UICONTROL Cloud] 설정 페이지의 언어 [!UICONTROL 드롭다운 메뉴에서 언어를] 선택합니다.
+1. Experience [!UICONTROL Cloud] 설정 페이지의 언어 [!UICONTROL 드롭다운 메뉴에서 언어를] 선택합니다.
 
 ## 브랜드 포털 유지 관리 알림 {#brand-portal-maintenance-notification}
 
