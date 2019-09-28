@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/restrictaccess-note.png)
 
-2. 자산 외에 자산의 표현물을 다운로드하려면 표현물을 **[!UICONTROL 선택합니다]**. 그러나 자동 생성된 표현물이 사용자 정의 표현물과 함께 다운로드되도록 하려면 기본적으로 **[!UICONTROL 선택된 자동]**&#x200B;생성 표현물 제외를 선택 취소합니다.
+1. 자산 외에 자산의 표현물을 다운로드하려면 표현물을 **[!UICONTROL 선택합니다]**. 그러나 자동 생성된 표현물이 사용자 정의 표현물과 함께 다운로드되도록 하려면 기본적으로 **[!UICONTROL 선택된 자동]**&#x200B;생성 표현물 제외를 선택 취소합니다.
 
    ![](assets/exclude-auto-renditions.png)
 
@@ -81,7 +81,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >관리자는 브랜딩 기능을 사용하여 이메일 메시지, 즉 로고, 설명 및 바닥글을 사용자 정의할 [수](../using/brand-portal-branding.md) 있습니다.
 
-3. 다운로드를 **[!UICONTROL 클릭합니다]**.
+1. 다운로드를 **[!UICONTROL 클릭합니다]**.
 
    자산(및 선택한 표현물)은 로컬 폴더에 ZIP 파일로 다운로드됩니다. 그러나 변환 없이 단일 자산을 다운로드하면 zip 파일이 만들어지지 않으므로 다운로드가 빨라집니다.
 
