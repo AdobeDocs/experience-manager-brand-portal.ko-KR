@@ -9,7 +9,7 @@ topic-tags: 관리
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -50,15 +50,15 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
 
    ![AEM 로고](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
+1. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
 
    ![관리 툴 패널](assets/admin-tools-panel-5.png)
 
-3. 사용자 [!UICONTROL 역할] 페이지에서 관리 **[!UICONTROL 탭을 클릭한 다음]** 관리 **[!UICONTROL 콘솔]**&#x200B;시작을클릭합니다.
+1. 사용자 [!UICONTROL 역할] 페이지에서 관리 **[!UICONTROL 탭을 클릭한 다음]** 관리 **[!UICONTROL 콘솔]**&#x200B;시작을클릭합니다.
 
    ![관리 콘솔을 시작할 사용자 역할](assets/launch_admin_console.png)
 
-4. 관리 콘솔에서 다음 중 하나를 수행하여 새 사용자를 만듭니다.
+1. 관리 콘솔에서 다음 중 하나를 수행하여 새 사용자를 만듭니다.
 
    * 맨 위의 도구 모음에서 개요를 **[!UICONTROL 클릭합니다]**. 개요 [!UICONTROL 페이지에서] 브랜드 포털 **[!UICONTROL 제품]** 카드에서 사용자 할당을 클릭합니다.
    ![관리 콘솔 개요](assets/admin_console_overviewadduser.png)
@@ -66,12 +66,12 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
    * 맨 위의 도구 모음에서 사용자를 **[!UICONTROL 클릭합니다]**. 사용자 [!UICONTROL 페이지에서] 왼쪽 [!UICONTROL 레일의] 사용자는 기본적으로 선택됩니다. 사용자 **[!UICONTROL 추가를 클릭합니다]**.
    ![관리 콘솔 사용자 추가](assets/admin_console_adduseruserpage.png)
 
-5. 사용자 추가 대화 상자에서 추가할 사용자의 이메일 ID를 입력하거나 입력할 때 표시되는 제안 목록에서 사용자를 선택합니다.
+1. 사용자 추가 대화 상자에서 추가할 사용자의 이메일 ID를 입력하거나 입력할 때 표시되는 제안 목록에서 사용자를 선택합니다.
 
    ![브랜드 포털에 사용자 추가](assets/add_user_to_aem_bp.png)
 
-6. 사용자가 브랜드 포털에 액세스할 수 있도록 사용자를 하나 이상의 제품 프로필(이전의 제품 구성)에 할당합니다. 이 제품의 **[!UICONTROL 프로필을 선택하십시오 필드에서 해당 제품 프로필을]** 선택하십시오.
-7. **[!UICONTROL 저장을 클릭합니다]**. 추가한 사용자에게 환영 이메일이 전송됩니다. 초대받은 사용자는 환영 이메일의 링크를 클릭하고 Adobe ID를 사용하여 로그인하여 브랜드 포털에 액세스할 [!UICONTROL 수 있습니다]. 자세한 내용은 [최초 로그인 환경을](../using/brand-portal-onboarding.md)참조하십시오.
+1. 사용자가 브랜드 포털에 액세스할 수 있도록 사용자를 하나 이상의 제품 프로필(이전의 제품 구성)에 할당합니다. 이 제품의 **[!UICONTROL 프로필을 선택하십시오 필드에서 해당 제품 프로필을]** 선택하십시오.
+1. **[!UICONTROL 저장을 클릭합니다]**. 추가한 사용자에게 환영 이메일이 전송됩니다. 초대받은 사용자는 환영 이메일의 링크를 클릭하고 Adobe ID를 사용하여 로그인하여 브랜드 포털에 액세스할 [!UICONTROL 수 있습니다]. 자세한 내용은 [최초 로그인 환경을](../using/brand-portal-onboarding.md)참조하십시오.
 
    >[!NOTE]
    사용자가 브랜드 포털에 로그온할 수 없는 경우, 조직 관리자는 Adobe Admin [!UICONTROL Console을] 방문하여 사용자가 있는지, 그리고 하나 이상의 제품 프로필에 추가되었는지 확인해야 합니다.
@@ -89,24 +89,24 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
 
    ![AEM 로고](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
+1. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
 
    ![관리 툴 패널](assets/admin-tools-panel-6.png)
 
-3. 사용자 [!UICONTROL 역할] 페이지에서 관리 **[!UICONTROL 탭을 클릭한 다음]** 관리 **[!UICONTROL 콘솔]**&#x200B;시작을클릭합니다.
+1. 사용자 [!UICONTROL 역할] 페이지에서 관리 **[!UICONTROL 탭을 클릭한 다음]** 관리 **[!UICONTROL 콘솔]**&#x200B;시작을클릭합니다.
 
    ![Admin Console 시작](assets/launch_admin_console.png)
 
-4. 맨 위의 도구 모음에서 제품을 **[!UICONTROL 클릭합니다]**.
-5. 제품 [!UICONTROL 페이지에서] 제품 [!UICONTROL 프로필은] 기본적으로 선택되어 있습니다. 새 **[!UICONTROL 프로필을 클릭합니다]**.
+1. 맨 위의 도구 모음에서 제품을 **[!UICONTROL 클릭합니다]**.
+1. 제품 [!UICONTROL 페이지에서] 제품 [!UICONTROL 프로필은] 기본적으로 선택되어 있습니다. 새 **[!UICONTROL 프로필을 클릭합니다]**.
 
    ![새 제품 프로필 추가](assets/admin_console_addproductprofile.png)
 
-6. 새 [!UICONTROL 프로필 만들기] 페이지에서 프로필 이름, 표시 이름, 프로필 설명을 제공하고, 프로필에 추가되거나 프로필에서 제거되었을 때 사용자에게 이메일로 알릴 것인지 선택합니다.
+1. 새 [!UICONTROL 프로필 만들기] 페이지에서 프로필 이름, 표시 이름, 프로필 설명을 제공하고, 프로필에 추가되거나 프로필에서 제거되었을 때 사용자에게 이메일로 알릴 것인지 선택합니다.
 
    ![제품 프로필 만들기](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-7. 완료를 **[!UICONTROL 클릭합니다]**. 제품 구성 그룹(예: **[!UICONTROL 판매 그룹]**)이 브랜드 포털에 추가됩니다.
+1. 완료를 **[!UICONTROL 클릭합니다]**. 제품 구성 그룹(예: **[!UICONTROL 판매 그룹]**)이 브랜드 포털에 추가됩니다.
 
    ![제품 프로필](assets/admin_console_productprofileadded.png)
 
@@ -121,20 +121,20 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
 
    ![AEM 로고](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
+1. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
 
    ![관리 툴 패널](assets/admin-tools-panel-7.png)
 
-3. 사용자 [!UICONTROL 역할] 페이지에서 관리 **[!UICONTROL 탭을 클릭한 다음]** 관리 **[!UICONTROL 콘솔]**&#x200B;시작을클릭합니다.
+1. 사용자 [!UICONTROL 역할] 페이지에서 관리 **[!UICONTROL 탭을 클릭한 다음]** 관리 **[!UICONTROL 콘솔]**&#x200B;시작을클릭합니다.
 
    ![시작 [!DNL Admin Console]](assets/launch_admin_console.png)
 
-4. 맨 위의 도구 모음에서 제품을 **[!UICONTROL 클릭합니다]**.
-5. 제품 [!UICONTROL 페이지에서] 제품 [!UICONTROL 프로필은] 기본적으로 선택되어 있습니다. 사용자를 추가할 제품 프로필(예: 판매 그룹)을 [!UICONTROL 엽니다].
+1. 맨 위의 도구 모음에서 제품을 **[!UICONTROL 클릭합니다]**.
+1. 제품 [!UICONTROL 페이지에서] 제품 [!UICONTROL 프로필은] 기본적으로 선택되어 있습니다. 사용자를 추가할 제품 프로필(예: 판매 그룹)을 [!UICONTROL 엽니다].
 
    ![제품 프로필](assets/admin_console_productprofileadded.png)
 
-6. 개별 사용자를 제품 프로필에 추가하려면 다음을 수행합니다.
+1. 개별 사용자를 제품 프로필에 추가하려면 다음을 수행합니다.
 
    * 사용자 **[!UICONTROL 추가를 클릭합니다]**.
    ![브랜드 포털에서 제품 프로필을 매핑할 그룹](assets/admin_console_productprofilesalesgroup.png)
@@ -146,7 +146,7 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
 
 
 
-7. 제품 프로필에 벌크 사용자를 추가하려면 다음을 수행합니다.
+1. 제품 프로필에 벌크 사용자를 추가하려면 다음을 수행합니다.
 
    * 줄임표(**[!UICONTROL ...) &gt; CSV로 사용자 추가를 선택합니다]**.
    ![일괄 사용자 추가](assets/admin_console_addbulkusers.png)
@@ -170,23 +170,23 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
 
    ![AEMLogo](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
+1. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
 
    ![관리 툴 패널](assets/admin-tools-panel-8.png)
 
-3. 사용자 [!UICONTROL 역할] 페이지에서 관리 **[!UICONTROL 탭을 클릭한 다음]** 관리 **[!UICONTROL 콘솔]**&#x200B;시작을클릭합니다.
+1. 사용자 [!UICONTROL 역할] 페이지에서 관리 **[!UICONTROL 탭을 클릭한 다음]** 관리 **[!UICONTROL 콘솔]**&#x200B;시작을클릭합니다.
 
    ![Admin Console 시작](assets/launch_admin_console.png)
 
-4. 맨 위의 도구 모음에서 사용자를 **[!UICONTROL 클릭합니다]**.
-5. 사용자 [!UICONTROL 페이지에서] 왼쪽 [!UICONTROL 레일의] 사용자는 기본적으로 선택됩니다. 관리자 권한을 제공하려는 사용자의 사용자 이름을 클릭합니다.
+1. 맨 위의 도구 모음에서 사용자를 **[!UICONTROL 클릭합니다]**.
+1. 사용자 [!UICONTROL 페이지에서] 왼쪽 [!UICONTROL 레일의] 사용자는 기본적으로 선택됩니다. 관리자 권한을 제공하려는 사용자의 사용자 이름을 클릭합니다.
 
    ![관리 콘솔에서 사용자 추가](assets/admin_console_adduseruserpage.png)
 
-6. 사용자 프로필 페이지에서 하단에 있는 **[!UICONTROL 관리]** 권한 섹션을 찾아 줄임표(**[!UICONTROL ...&gt; 관리자 권한]**편집
+1. 사용자 프로필 페이지에서 하단에 있는 **[!UICONTROL 관리]** 권한 섹션을 찾아 줄임표(**[!UICONTROL ...&gt; 관리자 권한]**편집
    ![관리 콘솔의 관리 권한](assets/admin_console_editadminrights.png)
 
-7. 관리 [!UICONTROL 편집] 페이지에서 시스템 관리자 또는 제품 관리자를 선택합니다.
+1. 관리 [!UICONTROL 편집] 페이지에서 시스템 관리자 또는 제품 관리자를 선택합니다.
 
    ![관리 콘솔에서 관리 권한 편집](assets/admin_console_editadminrightsselection.png)
 
@@ -198,7 +198,7 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
    >[!NOTE]
    브랜드 포털은 제품 프로필 관리자(이전 구성 관리자)를 지원하지 않습니다. 사용자에게 제품 프로필 관리자 권한을 할당하지 마십시오.
 
-8. 관리 유형 선택을 검토하고 저장을 **[!UICONTROL 클릭합니다]**.
+1. 관리 유형 선택을 검토하고 저장을 **[!UICONTROL 클릭합니다]**.
 
    >[!NOTE]
    사용자에 대한 관리자 권한을 취소하려면 [관리 편집] 페이지에서 적절한 [!UICONTROL 변경] 작업을 수행한 다음 저장을 **[!UICONTROL 클릭합니다]**.
@@ -216,11 +216,11 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
 
    ![AEMLogo](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
+1. 관리 도구 패널에서 사용자를 **[!UICONTROL 클릭합니다]**.
 
    ![관리 툴 패널](assets/admin-tools-panel-9.png)
 
-3. [사용자 [!UICONTROL 역할] ] 페이지에서 [!UICONTROL [사용자] ] 탭이 기본적으로 선택됩니다. 역할을 변경할 사용자의 경우 역할 **[!UICONTROL 드롭다운에서]** **[!UICONTROL 편집기]** 또는 **[!UICONTROL 뷰어를]** 선택합니다.
+1. [사용자 [!UICONTROL 역할] ] 페이지에서 [!UICONTROL [사용자] ] 탭이 기본적으로 선택됩니다. 역할을 변경할 사용자의 경우 역할 **[!UICONTROL 드롭다운에서]** **[!UICONTROL 편집기]** 또는 **[!UICONTROL 뷰어를]** 선택합니다.
 
    ![사용자 역할 수정](assets/modify_user_role.png)
 
@@ -232,7 +232,7 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
    >[!NOTE]
    사용자가 편집기 그룹의 구성원인 경우에도 사용자 역할이 비활성화됩니다. 사용자의 편집 권한을 취소하려면, 편집기 그룹에서 사용자를 제거하거나 전체 그룹의 역할을 뷰어로 변경합니다.
 
-4. **[!UICONTROL 저장을 클릭합니다]**. 해당 사용자에 대해 역할이 수정되었습니다. 여러 사용자를 선택한 경우 모든 사용자에 대한 역할이 동시에 수정됩니다.
+1. **[!UICONTROL 저장을 클릭합니다]**. 해당 사용자에 대해 역할이 수정되었습니다. 여러 사용자를 선택한 경우 모든 사용자에 대한 역할이 동시에 수정됩니다.
 
    >[!NOTE]
    사용자 권한 변경 사항은 사용자가 브랜드 포털에 다시 [!UICONTROL 로그인한] 후에만 사용자 역할 페이지에 반영됩니다.
@@ -250,8 +250,8 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
 특정 그룹 구성원에 대한 원본 변환에 액세스할 수 있는 역할과 권한을 수정하려면 다음 단계를 수행하십시오.
 
 1. 사용자 [!UICONTROL 역할] 페이지에서 그룹 **[!UICONTROL 탭으로 이동합니다]** .
-2. 역할을 변경할 그룹을 선택합니다.
-3. 역할 드롭다운 목록에서 적절한 [!UICONTROL 역할을] 선택합니다.
+1. 역할을 변경할 그룹을 선택합니다.
+1. 역할 드롭다운 목록에서 적절한 [!UICONTROL 역할을] 선택합니다.
 
    그룹 구성원이 이미지 파일의 원본 변환에 액세스할 수 있도록 하려면(.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) 포털 또는 공유 링크에서 다운로드하는 Access to Original [!UICONTROL 옵션은 해당] 그룹에 대해 선택된 상태로 유지됩니다. 기본적으로 [!UICONTROL [원본에] 액세스] 옵션은 모든 사용자에 대해 선택됩니다. 사용자 그룹이 원본 변환에 액세스하지 못하게 하려면 해당 그룹에 해당하는 옵션을 선택 취소합니다.
 
@@ -261,7 +261,7 @@ Adobe [!UICONTROL [관리 콘솔]](http://adminconsole.adobe.com/enterprise/over
    사용자가 여러 그룹에 추가되고 이러한 그룹 중 하나에 제한이 있는 경우 해당 사용자에게 제한이 적용됩니다.
    또한, 이미지 파일의 원본 표현물에 대한 액세스 제한은 제한된 그룹의 구성원도 관리자에게 적용되지 않습니다.
 
-4. **[!UICONTROL 저장을 클릭합니다]**. 해당 그룹에 대해 역할이 수정되었습니다.
+1. **[!UICONTROL 저장을 클릭합니다]**. 해당 그룹에 대해 역할이 수정되었습니다.
 
    >[!NOTE]
    사용자 대 그룹 연결 또는 사용자의 그룹 멤버십은 8시간마다 브랜드 포털에 동기화됩니다. 사용자 또는 그룹 역할에 대한 변경 사항은 다음 동기화 작업이 실행된 후에 적용됩니다.
