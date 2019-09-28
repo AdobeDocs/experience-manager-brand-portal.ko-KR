@@ -10,7 +10,7 @@ content-type: 참조
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -77,7 +77,7 @@ Dynamic Media Hybrid 및 Dynamic Media S7의 기능을 사용하는 경우, 다�
 
 ### Dynamic Media Hybrid 및 Dynamic Media Scene 7 모드를 위한 개별 테넌트 {#separate-tenants}
 
-다이내믹 미디어 [!DNL Scene 7] 및 다이내믹 미디어 하이브리드 기능을 모두 사용하는 경우 다이내믹 미디어 하이브리드 및 다이내믹 미디어 모드로 구성된 AEM 작성자 인스턴스에 대해 다른 브랜드 포털 테넌트를 사용하는 것이 [!DNL Scene 7] 좋습니다.
+다이내믹 미디어 [!DNL Scene 7] 및 다이내믹 미디어 하이브리드 기능을 모두 사용하는 경우 다이내믹 미디어 하이브리드 및 다이내믹 미디어 모드로 구성된 AEM 작성자 인스턴스에 대해 다른 브랜드 포털 테넌트를 사용하는 것이 [!DNL Scene 7] 좋습니다.<br />
 
 ![작성 및 BP 1-1 매핑](assets/BPDynamicMedia.png)
 
