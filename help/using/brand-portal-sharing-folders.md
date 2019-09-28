@@ -9,7 +9,7 @@ topic-tags: 공유
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -91,15 +91,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/selectorrail.png)
 
-2. 왼쪽에 있는 사이드레일에서 파일을 **[!UICONTROL 선택합니다]**.
+1. 왼쪽에 있는 사이드레일에서 파일을 **[!UICONTROL 선택합니다]**.
 
    ![](assets/access_files.png)
 
-3. 브랜드 포털 인터페이스에서 공유할 폴더를 선택합니다.
+1. 브랜드 포털 인터페이스에서 공유할 폴더를 선택합니다.
 
    ![](assets/share-folders.png)
 
-4. 맨 위의 도구 모음에서 공유를 **[!UICONTROL 선택합니다]**.
+1. 맨 위의 도구 모음에서 공유를 **[!UICONTROL 선택합니다]**.
 
    ![](assets/share_icon.png)
 
@@ -107,8 +107,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/folder_properties.png)
 
-5. 기본 [!UICONTROL 이름을 사용자에게 표시하지 않으려면] 폴더 속성 [!UICONTROL 콘솔에서 폴더] 제목필드에 폴더 제목을 지정합니다.
-6. 사용자 [!UICONTROL 추가] 목록에서 폴더를 공유할 사용자나 그룹을 선택하고 추가를 **[!UICONTROL 클릭합니다]**.
+1. 기본 [!UICONTROL 이름을 사용자에게 표시하지 않으려면] 폴더 속성 [!UICONTROL 콘솔에서 폴더] 제목필드에 폴더 제목을 지정합니다.
+1. 사용자 [!UICONTROL 추가] 목록에서 폴더를 공유할 사용자나 그룹을 선택하고 추가를 **[!UICONTROL 클릭합니다]**.
 손님 사용자만 이용하고 다른 사용자는 공유하지 않으려면 [구성원] **[!UICONTROL 드롭다운에서]** [익명 사용자]를 [!UICONTROL 선택합니다] .
 
    ![](assets/only-anonymous.png)
@@ -117,9 +117,9 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >그룹 구성원 및 역할에 관계없이 모든 사용자가 폴더를 사용할 수 있도록 하려면 [공용 폴더] **[!UICONTROL 확인란을 선택하여]** 공개하십시오.
 
-7. 필요한 경우 축소판 **[!UICONTROL 변경을]** 클릭하여 폴더의 축소판 이미지를 수정합니다.
-8. **[!UICONTROL 저장을 클릭합니다]**.
-9. 공유 폴더에 액세스하려면 폴더를 공유한 사용자의 자격 증명으로 브랜드 포털에 로그인합니다. 인터페이스에서 공유 폴더를 검토합니다.
+1. 필요한 경우 축소판 **[!UICONTROL 변경을]** 클릭하여 폴더의 축소판 이미지를 수정합니다.
+1. **[!UICONTROL 저장을 클릭합니다]**.
+1. 공유 폴더에 액세스하려면 폴더를 공유한 사용자의 자격 증명으로 브랜드 포털에 로그인합니다. 인터페이스에서 공유 폴더를 검토합니다.
 
 ## 폴더 공유 취소 {#unshare-the-folders}
 
@@ -129,12 +129,12 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/share-folders-1.png)
 
-2. 맨 위의 도구 모음에서 공유를 **[!UICONTROL 클릭합니다]**.
-3. 폴더 [!UICONTROL 속성] 콘솔의 [!UICONTROL 멤버]에서 **[!UICONTROL 사용자 옆에 있는]** x기호를 클릭하여 폴더를 공유한 사용자 목록에서 제거합니다.
+1. 맨 위의 도구 모음에서 공유를 **[!UICONTROL 클릭합니다]**.
+1. 폴더 [!UICONTROL 속성] 콘솔의 [!UICONTROL 멤버]에서 **[!UICONTROL 사용자 옆에 있는]** x기호를 클릭하여 폴더를 공유한 사용자 목록에서 제거합니다.
 
    ![](assets/folder_propertiesunshare.png)
 
-4. 경고 메시지 상자에서 확인을 클릭하여 **[!UICONTROL 공유]** 해제를 확인합니다.
+1. 경고 메시지 상자에서 확인을 클릭하여 **[!UICONTROL 공유]** 해제를 확인합니다.
 **[!UICONTROL 저장을 클릭합니다]**.
 
-5. 공유 목록에서 제거한 사용자의 자격 증명으로 브랜드 포털에 로그인합니다. 사용자의 브랜드 포털 인터페이스에서 더 이상 폴더를 사용할 수 없습니다.
+1. 공유 목록에서 제거한 사용자의 자격 증명으로 브랜드 포털에 로그인합니다. 사용자의 브랜드 포털 인터페이스에서 더 이상 폴더를 사용할 수 없습니다.
