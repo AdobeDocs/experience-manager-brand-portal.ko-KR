@@ -9,14 +9,14 @@ content-type: 참조
 topic-tags: 브랜드 포털
 discoiquuid: a4801024-b509-4c51-afd8-e37417e658b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
 # 브랜드 포털에 동시 게시 문제 해결 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-브랜드 포털은 AEM Assets와의 통합을 지원하여 AEM Assets 작성자 인스턴스에서 원활하게 인제스트되거나 게시되도록 승인된 브랜드 자산을 지원합니다. 통합된 [](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)AEM Author는 복제 에이전트를 사용하여 선택한 자산을 Brand Portal 클라우드 서비스에 복제하여 브랜드 포털 사용자의 승인을 받습니다. 여러 복제 에이전트가 AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 및 이상 버전을 사용하여 고속 병렬 게시를 허용합니다.
+브랜드 포털은 AEM Assets와의 통합을 지원하여 AEM Assets 작성자 인스턴스에서 원활하게 인제스트되거나 게시되도록 승인된 브랜드 자산을 지원합니다. 통합된 [](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)AEM 작성자는 복제 에이전트를 사용하여 선택한 자산을 브랜드 포털 사용자가 승인한 사용을 위해 브랜드 포털 클라우드 서비스에 복제합니다. 여러 복제 에이전트가 AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 및 이상 버전을 사용하여 고속 병렬 게시를 허용합니다.
 
 >[!NOTE]
 >
@@ -33,8 +33,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 게시 구성의 유효성을 확인하려면:
 
 1. 오류 로그 확인
-2. 복제 에이전트가 생성되었는지 확인
-3. 연결 테스트
+1. 복제 에이전트가 생성되었는지 확인
+1. 연결 테스트
 
 **클라우드 서비스를 만드는 동안 세부 로그**
 
@@ -48,7 +48,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 1. Adobe 지원에 문의하십시오.
 
-2. 다시 [정리하여](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) 게시 구성을 다시 만듭니다.
+1. 다시 [정리하여](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) 게시 구성을 다시 만듭니다.
 
 <!--
 Comment Type: remark
@@ -66,7 +66,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
    i./etc/replication/agents.author/mp_replication* 삭제\
    ii. delete /etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. localhost: [!UICONTROL 4502/useradmin으로 이동합니다].\
+1. localhost: [!UICONTROL 4502/useradmin으로 이동합니다].\
    i search for user [!UICONTROL mac-&lt;tenantid&gt;-replicationii delete this user
 
 이제 시스템이 모두 깨끗해졌습니다. 이제 새 cloudservice 구성을 만들고 https://legacy-oauth.cloud.adobe.io/에서 기존의 JWT 애플리케이션을 계속 사용할 수 [있습니다](https://legacy-oauth.cloud.adobe.io/). 새 애플리케이션을 만들 필요가 없으며 새로 만든 클라우드 구성에서 공개 키만 업데이트해야 합니다.
