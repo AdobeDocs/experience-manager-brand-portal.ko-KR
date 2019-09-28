@@ -10,7 +10,7 @@ content-type: 참조
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -44,11 +44,11 @@ AEM Assets 브랜드 포털을 통해 조직은 특정 테넌트에 대해 다�
 이러한 각 구성을 활성화/비활성화하려면:
 
 1. 관리자 권한으로 로그인합니다.
-2. 맨 위의 도구 모음에서 관리 도구에 액세스하려면 AEM 로고를 선택합니다.
-3. 관리 도구 패널에서 일반을 선택하여 **[!UICONTROL 일반]** 설정 **[!UICONTROL 페이지를 엽니다]** .
-4. 각 전환 스위치를 사용하여 일반 구성을 활성화/비활성화합니다.
-5. **[!UICONTROL 변경 사항을 저장합니다.]**
-6. 로그아웃하여 변경 사항을 적용합니다.
+1. 맨 위의 도구 모음에서 관리 도구에 액세스하려면 AEM 로고를 선택합니다.
+1. 관리 도구 패널에서 일반을 선택하여 **[!UICONTROL 일반]** 설정 **[!UICONTROL 페이지를 엽니다]** .
+1. 각 전환 스위치를 사용하여 일반 구성을 활성화/비활성화합니다.
+1. **[!UICONTROL 변경 사항을 저장합니다.]**
+1. 로그아웃하여 변경 사항을 적용합니다.
 
 ## 관리자 사용자가 브랜드 포털에서 자산을 삭제하도록 허용 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
