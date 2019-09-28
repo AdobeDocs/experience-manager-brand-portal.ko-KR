@@ -9,7 +9,7 @@ topic-tags: 관리
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -37,20 +37,21 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 >[!NOTE]
 >
->PTIFF를 사용할 수 있는 자산에 대해 동적 변환이 생성됩니다. 따라서 자산에 AEM에서 만든 피라미드형 TIFF 표현물이 없고 브랜드 포털에 게시된 경우 해당 시스템 변환만 내보낼 수 있지만 동적 표현물은 옵션으로 표시됩니다.
-자산의 피라미드형 tiff(ptiff)를 만들려면 AEM(작성자)에서 다이내믹 미디어 하이브리드 모드가 활성화되어 있어야 합니다. 이러한 에셋이 브랜드 포털에 게시되면 이미지 사전 설정이 적용되고 동적 표현물이 표시됩니다.
+>이미지의 동적 변환은 Pyramid TIFF를 사용하여 만듭니다. 어떤 자산에서도 Pyramid TIFF를 사용할 수 없는 경우 해당 자산에 대한 동적 변환을 브랜드 포털에서 가져올 수 없습니다.
+AEM(작성자) 인스턴스가 Dynamic Media **Hybrid 모드에서**&#x200B;실행 중인 경우 이미지 자산의 피라미드형 TIFF 변환이 만들어지고 AEM 저장소에 저장됩니다. 반면에 AEM(작성자) 인스턴스가 Dynamic Media **Scene 7 모드에서**실행 중인 경우 이미지 자산의 피라미드형 TIFF 표현물은 Scene 7 서버에 존재합니다.
+이러한 에셋이 브랜드 포털에 게시되면 이미지 사전 설정이 적용되고 동적 표현물이 표시됩니다.
 
 1. 맨 위의 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
 
-2. 관리 도구 패널에서 이미지 사전 **[!UICONTROL 설정을 클릭합니다]**.
+1. 관리 도구 패널에서 이미지 사전 **[!UICONTROL 설정을 클릭합니다]**.
 
    ![](assets/admin-tools-panel-4.png)
 
-3. 이미지 사전 설정 페이지에서 만들기를 **[!UICONTROL 클릭합니다]**.
+1. 이미지 사전 설정 페이지에서 만들기를 **[!UICONTROL 클릭합니다]**.
 
    ![](assets/image_preset_homepage.png)
 
-4. [이미지 **[!UICONTROL 사전 설정 편집]** ] 페이지에서 **[!UICONTROL 이름을]** 포함하여 **[!UICONTROL [기본]** ] 및 [고급] 탭에값을 적절히 입력합니다. 옵션은 이미지 사전 설정 [옵션에](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)요약되어 있습니다. 사전 설정은 왼쪽 창에 표시되며 다른 에셋과 함께 즉시 사용할 수 있습니다.
+1. [이미지 **[!UICONTROL 사전 설정 편집]** ] 페이지에서 **[!UICONTROL 이름을]** 포함하여 **[!UICONTROL [기본]** ] 및 [고급] 탭에값을 적절히 입력합니다. 옵션은 이미지 사전 설정 [옵션에](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)요약되어 있습니다. 사전 설정은 왼쪽 창에 표시되며 다른 에셋과 함께 즉시 사용할 수 있습니다.
 
    ![](assets/image_preset_create.png)
 
@@ -58,19 +59,19 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
    >
    >[이미지 사전 설정 **[!UICONTROL 편집]** ] 페이지를 사용하여 기존 이미지 사전 설정의 속성을 편집할 수도 있습니다. 이미지 사전 설정을 편집하려면 이미지 사전 설정 페이지에서 이미지 사전 설정을 선택하고 편집을 **[!UICONTROL 클릭합니다]**.
 
-5. **[!UICONTROL 저장을 클릭합니다]**. 이미지 사전 설정이 만들어지고 이미지 사전 설정 페이지에 표시됩니다.
-6. 이미지 사전 설정을 삭제하려면 이미지 사전 설정 페이지에서 이미지 사전 설정을 선택하고 삭제를 **[!UICONTROL 클릭합니다]**. 확인 페이지에서 삭제를 클릭하여 **[!UICONTROL 삭제를]** 확인합니다. 이미지 사전 설정 페이지에서 이미지 사전 설정이 제거됩니다.
+1. **[!UICONTROL 저장을 클릭합니다]**. 이미지 사전 설정이 만들어지고 이미지 사전 설정 페이지에 표시됩니다.
+1. 이미지 사전 설정을 삭제하려면 이미지 사전 설정 페이지에서 이미지 사전 설정을 선택하고 삭제를 **[!UICONTROL 클릭합니다]**. 확인 페이지에서 삭제를 클릭하여 **[!UICONTROL 삭제를]** 확인합니다. 이미지 사전 설정 페이지에서 이미지 사전 설정이 제거됩니다.
 
 ## 이미지 미리 보기 시 이미지 사전 설정 적용 {#apply-image-presets-when-previewing-images}
 
 이미지 및 해당 표현물을 미리 볼 때, 기존 사전 설정 중에서 선택하여 관리자가 설정한 사양에 맞게 이미지 형식을 다시 지정합니다.
 
 1. 브랜드 포털 인터페이스에서 이미지를 클릭하여 엽니다.
-2. 왼쪽의 오버레이 아이콘을 클릭하고 표현물을 **[!UICONTROL 선택합니다]**.
+1. 왼쪽의 오버레이 아이콘을 클릭하고 표현물을 **[!UICONTROL 선택합니다]**.
 
    ![](assets/image-preset-previewrenditions.png)
 
-3. 표현물 **[!UICONTROL 목록에서]** 적절한 동적 표현물(예: 축소판)을 **[!UICONTROL 선택합니다]**. 미리 보기 이미지는 선택한 변환에 따라 렌더링됩니다.
+1. 표현물 **[!UICONTROL 목록에서]** 적절한 동적 표현물(예: 축소판)을 **[!UICONTROL 선택합니다]**. 미리 보기 이미지는 선택한 변환에 따라 렌더링됩니다.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
@@ -86,13 +87,13 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
    * 다운로드할 이미지를 선택합니다. 맨 위의 도구 모음에서 다운로드 **[!UICONTROL 아이콘을 클릭합니다]** .
    ![](assets/downloadassets.png)
 
-2. [ **[!UICONTROL 다운로드]** ] 대화 상자에서 해당 표현물이 있는 에셋을 다운로드할지 여부에 따라 필요한 옵션을 선택합니다.
+1. [ **[!UICONTROL 다운로드]** ] 대화 상자에서 해당 표현물이 있는 에셋을 다운로드할지 여부에 따라 필요한 옵션을 선택합니다.
 
    ![](assets/donload-assets-dialog.png)
 
-3. 자산의 동적 표현물을 다운로드하려면 [동적 **[!UICONTROL 표현물] 옵션을 선택합니다]** .
-4. 다운로드하는 동안 이미지 및 표현물의 서식을 동적으로 다시 지정할 이미지 사전 설정 속성을 사용자 정의합니다. 크기, 형식, 색상 공간, 해상도 및 이미지 수정자를 지정합니다.
+1. 자산의 동적 표현물을 다운로드하려면 [동적 **[!UICONTROL 표현물] 옵션을 선택합니다]** .
+1. 다운로드하는 동안 이미지 및 표현물의 서식을 동적으로 다시 지정할 이미지 사전 설정 속성을 사용자 정의합니다. 크기, 형식, 색상 공간, 해상도 및 이미지 수정자를 지정합니다.
 
    ![](assets/dynamicrenditions.png)
 
-5. 다운로드를 **[!UICONTROL 클릭합니다]**. 사용자 지정 동적 표현물은 다운로드하도록 선택한 이미지 및 표현물과 함께 ZIP 파일로 다운로드됩니다. 그러나 단일 자산을 다운로드하면 zip 파일이 만들어지지 않으므로 다운로드가 빨라집니다.
+1. 다운로드를 **[!UICONTROL 클릭합니다]**. 사용자 지정 동적 표현물은 다운로드하도록 선택한 이미지 및 표현물과 함께 ZIP 파일로 다운로드됩니다. 그러나 단일 자산을 다운로드하면 zip 파일이 만들어지지 않으므로 다운로드가 빨라집니다.
