@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 관리
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,15 +28,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 메타데이터 스키마를 **[!UICONTROL 클릭합니다]**.
+1. 관리 도구 패널에서 메타데이터 스키마를 **[!UICONTROL 클릭합니다]**.
 
    ![](assets/navigation-panel.png)
 
-3. 메타데이터 스키마 **[!UICONTROL 양식]** 페이지에서 만들기를 **[!UICONTROL 클릭합니다]**.
+1. 메타데이터 스키마 **[!UICONTROL 양식]** 페이지에서 만들기를 **[!UICONTROL 클릭합니다]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. 스키마 **[!UICONTROL 양식 만들기]** 대화 상자에서 스키마 양식의 제목을 지정한 다음 만들기를 클릭하여 **[!UICONTROL 양식]** 작성 프로세스를 완료합니다.
+1. 스키마 **[!UICONTROL 양식 만들기]** 대화 상자에서 스키마 양식의 제목을 지정한 다음 만들기를 클릭하여 **[!UICONTROL 양식]** 작성 프로세스를 완료합니다.
 
    ![](assets/create-schema-form.png)
 
@@ -52,8 +52,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 메타데이터 스키마를 **[!UICONTROL 클릭합니다]**.
-3. [ **[!UICONTROL 메타데이터 스키마 양식]** ] 페이지에서 스키마 양식을 선택하여 해당 속성을 편집합니다(예: **[!UICONTROL 컬렉션]**).
+1. 관리 도구 패널에서 메타데이터 스키마를 **[!UICONTROL 클릭합니다]**.
+1. [ **[!UICONTROL 메타데이터 스키마 양식]** ] 페이지에서 스키마 양식을 선택하여 해당 속성을 편집합니다(예: **[!UICONTROL 컬렉션]**).
 
    ![](assets/metadata-schema-forms.png)
 
@@ -61,15 +61,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >편집되지 않은 템플릿은 템플릿 앞에 잠금 기호를 표시합니다. 템플릿을 사용자 지정하면 템플릿이 사라지기 전에 잠금 기호가 사라집니다.
 
-4. 맨 위의 도구 모음에서 편집을 **[!UICONTROL 클릭합니다]**.
+1. 맨 위의 도구 모음에서 편집을 **[!UICONTROL 클릭합니다]**.
 
    메타데이터 **[!UICONTROL 스키마 편집기]** 페이지가 **[!UICONTROL 열리고]** 기본 **[!UICONTROL 탭이]** 왼쪽에 열리고양식 작성탭이오른쪽에 열립니다.
 
-5. 메타데이터 **[!UICONTROL 스키마 편집기]** 페이지에서 **[!UICONTROL 양식 작성]** 탭의 구성 요소 유형 목록에서 하나 이상의 구성 요소를 **[!UICONTROL 기본]** 설정 **[!UICONTROL 탭에 드래그하여 자산의 속성]** 페이지를 사용자정의합니다.
+1. 메타데이터 **[!UICONTROL 스키마 편집기]** 페이지에서 **[!UICONTROL 양식 작성]** 탭의 구성 요소 유형 목록에서 하나 이상의 구성 요소를 **[!UICONTROL 기본]** 설정 **[!UICONTROL 탭에 드래그하여 자산의 속성]** 페이지를 사용자정의합니다.
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. 구성 요소를 구성하려면 구성 요소를 선택하고 설정 탭에서 해당 속성을 **[!UICONTROL 수정합니다]** .
+1. 구성 요소를 구성하려면 구성 요소를 선택하고 설정 탭에서 해당 속성을 **[!UICONTROL 수정합니다]** .
 
 ### 양식 작성 탭의 구성 요소 {#components-in-the-build-form-tab}
 
@@ -144,19 +144,19 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 관리 도구 패널에서 메타데이터 스키마를 **[!UICONTROL 클릭합니다]**.
+1. 관리 도구 패널에서 메타데이터 스키마를 **[!UICONTROL 클릭합니다]**.
 
-3. [ **[!UICONTROL 메타데이터 스키마 양식]** ] 페이지에서 자산에 적용할 스키마 양식(예: [!UICONTROL 의류])을 선택합니다.
+1. [ **[!UICONTROL 메타데이터 스키마 양식]** ] 페이지에서 자산에 적용할 스키마 양식(예: [!UICONTROL 의류])을 선택합니다.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. 맨 위의 도구 모음에서 폴더에 **[!UICONTROL 적용을 클릭합니다]**.
+1. 맨 위의 도구 모음에서 폴더에 **[!UICONTROL 적용을 클릭합니다]**.
 
-5. 폴더 **[!UICONTROL 선택]** 페이지에서 **[!UICONTROL 옷]** 메타데이터 스키마를 적용할 폴더(예: Gloves)로 **[!UICONTROL 이동합니다]**.
+1. 폴더 **[!UICONTROL 선택]** 페이지에서 **[!UICONTROL 옷]** 메타데이터 스키마를 적용할 폴더(예: Gloves)로 **[!UICONTROL 이동합니다]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. 적용을 **[!UICONTROL 클릭하여]** 메타데이터 스키마 양식을 폴더에 적용합니다.
+1. 적용을 **[!UICONTROL 클릭하여]** 메타데이터 스키마 양식을 폴더에 적용합니다.
 
    Clothing **[!UICONTROL 메타데이터 스키마 양식에서 사용할 수 있는 메타데이터는 Gloves]** 폴더에 **[!UICONTROL 적용되며]** 폴더의 **[!UICONTROL 속성]** 페이지에 표시됩니다.
 
