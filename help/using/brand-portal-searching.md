@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -21,37 +21,37 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ## Omnisearch를 사용하여 자산 검색 {#search-assets-using-omnisearch}
 
-To search for assets on Brand Portal:
+브랜드 포털에서 자산을 검색하려면
 
 1. 도구 모음에서 검색 **[!UICONTROL 아이콘을 클릭하거나]** "**[!UICONTROL /]**" 키를 눌러 Omnisearch를 시작합니다.
 
    ![](assets/omnisearchicon-1.png)
 
-1. In the search box, type a keyword for the assets you want to search.
+1. 검색 상자에 검색할 자산에 대한 키워드를 입력합니다.
 
    ![](assets/omnisearch.png)
 
    >[!NOTE]
    >
-   >At least 3 characters are required in omnisearch for search suggestions to appear.
+   >검색 제안이 표시되려면 3자 이상이 필요합니다.
 
-1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
+1. 관련 자산에 빠르게 액세스하려면 드롭다운 목록에 표시되는 관련 제안에서 선택합니다.
 
    ![](assets/assets-search-result.png)
 
-   *Asset search using omnisearch*
+   *omnisearch를 사용한 자산 검색*
 
-To know about search behaviour with smart tagged assets, see understand search results and behavior.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)
+스마트 태그 자산 검색 비헤이비어에 대한 자세한 내용은 검색 결과 및 비헤이비어를 [](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)참조하십시오.
 
-## Search using facets in Filters panel {#search-using-facets-in-filters-panel}
+## 필터 패널에서 패싯을 사용하여 검색 {#search-using-facets-in-filters-panel}
 
-Search facets in the Filters panel add granularity to your search experience and make the search functionality efficient. Search facets use multiple dimensions (predicates) that enable you to perform intricate searches. You can easily drill down to the desired level of detail for a more focused search.
+필터 패널에서 검색 패싯을 사용하면 검색 경험에 세부기간을 추가하고 검색 기능을 효율적으로 사용할 수 있습니다. 검색 패싯은 복잡한 검색을 수행할 수 있도록 해주는 여러 차원(예측)을 사용합니다. 원하는 세부 수준으로 드릴다운하여 보다 집중적인 검색을 수행할 수 있습니다.
 
-For example, if you are looking for an image, you can choose whether you want a bitmap or a vector image. You can reduce the scope of search further by specifying the MIME type for the image in the File Type search facet. Similarly, when searching for documents, you can specify the format, for example, PDF or MS Word format.<br />
+예를 들어, 이미지를 찾고 있는 경우 비트맵과 벡터 이미지 중 어느 것을 원하는지 선택할 수 있습니다. 파일 유형 검색 패싯에서 이미지의 MIME 유형을 지정하여 검색 범위를 더 줄일 수 있습니다. 마찬가지로 문서를 검색할 때 형식(예: PDF 또는 MS Word 형식)을 지정할 수 있습니다.<br />
 
-![Filters panel in Brand PortalFilters panel in Brand Portal](assets/file-type-search.png "")
+![브랜드 포털의](assets/file-type-search.png "브랜드 포털 필터 패널의 필터 패널")
 
-[ [!UICONTROL 필터] ] 패널에는 [!UICONTROL 경로 브라우저], [!UICONTROL 경로 유형], [!UICONTROL 파일 크기], 파일 [!UICONTROL 방향,]위치, 상태 및 시간 초과, 시간 초과, However, you can add custom search facets or remove specific search facets from the Filters panel by adding or removing predicates in the underlying Search Form. [](../using/brand-portal-search-facets.md) 브랜드 포털에서 사용 가능한 [검색 예측 목록을 참조하십시오](../using/brand-portal-search-facets.md#list-of-search-predicates).
+[ [!UICONTROL 필터] ] 패널에는 [!UICONTROL 경로 브라우저], [!UICONTROL 경로 유형], [!UICONTROL 파일 크기], 파일 [!UICONTROL 방향,]위치, 상태 및 시간 초과, 시간 초과, 그러나 기본 검색 양식에서 조건자를 추가하거나 제거하여 필터 [패널에서](../using/brand-portal-search-facets.md) 사용자 정의 검색 패싯을  추가하거나 특정 검색 패싯을 제거할 수 있습니다. 브랜드 포털에서 사용 가능한 [검색 예측 목록을 참조하십시오](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 사용 가능한 [검색 패싯을](../using/brand-portal-search-facets.md)사용하여 검색에 필터를 적용하려면:
 
@@ -59,7 +59,7 @@ For example, if you are looking for an image, you can choose whether you want a 
 
    ![](assets/selectorrail.png)
 
-2. 왼쪽의 **[!UICONTROL [필터]** ] 패널에서 적절한 옵션을 선택하여 관련 필터를 적용합니다.
+1. 왼쪽의 **[!UICONTROL [필터]** ] 패널에서 적절한 옵션을 선택하여 관련 필터를 적용합니다.
 예를 들어 다음 표준 필터를 사용합니다.
 
    * **[!UICONTROL 경로]** 브라우저를 사용하여 특정 디렉토리에서 자산을 검색합니다. 경로 브라우저에 대한 조건자의 기본 검색 경로는 **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**&#x200B;이며 기본 검색 양식을 편집하여 구성할 수 있습니다.
@@ -101,19 +101,19 @@ For example, if you are looking for an image, you can choose whether you want a 
 
    ![](assets/omnisearch-with-filters.png)
 
-   Asset search result with search result count
+   검색 결과 수가 있는 자산 검색 결과
 
-3. You can easily navigate to an item from the search result, and return to the same search result using the back button in your browser without having to re-run the search query.
+1. 검색 결과에서 항목을 쉽게 탐색하고 검색 쿼리를 다시 실행하지 않고도 브라우저의 뒤로 단추를 사용하여 동일한 검색 결과로 돌아갈 수 있습니다.
 
-## Save your searches as smart collection {#save-your-searches-as-smart-collection}
+## 검색을 스마트 컬렉션으로 저장 {#save-your-searches-as-smart-collection}
 
-You can save the search settings as a smart collection to be able to quickly repeat the same search without having to redo the same settings later.
+검색 설정을 스마트 컬렉션으로 저장하여 나중에 동일한 설정을 다시 실행하지 않고도 동일한 검색을 빠르게 반복할 수 있습니다.
 
-To save the search settings as a smart collection:
+검색 설정을 스마트 컬렉션으로 저장하려면
 
-1. Tap/ click Save Smart Collection and provide a name for the smart collection.****
+1. 스마트 컬렉션 **[!UICONTROL 저장을 탭/클릭하고]** 스마트 컬렉션의 이름을 제공합니다.
 
-   To make the smart collection accessible to all users, select Public. **** 스마트 컬렉션이 만들어져서 저장된 검색 목록에 추가되었음을 확인하는 메시지가 표시됩니다.
+   모든 사용자가 스마트 컬렉션을 액세스할 수 있도록 하려면 [공용]을 **[!UICONTROL 선택합니다]**. 스마트 컬렉션이 만들어져서 저장된 검색 목록에 추가되었음을 확인하는 메시지가 표시됩니다.
 
    >[!NOTE]
    >
@@ -121,10 +121,10 @@ To save the search settings as a smart collection:
 
    ![](assets/save_smartcollectionui.png)
 
-2. 스마트 컬렉션을 다른 이름으로 저장하고 공개 확인란을 선택하거나 **[!UICONTROL 지우려면 스마트]** 컬렉션 **[!UICONTROL 편집을 클릭합니다]**.
+1. 스마트 컬렉션을 다른 이름으로 저장하고 공개 확인란을 선택하거나 **[!UICONTROL 지우려면 스마트]** 컬렉션 **[!UICONTROL 편집을 클릭합니다]**.
 
    ![](assets/edit_smartcollection.png)
 
-3. 스마트 **[!UICONTROL 컬렉션 편집]** 대화 상자에서 다른 **[!UICONTROL 이름으로]** 저장을 선택하고 스마트 컬렉션의 이름을 입력합니다. **[!UICONTROL 저장을 클릭합니다]**.
+1. 스마트 **[!UICONTROL 컬렉션 편집]** 대화 상자에서 다른 **[!UICONTROL 이름으로]** 저장을 선택하고 스마트 컬렉션의 이름을 입력합니다. **[!UICONTROL 저장을 클릭합니다]**.
 
    ![](assets/saveas_smartsearch.png)
