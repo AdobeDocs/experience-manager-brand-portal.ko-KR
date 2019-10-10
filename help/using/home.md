@@ -4,7 +4,7 @@ seo-title: AEM 브랜드 포털 사용 안내서
 description: AEM 브랜드 포털 사용 안내서
 seo-description: 브랜드 포털 사용 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
@@ -42,7 +42,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 | [브랜드 포털과 AEM 자산 통합 구성](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | AEM 자산과 함께 브랜드 포털을 복제하여 자산을 게시하는 방법. |
 | [병렬 게시 문제 해결](troubleshoot-parallel-publishing.md) | 브랜드 포털과 AEM 자산 간 복제 문제 해결 |
 | [지원되는 파일 포맷](brand-portal-supported-formats.md) | 미리 보기 및 다운로드를 위해 브랜드 포털에서 지원되는 파일 포맷 |
-| [브랜드 포털에 자산 게시](../TOC.md#publish) | 폴더, 컬렉션, 링크, 사전 설정, 스키마, 패싯 및 태그를 브랜드 포털에 게시하는 방법. |
+| [브랜드 포털에 자산 게시](brand-portal-sharing-folders.md) | 폴더, 컬렉션, 링크, 사전 설정, 스키마, 패싯 및 태그를 브랜드 포털에 게시하는 방법. |
+| [브랜드 포털의 자산 소싱](brand-portal-asset-sourcing.md) | AEM 자산에서 자산 소싱을 구성하고, 브랜드 포털에서 자산을 업로드하고, 기여도 폴더를 다시 AEM 자산에 게시하는 방법. |
 
 ### 유용한 리소스
 
