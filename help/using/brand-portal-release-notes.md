@@ -1,49 +1,49 @@
 ---
 title: 릴리스 노트
 seo-title: 릴리스 노트
-description: Adobe Experience Manager Assets Brand Portal 6.4.4.6 및 브랜드 포털 6.4.7 릴리스의 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Adobe Experience Manager Assets Brand Portal 6.4.4.6 및 브랜드 포털 6.4.7 릴리스의 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+description: Adobe Experience Manager Assets Brand Portal 6.4.5 릴리스의 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Adobe Experience Manager Assets Brand Portal 6.4.5 릴리스의 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: 참조
 topic-tags: 브랜드 포털
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79sale9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 6.4.4.6 및 브랜드 포털 6.4.7 릴리스의 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets Brand Portal 6.4.5 릴리스의 새로운 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets 브랜드 포털 |
 |---|---|
-| 버전 | 6.4.4.6 및 6.4.4.7 |
-| 날짜 | 2019년 8월 |
+| 버전 | 6.4.5 |
+| 날짜 | 2019년 9월 |
 
 ## 개요 {#overview}
 
 AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 장치 간 외부 사용자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스 위험을 줄일 수 있습니다. 브랜드 포털을 통해 사용자는 언제 어디에서나 회사에서 승인한 포맷으로 에셋을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 6.4.4.7의 새로운 기능 {#what-s-new-in-6447}
+## 6.4.5의 새로운 기능 {#what-s-new-in-645}
 
-### 해결된 중요한 문제 {#critical-issues-fixed-6447}
+### 새로운 기능 {#new-features-645}
 
-이 릴리스에는 다음과 같은 중요한 문제가 수정되었습니다.
+브랜드 포털 6.4.5는 브랜드 포털 사용자(외부 에이전시/팀)에게 컨텐츠를 브랜드 포털에 업로드하고 AEM 자산에 게시할 수 있는 기능을 제공하는 데 중점을 두는 기능 릴리스입니다. 작성자 환경에 대한 액세스 권한 없이도 가능합니다. 이 기능은 브랜드 포털에서 **[자산](brand-portal-overiew-using-asset-sourcing.md)**&#x200B;소싱이라고 하며, 사용자가 자산을 기부하고 전 세계적으로 배포된 다른 브랜드 포털 사용자와 공유할 수 있는 양방향 메커니즘을 제공하여 고객 경험을 향상시킬 수 있습니다.
 
-* 동시 실행을 방지하기 위해 사용자 동기화 프로세스 최적화
+**브랜드 포털의 자산 소싱**
 
-## 6.4.4.6의 새로운 기능 {#what-s-new-in-6446}
+자산 소싱을 통해 AEM 사용자(관리자/비관리 사용자)는 추가 자산 기여도 **속성을 사용하여 새 폴더를 만들 수** 있으므로, 만들어진 새 폴더를 브랜드 포털 사용자가 자산 제출을 위해 열도록 할 수 있습니다. 이렇게 하면 새로 만든 기여도 폴더 내에 NEW 및 SHARED라는 두 개의 추가 하위 폴더가 생성되는 워크플로우가 자동으로 **트리거됩니다** .
 
-### 해결된 중요한 문제 {#critical-issues-fixed-6446}
+그런 다음 AEM 사용자는 SHARED 폴더에 기여도 폴더에 추가해야 하는 자산 유형과 기준 자산 세트에 대한 개요를 업로드하여 BP **사용자가 필요한 참조 정보를** 갖도록 함으로써 자산 요구 사항을 정의합니다. 그러면 관리자는 새로 만든 기여도 폴더를 브랜드 포털에 게시하기 전에 기여도 폴더에 대한 액세스 권한을 활성 브랜드 포털 사용자에게 부여할 **수** 있습니다.
 
-이 릴리스에는 다음과 같은 중요한 문제가 수정되었습니다.
+사용자가 NEW 폴더에 컨텐츠 추가를 **완료하면** 기여도 폴더를 다시 AEM 작성자 환경에 게시할 수 있습니다.
 
-* 다운로드 보고서 생성을 위한 성능 최적화
+자세한 내용은 브랜드 포털의 [자산 소싱을 참조하십시오](brand-portal-asset-sourcing.md).
 
 ## 언어 {#languages}
 
