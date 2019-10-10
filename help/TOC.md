@@ -5,7 +5,7 @@ sub-product: 경험 관리자 브랜드 포털
 audience: 최종 사용자
 user-guide-title: AEM 브랜드 포털
 translation-type: tm+mt
-source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
+source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
 
 ---
 
@@ -28,6 +28,22 @@ source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
    + [브랜드 포털에 동시 게시 문제 해결](using/troubleshoot-parallel-publishing.md)
    + [브랜드 포털에 태그 게시](using/brand-portal-publish-tags.md)
    + [브랜드 포털에 사전 설정, 스키마 및 패싯 게시](using/publish-schema-search-facets-presets.md)
++ 브랜드 포털의 자산 소싱 {#asset-sourcing-in-brand-portal}
+   + [개요](using/brand-portal-asset-sourcing.md)
+   + AEM에서 자산 소싱 구성 {#configure-asset-sourcing-in-aem}
+      + [자산 소싱 활성화](using/brand-portal-enable-asset-sourcing.md)
+      + [브랜드 포털 사용자 목록 업로드](using/brand-portal-upload-user-list.md)
+   + AEM 자산에서 기여도 폴더 구성 {#configure-contribution-folder}
+      + [개요](using/brand-portal-contribution-folder.md)
+      + [기여도 폴더 만들기](using/brand-portal-create-contribution-folder.md)
+      + [기여도 폴더 속성 구성](using/brand-portal-configure-contribution-folder-properties.md)
+      + [기준 자산 업로드](using/brand-portal-upload-baseline-assets.md)
+      + [브랜드 포털에 기여도 폴더 게시](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + 브랜드 포털에서 자산 소싱 사용 {#using-asset-sourcing}
+      + [개요](using/brand-portal-overiew-using-asset-sourcing.md)
+      + [자산 요구 사항 다운로드](using/brand-portal-download-asset-requirements.md)
+      + [기여도 폴더에 자산 업로드](using/brand-portal-upload-assets-to-contribution-folder.md)
+      + [AEM 자산에 기여도 폴더 게시](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 사용자와 자산 공유 {#share}
    + [컬렉션 공유](using/brand-portal-share-collection.md)
    + [폴더 공유](using/brand-portal-sharing-folders.md)
