@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 소개
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 그러나 승인된 브랜드 로고, 지침, 캠페인 에셋 또는 제품 샷을 다양한 내부 팀, 파트너 및 리셀러와 효율적이고 안전하게 공유할 수 있는 솔루션을 개발하는 것은 매우 어려운 일입니다.
 
-**AEM(Adobe Experience Manager) 자산 브랜드 포털을** 사용하면 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 다양한 디바이스에서 외부 사용자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스 위험을 줄일 수 있습니다.
+**AEM(Adobe Experience Manager) 자산** 브랜드 포털은 마케터가 자산 배포 및 자산 기여도 기능을 제공함으로써 전 세계적으로 배포된 브랜드 포털 사용자와 효과적으로 공동 작업을 해야 하는 필요성에 중점을 둡니다.
+
+에셋 배포를 사용하면 승인된 크리에이티브 에셋을 손쉽게 확보, 제어 및 다양한 디바이스에서 외부 업체와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 반면에 자산 기여도를 통해 브랜드 포털 사용자는 작성 환경에 액세스할 필요 없이 자산을 브랜드 포털에 업로드하고 AEM 자산에 게시할 수 있습니다. 기여도 기능을 브랜드 포털에서 **자산 소싱이라고 합니다**. 또한 브랜드 포털 사용자(외부 에이전시/팀)의 자산 배포 및 기여도에 대한 전반적인 브랜드 포털 경험을 향상시키고 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄입니다.
+브랜드 [포털의 자산 소싱을 참조하십시오](brand-portal-asset-sourcing.md).
 
 브라우저 기반 포털 환경을 사용하면 승인된 형식으로 에셋을 손쉽게 업로드, 탐색, 검색, 미리 보기 및 내보낼 수 있습니다.
 
@@ -54,7 +57,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 [공개 자산 다운로드](brand-portal-download-users.md)
 
-[[!UICONTROL Lightbox]에 자산 추가](brand-portal-light-box.md#add-assets-to-lightbox)
+[Lightbox에 자산 [!UICONTROL 추가]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 뷰어 {#viewer}
 
@@ -165,7 +168,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 액세스 권한을 부여하려면 제품 관리자는 브랜드 포털 알림 영역에서 관련 알림을 클릭한 다음 액세스 권한 부여를 **[!UICONTROL 클릭해야 합니다]**.
 또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 Adobe Admin [!UICONTROL Console을] 방문하여 관련 제품 구성에 사용자를 추가할 수 있습니다.
 
-Adobe [!UICONTROL [관리 콘솔]](https://adminconsole.adobe.com/enterprise/overview) 홈 페이지로 리디렉션됩니다. Adobe Admin [!UICONTROL Console] 을 사용하여 사용자를 만들고 제품 프로필(이전의 제품 구성)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. 관리 콘솔에서 사용자를 추가하는 방법에 대한 [!UICONTROL 자세한]내용은 사용자 [추가(](brand-portal-adding-users.md#add-a-user) 사용자추가 절차의 4-7단계 수행)를 참조하십시오.
+Adobe Admin Console [홈 [!UICONTROL 페이지로 리디렉션됩니다]](https://adminconsole.adobe.com/enterprise/overview) . Adobe Admin [!UICONTROL Console] 을 사용하여 사용자를 만들고 제품 프로필(이전의 제품 구성)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. 관리 콘솔에서 사용자를 추가하는 방법에 대한 [!UICONTROL 자세한]내용은 사용자 [추가(](brand-portal-adding-users.md#add-a-user) 사용자추가 절차의 4-7단계 수행)를 참조하십시오.
 
 ## 브랜드 포털 언어 {#brand-portal-language}
 
