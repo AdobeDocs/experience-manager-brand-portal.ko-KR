@@ -1,6 +1,6 @@
 ---
-title: AEM Assets 브랜드 포털의 새로운 기능
-seo-title: AEM Assets 브랜드 포털의 새로운 기능
+title: AEM Assets Brand Portal의 새로운 기능
+seo-title: AEM Assets Brand Portal의 새로운 기능
 description: 6.4.5의 새로운 기능과 향상된 기능을 살펴보십시오.
 seo-description: 6.4.5의 새로운 기능과 향상된 기능을 살펴보십시오.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
@@ -10,12 +10,12 @@ content-type: 참조
 topic-tags: 소개
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# AEM Assets 브랜드 포털의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
+# AEM Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 장치 간 외부 사용자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스 위험을 줄일 수 있습니다. Adobe는 전반적인 브랜드 포털 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 개선 사항에 대한 간략한 개요를 제공합니다.
 
@@ -127,11 +127,11 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 ### 특정 폴더 계층 구조 또는 경로에서 검색
 
-**경로 브라우저** 조건자는 특정 디렉토리에서 자산을 검색할 수 있도록 검색 양식에서 도입됩니다. 경로 브라우저에 대한 검색 조건자의 기본 검색 경로는 */content/dam/mac/&lt;tenant-id&gt;/*&#x200B;이며 기본 검색 양식을 편집하여 구성할 수 있습니다.
+**경로 브라우저** 조건자는 특정 디렉토리에서 자산을 검색할 수 있도록 검색 양식에서 도입됩니다. 경로 브라우저에 대한 검색 조건자의 기본 검색 경로는 기본 검색 양식을 편집하여 구성할 수 `/content/dam/mac/<tenant-id>/`있는 것입니다.
 
 * 관리 사용자는 경로 브라우저를 사용하여 브랜드 포털의 모든 폴더 디렉토리로 이동할 수 있습니다.
 * 관리자가 아닌 사용자는 경로 브라우저를 사용하여 공유된 폴더만 탐색(그리고 상위 폴더로 다시 이동)할 수 있습니다.
-예를 들어 */content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* 는 관리자가 아닌 사용자와 공유됩니다. 사용자는 경로 브라우저를 사용하여 folderC 내에서 자산을 검색할 수 있습니다. 또한 이 사용자는 folderB 및 folderA로 이동할 수 있습니다. 이 사용자는 사용자와 공유된 folderC의 상위 폴더이기 때문입니다.
+예를 들어, 는 `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 관리자가 아닌 사용자와 공유됩니다. 사용자는 경로 브라우저를 사용하여 folderC 내에서 자산을 검색할 수 있습니다. 또한 이 사용자는 folderB 및 folderA로 이동할 수 있습니다. 이 사용자는 사용자와 공유된 folderC의 상위 폴더이기 때문입니다.
 
 ![](assets/edit-search-form.png)
 
@@ -381,9 +381,9 @@ Brand Portal 6.4.1은 고객의 기대에 부응하는 경험을 제공하기 �
 
 Brand Portal 6.3.2에는 주요 고객 요청과 일반 성능 향상을 위한 새로운 기능과 향상된 기능이 포함되어 있습니다.
 
-### 브랜드 포털에 대한 액세스 요청 {#request-access-to-brand-portal}
+### Request access to Brand Portal {#request-access-to-brand-portal}
 
-이제 사용자는 브랜드 포털의 로그인 화면에서 사용할 수 있는 새로운*****액세스 권한이 필요함을 사용하여 브랜드 포털에 대한 액세스를 요청할 수 있습니다.
+이제 사용자는 브랜드 포털의 로그인 화면에서 사용할 수 있는 새로운 **필수 액세스** 기능을 사용하여 브랜드 포털에 대한 액세스를 요청할 수 있습니다.
 
 ![](assets/bplogin_request_access.png)
 
