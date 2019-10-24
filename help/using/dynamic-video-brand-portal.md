@@ -1,8 +1,8 @@
 ---
-title: 브랜드 포털에서 다이내믹한 비디오 지원
-seo-title: 브랜드 포털에서 다이내믹한 비디오 지원
-description: 브랜드 포털에서 다이내믹한 비디오 지원
-seo-description: 브랜드 포털에서 다이내믹한 비디오 지원
+title: Brand Portal에서 동적 비디오 지원
+seo-title: Brand Portal에서 동적 비디오 지원
+description: Brand Portal에서 동적 비디오 지원
+seo-description: Brand Portal에서 동적 비디오 지원
 uuid: a3502a4d-3971-4ea4-953c-44ba0446269
 contentOwner: 밀라티
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,12 +10,12 @@ content-type: 참조
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 브랜드 포털에서 다이내믹한 비디오 지원 {#dynamic-video-support-on-brand-portal}
+# Brand Portal에서 동적 비디오 지원 {#dynamic-video-support-on-brand-portal}
 
 다이내믹 미디어 지원을 통해 브랜드 포털에서 비디오를 미리 보고 재생할 수 있습니다. 포털과 공유 링크에서 동적 표현물을 다운로드할 수도 있습니다.
 브랜드 포털 사용자는 다음을 수행할 수 있습니다.
@@ -103,7 +103,7 @@ Dynamic Media [!UICONTROL Scene 7]의 [보안 미리 보기가 활성화됨](htt
 AEM 작성자 인스턴스가 다이내믹 미디어 하이브리드 모드에서 실행 중인 경우 관리 [!UICONTROL 도구] 패널의 비디오 타일을 사용하여 Dynamic Media 게이트웨이 설정을 구성합니다.
 >[!NOTE]
 >
->비디오 [인코딩 프로필은](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 브랜드 포털에 게시되지 않고 대신 Scene 7 [!UICONTROL 서버에서 가져옵니다] . 따라서 비디오 인코딩이 브랜드 포털에서 성공적으로 재생되도록 하려면 구성 세부 정보가 AEM 작성자 인스턴스의 [[!UICONTROL Scene7 클라우드 구성]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 과 동일한지 확인합니다.
+>비디오 [인코딩 프로필은](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 브랜드 포털에 게시되지 않고 대신 Scene 7 [!UICONTROL 서버에서 가져옵니다] . 따라서 비디오 인코딩이 브랜드 포털에서 성공적으로 재생되도록 하려면 구성 세부 사항이 AEM 작성자 [[!UICONTROL 인스턴스의 Scene7 클라우드 구성과]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 동일한지 확인합니다.
 브랜드 포털 임차인에서 다이내믹 미디어 구성을 설정하려면
 
 1. 브랜드 포털의 상단 도구 모음에서 관리 도구에 액세스하려면 AEM 로고를 선택합니다.
