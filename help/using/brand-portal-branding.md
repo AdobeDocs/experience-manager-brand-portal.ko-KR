@@ -1,6 +1,6 @@
 ---
-title: 배경 무늬, 머리글 및 이메일 메시지 사용자 정의
-seo-title: 배경 무늬, 머리글 및 이메일 메시지 사용자 정의
+title: 월페이퍼, 헤더 및 이메일 메시지 사용자 정의
+seo-title: 월페이퍼, 헤더 및 이메일 메시지 사용자 정의
 description: 브랜드 포털 관리자는 사용자에게 표시되는 인터페이스에 대한 사용자 지정을 제한할 수 있습니다. 브랜드 포털 로그인 페이지에 대한 특정 배경 이미지(배경 무늬)를 선택할 수 있습니다. 또한 헤더 이미지를 추가하고 고객의 브랜드에 맞게 에셋 공유 이메일을 사용자 지정할 수 있습니다.
 seo-description: 브랜드 포털 관리자는 사용자에게 표시되는 인터페이스에 대한 사용자 지정을 제한할 수 있습니다. 브랜드 포털 로그인 페이지에 대한 특정 배경 이미지(배경 무늬)를 선택할 수 있습니다. 또한 헤더 이미지를 추가하고 고객의 브랜드에 맞게 에셋 공유 이메일을 사용자 지정할 수 있습니다.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
@@ -9,12 +9,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 관리
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 배경 무늬, 머리글 및 이메일 메시지 사용자 정의 {#customize-wallpaper-header-and-email-message}
+# 월페이퍼, 헤더 및 이메일 메시지 사용자 정의 {#customize-wallpaper-header-and-email-message}
 
 브랜드 포털 관리자는 사용자에게 표시되는 인터페이스에 대한 사용자 지정을 제한할 수 있습니다. 브랜드 포털 로그인 페이지에 대한 특정 배경 이미지(배경 무늬)를 선택할 수 있습니다. 또한 헤더 이미지를 추가하고 고객의 브랜드에 맞게 에셋 공유 이메일을 사용자 지정할 수 있습니다.
 
