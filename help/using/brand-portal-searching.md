@@ -1,5 +1,5 @@
 ---
-title: 브랜드 포털에서 자산 검색
+title: Brand Portal에서 자산 검색
 seo-title: AEM 브랜드 포털에서 자산 검색 및 저장된 검색
 description: 브랜드 포털 검색 기능을 사용하면 옴니서치를 사용하여 관련 자산을 신속하게 검색할 수 있으며 검색 필터를 통해 검색 범위를 좁힐 수 있습니다. 나중에 스마트 컬렉션으로 검색을 저장할 수 있습니다.
 seo-description: 브랜드 포털 검색 기능을 사용하면 옴니서치를 사용하여 관련 자산을 신속하게 검색할 수 있으며 검색 필터를 통해 검색 범위를 좁힐 수 있습니다. 나중에 스마트 컬렉션으로 검색을 저장할 수 있습니다.
@@ -10,12 +10,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 브랜드 포털에서 자산 검색 {#search-assets-on-brand-portal}
+# Brand Portal에서 자산 검색 {#search-assets-on-brand-portal}
 
 브랜드 포털 검색 기능을 사용하면 옴니셔와 필터를 사용하여 검색 범위를 좁히는 면처리된 검색을 통해 관련 자산을 신속하게 검색할 수 있습니다. 나중에 검색을 스마트 컬렉션으로 저장할 수도 있습니다.
 
@@ -62,7 +62,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 1. 왼쪽의 **[!UICONTROL [필터]** ] 패널에서 적절한 옵션을 선택하여 관련 필터를 적용합니다.
 예를 들어 다음 표준 필터를 사용합니다.
 
-   * **[!UICONTROL 경로]** 브라우저를 사용하여 특정 디렉토리에서 자산을 검색합니다. 경로 브라우저에 대한 조건자의 기본 검색 경로는 **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**&#x200B;이며 기본 검색 양식을 편집하여 구성할 수 있습니다.
+   * **[!UICONTROL 경로]** 브라우저를 사용하여 특정 디렉토리에서 자산을 검색합니다. 경로 브라우저에 대한 조건자의 기본 검색 경로는 기본 검색 양식을 편집하여 구성할 수 `/content/dam/mac/<tenant-id>/`있는 경로입니다.
    >[!NOTE]
    >
    >관리자가 아닌 사용자에게 필터 [!UICONTROL 패널의] 경로 브라우저는 [!UICONTROL 해당] 사용자와 공유된 폴더의 컨텐츠 구조만 표시합니다.\
