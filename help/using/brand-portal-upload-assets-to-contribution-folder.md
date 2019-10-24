@@ -9,12 +9,12 @@ topic-tags: 브랜드 포털
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6437146bafbedf85a34fbc92ee15fd5e247da0c
+source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# 기여도 폴더에 새 자산 업로드 {#uplad-new-assets-to-contribution-folder}
+# 기여도 폴더에 자산 업로드 {#uplad-new-assets-to-contribution-folder}
 
 브랜드 포털 사용자는 자산 요구 사항 [(기여도 폴더에 첨부된 간단한 문서 및 SHARED](brand-portal-download-asset-requirements.md) 폴더에서 기준선 **** 자산 다운로드)을 다운로드하여 기여도 필요성을 이해합니다.
 그런 다음 브랜드 포털 사용자는 기여도를 위한 새 자산을 만들고 기여도 폴더 **내의 NEW** 폴더에 업로드할 수 있습니다.
