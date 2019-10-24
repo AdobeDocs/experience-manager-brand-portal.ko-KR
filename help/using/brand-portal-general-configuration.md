@@ -1,8 +1,8 @@
 ---
-title: 일반 테넌트 구성 관리
-seo-title: 일반 테넌트 구성 관리
-description: 다운로드 가속화 구성, 공개 스마트 [!UICONTROL 컬렉션] 만들기, 공개 [!UICONTROL 컬렉션] 만들기, 관리 사용자가 테넌트의 자산을 삭제할 수 있도록 합니다.
-seo-description: 다운로드 가속화 구성, 공개 스마트 [!UICONTROL 컬렉션] 만들기, 공개 [!UICONTROL 컬렉션] 만들기, 관리 사용자가 테넌트의 자산을 삭제할 수 있도록 합니다.
+title: 관리자 일반 테넌트 구성
+seo-title: 관리자 일반 테넌트 구성
+description: 다운로드 가속화, 공개 스마트 [!UICONTROL 컬렉션] 생성, 공개 [!UICONTROL 컬렉션] 생성, 관리 사용자가 테넌트의 자산을 삭제할 수 있도록 설정
+seo-description: 다운로드 가속화, 공개 스마트 [!UICONTROL 컬렉션] 생성, 공개 [!UICONTROL 컬렉션] 생성, 관리 사용자가 테넌트의 자산을 삭제할 수 있도록 설정
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: 밀라티
 topic-tags: 관리
@@ -10,12 +10,12 @@ content-type: 참조
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
 
 ---
 
 
-# 일반 테넌트 구성 관리 {#administer-general-tenant-configurations}
+# 관리자 일반 테넌트 구성 {#administer-general-tenant-configurations}
 
 AEM Assets 브랜드 포털을 통해 조직은 특정 테넌트에 대해 다음 기능을 구성할 수 있습니다.
 
@@ -52,20 +52,20 @@ AEM Assets 브랜드 포털을 통해 조직은 특정 테넌트에 대해 다�
 
 ## 관리자 사용자가 브랜드 포털에서 자산을 삭제하도록 허용 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL 사용자가 구성을 삭제하도록]** 허용하면 조직은 관리자 권한이 있는 사용자가 브랜드 포털에서 자산 및 폴더를 삭제하도록 허용(또는 제한)할 수 있습니다.
+**[!UICONTROL 사용자가 구성을 삭제할]** 수 있도록 허용하면 조직은 관리자 권한이 있는 사용자가 브랜드 포털에서 자산 및 폴더를 삭제하도록 허용(또는 제한)할 수 있습니다.
 
 ## 관리자가 아닌 사람이 공개 컬렉션 제작 허용 {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL 공개 컬렉션 제작 허용]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 구성은 관리자가 아닌 사용자가 브랜드 포털에서 공개 컬렉션을 만들 수 있는지 여부를 제어합니다. 기본적으로 구성이 활성화됩니다. 구성 조직을 비활성화하면 시스템 공간을 저장할 수 있도록 포털에 수많은 공개 컬렉션이 표시되지 않을 수 있습니다.
+[[!UICONTROL 비공개 컬렉션 제작]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 구성을 통해 관리자가 아닌 사용자가 브랜드 포털에서 공개 컬렉션을 만들 수 있는지 여부를 제어할 수 있습니다. 기본적으로 구성이 활성화됩니다. 구성 조직을 비활성화하면 시스템 공간을 저장할 수 있도록 포털에 수많은 공개 컬렉션이 표시되지 않을 수 있습니다.
 
 ## 관리자가 아닌 사람이 공용 스마트 컬렉션 제작 허용 {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL 공개 스마트 컬렉션 생성 허용]](../using/brand-portal-searching.md#main-pars-header-500620467) 구성은 관리자가 아닌 사용자가 자신의 검색을 스마트 컬렉션으로 저장하고 해당 테넌트에 대해 공개할 수 있는지 여부를 제어합니다. 기본적으로 구성이 활성화됩니다. 구성 조직을 비활성화하면 조직의 브랜드 포털에서 관리자가 아닌 사용자가 만든 많은 수의 공개 스마트 컬렉션이 만들어지지 않을 수 있습니다.
+[[!UICONTROL 공개 스마트 컬렉션 제작]](../using/brand-portal-searching.md#main-pars-header-500620467) 구성을 허용하면 관리자가 아닌 사용자가 검색을 스마트 컬렉션으로 저장하고 테넌트에 대해 공개할 수 있는지 여부를 제어할 수 있습니다. 기본적으로 구성이 활성화됩니다. 구성 조직을 비활성화하면 조직의 브랜드 포털에서 관리자가 아닌 사용자가 만든 많은 수의 공개 스마트 컬렉션이 만들어지지 않을 수 있습니다.
 
 ## 다운로드 가속 허용 {#allow-download-acceleration}
 
-[[!UICONTROL 다운로드 가속 허용]](../using/accelerated-download.md) 구성을 사용하면 조직은 주문형 설치 애플리케이션인 IBM Aspera Connect와 통합하여 브랜드 포털에서 에셋을 신속하게 다운로드하고 공유 링크를 다운로드할 수 있습니다. 이 애플리케이션은 전용 기술을 사용하여 TCP 오버헤드를 제거합니다.
+[[!UICONTROL 다운로드 가속]](../using/accelerated-download.md) 구성을 허용하면 조직은 주문형 설치 애플리케이션인 IBM Aspera Connect와 통합하여 브랜드 포털에서 에셋 다운로드 및 공유 링크를 가속화할 수 있습니다. 이 애플리케이션은 전용 기술을 사용하여 TCP 오버헤드를 제거합니다.
 
 ## 폴더 계층 구조 사용 {#enable-folder-hierarchy}
 
-[[!UICONTROL 폴더 계층 구조 활성화]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 구성을 사용하면 관리자가 비관리 사용자(편집기, 뷰어 및 게스트 사용자)가 로그인 후 공유 폴더를 보는 방법을 제어할 수 있습니다.
+[[!UICONTROL 관리자는 폴더 계층]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 구성 활성화를 통해 로그인 후 관리자가 아닌 사용자(편집기, 뷰어 및 게스트 사용자)가 공유 폴더를 보는 방법을 제어할 수 있습니다.
