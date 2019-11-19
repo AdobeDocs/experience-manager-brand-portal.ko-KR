@@ -4,12 +4,21 @@ seo-title: 브랜드 포털의 자산 소싱
 description: Adobe Experience Manager Assets 브랜드 포털에서 제공하는 자산 소싱 기능에 대한 통찰력을 얻을 수 있습니다.
 seo-description: Adobe Experience Manager Assets 브랜드 포털에서 제공하는 자산 소싱 기능에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
-content-type: 참조
-topic-tags: 브랜드 포털
+content-type: reference
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
+product: experience-manager
+sub-product: assets
+feature: brand-portal
+topics: collaboration, content-velocity, sharing
+doc-type: feature-video
+activity: use
+audience: author, marketer
+version: 6.5
+kt: 3838
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -20,6 +29,8 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 또한 모든 기존 기능은 변경되지 않습니다. 브랜드 포털 사용자는 기여도 폴더뿐만 아니라 허용된 다른 폴더에서도 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고 속성을 수정하고 컬렉션에 자산을 추가할 수 있습니다.
 
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=kor)
+
 >[!NOTE]
 >
 >브랜드 포털의 자산 소싱은 AEM 6.5.2.0 이상에서 지원됩니다.
@@ -28,18 +39,25 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 >
 >AEM 인스턴스를 지원되는 최신 AEM 버전으로 업그레이드하려면 Adobe 지원에 문의하십시오.
 
-![](assets/asset-sourcing.png)
+![브랜드 포털 자산 소싱](assets/asset-sourcing.png)
+
+## 전제 조건 {#prerequisites}
+
+* AEM 6.5.0.2 이상.
+* AEM 자산 인스턴스가 브랜드 포털과 통합되었는지 확인합니다. 브랜드 [포털과 AEM 자산 통합 구성을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
 
 ## 참고 항목 {#reference-articles}
 
 **관리자**
-* [AEM에서 자산 소싱 구성](brand-portal-enable-asset-sourcing.md)
-* [브랜드 포털 사용자 목록 업로드](brand-portal-upload-user-list.md)
+
+* [AEM에서 자산 소싱 구성](brand-portal-configure-asset-sourcing.md)
+* [브랜드 포털 사용자 목록 업로드](brand-portal-configure-asset-sourcing.md)
 * [기여도 폴더 구성](brand-portal-contribution-folder.md)
 * [기여도 폴더에 기준 자산 업로드](brand-portal-upload-baseline-assets.md)
 * [브랜드 포털에 기여도 폴더 게시](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 **브랜드 포털 사용자의 경우**
+
 * [자산 요구 사항 다운로드](brand-portal-download-asset-requirements.md)
 * [기여도 폴더에 새 자산 업로드](brand-portal-upload-assets-to-contribution-folder.md)
 * [AEM 자산에 기여도 폴더 게시](brand-portal-publish-contribution-folder-to-aem-assets.md)
