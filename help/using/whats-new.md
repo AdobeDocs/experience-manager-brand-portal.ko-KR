@@ -6,11 +6,11 @@ seo-description: 6.4.5의 새로운 기능과 향상된 기능을 살펴보십�
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 참조
-topic-tags: 소개
+content-type: reference
+topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 
 ---
 
@@ -33,14 +33,18 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 사용자가 NEW 폴더에 컨텐츠 추가를 **완료하면** 기여도 폴더를 다시 AEM 작성자 환경에 게시할 수 있습니다. 가져오기를 완료하고 AEM Assets 내에서 새로 게시된 컨텐츠를 반영하는 데 몇 분이 걸릴 수 있습니다.
 
-또한 모든 기존 기능은 변경되지 않습니다. 브랜드 포털 사용자는 기여도 폴더뿐만 아니라 허용된 다른 폴더에서도 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고 속성을 수정하고 컬렉션에 자산을 추가할 수 있습니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+또한 모든 기존 기능은 변경되지 않습니다. 브랜드 포털 사용자는 기여도 폴더뿐만 아니라 허용된 다른 폴더에서도 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고 속성을 수정하고 컬렉션에 자산을 추가할 수 있습니다.
+
+최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+
+브랜드 [포털 FAQ 참조](brand-portal-faqs.md)
 
 >[!NOTE]
-
-
+>
 >브랜드 포털의 자산 소싱은 AEM 6.5.2.0 이상에서 지원됩니다.
 >
 >이 기능은 이전 버전(AEM 6.3 및 AEM 6.4)에서 지원되지 않습니다.
+
 
 ### 기여도 폴더에 자산 업로드 {#upload-assets-in-bp}
 
@@ -525,24 +529,3 @@ Adobe는 브랜드 포털 사용자 경험을 AEM과 정렬하기 위해 Coral 3
 ![](assets/publish_tags_aemassets.png)
 
 * AEM 자산에서 스마트 태그를 비롯한 태그가 있는 자산 및 컬렉션을 게시할 수 있습니다. 그런 다음 브랜드 포털에서 이러한 태그를 검색 키워드로 사용하여 이러한 자산 또는 컬렉션을 검색할 수 있습니다.
-
-## Frequently asked questions {#frequently-asked-questions}
-
-**Ques. 기존 자산, 기능 또는 구성을 이용하지 못할 수 있습니까?**
-Ans**.** 모든 기존 기능과 구성은 그대로 유지됩니다. 최종 사용자는 영향을 받지 않으며 컨텐츠는 그대로 유지됩니다.
-
-**Ques. 새로운 버전의 브랜드 포털로 전환하는 경우**
-Ans**.** Brand Portal 6.4.4는 2019년 2월에 출시되었습니다. 다음 브랜드 포털 버전은 2019년 3분기에 출시될 예정입니다.
-
->[!NOTE]
->
->출시 일정은 잠정적이며 변경될 수 있습니다. Adobe 계정 관리자 또는 고객 지원에 문의하여 업데이트된 릴리스 일정을 얻으십시오.
-
-**Ques. 사용자에게 영향을 미칩니까?**
-Ans**.** 이 변경 사항은 브랜드 포털 내에서만 적용되므로 최종 사용자에게 영향을 주지 않습니다.
-
-**Ques. 제가 해야 할 일이 있나요?**
-Ans**.** 관리자가 작업을 수행할 필요가 없습니다. 새로운 브랜드 포털에 액세스하면 설명서를 참조하여 모든 벨소리 및 휘파람 기능을 확인하십시오.
-
-**Ques. 질문 사항은 누구에게 문의해야 합니까?**
-Ans**.** Adobe 계정 관리자 또는 고객 지원에 문의하십시오.
