@@ -4,12 +4,12 @@ seo-title: AEM Assets 브랜드 포털 개요
 description: AEM Assets 브랜드 포털에서는 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 장치 간에 외부 사용자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다.
 seo-description: AEM Assets 브랜드 포털에서는 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 장치 간에 외부 사용자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
-content-type: 참조
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: 소개
+topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 ---
 
@@ -34,7 +34,9 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 * 손님 사용자
 * 뷰어
 * 편집자
-* 관리다음 표에는 이러한 역할의 사용자가 수행할 수 있는 작업이 나와 있습니다.
+* 관리자
+
+다음 표에는 이러한 역할의 사용자가 수행할 수 있는 작업이 나와 있습니다.
 
 |  | **찾아보기** | **검색** | **다운로드** | **폴더 공유** | **컬렉션 공유** | **링크로 자산 공유** | **관리 도구에 액세스** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -110,7 +112,7 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 ## 브랜드 포털 URL에 대한 대체 별칭 {#tenant-alias-for-portal-url}
 
 브랜드 포털 6.4.3 이상 버전에서 조직은 브랜드 포털 테넌트의 기존 URL에 대해 하나의 대체(별칭) URL을 가질 수 있습니다. 별칭 URL은 URL에 대체 접두사가 있으면 만들 수 있습니다.\
-브랜드 포털 URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다. 예를 들어 기존 도메인 **[!UICONTROL geometrix.brand-portal.adobe.com]** 을 사용하는 조직은 **[!UICONTROL 요청 시 geometrixx.brand-portal.adobe.com]** 을 만들 수 있습니다.
+브랜드 포털 URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다. 예를 들어 기존 도메인 **[!UICONTROL geometrix.brand-portal.adobe.com]**을 사용하는 조직은**[!UICONTROL &#x200B;요청 시 geometrixx.brand-portal.adobe.com]** 을 만들 수 있습니다.
 
 그러나 AEM 작성자 인스턴스는 테넌트 ID로만 [구성할](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) 수 있으며 임차인 별칭(대체) URL로는 구성할 수 없습니다.
 
@@ -120,13 +122,13 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 >
 >이전 별칭을 대체하거나 기존 별칭을 삭제하려면 동일한 프로세스를 수행해야 합니다.
 
-## 브랜드 포털에 대한 액세스 요청 {#request-access-to-brand-portal}
+## Request access to Brand Portal {#request-access-to-brand-portal}
 
 사용자는 로그인 화면에서 브랜드 포털에 대한 액세스 권한을 요청할 수 있습니다. 이러한 요청은 브랜드 포털 관리자에게 보내지며, 이 관리자는 Adobe 관리 콘솔을 통해 사용자에게 액세스 권한을 [!UICONTROL 부여합니다]. 액세스 권한이 부여되면 사용자는 알림 이메일을 수신하게 됩니다.
 
 액세스를 요청하려면 다음을 수행합니다.
 
-1. 브랜드 포털 로그인 페이지에서 액세스 **[!UICONTROL 필요]** **[!UICONTROL ?]**. 하지만 게스트 세션에 입장하려면 Guest Access에 해당하는 **[!UICONTROL 여기를]** 클릭 **[!UICONTROL ?]**&#x200B;을 선택합니다.
+1. 브랜드 포털 로그인 페이지에서 액세스 **[!UICONTROL 필요]****[!UICONTROL ?]**. 하지만 게스트 세션에 입장하려면 Guest Access에 해당하는 **[!UICONTROL 여기를]**클릭**[!UICONTROL ?]**을 선택합니다.
 
    ![브랜드 포털 로그인 화면](assets/bp-login-requestaccess.png)
 
@@ -139,16 +141,16 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
    **시나리오 1**
    1. Adobe ID, Enterprise ID [!UICONTROL 또는 Federated ID가]있는 [!UICONTROL 경우][로그인] ****을 클릭합니다.
-로그인 [!UICONTROL 페이지가] 열립니다.
+로그인[!UICONTROL 페이지가]열립니다.
    1. Adobe ID [!UICONTROL 자격 증명을] 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
    ![Adobe 로그인](assets/bplogin_request_access_3.png)
 
    액세스 요청 [!UICONTROL 페이지로 리디렉션됩니다] .<br />
    **시나리오 2**
-   1. Adobe ID가 없는 [!UICONTROL 경우]ID를 만들려면 [액세스 요청] **[!UICONTROL 페이지에서]** [!UICONTROL [Adobe ID] 가져오기]를클릭합니다.
-로그인 [!UICONTROL 페이지가] 열립니다.
+   1. Adobe ID가 없는 [!UICONTROL 경우]ID를 만들려면 [액세스 요청] **[!UICONTROL 페이지에서]**[!UICONTROL [Adobe ID]가져오기]를클릭합니다.
+로그인[!UICONTROL 페이지가]열립니다.
    1. Click **[!UICONTROL Get an Adobe ID]**.
-등록 [!UICONTROL 페이지가] 열립니다.
+등록[!UICONTROL 페이지가]열립니다.
    1. 이름과 성, 이메일 ID 및 암호를 입력합니다.
    1. 등록을 **[!UICONTROL 선택합니다]**.<br />
    ![](assets/bplogin_request_access_5.png)
@@ -166,7 +168,7 @@ source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 ![액세스 요청 알림](assets/bplogin_request_access_7.png)
 
 액세스 권한을 부여하려면 제품 관리자는 브랜드 포털 알림 영역에서 관련 알림을 클릭한 다음 액세스 권한 부여를 **[!UICONTROL 클릭해야 합니다]**.
-또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 Adobe Admin [!UICONTROL Console을] 방문하여 관련 제품 구성에 사용자를 추가할 수 있습니다.
+또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 Adobe Admin[!UICONTROL Console을]방문하여 관련 제품 구성에 사용자를 추가할 수 있습니다.
 
 Adobe Admin Console [홈 [!UICONTROL 페이지로 리디렉션됩니다]](https://adminconsole.adobe.com/enterprise/overview) . Adobe Admin [!UICONTROL Console] 을 사용하여 사용자를 만들고 제품 프로필(이전의 제품 구성)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. 관리 콘솔에서 사용자를 추가하는 방법에 대한 [!UICONTROL 자세한]내용은 사용자 [추가(](brand-portal-adding-users.md#add-a-user) 사용자추가 절차의 4-7단계 수행)를 참조하십시오.
 
@@ -178,7 +180,7 @@ Adobe Experience Cloud 설정에서 브랜드 포털 언어를 변경할 [!UICON
 
 언어를 변경하려면:
 
-1. 상단 [!UICONTROL 메뉴에서 사용자] &gt; [!UICONTROL 프로필] 편집을 선택합니다.<br />
+1. 상단 [!UICONTROL 메뉴에서 사용자] > [!UICONTROL 프로필] 편집을 선택합니다.<br />
    ![프로필 편집](assets/EditBPProfile.png)
 
 1. Experience [!UICONTROL Cloud] 설정 페이지의 언어 [!UICONTROL 드롭다운 메뉴에서 언어를] 선택합니다.
@@ -195,7 +197,7 @@ Adobe Experience Cloud 설정에서 브랜드 포털 언어를 변경할 [!UICON
 
 * [새로운 기능](whats-new.md)
 * [릴리스 노트](brand-portal-release-notes.md)
-* [지원되는 파일 포맷](brand-portal-supported-formats.md)
+* [지원되는 파일 형식](brand-portal-supported-formats.md)
 
 ## Related resources {#related-resources}
 
