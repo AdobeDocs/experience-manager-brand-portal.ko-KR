@@ -1,21 +1,21 @@
 ---
-title: 디지털 자산 권한 관리
-seo-title: 디지털 자산 권한 관리
+title: 자산의 디지털 권한 관리
+seo-title: 자산의 디지털 권한 관리
 description: 에셋 라이선스와 에셋 및 공유 링크에 대한 만료 설정을 통해 이러한 에셋의 사용을 제어하고 안전하게 보호할 수 있습니다.
 seo-description: 에셋 라이선스와 에셋 및 공유 링크에 대한 만료 설정을 통해 이러한 에셋의 사용을 제어하고 안전하게 보호할 수 있습니다.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 참조
+content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
 
-# 디지털 자산 권한 관리 {#manage-digital-rights-of-assets}
+# 자산의 디지털 권한 관리 {#manage-digital-rights-of-assets}
 
 브랜드를 보호하기 위해 크리에이티브 에셋과 브랜드 자료의 안전한 배포와 사용을 보장하는 것이 중요합니다. 만료 날짜(및 시간)를 AEM에서 게시된 승인된 자산과 연관시키거나 조건부 사용을 위해 이러한 자산에 라이선스를 부여함으로써 조직 및 외부에서 적용할 수 있습니다. 또한 브랜드 포털에서는 브랜드 포털에서 공유된 자산에 대한 링크의 만료 날짜를 지정할 수 있습니다.
 
@@ -29,7 +29,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 브랜드 포털에서 관리자는 만료된 자산을 보고 다운로드하고 컬렉션에 추가할 수 있습니다. 반면에 편집자와 뷰어는 만료된 자산만 보고 컬렉션에 추가할 수 있습니다.
 
-관리자는 AEM 자산에서 만료된 자산을 브랜드 포털에 게시할 수 있습니다. 그러나 만료된 에셋은 브랜드 포털에서 잉크로 공유할 수 없습니다. 만료된 자산과 만료되지 않은 자산이 모두 포함된 폴더에서 만료된 자산을 선택하는 경우 링크 **[!UICONTROL 공유]** 작업은 사용할 수 없습니다. 그러나 만료되거나 만료되지 않은 에셋이 포함된 폴더를 선택하면 공유 및 [!UICONTROL 링크] **** 공유작업을사용할 수 있습니다.
+관리자는 AEM 자산에서 만료된 자산을 브랜드 포털에 게시할 수 있습니다. 그러나 만료된 에셋은 브랜드 포털에서 잉크로 공유할 수 없습니다. 만료된 자산과 만료되지 않은 자산이 모두 포함된 폴더에서 만료된 자산을 선택하는 경우 링크 **[!UICONTROL 공유]**작업은 사용할 수 없습니다. 그러나 만료되거나 만료되지 않은 에셋이 포함된 폴더를 선택하면 공유 및[!UICONTROL 링크]**** 공유작업을사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 |  | **[!UICONTROL 링크 공유]** | **[!UICONTROL 다운로드]** | **[!UICONTROL 속성]** | **[!UICONTROL 컬렉션에 추가]** | **[!UICONTROL 삭제]** |
 |---|---|---|---|---|---|
 | **[!UICONTROL 관리자]** | 사용할 수 없음 | 사용 가능 | 사용 가능 | 사용 가능 | 사용 가능 |
-| **[!UICONTROL 편집기]** | 사용할 수 없음 | 사용할 수 없음 | 사용 가능 | 사용 가능 | 사용할 수 없음 |
+| **[!UICONTROL 편집자]** | 사용할 수 없음 | 사용할 수 없음 | 사용 가능 | 사용 가능 | 사용할 수 없음 |
 | **[!UICONTROL 뷰어]** | 사용할 수 없음 | 사용할 수 없음 | 사용 가능 | 사용 가능 | 사용할 수 없음 |
 | **[!UICONTROL 손님 사용자]** | 사용할 수 없음 | 사용할 수 없음 | 사용 가능 | 사용 가능 | 사용할 수 없음 |
 
@@ -50,7 +50,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ### 자산의 만료 상태 {#expiration-status-of-assets}
 
-[카드 보기]에서 자산의 만료 상태를 볼 수 [!UICONTROL 있습니다]. 카드의 빨간색 플래그는 자산이 만료되었음을 나타냅니다.
+[카드 보기]에서 자산의 만료 상태를 볼 수 **[!UICONTROL 있습니다]**. 카드의 빨간색 플래그는 자산이 만료되었음을 나타냅니다.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,7 +60,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ## 자산 링크 만료 {#asset-link-expiration}
 
-링크를 통해 자산을 공유하는 동안 관리자와 편집자는 링크 공유 대화 상자의 만료 **[!UICONTROL 필드를 사용하여]** 만료 날짜 및 시간을 설정할 **[!UICONTROL 수]** 있습니다. 링크의 기본 만료는 링크가 공유된 날짜로부터 7일입니다.
+링크를 통해 자산을 공유하는 동안 관리자와 편집자는 링크 공유 대화 상자의 만료 **[!UICONTROL 필드를 사용하여]**만료 날짜 및 시간을 설정할**[!UICONTROL &#x200B;수]** 있습니다. 링크의 기본 만료는 링크가 공유된 날짜로부터 7일입니다.
 
 ![](assets/asset-link-sharing.png)
 
@@ -74,11 +74,11 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 라이선스로 보호된 자산에는 [라이선스 계약이](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 첨부되어 있으며, 이는 AEM 자산에서 자산의 [메타데이터 속성을](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 설정하여 수행됩니다.
 
-라이선스로 보호된 에셋을 다운로드하도록 선택하면 저작권 관리 [!UICONTROL 페이지로 리디렉션됩니다] .
+라이선스로 보호된 에셋을 다운로드하도록 선택하면 저작권 관리 **[!UICONTROL 페이지로 리디렉션됩니다]**.
 
 ![](assets/asset-copyright-mgmt.png)
 
-여기에서 다운로드할 자산을 선택하고 관련 사용권 계약에 동의해야 합니다. 라이센스 계약에 동의하지 않으면 다운로드 [!UICONTROL 단추가] 활성화되지 않습니다.
+여기에서 다운로드할 자산을 선택하고 관련 사용권 계약에 동의해야 합니다. 라이센스 계약에 동의하지 않으면 다운로드 **[!UICONTROL 단추가]**활성화되지 않습니다.
 
 ![](assets/licensed-asset-download-2.png)
 
