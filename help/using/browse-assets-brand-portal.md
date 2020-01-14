@@ -5,16 +5,16 @@ description: 브랜드 포털에서 다양한 보기 옵션 및 UI 요소를 사
 seo-description: 브랜드 포털에서 다양한 보기 옵션 및 UI 요소를 사용하여 자산 검색, 자산 계층 트래버스 및 자산 검색
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 참조
-topic-tags: 소개
+content-type: reference
+topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
 
-# 브랜드 포털에서 자산 찾아보기 {#browsing-assets-on-brand-portal}
+# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
 AEM Assets 브랜드 포털에서는 다양한 보기 옵션을 사용하는 동안 리소스 탐색, 자산 계층 탐색 및 자산 검색을 용이하게 하는 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
 
@@ -78,15 +78,15 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 * 을 클릭합니다.
 * 레일 선택기를 선택하는 드롭다운에 있습니다.
 
-자산/ [!UICONTROL 폴더를] 선택한 동안 개요 옵션을 선택하면 제목, 경로 및 자산 생성 시간을 볼 수 있습니다. 반면에 자산 세부 사항 페이지에서 개요 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
+자산/ **[!UICONTROL 폴더를]**선택한 동안 개요 옵션을 선택하면 제목, 경로 및 자산 생성 시간을 볼 수 있습니다. 반면에 자산 세부 사항 페이지에서 개요 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option.png)
 
 ![](assets/overview-rail-selector.png)
 
-#### View settings in card view
+#### 카드 보기에서 설정 보기
 
-[!UICONTROL View Settings] dialog opens on selecting **[!UICONTROL View Settings]** from the view selector. It enables you to resize the asset thumbnails in the Card view. This way, you can personalize your view and control the number of thumbnails that is displayed.
+**[!UICONTROL 뷰]**선택기에서 설정**[!UICONTROL &#x200B;보기를 선택하면 설정]** 보기 대화 상자가 열립니다. 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이렇게 하면 보기를 개인화하고 표시되는 축소판 수를 제어할 수 있습니다.
 
 ![](assets/cardviewsettings.png)
 
@@ -94,9 +94,9 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 ![](assets/list-view.png)
 
-목록 보기에는 현재 수준의 각 리소스에 대한 정보가 표시됩니다. List view provides the following details:
+목록 보기에는 현재 수준의 각 리소스에 대한 정보가 표시됩니다. 목록 보기에서는 다음 세부 사항을 제공합니다.
 
-* Thumbnail image of assets
+* 에셋의 축소판 이미지
 * 이름
 * 제목
 * 로케일
@@ -104,10 +104,10 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 * 차원
 * 크기
 * 등급
-* Folder path showing asset hierarchy*<sup></sup>
-* Date of publishing the asset on Brand Portal
+* 자산 계층 구조를<sup>보여주는 폴더 경로*</sup>
+* 브랜드 포털에 자산을 게시한 날짜
 
-* Path column lets you easily identify asset location in the folder hierarchy. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 목록 보기에서 설정 보기
 
-List view shows asset [!UICONTROL Name] as the first column by default. Additional information, such as asset Title, Locale, Type, Dimensions, Size, Rating, publish status are also shown.  However, you can select the columns to be shown using [!UICONTROL View Settings].
+목록 보기에는 기본적으로 **[!UICONTROL 자산]**이름이 첫 번째 열로 표시됩니다. 자산 제목**[!UICONTROL ,]**로케일 **[!UICONTROL ,]**로케일**[!UICONTROL &#x200B;유형]**, **[!UICONTROL 차원]**, 크기, 크기,********크기, 등급, 게시 상태와 같은 추가 정보가 표시됩니다. However, you can select the columns to be shown using**[!UICONTROL  View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -123,15 +123,15 @@ List view shows asset [!UICONTROL Name] as the first column by default. Addition
 
 ![](assets/column-view.png)
 
-Use the column view to navigate a content tree through a series of cascading columns. This view helps you visualize and traverse the asset hierarchy.
+열 보기를 사용하여 일련의 계단식 열을 통해 컨텐츠 트리를 탐색합니다. 이 보기는 자산 계층을 시각화하고 트래버스하는 데 도움이 됩니다.
 
-Selecting a resource in the first (leftmost) column displays child resources in the second column to the right. 두 번째 열에서 리소스를 선택하면 오른쪽의 세 번째 열에 하위 리소스가 표시됩니다.
+첫 번째(맨 왼쪽) 열에서 리소스를 선택하면 오른쪽의 두 번째 열에 하위 리소스가 표시됩니다. 두 번째 열에서 리소스를 선택하면 오른쪽의 세 번째 열에 하위 리소스가 표시됩니다.
 
-You can navigate up and down in the tree by tapping or clicking the resource name or the chevron to the right of the resource name.
+리소스 이름 또는 리소스 이름 오른쪽에 있는 V자형을 탭하거나 클릭하여 트리에서 위아래로 탐색할 수 있습니다.
 
-* The resource name and chevron are highlighted when tapped or clicked.
+* 탭하거나 클릭하면 리소스 이름과 V자형이 강조 표시됩니다.
 * 축소판을 탭하거나 클릭하면 리소스가 선택됩니다.
-* When selected, a check mark is overlaid on the thumbnail and the resource name is highlighted.
+* 이 옵션을 선택하면 축소판에 확인 표시가 겹쳐 표시되고 리소스 이름이 강조 표시됩니다.
 * 선택한 리소스의 세부 정보가 마지막 열에 표시됩니다.
 
 열 보기에서 자산을 선택하면 자산의 시각적 표현이 다음 세부 정보와 함께 마지막 열에 표시됩니다.
@@ -232,7 +232,7 @@ Comment Type: draft
 
 이러한 보기 외에도 트리 보기를 사용하여 원하는 자산 또는 폴더를 보고 선택하는 동안 자산 계층 구조를 드릴다운합니다.
 
-트리 보기를 열려면 왼쪽 상단에 있는 레일 선택기를 탭/클릭하고 메뉴에서 **[!UICONTROL 컨텐츠 트리를]** 선택합니다.
+트리 보기를 열려면 왼쪽 상단에 있는 레일 선택기를 탭/클릭하고 메뉴에서 **[!UICONTROL 컨텐츠 트리를]**선택합니다.
 
 ![](assets/contenttree.png)
 
@@ -254,7 +254,7 @@ Comment Type: draft
 
 ![](assets/renditions.png)
 
-자산 속성 페이지를 열려면 상단 **[!UICONTROL 막대에서 속성(p)]** 옵션을 사용합니다.
+자산 속성 페이지를 열려면 상단 **[!UICONTROL 막대에서 속성(p)]**옵션을 사용합니다.
 
 ![](assets/asset-properties.png)
 
