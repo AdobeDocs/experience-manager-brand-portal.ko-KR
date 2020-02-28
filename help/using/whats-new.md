@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal의 새로운 기능
 seo-title: AEM Assets Brand Portal의 새로운 기능
-description: 6.4.5의 새로운 기능과 향상된 기능을 살펴보십시오.
-seo-description: 6.4.5의 새로운 기능과 향상된 기능을 살펴보십시오.
+description: 6.4.6의 새로운 기능과 향상된 기능을 살펴보십시오.
+seo-description: 6.4.6의 새로운 기능과 향상된 기능을 살펴보십시오.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
+source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
 
 ---
 
@@ -19,10 +19,46 @@ source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 
 AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 장치 간 외부 사용자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스 위험을 줄일 수 있습니다. Adobe는 전반적인 브랜드 포털 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 개선 사항에 대한 간략한 개요를 제공합니다.
 
+## 6.4.6의 변경 사항 {#what-changed-in-646}
+
+Brand Portal 6.4.6은 AEM Assets와 브랜드 포털 간의 인증 채널이 변경되는 개선 릴리스입니다. 이제 AEM Assets는 Adobe I/O를 통해 브랜드 포털로 구성되며, 브랜드 포털 임차인의 승인을 위해 IMS 토큰을 조달합니다.
+
+이전에는 브랜드 포털이 레거시 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 JWT 토큰 교환을 사용하여 인증에 대한 IMS 액세스 토큰을 획득했습니다.
+
+<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+-->
+
+<!--
+  
+   | **AEM Version** |**New Integration** |**Upgrade Integration** |
+|---|---|---|
+| **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+
+   -->
+
+Adobe I/O에서 브랜드 포털이 포함된 AEM 자산 구성은 다음에서 지원됩니다.
+* AEM 6.5.4.0 이상
+* AEM 6.4.8.0 이상
+* AEM 6.3.3.8 이상
+
+
+>[!NOTE]
+>
+>기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며 Adobe I/O로 전환됩니다.
+>
+>구성 설정을 삭제하거나 수정하지 않으면 기존 구성이 계속 작동합니다.
+
+최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+
+브랜드 [포털 FAQ를 참조하십시오](brand-portal-faqs.md).
+
 ## 6.4.5의 변경 사항 {#what-changed-in-645}
 
 
-브랜드 포털 6.4.5는 브랜드 포털 사용자(외부 에이전시/팀)에게 컨텐츠를 브랜드 포털에 업로드하고 AEM 자산에 게시할 수 있는 기능을 제공하는 데 중점을 두는 기능 릴리스입니다. 작성자 환경에 대한 액세스 권한 없이도 가능합니다. 이 기능은 브랜드 포털에서 **[자산](brand-portal-asset-sourcing.md)**&#x200B;소싱이라고 하며, 사용자가 자산을 기부하고 전 세계적으로 배포된 다른 브랜드 포털 사용자와 공유할 수 있는 양방향 메커니즘을 제공하여 고객 경험을 향상시킬 수 있습니다.
+Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를 Brand Portal에 업로드하고 AEM Assets에 게시할 수 있는 기능을 Brand Portal 사용자(외부 에이전시/팀)에게 제공하는 데 중점을 둔 기능 릴리스입니다. 이 기능은 브랜드 포털에서 **[자산](brand-portal-asset-sourcing.md)**소싱이라고 하며, 사용자가 자산을 기부하고 전 세계적으로 배포된 다른 브랜드 포털 사용자와 공유할 수 있는 양방향 메커니즘을 제공하여 고객 경험을 향상시킬 수 있습니다.
 
 ### 브랜드 포털의 자산 소싱 {#asset-sourcing-in-bp}
 
@@ -34,10 +70,6 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 사용자가 NEW 폴더에 컨텐츠 추가를 **완료하면** 기여도 폴더를 다시 AEM 작성자 환경에 게시할 수 있습니다. 가져오기를 완료하고 AEM Assets 내에서 새로 게시된 컨텐츠를 반영하는 데 몇 분이 걸릴 수 있습니다.
 
 또한 모든 기존 기능은 변경되지 않습니다. 브랜드 포털 사용자는 기여도 폴더뿐만 아니라 허용된 다른 폴더에서도 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고 속성을 수정하고 컬렉션에 자산을 추가할 수 있습니다.
-
-최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
-
-브랜드 [포털 FAQ 참조](brand-portal-faqs.md)
 
 >[!NOTE]
 >
@@ -64,7 +96,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 ## 6.4.4의 변경 사항 {#what-changed-in-644}
 
-브랜드 포털 6.4.4 릴리스에서는 텍스트 검색 및 주요 고객 요청에 대한 개선 사항에 중점을 둡니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+Brand Portal 6.4.4 릴리스는 텍스트 검색 향상 및 상위 고객 요청 사항에 중점을 둡니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
 
 ### 향상된 검색 기능 {#search-enhancements}
 
@@ -490,7 +522,7 @@ Adobe는 브랜드 포털 사용자 경험을 AEM과 정렬하기 위해 Coral 3
 
 검색, 검색 및 다운로드 기능이 향상되어 브랜드 포털 성능이 크게 향상되었습니다.
 
-### 자산을 위한 새로운 디지털 권한 관리 {#new-digital-rights-management-for-assets}
+### New digital rights management for assets {#new-digital-rights-management-for-assets}
 
 관리자는 자산을 공유하기 전에 자산의 만료 날짜 및 시간을 설정할 수 있습니다. 에셋이 만료되면 뷰어 및 편집자는 볼 수 있지만 다운로드할 수 없습니다. 자산이 만료되면 관리자는 알림을 받습니다.
 
