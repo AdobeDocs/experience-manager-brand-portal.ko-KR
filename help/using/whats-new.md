@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -21,9 +21,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 ## 6.4.6의 변경 사항 {#what-changed-in-646}
 
-Brand Portal 6.4.6은 AEM Assets와 브랜드 포털 간의 인증 채널이 변경되는 개선 릴리스입니다. 이제 AEM Assets는 Adobe I/O를 통해 브랜드 포털로 구성되며, 브랜드 포털 임차인의 승인을 위해 IMS 토큰을 조달합니다.
-
-이전에는 브랜드 포털이 레거시 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 JWT 토큰 교환을 사용하여 인증에 대한 IMS 액세스 토큰을 획득했습니다.
+Brand Portal 6.4.6은 AEM Assets와 브랜드 포털 간의 인증 채널이 변경되는 개선 릴리스입니다. 이전에는 브랜드 포털이 레거시 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 JWT 토큰 교환을 사용하여 인증에 대한 IMS 액세스 토큰을 획득했습니다. 이제 AEM Assets는 Adobe I/O를 통해 브랜드 포털로 구성되며, 브랜드 포털 임차인의 승인을 위해 IMS 토큰을 조달합니다.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -39,17 +37,28 @@ Brand Portal 6.4.6은 AEM Assets와 브랜드 포털 간의 인증 채널이 변
 
    -->
 
-Adobe I/O에서 브랜드 포털이 포함된 AEM 자산 구성은 다음에서 지원됩니다.
-* AEM 6.5.4.0 이상
-* AEM 6.4.8.0 이상
-* AEM 6.3.3.8 이상
+브랜드 포털과 함께 AEM 자산을 구성하는 단계는 AEM 버전, 최초 구성 여부 또는 기존 구성을 업그레이드하는지에 따라 다릅니다.
+
+<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+-->
 
 
->[!NOTE]
->
->기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며 Adobe I/O로 전환됩니다.
->
->구성 설정을 삭제하거나 수정하지 않으면 기존 구성이 계속 작동합니다.
+<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+* AEM 6.5.4.0 and above
+* AEM 6.4.8.0 and above
+* AEM 6.3.3.8 and above -->
+
+| **AEM 버전** | **새 구성** | **업그레이드 구성** |
+|---|---|---|
+| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [업그레이드 구성](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.4(6.4.8.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [업그레이드 구성](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.3(6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [업그레이드 구성](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.2** | 지원 문의 | 지원 문의 |
 
 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
 
@@ -185,7 +194,7 @@ Brand Portal 6.4.4 릴리스는 텍스트 검색 향상 및 상위 고객 요청
 
 AEM 작성자 인스턴스가 Dynamic Media 하이브리드 모드에 있는 사용자는 원본 비디오 파일 외에도 다이내믹 미디어 변환을 미리 보고 다운로드할 수 있습니다.
 
-특정 임차인 계정에서 다이내믹 미디어 표현물을 미리 보고 다운로드할 수 있도록 관리자는 관리 도구 패널에서 비디오 **구성에서 다이내믹 미디어 구성** (비디오 서비스 URL(DM-게이트웨이 URL) 및 등록 ID) **을** 지정해야 합니다.
+특정 테넌트 계정에서 다이내믹 미디어 표현물을 미리 보고 다운로드하려면 관리자는 관리 도구 패널에서 비디오 **구성에서 다이내믹 미디어 구성** (비디오 서비스 URL(DM-게이트웨이 URL) 및 등록 ID) **을** 지정해야 합니다.
 
 **사용 사례** Dynamic Media 비디오를 미리 볼 수 있는 날짜:
 
@@ -206,7 +215,7 @@ AEM 작성자 인스턴스가 Dynamic Media 하이브리드 모드에 있는 사
 
 AEM(6.4.2.0) [에서](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) 만든 이 인스턴스에서 브랜드 포털로의 게시 워크플로우는 이후 날짜로 예약할 수 있습니다.
 
-마찬가지로 게시된 자산은 나중 날짜(시간)에 포털에서 게시 취소 워크플로우를 예약하여 제거할 수 있습니다.
+마찬가지로, 게시된 자산은 브랜드 포털에서 게시 취소 워크플로우를 예약하여 나중 날짜(시간)에 포털에서 제거할 수 있습니다.
 
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
@@ -325,7 +334,7 @@ AEM 브랜드 포털을 통해 고객이 포털에 액세스할 수 있습니다
 
 ## 검색 개선 사항
 
-관리자는 업데이트된 속성 조건자를 사용하여 대/소문자를 구분하지 않고 속성을 조건자로 지정할 수 있습니다. 이 조건자는 대/소문자 무시 여부를 확인할 수 있습니다. 이 옵션은 속성 조건자 및 다중 값 속성 조건자에 사용할 수 있습니다.\
+관리자는 업데이트된 속성 조건자를 사용하여 대/소문자를 구분하지 않도록 속성 조건자를 지정할 수 있습니다. 이 조건자는 대/소문자 무시 여부를 확인할 수 있습니다. 이 옵션은 속성 조건자 및 다중 값 속성 조건자에 사용할 수 있습니다.\
 그러나 대/소문자를 구분하지 않는 검색은 속성 조건자에 대한 기본 검색보다 상대적으로 느립니다. 검색 필터에 대/소문자를 구분하지 않는 조건자가 너무 많으면 검색 속도가 느려질 수 있습니다. 따라서 대/소문자를 구분하지 않는 검색을 신중하게 사용하는 것이 좋습니다.
 
 ## 6.4.1의 변경 사항 {#what-changed-in-2}
