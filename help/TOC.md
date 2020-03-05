@@ -5,7 +5,7 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
    + [AEM 자산과 브랜드 포털 이해](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Brand Portal에서 자산 검색](using/browse-assets-brand-portal.md)
 + AEM Assets에서 Brand Portal에 게시 {#publish}
-   + [브랜드 포털과 AEM 자산 통합 구성](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [브랜드 포털에서 AEM 자산 구성](using/configure-aem-assets-with-brand-portal.md)
    + [브랜드 포털에 컬렉션 게시](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
    + [브랜드 포털에 폴더 게시](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Brand Portal에 동시 게시 문제 해결](using/troubleshoot-parallel-publishing.md)
