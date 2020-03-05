@@ -10,17 +10,17 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 8554b9768040b59d2b1a03a3703b2d7235e63bcb
 
 ---
 
 
 # Brand Portal에 대한 게스트 액세스 {#guest-access-to-brand-portal}
 
-AEM 브랜드 포털을 통해 고객이 포털에 액세스할 수 있습니다. 손님 사용자는 포털에 입장할 자격 증명이 필요하지 않으며 포털의 공개 자산(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 Lightbox(비공개 컬렉션)에 에셋을 추가하고, 게스트 사용자가 세션 종료를 선택하지 않는 한 세션이 끝날 때까지 동일한 에셋을 다운로드할 [[!UICONTROL 수 있습니다]](#exit-guest-session).
+AEM 브랜드 포털을 통해 고객이 포털에 액세스할 수 있습니다. 게스트 사용자는 포털에 입장할 자격 증명이 필요하지 않으며 포털의 공개 자산(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 Lightbox(비공개 컬렉션)에 에셋을 추가하고, 게스트 사용자가 세션 종료를 선택하지 않는 한 세션이 끝날 때까지 동일한 에셋을 다운로드할 [[!UICONTROL 수 있습니다]](#exit-guest-session).
 
 게스트 액세스 기능을 통해 조직은 승인된 자산을 [](../using/brand-portal-sharing-folders.md#how-to-share-folders) 도입 없이 규모에 맞게 대상 고객과 신속하게 공유할 수 있습니다. Brand Portal 6.4.2 버전부터는 여러 명의 동시 게스트 사용자를 지원할 수 있습니다. 이는 조직당 총 사용자 할당량의 10%입니다. 게스트 액세스를 허용하면 브랜드 포털에서 제한된 기능을 사용해야 하는 많은 사용자와 관리에 소요되는 시간을 절약할 수 있습니다.\
-조직은 관리 도구 패널의 액세스 설정에서 손님 액세스 허용 옵션을 사용하여 조직의 브랜드 포털 계정에서 손님 액세스를 활성화(또는 비활성화) ******[!UICONTROL &#x200B;할]** 수있습니다.
+조직은 관리 도구 패널의 액세스 설정에서 손님 액세스 허용 옵션을 사용하여 조직의 브랜드 포털 계정에서 손님 액세스를 활성화(또는 비활성화) **** **[!UICONTROL 할]** 수있습니다.
 
 <!--
 Comment Type: annotation
@@ -33,14 +33,14 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 손님 세션 시작 {#begin-guest-session}
 
-익명으로 브랜드 포털에 들어가려면 **[!UICONTROL 손님 액세스에 해당하는 여기를]**클릭**[!UICONTROL &#x200B;옵션을 선택하십시오.]** 브랜드 포털 시작 화면 사용자는 액세스 권한을 요청하고 관리자가 인증 권한을 부여하여 브랜드 포털 사용을 기다릴 필요가 없습니다.
+익명으로 브랜드 포털에 들어가려면 **[!UICONTROL 손님 액세스에 해당하는 여기를]** 클릭 **[!UICONTROL 옵션을 선택하십시오.]** 브랜드 포털 시작 화면 브랜드 포털 사용 권한을 부여하려면 catcha 보안 검사를 입력합니다.
 
 ![](assets/bp-login-screen.png)
 
 ## 게스트 세션 기간 {#guest-session-duration}
 
-게스트 사용자 세션은 2시간 동안 활성 상태로 유지됩니다. 즉, Lightbox의 상태는 세션 시작 **[!UICONTROL 시간으로부터]**1시간, 2시간 후 현재 게스트 세션이 다시 시작되어 Lightbox 상태가 손실됩니다.\
-예를 들어 게스트 사용자는 1500시간에 브랜드 포털에 로그인하고 16:50시간에 다운로드할 수 있도록 Lightbox에 자산을 추가합니다. 사용자가 17:00 **[!UICONTROL 시간 전에 Lightbox]**컬렉션(또는 해당 에셋)을**[!UICONTROL &#x200B;다운로드하지 않으면]** 사용자가 1시간(1700시간)이 끝날 때 세션을 다시 시작해야 하므로 Lightbox는 비어 있게 됩니다.
+게스트 사용자 세션은 2시간 동안 활성 상태로 유지됩니다. 즉, Lightbox의 상태는 세션 시작 **[!UICONTROL 시간으로부터]** 1시간 동안 유지되며 2시간 후 현재 게스트 세션이 다시 시작되어 Lightbox 상태가 손실됩니다.\
+예를 들어 게스트 사용자는 1500시간에 브랜드 포털에 로그인하고 16:50시간에 다운로드할 수 있도록 Lightbox에 자산을 추가합니다. 사용자가 17:00 **[!UICONTROL 시간 전에 Lightbox]** 컬렉션(또는 해당 에셋)을 **[!UICONTROL 다운로드하지 않으면]** 사용자가 1시간(1700시간)이 끝날 때 세션을 다시 시작해야 하므로 Lightbox는 비어 있게 됩니다.
 
 ## 동시 손님 세션 허용됨 {#concurrent-guest-sessions-allowed}
 
@@ -58,7 +58,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 이러한 상위 폴더는 가상 폴더이며, 가상 폴더에 대해 작업을 수행할 수 없습니다. 이러한 가상 폴더는 잠금 아이콘을 사용하여 인식할 수 있습니다.
 
-공유 폴더와 달리 카드 보기에서 마우스로 가리키거나 선택할 **[!UICONTROL 때]**작업 작업을 볼 수 없습니다.**[!UICONTROL [개요]** ] 단추는 [열 보기] 및 [목록 보기]에서 가상 **[!UICONTROL 폴더를]**선택할 때**[!UICONTROL &#x200B;표시됩니다]**.
+공유 폴더와 달리 카드 보기에서 마우스로 가리키거나 선택할 **[!UICONTROL 때]**&#x200B;작업 작업을 볼 수 없습니다. **[!UICONTROL [개요]** ] 단추는 [열 보기] 및 [목록 보기]에서 가상 **[!UICONTROL 폴더를]** 선택할 때 **[!UICONTROL 표시됩니다]**.
 
 >[!NOTE]
 >
@@ -66,27 +66,27 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-**[!UICONTROL [설정]**보기] 옵션을 사용하면 손님 사용자가 [카드 보기]에서 카드 크기를 조정하거나 [**[!UICONTROL &#x200B;목록 보기]** ]에 표시할 열을 조정할 **[!UICONTROL 수]**있습니다.
+**[!UICONTROL [설정]** 보기] 옵션을 사용하면 손님 사용자가 [카드 보기]에서 카드 크기를 조정하거나 [ **[!UICONTROL 목록 보기]** ]에 표시할 열을 조정할 **[!UICONTROL 수]**&#x200B;있습니다.
 
 ![](assets/nav-guest-user.png)
 
-컨텐츠 **[!UICONTROL 트리를]**사용하면 자산 계층 구조에서 이동할 수 있습니다.
+컨텐츠 **[!UICONTROL 트리를]** 사용하면 자산 계층 구조에서 이동할 수 있습니다.
 
 ![](assets/guest-login-ui.png)
 
-브랜드 포털에서는 게스트 **[!UICONTROL 사용자가]**선택한 자산/폴더의**[!UICONTROL &#x200B;자산]** 속성을 볼 수 있는 개요 옵션을 제공합니다. 개요 **[!UICONTROL 옵션은]**다음과 같습니다.
+브랜드 포털에서는 게스트 **[!UICONTROL 사용자가]** 선택한 자산/폴더의 **[!UICONTROL 자산]** 속성을 볼 수 있는 개요 옵션을 제공합니다. 개요 **[!UICONTROL 옵션은]** 다음과 같습니다.
 
 * 자산/폴더 선택 상단에 있는 도구 모음에서.
 * 레일 선택기 선택 드롭다운에서
-자산/ **[!UICONTROL 폴더를]**선택한 동안 개요 옵션을 선택하면 제목, 경로 및 자산 생성 시간을 볼 수 있습니다. 반면에 자산 세부 사항 페이지에서 개요**[!UICONTROL &#x200B;옵션을 선택하면]** 사용자가 자산의 메타데이터를 볼 수 있습니다.
+자산/ **[!UICONTROL 폴더를]** 선택한 동안 개요 옵션을 선택하면 제목, 경로 및 자산 생성 시간을 볼 수 있습니다. 반면에 자산 세부 사항 페이지에서 개요 **[!UICONTROL 옵션을 선택하면]** 사용자가 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option-1.png)
 
 ![](assets/overview-rail-selector-1.png)<br />
 
-**[!UICONTROL 왼쪽 레일의 탐색]**옵션을 사용하면 파일에서 컬렉션으로 이동하고 게스트 세션에서 다시 탐색할 수 있으므로 사용자는 파일이나 컬렉션의 자산을 검색할 수 있습니다.
+**[!UICONTROL 왼쪽 레일의 탐색]** 옵션을 사용하면 파일에서 컬렉션으로 이동하고 게스트 세션에서 다시 탐색할 수 있으므로 사용자는 파일이나 컬렉션의 자산을 검색할 수 있습니다.
 
-**[!UICONTROL 필터]**옵션을 사용하면 게스트 사용자가 관리자가 설정한 검색 조건자를 사용하여 자산 파일과 폴더를 필터링할 수 있습니다.
+**[!UICONTROL 필터]** 옵션을 사용하면 게스트 사용자가 관리자가 설정한 검색 조건자를 사용하여 자산 파일과 폴더를 필터링할 수 있습니다.
 
 ### 게스트 사용자 기능
 
@@ -108,7 +108,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ### 게스트 세션에서 에셋 다운로드
 
-게스트 사용자는 공개적으로 공유되거나 Brand Portal에서 손님 사용자와 단독으로 공유된 자산을 직접 다운로드할 수 있습니다. 게스트 사용자는 세션이 만료되기 전에 Lightbox **[!UICONTROL (공개]**컬렉션)에 에셋을 추가하고**[!UICONTROL  Lightbox]** 컬렉션을 다운로드할 수도 있습니다.
+게스트 사용자는 공개적으로 공유되거나 Brand Portal에서 손님 사용자와 단독으로 공유된 자산을 직접 다운로드할 수 있습니다. 게스트 사용자는 세션이 만료되기 전에 Lightbox **[!UICONTROL (공개]** 컬렉션)에 에셋을 추가하고 **[!UICONTROL Lightbox]** 컬렉션을 다운로드할 수도 있습니다.
 
 자산 및 컬렉션을 다운로드하려면 다운로드 아이콘을 사용합니다.
 
@@ -117,14 +117,14 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/download-on-guest.png)
 
-다운로드 **[!UICONTROL 대화 상자에서 다운로드 가속]**사용을[!UICONTROL 선택하면]다운로드 성능을[향상시킬 수 있습니다](../using/accelerated-download.md).
+다운로드 **[!UICONTROL 대화 상자에서 다운로드 가속]** 사용을 [!UICONTROL 선택하면] 다운로드 성능을 [향상시킬 수 있습니다](../using/accelerated-download.md).
 
 ## 게스트 세션 종료 {#exit-guest-session}
 
-게스트 세션을 종료하려면 헤더에서 **[!UICONTROL 사용할]**수 있는 옵션에서 세션 종료를 사용합니다. 그러나 게스트 세션에 사용된 브라우저 탭이 비활성 상태인 경우 2시간 동안 활동이 없는 경우 세션이 자동으로 만료됩니다.
+게스트 세션을 종료하려면 헤더에서 **[!UICONTROL 사용할]** 수 있는 옵션에서 세션 종료를 사용합니다. 그러나 게스트 세션에 사용된 브라우저 탭이 비활성 상태인 경우 2시간 동안 활동이 없는 경우 세션이 자동으로 만료됩니다.
 
 ![](assets/end-guest-session.png)
 
 ## 손님 사용자 활동 모니터링 {#monitoring-guest-user-activities}
 
-관리자는 브랜드 포털과의 게스트 사용자 상호 작용을 모니터링할 수 있습니다. 브랜드 포털에서 생성된 보고서는 게스트 사용자 활동에 대한 주요 통찰력을 제공할 수 있습니다. 예를 들어 **[!UICONTROL 다운로드]**보고서를 사용하여 게스트 사용자가 다운로드한 자산의 수를 추적할 수 있습니다.**[!UICONTROL &#x200B;사용자 로그인]** 보고서는 게스트 사용자가 마지막으로 포털에 로그인한 날짜와 지정된 기간 동안 로그인 빈도를 알릴 수 있습니다.
+관리자는 브랜드 포털과의 게스트 사용자 상호 작용을 모니터링할 수 있습니다. 브랜드 포털에서 생성된 보고서는 게스트 사용자 활동에 대한 주요 통찰력을 제공할 수 있습니다. 예를 들어 **[!UICONTROL 다운로드]** 보고서를 사용하여 게스트 사용자가 다운로드한 자산의 수를 추적할 수 있습니다. **[!UICONTROL 사용자 로그인]** 보고서는 게스트 사용자가 마지막으로 포털에 로그인한 날짜와 지정된 기간 동안 로그인 빈도를 알릴 수 있습니다.
