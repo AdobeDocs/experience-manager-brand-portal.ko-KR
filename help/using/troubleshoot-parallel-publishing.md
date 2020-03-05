@@ -5,26 +5,26 @@ description: 병렬 게시 문제를 해결합니다.
 seo-description: 병렬 게시 문제를 해결합니다.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 참조
-topic-tags: 브랜드 포털
-discoiquuid: a4801024-b509-4c51-afd8-e37417e658b
+content-type: reference
+topic-tags: brand-portal
+discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
 
 
 # Brand Portal에 동시 게시 문제 해결 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-브랜드 포털은 AEM Assets와의 통합을 지원하여 AEM Assets 작성자 인스턴스에서 원활하게 인제스트되거나 게시되도록 승인된 브랜드 자산을 지원합니다. 통합된 [](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)AEM Author는 복제 에이전트를 사용하여 선택한 자산을 Brand Portal 클라우드 서비스에 복제하여 브랜드 포털 사용자의 승인을 받습니다. 여러 복제 에이전트가 AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 및 이상 버전을 사용하여 고속 병렬 게시를 허용합니다.
+브랜드 포털은 AEM Assets 작성 인스턴스에서 인제스트되거나 게시되는 승인된 브랜드 자산을 AEM Assets로 구성합니다. 일단 [구성되면](../using/configure-aem-assets-with-brand-portal.md)AEM 작성자는 복제 에이전트를 사용하여 선택한 자산을 브랜드 포털 사용자가 승인한 사용을 위해 브랜드 포털 클라우드 서비스에 복제합니다. 여러 복제 에이전트가 AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 및 이상 버전을 사용하여 고속 병렬 게시를 허용합니다.
 
 >[!NOTE]
 >
->AEM Assets 브랜드 포털이 AEM Assets와 성공적으로 통합되도록 AEM 6.4.1.0으로 업그레이드할 것을 권장합니다. AEM 6.4의 제한 사항은 브랜드 포털과의 통합을 구성하는 동안 오류가 발생하고 복제가 실패합니다.
+>AEM 자산 브랜드 포털이 AEM 자산으로 성공적으로 구성되도록 하려면 AEM 6.4.1.0으로 업그레이드할 것을 권장합니다. AEM 6.4의 제한 사항은 브랜드 포털에서 AEM 자산을 구성하는 동안 오류가 발생하고 복제가 실패합니다.
 
 브랜드 포털에 대한 클라우드 서비스를 구성할 때 **[!UICONTROL /etc/cloudservice]**&#x200B;아래에 필요한 모든 사용자 및 토큰이 자동으로 생성되고 보관소에 저장됩니다. 클라우드 서비스 구성이 생성되며, 복제 에이전트와 복제 에이전트가 컨텐츠를 복제하는 데 필요한 서비스 사용자도 생성됩니다. 이렇게 하면 4개의 복제 에이전트가 만들어집니다. 따라서 AEM에서 브랜드 포털에 많은 자산을 게시하면 이러한 자산은 라운드 로빈을 통해 이러한 복제 에이전트 간에 큐에 올라가 배포됩니다.
 
-그러나 AEM 작성자 인스턴스에서 네트워크 및 디스크 입출력이 증가하거나 AEM 작성자 **[!UICONTROL 인스턴스의 성능이 저하되어]** 간헐적으로 게시할 수 없습니다. 따라서 게시를 시작하기 전에 복제 에이전트와의 연결을 테스트하는 것이 좋습니다.
+그러나 AEM 작성자 인스턴스에서 네트워크 및 디스크 입출력이 증가하거나 AEM 작성자 **[!UICONTROL 인스턴스의 성능이 저하되어]** 간헐적으로 게시가 실패할 수 있습니다. 따라서 게시를 시작하기 전에 복제 에이전트와의 연결을 테스트하는 것이 좋습니다.
 
 ![](assets/test-connection.png)
 
@@ -60,7 +60,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### 기존 브랜드 포털 게시 구성 정리 {#clean-up-existing-config}
 
-게시 작업이 작동하지 않는 대부분의 경우 게시 중인 사용자가 원인일 수 있습니다(예:최신 개인 키가 `mac-<tenantid>-replication` 없으므로 "401 권한 없음" 오류로 인해 게시가 실패하며 복제 에이전트 로그에 다른 오류가 보고되지 않습니다. 문제를 해결하고 새 구성을 만들지 않으려는 경우가 있습니다. 새 구성이 제대로 작동하려면 AEM 작성자 설정에서 다음을 정리하십시오.
+게시 작업이 작동하지 않는 대부분의 경우 게시 중인 사용자가 원인일 수 있습니다(예:최신 개인 키가 `mac-<tenantid>-replication` 없으므로 &quot;401 권한 없음&quot; 오류로 인해 게시가 실패하며 복제 에이전트 로그에 다른 오류가 보고되지 않습니다. 문제를 해결하고 새 구성을 만들지 않으려는 경우가 있습니다. 새 구성이 제대로 작동하려면 AEM 작성자 설정에서 다음을 정리하십시오.
 
 1. (localhost:4502에서 작성자 인스턴스를 실행 중임을 고려해 `localhost:4502/crx/de/` 봅니다.\
    i.delete `/etc/replication/agents.author/mp_replication`ii. 삭제 `/etc/cloudservices/mediaportal/<config_name>`
