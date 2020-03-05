@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 또한 모든 기존 기능은 변경되지 않습니다. 브랜드 포털 사용자는 기여도 폴더뿐만 아니라 허용된 다른 폴더에서도 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고 속성을 수정하고 컬렉션에 자산을 추가할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 ## 전제 조건 {#prerequisites}
 
 * AEM 6.5.0.2 이상.
-* AEM 자산 인스턴스가 브랜드 포털과 통합되었는지 확인합니다. 브랜드 [포털과 AEM 자산 통합 구성을 참조하십시오](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+* AEM 자산 인스턴스가 브랜드 포털로 구성되어 있는지 확인합니다. 브랜드 포털에서 [AEM 자산 구성을 참조하십시오](../using/configure-aem-assets-with-brand-portal.md).
 
 ## 참고 항목 {#reference-articles}
 
