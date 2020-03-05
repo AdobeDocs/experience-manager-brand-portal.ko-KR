@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -26,6 +26,24 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 브랜드 [포털의 자산 소싱을 참조하십시오](brand-portal-asset-sourcing.md).
 
 브라우저 기반 포털 환경을 사용하면 승인된 형식으로 에셋을 손쉽게 업로드, 탐색, 검색, 미리 보기 및 내보낼 수 있습니다.
+
+## 브랜드 포털에서 AEM 자산 구성 {#configure-brand-portal}
+
+AEM(Adobe Experience Manager) 자산은 Adobe I/O를 통해 브랜드 포털로 구성되며, 브랜드 포털 임차인의 승인을 위해 IMS 토큰을 조달합니다.
+
+>[!NOTE]
+>
+>Adobe I/O를 통해 브랜드 포털에서 AEM 자산 구성은 AEM 6.3 이상에서 지원됩니다.
+
+### 브랜드 포털에서 AEM 자산 구성을 위한 전제 조건 {#prerequisites}
+
+브랜드 포털에서 AEM 자산을 구성하려면 다음이 필요합니다.
+
+* 최신 서비스 팩이 있는 AEM Assets 작성자 인스턴스를 시작하고 실행합니다.
+* 브랜드 포털 임차인 URL.
+* 브랜드 포털 임차인의 IMS 조직에 대한 시스템 관리자 권한이 있는 사용자.
+
+자세한 내용은 브랜드 포털에서 AEM 자산 [구성을 참조하십시오](../using/configure-aem-assets-with-brand-portal.md).
 
 ## 브랜드 포털의 사용자 성향 {#Personas}
 
@@ -103,7 +121,7 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 위의 작업 외에 AEM 자산의 작성자는 다음 작업을 수행할 수 있습니다.
 
-[브랜드 포털과 AEM 자산 통합 구성](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[브랜드 포털에서 AEM 자산 구성](../using/configure-aem-assets-with-brand-portal.md)
 
 [브랜드 포털에 폴더 게시](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -112,9 +130,9 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 ## 브랜드 포털 URL에 대한 대체 별칭 {#tenant-alias-for-portal-url}
 
 브랜드 포털 6.4.3 이상 버전에서 조직은 브랜드 포털 테넌트의 기존 URL에 대해 하나의 대체(별칭) URL을 가질 수 있습니다. 별칭 URL은 URL에 대체 접두사가 있으면 만들 수 있습니다.\
-브랜드 포털 URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다. 예를 들어 기존 도메인 **[!UICONTROL geometrix.brand-portal.adobe.com]**을 사용하는 조직은**[!UICONTROL &#x200B;요청 시 geometrixx.brand-portal.adobe.com]** 을 만들 수 있습니다.
+브랜드 포털 URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다. 예를 들어 기존 도메인 **[!UICONTROL geometrix.brand-portal.adobe.com]** 을 사용하는 조직은 **[!UICONTROL 요청 시 geometrixx.brand-portal.adobe.com]** 을 만들 수 있습니다.
 
-그러나 AEM 작성자 인스턴스는 테넌트 ID로만 [구성할](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) 수 있으며 임차인 별칭(대체) URL로는 구성할 수 없습니다.
+그러나 AEM 작성자 인스턴스는 테넌트 ID로만 [구성할](../using/configure-aem-assets-with-brand-portal.md) 수 있으며 임차인 별칭(대체) URL로는 구성할 수 없습니다.
 
 >[!NOTE]
 >
@@ -128,7 +146,7 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 액세스를 요청하려면 다음을 수행합니다.
 
-1. 브랜드 포털 로그인 페이지에서 액세스 **[!UICONTROL 필요]****[!UICONTROL ?]**. 하지만 게스트 세션에 입장하려면 Guest Access에 해당하는 **[!UICONTROL 여기를]**클릭**[!UICONTROL ?]**을 선택합니다.
+1. 브랜드 포털 로그인 페이지에서 액세스 **[!UICONTROL 필요]** **[!UICONTROL ?]**. 하지만 게스트 세션에 입장하려면 Guest Access에 해당하는 **[!UICONTROL 여기를]** 클릭 **[!UICONTROL ?]**&#x200B;을 선택합니다.
 
    ![브랜드 포털 로그인 화면](assets/bp-login-requestaccess.png)
 
@@ -141,16 +159,16 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
    **시나리오 1**
    1. Adobe ID, Enterprise ID [!UICONTROL 또는 Federated ID가]있는 [!UICONTROL 경우][로그인] ****을 클릭합니다.
-로그인[!UICONTROL 페이지가]열립니다.
+로그인 [!UICONTROL 페이지가] 열립니다.
    1. Adobe ID [!UICONTROL 자격 증명을] 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
    ![Adobe 로그인](assets/bplogin_request_access_3.png)
 
    액세스 요청 [!UICONTROL 페이지로 리디렉션됩니다] .<br />
    **시나리오 2**
-   1. Adobe ID가 없는 [!UICONTROL 경우]ID를 만들려면 [액세스 요청] **[!UICONTROL 페이지에서]**[!UICONTROL [Adobe ID]가져오기]를클릭합니다.
-로그인[!UICONTROL 페이지가]열립니다.
+   1. Adobe ID가 없는 [!UICONTROL 경우]ID를 만들려면 [액세스 요청] **[!UICONTROL 페이지에서]** [!UICONTROL [Adobe ID] 가져오기]를클릭합니다.
+로그인 [!UICONTROL 페이지가] 열립니다.
    1. Click **[!UICONTROL Get an Adobe ID]**.
-등록[!UICONTROL 페이지가]열립니다.
+등록 [!UICONTROL 페이지가] 열립니다.
    1. 이름과 성, 이메일 ID 및 암호를 입력합니다.
    1. 등록을 **[!UICONTROL 선택합니다]**.<br />
    ![](assets/bplogin_request_access_5.png)
@@ -168,7 +186,7 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 ![액세스 요청 알림](assets/bplogin_request_access_7.png)
 
 액세스 권한을 부여하려면 제품 관리자는 브랜드 포털 알림 영역에서 관련 알림을 클릭한 다음 액세스 권한 부여를 **[!UICONTROL 클릭해야 합니다]**.
-또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 Adobe Admin[!UICONTROL Console을]방문하여 관련 제품 구성에 사용자를 추가할 수 있습니다.
+또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 Adobe Admin [!UICONTROL Console을] 방문하여 관련 제품 구성에 사용자를 추가할 수 있습니다.
 
 Adobe Admin Console [홈 [!UICONTROL 페이지로 리디렉션됩니다]](https://adminconsole.adobe.com/enterprise/overview) . Adobe Admin [!UICONTROL Console] 을 사용하여 사용자를 만들고 제품 프로필(이전의 제품 구성)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. 관리 콘솔에서 사용자를 추가하는 방법에 대한 [!UICONTROL 자세한]내용은 사용자 [추가(](brand-portal-adding-users.md#add-a-user) 사용자추가 절차의 4-7단계 수행)를 참조하십시오.
 
