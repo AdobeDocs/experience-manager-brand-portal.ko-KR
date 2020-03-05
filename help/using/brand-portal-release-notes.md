@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
+source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
 
@@ -35,7 +35,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
-* Captcha - Brand Portal에 게스트 로그인을 위한 것입니다.
+* Captcha - Brand Portal에 게스트 로그인을 위한 것입니다. 자세한 내용은 [브랜드 포털 게스트 액세스를](../using/guest-access.md) 참조하십시오.
 
 ### 향상된 기능 {#enhancements-646}
 
@@ -45,11 +45,11 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
    >[!NOTE]
    >
-   >기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며 Adobe I/O로 전환됩니다.
+   >기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe I/O를 통해 구성으로 변경되었습니다.
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+자세한 내용은 브랜드 포털에서 [AEM 자산 구성을 참조하십시오.](configure-aem-assets-with-brand-portal.md)
+
 
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
