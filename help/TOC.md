@@ -5,7 +5,7 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
+source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
 
 ---
 
@@ -24,8 +24,9 @@ source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
    + [Brand Portal에서 자산 검색](using/browse-assets-brand-portal.md)
 + AEM Assets에서 Brand Portal에 게시 {#publish}
    + [브랜드 포털에서 AEM 자산 구성](using/configure-aem-assets-with-brand-portal.md)
-   + [브랜드 포털에 컬렉션 게시](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [브랜드 포털에 폴더 게시](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [브랜드 포털에 자산 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [브랜드 포털에 폴더 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [브랜드 포털에 컬렉션 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Brand Portal에 동시 게시 문제 해결](using/troubleshoot-parallel-publishing.md)
    + [태그를 Brand Portal에 게시](using/brand-portal-publish-tags.md)
    + [사전 설정, 스키마 및 패싯을 Brand Portal에 게시](using/publish-schema-search-facets-presets.md)
