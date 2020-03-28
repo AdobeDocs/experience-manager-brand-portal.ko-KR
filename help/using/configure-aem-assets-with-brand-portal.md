@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -23,10 +23,14 @@ AEM(Adobe Experience Manager) 자산은 Adobe I/O를 통해 브랜드 포털로 
 >이전에는 브랜드 포털이 레거시 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 JWT 토큰 교환을 사용하여 인증에 대한 IMS 액세스 토큰을 획득했습니다.
 >
 >기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe I/O를 통해 구성으로 변경되었습니다.
+
+
+>[!TIP]
 >
->기존 OAuth 게이트웨이에 구성이 있는 기존 브랜드 포털 사용자는 기존 구성을 삭제하고 Adobe I/O에 새 구성을 만드는 것이 좋습니다.
+>***기존 고객만 해당***
 >
->그러나 구성을 수정하지 않으면 기존 구성이 계속 작동합니다.
+>기존 레거시 OAuth 게이트웨이 구성을 계속 사용하는 것이 좋습니다. 기존 OAuth 게이트웨이 구성 문제가 발생하면 기존 구성을 삭제하고 Adobe I/O를 통해 새 구성을 만드십시오.
+
 
 브랜드 포털과 함께 AEM 자산을 구성하는 단계는 AEM 버전, 최초 구성 여부 또는 기존 구성을 업그레이드하는지에 따라 다릅니다.
 
