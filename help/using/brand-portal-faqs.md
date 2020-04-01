@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -19,6 +19,20 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 브랜드 포털 FAQ 파섹
 
 
+## 브랜드 포털 6.4.6 FAQ {#faqs-bp646}
+
+**Ques. 기존 레거시 OAuth 끝점(`https://legacy-oauth.cloud.adobe.io/login`)이 작동하지 않습니다. 이유가 뭘까.**
+
+**Ans.** 레거시 OAuth 구성은 더 이상 사용되지 않습니다. AEM Assets 작성자 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe IO를 사용하여 구성해야 합니다. 자세한 [내용은 브랜드 포털과 함께 AEM 자산](configure-aem-assets-with-brand-portal.md) 구성을 참조하십시오. 하지만 업그레이드할 때까지 레거시 OAuth 구성이 작동하려면 레거시 OAuth 끝점을 다음으로 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`업데이트하십시오.
+
+**Ques. Adobe I/O로 업그레이드한 후 기여도 폴더의 자산을 브랜드 포털에서 AEM 자산으로 게시할 수 없습니다.내 작성자 인스턴스는 AEM 6.5.4에 있습니다.이유가 뭘까.**
+
+**Ans.** 예. Adobe I/O를 사용하여 AEM 6.5.4의 AEM 자산에 기여도 폴더의 자산을 게시하는 동안 알려진 문제가 있습니다.이 문제는 다음 서비스 팩 AEM 6.5.5에서 해결됩니다.
+
+AEM 6.5.4에 대한 즉각적인 수정 사항은 핫픽스를 [다운로드하고](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) AEM 작성자 인스턴스에 설치하는 것이 좋습니다.
+
+
+## 브랜드 포털 6.4.5 FAQ {#faqs-bp645}
 
 **Ques. 브랜드 포털 6.4.5 릴리스의 주요 변경 사항은 무엇입니까?**
 
@@ -108,7 +122,7 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 **Ques. 가져오기 및 게시 작업 상태는 어디에서 볼 수 있습니까?**
 
-**Ans.** AEM에서는 **비동기** 작업 페이지에서 가져오기 상태를 볼 수 있습니다. 브랜드 포털에서는 도구 > 자산 기여도 **[!UICONTROL 상태에서]**게시 작업의 상태를 볼 수 있습니다.
+**Ans.** AEM에서는 **비동기** 작업 페이지에서 가져오기 상태를 볼 수 있습니다. 브랜드 포털에서는 도구 > 자산 기여도 **[!UICONTROL 상태에서]**&#x200B;게시 작업의 상태를 볼 수 있습니다.
 
 
 
