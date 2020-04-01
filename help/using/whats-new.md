@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
 
 ---
 
@@ -59,6 +59,12 @@ Brand Portal 6.4.6은 AEM Assets와 브랜드 포털 간의 인증 채널이 변
 | **AEM 6.4(6.4.8.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [업그레이드 구성](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3(6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [업그레이드 구성](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 지원 문의 | 지원 문의 |
+
+>[!NOTE]
+>
+>AEM 인스턴스를 최신 서비스 팩으로 업데이트하는 것이 좋습니다.
+
+
 
 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
 
