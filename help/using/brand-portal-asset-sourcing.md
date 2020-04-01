@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -40,6 +40,18 @@ source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 >AEM 인스턴스를 지원되는 최신 AEM 버전으로 업그레이드하려면 Adobe 지원에 문의하십시오.
 
 ![브랜드 포털 자산 소싱](assets/asset-sourcing.png)
+
+
+>[!NOTE]
+>
+>AEM 6.5.4 사용자의 경우 자산 소싱 기능은 &quot;이전 OAuth 통합&quot;에서 계속 작동합니다.
+>
+>그러나 브랜드 포털 사용자는 AEM 6.5.4에서 Adobe I/O로 업그레이드할 때 기여도 폴더 자산을 AEM 자산에 게시할 수 없습니다.
+>
+>이 문제는 다음 서비스 팩 AEM 6.5.5에서 해결됩니다.
+>
+>AEM 6.5.4에 대한 즉각적인 수정 사항은 핫픽스를 [다운로드하고](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) 작성자 인스턴스에 설치하는 것이 좋습니다.
+
 
 ## 전제 조건 {#prerequisites}
 
