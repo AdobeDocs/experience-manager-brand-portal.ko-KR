@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
    >기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe I/O를 통해 구성으로 변경되었습니다.
 
 
-   >[!TIP]
-   >
-   >***기존 고객만 해당***
-   >
-   >기존 레거시 OAuth 게이트웨이 구성을 계속 사용하는 것이 좋습니다. 기존 OAuth 게이트웨이 구성 문제가 발생하면 기존 구성을 삭제하고 Adobe I/O를 통해 새 구성을 만드십시오.
+>[!TIP]
+>
+>***기존 고객만 해당***
+>
+>기존 레거시 OAuth 게이트웨이 구성을 계속 사용하는 것이 좋습니다. 이전 OAuth 게이트웨이 구성에 문제가 있는 경우 기존 구성을 삭제하고 Adobe I/O를 통해 새 구성을 만드십시오.
 
 
 자세한 내용은 브랜드 포털에서 [AEM 자산 구성을 참조하십시오.](configure-aem-assets-with-brand-portal.md)
-
 
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
 
-* 브랜드 포털 사용자는 Adobe I/O로 업그레이드할 때 기여도 폴더 자산을 AEM 자산에 게시할 수 없습니다.
+* 브랜드 포털 사용자는 AEM 6.5.4에서 Adobe I/O로 업그레이드할 때 기여도 폴더 자산을 AEM 자산에 게시할 수 없습니다.
 
-* 자산 다운로드 중 시스템 변환 제외 옵션이 제대로 작동하지 않습니다.
+   이 문제는 다음 서비스 팩 6.5.5에서 해결됩니다.
+
+   AEM 6.5.4에 대한 즉각적인 수정 사항은 핫픽스를 [다운로드하고](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) 작성자 인스턴스에 설치하는 것이 좋습니다.
+
+* 자산을 다운로드하는 동안 시스템 표현물 제외 옵션이 제대로 작동하지 않습니다.
+
 
 ## 언어 {#languages}
 
