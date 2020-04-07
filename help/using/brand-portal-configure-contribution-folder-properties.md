@@ -5,12 +5,13 @@ description: 'AEM 자산에서 기여도 폴더의 속성을 구성하는 방법
 seo-description: 'AEM 자산에서 기여도 폴더의 속성을 구성하는 방법에 대한 통찰력을 얻을 수 있습니다. '
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -29,7 +30,7 @@ AEM 관리자는 기여도 폴더의 속성을 구성하는 동안 다음 작업
 
 **기여도 폴더 속성을 구성하려면:**
 1. AEM 작성자 인스턴스에 로그인기본 URL:http://로컬 호스트:4502/aem/start.html
-1. 자산 &gt; **[!UICONTROL 파일로]** 이동하고 기여도 폴더를 찾습니다.
+1. 자산 > **[!UICONTROL 파일로]** 이동하고 기여도 폴더를 찾습니다.
 1. 기여도 폴더를 선택하고 속성을 **[!UICONTROL 클릭합니다]**![](assets/properties.png). 폴더 속성 창이 열립니다.
    ![](assets/contribution-folder-property1.png)
 1. 자산 기여도 **[!UICONTROL 탭으로]** 이동합니다.
@@ -37,7 +38,7 @@ AEM 관리자는 기여도 폴더의 속성을 구성하는 동안 다음 작업
 1. 요약 **[!UICONTROL 업로드를]** 클릭하여 ![](assets/upload.png) 로컬 컴퓨터에서 검색하고 자산 요구 사항 **문서를 업로드합니다**.
 1. 사용자 **[!UICONTROL 또는 그룹]**&#x200B;추가에서 **[!UICONTROL 기여도 폴더를 공유할]** 브랜드 포털 사용자 또는 그룹을 검색하고 추가합니다.
 이러한 브랜드 포털 사용자/그룹은 AEM 작성자 인스턴스에 액세스할 필요 없이 기여도 폴더에 액세스하고 브랜드 포털 인터페이스에서 콘텐츠를 업로드할 수 있는 권한을 갖습니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**을 클릭합니다.
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
