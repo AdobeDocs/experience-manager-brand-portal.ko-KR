@@ -5,11 +5,12 @@ description: AEM 자산에서 자산 소싱 기능 구성에 대한 통찰력을
 seo-description: AEM 자산에서 자산 소싱 기능 구성에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
