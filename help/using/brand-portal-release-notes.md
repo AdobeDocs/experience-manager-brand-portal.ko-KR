@@ -5,11 +5,12 @@ description: Adobe Experience Manager Assets Brand Portal 6.4.6 릴리스의 기
 seo-description: Adobe Experience Manager Assets Brand Portal 6.4.6 릴리스의 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
@@ -37,11 +38,14 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 * Captcha - Brand Portal에 게스트 로그인을 위한 것입니다. 자세한 내용은 [브랜드 포털 게스트 액세스를](../using/guest-access.md) 참조하십시오.
 
+* 이제 브랜드 포털이 AEM Assets 클라우드 서비스에서 지원됩니다. 브랜드 포털에서 서비스를 통해 브랜드 포털 사용자와 자산을 공유하고 배포할 수 있도록 AEM 자산을 구성할 수 있습니다.
+자세한 내용은 브랜드 포털에서 [AEM Assets 클라우드 서비스 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+
 ### 향상된 기능 {#enhancements-646}
 
 이 브랜드 포털 릴리스에는 다음 개선 사항이 포함됩니다.
 
-* 이제 AEM Assets는 Adobe I/O를 통해 브랜드 포털로 구성되며, 브랜드 포털 임차인의 승인을 위해 IMS 토큰을 조달합니다.
+* AEM 6.3 이상에서 AEM 자산과 브랜드 포털 간의 인증 채널이 변경되었습니다. 이제 AEM Assets는 Adobe I/O를 통해 브랜드 포털로 구성되며, 브랜드 포털 임차인의 승인을 위해 IMS 토큰을 조달합니다.
 
    >[!NOTE]
    >
