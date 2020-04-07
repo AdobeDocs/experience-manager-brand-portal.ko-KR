@@ -4,12 +4,13 @@ seo-title: 브랜드 포털에 기여도 폴더 게시
 description: 브랜드 포털 6.4.5에서 AEM 자산에서 브랜드 포털에 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
 seo-description: 브랜드 포털 6.4.5에서 AEM 자산에서 브랜드 포털에 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
-content-type: 참조
-topic-tags: 브랜드 포털
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,8 +23,8 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 1. AEM 작성자 인스턴스에 로그인합니다.
 기본 URL:http://로컬 호스트:4502/aem/start.html
-1. 자산 **[!UICONTROL &gt; 파일로]** 이동하고 브랜드 포털에 게시할 기여도 폴더를 찾습니다.
-1. 기여도 폴더를 선택하고 빠른 게시 **[!UICONTROL &gt; 브랜드 포털에 게시를 클릭합니다]**.
+1. 자산 **[!UICONTROL > 파일로]** 이동하고 브랜드 포털에 게시할 기여도 폴더를 찾습니다.
+1. 기여도 폴더를 선택하고 빠른 게시 **[!UICONTROL > 브랜드 포털에 게시를 클릭합니다]**.
    ![](assets/publish-contribution-folder-to-bp.png)
 기여도 폴더가 브랜드 포털에 게시되면 성공 메시지가 표시됩니다.
 
