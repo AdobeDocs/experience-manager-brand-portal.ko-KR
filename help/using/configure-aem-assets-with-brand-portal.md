@@ -5,20 +5,25 @@ description: 브랜드 포털에서 AEM 자산 구성에 대한 통찰력을 얻
 seo-description: 브랜드 포털에서 AEM 자산 구성에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: 75d69f85a4178b78eba15a13f865a602e73d3a88
 
 ---
 
 
 # 브랜드 포털에서 AEM 자산 구성 {#configure-integration}
 
-AEM(Adobe Experience Manager) 자산은 Adobe I/O를 통해 브랜드 포털로 구성되며, 브랜드 포털 임차인의 승인을 위해 IMS 토큰을 조달합니다. 이 구성을 통해 브랜드 포털 사용자에 대한 자산 게시, 자산 배포 및 자산 기여도 기능을 사용할 수 있습니다.
+AEM(Adobe Experience Manager) 자산은 Adobe I/O를 통해 브랜드 포털로 구성되며, 브랜드 포털 임차인의 승인을 위해 IMS 토큰을 조달합니다. 이제 브랜드 포털은 AEM Assets 클라우드 서비스, AEM Assets 6.3 이상에서 지원됩니다.
+
+브랜드 포털에서 AEM 자산을 구성하면 브랜드 포털 사용자와 자산을 게시하고 배포할 수 있습니다. 반면에 AEM 6.3(및 이상)에서 브랜드 포털을 구성하면 브랜드 포털 사용자에 대한 자산 게시, 자산 배포 및 자산 기여도 기능을 사용할 수 있습니다.
 
 >[!NOTE]
+>
+>***AEM Assets 6.3 이상***
 >
 >이전에는 브랜드 포털이 레거시 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 JWT 토큰 교환을 사용하여 인증에 대한 IMS 액세스 토큰을 획득했습니다.
 >
@@ -36,6 +41,7 @@ AEM(Adobe Experience Manager) 자산은 Adobe I/O를 통해 브랜드 포털로 
 
 | **AEM 버전** | **새 구성** | **업그레이드 구성** |
 |---|---|---|
+| **클라우드 서비스로서의 AEM Assets** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [업그레이드 구성](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4(6.4.8.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [업그레이드 구성](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3(6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [업그레이드 구성](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
