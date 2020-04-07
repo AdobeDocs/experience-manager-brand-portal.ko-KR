@@ -4,12 +4,13 @@ seo-title: 기여도 폴더에 새 자산 업로드
 description: 브랜드 포털의 기여도 폴더에 새 자산을 업로드하는 방법에 대한 통찰력을 얻을 수 있습니다.
 seo-description: 브랜드 포털의 기여도 폴더에 새 자산을 업로드하는 방법에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
-content-type: 참조
-topic-tags: 브랜드 포털
+content-type: reference
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -33,7 +34,7 @@ source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 1. 을 클릭하여 기여도 폴더를 열면 기여도 폴더 내에 두 개의 하위 폴더(**[!UICONTROL 공유]** 및 **[!UICONTROL 신규]** )가표시됩니다.
 1. 새 **[!UICONTROL 폴더를]** 클릭합니다.
    ![](assets/upload-new-assets1.png)
-1. 만들기 **[!UICONTROL &gt; 파일을]** 클릭하여 ![](assets/upload.png) 개별 파일 또는 여러 에셋이 포함된 폴더(.zip)를 업로드합니다.
+1. 만들기 **[!UICONTROL > 파일을]** 클릭하여 ![](assets/upload.png) 개별 파일 또는 여러 에셋이 포함된 폴더(.zip)를 업로드합니다.
    ![](assets/upload-new-assets2.png)
 1. NEW 폴더에서 새 자산(파일/폴더) **[!UICONTROL 을]** 찾아 업로드합니다.
    ![](assets/upload-new-assets3.png)
