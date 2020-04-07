@@ -5,11 +5,12 @@ description: Adobe Experience Manager Assets 브랜드 포털에서 자주 묻�
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 **Ques. Adobe I/O로 업그레이드한 후 기여도 폴더의 자산을 브랜드 포털에서 AEM 자산으로 게시할 수 없습니다.내 작성자 인스턴스는 AEM 6.5.4에 있습니다.이유가 뭘까.**
 
-**Ans.** 예. Adobe I/O를 사용하여 AEM 6.5.4의 AEM 자산에 기여도 폴더의 자산을 게시하는 동안 알려진 문제가 있습니다.이 문제는 다음 서비스 팩 AEM 6.5.5에서 해결됩니다.
+**Ans.** 예. Adobe I/O를 사용하여 AEM 6.5.4의 AEM 자산에 기여도 폴더의 자산을 게시하는 동안 알려진 문제가 있습니다.이 문제는 다음 서비스 팩에서 해결됩니다.
 
 AEM 6.5.4에 대한 즉각적인 수정 사항은 핫픽스를 [다운로드하고](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) AEM 작성자 인스턴스에 설치하는 것이 좋습니다.
 
