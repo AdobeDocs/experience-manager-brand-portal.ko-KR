@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -33,13 +33,13 @@ AEM(Adobe Experience Manager) 자산은 Adobe I/O를 통해 브랜드 포털로 
 
 >[!NOTE]
 >
->Adobe I/O를 통해 브랜드 포털에서 AEM 자산 구성은 AEM 6.3 이상에서 지원됩니다.
+>Adobe I/O를 통해 브랜드 포털에서 AEM 자산 구성은 AEM Assets 클라우드 서비스, AEM Assets 6.3 이상에서 지원됩니다.
 
 ### 브랜드 포털에서 AEM 자산 구성을 위한 전제 조건 {#prerequisites}
 
 브랜드 포털에서 AEM 자산을 구성하려면 다음이 필요합니다.
 
-* 최신 서비스 팩이 있는 AEM Assets 작성자 인스턴스를 시작하고 실행합니다.
+* AEM Assets 인스턴스를 실행하고 있습니다.
 * 브랜드 포털 임차인 URL.
 * 브랜드 포털 임차인의 IMS 조직에 대한 시스템 관리자 권한이 있는 사용자.
 
@@ -219,5 +219,5 @@ Adobe Experience Cloud 설정에서 브랜드 포털 언어를 변경할 [!UICON
 
 ## Related resources {#related-resources}
 
-* [Adobe 고객 지원 센터](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
 * [AEM 포럼](https://www.adobe.com/go/aod_forums_en)
