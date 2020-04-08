@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
+source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
 
 ---
 
@@ -39,7 +39,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 * Captcha - Brand Portal에 게스트 로그인을 위한 것입니다. 자세한 내용은 [브랜드 포털 게스트 액세스를](../using/guest-access.md) 참조하십시오.
 
 * 이제 브랜드 포털이 AEM Assets 클라우드 서비스에서 지원됩니다. 브랜드 포털에서 서비스를 통해 브랜드 포털 사용자와 자산을 공유하고 배포할 수 있도록 AEM 자산을 구성할 수 있습니다.
-자세한 내용은 브랜드 포털에서 [AEM Assets 클라우드 서비스 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+자세한 내용은 브랜드 포털에서 [AEM Assets 클라우드 서비스 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### 향상된 기능 {#enhancements-646}
 
