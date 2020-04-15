@@ -9,14 +9,14 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Brand Portal에 동시 게시 문제 해결 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-브랜드 포털은 AEM Assets 작성 인스턴스에서 인제스트되거나 게시되는 승인된 브랜드 자산을 AEM Assets로 구성합니다. 일단 [구성되면](../using/configure-aem-assets-with-brand-portal.md)AEM 작성자는 복제 에이전트를 사용하여 선택한 자산을 브랜드 포털 사용자가 승인한 사용을 위해 브랜드 포털 클라우드 서비스에 복제합니다. 여러 복제 에이전트가 AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 및 이상 버전을 사용하여 고속 병렬 게시를 허용합니다.
+브랜드 포털은 AEM Assets 작성 인스턴스에서 인제스트되거나 게시되는 승인된 브랜드 자산을 AEM Assets로 구성합니다. 일단 [구성되면](../using/configure-aem-assets-with-brand-portal.md)AEM 작성자는 복제 에이전트를 사용하여 선택한 자산을 브랜드 포털 사용자가 승인한 사용을 위해 브랜드 포털 클라우드 서비스에 복제합니다. 여러 복제 에이전트가 고속 병렬 게시를 허용하는 AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 이상 버전을 사용합니다.
 
 >[!NOTE]
 >
