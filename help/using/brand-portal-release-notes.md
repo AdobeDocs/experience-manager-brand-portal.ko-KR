@@ -1,8 +1,8 @@
 ---
 title: 릴리스 정보
 seo-title: 릴리스 정보
-description: Adobe Experience Manager Assets Brand Portal 6.4.6 릴리스의 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Adobe Experience Manager Assets Brand Portal 6.4.6 릴리스의 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+description: Adobe Experience Manager Assets 브랜드 포털 6.4.6.2 릴리스의 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Adobe Experience Manager Assets 브랜드 포털 6.4.6.2 릴리스의 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,25 +10,54 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
+source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 15%
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 6.4.6 릴리스의 새로운 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets 브랜드 포털 6.4.6.2 릴리스의 새로운 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets 브랜드 포털 |
 |---|---|
-| 버전 | 6.4.6 |
-| 날짜 | 2020년 3월 |
+| 버전 | 6.4.6.2 |
+| 날짜 | 2020년 6월 |
 
 ## 개요 {#overview}
 
-AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 장치 간 외부 사용자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스 위험을 줄일 수 있습니다. 브랜드 포털을 통해 사용자는 언제 어디에서나 회사에서 승인한 포맷으로 에셋을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
+AEM(Adobe Experience Manager) 자산 브랜드 포털은 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 디바이스를 사용하는 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 도와줍니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 여부에 대한 위험을 줄일 수 있습니다. 브랜드 포털을 통해 사용자는 언제 어디에서나 회사에서 승인한 포맷으로 자산을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
+
+## 6.4.6.2의 새로운 기능 {#what-s-new-in-6462}
+
+### 중요한 문제 수정 {#critical-issues-fixed-6462}
+
+이 릴리스에는 다음과 같은 중요한 문제가 수정되었습니다.
+
+* 게시된 메타데이터 스키마를 브랜드 포털에서 제거하면 오류가 발생합니다.
+
+* 관리자가 Adobe 개발자 콘솔을 통해 브랜드 포털로 Experience Manager Assets 6.5.4를 구성하는 경우, 브랜드 포털 사용자는 기여도 폴더의 자산을 브랜드 포털에서 Experience Manager로 게시할 수 없습니다.
+
+* 충돌을 일으키는 상위 폴더의 복제 복제.
+
+* 사용자가 링크 공유 보고서를 생성할 수 없습니다.
+
+* 사용자는 copyPage 명령을 사용하여 브랜드 포털 끝점의 MAC 암호를 복사할 수 있습니다.
+
+* VA5 복제에서 다시 색인화를 초래하는 cqTags
+
+
+### 알려진 문제 {#known-issues-6462}
+
+이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
+
+* 계층의 폴더가 AEM 자산에서 이름이 변경되고 자산이 들어 있는 중첩된 폴더가 브랜드 포털에 게시되는 경우 루트 폴더가 다시 게시될 때까지 해당 폴더의 제목이 브랜드 포털에서 업데이트되지 않습니다.
+
 
 ## 6.4.6의 새로운 기능 {#what-s-new-in-646}
 
@@ -36,32 +65,35 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
-* Captcha - Brand Portal에 게스트 로그인을 위한 것입니다. 자세한 내용은 [브랜드 포털 게스트 액세스를](../using/guest-access.md) 참조하십시오.
+* Captcha를 통해 브랜드 포털에 로그인합니다. See, [Brand Portal guest access](../using/guest-access.md) for more information.
 
-* 이제 브랜드 포털이 AEM Assets 클라우드 서비스에서 지원됩니다. 브랜드 포털에서 서비스를 통해 브랜드 포털 사용자와 자산을 공유하고 배포할 수 있도록 AEM 자산을 구성할 수 있습니다.
-자세한 내용은 브랜드 포털에서 [AEM Assets 클라우드 서비스 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
+* 이제 브랜드 포털이 AEM Assets 클라우드 서비스에서 지원됩니다. 브랜드 포털 사용자와 자산을 공유하고 배포하도록 AEM Assets가 브랜드 포털에서 서비스를 제공받을 수 있도록 구성할 수 있습니다.
+자세한 내용은 브랜드 포털과 [함께 AEM Assets 클라우드 서비스 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### 향상된 기능 {#enhancements-646}
 
-이 브랜드 포털 릴리스에는 다음 개선 사항이 포함됩니다.
+이번 브랜드 포털 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-* AEM 6.3 이상에서 AEM 자산과 브랜드 포털 간의 인증 채널이 변경되었습니다. 이제 AEM Assets은 Adobe I/O를 통해 Brand Portal에 구성되며, Brand Portal은 Brand Portal 임차인의 인증을 위해 IMS 토큰을 받습니다.
+* AEM 6.3 이상에서 AEM 자산과 브랜드 포털 간의 인증 채널이 변경되었습니다. 이제 AEM Assets는 브랜드 포털 임차인의 인증을 위해 IMS 토큰을 조달하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다.
 
-   >[!NOTE]
-   >
-   >기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe I/O를 통한 구성으로 변경되었습니다.
+>[!NOTE]
+>
+>기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe 개발자 콘솔을 통해 구성하도록 변경되었습니다.
+
 
 
 >[!TIP]
 >
 >***기존 고객 전용***
 >
->기존 OAuth 게이트웨이 구성을 계속 사용하는 것이 좋습니다. 이전 OAuth 게이트웨이 구성에 문제가 있는 경우 기존 구성을 삭제하고 Adobe I/O를 통해 새 구성을 만드십시오.
+>기존 OAuth 게이트웨이 구성은 기존 고객을 위해 계속 작동합니다.
+>
+>기존 OAuth 게이트웨이 구성에 문제가 있는 경우 기존 구성을 삭제하고 Adobe 개발자 콘솔을 통해 새 구성을 만드십시오.
 
 
-자세한 내용은 브랜드 포털에서 [AEM 자산 구성을 참조하십시오.](configure-aem-assets-with-brand-portal.md)
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
-### 해결된 중요한 문제 {#critical-issues-fixed}
+### 중요한 문제 수정 {#critical-issues-fixed}
 
 이 릴리스에는 다음과 같은 중요한 문제가 수정되었습니다.
 
@@ -71,7 +103,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 * 메타데이터 스키마 게시를 취소하면 백엔드에서 스키마가 제거되더라도 오류 메시지가 표시됩니다.
 
-* 게시된 자산에 대해 미리 보기 이미지가 표시되지 않습니다.
+* 게시된 자산에 대해서는 미리 보기 이미지가 표시되지 않습니다.
 
 * 사용자가 이름에 작은 따옴표가 포함된 자산을 게시하거나 게시 취소할 수 없습니다.
 
@@ -83,7 +115,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
 
-* Brand Portal 사용자는 AEM 6.5.4에서 Adobe I/O로 업그레이드할 때 기여도 폴더 자산을 AEM Assets에 게시할 수 없습니다.
+* 브랜드 포털 사용자는 AEM 6.5.4에서 Adobe 개발자 콘솔로 업그레이드할 때 기여도 폴더 자산을 AEM 자산에 게시할 수 없습니다.
 
    이 문제는 다음 서비스 팩 6.5.5에서 수정됩니다.
 
@@ -94,7 +126,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 ## 언어 {#languages}
 
-브랜드 포털 사용자 인터페이스는 다음 언어로 사용할 수 있습니다.
+브랜드 포털 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 * 영어
 * 독일어
@@ -108,7 +140,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 ## 인증된 플랫폼 {#certified-platforms}
 
-이 브랜드 포털 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 기술 요구 사항의 **작성** 지원 **사용자 인터페이스** 섹션에 있는 표의 터치에 적합한 UI [지원](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)열을참조하십시오.
+이 브랜드 포털 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 **기술 요구 사항** 의 **사용자 인터페이스** 작성에 [지원되는 브라우저 섹션에 있는 표의 터치에 적합한 UI](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)지원 열을참조하십시오.
 
 ## 링크 {#links}
 
@@ -117,7 +149,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털을 통해 승인된 크리
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}
 
-다음 사이트는 고객만 사용할 수 있습니다. 고객으로서 액세스 권한이 필요한 경우 Adobe 계정 관리자에게 문의하십시오.
+다음 사이트는 고객만 사용할 수 있습니다. 액세스 권한이 필요한 고객의 경우 Adobe 계정 관리자에게 문의하십시오.
 
 * [https://daycare.day.com](https://daycare.day.com)
 
