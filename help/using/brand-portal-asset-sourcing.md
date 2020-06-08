@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 7%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 7%
 >
 >브랜드 포털의 자산 소싱은 AEM 6.5.2.0 이상에서 지원됩니다.
 >
->이 기능은 이전 버전(AEM 6.3 및 AEM 6.4)에서 지원되지 않습니다.
+>이 기능은 AEM Assets 클라우드 서비스 및 이전 버전(AEM 6.3 및 AEM 6.4)에서 지원되지 않습니다.
 >
 >AEM 인스턴스를 지원되는 최신 AEM 버전으로 업그레이드하려면 Adobe 지원에 문의하십시오.
 
