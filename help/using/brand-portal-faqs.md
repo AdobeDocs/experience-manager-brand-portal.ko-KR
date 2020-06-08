@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1418'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,25 @@ ht-degree: 3%
 이 문제는 AEM 6.5.5에서 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM 6.5.5로 업그레이드하고 Adobe 개발자 콘솔에서 구성을 [업그레이드할](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 수 있습니다.
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
+
+**Ques. AEM Assets 클라우드 인스턴스에서 자산 소싱 기능을 활성화하려고 합니다. 어떻게 구성합니까?**
+
+**Ans.** 아니요. 자산 소싱 기능은 현재 AEM Assets 클라우드 서비스에서 지원되지 않습니다.
+
+최신 릴리스의 기능 가용성에 대한 알림 메시지를 확인하고 최신 정보를 확인하십시오.
+
+**Ques. AEM 자산에서 브랜드 포털에 자산을 게시할 수 없으며 복제 에이전트 로그에 예외가 발생하고 있습니다`java.net.SocketException: Connection timed out`. 빨리 고칠 수 있나요?**
+
+**Ans.** 복제 대기열에 보류 중인 요청 수가 있는 경우 복제 에이전트가 자산 게시 요청을 처리하지 않고 예외를 throw할 수 있습니다. `java.net.SocketException: Connection timed out`.
+
+문제를 해결하려면 다음 단계를 수행하십시오.
+
+1. 복제 에이전트를 열고 **[!UICONTROL 편집을]** 클릭하여 복제 에이전트 설정을 수정합니다.
+1. [에이전트 설정]에서 [확장] 탭을 **[!UICONTROL 클릭합니다]**.
+1. 연결 **[!UICONTROL 닫기 확인란을 활성화합니다]**.
+1. 복제 번들(서버)을 다시 시작합니다.
+
+복제 에이전트 중 하나에서 문제를 방지하려면 4개의 복제 에이전트 모두에 대한 설정을 활성화합니다.
 
 
 ## 브랜드 포털 6.4.5 FAQ  {#faqs-bp645}
