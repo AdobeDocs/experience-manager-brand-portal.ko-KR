@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c3672d2f8b22a6b430d94b8c300551451231b2bf
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,6 @@ AEM 관리자는 AEM 작성자 인스턴스 내에서 **자산** 소싱을 구�
 >[!NOTE]
 >
 >구성을 시작하기 전에 AEM 자산 인스턴스가 브랜드 포털로 구성되어 있는지 확인하십시오. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
->
->브랜드 포털 테넌트는 하나의 AEM Assets 작성자 인스턴스로 구성되어야 합니다.
->
->여러 AEM Assets 작성자 인스턴스로 브랜드 포털 테넌트를 구성하지 마십시오.
-
 
 
 다음 비디오에서는 AEM 작성자 인스턴스에서 자산 소싱을 구성하는 방법을 보여 줍니다.
