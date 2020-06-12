@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1521'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,6 @@ ht-degree: 2%
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 
-
 **Ques. AEM 자산의 브랜드 포털에서 게시한 기여도 폴더의 콘텐츠가 표시되지 않습니다. 무슨 이유가 있을까.**
 
 **Ans.** 구성을 확인하고 브랜드 포털 테넌트가 하나의 AEM Assets 작성자 인스턴스로 구성되어 있는지 확인하려면 AEM Assets 관리자에게 문의하십시오.
@@ -58,7 +57,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 1. [에이전트 설정]에서 [ **[!UICONTROL 확장]** ] 탭을 클릭합니다.
 1. 연결 **[!UICONTROL 닫기 확인란을]** 활성화합니다.
 1. 4단계부터 7단계까지 반복하여 4개의 복제 에이전트를 모두 구성합니다.
-1. 서버를 다시 시작합니다.
+1. 서버를 다시 시작하고 연결을 확인합니다.
 
 
 ## 브랜드 포털 6.4.5 FAQ  {#faqs-bp645}
