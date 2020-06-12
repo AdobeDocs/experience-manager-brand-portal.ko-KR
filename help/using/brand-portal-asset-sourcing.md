@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -33,16 +33,18 @@ ht-degree: 7%
 
 또한 모든 기존 기능은 변경되지 않습니다. 브랜드 포털 사용자는 기여도 폴더뿐만 아니라 허용된 다른 폴더에서 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고, 속성을 수정하고, 컬렉션에 자산을 추가할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## 전제 조건 {#prerequisites}
+
+* AEM 6.5.2 이상
+* AEM Assets 인스턴스가 브랜드 포털로 구성되어 있는지 확인합니다. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* 브랜드 포털 테넌트가 하나의 AEM Assets 작성자 인스턴스로 구성되어 있는지 확인합니다.
 
 >[!NOTE]
 >
->브랜드 포털의 자산 소싱은 AEM 6.5.2.0 이상에서 지원됩니다.
->
->이 기능은 AEM Assets 클라우드 서비스 및 이전 버전(AEM 6.3 및 AEM 6.4)에서 지원되지 않습니다.
->
->AEM 인스턴스를 지원되는 최신 AEM 버전으로 업그레이드하려면 Adobe 지원에 문의하십시오.
+>AEM Assets 클라우드 서비스에서는 자산 소싱이 지원되지 않습니다.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![브랜드 포털 자산 소싱](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ ht-degree: 7%
 >
 >AEM 6.5.4를 즉시 수정하려면 [핫픽스를 다운로드](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)하고 작성자 인스턴스에 설치하는 것이 좋습니다.
 
-
-## 전제 조건 {#prerequisites}
-
-* AEM 6.5.0.2 이상
-* AEM Assets 인스턴스가 브랜드 포털로 구성되어 있는지 확인합니다. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## 참고 항목 {#reference-articles}
 
