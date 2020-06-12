@@ -4,10 +4,10 @@ seo-title: AEM Brand Portal 사용 안내서
 description: AEM Brand Portal 사용 안내서
 seo-description: Brand Portal 사용 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 88%
+source-wordcount: '344'
+ht-degree: 90%
 
 ---
 
@@ -50,4 +50,4 @@ Brand Portal 솔루션 워크플로우는 다음 이미지에 표시되어 있�
 
 ### 유용한 리소스
 
-* [AEM 자산이 있는 브랜드 포털 이해](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [AEM 자산이 있는 브랜드 포털 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
