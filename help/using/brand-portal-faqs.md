@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aefffb21b277d93fab2754dae407de7602f614c7
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 2%
+source-wordcount: '1418'
+ht-degree: 3%
 
 ---
 
@@ -25,12 +25,9 @@ ht-degree: 2%
 
 ## 브랜드 포털 6.4.6 FAQ  {#faqs-bp646}
 
-
-
 **Ques. 기존 레거시 OAuth 끝점(`https://legacy-oauth.cloud.adobe.io/login`)이 작동하지 않습니다. 무슨 이유가 있을까.**
 
 **Ans.** 기존 OAuth 구성은 더 이상 사용되지 않습니다. AEM Assets 작성자 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe 개발자 콘솔을 통해 구성해야 합니다. 자세한 내용은 [Brand Portal에서 AEM Assets 구성](configure-aem-assets-with-brand-portal.md)을 참조하십시오. 하지만 업그레이드할 때까지 기존 OAuth 구성이 작동하려면 기존 OAuth 끝점을 다음으로 업데이트하십시오 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
-
 
 **Ques. Adobe 개발자 콘솔로 업그레이드한 후 기여도 폴더의 자산을 브랜드 포털에서 AEM 자산으로 게시할 수 없습니다. 내 작성자 인스턴스는 AEM 6.5.4에 있습니다. 가능한 이유는 무엇입니까?**
 
@@ -40,13 +37,11 @@ ht-degree: 2%
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 
-
 **Ques. AEM Assets 클라우드 인스턴스에서 자산 소싱 기능을 활성화하려고 합니다. 어떻게 구성합니까?**
 
 **Ans.** 아니요. 자산 소싱 기능은 현재 AEM Assets 클라우드 서비스에서 지원되지 않습니다.
 
 최신 릴리스의 기능 가용성에 대한 알림 메시지를 확인하고 최신 정보를 확인하십시오.
-
 
 **Ques. AEM 자산에서 브랜드 포털에 자산을 게시할 수 없으며 복제 에이전트 로그에 예외가 발생하고 있습니다`java.net.SocketException: Connection timed out`. 빨리 고칠 수 있나요?**
 
@@ -61,12 +56,6 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 복제 에이전트 중 하나에서 문제를 방지하려면 4개의 복제 에이전트 모두에 대한 설정을 활성화합니다.
 
-
-**Ques. AEM 자산의 브랜드 포털에서 게시한 기여도 폴더의 콘텐츠가 표시되지 않습니다. 무슨 이유가 있을까.**
-
-**Ans.** 구성을 확인하고 브랜드 포털 테넌트가 하나의 AEM Assets 작성자 인스턴스로 구성되어 있는지 확인하려면 AEM Assets 관리자에게 문의하십시오.
-
-이 문제는 여러 AEM Assets 작성자 인스턴스에 브랜드 포털 테넌트를 구성한 경우에 발생할 수 있습니다. 예를 들어, 관리자는 스테이징 및 프로덕션 환경의 AEM Assets 작성자 인스턴스에 동일한 브랜드 포털 테넌트를 구성합니다. 이 경우, 자산 게시는 브랜드 포털에서 트리거되지만 AEM 자산 작성자 인스턴스는 요청한 토큰을 받지 못하는 자산 코드를 가져올 수 없습니다.
 
 ## 브랜드 포털 6.4.5 FAQ  {#faqs-bp645}
 
