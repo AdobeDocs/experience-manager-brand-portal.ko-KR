@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -51,6 +51,7 @@ AEM 관리자는 AEM 자산에 활성 브랜드 포털 사용자 목록이 포�
 >[!NOTE]
 >
 >CSV 파일의 형식은 벌크 사용자 가져오기에 대해 관리 콘솔에서 지원하는 형식과 동일합니다. 이메일, 이름 및 성은 필수입니다.
+
 
 관리자는 AEM 관리 콘솔에서 새 사용자를 추가할 수 있습니다. 자세한 내용은 사용자 [관리를](brand-portal-adding-users.md) 참조하십시오. 관리 콘솔에서 사용자를 추가한 후, 해당 사용자를 브랜드 포털 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
 
