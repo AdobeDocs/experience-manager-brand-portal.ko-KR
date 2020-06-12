@@ -5,10 +5,10 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 67%
+source-wordcount: '285'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 67%
    + [FAQ](using/brand-portal-faqs.md)
    + [지원되는 파일 형식](using/brand-portal-supported-formats.md)
    + [Brand Portal에 대한 게스트 액세스](using/guest-access.md)
-   + [AEM 자산이 있는 브랜드 포털 이해](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [AEM 자산이 있는 브랜드 포털 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
    + [Brand Portal에서 자산 검색](using/browse-assets-brand-portal.md)
 + AEM Assets에서 Brand Portal에 게시 {#publish}
    + [Brand Portal로 AEM Assets 구성](using/configure-aem-assets-with-brand-portal.md)
