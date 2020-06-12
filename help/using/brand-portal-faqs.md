@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 3%
+source-wordcount: '1517'
+ht-degree: 2%
 
 ---
 
@@ -37,24 +37,28 @@ ht-degree: 3%
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 
-**Ques. AEM Assets 클라우드 인스턴스에서 자산 소싱 기능을 활성화하려고 합니다. 어떻게 구성합니까?**
 
-**Ans.** 아니요. 자산 소싱 기능은 현재 AEM Assets 클라우드 서비스에서 지원되지 않습니다.
+**Ques. AEM 자산의 브랜드 포털에서 게시한 기여도 폴더의 콘텐츠가 표시되지 않습니다. 무슨 이유가 있을까.**
 
-최신 릴리스의 기능 가용성에 대한 알림 메시지를 확인하고 최신 정보를 확인하십시오.
+**Ans.** 구성을 확인하고 브랜드 포털 테넌트가 하나의 AEM Assets 작성자 인스턴스로 구성되어 있는지 확인하려면 AEM Assets 관리자에게 문의하십시오.
 
-**Ques. AEM 자산에서 브랜드 포털에 자산을 게시할 수 없으며 복제 에이전트 로그에 예외가 발생하고 있습니다`java.net.SocketException: Connection timed out`. 빨리 고칠 수 있나요?**
+이 문제는 여러 AEM Assets 작성자 인스턴스에 브랜드 포털 테넌트를 구성한 경우에 발생할 수 있습니다. 예를 들어, 관리자는 스테이징 및 프로덕션 환경의 AEM Assets 작성자 인스턴스에 동일한 브랜드 포털 테넌트를 구성합니다. 이 경우, 자산 게시는 브랜드 포털에서 트리거되지만 AEM 자산 작성자 인스턴스는 요청한 토큰을 받지 못하는 자산 코드를 가져올 수 없습니다.
 
-**Ans.** 복제 대기열에 보류 중인 요청 수가 있는 경우 복제 에이전트가 자산 게시 요청을 처리하지 않고 예외를 throw할 수 있습니다. `java.net.SocketException: Connection timed out`.
 
-문제를 해결하려면 다음 단계를 수행하십시오.
+**Ques. AEM 자산에서 브랜드 포털에 자산을 게시할 수 없습니다. 복제 로그에는 연결 시간이 초과되었음을 나타냅니다. 빨리 고칠 수 있나요?**
 
-1. 복제 에이전트를 열고 **[!UICONTROL 편집을]** 클릭하여 복제 에이전트 설정을 수정합니다.
-1. [에이전트 설정]에서 [확장] 탭을 **[!UICONTROL 클릭합니다]**.
-1. 연결 **[!UICONTROL 닫기 확인란을 활성화합니다]**.
-1. 복제 번들(서버)을 다시 시작합니다.
+**Ans.** 일반적으로 복제 큐에 대기 중인 요청이 여러 개 있을 경우 게시 실패 시 시간 초과 오류가 발생합니다. 문제를 해결하려면 시간 초과를 방지하도록 복제 에이전트가 구성되어 있는지 확인하십시오.
 
-복제 에이전트 중 하나에서 문제를 방지하려면 4개의 복제 에이전트 모두에 대한 설정을 활성화합니다.
+복제 에이전트를 구성하려면 다음 단계를 수행하십시오.
+1. AEM Assets 작성자 인스턴스에 로그인합니다.
+1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. 복제 페이지에서 작성자의 **[!UICONTROL 에이전트를 클릭합니다]**. 브랜드 포털 테넌트에 대한 네 개의 복제 에이전트를 볼 수 있습니다.
+1. 복제 에이전트 URL을 클릭하여 에이전트 세부 정보를 엽니다.
+1. 편집 **[!UICONTROL 을]** 클릭하여 복제 에이전트 설정을 수정합니다.
+1. [에이전트 설정]에서 [ **[!UICONTROL 확장]** ] 탭을 클릭합니다.
+1. 연결 **[!UICONTROL 닫기 확인란을]** 활성화합니다.
+1. 4단계부터 7단계까지 반복하여 4개의 복제 에이전트를 모두 구성합니다.
+1. 서버를 다시 시작합니다.
 
 
 ## 브랜드 포털 6.4.5 FAQ  {#faqs-bp645}
