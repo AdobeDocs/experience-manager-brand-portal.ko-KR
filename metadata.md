@@ -4,16 +4,16 @@ solution-title: 학습 및 지원
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-manager.html
 solution-image: null
 getting-started-title: 시작하기
-getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
+getting-started-url: https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html
 tutorials-title: 튜토리얼
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.ko-KR
 index: y
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 6%
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
