@@ -5,7 +5,10 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 70%
 
 ---
 
@@ -20,20 +23,20 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
    + [FAQ](using/brand-portal-faqs.md)
    + [지원되는 파일 형식](using/brand-portal-supported-formats.md)
    + [Brand Portal에 대한 게스트 액세스](using/guest-access.md)
-   + [AEM 자산과 브랜드 포털 이해](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [AEM 자산이 있는 브랜드 포털 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
    + [Brand Portal에서 자산 검색](using/browse-assets-brand-portal.md)
 + AEM Assets에서 Brand Portal에 게시 {#publish}
-   + [브랜드 포털에서 AEM 자산 구성](using/configure-aem-assets-with-brand-portal.md)
-   + [브랜드 포털에 자산 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [브랜드 포털에 폴더 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [브랜드 포털에 컬렉션 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [Brand Portal로 AEM Assets 구성](using/configure-aem-assets-with-brand-portal.md)
+   + [자산을 Brand Portal에 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [폴더를 Brand Portal에 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [컬렉션을 Brand Portal에 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Brand Portal에 동시 게시 문제 해결](using/troubleshoot-parallel-publishing.md)
    + [태그를 Brand Portal에 게시](using/brand-portal-publish-tags.md)
    + [사전 설정, 스키마 및 패싯을 Brand Portal에 게시](using/publish-schema-search-facets-presets.md)
 + 브랜드 포털의 자산 소싱 {#asset-sourcing-in-brand-portal}
    + [개요](using/brand-portal-asset-sourcing.md)
    + [AEM에서 자산 소싱 구성](using/brand-portal-configure-asset-sourcing.md)
-   + AEM 자산에서 기여도 폴더 구성 {#configure-contribution-folder}
+   + AEM 자산에 기여도 폴더 구성 {#configure-contribution-folder}
       + [개요](using/brand-portal-contribution-folder.md)
       + [기여도 폴더 만들기](using/brand-portal-create-contribution-folder.md)
       + [기여도 폴더 속성 구성](using/brand-portal-configure-contribution-folder-properties.md)
