@@ -4,7 +4,10 @@ seo-title: AEM Brand Portal 사용 안내서
 description: AEM Brand Portal 사용 안내서
 seo-description: Brand Portal 사용 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 90%
 
 ---
 
@@ -39,7 +42,7 @@ Brand Portal 솔루션 워크플로우는 다음 이미지에 표시되어 있�
 |--- |---|
 | [새로운 기능](whats-new.md) | 변경된 사항 및 이전 릴리스를 통한 Brand Portal의 최신 서비스. |
 | [릴리스 노트](brand-portal-release-notes.md) | 개선 사항, 해결된 주요 문제 및 현재 릴리스의 알려진 문제. |
-| [브랜드 포털에서 AEM 자산 구성](../using/configure-aem-assets-with-brand-portal.md) | AEM Assets로 Brand Portal을 복제하여 자산을 게시하는 방법. |
+| [Brand Portal로 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md) | AEM Assets로 Brand Portal을 복제하여 자산을 게시하는 방법. |
 | [동시 게시 문제 해결](troubleshoot-parallel-publishing.md) | Brand Portal과 AEM Assets 간 복제 문제 해결. |
 | [지원되는 파일 형식](brand-portal-supported-formats.md) | 미리 보기 및 다운로드를 위해 Brand Portal에서 지원되는 파일 형식 |
 | [자산을 Brand Portal에 게시](brand-portal-sharing-folders.md) | 폴더, 컬렉션, 링크, 사전 설정, 스키마, 패싯 및 태그를 Brand Portal에 게시하는 방법. |
@@ -47,4 +50,4 @@ Brand Portal 솔루션 워크플로우는 다음 이미지에 표시되어 있�
 
 ### 유용한 리소스
 
-* [AEM 자산과 브랜드 포털 이해](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [AEM 자산이 있는 브랜드 포털 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
