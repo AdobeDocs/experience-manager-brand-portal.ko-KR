@@ -10,7 +10,7 @@ tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manage
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.ko-KR
 index: y
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 12%
@@ -30,4 +30,4 @@ metadata.md 파일에는 보고서에서 사용자 안내서 TOC.md 파일로 �
 | getting-started-url | 도움말 시작 페이지에 대한 링크 |
 | tutorials-url | 비디오 튜토리얼로 연결되는 링크—도움말 자습서 또는 KT 튜토리얼 |
 | mini-toc 레벨 | 오른쪽 레일에 표시되는 제목 수준의 수를 결정합니다. 기본값은 2입니다. |
-| git-repo | 내부 사용을 위한 마스터 보고서의 위치를 지정합니다. |
+| git-repo | 내부 사용을 위한 기본 보고서의 위치를 지정합니다. |
