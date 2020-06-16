@@ -1,8 +1,8 @@
 ---
 title: Brand Portal에서 AEM Assets 구성
 seo-title: Brand Portal에서 AEM Assets 구성
-description: 브랜드 포털에서 AEM 자산 구성에 대한 통찰력을 얻을 수 있습니다.
-seo-description: 브랜드 포털에서 AEM 자산 구성에 대한 통찰력을 얻을 수 있습니다.
+description: 브랜드 포털에서 AEM Assets 구성에 대한 통찰력을 얻을 수 있습니다.
+seo-description: 브랜드 포털에서 AEM Assets 구성에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 29%
@@ -20,9 +20,9 @@ ht-degree: 29%
 
 # Brand Portal로 AEM Assets 구성 {#configure-integration}
 
-AEM(Adobe Experience Manager) 자산은 브랜드 포털 테넌트의 승인을 위해 IMS 토큰을 구입하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다. 이제 브랜드 포털이 AEM Assets 클라우드 서비스, AEM Assets 6.3 이상에서 지원됩니다.
+Adobe Experience Manager(AEM) 자산은 브랜드 포털 테넌트의 승인을 위해 IMS 토큰을 구입하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다. 이제 AEM Assets 클라우드 서비스, AEM Assets 6.3 이상에서 브랜드 포털이 지원됩니다.
 
-AEM Assets를 브랜드 포털에서 구성하면 브랜드 포털 사용자와 자산을 게시하고 배포할 수 있습니다. 반면, AEM 6.3 이상 버전에서 브랜드 포털을 구성하면 브랜드 포털 사용자에 대한 자산 게시, 자산 배포 및 자산 기여도 기능을 사용할 수 있습니다.
+AEM Assets을 구성하여 브랜드 포털 사용자와 자산을 게시하고 배포할 수 있습니다. 반면, AEM 6.3 이상 버전에서 브랜드 포털을 구성하면 브랜드 포털 사용자에 대한 자산 게시, 자산 배포 및 자산 기여도 기능을 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -53,14 +53,3 @@ Brand Portal에서 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 | **AEM 6.2** | 지원 문의 | 지원 문의 |
 
 
-<!--
-   Comment Type: draft
-
-   <li> </li>
-   -->
-
-<!--
-   Comment Type: draft
-
-   <li>Step text</li>
-   -->
