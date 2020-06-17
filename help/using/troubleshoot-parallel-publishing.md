@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -19,15 +19,16 @@ ht-degree: 2%
 
 # Brand Portal에 동시 게시 문제 해결 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-브랜드 포털은 AEM Assets 작성자 인스턴스에서 원활하게 인제스트되거나 게시된 브랜드 자산을 승인하도록 AEM Assets로 구성됩니다. 구성된 [경우](../using/configure-aem-assets-with-brand-portal.md)AEM 작성자는 복제 에이전트를 사용하여 선택한 자산을 브랜드 포털 사용자의 승인된 사용을 위해 브랜드 포털 클라우드 서비스에 복제합니다. 여러 복제 에이전트가 고속 병렬 게시를 허용하는 AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 및 버전부터 사용됩니다.
+브랜드 포털은 AEM Assets 작성 인스턴스에서 원활하게 인제스트되거나 퍼블리싱되는 승인된 브랜드 자산을 AEM Assets으로 구성합니다. 구성된 [AEM Author](../using/configure-aem-assets-with-brand-portal.md)는 복제 에이전트를 사용하여 선택한 자산을 브랜드 포털 사용자의 승인된 사용을 위해 브랜드 포털 클라우드 서비스에 복제합니다. 여러 복제 에이전트가 고속 병렬 게시를 허용하는 AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 및 버전부터 사용됩니다.
 
 >[!NOTE]
 >
->AEM Assets 브랜드 포털이 AEM Assets로 성공적으로 구성되었는지 확인하려면 AEM 6.4.1.0으로 업그레이드하는 것이 좋습니다. AEM 6.4의 제한 사항은 브랜드 포털에서 AEM 자산을 구성하는 동안 오류가 발생하고 복제가 실패합니다.
+>AEM Assets 브랜드 포털이 AEM Assets으로 성공적으로 구성되었는지 확인하려면 AEM 6.4.1.0으로 업그레이드하는 것이 좋습니다. AEM 6.4의 제한 사항에 따라 브랜드 포털로 AEM Assets을 구성하는 동안 오류가 발생하고 복제가 실패합니다.
+
 
 브랜드 포털용 클라우드 서비스를 구성하는 **[!UICONTROL /etc/cloudservice]**&#x200B;아래에서, 필요한 모든 사용자와 토큰은 자동으로 생성되고 보관소에 저장됩니다. 클라우드 서비스 구성이 생성되며, 복제 및 복제 에이전트가 컨텐츠를 복제하는 데 필요한 서비스 사용자도 만들어집니다. 이렇게 하면 4개의 복제 에이전트가 만들어집니다. 따라서 AEM에서 브랜드 포털로 많은 자산을 게시하면 이러한 자산은 라운드 로빈(Round Robin)을 통해 이러한 복제 에이전트 간에 큐에 올라가 배포됩니다.
 
-그러나 AEM 작성자 인스턴스의 큰 슬링 작업, 네트워크 및 **[!UICONTROL 디스크 I/O]** 증가 또는 AEM 작성자 인스턴스의 성능 저하로 인해 간헐적으로 게시가 실패할 수 있습니다. 따라서 게시를 시작하기 전에 복제 에이전트와의 연결을 테스트하는 것이 좋습니다.
+그러나 AEM Author 인스턴스에서 네트워크 및 **[!UICONTROL 디스크 입출력을]** 높이거나 AEM Author 인스턴스의 성능이 저하되어 간헐적으로 게시할 수 없습니다. 따라서 게시를 시작하기 전에 복제 에이전트와의 연결을 테스트하는 것이 좋습니다.
 
 ![](assets/test-connection.png)
 
@@ -39,7 +40,7 @@ ht-degree: 2%
 1. 복제 에이전트를 만들었는지 확인
 1. 연결 테스트
 
-**클라우드 서비스를 만드는 동안 상세 로그**
+**Cloud Service을 만드는 동안 꼬리 로그**
 
 꼬리표를 확인해라. 복제 에이전트가 생성되었는지 확인합니다. 복제 에이전트 만들기에 실패할 경우 클라우드 서비스에서 일부를 변경하여 클라우드 서비스를 편집합니다. 복제 에이전트가 생성되었는지 확인하고 다시 확인하십시오. 그렇지 않은 경우 서비스를 다시 편집합니다.
 
@@ -66,7 +67,8 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 게시 작업이 작동하지 않는 대부분의 경우 게시 중인 사용자(예: `mac-<tenantid>-replication` 에 최신 개인 키가 없으며 따라서 &quot;401 권한 없음&quot; 오류가 발생하여 게시가 실패하며 다른 오류가 복제 에이전트 로그에 보고되지 않습니다. 문제를 해결하고 새 구성을 만들지 않으려는 경우가 있습니다. 새 구성이 제대로 작동하려면 AEM 작성자 설정에서 다음을 정리하십시오.
 
 1. 이동 `localhost:4502/crx/de/` (localhost:4502에서 작성자 인스턴스를 실행 중임을 고려):\
-   i. delete `/etc/replication/agents.author/mp_replication`ii. 삭제 `/etc/cloudservices/mediaportal/<config_name>`
+   i. delete `/etc/replication/agents.author/mp_replication`ii. 삭제 
+`/etc/cloudservices/mediaportal/<config_name>`
 
 1. localhost:4502/useradmin으로 이동:\
    i. 사용자 `mac-<tenantid>replication`ii 검색 이 사용자 삭제
@@ -117,7 +119,7 @@ permission
 
 ## 연결 시간 초과 오류를 방지하도록 복제 에이전트 구성 {#connection-timeout}
 
-**문제**: AEM 자산에서 브랜드 포털에 자산을 게시할 수 없습니다. 복제 로그에는 연결 시간이 초과되었음을 나타냅니다.
+**문제**: AEM Assets에서 브랜드 포털에 자산을 게시할 수 없습니다. 복제 로그에는 연결 시간이 초과되었음을 나타냅니다.
 
 **해상도**: 일반적으로 복제 큐에 대기 중인 요청이 여러 개 있을 경우 게시 실패 시 시간 초과 오류가 발생합니다. 문제를 해결하려면 시간 초과를 방지하도록 복제 에이전트가 구성되어 있는지 확인하십시오.
 
