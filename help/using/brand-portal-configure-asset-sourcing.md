@@ -1,8 +1,8 @@
 ---
 title: 자산 소싱 구성
 seo-title: 자산 소싱 구성
-description: AEM 자산에서 자산 소싱 기능 구성에 대한 통찰력을 얻을 수 있습니다.
-seo-description: AEM 자산에서 자산 소싱 기능 구성에 대한 통찰력을 얻을 수 있습니다.
+description: AEM Assets에서 자산 소싱 기능 구성에 대한 통찰력을 얻을 수 있습니다.
+seo-description: AEM Assets에서 자산 소싱 기능 구성에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -20,11 +20,12 @@ ht-degree: 1%
 
 # 자산 소싱 구성 {#configure-asset-sourcing}
 
-AEM 관리자는 AEM 작성자 인스턴스 내에서 **자산** 소싱을 구성할 수 있습니다. 관리자는 AEM 웹 콘솔 구성에서 자산 소싱 기능 플래그 구성 **을** 활성화하고 AEM 자산에 활성 브랜드 포털 사용자 목록을 **업로드합니다**.
+AEM 관리자는 AEM 작성자 인스턴스 내에서 **자산** 소싱을 구성할 수 있습니다. 관리자는 AEM 웹 콘솔 구성에서 자산 소싱 기능 플래그 구성을 **활성화하고** AEM Assets에서 활성 브랜드 포털 사용자 목록을 **업로드합니다**.
 
 >[!NOTE]
 >
->구성을 시작하기 전에 AEM 자산 인스턴스가 브랜드 포털로 구성되어 있는지 확인하십시오. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>구성을 시작하기 전에 AEM Assets 인스턴스가 브랜드 포털로 구성되어 있는지 확인하십시오. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+
 
 
 다음 비디오에서는 AEM 작성자 인스턴스에서 자산 소싱을 구성하는 방법을 보여 줍니다.
@@ -46,14 +47,14 @@ AEM 관리자는 AEM 웹 콘솔 구성(예: 구성 관리자) 내에서 자산 �
 
 ## 브랜드 포털 사용자 목록 업로드 {#upload-bp-user-list}
 
-AEM 관리자는 AEM 자산에 활성 브랜드 포털 사용자 목록이 포함된 브랜드 포털 사용자 구성(.csv) 파일을 업로드할 수 있습니다. 기여도 폴더는 사용자 목록에 정의된 활성 브랜드 포털 사용자만 공유할 수 있습니다. 관리자는 구성 파일에 새 사용자를 추가하고 수정된 사용자 목록을 업로드할 수도 있습니다.
+AEM 관리자는 AEM Assets의 활성 브랜드 포털 사용자 목록이 포함된 브랜드 포털 사용자 구성(.csv) 파일을 업로드할 수 있습니다. 기여도 폴더는 사용자 목록에 정의된 활성 브랜드 포털 사용자만 공유할 수 있습니다. 관리자는 구성 파일에 새 사용자를 추가하고 수정된 사용자 목록을 업로드할 수도 있습니다.
 
 >[!NOTE]
 >
->CSV 파일의 형식은 벌크 사용자 가져오기에 대해 관리 콘솔에서 지원하는 형식과 동일합니다. 이메일, 이름 및 성은 필수입니다.
+>CSV 파일의 형식은 벌크 사용자 가져오기에 대해 Admin Console에서 지원하는 형식과 동일합니다. 이메일, 이름 및 성은 필수입니다.
 
 
-관리자는 AEM 관리 콘솔에서 새 사용자를 추가할 수 있습니다. 자세한 내용은 사용자 [관리를](brand-portal-adding-users.md) 참조하십시오. 관리 콘솔에서 사용자를 추가한 후, 해당 사용자를 브랜드 포털 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
+관리자는 AEM Admin Console에서 새 사용자를 추가할 수 있습니다. 자세한 내용은 사용자 [관리를](brand-portal-adding-users.md) 참조하십시오. Admin Console에서 사용자를 추가한 후 해당 사용자를 브랜드 포털 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
 
 **브랜드 포털 사용자 목록을 업로드하려면:**
 1. AEM 작성자 인스턴스에 로그인기본 URL: http:// localhost:4502/aem/start.html
