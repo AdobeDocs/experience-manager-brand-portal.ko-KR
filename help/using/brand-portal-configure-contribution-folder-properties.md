@@ -1,8 +1,8 @@
 ---
 title: 기여도 폴더 속성 구성
 seo-title: 기여도 폴더 속성 구성
-description: 'AEM 자산에서 기여도 폴더의 속성을 구성하는 방법에 대한 통찰력을 얻을 수 있습니다. '
-seo-description: 'AEM 자산에서 기여도 폴더의 속성을 구성하는 방법에 대한 통찰력을 얻을 수 있습니다. '
+description: 'AEM Assets에서 기여도 폴더의 속성을 구성하는 방법에 대한 통찰력을 얻을 수 있습니다. '
+seo-description: 'AEM Assets에서 기여도 폴더의 속성을 구성하는 방법에 대한 통찰력을 얻을 수 있습니다. '
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -46,4 +46,5 @@ AEM 관리자는 기여도 폴더의 속성을 구성하는 동안 다음 활동
 
 >[!NOTE]
 >
->검색 결과는 AEM 자산에 구성된 브랜드 포털 사용자 목록을 기반으로 합니다. 업데이트된 브랜드 포털 사용자 목록이 있는지 확인하십시오. 브랜드 포털 [사용자 목록 업로드를 참조하십시오](brand-portal-configure-asset-sourcing.md).
+>검색 결과는 AEM Assets에 구성된 브랜드 포털 사용자 목록을 기반으로 합니다. 업데이트된 브랜드 포털 사용자 목록이 있는지 확인하십시오. 브랜드 포털 [사용자 목록 업로드를 참조하십시오](brand-portal-configure-asset-sourcing.md).
+
