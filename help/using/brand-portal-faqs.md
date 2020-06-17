@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 2%
@@ -194,6 +194,7 @@ AEM Assets에서 브랜드 포털로 게시되는 모든 폴더 및 기여도 �
 >[!NOTE]
 >
 >출시 일정은 잠정적이며 변경될 수 있습니다. 업데이트된 릴리스 일정을 얻으려면 Adobe 계정 관리자 또는 고객 지원에 문의하십시오.
+
 
 
 
