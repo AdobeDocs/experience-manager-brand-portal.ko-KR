@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,5 @@ ht-degree: 0%
 >
 >만든 후 폴더 이름을 수정할 수 없으므로 기여도 폴더에 적절한 이름을 입력해야 합니다.
 >
->기여도 폴더 중첩은 지원되지 않습니다. 다른 기여도 폴더 내에 기여도 폴더를 만들지 마십시오.
+>기여도 폴더 중첩은 지원되지 않습니다. 한 폴더 내에 여러 기여도 폴더를 만들 수는 있지만 다른 기여도 폴더 내에 기여도 폴더를 만들 수는 없습니다.
 
