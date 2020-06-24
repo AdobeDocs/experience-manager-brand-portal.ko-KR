@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
 workflow-type: tm+mt
-source-wordcount: '4468'
-ht-degree: 2%
+source-wordcount: '4462'
+ht-degree: 3%
 
 ---
 
@@ -216,7 +216,7 @@ Dynamic Media 혼합 모드에 있는 AEM Author 인스턴스를 사용하는 �
 
 Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있습니다.
 
-* 브랜드 포털
+* Brand Portal
 * 공유 링크
 
 ![](assets/edit-dynamic-media-config.png)
@@ -262,7 +262,7 @@ AEM(6.4.2.0) [의](https://helpx.adobe.com/experience-manager/6-4/release-notes/
 
 ![](assets/bp-login-screen-1.png)
 
-AEM 브랜드 포털에서는 게스트가 포털에 액세스할 수 있도록 합니다. 손님 사용자는 포털에 입장할 수 있는 자격 증명이 필요하지 않으며 모든 공용 폴더 및 컬렉션에 액세스하여 다운로드할 수 있습니다. 게스트 사용자는 자신의 lightbox(비공개 컬렉션)에 에셋을 추가하고 이를 다운로드할 수 있습니다. 관리자가 설정한 스마트 태그 검색 및 검색 예측자를 볼 수도 있습니다. 게스트 세션은 사용자가 컬렉션과 저장된 검색을 만들거나 추가로 공유하거나 폴더 및 컬렉션 설정에 액세스하고 자산을 링크로 공유할 수 있도록 허용하지 않습니다.
+AEM 브랜드 포털에서는 게스트가 포털에 액세스할 수 있도록 합니다. 게스트 사용자는 포털에 입장할 수 있는 자격 증명이 필요하지 않으며 모든 공용 폴더 및 컬렉션에 액세스하여 다운로드할 수 있습니다. 게스트 사용자는 자신의 lightbox(비공개 컬렉션)에 에셋을 추가하고 이를 다운로드할 수 있습니다. 관리자가 설정한 스마트 태그 검색 및 검색 예측자를 볼 수도 있습니다. 게스트 세션은 사용자가 컬렉션과 저장된 검색을 만들거나 추가로 공유하거나 폴더 및 컬렉션 설정에 액세스하고 자산을 링크로 공유할 수 있도록 허용하지 않습니다.
 
 조직에서 여러 개의 동시 손님 세션을 사용할 수 있으며 조직당 총 사용자 할당량의 10%로 제한됩니다.
 
@@ -342,7 +342,7 @@ AEM 브랜드 포털에서는 게스트가 포털에 액세스할 수 있도록 
 
 ### Adobe I/O UI로 oAuth 통합 구성
 
-Brand Portal 6.4.2 이상에서는 Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 인터페이스를 사용하여 JWT 애플리케이션을 만듭니다. 이 JWT 응용 프로그램을 만들면 AEM Assets과 브랜드 포털의 통합을 허용합니다. 이전에는 OAuth 통합을 구성하기 위한 UI가 https://marketing.adobe.com/developer/에서 [호스팅되었습니다](https://marketing.adobe.com/developer/). 브랜드 포털에 자산 및 컬렉션을 게시하기 위해 AEM Assets과 브랜드 포털 통합에 대해 자세히 알아보려면 브랜드 포털과 [AEM Assets 통합 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 이상에서는 Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 인터페이스를 사용하여 JWT 애플리케이션을 만듭니다. 이 JWT 응용 프로그램을 만들면 AEM Assets과 브랜드 포털의 통합을 허용합니다. 이전에는 OAuth 통합을 구성하기 위한 UI가 에서 호스팅되었습니다 `https://marketing.adobe.com/developer/`. 브랜드 포털에 자산 및 컬렉션을 게시하기 위해 AEM Assets과 브랜드 포털 통합에 대해 자세히 알아보려면 브랜드 포털과 [AEM Assets 통합 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## 검색 개선 사항
 
