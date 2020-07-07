@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 AEM 브랜드 포털에서는 게스트가 포털에 액세스할 수 있도록 합니다. 게스트 사용자는 포털에 로그인하기 위해 자격 증명이 필요하지 않으며 포털의 공개 자산(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 Lightbox(비공개 컬렉션)에 에셋을 추가하고 해당 세션이 지속될 때까지 다운로드할 수 있습니다. 이때 게스트 사용자가 세션 [[!UICONTROL 종료]](#exit-guest-session)옵션을 선택하지 않으면 세션 시작 시간으로부터 2시간 정도 걸립니다.
 
 게스트 액세스 기능을 사용하면 조직에서 승인된 자산을 [도입](../using/brand-portal-sharing-folders.md#how-to-share-folders) 고객에게 개별적으로 게시하지 않고도 규모에 맞게 효율적으로 공유할 수 있습니다. Brand Portal 6.4.2부터는 조직 당 총 사용자 할당량의 10%인 여러 명의 동시 게스트 사용자를 지원할 수 있습니다. 게스트 액세스를 허용하면 브랜드 포털에서 제한된 기능을 사용해야 하는 많은 사용자를 유지 관리하는 데 걸리는 시간을 절약할 수 있습니다.\
-조직은 관리 도구 패널의 액세스 설정에서 **[!UICONTROL 손님 액세스]** 허용 옵션을 사용하여 조직의 브랜드 포털 계정에서 손님 **** 액세스를 활성화(또는 비활성화)할수 있습니다.
+조직은 관리 도구 패널의 액세스 설정에서 **[!UICONTROL 손님 액세스]** 허용 옵션을 사용하여 조직의 브랜드 포털 계정에서 손님 **** 액세스를활성화(또는 비활성화)할 수 있습니다.
 
 <!--
 Comment Type: annotation
@@ -42,8 +42,8 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 게스트 세션 기간 {#guest-session-duration}
 
-게스트 사용자 세션은 2시간 동안 활성 상태로 유지됩니다. This means that the state of the **[!UICONTROL Lightbox]** is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.\
-For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn&#39;t download the **[!UICONTROL Lightbox]** collection (or its assets) before 17:00 hours, the **[!UICONTROL Lightbox]** will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+게스트 사용자 세션은 2시간 동안 활성 상태로 유지됩니다. 즉, **[!UICONTROL Lightbox]** 상태는 세션 시작 시간으로부터 1시간, 2시간 후 현재 게스트 세션이 다시 시작되므로 Lightbox 상태가 손실됩니다.\
+예를 들어 게스트 사용자는 1500시간에 브랜드 포털에 로그인하고 16:50시간에 다운로드할 수 있도록 Lightbox에 자산을 추가합니다. 사용자가 17:00시간 전에 **[!UICONTROL Lightbox]** 컬렉션(또는 해당 자산)을 다운로드하지 않으면 사용자가 1시간(1700시간)이 지난 후 **[!UICONTROL 세션을 다시 시작해야 하므로]** Lightbox컬렉션은 비어 있게 됩니다.
 
 ## 동시 손님 세션 허용됨 {#concurrent-guest-sessions-allowed}
 
@@ -67,7 +67,6 @@ For example, a guest user logs in to the Brand Portal at 1500 hours and adds ass
 >
 >가상 폴더의 기본 축소판은 첫 번째 공유 폴더의 축소판 이미지입니다.
 
-
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
 **[!UICONTROL [설정]** 보기] 옵션을 사용하면 손님 사용자가 [ **[!UICONTROL 카드 보기]]** 또는 열을 조정하여 목록 보기에 표시할 수 **[!UICONTROL 있습니다]**.
@@ -82,7 +81,7 @@ For example, a guest user logs in to the Brand Portal at 1500 hours and adds ass
 
 * 자산/폴더 선택에 대한 맨 위의 도구 모음에서.
 * 레일 선택기 선택 드롭다운에서
-On selecting the **[!UICONTROL Overview]** option while an asset/folder is selected, users can see the title, path, and time of asset creation. 반면에, 자산 세부 사항 페이지에서 **[!UICONTROL 개요]** 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
+자산/폴더를 선택하는 동안 **[!UICONTROL 개요]** 옵션을 선택하면 제목, 경로 및 자산 생성 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지에서 **[!UICONTROL 개요]** 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option-1.png)
 
