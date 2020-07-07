@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -25,8 +25,6 @@ AEM 관리자는 AEM 작성자 인스턴스 내에서 **자산** 소싱을 구�
 >[!NOTE]
 >
 >구성을 시작하기 전에 AEM Assets 인스턴스가 브랜드 포털로 구성되어 있는지 확인하십시오. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-
-
 
 다음 비디오에서는 AEM 작성자 인스턴스에서 자산 소싱을 구성하는 방법을 보여 줍니다.
 
@@ -52,7 +50,6 @@ AEM 관리자는 AEM Assets의 활성 브랜드 포털 사용자 목록이 포�
 >[!NOTE]
 >
 >CSV 파일의 형식은 벌크 사용자 가져오기에 대해 Admin Console에서 지원하는 형식과 동일합니다. 이메일, 이름 및 성은 필수입니다.
-
 
 관리자는 AEM Admin Console에서 새 사용자를 추가할 수 있습니다. 자세한 내용은 사용자 [관리를](brand-portal-adding-users.md) 참조하십시오. Admin Console에서 사용자를 추가한 후 해당 사용자를 브랜드 포털 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
 
