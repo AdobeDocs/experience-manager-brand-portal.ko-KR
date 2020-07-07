@@ -1,8 +1,8 @@
 ---
 title: 릴리스 정보
 seo-title: 릴리스 정보
-description: Adobe Experience Manager Assets 브랜드 포털 6.4.6.2 릴리스의 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Adobe Experience Manager Assets 브랜드 포털 6.4.6.2 릴리스의 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+description: Adobe Experience Manager Assets 브랜드 포털 6.4.6.2 릴리스의 기능, 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Adobe Experience Manager Assets Brand Portal 6.4.6.2 릴리스의 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,28 +10,28 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets 브랜드 포털 6.4.6.2 릴리스의 새로운 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets 브랜드 포털 6.4.6.2 릴리스의 새로운 기능, 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
-| 제품 | Adobe Experience Manager Assets 브랜드 포털 |
+| 제품 | Adobe Experience Manager 자산 브랜드 포털 |
 |---|---|
 | 버전 | 6.4.6.2 |
 | 날짜 | 2020년 6월 |
 
 ## 개요 {#overview}
 
-AEM(Adobe Experience Manager) 자산 브랜드 포털은 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 디바이스를 사용하는 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 도와줍니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 여부에 대한 위험을 줄일 수 있습니다. 브랜드 포털을 통해 사용자는 언제 어디에서나 회사에서 승인한 포맷으로 자산을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
+Adobe Experience Manager(AEM) 자산 브랜드 포털은 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 장치에서 외부 당사자 및 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 도와줍니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 여부에 대한 위험을 줄일 수 있습니다. 브랜드 포털을 통해 사용자는 언제 어디에서나 회사에서 승인한 포맷으로 자산을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
 ## 6.4.6.2의 새로운 기능 {#what-s-new-in-6462}
 
@@ -41,7 +41,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털은 승인된 크리에이�
 
 * 게시된 메타데이터 스키마를 브랜드 포털에서 제거하면 오류가 발생합니다.
 
-* 관리자가 Adobe 개발자 콘솔을 통해 브랜드 포털로 Experience Manager Assets 6.5.4를 구성하는 경우, 브랜드 포털 사용자는 기여도 폴더의 자산을 브랜드 포털에서 Experience Manager로 게시할 수 없습니다.
+* 관리자가 Adobe 개발자 콘솔을 통해 브랜드 포털과 함께 Experience Manager Assets 6.5.4를 구성하는 경우, 브랜드 포털 사용자는 기여도 폴더의 자산을 브랜드 포털에서 Experience Manager으로 게시할 수 없습니다.
 
 * 충돌을 일으키는 상위 폴더의 복제 복제.
 
@@ -56,7 +56,7 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털은 승인된 크리에이�
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
 
-* 계층의 폴더가 AEM 자산에서 이름이 변경되고 자산이 들어 있는 중첩된 폴더가 브랜드 포털에 게시되는 경우 루트 폴더가 다시 게시될 때까지 해당 폴더의 제목이 브랜드 포털에서 업데이트되지 않습니다.
+* 계층의 폴더가 AEM Assets에서 이름이 변경되고 자산이 들어 있는 중첩된 폴더가 브랜드 포털에 게시되는 경우 루트 폴더가 다시 게시될 때까지 폴더의 제목이 브랜드 포털에서 업데이트되지 않습니다.
 
 
 ## 6.4.6의 새로운 기능 {#what-s-new-in-646}
@@ -67,20 +67,18 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털은 승인된 크리에이�
 
 * Captcha를 통해 브랜드 포털에 로그인합니다. See, [Brand Portal guest access](../using/guest-access.md) for more information.
 
-* 이제 브랜드 포털이 AEM Assets 클라우드 서비스에서 지원됩니다. 브랜드 포털 사용자와 자산을 공유하고 배포하도록 AEM Assets가 브랜드 포털에서 서비스를 제공받을 수 있도록 구성할 수 있습니다.
+* 이제 브랜드 포털이 AEM Assets 클라우드 서비스에서 지원됩니다. 브랜드 포털 사용자와 자산을 공유 및 배포하도록 브랜드 포털에서 서비스를 제공할 수 있는 AEM Assets을 구성할 수 있습니다.
 자세한 내용은 브랜드 포털과 [함께 AEM Assets 클라우드 서비스 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### 향상된 기능 {#enhancements-646}
 
 이번 브랜드 포털 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-* AEM 6.3 이상에서 AEM 자산과 브랜드 포털 간의 인증 채널이 변경되었습니다. 이제 AEM Assets는 브랜드 포털 임차인의 인증을 위해 IMS 토큰을 조달하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다.
+* AEM 6.3 이상에서 AEM Assets과 브랜드 포털 간의 인증 채널이 변경되었습니다. 이제 AEM Assets은 브랜드 포털 임차인의 인증을 위해 IMS 토큰을 조달하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다.
 
 >[!NOTE]
 >
->기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe 개발자 콘솔을 통해 구성하도록 변경되었습니다.
-
-
+>기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe 개발자 콘솔을 통한 구성으로 변경되었습니다.
 
 >[!TIP]
 >
@@ -89,7 +87,6 @@ AEM(Adobe Experience Manager) 자산 브랜드 포털은 승인된 크리에이�
 >기존 OAuth 게이트웨이 구성은 기존 고객을 위해 계속 작동합니다.
 >
 >기존 OAuth 게이트웨이 구성에 문제가 있는 경우 기존 구성을 삭제하고 Adobe 개발자 콘솔을 통해 새 구성을 만드십시오.
-
 
 For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
@@ -115,7 +112,7 @@ For more information, see [Configure AEM Assets with Brand Portal](configure-aem
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
 
-* 브랜드 포털 사용자는 AEM 6.5.4에서 Adobe 개발자 콘솔로 업그레이드할 때 기여도 폴더 자산을 AEM 자산에 게시할 수 없습니다.
+* 브랜드 포털 사용자는 AEM 6.5.4에서 Adobe 개발자 콘솔로 업그레이드하기 위해 기여도 폴더 자산을 AEM Assets에 게시할 수 없습니다.
 
    이 문제는 다음 서비스 팩 6.5.5에서 수정됩니다.
 
