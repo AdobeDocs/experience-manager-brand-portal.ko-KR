@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 2%
@@ -25,7 +25,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >다운로드 속도는 네트워크 대역폭, 서버 지연 및 클라이언트의 지리적 위치 등의 요인에 따라 다르므로 사용자에 따라 다릅니다.
-
 
 활성화된 경우 브랜드 포털 사용자는 Aspera Connect 클라이언트를 설치하여 브랜드 포털 또는 공유 링크를 통해 원하는 에셋 파일을 다운로드하는 데 걸리는 시간을 크게 줄일 수 있습니다.
 
