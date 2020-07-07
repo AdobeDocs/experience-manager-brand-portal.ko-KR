@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -42,4 +42,3 @@ ht-degree: 0%
 >관리자가 아닌 사용자는 자산 기여도 폴더만 만들고 공유할 수 있습니다. 기여도 폴더가 만들어지면 관리자가 아닌 사용자가 수정하거나 삭제할 수 없습니다.
 >
 >자산 기여도 폴더 중첩은 지원되지 않습니다. 한 폴더 내에 여러 기여도 폴더를 만들 수는 있지만 다른 기여도 폴더 내에 기여도 폴더를 만들 수는 없습니다.
-
