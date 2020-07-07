@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 복제 에이전트를 구성하려면 다음 단계를 수행하십시오.
 1. AEM Assets 작성자 인스턴스에 로그인합니다.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. 복제 페이지에서 작성자의 **[!UICONTROL 에이전트를 클릭합니다]**. 브랜드 포털 테넌트에 대한 네 개의 복제 에이전트를 볼 수 있습니다.
+1. 복제 페이지에서 **[!UICONTROL 작성자의 에이전트]**&#x200B;를 클릭합니다. 브랜드 포털 테넌트에 대한 네 개의 복제 에이전트를 볼 수 있습니다.
 1. 복제 에이전트 URL을 클릭하여 에이전트 세부 정보를 엽니다.
 1. 편집 **[!UICONTROL 을]** 클릭하여 복제 에이전트 설정을 수정합니다.
 1. [에이전트 설정]에서 [ **[!UICONTROL 확장]** ] 탭을 클릭합니다.
@@ -133,9 +133,6 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 >[!NOTE]
 >
 >기존 브랜드 포털 사용자가 아닌 경우 AEM 관리자에게 AEM 관리 콘솔에서 사용자를 만들고 브랜드 포털 사용자 목록의 사용자 구성 파일에 프로필을 추가하도록 요청하십시오. 브랜드 포털 [사용자 추가를 참조하십시오](brand-portal-configure-asset-sourcing.md).
-
-
-
 
 **Ques. 사용자 가져오기에 사용할 CSV 파일의 형식은 무엇입니까?**
 
