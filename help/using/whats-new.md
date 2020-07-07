@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 3%
@@ -68,8 +68,6 @@ Brand Portal에서 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 >
 >AEM 인스턴스를 최신 서비스 팩으로 업데이트하는 것이 좋습니다.
 
-
-
 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
 
 브랜드 [포털 FAQ를 참조하십시오](brand-portal-faqs.md).
@@ -95,8 +93,6 @@ Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를
 >브랜드 포털의 자산 소싱은 AEM 6.5.2.0 이상에서 지원됩니다.
 >
 >이 기능은 이전 버전(AEM 6.3 및 AEM 6.4)에서 지원되지 않습니다.
-
-
 
 ### 기여도 폴더에 자산 업로드 {#upload-assets-in-bp}
 
@@ -153,7 +149,6 @@ Brand Portal 6.4.4 버전부터는 필터링 창에서 속성 조건자에 대�
 >[!NOTE]
 >
 >부분 검색 **확인란을** 선택하면 **기본적으로 대/소문자** 무시가 선택됩니다.
-
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
@@ -262,7 +257,7 @@ AEM(6.4.2.0) [의](https://helpx.adobe.com/experience-manager/6-4/release-notes/
 
 ![](assets/bp-login-screen-1.png)
 
-AEM 브랜드 포털에서는 게스트가 포털에 액세스할 수 있도록 합니다. 게스트 사용자는 포털에 입장할 수 있는 자격 증명이 필요하지 않으며 모든 공용 폴더 및 컬렉션에 액세스하여 다운로드할 수 있습니다. 게스트 사용자는 자신의 lightbox(비공개 컬렉션)에 에셋을 추가하고 이를 다운로드할 수 있습니다. 관리자가 설정한 스마트 태그 검색 및 검색 예측자를 볼 수도 있습니다. 게스트 세션은 사용자가 컬렉션과 저장된 검색을 만들거나 추가로 공유하거나 폴더 및 컬렉션 설정에 액세스하고 자산을 링크로 공유할 수 있도록 허용하지 않습니다.
+AEM 브랜드 포털에서는 게스트가 포털에 액세스할 수 있도록 합니다. 손님 사용자는 포털에 입장할 수 있는 자격 증명이 필요하지 않으며 모든 공용 폴더 및 컬렉션에 액세스하여 다운로드할 수 있습니다. 게스트 사용자는 자신의 lightbox(비공개 컬렉션)에 에셋을 추가하고 이를 다운로드할 수 있습니다. 관리자가 설정한 스마트 태그 검색 및 검색 예측자를 볼 수도 있습니다. 게스트 세션은 사용자가 컬렉션과 저장된 검색을 만들거나 추가로 공유하거나 폴더 및 컬렉션 설정에 액세스하고 자산을 링크로 공유할 수 있도록 허용하지 않습니다.
 
 조직에서 여러 개의 동시 손님 세션을 사용할 수 있으며 조직당 총 사용자 할당량의 10%로 제한됩니다.
 
