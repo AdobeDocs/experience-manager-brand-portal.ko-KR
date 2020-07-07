@@ -1,18 +1,18 @@
 ---
 title: AEM Assets 브랜드 포털 개요
 seo-title: AEM Assets 브랜드 포털 개요
-description: AEM Assets 브랜드 포털에서는 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 장치에서 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다.
-seo-description: AEM Assets 브랜드 포털에서는 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 장치에서 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다.
+description: AEM Assets 브랜드 포털은 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 다양한 디바이스를 사용하는 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 지원합니다.
+seo-description: AEM Assets 브랜드 포털은 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 다양한 디바이스를 사용하는 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 지원합니다.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -23,31 +23,30 @@ ht-degree: 8%
 
 그러나 승인된 브랜드 로고, 지침, 캠페인 자산 또는 제품 샷을 다양한 내부 팀, 파트너 및 리셀러와 효율적이고 안전하게 공유할 수 있는 솔루션을 개발하는 것은 매우 어려운 일입니다.
 
-**AEM(Adobe Experience Manager) 자산 브랜드 포털은** 마케터가 자산 배포 및 자산 기여도 기능을 제공하여 전 세계적으로 배포된 브랜드 포털 사용자와 효과적으로 공동 작업해야 하는 필요성에 중점을 둡니다.
+**Adobe Experience Manager(AEM) 자산 브랜드 포털은** 마케터가 자산 배포 및 자산 기여도 기능을 제공하여 글로벌로 배포된 브랜드 포털 사용자와 효과적으로 공동 작업해야 하는 필요성에 중점을 둡니다.
 
-에셋 배포를 사용하면 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 모든 디바이스에서 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 반면에 자산 기여도를 통해 브랜드 포털 사용자는 작성 환경에 액세스할 필요 없이 자산을 브랜드 포털에 업로드하고 AEM 자산에 게시할 수 있습니다. 기여도 기능을 브랜드 포털에서 **자산 소싱이라고 합니다**. 또한 브랜드 포털 사용자(외부 에이전시/팀)의 자산 배포 및 기여도에 대한 전반적인 브랜드 포털 경험을 향상시키고 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스 위험을 감소시킵니다.
+에셋 배포를 사용하면 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 모든 디바이스에서 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 반면에 자산 기여도를 통해 브랜드 포털 사용자는 작성 환경에 액세스할 필요 없이 자산을 브랜드 포털에 업로드하고 AEM Assets에 게시할 수 있습니다. 기여도 기능을 브랜드 포털에서 **자산 소싱이라고 합니다**. 또한 브랜드 포털 사용자(외부 에이전시/팀)의 자산 배포 및 기여도에 대한 전반적인 브랜드 포털 경험을 향상시키고 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스 위험을 감소시킵니다.
 브랜드 포털에서 [자산 소싱을 참조하십시오](brand-portal-asset-sourcing.md).
 
 브라우저 기반의 포털 환경을 사용하면 승인된 포맷으로 에셋을 손쉽게 업로드, 탐색, 검색, 미리 보기 및 내보낼 수 있습니다.
 
 ## Brand Portal로 AEM Assets 구성 {#configure-brand-portal}
 
-AEM(Adobe Experience Manager) 자산은 브랜드 포털 테넌트의 승인을 위해 IMS 토큰을 구입하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다.
+AEM(Adobe Experience Manager) Assets는 Brand Portal 테넌트의 인증을 위한 IMS 토큰을 조달하는 Adobe 개발자 콘솔을 통해 Brand Portal로 구성됩니다.
 
 >[!NOTE]
 >
->Adobe 개발자 콘솔을 통해 브랜드 포털에서 AEM 자산 구성이 AEM Assets 클라우드 서비스, AEM Assets 6.3 이상에서 지원됩니다.
-
+>Adobe Developer Console을 통해 브랜드 포털에서 AEM Assets을 구성하는 방법은 AEM Assets 클라우드 서비스, AEM Assets 6.3 이상에서 지원됩니다.
 
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
 Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필요합니다.
 
-* AEM Assets 인스턴스 실행
+* 실행 중인 AEM Assets 인스턴스입니다.
 * Brand Portal 테넌트 URL
 * Brand Portal 테넌트의 IMS 조직에 대한 시스템 관리자 권한이 있는 사용자
 
-자세한 내용은 브랜드 포털에서 [AEM 자산 구성을 참조하십시오](../using/configure-aem-assets-with-brand-portal.md).
+자세한 내용은 브랜드 포털로 AEM Assets [구성을 참조하십시오](../using/configure-aem-assets-with-brand-portal.md).
 
 ## 브랜드 포털의 사용자 성향 {#Personas}
 
@@ -107,7 +106,7 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 
 ### 관리자 {#administrator}
 
-관리자는 시스템 관리자 또는 브랜드 포털 제품 관리자로 표시된 사용자를 관리 콘솔 [!UICONTROL 에 포함합니다]. 관리자는 시스템 관리자와 사용자를 추가 및 제거하고 사전 설정을 정의하며 사용자에게 이메일을 보내고 포털 사용 및 저장소 보고서를 볼 수 있습니다.
+관리자는 [!UICONTROL Admin Console에서 시스템 관리자 또는 브랜드 포털 제품 관리자로 표시된 사용자를 포함합니다]. 관리자는 시스템 관리자와 사용자를 추가 및 제거하고 사전 설정을 정의하며 사용자에게 이메일을 보내고 포털 사용 및 저장소 보고서를 볼 수 있습니다.
 
 관리자는 편집자가 다음과 같은 추가 작업을 수행할 수 있는 모든 작업을 수행할 수 있습니다.
 
@@ -123,7 +122,7 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 
 [보고서를 사용한 작업](brand-portal-reports.md)
 
-위의 작업 외에 AEM 자산의 작성자는 다음 작업을 수행할 수 있습니다.
+위의 작업 외에 AEM Assets의 작성자는 다음 작업을 수행할 수 있습니다.
 
 [Brand Portal로 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)
 
@@ -136,7 +135,7 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 브랜드 포털 6.4.3부터 조직은 브랜드 포털 테넌트의 기존 URL에 대해 하나의 대체(별칭) URL을 가질 수 있습니다. 별칭 URL은 URL에 대체 접두사가 있으면 만들 수 있습니다.\
 브랜드 포털 URL의 접두사만 사용자 정의할 수 있으며 전체 URL은 사용자 지정할 수 없습니다. 예를 들어 기존 도메인 **[!UICONTROL geometritrix.brand-portal.adobe.com]** 을 사용하는 조직은 요청 시 **[!UICONTROL geometrixx.brand-portal.adobe.com]** 을 만들 수 있습니다.
 
-그러나 AEM 작성자 인스턴스는 테넌트 ID로만 [구성할](../using/configure-aem-assets-with-brand-portal.md) 수 있으며 테넌트 별칭(대체) URL로는 구성할 수 없습니다.
+하지만 AEM Author 인스턴스는 테넌트 URL로만 [구성할](../using/configure-aem-assets-with-brand-portal.md) 수 있으며 테넌트 별칭(대체) URL로는 구성할 수 없습니다.
 
 >[!NOTE]
 >
@@ -144,10 +143,9 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 >
 >이전 별칭을 대체하거나 삭제하려면 동일한 프로세스를 따라야 합니다.
 
-
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
-사용자는 로그인 화면에서 브랜드 포털에 대한 액세스 권한을 요청할 수 있습니다. 이러한 요청은 Adobe [!UICONTROL 관리 콘솔을 통해 사용자에게 액세스 권한을 부여하는 브랜드 포털 관리자에게 전송됩니다]. 액세스 권한이 부여되면 사용자는 알림 이메일을 수신하게 됩니다.
+사용자는 로그인 화면에서 브랜드 포털에 대한 액세스 권한을 요청할 수 있습니다. 이러한 요청은 Adobe [!UICONTROL Admin Console을 통해 사용자에게 액세스 권한을 부여하는 브랜드 포털 관리자에게 전송됩니다]. 액세스 권한이 부여되면 사용자는 알림 이메일을 수신하게 됩니다.
 
 액세스를 요청하려면 다음을 수행합니다.
 
@@ -163,15 +161,15 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
    ![[!UICONTROL 액세스 요청]](assets/bplogin_request_access_2.png)
 
    **시나리오 1**
-   1. [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]또는 [!UICONTROL Federated ID가]있는 경우 Sign InPublishing을 ****클릭합니다.
+   1. Adobe ID [!UICONTROL ,]Enterprise ID [!UICONTROL 또는]Federated ID가 [!UICONTROL 있는 경우]Sign In **[!UICONTROL 을]**클릭합니다.
 로그인 [!UICONTROL 페이지가] 열립니다.
-   1. Adobe [!UICONTROL ID] 자격 증명을 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
+   1. Adobe ID 자격 [!UICONTROL 증명을] 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
 
    ![Adobe 로그인](assets/bplogin_request_access_3.png)
 
    액세스 [!UICONTROL 요청 페이지로 리디렉션됩니다] .<br />
    **시나리오 2**
-   1. Adobe ID가 없는 경우 [!UICONTROL Adobe ID를]만들려면 [ **[!UICONTROL 액세스]** 요청] [!UICONTROL 페이지에서] [Adobe ID가져오기]를클릭합니다.
+   1. Adobe ID이 없는 경우 를 만들려면 **[!UICONTROL 액세스]** 요청 [!UICONTROL 페이지에서 Adobe ID] 가져오기를클릭합니다.
 로그인 [!UICONTROL 페이지가] 열립니다.
    1. Click **[!UICONTROL Get an Adobe ID]**.
 등록 [!UICONTROL 페이지가] 열립니다.
@@ -193,9 +191,9 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 ![액세스 요청 알림](assets/bplogin_request_access_7.png)
 
 액세스 권한을 부여하려면 제품 관리자가 브랜드 포털 알림 영역에서 관련 알림을 클릭한 다음 액세스 권한 **[!UICONTROL 부여를 클릭해야 합니다]**.
-또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 통해 Adobe [!UICONTROL Admin Console] 을 방문하여 해당 제품 구성에 사용자를 추가할 수 있습니다.
+또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 통해 Adobe [!UICONTROL Admin Console] 를 방문하고 관련 제품 구성에 사용자를 추가할 수 있습니다.
 
-Adobe [Admin Console [!UICONTROL 홈 페이지로]](https://adminconsole.adobe.com/enterprise/overview) 리디렉션됩니다. Adobe [!UICONTROL Admin Console] 을 사용하여 사용자를 만들고 제품 프로필(이전의 제품 구성)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. 관리 콘솔에서 사용자 [!UICONTROL 추가에 대한 자세한 내용은 사용자][추가(사용자](brand-portal-adding-users.md#add-a-user) 추가 절차의 4-7단계 참조)를 참조하십시오.
+[ [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) ] 홈 페이지로 리디렉션됩니다. Adobe [!UICONTROL Admin Console] 를 사용하여 사용자를 만들고 제품 프로필(이전의 제품 구성)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. Admin Console [!UICONTROL 에서 사용자 추가에 대한 자세한 내용은 사용자][추가(사용자](brand-portal-adding-users.md#add-a-user) 추가 절차의 4-7단계 참조)를 참조하십시오.
 
 ## 브랜드 포털 언어 {#brand-portal-language}
 
@@ -209,7 +207,7 @@ Adobe [!UICONTROL Experience Cloud 설정에서 브랜드 포털 언어를 변�
 
    ![프로필 편집](assets/EditBPProfile.png)
 
-1. Experience [!UICONTROL Cloud 설정] 페이지의 [!UICONTROL 언어] 드롭다운 메뉴에서 언어를 선택합니다.
+1. Experience Cloud [!UICONTROL 설정] 페이지의 언어 [!UICONTROL 드롭다운] 메뉴에서 언어를 선택합니다.
 
 ## 브랜드 포털 유지 관리 알림 {#brand-portal-maintenance-notification}
 
