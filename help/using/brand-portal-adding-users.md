@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -39,7 +39,6 @@ Comment Type: draft
 >
 >브랜드 포털에서 그룹을 만들려면 Adobe [!UICONTROL Admin Console]에서 **[!UICONTROL 사용자 페이지 > 사용자 그룹]**&#x200B;대신 **[!UICONTROL 제품 > 제품 프로필을]**&#x200B;사용하십시오. Adobe [!UICONTROL Admin Console] 의 제품 프로필은 브랜드 포털에서 그룹을 만드는 데 사용됩니다.
 
-
 ## 사용자 추가 {#add-a-user}
 
 제품 관리자인 경우 Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) 를 사용하여 사용자를 만들고 제품 프로필(*이전의 제품 구성*)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. 그룹을 사용하여 역할 관리 및 자산 공유와 같은 일괄 작업을 수행할 수 있습니다.
@@ -48,11 +47,9 @@ Comment Type: draft
 >
 >브랜드 포털에 대한 액세스 권한이 없는 새 사용자는 브랜드 포털의 로그인 화면에서 액세스 권한을 요청할 수 있습니다. 자세한 내용은 브랜드 포털에 대한 [액세스 권한 요청을 참조하십시오](../using/brand-portal.md#request-access-to-brand-portal). 알림 영역에서 액세스 요청 알림을 받은 후 관련 알림을 클릭한 다음 액세스 권한 **[!UICONTROL 부여를 클릭합니다]**. 또는 받은 액세스 요청 이메일의 링크를 따릅니다. 그런 다음 [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)를 통해 사용자를 추가하려면 아래 절차의 4-7단계를 따르십시오.
 
-
 >[!NOTE]
 >
 >직접 또는 브랜드 포털에서 [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) 에 로그인할 수 있습니다. 직접 로그인하는 경우 아래 절차의 4-7단계에 따라 사용자를 추가합니다.
-
 
 1. 상단에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
 
@@ -97,7 +94,6 @@ Comment Type: draft
 >
 >직접 또는 브랜드 포털에서 [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) 에 로그인할 수 있습니다. 직접 [!UICONTROL Admin Console] 에 로그인하는 경우 아래 절차의 4-7단계에 따라 제품 프로필을 추가하십시오.
 
-
 1. 상단에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
 
    ![AEM 로고](assets/aemlogo.png)
@@ -130,7 +126,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >직접 또는 브랜드 포털에서 [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) 에 로그인할 수 있습니다. Admin Console에 직접 로그인하는 경우 아래 절차의 4-7단계에 따라 사용자를 제품 프로필에 추가합니다.
-
 
 1. 상단에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
 
@@ -185,7 +180,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >직접 또는 브랜드 포털에서 [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 에 로그인할 수 있습니다. 직접 [!UICONTROL Admin Console] 에 로그인하는 경우 아래 절차의 4-8단계에 따라 사용자를 제품 프로필에 추가합니다.
-
 
 1. 상단에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
 
@@ -277,7 +271,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >링크로 공유된 자산의 경우, 이미지 파일의 원본 표현물에 액세스할 수 있는 권한은 자산을 공유하는 사용자의 권한에 따라 적용됩니다.
-
 
 특정 그룹 구성원에 대한 원본 변환에 액세스할 수 있는 역할과 권한을 수정하려면 다음 단계를 수행하십시오.
 
