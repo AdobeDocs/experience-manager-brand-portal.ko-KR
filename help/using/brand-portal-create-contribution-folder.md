@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
+source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->관리자가 아닌 사용자는 기여도 폴더를 만들고 공유할 수만 있습니다. 관리자가 아닌 사용자는 기여도 폴더를 생성 후 수정하거나 삭제할 수 없으므로 기여도 폴더에 적절한 이름을 제공하십시오.
+>관리자가 아닌 사용자는 자산 기여도 폴더만 만들고 공유할 수 있습니다. 기여도 폴더가 만들어지면 관리자가 아닌 사용자가 수정하거나 삭제할 수 없습니다.
 >
->기여도 폴더 중첩은 지원되지 않습니다. 한 폴더 내에 여러 기여도 폴더를 만들 수는 있지만 다른 기여도 폴더 내에 기여도 폴더를 만들 수는 없습니다.
+>자산 기여도 폴더 중첩은 지원되지 않습니다. 한 폴더 내에 여러 기여도 폴더를 만들 수는 있지만 다른 기여도 폴더 내에 기여도 폴더를 만들 수는 없습니다.
 
