@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 2%
@@ -38,7 +38,6 @@ ht-degree: 2%
 >
 >폴더가 만료된 에셋이 있더라도 여전히 링크로 공유할 수 있습니다. 이 경우, 링크는 만료된 자산을 나열하지 않고 만료되지 않은 자산만 공유됩니다.
 
-
 다음 표에는 만료된 자산의 사용 권한이 표시됩니다.
 
 |  | **[!UICONTROL 링크 공유]** | **[!UICONTROL 다운로드]** | **[!UICONTROL 속성]** | **[!UICONTROL 컬렉션에 추가]** | **[!UICONTROL 삭제]** |
@@ -52,7 +51,6 @@ ht-degree: 2%
 >
 >뷰어와 편집자가 만료된 에셋과 만료된 에셋이 포함된 폴더를 다운로드하는 경우 만료되지 않은 에셋만 다운로드됩니다. 폴더에 만료된 자산만 포함된 경우 빈 폴더가 다운로드됩니다.
 
-
 ### 자산의 만료 상태 {#expiration-status-of-assets}
 
 자산의 만료 상태를 **[!UICONTROL 카드 보기에서 볼 수 있습니다]**. 카드의 빨간색 플래그는 자산이 만료되었음을 나타냅니다.
@@ -62,7 +60,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >목록 및 열 보기에는 자산의 만료 상태가 표시되지 않습니다.
-
 
 ## 자산 링크 만료 {#asset-link-expiration}
 
