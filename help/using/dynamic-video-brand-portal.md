@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 3%
@@ -63,7 +63,7 @@ Dynamic Media 구성([하이브리드](../using/dynamic-video-brand-portal.md#co
 * **AEM Author의 Dynamic Media 클라우드 구성을**&#x200B;기반으로 브랜드 포털의 Dynamic Media을 구성하고, 브랜드 포털 관리 도구에서 [Dynamic Media 설정](#configure-dm-hybrid-settings) 또는 [[!DNL Scene 7] 설정을](#configure-dm-scene7-settings) 구성합니다.
 Dynamic Media Hybrid 및 Dynamic Media [S7](#separate-tenants)**[!UICONTROL 의 기능을 사용하는 경우 Dynamic Media Hybrid 및 Scene7]** 모드로 구성된 AEM Author 인스턴스에 **[!UICONTROL 별도의 브랜드 포털 테넌트가 사용되는지]**&#x200B;확인하십시오.
 * **브랜드 포털에 비디오 인코딩이 적용된 폴더 게시**[비디오 인코딩](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 을 적용하고 AEM Author 인스턴스의 리치 미디어 에셋이 포함된 폴더를 브랜드 포털에 게시합니다.
-* **보안 미리 보기가 활성화된**&#x200B;경우 SPS의 허용 목록 주소 IP **[!DNL Scene 7]** 를 Dynamic Media- [(회사에서](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 보안 미리 보기가 **[!DNL Scene 7]** 활성화된 [경우)를 사용하는](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) 경우 회사는 관리자가 SPS(SceneScene7 Flash Publishing System)을 사용하여 해당 영역에 대해&#x200B;**[!UICONTROL IP 목록 공개]** 를 SPS(Scene7 Flash Publishing System)를 사용하여 각각의 영역에 대해외부로 보내는 것을 허용하는 것이 좋습니다.
+* **SPS의허용 목록에 추가하다 미리 보기**&#x200B;가 설정된&#x200B;**[!DNL Scene 7]** 경우 [Dynamic Media-](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) (회사에서 **[!DNL Scene 7]** 보안 미리 보기가 활성화됨 [](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) )를 사용하는&#x200B;**[!UICONTROL 경우, SPS ui(Scene7 Publishing]** System) flash를 사용하여 해당 지역에 대한 관리자허용 목록에 추가하다 IPIP를 각 지역에 대해SPS에서 가져오는 것이 좋습니다.
 송신 IP는 다음과 같습니다.
 
 | **지역** | **송신 IP** |
@@ -88,7 +88,7 @@ Dynamic Media **[!DNL Scene 7]** 및 Dynamic Media 하이브리드 기능을 모
 
 [ **[!UICONTROL 제목]**], [등록 ID **, []** Dynamic Media 및Video **[!UICONTROL URL]과 같은 구성 세부 사항(]** 에서)과 [비디오] URL **, [비디오 자격 증명], [전자 메일 및 암호], [전자 메일] 및 []********** ******** **[!DNL Scene 7]******&#x200B;전자 메일], [전자 메일] 및 [전자 메일], [지역], [Dynamic Media이]과 같은이 같은 구성 세부 사항이 [브랜드에 있습니다. AEM 클라우드 구성.
 
-### Dynamic Media Scene 7 모드에 대한 허용 목록 공개 주소 IP
+### Dynamic Media 장면 7 모드에 대한 허용 목록에 추가하다 공용 송신 IP
 
 Dynamic Media **[!UICONTROL Scene 7]**&#x200B;의 [보안 미리 보기 활성화](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)-를 사용하여 브랜드 포털에 비디오 자산을 제공하는 경우 **[!UICONTROL Scene 7은]** 스테이징 환경 또는 내부 애플리케이션에 대한 전용 이미지 서버를 설정합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없으면 실패 응답이 반환됩니다.
 따라서 **[!UICONTROL Scene-7]** Company 관리자는 **[!UICONTROL SPS]** (Scene-7 Publishing System) Flash UI를 통해 회사의 **[!UICONTROL 보안 테스트]** 환경에 대해 승인된 IP 주소 목록을구성합니다. 해당 지역의 송신 IP가 승인된 목록에 추가되어 있는지 확인합니다(다음 항목부터).
@@ -104,22 +104,24 @@ Dynamic Media **[!UICONTROL Scene 7]**&#x200B;의 [보안 미리 보기 활성�
 ## Dynamic Media(하이브리드) 설정 구성 {#configure-dm-hybrid-settings}
 
 AEM Author 인스턴스가 다이내믹 미디어 하이브리드 모드에서 실행 중인 경우 관리 도구 패널의 **[!UICONTROL 비디오]** 타일을 사용하여 Dynamic Media 게이트웨이 설정을 구성합니다.
+
 >[!NOTE]
 >
 >[비디오 인코딩 프로필은](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 브랜드 포털에 게시되지 않고 대신 **[!UICONTROL Scene 7]** 서버에서 반입됩니다. 따라서 비디오 인코딩이 브랜드 포털에서 성공적으로 재생되도록 하려면 구성 세부 사항이 AEM Author 인스턴스의 [[!UICONTROL Scene7 클라우드 구성과]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 동일한지 확인합니다.
+
 브랜드 포털 테넌트에 Dynamic Media 구성을 설정하려면
 
 1. 브랜드 포털의 상단 도구 모음에서 관리 도구에 액세스하려면 AEM 로고를 선택합니다.
-
-2. 관리 도구 패널에서 **[!UICONTROL 비디오]** 타일을 선택합니다.<br />
+1. 관리 도구 패널에서 **[!UICONTROL 비디오]** 타일을 선택합니다.
 
    ![브랜드 포털의 Dynamic Media 하이브리드 구성](assets/DMHybrid-Video.png)
-   **[!UICONTROL Dynamic Media 편집 구성]** 페이지가 열립니다.<br />
+
+   **[!UICONTROL Dynamic Media 편집 구성]** 페이지가 열립니다.
+
    ![브랜드 포털의 Dynamic Media 하이브리드 구성](assets/edit-dynamic-media-config.png)
 
-3. 등록 **[!UICONTROL ID]** 및 **[!UICONTROL 비디오 서비스 URL]** (DM-게이트웨이 URL)을 지정합니다. 이러한 세부 사항이 AEM Author 인스턴스의 **[!UICONTROL [도구] > [Cloud Service]** ]와 동일한지 확인합니다.
-
-4. 저장을 **선택하여** 구성을 저장합니다.
+1. 등록 **[!UICONTROL ID]** 및 **[!UICONTROL 비디오 서비스 URL]** (DM-게이트웨이 URL)을 지정합니다. 이러한 세부 사항이 AEM Author 인스턴스의 **[!UICONTROL [도구] > [Cloud Service]** ]와 동일한지 확인합니다.
+1. 저장을 **선택하여** 구성을 저장합니다.
 
 ## Dynamic Media Scene7 설정 구성 {#configure-dm-scene7-settings}
 
