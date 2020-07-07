@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >AEM Assets 브랜드 포털이 AEM Assets으로 성공적으로 구성되었는지 확인하려면 AEM 6.4.1.0으로 업그레이드하는 것이 좋습니다. AEM 6.4의 제한 사항에 따라 브랜드 포털로 AEM Assets을 구성하는 동안 오류가 발생하고 복제가 실패합니다.
-
 
 브랜드 포털용 클라우드 서비스를 구성하는 **[!UICONTROL /etc/cloudservice]**&#x200B;아래에서, 필요한 모든 사용자와 토큰은 자동으로 생성되고 보관소에 저장됩니다. 클라우드 서비스 구성이 생성되며, 복제 및 복제 에이전트가 컨텐츠를 복제하는 데 필요한 서비스 사용자도 만들어집니다. 이렇게 하면 4개의 복제 에이전트가 만들어집니다. 따라서 AEM에서 브랜드 포털로 많은 자산을 게시하면 이러한 자산은 라운드 로빈(Round Robin)을 통해 이러한 복제 에이전트 간에 큐에 올라가 배포됩니다.
 
@@ -126,7 +125,7 @@ permission
 복제 에이전트를 구성하려면 다음 단계를 수행하십시오.
 1. AEM Assets 작성자 인스턴스에 로그인합니다.
 1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. 복제 페이지에서 작성자의 **[!UICONTROL 에이전트를 클릭합니다]**. 브랜드 포털 테넌트에 대한 네 개의 복제 에이전트를 볼 수 있습니다.
+1. 복제 페이지에서 **[!UICONTROL 작성자의 에이전트]**&#x200B;를 클릭합니다. 브랜드 포털 테넌트에 대한 네 개의 복제 에이전트를 볼 수 있습니다.
 1. 복제 에이전트 URL을 클릭하여 에이전트 세부 정보를 엽니다.
 1. 편집 **[!UICONTROL 을]** 클릭하여 복제 에이전트 설정을 수정합니다.
 1. [에이전트 설정]에서 [ **[!UICONTROL 확장]** ] 탭을 클릭합니다.
