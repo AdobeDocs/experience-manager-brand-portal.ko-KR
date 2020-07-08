@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
+source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 0%
 1. AEM **[!UICONTROL 에 게시를]** ![](assets/export.png)클릭합니다.
    ![](assets/publish-contribution-folder-to-aem.png)
 
-게시 워크플로우의 다른 단계에서 브랜드 포털 사용자 및 AEM 관리자에게 이메일/펄스 알림이 전송됩니다.
-1. **대기** - 게시 워크플로가 브랜드 포털에서 트리거될 때 브랜드 포털 사용자에게 알림이 전송됩니다.
+게시 워크플로우의 다른 단계에서 브랜드 포털 사용자 및 관리자에게 이메일/펄스 알림이 전송됩니다.
+1. **대기** - 게시 워크플로가 브랜드 포털에서 트리거될 때 브랜드 포털 사용자 및 브랜드 포털 관리자에게 알림이 전송됩니다.
 
-1. **완료** - 게시 워크플로우가 완료되면, 즉 기여도 폴더가 AEM Assets에 성공적으로 게시되면 브랜드 포털 사용자 및 AEM 관리자에게 알림이 전송됩니다.
+1. **완료** - 게시 워크플로우가 완료되면, 즉 기여도 폴더가 AEM Assets에 성공적으로 게시되면 브랜드 포털 사용자 및 브랜드 포털 관리자에게 알림이 전송됩니다.
 
 
