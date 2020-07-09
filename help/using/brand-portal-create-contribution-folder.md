@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
+source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 1. 폴더의 **[!UICONTROL 제목]****[!UICONTROL 및]** 이름을 **[!UICONTROL 입력하고 자산 기여도]** 확인란을활성화합니다.
 폴더 이름을 지정하려면 공백 없이 소문자를 사용하는 것이 좋습니다.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. AEM Assets 저장소에 나열된 새로 만든 기여도 폴더를 볼 수 있습니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. AEM Assets 저장소에 나열된 기여도 폴더를 볼 수 있습니다.
 
    >[!NOTE]
    >
