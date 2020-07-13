@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
+source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,16 @@ ht-degree: 0%
 **기여도 폴더를 게시하려면:**
 
 1. 브랜드 포털 인스턴스에 로그인합니다.
-1. 브랜드 포털 대시보드에서 기여도 폴더를 선택합니다.
-1. AEM **[!UICONTROL 에 게시를]** ![](assets/export.png)클릭합니다.
+1. 대시보드에서 기여도 폴더를 선택합니다.
+1. AEM에 **[!UICONTROL 게시를 클릭합니다.]**
+
+   ![](assets/export.png).
+
    ![](assets/publish-contribution-folder-to-aem.png)
 
 게시 워크플로우의 다른 단계에서 브랜드 포털 사용자 및 관리자에게 이메일/펄스 알림이 전송됩니다.
 1. **대기** - 게시 워크플로가 브랜드 포털에서 트리거될 때 브랜드 포털 사용자 및 브랜드 포털 관리자에게 알림이 전송됩니다.
 
-1. **완료** - 게시 워크플로우가 완료되면, 즉 기여도 폴더가 AEM Assets에 성공적으로 게시되면 브랜드 포털 사용자 및 브랜드 포털 관리자에게 알림이 전송됩니다.
+1. **완료** - 기여도 폴더가 AEM Assets에 성공적으로 게시되면 브랜드 포털 사용자 및 브랜드 포털 관리자에게 알림이 전송됩니다.
 
 
