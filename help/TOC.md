@@ -23,7 +23,7 @@ ht-degree: 70%
    + [FAQ](using/brand-portal-faqs.md)
    + [지원되는 파일 형식](using/brand-portal-supported-formats.md)
    + [Brand Portal에 대한 게스트 액세스](using/guest-access.md)
-   + [AEM 자산이 있는 브랜드 포털 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
+   + [AEM Assets을 사용한 브랜드 포털 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
    + [Brand Portal에서 자산 검색](using/browse-assets-brand-portal.md)
 + AEM Assets에서 Brand Portal에 게시 {#publish}
    + [Brand Portal로 AEM Assets 구성](using/configure-aem-assets-with-brand-portal.md)
@@ -36,7 +36,7 @@ ht-degree: 70%
 + 브랜드 포털의 자산 소싱 {#asset-sourcing-in-brand-portal}
    + [개요](using/brand-portal-asset-sourcing.md)
    + [AEM에서 자산 소싱 구성](using/brand-portal-configure-asset-sourcing.md)
-   + AEM 자산에 기여도 폴더 구성 {#configure-contribution-folder}
+   + AEM Assets의 기여도 폴더 구성 {#configure-contribution-folder}
       + [개요](using/brand-portal-contribution-folder.md)
       + [기여도 폴더 만들기](using/brand-portal-create-contribution-folder.md)
       + [기여도 폴더 속성 구성](using/brand-portal-configure-contribution-folder-properties.md)
@@ -46,7 +46,7 @@ ht-degree: 70%
       + [개요](using/brand-portal-overiew-using-asset-sourcing.md)
       + [자산 요구 사항 다운로드](using/brand-portal-download-asset-requirements.md)
       + [기여도 폴더에 자산 업로드](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [AEM 자산에 기여도 폴더 게시](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [AEM Assets에 기여도 폴더 게시](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 사용자와 자산 공유 {#share}
    + [컬렉션 공유](using/brand-portal-share-collection.md)
    + [폴더 공유](using/brand-portal-sharing-folders.md)
