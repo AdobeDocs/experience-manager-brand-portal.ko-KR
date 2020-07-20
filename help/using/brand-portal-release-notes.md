@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 18%
+source-wordcount: '801'
+ht-degree: 17%
 
 ---
 
@@ -55,6 +55,8 @@ Adobe Experience Manager(AEM) 자산 브랜드 포털은 승인된 크리에이�
 ### 알려진 문제 {#known-issues-6462}
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
+
+* 컬렉션에 대한 공유 링크는 현재 뷰어 사용자가 볼 수 있습니다.
 
 * 계층의 폴더가 AEM Assets에서 이름이 변경되고 자산이 들어 있는 중첩된 폴더가 브랜드 포털에 게시되는 경우 루트 폴더가 다시 게시될 때까지 폴더의 제목이 브랜드 포털에서 업데이트되지 않습니다.
 
