@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,11 @@ ht-degree: 0%
 **기여도 폴더를 게시하려면:**
 
 1. 브랜드 포털 인스턴스에 로그인합니다.
-1. 대시보드에서 기여도 폴더를 선택합니다.
-1. AEM에 **[!UICONTROL 게시를 클릭합니다.]**
 
-   ![](assets/export.png).
+1. 브랜드 포털 대시보드에서 기여도 폴더를 선택합니다.
+1. AEM **[!UICONTROL 에 게시를 클릭합니다]**.
+
+   ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
