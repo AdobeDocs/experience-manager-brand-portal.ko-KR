@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1632'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,12 @@ ht-degree: 3%
 **Ques. 기존 레거시 OAuth 끝점(`https://legacy-oauth.cloud.adobe.io/login`)이 작동하지 않습니다. 무슨 이유가 있을까.**
 
 **Ans.** 기존 OAuth 구성은 더 이상 사용되지 않습니다. AEM Assets 작성 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe 개발자 콘솔을 통해 구성해야 합니다. 자세한 내용은 [Brand Portal에서 AEM Assets 구성](configure-aem-assets-with-brand-portal.md)을 참조하십시오. 하지만 업그레이드할 때까지 기존 OAuth 구성이 작동하려면 기존 OAuth 끝점을 다음으로 업데이트하십시오 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+
+**Ques. 관리자가 공유한 자산 링크를 사용하여 컬렉션을 만들었습니다. 그러나 내 컬렉션에 대한 공유 링크를 만들 수 없습니다. 이렇게 하려면 특별한 권한이 필요합니까?**
+
+**Ans.** 이 기능은 기본적으로 뷰어에서는 공유 링크를 만들 사용자를 추가할 수 없기 때문에 권한이 제한되어 있으므로 사용자가 컬렉션에 대한 링크를 공유할 수 없습니다. 컬렉션에 대한 공유 링크가 현재 뷰어 사용자가 볼 수 있는 알려진 문제입니다. 이 문제는 향후 릴리스에서 해결되며, 컬렉션에 대한 링크 공유 옵션은 뷰어 사용자가 사용할 수 없습니다.
+
 
 **Ques. Adobe 개발자 콘솔로 업그레이드한 후 기여도 폴더의 자산을 브랜드 포털에서 AEM Assets으로 게시할 수 없습니다. 내 작성자 인스턴스는 AEM 6.5.4에 있습니다. 가능한 이유는 무엇입니까?**
 
