@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 9%
+source-wordcount: '1522'
+ht-degree: 10%
 
 ---
 
@@ -62,18 +62,21 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 |  | **찾아보기** | **검색** | **다운로드** | **폴더 공유** | **컬렉션 공유** | **링크로 자산 공유** | **관리 도구 액세스** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **손님 사용자** | ✓* | ✓* | ✓* | x | x | x | x |
-| **뷰어** | ✓* | ✓* | ✓* | x | x | x | x |
+| **뷰어** | ✓ | ✓ | ✓ | x | x | x | x |
 | **편집자** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **관리자** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * 게스트 사용자는 공개 폴더 및 컬렉션에서만 자산을 검색, 액세스 및 검색할 수 있습니다.
 
-* 뷰어 사용자는 공유된 공개 자산에 액세스하고 다운로드할 수 있으며, 이러한 자산을 추가하여 자신만의 컬렉션을 만들 수 있습니다.
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->현재 뷰어 사용자가 컬렉션에 대한 공유 링크를 볼 수 있다는 알려진 문제가 있습니다. 뷰어 사용자는 공유 링크를 만들 사용자를 추가할 권한이 없습니다. 이 문제는 향후 릴리스에서 해결되며, 컬렉션에 대한 링크 공유 옵션은 뷰어 사용자가 사용할 수 없습니다.
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### Guest user {#guest-user}
 
