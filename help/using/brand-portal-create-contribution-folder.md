@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
+source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -21,13 +21,12 @@ ht-degree: 3%
 # Create contribution folder {#create-contribution-folder}
 
 
-새 폴더를 만들 권한이 있는 AEM 관리자와 비관리 사용자는 AEM Assets에 기여도 폴더를 만들 수 있습니다.
+AEM 관리자 및 새 폴더를 만들 권한이 있는 비관리 사용자는 AEM Assets에서 기여도 폴더를 만들 수 있습니다.
 기여도 폴더를 만들려면 자산 기여도 유형의 새 폴더를 만듭니다. 이 폴더를 만들면 브랜드 포털 사용자의 자산 제출이 가능합니다.  이렇게 하면 기여도 폴더 내에 SHARED 및 NEW라는 두 개의 하위 폴더가 추가로 생성되는 워크플로우가 자동으로 트리거됩니다.
 
 >[!NOTE]
 >
 >한 폴더 내에 여러 기여도 폴더를 만들 수는 있지만 다른 기여도 폴더 내에 기여도 폴더를 만들 수는 없습니다.
-
 
 기여도 폴더를 만들려면:
 1. AEM 작성자 인스턴스에 로그인합니다.
