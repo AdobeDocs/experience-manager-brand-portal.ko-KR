@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal의 새로운 기능
 seo-title: AEM Assets Brand Portal의 새로운 기능
-description: 6.4.6의 새로운 기능과 향상된 기능을 살펴보십시오.
-seo-description: 6.4.6의 새로운 기능과 향상된 기능을 살펴보십시오.
+description: 6.4.7의 새로운 기능과 향상된 기능을 살펴보십시오.
+seo-description: 6.4.7의 새로운 기능과 향상된 기능을 살펴보십시오.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,21 +10,50 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
 workflow-type: tm+mt
-source-wordcount: '4462'
-ht-degree: 3%
+source-wordcount: '4746'
+ht-degree: 2%
 
 ---
 
 
 # AEM Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
-Adobe Experience Manager(AEM) 자산 브랜드 포털은 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 장치에서 외부 당사자 및 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 도와줍니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 여부에 대한 위험을 줄일 수 있습니다. Adobe는 전반적인 브랜드 포털 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 개선 사항에 대한 간략한 소개입니다.
+Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 디바이스를 사용하는 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 도와줍니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 여부에 대한 위험을 줄일 수 있습니다. Adobe은 전반적인 브랜드 포털 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 개선 사항에 대한 간략한 소개입니다.
+
+## 6.4.7의 변경 사항 {#what-changed-in-647}
+
+브랜드 포털 6.4.7 릴리스에서는 문서 뷰어 환경 개선, 브랜드 포털에서 에셋 다운로드 구성 및 주요 고객 요청에 중점을 둡니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+
+### Document Viewer {#doc-viewer}
+
+Document *Viewer를 사용하면* PDF 뷰어 환경을 향상시킬 수 있습니다. 브랜드 포털에서 PDF 파일을 볼 때 Adobe Document Cloud과 유사한 경험을 제공합니다.
+
+이전에 변환은 PDF 파일의 첫 페이지에만 사용할 수 있었고 기본 PDF 뷰어에서 사용할 수 있는 옵션도 제한되었습니다.
+
+Document *Viewer* 구현 기능을 사용하면 브랜드 포털 사용자는 PDF 메타데이터를 보고 도구 모음을 숨기거나 숨길 수 있으며 페이지 보기, 색인 보기, 인라인 검색, 확대/축소, 이전 페이지, 다음 페이지, 페이지로 전환, 화면에 맞추기, 화면에 맞추기, 숨김 취소 등의 PDF 파일을 사용하여 재생할 수 있는 새로운 옵션을 경험할 수 있습니다.
+
+브랜드 포털 사용자에게 향상된 PDF 뷰어 환경이 제공되는 경우, 다른 포맷의 경험은 그대로 유지됩니다.
+
+![](assets/doc-viewer.png)
+
+### 다운로드 설정 {#download-configurations}
+
+다운로드 설정은 브랜드 포털 관리자가 브랜드 포털에서 자산 다운로드를 구성할 수 있는 새로운 구성입니다.
+
+브랜드 포털에서 에셋을 다운로드하는 기존 워크플로우에는 선택할 수 있는 여러 다운로드 옵션이 있는 팝업 창이 나타나는 것이 불가피합니다.
+
+브랜드 포털 6.4.7에서는 브랜드 포털 사용자 인터페이스에서 자산을 다운로드할 수 있습니다. 빠른 다운로드, 사용자 정의 변환 및 시스템 변환은 사용 가능한 세 가지 구성입니다. 브랜드 포털 관리자는 자산 다운로드를 구성할 조합을 선택할 수 있습니다. 관리자는 이러한 구성을 활성화하거나 비활성화할 수도 있습니다.
+
+빠른 다운로드 구성은 에셋을 다운로드하는 동안 팝업 창의 모양을 건너뜁니다. 사용자 정의 표현물 또는 시스템 표현물 또는 다중 구성의 경우 팝업 창이 나타나고 자산 표현물과 함께 원본 자산이 다운로드됩니다.
+
+![](assets/download-configuration.png)
+
 
 ## 6.4.6의 변경 사항 {#what-changed-in-646}
 
-브랜드 포털 6.4.6에서는 AEM Assets과 브랜드 포털 간의 인증 채널이 변경됩니다. 이제 AEM Assets 클라우드 서비스, AEM Assets 6.3 이상에서 브랜드 포털이 지원됩니다. AEM Assets 6.3 이상에서, 브랜드 포털은 이전 OAuth 게이트웨이를 통해 클래식 UI에서 이전에 구성되었으며, 이 게이트웨이는 JWT 토큰 교환을 사용하여 IMS 액세스 토큰을 인증하도록 사용합니다. 이제 AEM Assets은 브랜드 포털 임차인의 인증을 위해 IMS 토큰을 조달하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다.
+브랜드 포털 6.4.6에서는 AEM Assets과 브랜드 포털 간의 인증 채널이 변경됩니다. 이제 브랜드 포털은 AEM Assets 클라우드 서비스, AEM Assets 6.3 이상에서 지원됩니다. AEM Assets 6.3 이상에서, 브랜드 포털은 이전 OAuth 게이트웨이를 통해 클래식 UI에서 이전에 구성되었으며, 이 게이트웨이는 JWT 토큰 교환을 사용하여 IMS 액세스 토큰을 인증하도록 사용합니다. 이제 AEM Assets은 브랜드 포털 임차인의 인증을 위해 IMS 토큰을 조달하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -79,12 +108,12 @@ Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를
 
 ### 브랜드 포털의 자산 소싱 {#asset-sourcing-in-bp}
 
-자산 소싱을 통해 AEM 사용자(관리자/비관리 사용자)는 추가 **자산 기여도** 속성을 사용하여 새 폴더를 만들 수 있으므로, 만들어진 새 폴더를 브랜드 포털 사용자가 자산 제출을 위해 열도록 할 수 있습니다. 이렇게 하면 새로 만든 기여도 폴더 내에 NEW 및 SHARED라는 두 개의 하위 폴더가 추가로 생성되는 **워크플로우가 자동으로** 트리거됩니다.
+자산 소싱을 통해 AEM 사용자(관리자/비관리 사용자)는 추가 **자산 기여도** 속성을 사용하여 새 폴더를 만들 수 있으므로, 브랜드 포털 사용자가 만든 새 폴더를 자산 제출용으로 만들 수 있습니다. 이렇게 하면 새로 만든 기여도 폴더 내에 NEW 및 SHARED라는 두 개의 하위 폴더가 추가로 생성되는 **워크플로우가 자동으로** 트리거됩니다.
 
-그런 다음 AEM 사용자는 BP 사용자가 필요한 참조 정보를 갖도록 하기 위해 기여도 폴더에 추가해야 하는 자산의 유형에 대한 간단한 [](brand-portal-configure-contribution-folder-properties.md) 개요를 [](brand-portal-upload-baseline-assets.md)**업로드하고 기준 자산을** SHARED폴더에업로드하여 요구 사항을 정의합니다. 그러면 관리자는 새로 만든 기여도 폴더를 브랜드 포털에 게시하기 전에 기여도 폴더에 대한 액세스 권한을 활성 브랜드 포털 **사용자에게** 부여할 수 있습니다.
+그런 다음 AEM 사용자는 BP 사용자가 필요한 참조 정보를 [갖도록 하기 위해 기여도 폴더에 추가해야 하는 자산의 유형에 대한 간단한](brand-portal-configure-contribution-folder-properties.md) 설명을 [](brand-portal-upload-baseline-assets.md)업로드하고 기준 자산을 **** SHARED폴더에업로드하여요구 사항을 정의합니다. 그러면 관리자는 새로 만든 기여도 폴더를 브랜드 포털에 게시하기 전에 기여도 폴더에 대한 액세스 권한을 활성 브랜드 포털 **사용자에게** 부여할 수 있습니다.
 
 
-사용자가 NEW **폴더에 컨텐츠** 추가가 완료되면 기여도 폴더를 다시 AEM 작성자 환경에 게시할 수 있습니다. 가져오기를 완료하고 새로 게시된 컨텐츠를 AEM Assets 내에 반영하려면 몇 분 정도 걸릴 수 있습니다.
+사용자가 **NEW** 폴더에 컨텐츠 추가를 완료하면 기여도 폴더를 다시 AEM 작성자 환경에 게시할 수 있습니다. 가져오기를 완료하고 AEM Assets 내에 새로 게시된 컨텐츠를 반영하려면 몇 분 정도 걸릴 수 있습니다.
 
 또한 모든 기존 기능은 변경되지 않습니다. 브랜드 포털 사용자는 기여도 폴더뿐만 아니라 허용된 다른 폴더에서 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고, 속성을 수정하고, 컬렉션에 자산을 추가할 수 있습니다.
 
@@ -105,7 +134,7 @@ Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를
 
 ### AEM Assets에 기여도 폴더 게시 {#publish-assets-to-aem}
 
-업로드가 NEW **** 폴더에 완료되면 브랜드 포털 사용자는 기여도 폴더를 다시 AEM에 게시할 수 있습니다. 게시된 콘텐츠/자산을 AEM Assets에 가져오고 반영하는 데 몇 분이 걸릴 수 있습니다. 참조, [기여도 폴더를 AEM Assets에 게시](brand-portal-publish-contribution-folder-to-aem-assets.md)
+업로드가 완료되고 나면 브랜드 포털 **사용자는 기여도** 폴더를 다시 AEM에 게시할 수 있습니다. AEM Assets에 게시된 콘텐츠/자산을 가져오고 반영하는 데 몇 분 정도 걸릴 수 있습니다. 참조, [기여도 폴더를 AEM Assets에 게시](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
 
 ![](assets/upload-asset5.png)
@@ -154,7 +183,7 @@ Brand Portal 6.4.4 버전부터는 필터링 창에서 속성 조건자에 대�
 
 ## 6.4.3의 변경 사항 {#what-changed-in}
 
-브랜드 포털 6.4.3 릴리스는 브랜드 포털 액세스 URL에서 테넌트 ID뿐만 아니라 대체 별칭을 조직에 제공하는 것, 새로운 폴더 계층 구성, 비디오 지원 개선 사항, AEM Author 인스턴스에서 브랜드 포털로 예정된 게시, 운영 개선 사항 및 고객 요청에 대한 카테고리 등에 중점을 둡니다.
+브랜드 포털 6.4.3 릴리스는 브랜드 포털 액세스 URL의 테넌트 ID, 새로운 폴더 계층 구성, 비디오 지원 개선 사항, AEM 작성자 인스턴스에서 브랜드 포털로 예약된 게시, 운영 개선 사항 및 고객 요청에 대한 카테고리를 조직에 제공하는 데 중점을 둡니다.
 
 ### 관리자가 아닌 사용자를 위한 폴더 계층 탐색
 
@@ -197,19 +226,19 @@ Brand Portal 6.4.4 버전부터는 필터링 창에서 속성 조건자에 대�
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Dynamic Media 비디오 변환 지원
+### 다이내믹 미디어 비디오 변환 지원
 
-Dynamic Media 혼합 모드에 있는 AEM Author 인스턴스를 사용하는 사용자는 원본 비디오 파일 외에 다이내믹 미디어 변환을 미리 보고 다운로드할 수 있습니다.
+AEM 작성자 인스턴스가 Dynamic Media 하이브리드 모드에 있는 사용자는 원본 비디오 파일 외에 다이내믹 미디어 변환을 미리 보고 다운로드할 수 있습니다.
 
-특정 테넌트 계정에서 다이내믹 미디어 표현물의 미리 보기 및 다운로드를 허용하려면 관리자는 관리 도구 패널에서 **비디오** 구성에서 Dynamic Media 구성(비디오 서비스 URL(DM-게이트웨이 URL) 및 등록 ID)을 지정해야 합니다 **** .
+특정 테넌트 계정에서 다이내믹 미디어 표현물의 미리 보기 및 다운로드를 허용하려면 관리자는 관리 도구 패널에서 **비디오** 구성에서 **다이내믹 미디어 구성(비디오 서비스 URL(DM-게이트웨이 URL) 및 등록 ID)을 지정해야 합니다** .
 
-**사용 사례** Dynamic Media 비디오는 다음과 같이 미리 볼 수 있습니다.
+**사용 사례**&#x200B;의 Dynamic Media 비디오는 다음과 같이 미리 볼 수 있습니다.
 
 * 자산 세부 사항 페이지
 * 자산의 카드 보기
 * 링크 공유 미리 보기 페이지
 
-Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있습니다.
+다음 위치에서 다이내믹 미디어 비디오 인코딩을 다운로드할 수 있습니다.
 
 * Brand Portal
 * 공유 링크
@@ -220,7 +249,7 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 
 ### 브랜드 포털에 게시 예약
 
-AEM(6.4.2.0) [의](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) 작성자 인스턴스에서 브랜드 포털에 대한 자산(및 폴더) 게시 워크플로우를 나중 날짜로 예약할 수 있습니다.
+AEM(6.4.2.0)의 [자산(및 폴더)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) 게시 워크플로우에서 브랜드 포털로 작성자 인스턴스를 나중 날짜로 예약할 수 있습니다.
 
 마찬가지로 게시된 에셋은 브랜드 포털에서 게시 취소 워크플로우를 예약하여 나중 날짜(시간)에 포털에서 제거할 수 있습니다.
 
@@ -231,12 +260,12 @@ AEM(6.4.2.0) [의](https://helpx.adobe.com/experience-manager/6-4/release-notes/
 
 ### URL에서 구성 가능한 테넌트 별칭
 
-조직은 URL에 대체 접두사를 추가하여 포털 URL을 사용자 정의할 수 있습니다. 기존 포털 URL에서 테넌트 이름에 대한 별칭을 얻으려면 조직이 Adobe 지원에 문의해야 합니다.
+조직은 URL에 대체 접두사를 추가하여 포털 URL을 사용자 정의할 수 있습니다. 기존 포털 URL에서 테넌트 이름에 대한 별칭을 받으려면 조직이 Adobe 지원에 문의해야 합니다.
 
 브랜드 포털 URL의 접두사만 사용자 정의할 수 있으며 전체 URL은 사용자 지정할 수 없습니다.\
 예를 들어 기존 도메인 **geometritrix.brand-portal.adobe.com** 을 사용하는 조직은 요청 시 **geometrixx.brand-portal.adobe.com** 을 만들 수 있습니다.
 
-하지만 AEM Author 인스턴스는 테넌트 URL로만 [구성할](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) 수 있으며 테넌트 별칭(대체) URL로는 구성할 수 없습니다.
+그러나 AEM 작성자 인스턴스는 테넌트 ID로만 [구성할](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) 수 있으며 테넌트 별칭(대체) URL로는 구성할 수 없습니다.
 
 **사용 사례**&#x200B;는 Adobe에서 제공하는 URL을 고수하는 대신 포털 URL을 사용자 지정하여 브랜딩 요구 사항을 충족할 수 있습니다.
 
@@ -257,7 +286,7 @@ AEM(6.4.2.0) [의](https://helpx.adobe.com/experience-manager/6-4/release-notes/
 
 ![](assets/bp-login-screen-1.png)
 
-AEM 브랜드 포털에서는 게스트가 포털에 액세스할 수 있도록 합니다. 손님 사용자는 포털에 입장할 수 있는 자격 증명이 필요하지 않으며 모든 공용 폴더 및 컬렉션에 액세스하여 다운로드할 수 있습니다. 게스트 사용자는 자신의 lightbox(비공개 컬렉션)에 에셋을 추가하고 이를 다운로드할 수 있습니다. 관리자가 설정한 스마트 태그 검색 및 검색 예측자를 볼 수도 있습니다. 게스트 세션은 사용자가 컬렉션과 저장된 검색을 만들거나 추가로 공유하거나 폴더 및 컬렉션 설정에 액세스하고 자산을 링크로 공유할 수 있도록 허용하지 않습니다.
+AEM 브랜드 포털에서는 고객이 포털에 액세스할 수 있습니다. 게스트 사용자는 포털에 입장할 수 있는 자격 증명이 필요하지 않으며 모든 공용 폴더 및 컬렉션에 액세스하여 다운로드할 수 있습니다. 게스트 사용자는 자신의 lightbox(비공개 컬렉션)에 에셋을 추가하고 이를 다운로드할 수 있습니다. 관리자가 설정한 스마트 태그 검색 및 검색 예측자를 볼 수도 있습니다. 게스트 세션은 사용자가 컬렉션과 저장된 검색을 만들거나 추가로 공유하거나 폴더 및 컬렉션 설정에 액세스하고 자산을 링크로 공유할 수 있도록 허용하지 않습니다.
 
 조직에서 여러 개의 동시 손님 세션을 사용할 수 있으며 조직당 총 사용자 할당량의 10%로 제한됩니다.
 
@@ -337,7 +366,7 @@ AEM 브랜드 포털에서는 게스트가 포털에 액세스할 수 있도록 
 
 ### Adobe I/O UI로 oAuth 통합 구성
 
-Brand Portal 6.4.2 이상에서는 Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 인터페이스를 사용하여 JWT 애플리케이션을 만듭니다. 이 JWT 응용 프로그램을 만들면 AEM Assets과 브랜드 포털의 통합을 허용합니다. 이전에는 OAuth 통합을 구성하기 위한 UI가 에서 호스팅되었습니다 `https://marketing.adobe.com/developer/`. 브랜드 포털에 자산 및 컬렉션을 게시하기 위해 AEM Assets과 브랜드 포털 통합에 대해 자세히 알아보려면 브랜드 포털과 [AEM Assets 통합 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+브랜드 포털 6.4.2 이상에서는 Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 인터페이스를 사용하여 JWT 애플리케이션을 만듭니다. 이 JWT 애플리케이션을 사용하면 AEM Assets과 브랜드 포털과의 통합을 허용하도록 oAuth 통합을 구성할 수 있습니다. 이전에는 OAuth 통합을 구성하기 위한 UI가 에서 호스팅되었습니다 `https://marketing.adobe.com/developer/`. 브랜드 포털에 자산 및 컬렉션을 게시하기 위해 AEM Assets과 브랜드 포털 통합에 대한 자세한 내용은 [AEM Assets 통합을 브랜드 포털과 구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## 검색 개선 사항
 
@@ -372,8 +401,8 @@ Brand Portal 6.4.1은 고객의 기대에 부응하는 경험을 제공하기 �
 
 ![](assets/navbtn.png)
 
-* 자산의 세부 사항 페이지에서 AEM에서 업로드된 오디오 파일을 미리 보는 새로운 기능입니다.
-* 자산 속성에 제공된 새 관련 자산 기능. 이제 AEM의 다른 소스/파생 자산과 관련되고 브랜드 포털에 게시된 자산은 속성 페이지의 관련 자산에 대한 링크와 함께 브랜드 포털에서 자신의 관계를 유지합니다.
+* AEM에서 업로드된 오디오 파일을 자산의 세부 사항 페이지에서 미리 볼 수 있는 새로운 기능입니다.
+* 자산 속성에 제공된 새 관련 자산 기능. AEM의 다른 소스/파생 자산과 관련되고 브랜드 포털에 게시된 자산은 이제 속성 페이지의 관련 자산에 대한 링크와 함께 브랜드 포털에서 자신의 관계를 유지합니다.
 * 관리자가 아닌 사용자가 공개 컬렉션을 만들지 못하도록 제한하는 새로운 구성이 도입되었습니다. 조직은 Adobe 지원 팀과 협력하여 특정 계정에 이 기능을 구성할 수 있습니다.
 
 ### 향상된 검색 기능
@@ -401,7 +430,7 @@ Brand Portal 6.4.1은 고객의 기대에 부응하는 경험을 제공하기 �
 * 자산에 대한 검색 응답에서 최대 40% 향상
 * 검색 성능이 최대 40% 향상되었습니다.
 
-**참고**: 연구실에서 실시한 테스트에 따르면 향상된 기능이 제공됩니다.
+**참고**:연구실에서 실시한 테스트에 따르면 향상된 기능이 제공됩니다.
 
 ### 향상된 보고 기능
 
@@ -423,7 +452,7 @@ Brand Portal 6.4.1은 고객의 기대에 부응하는 경험을 제공하기 �
 
 ### 기타 개선 사항
 
-* 이제 AEM Assets 브랜드 포털 복제 대화 상자에서 공개 폴더 게시 확인란을 선택하여 AEM 6.3.2.1 및 6.4에서 브랜드 포털에 게시된 자산을 브랜드 포털 사용자에게 공개적으로 사용할 수 있습니다.
+* AEM 6.3.2.1 및 6.4에서 브랜드 포털에 게시된 에셋은 이제 AEM Assets 브랜드 포털 복제 대화 상자에서 공개 폴더 게시 확인란을 선택하여 브랜드 포털의 일반 사용자가 공개적으로 사용할 수 있게 되었습니다.
 
 ![](assets/public-folder-publish.png)
 
@@ -473,7 +502,7 @@ Brand Portal 6.4.1은 고객의 기대에 부응하는 경험을 제공하기 �
 
 ### Experience Cloud 브랜딩 변경 사항 {#experience-cloud-branding-changes}
 
-이제 브랜드 포털은 새로운 Adobe Experience Cloud 브랜딩을 준수합니다.
+브랜드 포털은 이제 새로운 Adobe Experience Cloud 브랜딩을 준수하고 있습니다.
 
 ![](assets/bp_solution_switcher.png)
 
@@ -483,7 +512,7 @@ Brand Portal 6.3.1에는 AEM과 함께 브랜드 포털을 맞추기 위한 새�
 
 ### 업그레이드된 사용자 인터페이스 {#upgraded-user-interface}
 
-Adobe는 브랜드 포털 사용자 경험을 AEM과 맞추기 위해 Coral 3 사용자 인터페이스로 전환할 예정입니다. 이러한 변경 사항은 탐색 및 외양을 비롯한 전반적인 유용성을 향상시킵니다.
+AEM과 브랜드 포털 사용자 경험을 맞추기 위해 Adobe이 Coral 3 사용자 인터페이스로 전환되고 있습니다. 이러한 변경 사항은 탐색 및 외양을 비롯한 전반적인 유용성을 향상시킵니다.
 
 #### 향상된 탐색 경험 {#enhanced-navigational-experience}
 
@@ -566,9 +595,9 @@ Adobe는 브랜드 포털 사용자 경험을 AEM과 맞추기 위해 Coral 3 �
 
 * 관리자가 새 사용자를 추가하면 사용자가 브랜드 포털에 추가할 초대 이메일에 동의하지 않아도 자동으로 추가됩니다.
 
-### AEM Assets 6.3의 새로운 게시 기능 {#new-publishing-capabilities-in-aem-assets}
+### AEM Assets 6.3의 새로운 출판 기능 {#new-publishing-capabilities-in-aem-assets}
 
-* AEM 관리자는 2017년 4분기에 제공될 AEM 6.3 SP 1-CFP 1(6.3.1.1)을 사용하여 AEM Assets의 메타데이터 스키마를 브랜드 포털에 게시할 수 있습니다.
+* AEM 관리자는 AEM 6.3 SP 1-CFP 1(6.3.1.1)를 사용하여 AEM Assets에서 브랜드 포털로 메타데이터 스키마를 게시할 수 있으며, 이는 2017년 4분기에 제공될 예정입니다.
 
 ![](assets/publish_metadataschemaaemassets.png)
 
