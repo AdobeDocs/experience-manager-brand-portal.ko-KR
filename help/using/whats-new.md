@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4753'
 ht-degree: 2%
 
 ---
@@ -24,29 +24,46 @@ Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이�
 
 ## 6.4.7의 변경 사항 {#what-changed-in-647}
 
-브랜드 포털 6.4.7 릴리스에서는 문서 뷰어 환경 개선, 브랜드 포털에서 에셋 다운로드 구성 및 주요 고객 요청에 중점을 둡니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+브랜드 포털 6.4.7 릴리스는 Document Viewer를 가져오고, 자산 다운로드 환경을 개선하며, 중요한 수정 사항을 포함합니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### Document Viewer {#doc-viewer}
 
-Document *Viewer를 사용하면* PDF 뷰어 환경을 향상시킬 수 있습니다. 브랜드 포털에서 PDF 파일을 볼 때 Adobe Document Cloud과 유사한 경험을 제공합니다.
+Document Viewer를 사용하면 PDF 보기 환경이 향상됩니다. 브랜드 포털에서 PDF 파일을 볼 때 Adobe Document Cloud과 유사한 경험을 제공합니다.
 
-이전에 변환은 PDF 파일의 첫 페이지에만 사용할 수 있었고 기본 PDF 뷰어에서 사용할 수 있는 옵션도 제한되었습니다.
+이전에는 PDF 파일을 보기 위해 제한된 옵션을 사용할 수 있었습니다.
 
-Document *Viewer* 구현 기능을 사용하면 브랜드 포털 사용자는 PDF 메타데이터를 보고 도구 모음을 숨기거나 숨길 수 있으며 페이지 보기, 색인 보기, 인라인 검색, 확대/축소, 이전 페이지, 다음 페이지, 페이지로 전환, 화면에 맞추기, 화면에 맞추기, 숨김 취소 등의 PDF 파일을 사용하여 재생할 수 있는 새로운 옵션을 경험할 수 있습니다.
+Document Viewer를 통해 브랜드 포털 사용자는 이제 페이지를 보고, 책갈피를 보고, 페이지에서 텍스트를 검색하고, 확대, 축소, 이전 및 다음 페이지로 이동, 페이지로 전환, 창에 맞추기, 화면에 맞추기, 도구 모음 숨기기 또는 숨김 해제할 수 있는 옵션을 사용할 수 있습니다.
 
-브랜드 포털 사용자에게 향상된 PDF 뷰어 환경이 제공되는 경우, 다른 포맷의 경험은 그대로 유지됩니다.
+>[!NOTE]
+>
+>다른 문서 포맷에 대한 보기 환경은 변경되지 않습니다.
+
+
 
 ![](assets/doc-viewer.png)
 
-### 다운로드 설정 {#download-configurations}
+### 경험 다운로드 {#download-configurations}
 
-다운로드 설정은 브랜드 포털 관리자가 브랜드 포털에서 자산 다운로드를 구성할 수 있는 새로운 구성입니다.
+자산 다운로드 프로세스가 개선되어 브랜드 포털에서 자산을 다운로드하는 동안 간소화된 사용자 경험을 제공합니다.
 
-브랜드 포털에서 에셋을 다운로드하는 기존 워크플로우에는 선택할 수 있는 여러 다운로드 옵션이 있는 팝업 창이 나타나는 것이 불가피합니다.
+브랜드 포털에서 자산 다운로드의 기존 워크플로우에는 선택할 수 있는 여러 다운로드 옵션이 있는 **[!UICONTROL 다운로드]** 대화 상자가 나타납니다.
 
-브랜드 포털 6.4.7에서는 브랜드 포털 사용자 인터페이스에서 자산을 다운로드할 수 있습니다. 빠른 다운로드, 사용자 정의 변환 및 시스템 변환은 사용 가능한 세 가지 구성입니다. 브랜드 포털 관리자는 자산 다운로드를 구성할 조합을 선택할 수 있습니다. 관리자는 이러한 구성을 활성화하거나 비활성화할 수도 있습니다.
+브랜드 포털 6.4.7에서 브랜드 포털 관리자는 자산 다운로드 **** 설정을 구성할 수 있습니다. 사용 가능한 구성은 다음과 같습니다.
+* **[!UICONTROL 빠른 다운로드]**
+* **[!UICONTROL 사용자 지정 표현물]**
+* **[!UICONTROL 시스템 표현물]**
 
-빠른 다운로드 구성은 에셋을 다운로드하는 동안 팝업 창의 모양을 건너뜁니다. 사용자 정의 표현물 또는 시스템 표현물 또는 다중 구성의 경우 팝업 창이 나타나고 자산 표현물과 함께 원본 자산이 다운로드됩니다.
+브랜드 포털 관리자는 모든 조합을 활성화하여 자산 다운로드를 구성할 수 있습니다.
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* 세 가지 구성 모두 꺼진 경우, 추가적인 대화 상자 없이 에셋이 다운로드되므로 브랜드 포털 사용자의 다운로드 경험을 간소화할 수 있습니다. 구성에 따라 다운로드 워크플로우는 독립 실행형 에셋, 여러 에셋, 에셋이 포함된 폴더, 라이선스가 부여되거나 라이선스가 부여되지 않은 에셋뿐만 아니라 공유 링크를 사용하여 에셋을 다운로드하는 경우에도 일관되게 유지됩니다.
+
+* 사용자 지정 **[!UICONTROL 변환]** 또는 **[!UICONTROL 시스템 변환]** 중 하나라도 활성화되면 **[!UICONTROL 다운로드]** 대화 상자가 나타나고 자산 표현물과 함께 원본 자산이 다운로드됩니다. 빠른 **[!UICONTROL 다운로드]** 구성을 활성화하면 다운로드 프로세스가 빨라집니다.
 
 ![](assets/download-configuration.png)
 
