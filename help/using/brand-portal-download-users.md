@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 030fab342dba6e6561668eb34c0bb2c9c056db41
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 1%
@@ -79,7 +79,8 @@ Adobe Experience Manager 에셋 브랜드 포털은 사용자가 브랜드 포�
 * 사용자 **[!UICONTROL 지정 표현물]** 및 **[!UICONTROL 시스템 표현물]** 구성이 모두 꺼진 경우, 자산의 원본 표현물은 추가 대화 상자 없이 다운로드됩니다.
 
 <!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
+Test.. 
 -->
 
 * 사용자 **[!UICONTROL 지정 표현물]** 또는 **[!UICONTROL 시스템 표현물]** 구성 중 어느 것도 활성화되면 **[!UICONTROL 원본 자산을 해당 표현물과 함께 다운로드할지, 아니면 특정 표현물만 다운로드할지 선택할 수 있는 추가]** 다운로드대화 상자가 나타납니다.
