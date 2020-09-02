@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 3%
 
 # FAQ {#frequently-asked-questions}
 
-브랜드 포털 FAQ는 최신 AEM Assets Brand Portal 6.4.6 릴리스 또는 이전 버전으로 작업하는 동안 발생할 수 있는 최종 사용자 쿼리 및 문제에 중점을 둡니다.
+브랜드 포털 FAQ는 최신 AEM Assets 브랜드 포털 6.4.6 릴리스 또는 이전 버전으로 작업하는 동안 발생할 수 있는 최종 사용자 쿼리 및 문제에 중점을 둡니다.
 
 
 ## 브랜드 포털 6.4.6 FAQ  {#faqs-bp646}
 
 **Ques. 기존 레거시 OAuth 끝점(`https://legacy-oauth.cloud.adobe.io/login`)이 작동하지 않습니다. 무슨 이유가 있을까.**
 
-**Ans.** 기존 OAuth 구성은 더 이상 사용되지 않습니다. AEM Assets 작성 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe 개발자 콘솔을 통해 구성해야 합니다. 자세한 내용은 [Brand Portal에서 AEM Assets 구성](configure-aem-assets-with-brand-portal.md)을 참조하십시오. 하지만 업그레이드할 때까지 기존 OAuth 구성이 작동하려면 기존 OAuth 끝점을 다음으로 업데이트하십시오 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** 기존 OAuth 구성은 더 이상 사용되지 않습니다. AEM Assets 작성자 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe 개발자 콘솔을 통해 구성해야 합니다. 자세한 내용은 [Brand Portal에서 AEM Assets 구성](configure-aem-assets-with-brand-portal.md)을 참조하십시오. 하지만 업그레이드할 때까지 기존 OAuth 구성이 작동하려면 기존 OAuth 끝점을 다음으로 업데이트하십시오 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -35,17 +35,17 @@ ht-degree: 3%
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Ques. Adobe 개발자 콘솔로 업그레이드한 후 기여도 폴더의 자산을 브랜드 포털에서 AEM Assets으로 게시할 수 없습니다. 내 작성자 인스턴스는 AEM 6.5.4에 있습니다. 가능한 이유는 무엇입니까?**
+**Ques. Adobe 개발자 콘솔로 업그레이드한 후 기여도 폴더의 자산을 브랜드 포털에서 AEM Assets으로 게시할 수 없습니다. 작성자 인스턴스는 AEM 6.5.4에 있습니다. 가능한 이유는 무엇입니까?**
 
-**Ans.** 예. Adobe 개발자 콘솔을 통해 AEM 6.5.4의 AEM Assets에 기여도 폴더의 자산을 게시하는 동안 알려진 문제가 있습니다.
+**Ans.** 예. Adobe 개발자 콘솔을 통해 AEM 6.5.4에서 기여도 폴더의 자산을 AEM Assets에 게시하는 동안 알려진 문제가 있습니다.
 
 AEM 6.5.5에서 문제가 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM 6.5.5로 업그레이드하고 Adobe 개발자 콘솔에서 구성을 [업그레이드할](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 수 있습니다.
 
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 
-**Ques. AEM Assets의 브랜드 포털에서 게시한 기여도 폴더의 콘텐츠가 표시되지 않습니다. 무슨 이유가 있을까.**
+**Ques. AEM Assets의 브랜드 포털에서 게시한 기여도 폴더의 컨텐츠가 표시되지 않습니다. 무슨 이유가 있을까.**
 
-**Ans.** AEM Assets 관리자에게 문의하여 구성을 확인하고 브랜드 포털 테넌트가 하나의 AEM Assets 작성자 인스턴스로 구성되어 있는지 확인하십시오.
+**Ans.** 구성을 확인하고 브랜드 포털 테넌트가 하나의 AEM Assets 작성자 인스턴스로 구성되어 있는지 확인하려면 AEM Assets 관리자에게 문의하십시오.
 
 이 문제는 여러 AEM Assets 작성자 인스턴스에 브랜드 포털 테넌트를 구성할 때 발생할 수 있습니다. 예를 들어, 관리자는 스테이징 및 프로덕션 환경의 AEM Assets 작성자 인스턴스에 동일한 브랜드 포털 테넌트를 구성합니다. 이 경우, 자산 게시는 브랜드 포털에서 트리거되지만 AEM Assets 작성자 인스턴스는 요청한 토큰을 받지 못하는 자산 코드를 가져올 수 없습니다.
 
@@ -61,7 +61,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 1. 복제 에이전트 URL을 클릭하여 에이전트 세부 정보를 엽니다.
 1. 편집 **[!UICONTROL 을]** 클릭하여 복제 에이전트 설정을 수정합니다.
 1. [에이전트 설정]에서 [ **[!UICONTROL 확장]** ] 탭을 클릭합니다.
-1. 연결 **[!UICONTROL 닫기 확인란을]** 활성화합니다.
+1. 연결 **[!UICONTROL 닫기]** 확인란을 선택합니다.
 1. 4단계부터 7단계까지 반복하여 4개의 복제 에이전트를 모두 구성합니다.
 1. 서버를 다시 시작하고 연결을 확인합니다.
 
@@ -160,13 +160,13 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **Ques. AEM에서 정기적으로 실행되는 가져오기 작업의 빈도는 무엇입니까?**
 
-**Ans.** AEM에서 투표는 5분마다 실행됩니다.
+**Ans.** AEM에서는 5분마다 투표한다.
 
 
 
-**Ques. Brand Portal에서 AEM Assets으로 폴더를 게시할 수 있는 횟수에 대한 경고가 있습니까?**
+**Ques. Brand Portal에서 AEM Assets으로 폴더를 게시할 수 있는 횟수에 대한 위협이 있습니까?**
 
-**Ans.** 아니요. **NEW** 폴더의 모든 에셋은 이전에 게시된 사실과 관계없이 AEM Assets에 게시됩니다. 브랜드 포털에서 AEM Assets으로 **기여도** 폴더를 게시할 때마다 **NEW** 폴더 내용이 무시됩니다.
+**Ans.** 아니요. **NEW** 폴더의 모든 에셋은 이전에 게시된 사실과 관계없이 AEM Assets에 게시됩니다. 브랜드 포털에서 AEM Assets으로 **기여도** 폴더를 게시할 때마다 **새** 폴더 내용이 무시됩니다.
 
 
 
@@ -182,10 +182,10 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 
 
-**Ques. AEM Assets에서 Brand Portal에 유동적인 폴더를 게시하면 어떻게 됩니까?**
+**Ques. AEM Assets에서 브랜드 포털로 급변하는 폴더를 게시하면 어떻게 됩니까?**
 
 **Ans.** AEM에서는 폴더가 브랜드 포털에 게시될 때마다 로그가 유지됩니다. 게시할 때 브랜드 포털에 게시되지 않은 모든 에셋이 복제 대기열에 추가됩니다. 게시 작업이 트리거된 후 폴더에 추가된 모든 자산은 브랜드 포털에 게시되지 않습니다. AEM 사용자가 폴더를 다시 게시하면 이전에 게시되지 않은(복제 대기열에 기존) 자산만 브랜드 포털에 게시됩니다.
-AEM Assets에서 브랜드 포털로 게시되는 모든 폴더 및 기여도 폴더 내의 공유 폴더에 대해 적용됩니다.
+이것은 AEM Assets에서 브랜드 포털에 게시된 모든 폴더 및 기여도 폴더 내의 SHARED 폴더에 적용됩니다.
 
 
 
@@ -196,7 +196,7 @@ AEM Assets에서 브랜드 포털로 게시되는 모든 폴더 및 기여도 �
 
 >[!NOTE]
 >
->출시 일정은 잠정적이며 변경될 수 있습니다. 업데이트된 릴리스 일정을 얻으려면 Adobe 계정 관리자 또는 고객 지원에 문의하십시오.
+>출시 일정은 잠정적이며 변경될 수 있습니다. Adobe 계정 관리자 또는 고객 지원에 문의하여 업데이트된 릴리스 일정을 얻으십시오.
 
 
 
@@ -204,7 +204,7 @@ AEM Assets에서 브랜드 포털로 게시되는 모든 폴더 및 기여도 �
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}
 
-다음 사이트는 고객만 사용할 수 있습니다. 액세스 권한이 필요한 고객의 경우 Adobe 계정 관리자에게 문의하십시오.
+다음 사이트는 고객만 사용할 수 있습니다. 고객이고 액세스 권한이 필요한 경우 Adobe 계정 관리자에게 문의하십시오.
 
 * [](https://daycare.day.com) [제품 액세스](https://login.marketing.adobe.com)
 
