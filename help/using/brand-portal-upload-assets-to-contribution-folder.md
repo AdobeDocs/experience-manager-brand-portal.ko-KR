@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: f6ba54780fb74e7cf8634e8a90ab62c2401a1a33
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -29,6 +29,7 @@ ht-degree: 0%
 >
 >브랜드 포털 계정/테넌트의 최대 업로드 제한은 **10** GB입니다.
 
+
 **새 자산을 업로드하려면:**
 
 1. 브랜드 포털 인스턴스에 로그인합니다.
@@ -41,4 +42,4 @@ ht-degree: 0%
 1. NEW **[!UICONTROL 폴더에서 새 자산(파일/폴더)을]** 찾아보고 업로드합니다.
    ![](assets/upload-new-assets3.png)
 
-업로드가 완료되면 브랜드 포털 사용자는 기여도 폴더를 다시 AEM Assets에 게시할 수 있습니다. 기여도 폴더를 [AEM Assets에 게시를 참조하십시오](brand-portal-publish-contribution-folder-to-aem-assets.md).
+업로드가 완료되면 브랜드 포털 사용자는 기여도 폴더를 다시 AEM Assets에 게시할 수 있습니다. AEM Assets에 기여도 [폴더 게시를 참조하십시오](brand-portal-publish-contribution-folder-to-aem-assets.md).
