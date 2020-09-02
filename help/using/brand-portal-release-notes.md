@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 10%
 
 ---
@@ -59,7 +59,7 @@ For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
 
 * 특정 키워드에 대한 결과를 표시하는 데 시간이 더 오래 걸립니다.
 
-* 동의 **[!UICONTROL 및]** 동의 **[!UICONTROL 안]** 함 확인란은 다운로드 중 라이선스가 부여된 자산과 라이선스가 없는 자산의 대량 선택에 나타나지 않습니다.
+* 다운로드 중 라이선스와 라이선스가 없는 에셋 **[!UICONTROL 의 일괄 선택에 동의]** 및 **[!UICONTROL 동의]** 안 함 확인란이 표시되지 않습니다.
 
 * 필터 기반 검색은 검색 결과 없이 제품 인터페이스에서 처리를 보여줍니다.
 
