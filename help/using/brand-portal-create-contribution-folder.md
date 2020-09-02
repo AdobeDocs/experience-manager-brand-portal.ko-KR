@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
+source-git-commit: 70d93d37b04d899979e38b454e342ebd78bad3bb
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ AEM 관리자 및 새 폴더를 만들 권한이 있는 비관리 사용자는 A
 
 1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL 폴더 만들기]** 대화 상자가 열립니다.
 
-1. 폴더의 **[!UICONTROL 제목]****[!UICONTROL 및]** 이름을 **[!UICONTROL 입력하고 자산 기여도]** 확인란을활성화합니다.
+1. 폴더의 **[!UICONTROL 제목]****[!UICONTROL 및]** 이름을 **[!UICONTROL 입력하고 자산 기여도]** 확인란을선택합니다.
 폴더 이름을 지정하려면 공백 없이 소문자를 사용하는 것이 좋습니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. AEM Assets 저장소에 나열된 기여도 폴더를 볼 수 있습니다.
