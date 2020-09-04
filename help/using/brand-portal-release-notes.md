@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 10%
@@ -45,7 +45,7 @@ Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이�
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* 브랜드 포털에서 에셋을 다운로드하는 동안 브랜드 포털 사용자 경험을 개선하는 에셋 다운로드 프로세스의 고급 기능 브랜드 포털 관리자는 다운로드 설정에서 **[!UICONTROL 빠른 다운로드]****[!UICONTROL ,]**&#x200B;사용자 정의 표현물 **[!UICONTROL 및]** 시스템 표현물 **[!UICONTROL 을]** 구성할 수있습니다.
+* 브랜드 포털에서 에셋을 [다운로드하는 동안 브랜드 포털 사용자 경험을 개선하는 에셋 다운로드 프로세스](brand-portal-download-users.md)향상 브랜드 포털 관리자는 다운로드 설정에서 **[!UICONTROL 빠른 다운로드]****[!UICONTROL ,]**&#x200B;사용자 정의 표현물 **[!UICONTROL 및]** 시스템 표현물 **[!UICONTROL 을]** 구성할 수있습니다.
 
 For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
 
