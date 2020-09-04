@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6ba54780fb74e7cf8634e8a90ab62c2401a1a33
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->브랜드 포털 사용자는 콘텐츠/자산만 **새** 폴더에 업로드할 수 있습니다. 업로드된 자산을 삭제할 권한이 없습니다.
+>브랜드 포털 사용자는 콘텐츠/자산만 **새** 폴더에 업로드할 수 있습니다.
 >
 >브랜드 포털 계정/테넌트의 최대 업로드 제한은 **10** GB입니다.
 
