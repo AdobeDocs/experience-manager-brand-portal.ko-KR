@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Document Viewer를 통해 브랜드 포털 사용자는 이제 페이지를 보�
 
 ### 경험 다운로드 {#download-configurations}
 
-자산 다운로드 프로세스가 개선되어 브랜드 포털에서 자산을 다운로드하는 동안 간소화된 사용자 경험을 제공합니다.
+자산 다운로드 프로세스가 개선되어 브랜드 포털에서 자산을 [다운로드하는 동안 간소화된 사용자 경험을 제공합니다](brand-portal-download-users.md).
 
 브랜드 포털에서 자산 다운로드의 기존 워크플로우에는 선택할 수 있는 여러 다운로드 옵션이 있는 **[!UICONTROL 다운로드]** 대화 상자가 나타납니다.
 
