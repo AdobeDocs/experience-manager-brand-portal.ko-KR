@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 이미지 사전 설정은 미리 보고 다운로드할 수 있는 이미지의 동적 변환을 생성하는 데 사용됩니다. 이미지 및 해당 변환을 미리 볼 때, 관리자가 설정한 사양에 맞게 이미지의 서식을 재지정하는 사전 설정을 선택할 수 있습니다.
 
-(*AEM(작성자) 인스턴스가&#x200B;**Dynamic Media Hybrid 모드에서***실행 중인 경우) 브랜드 포털에서 자산의 다이내믹한 표현물을 보려면 해당 Pyramid Tiff 표현물이 브랜드 포털에 게시하는 AEM 작성자 인스턴스에 있는지 확인하십시오. 자산을 게시하면 해당 PTIFF 표현도 브랜드 포털에 게시됩니다.
+(*AEM 작성자 인스턴스가&#x200B;**Dynamic Media Hybrid 모드에서 실행 중인 경우***) 브랜드 포털에서 자산의 다이내믹한 변환을 보려면 해당 Pyramid 변환이 브랜드 포털에 게시하는 AEM 작성자 인스턴스에 있는지 확인합니다. 자산을 게시하면 해당 PTIFF 표현도 브랜드 포털에 게시됩니다.
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ AEM 관리자는 자산 세부 사항 페이지에서 동적 표현물로 표시
 >
 >이미지의 동적 표현물은 해당 Pyramid TIFF를 사용하여 만들어집니다. 어떤 자산에서도 Pyramid TIFF를 사용할 수 없는 경우 해당 자산에 대한 다이내믹 표현물은 브랜드 포털에서 가져올 수 없습니다.
 >
->AEM(작성자) 인스턴스가 **Dynamic Media Hybrid 모드에서**&#x200B;실행 중이면 이미지 자산의 Pyramid TIFF 변환이 AEM 저장소에 만들어지고 저장됩니다.
+>AEM 작성자 인스턴스가 **Dynamic Media Hybrid 모드에서**&#x200B;실행 중인 경우 이미지 자산의 Pyramid TIFF 변환이 AEM 저장소에 만들어지고 저장됩니다.
 >
->반면에 AEM(작성자) 인스턴스가 **Dynamic Media Scene 7 모드에서**실행 중인 경우 이미지 자산의 피라미드형 TIFF 변환이 Scene 7 서버에 존재합니다.
+>반면에 AEM 작성자 인스턴스가 **Dynamic Media Scene 7 모드에서**실행 중인 경우 이미지 자산의 피라미드형 TIFF 변환이 Scene 7 서버에 존재합니다.
 >이러한 에셋이 브랜드 포털에 게시되면 이미지 사전 설정이 적용되고 동적 변환이 표시됩니다.
 
 
