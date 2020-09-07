@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 10%
@@ -88,7 +88,7 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 
 [공개 자산 검색](brand-portal-searching.md)
 
-[공개 에셋 다운로드](brand-portal-download-users.md)
+[공개 에셋 다운로드](brand-portal-download-assets.md)
 
 [Lightbox에 자산 [!UICONTROL 추가]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -100,7 +100,7 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 
 [자산 검색](brand-portal-searching.md)
 
-[자산 다운로드](brand-portal-download-users.md)
+[자산 다운로드](brand-portal-download-assets.md)
 
 ### 편집자 {#editor}
 
@@ -171,7 +171,7 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
    ![[!UICONTROL 액세스 요청]](assets/bplogin_request_access_2.png)
 
    **시나리오 1**
-   1. Adobe ID [!UICONTROL ,]Enterprise ID [!UICONTROL 또는]Federated ID [!UICONTROL 가]있는 경우 Sign In **[!UICONTROL 을]**클릭합니다.
+   1. Adobe ID [!UICONTROL ,]Enterprise ID [!UICONTROL 또는]Federated ID [!UICONTROL 가]있는 경우 **[!UICONTROL Sign In]**을 클릭합니다.
 로그인 [!UICONTROL 페이지가] 열립니다.
    1. 사용자 [!UICONTROL Adobe ID] 자격 증명을 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
 
