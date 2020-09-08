@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 4%
@@ -19,9 +19,9 @@ ht-degree: 4%
 
 # Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스를 쉽게 검색하고, 자산 계층을 탐색하고, 자산을 검색하는 데 유용한 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
+AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스를 쉽게 찾고, 자산 계층을 탐색하고, 자산을 검색하는 데 유용한 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
 
-맨 위의 AEM 도구 모음에 있는 AEM 로고는 관리 사용자가 관리 도구 패널에 쉽게 액세스할 수 있도록 합니다.
+맨 위에 있는 AEM 툴바의 AEM 로고를 사용하면 관리 사용자가 관리 도구 패널에 쉽게 액세스할 수 있습니다.
 
 ![](assets/aemlogo.png)
 
@@ -57,7 +57,7 @@ AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스
 * 유형
 * 제목
 * 이름
-* 자산이 AEM에서 브랜드 포털에 게시된 날짜 및 시간
+* AEM에서 브랜드 포털에 자산이 게시된 날짜 및 시간
 * 크기
 * 크기
 
@@ -76,7 +76,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 **자산 속성을 보는 개요 옵션**
 
-개요 옵션은 관리자가 아닌 사용자(편집기, 뷰어, 게스트 사용자)가 선택한 자산/폴더의 자산 속성을 볼 수 있도록 사용할 수 있습니다. 개요 옵션이 표시됩니다.
+관리자가 아닌 사용자(편집기, 뷰어, 게스트 사용자)가 선택한 자산/폴더의 자산 속성을 볼 수 있는 개요 옵션을 사용할 수 있습니다. 개요 옵션이 표시됩니다.
 
 * 을 클릭합니다.
 * 을 눌러 레일 선택기를 선택합니다.
@@ -104,7 +104,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 * 제목
 * 로케일
 * 유형
-* 차원
+* Dimension
 * 크기
 * 등급
 * 자산 계층 구조를 보여주는 폴더 경로<sup>*</sup>
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 목록 보기에서 설정 보기
 
-목록 보기에는 기본적으로 **[!UICONTROL 자산]** 이름이 첫 번째 열로 표시됩니다. 자산 제목 **[!UICONTROL ,]**&#x200B;로케일 **[!UICONTROL ,]**&#x200B;유형 **[!UICONTROL ,]**&#x200B;차원 **[!UICONTROL , DimensionsDimensions,]********** Size,RatingPublish 상태와 같은 추가 정보도 표시됩니다. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+목록 보기에는 기본적으로 **[!UICONTROL 자산]** 이름이 첫 번째 열로 표시됩니다. 에셋 제목 **[!UICONTROL ,]**&#x200B;로케일 **[!UICONTROL ,]**&#x200B;유형 **[!UICONTROL ,]** Dimension **[!UICONTROL ,Size,]********** RatingRatingPublish 상태와 같은 추가 정보가 표시됩니다. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -142,7 +142,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 * 제목
 * 이름
 * 크기
-* 자산이 AEM에서 브랜드 포털에 게시된 날짜 및 시간
+* AEM에서 브랜드 포털에 자산이 게시된 날짜 및 시간
 * 크기
 * 유형
 * 세부 사항 옵션 - 자산의 세부 사항 페이지로 이동
@@ -215,7 +215,7 @@ Comment Type: draft
 <!--
 Comment Type: draft
 
-<h4>Deselecting All</h4>
+Deselecting All
 -->
 
 <!--
@@ -261,4 +261,4 @@ Comment Type: draft
 
 ![](assets/asset-properties.png)
 
-자산 관계는 AEM에서 브랜드 포털까지 게시되므로 자산의 속성 페이지에 있는 모든 관련 자산(소스 또는 AEM의 파생 자산)의 목록을 볼 수도 있습니다.
+자산 관계는 AEM에서 브랜드 포털로 게시되므로 자산의 속성 페이지에 있는 모든 관련 자산(소스 또는 AEM의 파생 자산)의 목록을 볼 수도 있습니다.
