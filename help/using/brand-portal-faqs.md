@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1521'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **Ques. AEM Assets에서 브랜드 포털에 자산을 게시할 수 없습니다. 복제 로그에는 연결 시간이 초과되었음을 나타냅니다. 빨리 고칠 수 있나요?**
 
-**Ans.** 일반적으로 복제 큐에 대기 중인 요청이 여러 개 있을 경우 게시 실패 시 시간 초과 오류가 발생합니다. 문제를 해결하려면 시간 초과를 방지하도록 복제 에이전트가 구성되어 있는지 확인하십시오.
+**Ans.** 일반적으로 복제 큐에 대기 중인 요청이 여러 개 있을 경우 시간 초과 오류가 발생하여 게시를 실패합니다. 이 문제를 해결하려면 시간 초과를 방지하도록 복제 에이전트가 구성되어 있는지 확인하십시오.
 
 복제 에이전트를 구성하려면 다음 단계를 수행하십시오.
 1. AEM Assets 작성자 인스턴스에 로그인합니다.
