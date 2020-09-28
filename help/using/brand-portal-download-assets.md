@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1356'
 ht-degree: 1%
 
 ---
@@ -116,6 +116,12 @@ Test..
       >라이선스로 보호된 자산은 [사용권 계약을 첨부하고](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , Experience Manager 자산에 자산의 [메타데이터 속성을](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 설정하여수행합니다.
 
       ![](assets/licensed-asset-download-1.png)
+
+      >[!NOTE]
+      >
+      >자산 세부 사항 페이지에서 필요한 모든 자산 표현물을 다운로드하는 동안 반드시 선택하고 다운로드를 **[!UICONTROL 클릭합니다]**. 선택한 변환이 로컬 컴퓨터에 다운로드됩니다.
+      > 
+      >다운로드하면, 다운로드된 표현물의 **[!UICONTROL 중복]** 복사본을 만들지 않도록 [다운로드] 단추가 비활성화됩니다. 더 많은 버전을 다운로드하려면(또는 다른 표현물 사본 누락) 브라우저를 새로 고쳐서 다운로드 단추를 다시 활성화합니다.
 
       [다운로드 설정]에서 **[!UICONTROL 사용자 지정]** 또는 **[!UICONTROL 시스템 변환]** 구성 **[!UICONTROL 이 활성화된 경우]**[ **[!UICONTROL 다운로드] 대화 상자가 기본적으로 선택된 FacebookAsset(s)기본 설정]** **** 과 함께 나타납니다. 빠른 **[!UICONTROL 다운로드]** 구성을 사용하는 경우 기본적으로 **[!UICONTROL 다운로드 가속]** 사용 확인란이 선택되어 있습니다.
 
