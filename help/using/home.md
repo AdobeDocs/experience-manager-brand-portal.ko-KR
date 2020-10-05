@@ -1,18 +1,18 @@
 ---
-title: AEM Brand Portal 사용 안내서
-seo-title: AEM Brand Portal 사용 안내서
-description: AEM Brand Portal 사용 안내서
+title: Adobe Experience Manager 에셋 브랜드 포털 가이드
+seo-title: Adobe Experience Manager 에셋 브랜드 포털 가이드
+description: Adobe Experience Manager 에셋 브랜드 포털 가이드
 seo-description: Brand Portal 사용 방법에 대해 설명합니다.
 translation-type: tm+mt
-source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
+source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 80%
+source-wordcount: '360'
+ht-degree: 74%
 
 ---
 
 
-# Adobe Experience Manager 에셋 브랜드 포털 {#aem-brand-portal}
+# Adobe Experience Manager 에셋 브랜드 포털 가이드 {#aem-brand-portal}
 
 **Adobe Experience Manager 에셋 브랜드 포털은** 승인된 브랜드 및 제품 자산을 외부 기관, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 조직의 마케팅 요구 사항을 충족할 수 있도록 지원합니다.
 
