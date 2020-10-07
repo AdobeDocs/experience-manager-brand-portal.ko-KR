@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
 workflow-type: tm+mt
-source-wordcount: '4758'
+source-wordcount: '4755'
 ht-degree: 2%
 
 ---
@@ -212,10 +212,12 @@ Brand Portal 6.4.4 버전부터는 필터링 창에서 속성 조건자에 대�
 * **비활성화되어**&#x200B;있으면 공유 폴더만 랜딩 페이지에 표시됩니다.
 
 ![](assets/enable-folder-hierarchy.png)
-**사용 사례**
 
 폴더 계층 [활성화](../using/brand-portal-general-configuration.md) 기능(활성화된 경우)을 사용하면 다른 계층과 공유된 동일한 이름의 폴더를 구별할 수 있습니다. 로그인하면 관리자가 아닌 사용자가 공유 폴더의 가상 상위(및 상위) 폴더를 보게 됩니다.
-![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
+
+![](assets/disabled-folder-hierarchy1-2.png)
+
+![](assets/enabled-hierarchy1-2.png)
 
 공유 폴더는 가상 폴더의 각 디렉토리 내에 구성됩니다. 이러한 가상 폴더는 잠금 아이콘으로 인식할 수 있습니다.
 
@@ -231,7 +233,8 @@ Brand Portal 6.4.4 버전부터는 필터링 창에서 속성 조건자에 대�
 
 * 관리자 사용자는 경로 브라우저를 사용하여 브랜드 포털의 모든 폴더 디렉토리로 이동할 수 있습니다.
 * 관리자가 아닌 사용자는 경로 브라우저를 사용하여 공유된 폴더만 탐색(그리고 상위 폴더로 다시 이동)할 수 있습니다.
-예를 들어, 관리자 `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 가 아닌 사용자와 공유됩니다. 사용자는 경로 브라우저를 사용하여 folderC 내에서 자산을 검색할 수 있습니다. 또한 이 사용자는 folderB 및 folderA로 이동할 수 있습니다(사용자와 공유되는 folderC의 상위 폴더이기 때문).
+
+   예를 들어, 관리자 `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 가 아닌 사용자와 공유됩니다. 사용자는 경로 브라우저를 사용하여 folderC 내에서 자산을 검색할 수 있습니다. 또한 이 사용자는 folderB 및 folderA로 이동할 수 있습니다(사용자와 공유되는 folderC의 상위 폴더이기 때문).
 
 ![](assets/edit-search-form.png)
 
