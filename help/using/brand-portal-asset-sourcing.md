@@ -19,7 +19,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 7%
@@ -43,7 +43,6 @@ ht-degree: 7%
 >
 >자산 소싱은 AEM Assets에서 Cloud Service으로 지원되지 않습니다.
 
-
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![브랜드 포털 자산 소싱](assets/asset-sourcing.png)
@@ -56,7 +55,6 @@ ht-degree: 7%
 >AEM 6.5.5에서 문제가 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM 6.5.5로 업그레이드하고 Adobe 개발자 콘솔에서 구성을 [업그레이드할](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 수 있습니다.
 >
 >AEM 6.5.4를 즉시 수정하려면 [핫픽스를 다운로드](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)하고 작성자 인스턴스에 설치하는 것이 좋습니다.
-
 
 ## 참고 항목 {#reference-articles}
 
