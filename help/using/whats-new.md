@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '4755'
 ht-degree: 2%
@@ -41,8 +41,6 @@ Document Viewer를 통해 브랜드 포털 사용자는 이제 페이지를 보�
 >[!NOTE]
 >
 >다른 문서 포맷에 대한 보기 환경은 변경되지 않습니다.
-
-
 
 ![](assets/doc-viewer.png)
 
