@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 3%
@@ -187,20 +187,13 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 **Ans.** AEM에서는 폴더가 브랜드 포털에 게시될 때마다 로그가 유지됩니다. 게시할 때 브랜드 포털에 게시되지 않은 모든 에셋이 복제 대기열에 추가됩니다. 게시 작업이 트리거된 후 폴더에 추가된 모든 자산은 브랜드 포털에 게시되지 않습니다. AEM 사용자가 폴더를 다시 게시하면 이전에 게시되지 않은(복제 대기열에 기존) 자산만 브랜드 포털에 게시됩니다.
 이것은 AEM Assets에서 브랜드 포털에 게시된 모든 폴더 및 기여도 폴더 내의 SHARED 폴더에 적용됩니다.
 
-
-
 **Ques. 질문 사항은 누구에게 문의해야 합니까?**
 
 **Ans.** Adobe 계정 관리자 또는 고객 지원에 문의하십시오.
 
-
 >[!NOTE]
 >
 >출시 일정은 잠정적이며 변경될 수 있습니다. Adobe 계정 관리자 또는 고객 지원에 문의하여 업데이트된 릴리스 일정을 얻으십시오.
-
-
-
-
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}
 
