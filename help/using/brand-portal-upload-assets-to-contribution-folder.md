@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ea7744001cfcf14cccf0e59eb2aa337ba8a3b1a2
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -29,7 +29,6 @@ ht-degree: 0%
 >
 >모든 브랜드 포털 테넌트의 최대 업로드 제한은 **10** GB이며, 이는 모든 기여도 폴더에 누적적으로 적용됩니다.
 
-
 새로 만든 에셋을 AEM Assets에 게시하면 브랜드 포털 사용자는 NEW 폴더에서 해당 에셋을 삭제할 수 있습니다. 반면에 브랜드 포털 관리자는 NEW 및 SHARED 폴더 모두에서 자산을 삭제할 수 있습니다.
 
 기여도 폴더를 만드는 목적이 달성되면 브랜드 포털 관리자는 기여도 폴더를 삭제하여 다른 사용자의 업로드 공간을 해제할 수 있습니다.
@@ -39,7 +38,6 @@ ht-degree: 0%
 >다른 브랜드 포털 사용자가 기여하기 위해 기여도 폴더를 AEM Assets에 게시한 후 업로드 공간을 해제하는 것이 좋습니다.
 >
 >브랜드 포털 임차인의 업로드 한도를 **10** GB를 넘어야 하는 경우 요구 사항을 지정하려면 Adobe 지원 센터에 문의하십시오.
-
 
 **새 자산을 업로드하려면:**
 
