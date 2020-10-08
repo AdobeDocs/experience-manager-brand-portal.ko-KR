@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 1%
@@ -28,7 +28,6 @@ Adobe Experience Manager 에셋 브랜드 포털은 사용자가 브랜드 포�
 >[!NOTE]
 >
 >브랜드 포털에서 에셋을 다운로드하기 전에 브라우저 익스텐션에 IBM Aspera Connect 3.9.9를 설치합니다.
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >관리자만 만료된 자산을 다운로드할 수 있습니다. 만료된 자산에 대한 자세한 내용은 자산의 디지털 권한 [관리를 참조하십시오](../using/manage-digital-rights-of-assets.md).
-
 
 ## 자산 다운로드 단계 {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ Test..
       >
       >브랜드 포털에서는 Hybird 및 Scene 7 모드 모두에서 Dynamic Media 구성을 지원합니다.
       >
-      >(*AEM 작성자 인스턴스가&#x200B;**Dynamic Media Hybrid 모드에서 실행 중인 경우***)      >자산의 다이내믹 변환을 미리 보거나 다운로드하려면 다이내믹 미디어가 활성화되어 있고 자산의 피라미드형 tiff 변환이 자산이 게시된 AEM Assets 작성자 인스턴스에 있는지 확인합니다. 자산이 브랜드 포털에 게시되면 해당 Pyramid 변환도 게시됩니다.
+      >(*AEM 작성자 인스턴스가&#x200B;**Dynamic Media Hybrid 모드에서 실행 중인 경우***)
+      >
+      >자산의 다이내믹 변환을 미리 보거나 다운로드하려면 다이내믹 미디어가 활성화되어 있고 자산의 피라미드형 tiff 변환이 자산이 게시된 AEM Assets 작성자 인스턴스에 있는지 확인합니다. 자산이 브랜드 포털에 게시되면 해당 Pyramid 변환도 게시됩니다.
 
    * 자산을 다운로드하는 동안 브랜드 포털 폴더 계층을 유지하려면 **[!UICONTROL 각 자산에 대해 별도의 폴더]** 만들기 확인란을 선택합니다. 기본적으로 브랜드 포털 폴더 계층은 무시되며 모든 자산은 로컬 시스템의 한 폴더에 다운로드됩니다.
 
@@ -179,7 +179,6 @@ Test..
    >[!NOTE]
    >
    >개별적으로 다운로드한 자산은 자산 다운로드 보고서에서 볼 수 있습니다. 그러나 에셋이 들어 있는 폴더를 다운로드한 경우 폴더 및 에셋이 에셋 다운로드 보고서에 표시되지 않습니다.
-
 
 ## 예상 다운로드 성능 {#expected-download-performance}
 
@@ -199,4 +198,3 @@ Test..
 >[!NOTE]
 >
 >인용된 데이터는 테스트 조건에서 관찰되며, 다양한 지연 및 대역폭을 사용하는 다른 위치에 있는 사용자에 대해 다를 수 있습니다.
-
