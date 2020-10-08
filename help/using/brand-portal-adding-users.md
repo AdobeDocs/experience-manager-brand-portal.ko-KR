@@ -1,15 +1,15 @@
 ---
 title: 사용자, 그룹 및 사용자 역할 관리
 seo-title: 사용자, 그룹 및 사용자 역할 관리
-description: 관리자는 Adobe Admin Console을 사용하여 AEM Assets 브랜드 포털 사용자 및 제품 프로필을 만들고 브랜드 포털 사용자 인터페이스를 사용하여 역할을 관리할 수 있습니다. 이 권한은 뷰어 및 편집기에는 사용할 수 없습니다.
-seo-description: 관리자는 Adobe Admin Console을 사용하여 AEM Assets 브랜드 포털 사용자 및 제품 프로필을 만들고 브랜드 포털 사용자 인터페이스를 사용하여 역할을 관리할 수 있습니다. 이 권한은 뷰어 및 편집기에는 사용할 수 없습니다.
+description: 관리자는 Adobe Admin Console을 사용하여 AEM Assets 브랜드 포털 사용자와 제품 프로필을 만들고 브랜드 포털 사용자 인터페이스를 사용하여 역할을 관리할 수 있습니다. 이 권한은 뷰어 및 편집기에는 사용할 수 없습니다.
+seo-description: 관리자는 Adobe Admin Console을 사용하여 AEM Assets 브랜드 포털 사용자와 제품 프로필을 만들고 브랜드 포털 사용자 인터페이스를 사용하여 역할을 관리할 수 있습니다. 이 권한은 뷰어 및 편집기에는 사용할 수 없습니다.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Manage Users, Groups, and User Roles {#manage-users-groups-and-user-roles}
 
-관리자는 Adobe Admin Console을 사용하여 AEM Assets 브랜드 포털 사용자 및 제품 프로필을 만들고 브랜드 포털 사용자 인터페이스를 사용하여 역할을 관리할 수 있습니다. 이 권한은 뷰어 및 편집기에는 사용할 수 없습니다.
+관리자는 Adobe Admin Console을 사용하여 AEM Assets 브랜드 포털 사용자와 제품 프로필을 만들고 브랜드 포털 사용자 인터페이스를 사용하여 역할을 관리할 수 있습니다. 이 권한은 뷰어 및 편집기에는 사용할 수 없습니다.
 
-Admin Console [[!UICONTROL 에서]](http://adminconsole.adobe.com/enterprise/overview)조직과 관련된 모든 제품을 볼 수 있습니다. 제품은 Adobe Analytics, Adobe Target 또는 AEM 브랜드 포털과 같은 모든 Experience Cloud 솔루션일 수 있습니다. AEM 브랜드 포털 제품을 선택하고 제품 프로필을 만들어야 합니다.
+Admin Console [[!UICONTROL 에서]](http://adminconsole.adobe.com/enterprise/overview)조직과 관련된 모든 제품을 볼 수 있습니다. 제품은 Adobe Analytics, Adobe Target 또는 AEM 브랜드 포털과 같은 Experience Cloud 솔루션일 수 있습니다. AEM 브랜드 포털 제품을 선택하고 제품 프로필을 만들어야 합니다.
 
 <!--
 Comment Type: draft
@@ -37,11 +37,11 @@ Comment Type: draft
 
 >[!NOTE]
 >
->브랜드 포털에서 그룹을 만들려면 Adobe [!UICONTROL Admin Console]에서 **[!UICONTROL 사용자 페이지 > 사용자 그룹]**&#x200B;대신 **[!UICONTROL 제품 > 제품 프로필을]**&#x200B;사용하십시오. Adobe [!UICONTROL Admin Console] 의 제품 프로필은 브랜드 포털에서 그룹을 만드는 데 사용됩니다.
+>브랜드 포털에서 Adobe [!UICONTROL Admin Console]에서 그룹을 만들려면 **[!UICONTROL 사용자 페이지 > 사용자 그룹]**&#x200B;대신 **[!UICONTROL 제품 > 제품 프로필을]**&#x200B;사용하십시오. Adobe [!UICONTROL Admin Console] 의 제품 프로필은 브랜드 포털에서 그룹을 만드는 데 사용됩니다.
 
 ## 사용자 추가 {#add-a-user}
 
-제품 관리자인 경우 Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) 를 사용하여 사용자를 만들고 제품 프로필(*이전의 제품 구성*)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. 그룹을 사용하여 역할 관리 및 자산 공유와 같은 일괄 작업을 수행할 수 있습니다.
+제품 관리자는 Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) 를 사용하여 사용자를 만들고 제품 프로필(*이전의 제품 구성*)에 할당하여 브랜드 포털에서 그룹으로 표시합니다. 그룹을 사용하여 역할 관리 및 자산 공유와 같은 일괄 작업을 수행할 수 있습니다.
 
 >[!NOTE]
 >
@@ -78,17 +78,17 @@ Comment Type: draft
    ![브랜드 포털에 사용자 추가](assets/add_user_to_aem_bp.png)
 
 1. 사용자가 브랜드 포털에 액세스할 수 있도록 사용자를 하나 이상의 제품 프로필(이전의 제품 구성)에 할당합니다. 이 제품의 프로필을 **[!UICONTROL 선택하십시오 필드에서 적절한 제품 프로필을]** 선택하십시오.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 추가한 사용자에게 환영 이메일이 전송됩니다. 초대받은 사용자는 환영 이메일의 링크를 클릭하고 [!UICONTROL Adobe ID을 사용하여 로그인하여 브랜드 포털에 액세스할 수 있습니다]. 자세한 내용은 [최초 로그인 경험을 참조하십시오](../using/brand-portal-onboarding.md).
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 추가한 사용자에게 환영 이메일이 전송됩니다. 초대 받은 사용자는 환영 이메일의 링크를 클릭하고 [!UICONTROL Adobe ID]를 사용하여 로그인하여 브랜드 포털에 액세스할 수 있습니다. 자세한 내용은 [최초 로그인 경험을 참조하십시오](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
    >
-   >사용자가 브랜드 포털에 로그온할 수 없는 경우, 조직 관리자는 Adobe [!UICONTROL Admin Console] 을 방문하여 사용자가 있는지, 그리고 하나 이상의 제품 프로필에 추가되었는지 확인해야 합니다.
+   >사용자가 브랜드 포털에 로그인할 수 없는 경우 조직 관리자는 Adobe [!UICONTROL Admin Console] 을 방문하여 사용자가 있는지, 하나 이상의 제품 프로필에 추가되었는지 확인해야 합니다.
 
    사용자에게 관리자 권한을 부여하는 방법에 대한 자세한 내용은 [사용자에게 관리자 권한 제공을 참조하십시오](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
 ## 제품 프로필 추가 {#add-a-product-profile}
 
-브랜드 포털에서 역할 관리 및 자산 공유와 같은 일괄 작업을 수행할 수 있도록 [!UICONTROL Admin Console] 의 제품 프로필(이전의 제품 구성)은 브랜드 포털에서 그룹을 만드는 데 사용됩니다. **브랜드 포털은** 사용 가능한 기본 제품 프로필입니다. 더 많은 제품 프로필을 만들고 새 제품 프로필에 사용자를 추가할 수 있습니다.
+브랜드 포털에서 역할 관리 및 자산 공유와 같은 일괄 작업을 수행할 수 있도록 [!UICONTROL Admin Console] 의 제품 프로필(이전의 제품 구성)은 브랜드 포털에서 그룹을 만드는 데 사용됩니다. **브랜드 포털은** 사용 가능한 기본 제품 프로필입니다.더 많은 제품 프로필을 만들고 새 제품 프로필에 사용자를 추가할 수 있습니다.
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Comment Type: draft
    ![csv로 사용자 추가](assets/admin_console_addbulkuserscsv.png)
 
    * Click **[!UICONTROL Upload]**.
-   기본 제품 프로필, 즉 브랜드 포털에 사용자를 추가한 경우 추가한 사용자의 이메일 ID로 환영 이메일이 전송됩니다. 초대받은 사용자는 환영 이메일의 링크를 클릭하고 [!UICONTROL Adobe ID을 사용하여 로그인하여 브랜드 포털에 액세스할 수 있습니다]. 자세한 내용은 [최초 로그인 경험을 참조하십시오](../using/brand-portal-onboarding.md).
+   기본 제품 프로필, 즉 브랜드 포털에 사용자를 추가한 경우 추가한 사용자의 이메일 ID로 환영 이메일이 전송됩니다. 초대 받은 사용자는 환영 이메일의 링크를 클릭하고 [!UICONTROL Adobe ID]를 사용하여 로그인하여 브랜드 포털에 액세스할 수 있습니다. 자세한 내용은 [최초 로그인 경험을 참조하십시오](../using/brand-portal-onboarding.md).
 
    사용자 지정 또는 새 제품 프로필에 추가된 사용자는 이메일 알림을 받지 않습니다.
 
@@ -209,8 +209,7 @@ Comment Type: draft
    >
    >브랜드 포털은 시스템 관리자 및 제품 관리자 역할만 지원합니다.
    >
-   >
-   >조직의 모든 제품에 대해 조직 전체에 관리자 권한을 부여하므로 시스템 관리자 역할을 사용하지 않는 것이 좋습니다. 예를 들어 3개의 Marketing Cloud 제품을 포함하는 조직의 시스템 관리자는 3개 제품 모두에 대한 전체 권한 집합을 가집니다. 시스템 관리자만 AEM Assets에서 브랜드 포털로 자산을 게시할 수 있도록 AEM Assets을 구성할 수 있습니다. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe은 조직의 모든 제품에 대해 조직 전체의 관리자 권한을 부여하므로 시스템 관리자 역할을 사용하지 않는 것이 좋습니다. 예를 들어 3개의 Marketing Cloud 제품을 포함하는 조직의 시스템 관리자는 3개 제품 모두에 대한 전체 권한 집합을 가집니다. 시스템 관리자만 AEM Assets에서 브랜드 포털로 자산을 게시할 수 있도록 AEM Assets을 구성할 수 있습니다. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >반면 제품 관리자 역할은 특정 제품에 대해서만 관리자 권한을 부여합니다. 브랜드 포털 내에서 보다 세분화된 액세스 제어를 적용하려면 제품 관리자 역할을 사용하고 해당 제품을 브랜드 포털로 선택하십시오.
 
@@ -230,8 +229,8 @@ Comment Type: draft
 
 관리자 역할 외에 브랜드 포털에서는 다음 역할을 지원합니다.
 
-* [!UICONTROL 뷰어]: 이 역할의 사용자는 관리자가 공유하는 파일과 폴더를 볼 수 있습니다. 또한 사용자는 에셋을 검색하고 다운로드할 수 있습니다. 그러나 뷰어는 콘텐트(파일, 폴더, [!UICONTROL 컬렉션])를 다른 사용자와 공유할 수 없습니다.
-* [!UICONTROL 편집기]: 이 역할의 사용자는 뷰어의 모든 권한을 가집니다. 또한 편집자는 컨텐츠(폴더, [!UICONTROL 컬렉션], 링크)를 다른 사용자와 공유할 수 있습니다.
+* [!UICONTROL 뷰어]:이 역할의 사용자는 관리자가 공유하는 파일과 폴더를 볼 수 있습니다. 또한 사용자는 에셋을 검색하고 다운로드할 수 있습니다. 그러나 뷰어는 콘텐트(파일, 폴더, [!UICONTROL 컬렉션])를 다른 사용자와 공유할 수 없습니다.
+* [!UICONTROL 편집기]:이 역할의 사용자는 뷰어의 모든 권한을 가집니다. 또한 편집자는 컨텐츠(폴더, [!UICONTROL 컬렉션], 링크)를 다른 사용자와 공유할 수 있습니다.
 
 1. 상단에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
 
@@ -266,7 +265,7 @@ Comment Type: draft
 관리자는 특정 권한을 브랜드 포털의 사용자 [그룹과](../using/brand-portal-adding-users.md#main-pars-title-278567577) 연결할 수 있습니다. [사용자 **[!UICONTROL 역할]** ] 페이지의 [ **[!UICONTROL 그룹]** ] 탭에서는 관리자가 다음을 수행할 수 있습니다.
 
 * 사용자 그룹에 역할 할당
-* 사용자 그룹이 Brand Portal의 이미지 파일(.jpeg, .tiff, .png, .bmp, .gif, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop)의 원본 변환을 다운로드하도록 제한합니다.
+* 사용자 그룹이 Brand Portal에서 이미지 파일(.jpeg, .tiff, .png, .bmp, .gif, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop)의 원본 변환을 다운로드하도록 제한합니다.
 
 >[!NOTE]
 >
@@ -286,7 +285,6 @@ Comment Type: draft
    >
    >사용자가 여러 그룹에 추가되고 이러한 그룹 중 하나에 제한이 있는 경우 해당 사용자에게 제한이 적용됩니다.
    >
-   >
    >또한, 이미지 파일의 원본 변환에 대한 액세스 제한은 제한된 그룹의 구성원도 관리자에게 적용되지 않습니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 해당 그룹에 대해 역할이 수정되었습니다.
@@ -294,4 +292,3 @@ Comment Type: draft
    >[!NOTE]
    >
    >사용자 대 그룹 연결 또는 사용자의 그룹 멤버십은 8시간마다 브랜드 포털에 동기화됩니다. 사용자 또는 그룹 역할에 대한 변경 사항은 다음 동기화 작업이 실행된 후에 적용됩니다.
-
