@@ -1,8 +1,8 @@
 ---
 title: 링크로 자산 공유
 seo-title: 링크로 자산 공유
-description: AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승인된 내부 사용자 및 외부 엔티티와 여러 자산의 링크를 공유할 수 있습니다. 편집자는 공유된 에셋만 보고 공유할 수 있습니다.
-seo-description: AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승인된 내부 사용자 및 외부 엔티티와 여러 자산의 링크를 공유할 수 있습니다. 편집자는 공유된 에셋만 보고 공유할 수 있습니다.
+description: AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승인된 내부 사용자 및 외부 실체와 여러 자산의 링크를 공유할 수 있습니다. 편집자는 공유된 에셋만 보고 공유할 수 있습니다.
+seo-description: AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승인된 내부 사용자 및 외부 실체와 여러 자산의 링크를 공유할 수 있습니다. 편집자는 공유된 에셋만 보고 공유할 수 있습니다.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # 링크로 자산 공유 {#share-assets-as-a-link}
 
-AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승인된 내부 사용자 및 외부 엔티티와 여러 자산의 링크를 공유할 수 있습니다. 편집자는 공유된 에셋만 보고 공유할 수 있습니다.
+AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승인된 내부 사용자 및 외부 실체와 여러 자산의 링크를 공유할 수 있습니다. 편집자는 공유된 에셋만 보고 공유할 수 있습니다.
 
 수신자가 자산에 액세스하기 위해 브랜드 포털에 로그인하지 않아도 되기 때문에 링크를 통해 자산을 공유하는 것은 외부 당사자가 사용할 수 있도록 하는 편리한 방법입니다.
 
@@ -32,10 +32,9 @@ AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승�
 >
 >브랜드 포털의 링크 공유 기능을 사용하여 최대 5GB의 zip 다운로드를 사용할 수 있습니다.
 
-
 자산을 링크로 공유하는 단계는 다음과 같습니다.
 
-1. 왼쪽의 오버레이 아이콘을 클릭하고 **[!UICONTROL 탐색을 선택합니다]**.
+1. 왼쪽의 오버레이 아이콘을 클릭하고 [탐색]을 **[!UICONTROL 선택합니다]**.
 
    ![](assets/siderail.png)
 
@@ -59,7 +58,7 @@ AEM Assets 브랜드 포털 관리자는 파트너 및 벤더를 비롯한 승�
 
 1. 이메일 주소 상자에 링크를 공유할 사용자의 이메일 ID를 입력합니다. 여러 사용자와 링크를 공유할 수 있습니다.
 
-   사용자가 조직의 구성원인 경우 드롭다운 목록에 표시되는 제안에서 이메일 ID를 선택합니다. 사용자가 외부에 있는 경우 전체 이메일 ID를 입력하고 Enter 키를 **[!UICONTROL 누릅니다]**. 이메일 ID가 사용자 목록에 추가됩니다.
+   사용자가 조직의 구성원인 경우 드롭다운 목록에 표시되는 제안에서 이메일 ID를 선택합니다. 사용자가 외부에 있는 경우 전체 이메일 ID를 입력하고 Enter 키를 **[!UICONTROL 누릅니다]**.이메일 ID가 사용자 목록에 추가됩니다.
 
    ![](assets/link-sharing-text.png)
 
