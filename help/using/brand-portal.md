@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 10%
@@ -72,10 +72,8 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
- >
- >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
- >
- 
+>
+>There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
 ### Guest user {#guest-user}
@@ -171,7 +169,7 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
    ![[!UICONTROL 액세스 요청]](assets/bplogin_request_access_2.png)
 
    **시나리오 1**
-   1. Adobe ID [!UICONTROL ,]Enterprise ID [!UICONTROL 또는]Federated ID [!UICONTROL 가]있는 경우 **[!UICONTROL Sign In]**을 클릭합니다.
+   1. Adobe ID [!UICONTROL ,]Enterprise ID [!UICONTROL 또는]Federated ID [!UICONTROL 가]있는 경우 Sign In **[!UICONTROL 을]**클릭합니다.
 로그인 [!UICONTROL 페이지가] 열립니다.
    1. 사용자 [!UICONTROL Adobe ID] 자격 증명을 제공하고 **[!UICONTROL 로그인을 클릭합니다]**.<br />
 
