@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 19%
@@ -32,7 +32,6 @@ Adobe Experience Manager 자산은 브랜드 포털 테넌트의 승인을 위�
 >
 >기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe 개발자 콘솔을 통한 구성으로 변경되었습니다.
 
-
 >[!TIP]
 >
 >***기존 고객 전용***
@@ -40,7 +39,6 @@ Adobe Experience Manager 자산은 브랜드 포털 테넌트의 승인을 위�
 >기존 OAuth 게이트웨이 구성은 기존 고객을 위해 계속 작동합니다.
 >
 >기존 OAuth 게이트웨이 구성에 문제가 있는 경우 기존 구성을 삭제하고 Adobe 개발자 콘솔을 통해 새 구성을 만드십시오.
-
 
 브랜드 포털로 AEM Assets을 구성하는 단계는 AEM 버전 및 처음 구성할지 또는 기존 구성을 업그레이드하는지에 따라 다릅니다.
 
@@ -51,5 +49,3 @@ Adobe Experience Manager 자산은 브랜드 포털 테넌트의 승인을 위�
 | **AEM 6.4(6.4.8.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3(6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [구성 업그레이드](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 지원 문의 | 지원 문의 |
-
-
