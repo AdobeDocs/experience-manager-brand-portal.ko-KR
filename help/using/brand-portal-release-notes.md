@@ -1,8 +1,8 @@
 ---
 title: 릴리스 정보
 seo-title: 릴리스 정보
-description: Adobe Experience Manager Assets 브랜드 포털 6.4.7 릴리스의 기능, 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Adobe Experience Manager Assets 브랜드 포털 6.4.7 릴리스의 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+description: Adobe Experience Manager 에셋 브랜드 포털 2020.10.0 릴리스의 기능, 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Adobe Experience Manager 에셋 브랜드 포털 2020.10.0 릴리스의 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
+source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '500'
 ht-degree: 10%
 
 ---
@@ -20,59 +20,92 @@ ht-degree: 10%
 
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets 브랜드 포털 6.4.7 릴리스의 새로운 기능, 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager 에셋 브랜드 포털 2020.10.0 릴리스의 새로운 기능, 개선 사항, 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager 에셋 브랜드 포털 |
 |---|---|
-| 버전 | 6.4.7 |
-| 날짜 | 2020년 8월 |
+| 버전 | 2020.10.0 |
+| 날짜 | 2020년 10월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 디바이스를 사용하는 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 도와줍니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 여부에 대한 위험을 줄일 수 있습니다. 브랜드 포털을 통해 사용자는 언제 어디에서나 회사에서 승인한 포맷으로 자산을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 6.4.7의 새로운 기능 {#whats-new-in-647}
+## 2020.10.0의 새로운 기능 {#whats-new-in-2020.10.0}
 
 ### New Features {#new-features}
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
-* Document Viewer는 PDF 보기 환경을 개선하기 위해 도입되었습니다. 브랜드 포털에서 PDF 파일을 보는 데 새로운 옵션을 사용할 수 있습니다.
+* 필수 **[!UICONTROL 가 아닌 표현물을 제외하고 유사한 자산 유형에 대해 동일한 규칙 세트를 적용하고 선택한 자산 표현물을 다운로드할 수 있는 추가 옵션이 있는 목록 보기에서 다운로드]** 대화 상자가 개선됩니다.
+
+<!--
+* The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
+-->
+
+* 이제 **[!UICONTROL 파일]**, **[!UICONTROL 컬렉션]**&#x200B;및 **[!UICONTROL 공유 링크]** 를 한 번의 클릭으로 모든 브랜드 포털 페이지에서탐색할 수 있습니다.
+
+* 이제 자산 세부 사항 페이지의 **[!UICONTROL 표현물]** 패널을 통해 브랜드 포털 사용자는 원래 자산 및(또는) 특정 자산 표현물을 선택하고, **[!UICONTROL 표현물]** 패널에서 직접 다운로드하여 **[!UICONTROL 다운로드 대화 상자를]** 열지 않아도 됩니다.
+
+<!--
+Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
+-->
+
+* 기존 **[!UICONTROL 다운로드]** 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다. 이러한 구성은 자산 표현물에 액세스할 수 있는 사람을 정의하고 (또는) 다운로드할 수 있습니다.
+
+
+### 중요한 문제 수정 {#critical-issues-fixed}
+
+이 릴리스에는 다음과 같은 중요한 문제가 수정되었습니다.
+
+* PDF에 하위 자산이 포함된 경우 사용자는 PDF 페이지를 볼 수 없습니다.
+
+
+### 알려진 문제 {#known-issues}
+
+이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
+
+* 사용자가 공유 링크를 사용하여 자산을 다운로드하는 경우 원본 파일 다운로드 **[!UICONTROL 허용 옵션이 비활성화되어 있더라도 원본 자산이 다운로드됩니다]** .
+
+
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* 브랜드 포털에서 에셋을 [다운로드하는 동안 브랜드 포털 사용자 경험을 개선하는 에셋 다운로드 프로세스](brand-portal-download-assets.md)향상 브랜드 포털 관리자는 다운로드 설정에서 **[!UICONTROL 빠른 다운로드]****[!UICONTROL ,]**&#x200B;사용자 정의 표현물 **[!UICONTROL 및]** 시스템 표현물 **[!UICONTROL 을]** 구성할 수있습니다.
+<!--
+* Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
-For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
 
-### 중요한 문제 수정 {#critical-issues-fixed-647}
+For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 
-이 릴리스에는 다음과 같은 중요한 문제가 수정되었습니다.
+### Critical Issues Fixed {#critical-issues-fixed-647}
 
-* 뷰어 사용자는 컬렉션에 대한 링크를 공유할 수 없지만 제품 인터페이스에서 공유할 수 있습니다.
+This release includes fixes to the following critical issues:
 
-* 옵션 막대의 **[!UICONTROL 다운로드]** 단추에는 선택한 폴더의 라이센스 자산이 모두 나열되지 않습니다.
+* The viewer users are not permitted to share link for collections but the option to share is visible to them on the product interface.
 
-* 특정 키워드에 대한 결과를 표시하는 데 시간이 더 오래 걸립니다.
+* The **[!UICONTROL Download]** button on the options bar does not list all the licensed assets of the selected folder.
 
-* 다운로드 중 라이선스와 라이선스가 없는 에셋 **[!UICONTROL 의 일괄 선택에 동의]** 및 **[!UICONTROL 동의]** 안 함 확인란이 표시되지 않습니다.
+* The search takes longer to show the results for certain keywords.
 
-* 필터 기반 검색은 검색 결과 없이 제품 인터페이스에서 처리를 보여줍니다.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
-* 공유 폴더에 많은 자산이 들어 있는 경우 공유 링크에서 에셋이 다운로드되지 않습니다.
+* Filter-based search shows processing on the product interface with no search result. 
 
-
-### 알려진 문제 {#known-issues-647}
-
-이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
-
-* 여러 자산을 선택한 경우 공유 링크를 사용하여 다운로드하는 동안 사용권 계약 페이지에서 약관을 클릭해도 라이센스 텍스트가 나타나지 않습니다.
+* The assets do not download from share link if the shared folder contains numerous and large assets.
 
 
+### Known Issues {#known-issues-647}
+
+This release includes the following known issues:
+
+* If multiple assets are selected, license text does not appear on clicking Terms and Conditions on the license agreement page during download using share link.   
+
+-->
 
 ## 언어 {#languages}
 
