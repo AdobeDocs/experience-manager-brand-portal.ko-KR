@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
+source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -121,7 +121,6 @@ Test..
       >자산 세부 사항 페이지에서 필요한 모든 자산 표현물을 다운로드하는 동안 반드시 선택하고 다운로드를 **[!UICONTROL 클릭합니다]**. 선택한 변환이 로컬 컴퓨터에 다운로드됩니다.
       > 
       >다운로드하면, 다운로드된 표현물의 **[!UICONTROL 중복]** 복사본을 만들지 않도록 [다운로드] 단추가 비활성화됩니다. 더 많은 버전을 다운로드하려면(또는 다른 표현물 사본 누락) 브라우저를 새로 고쳐서 다운로드 단추를 다시 활성화합니다.
-
 
       [다운로드 설정]에서 **[!UICONTROL 사용자 지정]** 또는 **[!UICONTROL 시스템 변환]** 구성 **[!UICONTROL 이 활성화된 경우]**[ **[!UICONTROL 다운로드] 대화 상자가 기본적으로 선택된 FacebookAsset(s)기본 설정]** **** 과 함께 나타납니다. 빠른 **[!UICONTROL 다운로드]** 구성을 사용하는 경우 기본적으로 **[!UICONTROL 다운로드 가속]** 사용 확인란이 선택되어 있습니다.
 
