@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal의 새로운 기능
 seo-title: AEM Assets Brand Portal의 새로운 기능
-description: 6.4.7의 새로운 기능과 향상된 기능을 살펴보십시오.
-seo-description: 6.4.7의 새로운 기능과 향상된 기능을 살펴보십시오.
+description: 2020.10.0의 새로운 기능과 향상된 기능을 살펴보십시오.
+seo-description: 2020.10.0의 새로운 기능과 향상된 기능을 살펴보십시오.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '5387'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,94 @@ ht-degree: 2%
 # AEM Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이티브 자산을 쉽게 획득하고 제어하며 다양한 디바이스를 사용하는 외부 관계자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있도록 도와줍니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 여부에 대한 위험을 줄일 수 있습니다. Adobe은 전반적인 브랜드 포털 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 개선 사항에 대한 간략한 소개입니다.
+
+## 2020.10.0의 변경 사항 {#what-changed-in-oct-2020}
+
+브랜드 포털 2020.10.0은 자산 다운로드 경험을 간소화하고 중요한 수정 사항을 포함하는 향상된 릴리스입니다. 향상된 기능에는 자산 다운로드에 대한 새롭고 향상된 워크플로우, 표현물 제외에 대한 추가 옵션, **[!UICONTROL 표현물]** 패널에서 직접 다운로드, 특정 사용자 그룹에 대한 액세스 및 다운로드 권한을 허용하는 구성, 모든 브랜드 포털 페이지에서 파일, 컬렉션 및 공유 링크에 대한 손쉬운 탐색 등이 포함되어 있습니다. 최신 [브랜드 포털 릴리스 정보를 참조하십시오](brand-portal-release-notes.md).
+
+
+### 간소화된 다운로드 환경 {#download-dialog}
+
+이전에는, **[!UICONTROL 다운로드]** 대화 상자에 각 자산에 대해 별도의 폴더 만들기, 이메일 자산 선택, 원본 자산 선택, 사용자 정의 변환, 동적 변환, 시스템 변환 제외, 다운로드 가속화 활성화 등의 여러 옵션이 표시되었는데, 다운로드용으로 여러 자산이나 폴더를 선택했을 때 특별히 기술 지식이 없는 사용자 또는 신규 사용자에게 모호한 옵션이었습니다. 또한 사용자는 일부 자산 변환을 볼 수 없거나 특정 사용자 지정 또는 동적 변환을 제외할 수 없었습니다.
+
+새로운 **[!UICONTROL 다운로드]** 대화 상자는 자산 선택 및 필터링 프로세스를 일반화하므로 브랜드 포털 사용자는 자산 표현물을 다운로드하는 동안 효과적인 결정을 쉽게 내릴 수 있습니다. 여기에는 다운로드 구성 및 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 설정에 따라 선택한 모든 자산 및 해당 변환이 **[!UICONTROL 나열됩니다]** .
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+다운로드 **[!UICONTROL 대화 상자에서]** 사용자는 다음을 수행할 수 있습니다.
+
+* 다운로드 목록에서 모든 자산의 사용 가능한 모든 표현물을 봅니다.
+* 다운로드할 필요가 없는 자산의 표현물을 제외합니다.
+* 한 번의 클릭으로 모든 유사한 자산 유형에 동일한 표현물 세트를 적용할 수 있습니다.
+* 다양한 자산 유형에 대해 다른 표현물 세트를 적용합니다.
+* 각 자산에 대해 별도의 폴더 만들기.
+* 선택한 자산 및 해당 표현물을 다운로드합니다.
+
+다운로드 워크플로우는 독립 실행형 에셋, 여러 에셋, 에셋이 포함된 폴더, 라이선스가 부여되거나 라이선스가 부여되지 않은 에셋이 포함된 폴더, 공유 링크를 사용하여 에셋 다운로드에도 일관되게 유지됩니다.
+
+![download-dialog](assets/download-dialog-box.png)
+
+### 빠른 탐색  {#quick-navigation}
+
+이전에는 **[!UICONTROL 파일]**, **[!UICONTROL 컬렉션]**&#x200B;및 **[!UICONTROL 공유 링크]** 보기옵션이 숨겨져 사용자가 다른 보기로 전환하려고 할 때마다 여러 번의 클릭이 필요했습니다.
+
+브랜드 포털 2020.10.0에서 사용자는 빠른 탐색 링크를 사용하여 한 번의 클릭으로 모든 브랜드 포털 페이지에서 **[!UICONTROL 파일]**, **[!UICONTROL 컬렉션]**&#x200B;및 **[!UICONTROL 공유 링크]** 로이동할 수 있습니다.
+
+![collection-navigation](assets/collection-navigation.png)
+
+### 향상된 변환 패널 {#rendition-panel}
+
+이전에, 사용자는 다운로드 구성에서 사용자 지정 변환 **[!UICONTROL 또는]** 시스템 변환 **[!UICONTROL 이 활성화된 경우]** [변환] **[!UICONTROL 패널에서 원래 자산 및 해당 변환만]** 볼 수 **** 있었습니다. 또한, 필요하지 않은 특정 사용자 지정 또는 동적 표현물을 제외하기 위한 필터가 없으므로 사용자는 모든 자산 표현물을 다운로드해야 했습니다.
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+브랜드 포털 2020.10.0에서 사용자는 **[!UICONTROL 다운로드]** 대화 상자를 열지 않고도 특정 변환을 제외하고 자산 세부 정보 페이지의 **[!UICONTROL 표현물]** 패널에서 선택한 표현물을 직접 다운로드할 수 있습니다.
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![표현물 패널](assets/rendition-panel.png)
+
+
+### 다운로드 권한 구성 {#download-permissions}
+
+기존 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다. 이러한 구성은 자산 표현물에 액세스할 수 있는 사람을 정의하고 (또는) 다운로드할 수 있습니다.
+
+이전에는 그룹 사용자가 원래 자산을 다운로드하지 못하도록 하는 경우에만 설정을 사용할 수 있었습니다.
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+[사용자 역할 ** 페이지의 []** 그룹 ** 탭에서는 관리자가]** 보기 및 다운로드 설정을 구성할 수 있습니다.
+
+* 원본 **[!UICONTROL 다운로드]** 및 **[!UICONTROL 표현물]** 다운로드 설정이 모두 켜져 있는 경우 선택한 그룹의 사용자는 원본 자산과 해당 표현물을 보고 다운로드할 수 있습니다.
+* 두 설정이 모두 꺼져 있는 경우 사용자는 원래 자산만 볼 수 있습니다. 자산 변환은 자산 세부 사항 페이지에서 사용자에게 표시되지 않습니다.
+* 원래 **[!UICONTROL 다운로드]** 설정만 켜진 경우, 사용자는 자산 세부 사항 페이지에서 원본 자산만 보고 다운로드할 수 있습니다.
+* 표현물 **[!UICONTROL 다운로드]** 설정만 켜진 경우, 사용자는 원본 자산을 볼 수 있지만 다운로드할 수 없습니다. 그러나 사용자는 자산 변환을 보고 다운로드할 수 있습니다.
+
+![view-download-permission](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>사용자가 여러 그룹에 추가되고 해당 그룹 중 하나에 제한이 있는 경우 해당 제한이 사용자에게 적용됩니다.
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## 6.4.7의 변경 사항 {#what-changed-in-647}
 
@@ -236,7 +324,6 @@ Brand Portal 6.4.4 버전부터는 필터링 창에서 속성 조건자에 대�
 
 ![](assets/edit-search-form.png)
 
-**사용 사례**
 
 이제 루트 폴더에서 시작하는 대신 탐색한 특정 폴더 내에서 자산 검색을 제한할 수 있습니다.
 
@@ -252,7 +339,8 @@ AEM 작성자 인스턴스가 Dynamic Media 하이브리드 모드에 있는 사
 
 특정 테넌트 계정에서 다이내믹 미디어 표현물의 미리 보기 및 다운로드를 허용하려면 관리자는 관리 도구 패널에서 **비디오** 구성에서 **다이내믹 미디어 구성(비디오 서비스 URL(DM-게이트웨이 URL) 및 등록 ID)을 지정해야 합니다** .
 
-**사용 사례**&#x200B;의 Dynamic Media 비디오는 다음과 같이 미리 볼 수 있습니다.
+
+Dynamic Media 비디오를 다음과 같이 미리 볼 수 있습니다.
 
 * 자산 세부 사항 페이지
 * 자산의 카드 보기
@@ -274,6 +362,7 @@ AEM(6.4.2.0)의 [자산(및 폴더)](https://helpx.adobe.com/experience-manager/
 마찬가지로 게시된 에셋은 브랜드 포털에서 게시 취소 워크플로우를 예약하여 나중 날짜(시간)에 포털에서 제거할 수 있습니다.
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -287,7 +376,7 @@ AEM(6.4.2.0)의 [자산(및 폴더)](https://helpx.adobe.com/experience-manager/
 
 그러나 AEM 작성자 인스턴스는 테넌트 ID로만 [구성할](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) 수 있으며 테넌트 별칭(대체) URL로는 구성할 수 없습니다.
 
-**사용 사례**&#x200B;는 Adobe에서 제공하는 URL을 고수하는 대신 포털 URL을 사용자 지정하여 브랜딩 요구 사항을 충족할 수 있습니다.
+조직은 Adobe에서 제공하는 URL을 고수하는 대신 포털 URL을 사용자 정의하여 브랜딩 요구 사항을 충족할 수 있습니다.
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -295,8 +384,8 @@ AEM(6.4.2.0)의 [자산(및 폴더)](https://helpx.adobe.com/experience-manager/
 
 이 릴리스는 클릭 수와 경고 횟수가 줄면서 간소화된 다운로드 환경을 제공합니다.
 
-* 표현물만 다운로드하도록 선택(원본 자산이 아니라)
-* 원본 변환에 액세스할 수 있는 경우 자산 다운로드가 제한됩니다.
+* 변환만 다운로드(원본 자산이 아니라) 선택
+* 원본 변환에 액세스할 수 있을 때 자산 다운로드가 제한됩니다.
 
 ## 6.4.2의 변경 사항 {#what-changed-in-1}
 
