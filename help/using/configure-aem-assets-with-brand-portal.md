@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 19%
@@ -31,6 +31,7 @@ Adobe Experience Manager 자산은 브랜드 포털 테넌트의 승인을 위�
 >이전에 브랜드 포털은 JWT(JSON Web Token) 교환을 사용하여 인증에 대한 IMS 토큰을 입수하는 레거시 OAuth 게이트웨이를 통해 클래식 인터페이스에서 구성되었습니다.
 >
 >기존 OAuth를 통한 구성은 2020년 4월 6일부터 더 이상 지원되지 않으며, Adobe 개발자 콘솔을 통한 구성으로 변경되었습니다.
+
 
 >[!TIP]
 >
