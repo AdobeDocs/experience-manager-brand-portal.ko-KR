@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 2%
@@ -29,6 +29,7 @@ ht-degree: 2%
 >
 >이미지 및 해당 변환을 다운로드할 때 기존 사전 설정에서 선택할 수 있는 옵션이 없습니다. 대신 사용자 정의 이미지 사전 설정의 속성을 지정할 수 있습니다. 자세한 내용은 이미지를 다운로드할 [때 이미지 사전 설정 적용을 참조하십시오](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 이미지 사전 설정을 만드는 동안 필요한 매개 변수에 대한 자세한 내용은 이미지 사전 [설정 관리를 참조하십시오](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## 이미지 사전 설정 만들기 {#create-an-image-preset}
@@ -44,6 +45,7 @@ AEM 관리자는 자산 세부 사항 페이지에서 동적 표현물로 표시
 >반면에 AEM 작성자 인스턴스가 **Dynamic Media Scene 7 모드에서**&#x200B;실행 중인 경우 이미지 자산의 피라미드형 TIFF 변환이 Scene 7 서버에 존재합니다.
 >
 >이러한 에셋이 브랜드 포털에 게시되면 이미지 사전 설정이 적용되고 동적 변환이 표시됩니다.
+
 
 1. 상단에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
 
