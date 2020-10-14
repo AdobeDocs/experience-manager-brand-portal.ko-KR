@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -223,6 +223,7 @@ Comment Type: draft
    >
    >사용자에 대한 관리자 권한을 취소하려면 관리 **[!UICONTROL 편집]** 페이지에서 적절한 변경 사항을 적용한 다음 **[!UICONTROL 저장을 클릭합니다]**.
 
+
 ## 사용자 역할 관리 {#manage-user-roles}
 
 관리자는 브랜드 포털에서 사용자의 역할을 수정할 수 있습니다.
@@ -250,9 +251,11 @@ Comment Type: draft
    >
    >관리자 [!UICONTROL 사용자의 역할] 목록이 비활성화됩니다. 이러한 사용자를 선택하여 역할을 수정할 수 없습니다.
 
+
    >[!NOTE]
    >
    >사용자가 편집기 그룹의 구성원인 경우에도 사용자 역할이 비활성화됩니다. 사용자의 편집 권한을 취소하려면, 편집기 그룹에서 사용자를 제거하거나 전체 그룹의 역할을 뷰어로 변경하십시오.
+
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 해당 사용자에 대해 역할이 수정되었습니다. 여러 사용자를 선택한 경우 모든 사용자에 대한 역할이 동시에 수정됩니다.
 
@@ -287,8 +290,10 @@ Comment Type: draft
    >
    >또한, 이미지 파일의 원본 변환에 대한 액세스 제한은 제한된 그룹의 구성원도 관리자에게 적용되지 않습니다.
 
+
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 해당 그룹에 대해 역할이 수정되었습니다.
 
    >[!NOTE]
    >
    >사용자 대 그룹 연결 또는 사용자의 그룹 멤버십은 8시간마다 브랜드 포털에 동기화됩니다. 사용자 또는 그룹 역할에 대한 변경 사항은 다음 동기화 작업이 실행된 후에 적용됩니다.
+
