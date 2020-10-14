@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 10%
+source-wordcount: '544'
+ht-degree: 9%
 
 ---
 
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * 기존 **[!UICONTROL 다운로드]** 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다. 이러한 구성은 자산 표현물에 액세스할 수 있는 사람을 정의하고 (또는) 다운로드할 수 있습니다.
 
+### 향상된 기능 {#enhancements}
 
-### 중요한 문제 수정 {#critical-issues-fixed}
+이 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-이 릴리스에는 다음과 같은 중요한 문제가 수정되었습니다.
+* 게스트 사용자의 세션 시간 초과 임계값이 2시간에서 15분으로 감소되었습니다.
+* 이제 사용자가 Adobe Document Cloud 뷰어에서 **[!UICONTROL PDF 페이지를 볼 수 있으므로 여러 페이지 PDF에 대한 추가 페이지]** 보기 옵션이 제거되었습니다.
 
-* PDF에 하위 자산이 포함된 경우 사용자는 PDF 페이지를 볼 수 없습니다.
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### 알려진 문제 {#known-issues}
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
 
-* 사용자가 공유 링크를 사용하여 자산을 다운로드하는 경우 원본 파일 다운로드 **[!UICONTROL 허용 옵션이 비활성화되어 있더라도 원본 자산이 다운로드됩니다]** .
+* 자산 보고서에서 검색하면 **[!UICONTROL 제품]** 인터페이스에 검색 결과가 없는 처리가 표시됩니다.
+* 자산 세부 사항 페이지에서 관리자가 아닌 사용자는 비디오 DM 인코딩을 볼 수 없습니다.
+* 개별 자산 표현물과 총 다운로드 크기의 정렬이 다운로드 대화 상자에서 왜곡됩니다.
 
 
 
