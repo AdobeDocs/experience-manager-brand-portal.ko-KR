@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 3%
@@ -45,6 +45,7 @@ AEM 관리자 및 새 폴더를 만들 권한이 있는 비관리 사용자는 A
    >[!NOTE]
    >
    >관리자가 아닌 사용자는 자산 기여도 폴더를 만들고 공유할 수 있지만 수정하거나 삭제할 수 없습니다.
+
 
    ![](assets/create-contribution-folder.png)
 
