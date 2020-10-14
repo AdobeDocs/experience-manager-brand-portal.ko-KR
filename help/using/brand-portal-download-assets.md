@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -107,11 +107,13 @@ Test..
       >
       >처음 에셋을 다운로드하고 있지만 브라우저에 IBM Aspera Connect가 설치되지 않은 경우 Aspera 다운로드 가속기를 설치하라는 메시지가 표시됩니다.
 
+
       >[!NOTE]
       >
       >다운로드하려는 에셋에 라이센스 자산도 포함되어 있는 경우 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다. 이 페이지에서 자산을 선택하고 **[!UICONTROL 동의]**&#x200B;를 클릭한 다음 **[!UICONTROL 다운로드를 클릭합니다]**. 동의하지 않으면 라이선스가 부여된 에셋이 다운로드되지 않습니다.
       > 
       >라이선스로 보호된 자산은 [사용권 계약을 첨부하고](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , Experience Manager 자산에 자산의 [메타데이터 속성을](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 설정하여수행합니다.
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Test..
       >
       >관리자는 브랜딩 기능을 사용하여 이메일 메시지, 즉 로고, 설명 및 바닥글 등을 사용자 정의할 [수](../using/brand-portal-branding.md) 있습니다.
 
+
    * 미리 정의된 이미지 사전 설정을 선택하거나 다운로드 대화 상자에서 사용자 정의 동적 **[!UICONTROL 변환을]** 만들 수 있습니다.
 
       자산 및 해당 변환에 [사용자 정의 이미지 사전 설정을 적용하려면](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)동적 변환 **** 확인란을 선택합니다. 이미지 사전 설정 속성(크기, 형식, 색상 공간, 해상도 및 이미지 수정자 등)을 지정하여 자산 및 해당 변환을 다운로드하는 동안 사용자 정의 이미지 사전 설정을 적용합니다. 동적 표현물만 다운로드하려면 자산 **[!UICONTROL 확인란을]** 취소하십시오.
@@ -166,6 +169,7 @@ Test..
       >
       >자산의 다이내믹 변환을 미리 보거나 다운로드하려면 다이내믹 미디어가 활성화되어 있고 자산의 피라미드형 tiff 변환이 자산이 게시된 AEM Assets 작성자 인스턴스에 있는지 확인합니다. 자산이 브랜드 포털에 게시되면 해당 Pyramid 변환도 게시됩니다.
 
+
    * 자산을 다운로드하는 동안 브랜드 포털 폴더 계층을 유지하려면 **[!UICONTROL 각 자산에 대해 별도의 폴더]** 만들기 확인란을 선택합니다. 기본적으로 브랜드 포털 폴더 계층은 무시되며 모든 자산은 로컬 시스템의 한 폴더에 다운로드됩니다.
 
 1. 다운로드를 **[!UICONTROL 클릭합니다]**.
@@ -177,6 +181,7 @@ Test..
    >[!NOTE]
    >
    >개별적으로 다운로드한 자산은 자산 다운로드 보고서에서 볼 수 있습니다. 그러나 에셋이 들어 있는 폴더를 다운로드한 경우 폴더 및 에셋이 에셋 다운로드 보고서에 표시되지 않습니다.
+
 
 ## 예상 다운로드 성능 {#expected-download-performance}
 
@@ -193,6 +198,8 @@ Test..
 | 런던 | 179밀리초 | 0.32MB/s | 106분 |
 | 싱가포르 | 196밀리초 | 0.5MB/s | 68분 |
 
+
 >[!NOTE]
 >
 >인용된 데이터는 테스트 조건에서 관찰되며, 다양한 지연 및 대역폭을 사용하는 다른 위치에 있는 사용자에 대해 다를 수 있습니다.
+
