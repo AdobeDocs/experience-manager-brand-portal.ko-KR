@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 1%
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL 게시]** 보고서 목록은 물론이고 지정한 기간 내에 AEM에서 브랜드 포털에 게시되는 모든 자산에 대한 정보를 제공합니다.
+   **[!UICONTROL 게시]** 보고서는 지정된 기간 동안 AEM에서 브랜드 포털에 게시되는 모든 에셋에 대한 정보를 제공하고 있습니다.
 
    ![](assets/publish-report.png)
 
@@ -78,7 +78,6 @@ ht-degree: 1%
    >[!NOTE]
    >
    >링크 공유 보고서에는 링크를 통해 공유된 자산에 대한 액세스 권한이 있거나 링크를 통해 자산을 다운로드한 사용자가 표시되지 않습니다.
-   >
    >
    >공유 링크를 통해 다운로드를 추적하려면 보고서 **[!UICONTROL 만들기 페이지에서 링크 공유 다운로드만]** 옵션을 선택한 후 다운로드 보고서 **[!UICONTROL 를]** 생성해야 합니다. 그러나 이 경우 사용자(다운로드한 사람)는 익명으로 처리됩니다.
 
