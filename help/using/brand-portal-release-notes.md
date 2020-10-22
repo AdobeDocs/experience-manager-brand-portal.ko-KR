@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
+source-git-commit: 8881e9d171c3a4e750a906caadd8aa26f6fc0674
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 9%
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이�
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
-* 필수 **[!UICONTROL 가 아닌 표현물을 제외하고 유사한 자산 유형에 대해 동일한 규칙 세트를 적용하고 선택한 자산 표현물을 다운로드할 수 있는 추가 옵션이 있는 목록 보기에서 다운로드]** 대화 상자가 개선됩니다.
+* 필수 **[!UICONTROL 가 아닌 표현물을 제외하고 유사한 자산 유형에 대해 동일한 규칙 세트를 적용하고 선택한 자산 표현물을 다운로드할 수 있는 추가 옵션이 있는 목록 보기에서 다운로드]** 대화 상자가 개선되었습니다.
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
