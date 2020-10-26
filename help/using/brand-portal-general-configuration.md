@@ -1,8 +1,8 @@
 ---
 title: 관리자 일반 테넌트 구성
 seo-title: 관리자 일반 테넌트 구성
-description: 다운로드 가속화, 공개 스마트 [!UICONTROL 컬렉션] 생성, 공개 [!UICONTROL 컬렉션] 생성, 관리 사용자가 테넌트의 자산을 삭제할 수 있도록 합니다.
-seo-description: 다운로드 가속화, 공개 스마트 [!UICONTROL 컬렉션] 생성, 공개 [!UICONTROL 컬렉션] 생성, 관리 사용자가 테넌트의 자산을 삭제할 수 있도록 합니다.
+description: 다운로드 가속화, 공개 스마트 컬렉션 생성, 공개 컬렉션 생성, 그리고 관리자 사용자가 테넌트의 자산을 삭제할 수 있도록 합니다.
+seo-description: 다운로드 가속화, 공개 스마트 컬렉션 생성, 공개 컬렉션 생성, 그리고 관리자 사용자가 테넌트의 자산을 삭제할 수 있도록 합니다.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
+source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 4%
