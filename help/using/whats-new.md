@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5387'
+source-wordcount: '5439'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,10 @@ Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이�
 이전에는, **[!UICONTROL 다운로드]** 대화 상자에 각 자산에 대해 별도의 폴더 만들기, 이메일 자산 선택, 원본 자산 선택, 사용자 정의 변환, 동적 변환, 시스템 변환 제외, 다운로드 가속화 활성화 등의 여러 옵션이 표시되었는데, 다운로드용으로 여러 자산이나 폴더를 선택했을 때 특별히 기술 지식이 없는 사용자 또는 신규 사용자에게 모호한 옵션이었습니다. 또한 사용자는 일부 자산 변환을 볼 수 없거나 특정 사용자 지정 또는 동적 변환을 제외할 수 없었습니다.
 
 새로운 **[!UICONTROL 다운로드]** 대화 상자는 자산 선택 및 필터링 프로세스를 일반화하므로 브랜드 포털 사용자는 자산 표현물을 다운로드하는 동안 효과적인 결정을 쉽게 내릴 수 있습니다. 여기에는 다운로드 구성 및 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 설정에 따라 선택한 모든 자산 및 해당 변환이 **[!UICONTROL 나열됩니다]** .
+
+>[!NOTE]
+>
+>이제 모든 사용자는 **[!UICONTROL 빠른 다운로드]** 기능이 기본적으로 활성화되어 있으며 브랜드 포털에서 에셋을 다운로드하기 전에 브라우저의 확장명에 IBM Aspera Connect 3.9.9가 설치되어 있어야 합니다.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-브랜드 포털 2020.10.0에서 사용자는 **[!UICONTROL 다운로드]** 대화 상자를 열지 않고도 특정 변환을 제외하고 자산 세부 정보 페이지의 **[!UICONTROL 표현물]** 패널에서 선택한 표현물을 직접 다운로드할 수 있습니다.
+브랜드 포털 2020.10.0에서 사용자는 [다운로드] 대화 상자를 열지 않고도 특정 표현물을 제외하고 자산 세부 정보 페이지의 [표현물 **[!UICONTROL 패널에서]** 선택한 표현물을 직접](brand-portal-download-assets.md#download-assets-from-asset-details-page) 다운로드할 수 **[!UICONTROL 있습니다]** .
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![표현물 패널](assets/rendition-panel.png)
+![표현물 패널](assets/renditions-panel.png)
 
 
 ### 다운로드 권한 구성 {#download-permissions}
 
-기존 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다. 이러한 구성은 자산 표현물에 액세스할 수 있는 사람을 정의하고 (또는) 다운로드할 수 있습니다.
+기존 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다.
+
+관리자로 브랜드 포털 테넌트에 로그인하고 **[!UICONTROL 도구]** > **[!UICONTROL 사용자로 이동합니다]**.
+
+[ **[!UICONTROL 사용자 역할]** ] 페이지에서 **[!UICONTROL 그룹]** 탭으로 이동하여 사용자 그룹에 대한 보기 및 (또는) 다운로드 권한을 구성합니다
 
 이전에는 그룹 사용자가 원래 자산을 다운로드하지 못하도록 하는 경우에만 설정을 사용할 수 있었습니다.
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 [사용자 역할 ** 페이지의 []** 그룹 ** 탭에서는 관리자가]** 보기 및 다운로드 설정을 구성할 수 있습니다.
 
