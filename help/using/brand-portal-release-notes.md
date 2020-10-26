@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 8881e9d171c3a4e750a906caadd8aa26f6fc0674
+source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 9%
+source-wordcount: '540'
+ht-degree: 10%
 
 ---
 
@@ -144,7 +144,9 @@ This release includes the following known issues:
 
 다음 사이트는 고객만 사용할 수 있습니다. 고객이고 액세스 권한이 필요한 경우 Adobe 계정 관리자에게 문의하십시오.
 
-* [https://daycare.day.com](https://daycare.day.com)
+<!--
+* [https://daycare.day.com](https://daycare.day.com) 
+-->
 
 * [제품 액세스](https://login.marketing.adobe.com)
 
