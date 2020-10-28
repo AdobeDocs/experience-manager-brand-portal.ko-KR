@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1107'
 ht-degree: 2%
 
 ---
@@ -35,9 +35,9 @@ ht-degree: 2%
 파일을 더 빨리 다운로드하려면 다음을 확인하십시오.
 
 * [ **[!UICONTROL 도구]** ] > [ **[!UICONTROL 다운로드]** ]로 이동하여 **[!UICONTROL [다운로드 설정]** ]에서 **[!UICONTROL 빠른 다운로드]**&#x200B;구성이활성화되었는지 확인합니다.
-* 포트 33001(TCP 및 UDP 모두)이 방화벽에서 열려 있습니다. 사전 요구 사항에 대한 자세한 내용은 [Aspera Connect 클라이언트 설명서를 참조하십시오](https://downloads.asperasoft.com/en/documentation/8).
-* 관리자 권한을 사용하여 Aspera Connect를 설치합니다.
-* Aspera 전송 클라이언트에 대한 플랫폼 지원은 [Aspera Connect 플랫폼 지원 매트릭스를 참조하십시오](https://www.asperasoft.com/company/support/transfer-clients/).
+* 포트 33001(TCP 및 UDP 모두)이 방화벽에서 열려 있는지 확인합니다. 사전 요구 사항에 대한 자세한 내용은 [IBM Aspera Connect Client 설명서를 참조하십시오](https://downloads.asperasoft.com/en/documentation/8).
+* [관리자 권한을 사용하여 브라우저의 익스텐션에 IBM Aspera Connect 3.9.9를](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 설치합니다.
+* Aspera 전송 클라이언트 플랫폼에 대한 지원은 [IBM Aspera Connect 플랫폼 지원 매트릭스를 참조하십시오](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## 도메인 다운로드 {#download-domains}
 
