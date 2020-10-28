@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 10%
+source-wordcount: '585'
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이�
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
-* 필수 **[!UICONTROL 가 아닌 표현물을 제외하고 유사한 자산 유형에 대해 동일한 규칙 세트를 적용하고 선택한 자산 표현물을 다운로드할 수 있는 추가 옵션이 있는 목록 보기에서 다운로드]** 대화 상자가 개선되었습니다.
+* 필수 **[!UICONTROL 가 아닌 표현물을 제외하고 유사한 자산 유형에 대해 동일한 규칙 세트를 적용하고 선택한 자산 표현물을 다운로드할 수 있는 추가 옵션이 있는 목록 보기에서 다운로드]** 대화 상자가 개선되었습니다. 브랜드 [포털에서 자산을 다운로드하는 단계를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,13 +47,13 @@ Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이�
 
 * 이제 **[!UICONTROL 파일]**, **[!UICONTROL 컬렉션]**&#x200B;및 **[!UICONTROL 공유 링크]** 를 한 번의 클릭으로 모든 브랜드 포털 페이지에서탐색할 수 있습니다.
 
-* 이제 자산 세부 사항 페이지의 **[!UICONTROL 표현물]** 패널을 통해 브랜드 포털 사용자는 원래 자산 및(또는) 특정 자산 표현물을 선택하고, **[!UICONTROL 표현물]** 패널에서 직접 다운로드하여 **[!UICONTROL 다운로드 대화 상자를]** 열지 않아도 됩니다.
+* 이제 자산 세부 사항 페이지의 **[!UICONTROL 표현물]** 패널을 통해 브랜드 포털 사용자는 원래 자산 및(또는) 특정 자산 표현물을 선택하고, **[!UICONTROL 표현물]** 패널에서 직접 다운로드하여 **[!UICONTROL 다운로드 대화 상자를]** 열지 않아도 됩니다. 자산 [세부 정보 페이지에서 자산 다운로드를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 기존 **[!UICONTROL 다운로드]** 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다. 이러한 구성은 자산 표현물에 액세스할 수 있는 사람을 정의하고 (또는) 다운로드할 수 있습니다.
+* 기존 **[!UICONTROL 다운로드]** 구성 외에, 브랜드 포털 관리자는 다른 사용자 [그룹에 대한 권한을](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) 구성하여 자산 세부 사항 페이지에서 원본 자산 및 해당 표현물을 보고 다운로드할 수도 있습니다. 이러한 구성은 자산 표현물에 액세스할 수 있는 사람을 정의하고 (또는) 다운로드할 수 있습니다.
 
 ### 향상된 기능 {#enhancements}
 
