@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
+source-wordcount: '5471'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 각 자산에 대해 별도의 폴더 만들기.
 * 선택한 자산 및 해당 표현물을 다운로드합니다.
 
-다운로드 워크플로우는 독립 실행형 에셋, 여러 에셋, 에셋이 포함된 폴더, 라이선스가 부여되거나 라이선스가 부여되지 않은 에셋이 포함된 폴더, 공유 링크를 사용하여 에셋 다운로드에도 일관되게 유지됩니다.
+다운로드 워크플로우는 독립 실행형 에셋, 여러 에셋, 에셋이 포함된 폴더, 라이선스가 부여되거나 라이선스가 부여되지 않은 에셋이 포함된 폴더, 공유 링크를 사용하여 에셋 다운로드에도 일관되게 유지됩니다. 브랜드 포털에서 자산을 다운로드하는 [단계를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-브랜드 포털 2020.10.0에서 사용자는 [다운로드] 대화 상자를 열지 않고도 특정 표현물을 제외하고 자산 세부 정보 페이지의 [표현물 **[!UICONTROL 패널에서]** 선택한 표현물을 직접](brand-portal-download-assets.md#download-assets-from-asset-details-page) 다운로드할 수 **[!UICONTROL 있습니다]** .
+브랜드 포털 2020.10.0에서 사용자는 [다운로드](brand-portal-download-assets.md#download-assets-from-asset-details-page) 대화 상자를 열지 않고도 특정 변환을 제외하고 자산 세부 정보 페이지의 표현물 패널에서 **[!UICONTROL 선택한 표현물을 직접]** 다운로드할 수 있습니다.
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### 다운로드 권한 구성 {#download-permissions}
 
-기존 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다.
+기존 **[!UICONTROL 다운로드]** 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다.
 
 관리자로 브랜드 포털 테넌트에 로그인하고 **[!UICONTROL 도구]** > **[!UICONTROL 사용자로 이동합니다]**.
 
@@ -99,6 +99,8 @@ The user can clear the check boxes to exclude the renditions which are not requi
 * 두 설정이 모두 꺼져 있는 경우 사용자는 원래 자산만 볼 수 있습니다. 자산 변환은 자산 세부 사항 페이지에서 사용자에게 표시되지 않습니다.
 * 원래 **[!UICONTROL 다운로드]** 설정만 켜진 경우, 사용자는 자산 세부 사항 페이지에서 원본 자산만 보고 다운로드할 수 있습니다.
 * 표현물 **[!UICONTROL 다운로드]** 설정만 켜진 경우, 사용자는 원본 자산을 볼 수 있지만 다운로드할 수 없습니다. 그러나 사용자는 자산 변환을 보고 다운로드할 수 있습니다.
+
+자산 다운로드 [구성을 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![view-download-permission](assets/download-permissions.png)
 
