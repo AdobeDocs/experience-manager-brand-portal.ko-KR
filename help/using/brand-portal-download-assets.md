@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1886'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager 에셋 브랜드 포털은 사용자가 브랜드 포�
 
 >[!NOTE]
 >
->브랜드 포털 2020.10.0 이상 버전에서는 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정이 활성화되어 에셋 다운로드 속도를 높여줍니다. 브랜드 포털에서 에셋을 다운로드하기 전에 브라우저 익스텐션에 IBM Aspera Connect 3.9.9를 설치합니다. 자세한 내용은 브랜드 포털에서 다운로드 시간을 단축하기 위한 [가이드를 참조하십시오](../using/accelerated-download.md).
+>브랜드 포털 2020.10.0 이상 버전에서는 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정이 활성화되어 에셋 다운로드 속도를 높여줍니다. [브랜드 포털에서 자산을 다운로드하기 전에 브라우저 익스텐션에 IBM Aspera Connect 3.9.9를](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 설치합니다. 자세한 내용은 브랜드 포털에서 다운로드 시간을 단축하기 위한 [가이드를 참조하십시오](../using/accelerated-download.md).
 >
 >IBM Aspera Connect를 사용하지 않고 일반적인 다운로드 프로세스를 계속하려면 브랜드 포털 관리자에게 문의하여 **[!UICONTROL 빠른 다운로드]** 설정을 끄십시오.
 
