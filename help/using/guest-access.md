@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -42,8 +42,11 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 게스트 세션 기간 {#guest-session-duration}
 
-게스트 사용자 세션은 2시간 동안 활성 상태로 유지됩니다. 즉, **[!UICONTROL Lightbox]** 상태는 세션 시작 시간으로부터 1시간, 2시간 후 현재 게스트 세션이 다시 시작되므로 Lightbox 상태가 손실됩니다.\
-예를 들어 게스트 사용자는 1500시간에 브랜드 포털에 로그인하고 16:50시간에 다운로드할 수 있도록 Lightbox에 자산을 추가합니다. 사용자가 17:00시간 전에 **[!UICONTROL Lightbox]** 컬렉션(또는 해당 자산)을 다운로드하지 않으면 사용자가 1시간(1700시간)이 지난 후 **[!UICONTROL 세션을 다시 시작해야 하므로]** Lightbox컬렉션은 비어 있게 됩니다.
+
+게스트 사용자 세션은 15분 동안 활성 상태로 유지됩니다.
+즉, 세션 시작 시간부터 **[!UICONTROL Lightbox]** 상태가 15분 동안 유지되며 Lightbox 상태가 손실되도록 현재 게스트 세션이 다시 시작된 후에도 상태는 유지됩니다.
+
+예를 들어 게스트 사용자는 1500시간에 브랜드 포털에 로그인하고 15:05시간에 다운로드할 수 있도록 **[!UICONTROL Lightbox]** 에 자산을 추가합니다. 사용자가 15:15시간(로그인 후 15분 이내) 전에 **[!UICONTROL Lightbox]** 컬렉션(또는 해당 자산)을 다운로드하지 않으면 사용자는 세션을 다시 시작해야 합니다. Lightbox **[!UICONTROL 는]** 비어 있으므로 세션이 손실된 경우 업로드된 자산을 더 이상 사용할 수 없습니다.
 
 ## 동시 손님 세션 허용됨 {#concurrent-guest-sessions-allowed}
 
