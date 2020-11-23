@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 3%
 
 ---
@@ -56,7 +56,7 @@ Adobe Experience Manager 에셋 브랜드 포털은 사용자가 브랜드 포�
 
    자산의 사용자 지정 및(또는) 동적 표현물을 다운로드할 수 있습니다.
 
-   원본 자산 및 시스템 생성 표현물 이외의 모든 자산 표현물을 사용자 지정 표현물이라고 합니다. 자산에 사용할 수 있는 정적 및 동적 표현물이 포함됩니다. 모든 사용자는 AEM Assets에서 사용자 정의 정적 변환을 만들 수 있지만, AEM 관리자만 사용자 정의 동적 변환을 만들 수 있습니다. 자세한 내용은 이미지 사전 설정 또는 동적 표현물을 [적용하는 방법을 참조하십시오](../using/brand-portal-image-presets.md).
+   원본 자산 및 시스템 생성 표현물 이외의 모든 자산 표현물을 사용자 지정 표현물이라고 합니다. 여기에는 자산에 사용할 수 있는 동적 표현뿐만 아니라 정적 표현물도 포함됩니다. 모든 사용자는 AEM Assets에서 사용자 정의 정적 변환을 만들 수 있지만, AEM 관리자만 사용자 정의 동적 변환을 만들 수 있습니다. 자세한 내용은 이미지 사전 설정 또는 동적 표현물을 [적용하는 방법을 참조하십시오](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL 시스템 표현물]**
 
@@ -197,11 +197,11 @@ Adobe Experience Manager 에셋 브랜드 포털은 사용자가 브랜드 포�
 
 >[!NOTE]
 >
->브랜드 포털에서는 하이브리드 모드와 Scene7 모드 모두에서 다이내믹 미디어 구성을 지원합니다.
+>브랜드 포털에서는 하이브리드 모드와 장면 7 모드 모두에서 다이내믹 미디어 구성을 지원합니다.
 >
 >(*AEM 작성자 인스턴스가&#x200B;**Dynamic Media Hybrid 모드에서 실행 중인 경우***)
 >
->자산의 다이내믹 표현물을 미리 보거나 다운로드하려면 다이내믹 미디어가 활성화되어 있고 자산의 피라미드형 tiff 변환이 자산이 게시된 AEM Assets 작성자 인스턴스에 있는지 확인합니다. AEM에서 Brand Portal에 자산이 게시되면 해당 Pyramid Tiff 변환도 게시됩니다.
+>자산의 다이내믹 변환을 미리 보거나 다운로드하려면 다이내믹 미디어가 활성화되어 있고 자산의 피라미드형 tiff 변환이 자산이 게시된 AEM Assets 작성자 인스턴스에 있는지 확인합니다. AEM에서 Brand Portal에 자산이 게시되면 해당 Pyramid Tiff 변환도 게시됩니다.
 
 
 
