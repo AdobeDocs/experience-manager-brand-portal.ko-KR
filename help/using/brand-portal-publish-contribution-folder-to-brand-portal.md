@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 168177bae46b2242d883838da538218b8d192031
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # 브랜드 포털에 기여도 폴더 게시 {#publish-contribution-folder-to-brand-portal}
 
-기여도 [폴더가 구성되면](brand-portal-configure-contribution-folder-properties.md)AEM 사용자(관리자/비관리 사용자)가 AEM Assets의 기여도 폴더를 브랜드 포털에 게시할 수 있습니다. 기여도 폴더에 액세스할 수 있는 권한이 있는 브랜드 포털 사용자/그룹은 게시 작업이 완료되면 이메일/펄스 알림을 받게 됩니다.
+기여도 [폴더가 구성되면 AEM 사용자(관리자/비관리 사용자)는 AEM Assets에서 브랜드 포털에 기여도 폴더를 게시할 수 있습니다](brand-portal-configure-contribution-folder-properties.md). 기여도 폴더에 액세스할 수 있는 권한이 있는 브랜드 포털 사용자는 게시 작업이 완료되면 이메일/펄스 알림을 받게 됩니다.
 
 **기여도 폴더를 게시하려면:**
 
