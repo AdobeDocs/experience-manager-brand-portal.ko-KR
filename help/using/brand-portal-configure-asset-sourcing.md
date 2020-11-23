@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -55,11 +55,14 @@ AEM 관리자는 AEM Assets에서 활성 브랜드 포털 사용자 목록이 �
 
 **브랜드 포털 사용자 목록을 업로드하려면:**
 1. AEM 작성자 인스턴스에 로그인기본 URL:http:// localhost:4502/aem/start.html
-1. 도구 **패널에서** 자산 ![](assets/tools.png) > **[!UICONTROL 브랜드 포털 사용자로 이동합니다]**
+1. 도구 **** 패널에서 **[!UICONTROL 자산 > 브랜드 포털 사용자로 이동합니다.]**
+
    ![](assets/upload-user-list1.png)
+
 1. 브랜드 포털 업로드 기여자 창이 열립니다.
 로컬 컴퓨터에서 검색하고 활성 브랜드 포털 사용자 목록이 포함된 **구성(.csv) 파일** 을 업로드합니다.
-1. **[!UICONTROL 저장]**을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
    ![](assets/upload-user-list2.png)
 
 
