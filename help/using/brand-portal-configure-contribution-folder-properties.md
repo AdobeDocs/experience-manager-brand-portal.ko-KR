@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,22 @@ AEM 관리자는 기여도 폴더의 속성을 구성하는 동안 다음 활동
 
 1. AEM 작성자 인스턴스에 로그인기본 URL:http:// localhost:4502/aem/start.html
 1. 자산 > **[!UICONTROL 파일로]** 이동하고 기여도 폴더를 찾습니다.
-1. 기여도 폴더를 선택하고 **[!UICONTROL 속성을 클릭합니다]** ![](assets/properties.png). 폴더 속성 창이 열립니다.
+1. 기여도 폴더를 선택하고 **[!UICONTROL 속성을]** 클릭하여 폴더 속성 창을 엽니다.
+
+   ![](assets/properties.png)
+
    ![](assets/contribution-folder-property1.png)
+
 1. 자산 기여도 **[!UICONTROL 탭으로]** 이동합니다.
 1. 기여도 폴더에 **[!UICONTROL 대한]** 고급 설명을 입력합니다.
-1. 로컬 컴퓨터에서 **[!UICONTROL 간단히]**![](assets/upload.png) 업로드를 클릭하고 **자산 요구 사항 문서를 업로드합니다**.
-1. 사용자 또는 그룹 **[!UICONTROL 추가]** 필드에서 기여도 폴더를 공유할 브랜드 포털 사용자를 추가합니다. 사용자가 브랜드 포털 인터페이스를 사용하여 기여도 폴더에 액세스하여 콘텐트를 업로드할 수 있도록 추가되었습니다. 현재 기여도 폴더에 그룹을 추가할 수 없습니다.
+1. 로컬 컴퓨터에서 **[!UICONTROL 간단히]** 업로드를 클릭하고 **자산 요구 사항 문서를 업로드합니다**.
+
+   ![](assets/upload.png)
+
+1. 사용자 또는 그룹 **[!UICONTROL 추가]** 필드에서 기여도 폴더를 공유할 브랜드 포털 사용자를 추가합니다. 이러한 사용자는 브랜드 포털 인터페이스를 사용하여 기여도 폴더에 액세스하여 콘텐트를 업로드할 수 있습니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
