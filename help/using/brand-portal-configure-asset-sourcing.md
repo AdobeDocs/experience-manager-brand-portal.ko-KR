@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,6 @@ AEM 관리자는 AEM Assets에서 활성 브랜드 포털 사용자 목록이 �
    ![](assets/upload-user-list2.png)
 
 
-관리자는 기여도 폴더를 구성하는 동안 이 사용자 목록의 특정 사용자에 대한 액세스 권한을 제공할 수 있습니다.
+관리자는 기여도 폴더를 구성하는 동안 이 사용자 목록에서 특정 사용자/그룹에 대한 액세스 권한을 제공할 수 있습니다.
 
 자세한 내용은 기여도 폴더 [구성을 참조하십시오](brand-portal-contribution-folder.md).
