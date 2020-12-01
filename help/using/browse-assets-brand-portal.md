@@ -17,7 +17,7 @@ ht-degree: 4%
 ---
 
 
-# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
+# 브랜드 포털에서 자산 찾아보기 {#browsing-assets-on-brand-portal}
 
 AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스를 쉽게 찾고, 자산 계층을 탐색하고, 자산을 검색하는 데 유용한 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
 
@@ -61,7 +61,7 @@ AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스
 * 크기
 * 크기
 
-You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+카드를 탭/클릭(빠른 작업을 피하도록 주의)하거나 헤더](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)에서 [탐색 표시를 사용하여 계층 아래로 탐색하거나 다시 탐색할 수 있습니다.
 
 ![](assets/cardquickactions.png)
 
@@ -81,7 +81,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 * 을 클릭합니다.
 * 을 눌러 레일 선택기를 선택합니다.
 
-자산/폴더를 선택하는 동안 **[!UICONTROL 개요]** 옵션을 선택하면 제목, 경로 및 자산 생성 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지에서 개요 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
+자산/폴더를 선택하는 동안 **[!UICONTROL 개요]** 옵션을 선택하면 사용자가 에셋 생성 제목, 경로 및 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지에서 개요 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option.png)
 
@@ -89,7 +89,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 #### 카드 보기에서 설정 보기
 
-**[!UICONTROL 보기 선택기에서]** 설정 **[!UICONTROL 보기를 선택하면 설정 보기 대화]** 상자가 열립니다. 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이러한 방식으로 보기를 개인화하고 표시되는 축소판 수를 제어할 수 있습니다.
+**[!UICONTROL 보기]** 설정 대화 상자가 열려  **[!UICONTROL 보기 선택기에서 설정]** 보기 선택을 선택합니다. 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이러한 방식으로 보기를 개인화하고 표시되는 축소판 수를 제어할 수 있습니다.
 
 ![](assets/cardviewsettings.png)
 
@@ -107,10 +107,10 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 * Dimension
 * 크기
 * 등급
-* 자산 계층 구조를 보여주는 폴더 경로<sup>*</sup>
+* 자산 계층 <sup>*</sup>을 표시하는 폴더 경로
 * 브랜드 포털에 자산을 게시한 날짜
 
-경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 아래로 탐색하고 헤더](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)에서 [탐색 표시를 사용하여 백업할 수 있습니다.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 목록 보기에서 설정 보기
 
-목록 보기에는 기본적으로 **[!UICONTROL 자산]** 이름이 첫 번째 열로 표시됩니다. 에셋 제목 **[!UICONTROL ,]**&#x200B;로케일 **[!UICONTROL ,]**&#x200B;유형 **[!UICONTROL ,]** Dimension **[!UICONTROL ,Size,]********** RatingRatingPublish 상태와 같은 추가 정보가 표시됩니다. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+목록 보기에는 기본적으로 첫 번째 열로 **[!UICONTROL 이름]** 자산이 표시됩니다. 자산 **[!UICONTROL 제목]**, **[!UICONTROL 로케일]**, **[!UICONTROL 유형]**, **[!UICONTROL Dimension]**, **[!UICONTROL 크기]**, **[!UICONTROL 등급]**&#x200B;과 같은 추가 정보가 표시됩니다. 그러나 **[!UICONTROL 설정 보기]**&#x200B;를 사용하여 표시할 열을 선택할 수 있습니다.
 
 ![](assets/list-view-setting.png)
 
@@ -235,7 +235,7 @@ Comment Type: draft
 
 이러한 보기 외에도 트리 보기를 사용하여 원하는 자산 또는 폴더를 보고 선택하는 동안 자산 계층 구조를 드릴다운합니다.
 
-트리 보기를 열려면 왼쪽 상단에 있는 레일 선택기를 탭/클릭하고 메뉴에서 **[!UICONTROL 컨텐츠 트리를]** 선택합니다.
+트리 보기를 열려면 왼쪽 상단에 있는 레일 선택기를 탭/클릭하고 메뉴에서 **[!UICONTROL 컨텐츠 트리]**&#x200B;를 선택합니다.
 
 ![](assets/contenttree.png)
 
