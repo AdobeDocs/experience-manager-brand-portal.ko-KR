@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Create contribution folder {#create-contribution-folder}
+# 기여도 폴더 {#create-contribution-folder} 만들기
 
 
 AEM 관리자 및 새 폴더를 만들 권한이 있는 비관리 사용자는 AEM Assets에서 기여도 폴더를 만들 수 있습니다.
@@ -33,11 +33,11 @@ AEM 관리자 및 새 폴더를 만들 권한이 있는 비관리 사용자는 A
 
    기본 URL은 http:// localhost:4502/aem/start.html입니다.
 
-1. 자산 **[!UICONTROL > 파일]** 으로 **[!UICONTROL 이동합니다]**. AEM Assets 저장소의 모든 기존 폴더가 나열됩니다.
+1. **[!UICONTROL 자산]** > **[!UICONTROL 파일]**&#x200B;으로 이동합니다. AEM Assets 저장소의 모든 기존 폴더가 나열됩니다.
 
-1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL 폴더 만들기]** 대화 상자가 열립니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 새 폴더를 만듭니다. **[!UICONTROL 폴더]** 만들기 대화 상자가 열립니다.
 
-1. 폴더의 **[!UICONTROL 제목]****[!UICONTROL 및]** 이름을 **[!UICONTROL 입력하고 자산 기여도]** 확인란을선택합니다.
+1. 폴더의 **[!UICONTROL 제목]** 및 **[!UICONTROL 이름]**&#x200B;을 입력하고 **[!UICONTROL 자산 기여도]** 확인란을 선택합니다.
 폴더 이름을 지정하려면 공백 없이 소문자를 사용하는 것이 좋습니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. AEM Assets 저장소에 나열된 기여도 폴더를 볼 수 있습니다.
@@ -49,10 +49,10 @@ AEM 관리자 및 새 폴더를 만들 권한이 있는 비관리 사용자는 A
 
    ![](assets/create-contribution-folder.png)
 
-1. 기여도 폴더를 열려면 아이콘을 클릭합니다. 두 개의 하위 폴더가 표시됩니다.**[!UICONTROL SHARED]** 및 **[!UICONTROL NEW]** 는 기여도 폴더 내에 자동으로만들어집니다.
+1. 기여도 폴더를 열려면 클릭하십시오. 두 개의 하위 폴더(즉, **[!UICONTROL SHARED]** 및 **[!UICONTROL NEW]**&#x200B;이 기여도 폴더 내에 자동으로 생성됩니다.
 
    ![](assets/contribution-folder.png)
 
-이제 기여도 폴더 속성을 [구성할 수 있습니다](brand-portal-configure-contribution-folder-properties.md).
+이제 [기여도 폴더 속성](brand-portal-configure-contribution-folder-properties.md)을 구성할 수 있습니다.
 
 
