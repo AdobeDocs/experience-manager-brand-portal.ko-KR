@@ -35,32 +35,32 @@ Adobe Experience Manager(AEM) 에셋 브랜드 포털은 승인된 크리에이�
 
 ## 2020.10.0의 새로운 기능 {#whats-new-in-2020.10.0}
 
-### New Features {#new-features}
+### 새 기능 {#new-features}
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
-* 필수 **[!UICONTROL 가 아닌 표현물을 제외하고 유사한 자산 유형에 대해 동일한 규칙 세트를 적용하고 선택한 자산 표현물을 다운로드할 수 있는 추가 옵션이 있는 목록 보기에서 다운로드]** 대화 상자가 개선되었습니다. 브랜드 포털에서 자산을 다운로드하는 [단계를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* 필요하지 않은 표현물을 제외하고 유사한 자산 유형에 대해 동일한 규칙 세트를 적용하고 선택한 자산 표현물을 다운로드하는 추가 옵션이 있는 목록 보기에서 **[!UICONTROL 다운로드]** 대화 상자가 개선되었습니다. 브랜드 포털에서 자산을 다운로드하는 [단계를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* 이제 **[!UICONTROL 파일]**, **[!UICONTROL 컬렉션]**&#x200B;및 **[!UICONTROL 공유 링크]** 를 한 번의 클릭으로 모든 브랜드 포털 페이지에서탐색할 수 있습니다.
+* 이제 한 번의 클릭으로 모든 브랜드 포털 페이지에서 **[!UICONTROL 파일]**, **[!UICONTROL 컬렉션]** 및 **[!UICONTROL 공유 링크]**&#x200B;로 이동할 수 있습니다.
 
-* 이제 자산 세부 사항 페이지의 **[!UICONTROL 표현물]** 패널을 통해 브랜드 포털 사용자는 원래 자산 및(또는) 특정 자산 표현물을 선택하고, **[!UICONTROL 표현물]** 패널에서 직접 다운로드하여 **[!UICONTROL 다운로드 대화 상자를]** 열지 않아도 됩니다. 자산 세부 정보 페이지에서 [자산 다운로드를 참조하십시오](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+* 이제 자산 세부 사항 페이지의 **[!UICONTROL 변환]** 패널에서 브랜드 포털 사용자가 원래 자산 및 (또는) 특정 자산 표현물을 선택하고 **[!UICONTROL 변환]** 패널에서 &lt;a4/>다운로드&#x200B;]**대화 상자를 열지 않고도 직접 다운로드할 수 있습니다.**[!UICONTROL  자산 세부 사항 페이지](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)에서 자산 다운로드를 참조하십시오.[
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 기존 **[!UICONTROL 다운로드]** 구성 외에, 브랜드 포털 관리자는 다른 사용자 [그룹에 대한 권한을](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) 구성하여 자산 세부 사항 페이지에서 원본 자산 및 해당 표현물을 보고 다운로드할 수도 있습니다. 이러한 구성은 자산 표현물에 액세스할 수 있는 사람을 정의하고 (또는) 다운로드할 수 있습니다.
+* 기존 **[!UICONTROL 다운로드]** 구성 외에, 브랜드 포털 관리자는 다른 사용자 그룹](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)에 대한 권한을 구성하여 자산 세부 정보 페이지에서 원본 자산과 해당 변환을 보고 다운로드할 수도 있습니다. [ 이러한 구성은 자산 표현물에 액세스할 수 있는 사람을 정의하고 (또는) 다운로드할 수 있습니다.
 
 ### 향상된 기능 {#enhancements}
 
 이 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 * 게스트 사용자의 세션 시간 초과 임계값이 2시간에서 15분으로 감소되었습니다.
-* 이제 사용자가 Adobe Document Cloud 뷰어에서 **[!UICONTROL PDF 페이지를 볼 수 있으므로 여러 페이지 PDF에 대한 추가 페이지]** 보기 옵션이 제거되었습니다.
+* 이제 사용자가 Adobe Document Cloud 뷰어에서 PDF 페이지를 볼 수 있으므로 여러 페이지 PDF에 대해 추가 **[!UICONTROL 페이지 보기]** 옵션이 제거되었습니다.
 
 
 <!--
@@ -75,7 +75,7 @@ This release includes fixes to the following critical issue:
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
 
-* 자산 보고서에서 검색하면 **[!UICONTROL 제품]** 인터페이스에 검색 결과가 없는 처리가 표시됩니다.
+* **[!UICONTROL 자산 보고서]**&#x200B;에서 검색하면 검색 결과가 없는 제품 인터페이스에 대한 처리가 표시됩니다.
 * 자산 세부 사항 페이지에서 관리자가 아닌 사용자는 비디오 DM 인코딩을 볼 수 없습니다.
 * 개별 자산 표현물과 총 다운로드 크기의 정렬이 다운로드 대화 상자에서 왜곡됩니다.
 
@@ -133,7 +133,7 @@ This release includes the following known issues:
 
 ## 인증된 플랫폼 {#certified-platforms}
 
-이 브랜드 포털 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 **기술 요구 사항** 의 **사용자 인터페이스** 작성에 [지원되는 브라우저 섹션에 있는 표의 터치에 적합한 UI](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)지원 열을참조하십시오.
+이 브랜드 포털 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 [기술 요구 사항](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)의 **사용자 인터페이스 작성에 지원되는 브라우저** 섹션에 있는 표의 **터치에 적합한 UI 지원** 열을 참조하십시오.
 
 ## 링크 {#links}
 
