@@ -20,19 +20,19 @@ ht-degree: 2%
 
 # 자산의 디지털 권한 관리 {#manage-digital-rights-of-assets}
 
-브랜드를 보호하기 위해 크리에이티브 에셋과 브랜드 자료의 안전한 배포 및 사용 보장 만료 날짜(시간)를 AEM에서 브랜드 포털에 게시된 승인된 자산에 연결하거나 조건부 사용을 위해 이러한 자산에 라이선스를 부여함으로써 조직 및 외부에서 적용할 수 있습니다. 또한 브랜드 포털에서는 브랜드 포털에서 공유되는 에셋에 대한 링크에 대한 만료 날짜를 지정할 수 있습니다.
+브랜드를 보호하기 위해 크리에이티브 에셋과 브랜드 자료의 안전한 배포 및 사용 보장 만료 날짜 및 시간을 AEM에서 게시한 승인된 자산에 연결하거나 조건부 사용을 위해 이러한 자산을 라이선싱하여 조직 및 외부에서 적용할 수 있습니다. 또한 브랜드 포털에서는 브랜드 포털에서 공유되는 에셋에 대한 링크에 대한 만료 날짜를 지정할 수 있습니다.
 
 브랜드 포털에서 자산이 어떻게 보호되고 관련 사용 권한을 이해하는지 자세히 살펴보십시오.
 
-## 에셋 만료 {#asset-expiration}
+## 자산 만료 {#asset-expiration}
 
 자산 만료는 조직 전체에서 승인된 자산의 사용을 제어하는 효과적인 방법입니다. AEM Assets에서 브랜드 포털로 게시되는 모든 자산은 만료 날짜가 되며, 만료일은 다른 사용자 역할별로 이러한 자산의 사용을 제한할 수 있습니다.
 
-### 만료된 자산과 관련된 사용 권한 {#usage-permissions-expired-assets}
+### 만료된 자산 {#usage-permissions-expired-assets}과 관련된 사용 권한
 
 브랜드 포털에서 관리자는 만료된 자산을 보고 다운로드하고 컬렉션에 추가할 수 있습니다. 반면에 편집자와 뷰어는 만료된 에셋만 보고 컬렉션에 추가할 수 있습니다.
 
-관리자는 AEM Assets에서 만료된 자산을 브랜드 포털에 게시할 수 있습니다. 그러나 만료된 에셋은 브랜드 포털에서 잉크로 공유할 수 없습니다. 만료된 에셋과 만료되지 않은 에셋이 모두 포함된 폴더에서 만료된 에셋을 선택하는 경우 링크 **[!UICONTROL 공유]** 작업을 사용할 수 없습니다. 그러나 만료되거나 만료되지 않은 에셋이 포함된 폴더를 선택하면 [!UICONTROL 공유] 및 링크 **[!UICONTROL 공유]** 작업을 사용할 수있습니다.
+관리자는 만료된 에셋을 AEM Assets에서 브랜드 포털에 게시할 수 있습니다. 그러나 만료된 에셋은 브랜드 포털에서 잉크로 공유할 수 없습니다. 만료된 자산과 만료된 자산이 모두 포함된 폴더에서 만료된 자산을 선택하는 경우 **[!UICONTROL 링크 공유]** 작업을 사용할 수 없습니다. 그러나 만료되거나 만료되지 않은 에셋이 포함된 폴더를 선택하면 [!UICONTROL 공유] 및 **[!UICONTROL 공유 링크]** 작업을 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ### 자산의 만료 상태 {#expiration-status-of-assets}
 
-자산의 만료 상태를 **[!UICONTROL 카드 보기에서 볼 수 있습니다]**. 카드의 빨간색 플래그는 자산이 만료되었음을 나타냅니다.
+**[!UICONTROL 카드 보기]**&#x200B;에서 자산의 만료 상태를 볼 수 있습니다. 카드의 빨간색 플래그는 자산이 만료되었음을 나타냅니다.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -63,21 +63,21 @@ ht-degree: 2%
 
 ## 자산 링크 만료 {#asset-link-expiration}
 
-링크를 통해 에셋을 공유하는 동안 관리자와 편집자는 [ **[!UICONTROL 링크 공유]** ] 대화 상자의 **[!UICONTROL 만료]** 필드를 사용하여 만료 날짜 및 시간을 설정할 수 있습니다. 기본 링크 만료는 링크가 공유된 날짜로부터 7일입니다.
+링크를 통해 자산을 공유하는 동안 관리자와 편집자는 **[!UICONTROL 링크 공유]** 대화 상자의 **[!UICONTROL 만료]** 필드를 사용하여 만료 날짜 및 시간을 설정할 수 있습니다. 기본 링크 만료는 링크가 공유된 날짜로부터 7일입니다.
 
 ![](assets/asset-link-sharing.png)
 
 링크로 공유된 에셋은 브랜드 포털 관리자 및 편집자가 설정한 날짜 및 시간에 만료되며, 만료 날짜 이후에는 더 이상 보고 다운로드할 수 없습니다. 링크를 통해 공유되는 자산은 조직에 속하지 않는 외부 사용자가 볼 수도 있으므로, 만료 기간을 지정하여 승인된 자산이 보호되고 지정된 시간 이후에 알 수 없는 개체에 노출되지 않도록 할 수 있습니다.
 
-링크 공유에 대한 자세한 내용은 [링크로 자산 공유를 참조하십시오](../using/brand-portal-link-share.md).
+링크 공유에 대한 자세한 내용은 [에셋을 링크로 공유](../using/brand-portal-link-share.md)를 참조하십시오.
 
 ## 라이센스 자산 {#licensed-assets}
 
-라이선스 자산은 브랜드 포털에서 다운로드하기 전에 사용권 계약에 동의해야 합니다. 라이선스가 부여된 자산에 대한 본 계약은 사용자가 브랜드 포털에서 또는 공유 링크를 통해 자산을 직접 다운로드할 때 적용됩니다. 만료 여부와 상관없이 라이선스로 보호된 자산은 모든 사용자가 볼 수 있습니다. 그러나 라이선스가 만료된 자산의 다운로드 및 사용은 제한됩니다. 만료된 라이선스가 부여된 자산의 동작 및 사용자 역할에 따른 허용 가능한 활동에 대해 알아보려면 만료된 자산의 [사용 권한을 참조하십시오](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+라이선스 자산은 브랜드 포털에서 다운로드하기 전에 사용권 계약에 동의해야 합니다. 라이선스가 부여된 자산에 대한 본 계약은 사용자가 브랜드 포털에서 또는 공유 링크를 통해 자산을 직접 다운로드할 때 적용됩니다. 만료 여부와 상관없이 라이선스로 보호된 자산은 모든 사용자가 볼 수 있습니다. 그러나 라이선스가 만료된 자산의 다운로드 및 사용은 제한됩니다. 만료된 라이선스가 부여된 자산의 동작 및 사용자 역할에 따른 허용 가능한 활동에 대해 알아보려면 만료된 자산[의 사용 권한을 참조하십시오.](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)
 
-라이선스로 보호된 자산은 [사용권 계약을 첨부하고](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) , 이는 AEM Assets에서 자산의 [메타데이터 속성을](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 설정하여 수행됩니다.
+라이선스로 보호된 자산은 여기에 [라이센스 계약이 첨부되어 있습니다. 이 계약서는 AEM Assets에서 자산의 [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)를 설정하여 수행됩니다.](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)
 
-라이선스로 보호된 에셋을 다운로드하도록 선택하면 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다.
+라이선스로 보호된 자산을 다운로드하도록 선택하면 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다.
 
 ![](assets/asset-copyright-mgmt.png)
 
@@ -87,10 +87,10 @@ ht-degree: 2%
 
 선택한 자산에 여러 개의 보호된 자산이 포함되어 있는 경우 한 번에 하나의 자산을 선택하고 사용권 계약에 동의한 다음 에셋을 다운로드하십시오.
 
-## 만료된 자산에 대한 보고서 생성 {#generate-report-about-expired-assets}
+## 만료된 자산 {#generate-report-about-expired-assets}에 대한 보고서 생성
 
 관리자는 특정 기간 내에 만료된 모든 자산을 나열하는 보고서를 생성하고 다운로드할 수 있습니다. 이 보고서에는 자산 계층 구조에서 자산 위치를 지정하는 크기, 유형, 경로 지정, 자산 만료 시기, 자산이 게시된 시기 등 만료된 자산에 대한 자세한 정보가 포함되어 있습니다. 이 보고서의 열을 사용자 요구 사항에 따라 더 많은 데이터를 표시하도록 사용자 지정할 수 있습니다.
 
 ![](assets/assets-expired.png)
 
-보고서 기능에 대한 자세한 내용은 보고서 [작업을 참조하십시오](../using/brand-portal-reports.md#work-with-reports).
+보고서 기능에 대한 자세한 내용은 [보고서를 사용한 작업](../using/brand-portal-reports.md#work-with-reports)을 참조하십시오.
