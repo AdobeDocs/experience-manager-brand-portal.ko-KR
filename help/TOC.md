@@ -38,7 +38,7 @@ ht-degree: 71%
 + 브랜드 포털의 자산 소싱 {#asset-sourcing-in-brand-portal}
    + [개요](using/brand-portal-asset-sourcing.md)
    + [AEM에서 자산 소싱 구성](using/brand-portal-configure-asset-sourcing.md)
-   + AEM Assets의 기여도 폴더 구성 {#configure-contribution-folder}
+   + AEM Assets {#configure-contribution-folder}에 기여도 폴더 구성
       + [개요](using/brand-portal-contribution-folder.md)
       + [기여도 폴더 만들기](using/brand-portal-create-contribution-folder.md)
       + [기여도 폴더 속성 구성](using/brand-portal-configure-contribution-folder-properties.md)
