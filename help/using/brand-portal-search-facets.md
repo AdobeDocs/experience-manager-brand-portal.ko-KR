@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 8%
+source-wordcount: '1298'
+ht-degree: 7%
 
 ---
 
@@ -69,6 +69,12 @@ ht-degree: 8%
    >**[!UICONTROL 부분 검색]** 확인란을 선택하면 기본적으로 **[!UICONTROL 대/소문자 무시]**&#x200B;가 선택됩니다.
 
 1. **[!UICONTROL 속성 이름]** 필드에서 속성 선택기를 열고 검색이 수행되는 속성을 선택합니다. 또는 속성의 이름을 입력합니다. 예를 들어 `  jcr :content/metadata/dc:title` 또는 `./jcr:content/metadata/dc:title`을 입력합니다.
+
+   >[!NOTE]
+   >
+   >브랜드 포털에서 `dam:asset`의 `jcrcontent/metadata`에서 `xmp`으로 시작하는 속성 제외)은 기본적으로 인덱싱됩니다.
+   >
+   >속성 조건자를 만드는 동안 인덱싱된 모든 속성을 사용할 수 있습니다. 인덱싱되지 않은 속성이 구성된 경우 인덱싱되지 않은 속성의 검색 쿼리에서는 검색 결과를 제공하지 않을 수 있습니다.
 
    ![](assets/title-prop.png)
 
