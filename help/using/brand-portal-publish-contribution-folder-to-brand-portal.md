@@ -1,8 +1,8 @@
 ---
 title: '브랜드 포털에 기여도 폴더 게시 '
 seo-title: 브랜드 포털에 기여도 폴더 게시
-description: Brand Portal 6.4.5에서 AEM Assets에서 브랜드 포털에 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Brand Portal 6.4.5에서 AEM Assets에서 브랜드 포털에 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
+description: AEM Assets에서 브랜드 포털 6.4.5의 브랜드 포털에 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
+seo-description: AEM Assets에서 브랜드 포털 6.4.5의 브랜드 포털에 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # 브랜드 포털 {#publish-contribution-folder-to-brand-portal}에 기여도 폴더 게시
 
-[기여도 폴더가 구성되면 AEM 사용자(관리자/관리자가 아닌 사용자)가 AEM Assets의 기여도 폴더를 브랜드 포털로 게시할 수 있습니다. ](brand-portal-configure-contribution-folder-properties.md) 기여도 폴더에 액세스할 수 있는 권한이 있는 브랜드 포털 사용자는 게시 작업이 완료되면 이메일/펄스 알림을 받게 됩니다.
+[기여도 폴더가 구성되면 AEM 사용자(관리자/관리자가 아닌 사용자)는 AEM Assets의 기여도 폴더를 브랜드 포털에 게시할 수 있습니다. ](brand-portal-configure-contribution-folder-properties.md) 기여도 폴더에 액세스할 권한이 있는 브랜드 포털 사용자는 게시 작업이 완료되면 이메일/펄스 알림을 받게 됩니다.
 
 
 **기여도 폴더를 게시하려면:**
