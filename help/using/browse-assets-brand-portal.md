@@ -1,8 +1,8 @@
 ---
 title: 브랜드 포털에서 에셋 검색
 seo-title: 브랜드 포털에서 에셋 검색
-description: 브랜드 포털에서 다양한 보기 옵션 및 UI 요소를 사용하여 자산을 검색하고, 자산 계층을 트래버스하고, 자산을 검색합니다.
-seo-description: 브랜드 포털에서 다양한 보기 옵션 및 UI 요소를 사용하여 자산을 검색하고, 자산 계층을 트래버스하고, 자산을 검색합니다.
+description: 브랜드 포털에서 다양한 보기 옵션 및 UI 요소를 사용하여 에셋을 찾아보고, 에셋 계층을 트래버스하고, 에셋을 검색합니다.
+seo-description: 브랜드 포털에서 다양한 보기 옵션 및 UI 요소를 사용하여 에셋을 찾아보고, 에셋 계층을 트래버스하고, 에셋을 검색합니다.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -19,9 +19,9 @@ ht-degree: 4%
 
 # 브랜드 포털에서 자산 찾아보기 {#browsing-assets-on-brand-portal}
 
-AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스를 쉽게 찾고, 자산 계층을 탐색하고, 자산을 검색하는 데 유용한 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
+AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스를 쉽게 검색하고, 에셋 계층을 탐색하고, 에셋 검색을 용이하게 하는 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
 
-맨 위에 있는 AEM 툴바의 AEM 로고를 사용하면 관리 사용자가 관리 도구 패널에 쉽게 액세스할 수 있습니다.
+맨 위의 AEM 도구 모음에 있는 AEM 로고는 관리 사용자가 관리 도구 패널에 쉽게 액세스할 수 있도록 해줍니다.
 
 ![](assets/aemlogo.png)
 
@@ -29,11 +29,11 @@ AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스
 
 ![](assets/bp_subheader.png)<br />
 
-브랜드 포털의 왼쪽 상단에 있는 레일 선택기가 아래로 드롭다운하여 자산 계층 구조 탐색, 검색 간소화 및 리소스 표시 옵션을 제공합니다.
+브랜드 포털의 왼쪽 상단에 있는 레일 선택기가 아래로 내려가서 자산 계층 구조로 이동하고 검색을 능률화하며 리소스를 표시합니다.
 
 ![](assets/siderail-1.png)
 
-브랜드 포털의 오른쪽 상단에 있는 보기 선택기에서 사용 가능한 보기(카드, 열 및 목록) 중 하나를 사용하여 자산을 보고, 탐색하고, 선택할 수 있습니다.
+브랜드 포털의 오른쪽 상단에 있는 보기 선택기에서 사용 가능한 보기(카드, 열 및 목록) 중 하나를 사용하여 자산을 보고 탐색하고 선택할 수 있습니다.
 
 ![](assets/viewselector.png)
 
@@ -51,7 +51,7 @@ AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스
 
 ![](assets/card-view.png)
 
-카드 보기는 현재 수준에서 각 항목에 대한 정보 카드를 표시합니다. 이러한 카드에는 다음과 같은 세부 사항이 제공됩니다.
+카드 보기는 현재 수준에서 각 항목에 대한 정보 카드를 표시합니다. 이러한 카드는 다음과 같은 세부 정보를 제공합니다.
 
 * 자산/폴더의 시각적 표현.
 * 유형
@@ -61,27 +61,27 @@ AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스
 * 크기
 * 크기
 
-카드를 탭/클릭(빠른 작업을 피하도록 주의)하거나 헤더](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)에서 [탐색 표시를 사용하여 계층 아래로 탐색하거나 다시 탐색할 수 있습니다.
+카드를 탭/클릭하여 계층 구조를 탐색하거나(빠른 작업을 피하도록 주의) 헤더](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)에서 [탐색 표시를 사용하여 위로 탐색할 수 있습니다.
 
 ![](assets/cardquickactions.png)
 
 #### 관리자가 아닌 사용자를 위한 카드 보기
 
 폴더 카드, 카드 보기에서 비관리 사용자에게 폴더 계층 정보를 표시합니다(편집기, 뷰어 및 손님 사용자). 이 기능을 사용하면 상위 계층 구조와 관련하여 사용자가 액세스하는 폴더의 위치를 알 수 있습니다.
-폴더 계층 정보는 다른 폴더 계층과 공유된 다른 폴더와 유사한 이름을 가진 폴더를 구분하는 데 특히 유용합니다. 관리자가 아닌 사용자가 공유된 자산의 폴더 구조를 알지 못하는 경우 이름이 유사한 자산/폴더가 혼동되는 것처럼 보입니다.
+폴더 계층 정보는 다른 폴더 계층 구조와 공유된 다른 폴더와 유사한 이름을 가진 폴더를 구별하는 데 특히 유용합니다. 관리자가 아닌 사용자가 공유된 자산의 폴더 구조를 알지 못하는 경우 이름이 비슷한 자산/폴더가 혼동되는 것 같습니다.
 
-* 각 카드에 표시된 경로는 카드 크기에 맞게 잘립니다. 그러나 잘린 패스 위에 마우스를 놓으면 전체 경로를 도구 설명으로 볼 수 있습니다.
+* 각 카드에 표시된 경로가 카드 크기에 맞게 잘립니다. 그러나 잘린 패스를 마우스로 가리키면 전체 경로를 도구 설명으로 볼 수 있습니다.
 
 ![](assets/folder-hierarchy1.png)
 
 **자산 속성을 보는 개요 옵션**
 
-관리자가 아닌 사용자(편집기, 뷰어, 게스트 사용자)가 선택한 자산/폴더의 자산 속성을 볼 수 있는 개요 옵션을 사용할 수 있습니다. 개요 옵션이 표시됩니다.
+개요 옵션은 관리자가 아닌 사용자(편집기, 뷰어, 손님 사용자)가 선택한 자산/폴더의 자산 속성을 볼 수 있도록 사용할 수 있습니다. 개요 옵션은 다음과 같이 표시됩니다.
 
 * 을 클릭합니다.
-* 을 눌러 레일 선택기를 선택합니다.
+* 을 레일 선택기의 드롭다운에서 선택합니다.
 
-자산/폴더를 선택하는 동안 **[!UICONTROL 개요]** 옵션을 선택하면 사용자가 에셋 생성 제목, 경로 및 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지에서 개요 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
+에셋/폴더를 선택하는 동안 **[!UICONTROL 개요]** 옵션을 선택하면 에셋 생성 제목, 경로 및 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지에서 개요 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option.png)
 
@@ -89,7 +89,7 @@ AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스
 
 #### 카드 보기에서 설정 보기
 
-**[!UICONTROL 보기]** 설정 대화 상자가 열려  **[!UICONTROL 보기 선택기에서 설정]** 보기 선택을 선택합니다. 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이러한 방식으로 보기를 개인화하고 표시되는 축소판 수를 제어할 수 있습니다.
+**[!UICONTROL 보기]** 설정 대화 상자가 열려 보기 선택기 **[!UICONTROL 에서]** 설정 보기 선택 시 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이렇게 하면 보기를 개인화하고 표시되는 축소판 수를 제어할 수 있습니다.
 
 ![](assets/cardviewsettings.png)
 
@@ -97,7 +97,7 @@ AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스
 
 ![](assets/list-view.png)
 
-목록 보기에는 현재 수준의 각 리소스에 대한 정보가 표시됩니다. 목록 보기에는 다음 세부 사항이 제공됩니다.
+목록 보기에는 현재 수준의 각 리소스에 대한 정보가 표시됩니다. 목록 보기에서는 다음 세부 사항을 제공합니다.
 
 * 에셋의 축소판 이미지
 * 이름
@@ -107,10 +107,10 @@ AEM Assets 브랜드 포털은 다양한 보기 옵션을 사용하여 리소스
 * Dimension
 * 크기
 * 등급
-* 자산 계층 <sup>*</sup>을 표시하는 폴더 경로
+* 자산 계층 <sup>*</sup> 폴더 경로
 * 브랜드 포털에 자산을 게시한 날짜
 
-경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 아래로 탐색하고 헤더](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)에서 [탐색 표시를 사용하여 백업할 수 있습니다.
+경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 구조를 탐색하고 헤더](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)에서 [탐색 표시를 사용하여 백업할 수 있습니다.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 목록 보기에서 설정 보기
 
-목록 보기에는 기본적으로 첫 번째 열로 **[!UICONTROL 이름]** 자산이 표시됩니다. 자산 **[!UICONTROL 제목]**, **[!UICONTROL 로케일]**, **[!UICONTROL 유형]**, **[!UICONTROL Dimension]**, **[!UICONTROL 크기]**, **[!UICONTROL 등급]**&#x200B;과 같은 추가 정보가 표시됩니다. 그러나 **[!UICONTROL 설정 보기]**&#x200B;를 사용하여 표시할 열을 선택할 수 있습니다.
+목록 보기에는 기본적으로 첫 번째 열로 **[!UICONTROL 이름]** 자산이 표시됩니다. 자산 **[!UICONTROL 제목]**, **[!UICONTROL 로케일]**, **[!UICONTROL 유형]**, **[!UICONTROL Dimension]**, **[!UICONTROL 크기]**, **[!UICONTROL 등급]** 등과 같은 추가 정보가 표시됩니다. 그러나 **[!UICONTROL 설정 보기]**&#x200B;를 사용하여 표시할 열을 선택할 수 있습니다.
 
 ![](assets/list-view-setting.png)
 
@@ -126,18 +126,18 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ![](assets/column-view.png)
 
-열 보기를 사용하여 일련의 계단식 열을 통해 컨텐츠 트리를 탐색할 수 있습니다. 이 보기는 자산 계층 구조를 시각화하고 탐색하는 데 도움이 됩니다.
+열 보기를 사용하여 일련의 계단식 열을 통해 컨텐츠 트리를 탐색할 수 있습니다. 이 보기는 자산 계층 구조를 시각화하고 트래버스하는 데 도움이 됩니다.
 
 첫 번째(맨 왼쪽) 열에서 리소스를 선택하면 오른쪽의 두 번째 열에 하위 리소스가 표시됩니다. 두 번째 열에서 리소스를 선택하면 오른쪽의 세 번째 열에 하위 리소스가 표시됩니다.
 
-리소스 이름 또는 리소스 이름 오른쪽의 V자형을 탭하거나 클릭하여 트리에서 위아래로 탐색할 수 있습니다.
+리소스 이름 또는 리소스 이름 오른쪽에 있는 V자형을 탭하거나 클릭하여 트리에서 위아래로 탐색할 수 있습니다.
 
-* 탭하거나 클릭하면 리소스 이름과 V자형이 강조 표시됩니다.
+* 탭하거나 클릭하면 리소스 이름 및 V자형이 강조 표시됩니다.
 * 축소판을 탭하거나 클릭하면 리소스가 선택됩니다.
 * 이 옵션을 선택하면 축소판 위에 확인 표시가 표시되고 리소스 이름이 강조 표시됩니다.
 * 선택한 리소스의 세부 정보가 마지막 열에 표시됩니다.
 
-열 보기에서 자산을 선택하면 자산의 시각적 표현이 다음 세부 정보와 함께 마지막 열에 표시됩니다.
+자산을 열 보기에서 선택하면 자산의 시각적 표현이 다음 세부 정보와 함께 마지막 열에 표시됩니다.
 
 * 제목
 * 이름
@@ -145,7 +145,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 * AEM에서 브랜드 포털에 자산이 게시된 날짜 및 시간
 * 크기
 * 유형
-* 세부 사항 옵션 - 자산의 세부 사항 페이지로 이동
+* 자세한 정보 옵션 - 자산의 세부 정보 페이지로 이동합니다.
 
 <!--
 Comment Type: draft
@@ -245,7 +245,7 @@ Comment Type: draft
 
 ## 자산 세부 정보 {#asset-details}
 
-자산 세부 사항 페이지를 사용하면 자산을 보거나, 다운로드하고, 자산의 링크를 공유하거나, 컬렉션으로 이동하거나, 자산의 속성 페이지를 볼 수 있습니다. 또한 동일한 폴더의 다른 자산의 세부 정보 페이지를 연속해서 탐색할 수 있습니다.
+자산 세부 사항 페이지를 사용하면 자산을 보거나, 다운로드하고, 자산의 링크를 공유하고, 컬렉션으로 이동하거나, 자산의 속성 페이지를 볼 수 있습니다. 또한 동일한 폴더의 다른 자산의 세부 정보 페이지를 연속적으로 탐색할 수 있습니다.
 
 ![](assets/asset-detail.png)
 
@@ -253,12 +253,12 @@ Comment Type: draft
 
 ![](assets/asset-overview.png)
 
-자산 세부 사항 페이지에서 자산의 사용 가능한 모든 변환을 보고, 미리 볼 변환을 선택할 수 있습니다.
+에셋의 사용 가능한 모든 변환을 자산 세부 사항 페이지에서 보고 미리 볼 변환을 선택할 수 있습니다.
 
 ![](assets/renditions.png)
 
-자산 속성 페이지를 열려면 상단 막대에서 **[!UICONTROL 속성(p)]** 옵션을 사용합니다.
+자산 속성 페이지를 열려면 위쪽 막대에서 **[!UICONTROL 속성(p)]** 옵션을 사용합니다.
 
 ![](assets/asset-properties.png)
 
-자산 관계는 AEM에서 브랜드 포털로 게시되므로 자산의 속성 페이지에 있는 모든 관련 자산(소스 또는 AEM의 파생 자산)의 목록을 볼 수도 있습니다.
+자산 관계가 AEM에서 브랜드 포털로 게시되므로 자산의 속성 페이지에 있는 모든 관련 자산(소스 또는 AEM의 파생 자산)의 목록을 볼 수도 있습니다.
