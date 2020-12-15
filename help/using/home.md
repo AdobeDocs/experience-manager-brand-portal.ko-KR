@@ -1,7 +1,7 @@
 ---
-title: Adobe Experience Manager 에셋 브랜드 포털 가이드
-seo-title: Adobe Experience Manager 에셋 브랜드 포털 가이드
-description: Adobe Experience Manager 에셋 브랜드 포털 가이드
+title: Adobe Experience Manager Assets 브랜드 포털 가이드
+seo-title: Adobe Experience Manager Assets 브랜드 포털 가이드
+description: Adobe Experience Manager Assets 브랜드 포털 가이드
 seo-description: Brand Portal 사용 방법에 대해 설명합니다.
 translation-type: tm+mt
 source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
@@ -12,9 +12,9 @@ ht-degree: 74%
 ---
 
 
-# Adobe Experience Manager 에셋 브랜드 포털 가이드 {#aem-brand-portal}
+# Adobe Experience Manager Assets 브랜드 포털 안내서 {#aem-brand-portal}
 
-**Adobe Experience Manager 자산 브랜드** 조직은 승인된 브랜드 및 제품 자산을 외부 기관, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 마케팅 요구 사항을 충족하도록 지원합니다.
+**Adobe Experience Manager Assets 브랜드** 기업은 승인된 브랜드 및 제품 자산을 외부 기관, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 조직의 마케팅 요구 사항을 충족할 수 있습니다.
 
 안전한 자산 공유 솔루션이 없다면 다음과 같은 결과가 발생할 수 있습니다.
 
