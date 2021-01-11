@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
+source-git-commit: 6eb01e2eec7de6b704976c990fb6ffacbc67471a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,13 @@ ht-degree: 0%
 
 관리자가 브랜드 포털에서 AEM Assets으로 게시한 자산 기여도 폴더의 상태를 보기 위해 활용할 수 있는 2개의 보고서가 있습니다.
 
-* 브랜드 포털에서 **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여도 상태]**&#x200B;로 이동합니다. 이 보고서는 게시 워크플로우의 다른 단계(큐에 있음 및 완료)를 포함하여 모든 게시 작업의 상태를 반영합니다.
+* 브랜드 포털에서 **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여도 상태]**&#x200B;로 이동합니다. 이 보고서는 게시 워크플로우의 다른 단계에서 모든 게시 작업의 상태를 반영합니다.
 
-* AEM Assets 작성자 인스턴스에서 **[!UICONTROL 도구]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다. 이 보고서는 보류 중인 게시 작업만 반영합니다.
+   ![](assets/contribution-folder-status.png)
+
+* AEM Assets 작성자 인스턴스에서 **[!UICONTROL 도구]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
+
+   ![](assets/publishing-status.png)
 
 
 
