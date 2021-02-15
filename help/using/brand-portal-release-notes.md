@@ -1,8 +1,8 @@
 ---
-title: 릴리스 정보
-seo-title: 릴리스 정보
-description: Adobe Experience Manager Assets Brand Portal 2020.10.0 릴리스의 기능, 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Adobe Experience Manager Assets 브랜드 포털 2020.10.0 릴리스의 개선 사항, 주요 문제 수정 사항 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+title: 릴리스 노트
+seo-title: 릴리스 노트
+description: Adobe Experience Manager Assets Brand Portal 2021.02.0 릴리스의 기능, 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Adobe Experience Manager Assets 브랜드 포털 2021.02.0 릴리스의 개선 사항, 주요 문제 수정 사항 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,75 +10,95 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
+source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 9%
+source-wordcount: '515'
+ht-degree: 11%
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets 브랜드 포털 2020.10.0 릴리스의 새로운 기능, 개선 사항, 주요 문제 수정 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets 브랜드 포털 2021.02.0 릴리스의 새로운 기능, 개선 사항, 주요 문제 수정 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets 브랜드 포털 |
 |---|---|
-| 버전 | 2020.10.0 |
-| 날짜 | 2020년 10월 |
+| 버전 | 2021.02.0 |
+| 날짜 | 2021년 2월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 배포하여 모든 디바이스에서 외부 관계자와 내부 비즈니스 사용자에게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며, 비준수 및 무단 액세스 위험을 줄일 수 있습니다. 브랜드 포털을 통해 사용자는 언제 어디에서나 회사에서 승인한 포맷으로 에셋을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2020.10.0의 새로운 기능 {#whats-new-in-2020.10.0}
+## 2021.02.0의 새로운 기능 {#whats-new-in-2021.02.0}
 
 ### 새 기능 {#new-features}
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
-* 필요하지 않은 표현물을 제외하고 유사한 자산 유형에 동일한 규칙 세트를 적용하고 선택한 자산 표현물을 다운로드하는 추가 옵션이 있는 목록 보기에서 **[!UICONTROL 다운로드]** 대화 상자가 개선되었습니다. 브랜드 포털](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)에서 자산을 다운로드하는 [단계를 참조하십시오.
+* **[!UICONTROL 다운로드 설정]**&#x200B;에 추가 **[!UICONTROL 자산 다운로드]** 설정이 도입되었습니다. 폴더, 컬렉션 또는 자산의 벌크 다운로드를 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만듭니다. [다운로드 설정](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)을 참조하십시오.
+
+<!-- 
+* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+-->
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* 이제 한 번의 클릭으로 모든 브랜드 포털 페이지에서 **[!UICONTROL 파일]**, **[!UICONTROL 컬렉션]** 및 **[!UICONTROL 공유 링크]**&#x200B;로 이동할 수 있습니다.
+<!-- 
+* Navigation to the **[!UICONTROL Files]**, **[!UICONTROL Collections]**, and **[!UICONTROL Shared Links]** is now possible from all the Brand Portal pages in one-click.  
 
-* 이제 자산 세부 사항 페이지의 **[!UICONTROL 변환]** 패널에서 브랜드 포털 사용자가 원래 자산 및 (또는) 특정 자산 표현물을 선택하고 **[!UICONTROL 표현물]** 패널에서 **[!UICONTROL 다운로드]** 대화 상자를 열지 않고도 직접 다운로드할 수 있습니다. 자산 세부 정보 페이지](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)에서 [자산 다운로드를 참조하십시오.
+* The **[!UICONTROL Renditions]** panel in the asset details page now allows the Brand Portal users to select the original asset and (or) specific asset renditions, and directly download them from the **[!UICONTROL Renditions]** panel without having to open the **[!UICONTROL Download]** dialog. See [download assets from asset details page](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+-->
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 기존 **[!UICONTROL 다운로드]** 구성 외에도 브랜드 포털 관리자는 [다른 사용자 그룹](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)에 대한 권한을 구성하여 에셋 세부 정보 페이지에서 원본 에셋 및 해당 표현물을 보고 다운로드할 수도 있습니다. 이러한 구성은 자산 표현물에 액세스 및 (또는) 다운로드할 수 있는 사용자를 정의합니다.
+<!-- 
+* In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
+-->
 
 ### 향상된 기능 {#enhancements}
 
 이 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-* 게스트 사용자의 세션 시간 초과 임계값이 2시간에서 15분으로 감소되었습니다.
-* 이제 사용자가 Adobe Document Cloud 뷰어에서 PDF 페이지를 볼 수 있으므로 여러 페이지 PDF에 대해 추가 **[!UICONTROL 페이지 보기]** 옵션이 제거되었습니다.
-
+* 폴더 다운로드의 경우 **[!UICONTROL 다운로드 설정]**&#x200B;과 관계없이 공유 링크를 사용하여 각 자산에 대해 별도의 폴더가 생성됩니다.
+* 유효한 브랜드 포털 사용자만 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;가 수정되었습니다.
 
 <!--
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issue:
-
-* The users are not able to view the PDF pages if the PDF contains sub assets.
+* The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
+* The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
 -->
 
-### 알려진 문제 {#known-issues}
 
-이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
+### 중요 문제가 해결되었습니다. {#critical-issues-fixed}
 
-* **[!UICONTROL 자산 보고서]**&#x200B;에서 검색하면 검색 결과 없이 제품 인터페이스에 대한 처리가 표시됩니다.
-* 자산 세부 정보 페이지에서 관리자가 아닌 사용자는 비디오 DM 인코딩을 볼 수 없습니다.
-* 개별 자산 표현물의 크기 및 총 다운로드 크기의 정렬이 다운로드 대화 상자에서 왜곡됩니다.
+이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
+* 원본 자산만 다운로드되는 경우, 자산은 자체 확장자를 반영하며, 확장 프로그램을 수동으로 zip으로 변경할 때까지 열리지 않습니다.
+* 컬렉션 폴더의 사용자 인터페이스는 탐색 화살표를 클릭할 때 응답하지 않습니다.
+* **[!UICONTROL 폴더]** 가 비어  **** 있어도 [열 보기]에 만들기 단추가 표시됩니다.
+* **[!UICONTROL 브랜드]** 포털 인스턴스에 액세스하는 동안 디스패처가 무시되면 옴니 검색을 수행할 수 없습니다(Request-URI가 너무 깁니다).
+* 자산에 파일 이름에 쉼표(`,`)가 포함된 경우 빈 zip 폴더가 다운로드됩니다.
+* 뷰어 사용자는 사용자가 만든 컬렉션에 사용자를 추가할 수 있는 옵션을 이용할 수 있습니다.
+* 공유 링크를 사용하여 자산(축소판 또는 웹 변환)을 다운로드할 때 일관성 없는 동작이 발생합니다.
+
+[브랜드 포털 2021.02.0](whats-new.md)의 새로운 기능을 참조하십시오.
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* Search on the **[!UICONTROL Asset Reports]** shows processing on the product interface with no search result.
+* The video DM encodes are not visible to the non-admin users on the asset details page.
+* The alignment of the size of individual asset renditions and total download size is distorted in the Download dialog.
+-->
 
 
 <!--
@@ -138,7 +158,7 @@ This release includes the following known issues:
 ## 링크 {#links}
 
 * [adobe.com의 Adobe Experience Manager 제품 페이지](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets 브랜드 포털 설명서](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Assets 브랜드 포털 설명서](https://helpx.adobe.com/kr/experience-manager/brand-portal/user-guide.html)
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}
 
