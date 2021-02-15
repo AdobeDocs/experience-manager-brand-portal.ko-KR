@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+source-git-commit: 64aa436f8416b8280f465166dbe692c300843eed
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 **[!UICONTROL 빠른 다운로드]** 구성은 기본적으로 활성화되어 있으므로 브랜드 포털에서 원하는 에셋 파일을 다운로드하는 데 걸리는 시간이 크게 줄어듭니다.
 
-![](assets/download-configuration.png)
+![](assets/download-configuration-old.png)
 
 ## 파일 다운로드 속도를 높이기 위한 사전 요구 사항 {#prerequisites-to-accelerate-file-download}
 
