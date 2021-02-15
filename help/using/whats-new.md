@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal의 새로운 기능
 seo-title: AEM Assets Brand Portal의 새로운 기능
-description: 2020.10.0의 새로운 기능과 향상된 기능을 살펴보십시오.
-seo-description: 2020.10.0의 새로운 기능과 향상된 기능을 살펴보십시오.
+description: 2021.02.0의 새로운 기능과 향상된 기능을 살펴보십시오.
+seo-description: 2021.02.0의 새로운 기능과 향상된 기능을 살펴보십시오.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5479'
-ht-degree: 2%
+source-wordcount: '5798'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,44 @@ ht-degree: 2%
 # AEM Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 배포하여 모든 디바이스에서 외부 관계자와 내부 비즈니스 사용자에게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며, 비준수 및 무단 액세스 위험을 줄일 수 있습니다. Adobe은 전반적인 브랜드 포털 경험을 개선하기 위해 노력하고 있습니다. 새로운 기능과 향상된 기능을 미리 만나보십시오.
+
+## 2021.02.0 {#what-changed-in-feb-2021}에서 변경된 사항
+
+Brand Portal 2021.02.0은 자산 다운로드 환경의 개선에 중점을 두고 있으며 중요한 수정 사항을 포함하는 향상된 릴리스입니다. 이를 통해 관리자는 테넌트 수준에서 폴더, 컬렉션 및 자산의 대량 다운로드의 기본 다운로드 동작을 구성할 수 있습니다. 현재 브랜드 포털 사용자를 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;도 수정되었습니다. 최신 [브랜드 포털 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
+
+
+### 자산 다운로드 {#asset-download-setting}
+
+기존 **[!UICONTROL 다운로드 설정]** 외에 브랜드 포털 관리자는 이제 **[!UICONTROL 자산 다운로드]** 설정을 구성할 수 있습니다. 이 설정을 통해 관리자는 임차인 수준에서 폴더, 컬렉션 및 자산(20개 이상의 자산)의 벌크 다운로드의 기본 다운로드 동작을 제어할 수 있습니다.
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+이전에는 모든 자산 변환이 zip 폴더에 직접 다운로드되었습니다. 폴더 및 컬렉션에 대해 **[!UICONTROL 다운로드]** 대화 상자를 건너뛰었으며 자산의 다운로드 비헤이비어를 제어할 방법이 없으므로 다운로드가 많을 때 특정 변환을 검색하기가 어렵습니다.
+
+**[!UICONTROL 자산]** 다운로드 설정은 이제 자산을 폴더, 컬렉션 또는 벌크 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만드는 옵션을 제공합니다.
+
+**[!UICONTROL 자산 다운로드]** 설정이 비활성화되어 있으면 공유 링크를 사용하여 자산을 다운로드하는 경우를 제외하고 동일한 폴더 아래의 모든 자산 표현물을 포함하는 zip 폴더에 폴더 또는 컬렉션이 다운로드됩니다.
+
+
+관리자로 브랜드 포털 테넌트에 로그인하고 **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]**&#x200B;로 이동합니다. 관리자는 폴더, 컬렉션 및 자산 벌크 다운로드를 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만들도록 **[!UICONTROL 자산 다운로드]** 설정을 활성화할 수 있습니다.
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### 사용량 보고서 {#usage-report}
+
+유효한 브랜드 포털 사용자만 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;가 수정되었습니다. Admin Console의 제품 프로필에 할당되지 않은 브랜드 포털 사용자는 비활성 사용자로 간주되며 **[!UICONTROL 사용 보고서]**&#x200B;에 반영되지 않습니다.
+
+이전에는 활성 사용자와 비활성 사용자 모두 사용량 보고서에 표시되었습니다.
+
+![](assets/usage-report.png)
 
 ## 2020.10.0 {#what-changed-in-oct-2020}에서 변경된 사항
 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![표현물 패널](assets/renditions-panel.png)
 
 
-### 다운로드 권한 구성 {#download-permissions}
+### 다운로드 설정 {#download-permissions} 구성
 
-기존 **[!UICONTROL 다운로드]** 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 권한을 구성하여 자산 세부 사항 페이지에서 원본 에셋 및 해당 표현물을 보고 다운로드할 수도 있습니다.
+기존 **[!UICONTROL 다운로드]** 구성 외에도 브랜드 포털 관리자는 다른 사용자 그룹에 대한 설정을 구성하여 자산 세부 사항 페이지에서 원본 자산과 해당 표현물을 보고 다운로드할 수도 있습니다.
 
 관리자로 브랜드 포털 테넌트에 로그인하고 **[!UICONTROL 도구]** > **[!UICONTROL 사용자]**&#x200B;로 이동합니다.
 
-**[!UICONTROL 사용자 역할]** 페이지에서 **[!UICONTROL 그룹]** 탭으로 이동하여 사용자 그룹에 대한 보기 및 (또는) 다운로드 권한을 구성합니다
+**[!UICONTROL 사용자 역할]** 페이지에서 **[!UICONTROL 그룹]** 탭으로 이동하여 사용자 그룹의 보기 및 (또는) 다운로드 설정을 구성합니다.
 
 이전에는 그룹 사용자가 원래 자산을 다운로드하지 못하도록 하는 경우에만 설정을 사용할 수 있었습니다.
 
@@ -160,8 +198,6 @@ Document Viewer를 통해 브랜드 포털 사용자는 이제 페이지 보기,
 
 구성에 따라 다운로드 워크플로우는 독립 실행형 에셋, 여러 에셋, 에셋이 포함된 폴더, 라이선스가 부여되거나 라이선스가 부여되지 않은 에셋을 사용하거나 공유 링크를 사용하여 에셋을 다운로드하는 데 일관되게 유지됩니다.
 
-![](assets/download-configuration.png)
-
 
 ## 6.4.6 {#what-changed-in-646}에서 변경된 사항
 
@@ -199,10 +235,10 @@ Brand Portal에서 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 
 | **AEM 버전** | **새 구성** | **업그레이드 구성** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3(6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [구성 업그레이드](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM Assets as a Cloud Service** | [구성 만들기](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.3(6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [구성 업그레이드](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 지원 문의 | 지원 문의 |
 
 >[!NOTE]
@@ -218,7 +254,7 @@ Brand Portal에서 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 
 Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를 Brand Portal에 업로드하고 AEM Assets에 게시할 수 있는 기능을 Brand Portal 사용자(외부 에이전시/팀)에게 제공하는 데 중점을 둔 기능 릴리스입니다. 이 기능을 브랜드 포털의 **[자산 소싱](brand-portal-asset-sourcing.md)**&#x200B;이라고 하며, 사용자가 글로벌 배포된 다른 브랜드 포털 사용자와 자산을 기부하고 공유할 수 있는 양방향 메커니즘을 제공하여 고객 경험을 향상시킬 수 있습니다.
 
-### 브랜드 포털의 자산 소싱 {#asset-sourcing-in-bp}
+### Brand Portal의 자산 소싱 {#asset-sourcing-in-bp}
 
 자산 소싱을 통해 AEM 사용자(관리자/비관리 사용자)는 추가 **자산 기여도** 속성을 사용하여 새 폴더를 만들 수 있으므로 브랜드 포털 사용자가 만든 새 폴더를 자산 제출에 열 수 있습니다. 이렇게 하면 새로 만든 **기여도** 폴더 내에 NEW 및 SHARED라는 2개의 추가 하위 폴더가 생성되는 워크플로우가 자동으로 트리거됩니다.
 
@@ -383,7 +419,7 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 브랜드 포털 URL의 접두어만 사용자 정의할 수 있으며 전체 URL은 사용자 지정할 수 없습니다.\
 예를 들어 기존 도메인 **geometritrix.brand-portal.adobe.com**&#x200B;이(가) 있는 조직은 요청 시 **geometrixinc.brand-portal.adobe.com**&#x200B;을 만들 수 있습니다.
 
-그러나 AEM 작성자 인스턴스는 테넌트 ID를 가진 [구성된](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)만 될 수 있고 임차인 별칭(대체) URL을 포함하지 않습니다.
+그러나 AEM 작성자 인스턴스는 테넌트 ID를 가진 [구성된](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)만 될 수 있고 임차인 별칭(대체) URL을 포함하지 않습니다.
 
 조직은 Adobe에서 제공하는 URL을 고수하는 대신 포털 URL을 사용자 정의하여 브랜딩 요구 사항을 충족할 수 있습니다.
 
@@ -396,7 +432,7 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 * 표현물만 다운로드(원본 자산이 아니라) 선택
 * 원본 변환에 액세스할 수 있을 때 자산 다운로드가 제한됩니다.
 
-## 6.4.2 {#what-changed-in-1}에서 변경된 사항
+## 6.4.6 {#what-changed-in-1}에서 변경된 사항
 
 Brand Portal 6.4.2 릴리스는 조직의 에셋 배포 요구 사항을 해결하고 빠른 다운로드를 통해 게스트 액세스 및 최적의 경험을 통해 전세계에 배포되는 많은 사용자에게 도달할 수 있도록 지원하는 다양한 기능을 제공합니다. 또한 브랜드 포털은 관리자를 위한 새로운 구성, 새로 추가된 보고서, 고객 요청에 맞는 보고서 등을 통해 조직에 대한 보다 강력한 제어 기능을 제공합니다.
 
