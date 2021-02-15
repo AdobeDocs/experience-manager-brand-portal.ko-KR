@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5798'
+source-wordcount: '5796'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Brand Portal 2021.02.0은 자산 다운로드 환경의 개선에 중점을 두�
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-이전에는 모든 자산 변환이 zip 폴더에 직접 다운로드되었습니다. 폴더 및 컬렉션에 대해 **[!UICONTROL 다운로드]** 대화 상자를 건너뛰었으며 자산의 다운로드 비헤이비어를 제어할 방법이 없으므로 다운로드가 많을 때 특정 변환을 검색하기가 어렵습니다.
+이전에는 모든 자산 변환이 zip 폴더에 직접 다운로드되었습니다. 폴더 및 컬렉션에 대해 **[!UICONTROL 다운로드]** 대화 상자를 건너뛰었으며 자산의 다운로드 비헤이비어를 제어할 방법이 없어 많은 다운로드에서 특정 변환을 검색하기가 어렵습니다.
 
 **[!UICONTROL 자산]** 다운로드 설정은 이제 자산을 폴더, 컬렉션 또는 벌크 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만드는 옵션을 제공합니다.
 
