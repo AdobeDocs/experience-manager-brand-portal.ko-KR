@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
+source-git-commit: 1a2ede041a08c687022108a3d5f52c258c6b945a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,11 @@ AEM 관리자는 기여도 폴더의 속성을 구성하는 동안 다음 활동
 
    ![](assets/upload.png)
 
-1. **[!UICONTROL 사용자 또는 그룹 추가]** 필드에서 기여도 폴더를 공유할 브랜드 포털 사용자를 추가합니다. 이러한 사용자는 브랜드 포털 인터페이스를 사용하여 기여도 폴더에 액세스하여 콘텐트를 업로드할 수 있습니다.
+1. **[!UICONTROL 사용자 추가]** 필드에서 기여도 폴더를 공유할 브랜드 포털 사용자를 추가합니다. 이러한 사용자는 브랜드 포털 인터페이스를 사용하여 기여도 폴더에 액세스하여 콘텐트를 업로드할 수 있습니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   ![](assets/contribution-folder-property2.png)
+   ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
->
->현재는 그룹을 기여도 폴더에 할당할 수 없습니다.
 >
 >검색 결과는 AEM Assets에 구성된 브랜드 포털 사용자 목록을 기반으로 합니다. 업데이트된 브랜드 포털 사용자 목록이 있는지 확인합니다. [브랜드 포털 사용자 목록 업로드](brand-portal-configure-asset-sourcing.md)를 참조하십시오.
