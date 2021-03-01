@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 71%
+ht-degree: 74%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 71%
    + [Brand Portal에 동시 게시 문제 해결](using/troubleshoot-parallel-publishing.md)
    + [태그를 Brand Portal에 게시](using/brand-portal-publish-tags.md)
    + [사전 설정, 스키마 및 패싯을 Brand Portal에 게시](using/publish-schema-search-facets-presets.md)
-+ 브랜드 포털의 자산 소싱 {#asset-sourcing-in-brand-portal}
++ Brand Portal의 자산 소싱 {#asset-sourcing-in-brand-portal}
    + [개요](using/brand-portal-asset-sourcing.md)
    + [AEM에서 자산 소싱 구성](using/brand-portal-configure-asset-sourcing.md)
-   + AEM Assets {#configure-contribution-folder}에서 기여도 폴더 구성
+   + AEM Assets의 기여 폴더 구성 {#configure-contribution-folder}
       + [개요](using/brand-portal-contribution-folder.md)
       + [기여도 폴더 만들기](using/brand-portal-create-contribution-folder.md)
       + [기여도 폴더 속성 구성](using/brand-portal-configure-contribution-folder-properties.md)
