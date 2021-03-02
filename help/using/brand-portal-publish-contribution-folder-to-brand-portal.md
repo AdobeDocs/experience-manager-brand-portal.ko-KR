@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ AEM 관리자와 관리자가 아닌 사용자가 새 폴더를 만들 수 있�
 
    ![](assets/contribution-folder.png)
 
-이제 기여도 폴더 속성을 구성할 수 있습니다.
+기여도 폴더를 만드는 동안 기여도 폴더 속성을 구성할 수도 있습니다.
 
 ## 기여도 폴더 속성 {#configure-contribution-folder-properties} 구성
 
