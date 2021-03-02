@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 3%
+source-wordcount: '1516'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 **Ans.** 예. Adobe 개발자 콘솔을 통해 AEM 6.5.4의 AEM Assets에 기여도 폴더의 에셋을 게시하는 동안 알려진 문제가 있습니다.
 
-AEM 6.5.5에서 문제가 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM으로 업그레이드하고 Adobe 개발자 콘솔에서 [구성을 업그레이드 할 수 있습니다.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
+AEM 6.5.5에서 문제가 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM으로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)구성을 업그레이드 할 수 있습니다.[
 
 AEM 6.5.4에 대한 즉각적인 픽스를 위해서는 [핫픽스](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)를 다운로드하고 AEM 작성자 인스턴스에 설치하는 것이 좋습니다.
 
@@ -96,7 +96,7 @@ AEM 6.5.4에 대한 즉각적인 픽스를 위해서는 [핫픽스](https://www.
 
 **방문자 수 브랜드 포털 사용자로서의 작업에 필요한 작업이 있습니까?**
 
-**Ans.** 브랜드 포털 6.4.5 릴리스에는 자산 소싱이라는 새로운 기능이 포함되어 있습니다. AEM 관리자는 브랜드 포털 사용자에 대한 기능을 활성화하려면 AEM Assets에서 자산 소싱 기능을 구성해야 합니다. 자세한 내용은 [자산 소싱 활성화](brand-portal-configure-asset-sourcing.md)를 참조하십시오.
+**Ans.** 브랜드 포털 6.4.5 릴리스에는 자산 소싱이라는 새로운 기능이 포함되어 있습니다. AEM 관리자는 브랜드 포털 사용자에 대한 기능을 활성화하려면 AEM Assets에서 자산 소싱 기능을 구성해야 합니다. 자세한 내용은 [자산 소싱 활성화](brand-portal-asset-sourcing.md)를 참조하십시오.
 
 
 
@@ -138,7 +138,7 @@ AEM 6.5.4에 대한 즉각적인 픽스를 위해서는 [핫픽스](https://www.
 
 >[!NOTE]
 >
->기존 브랜드 포털 사용자가 아닌 경우 AEM 관리자에게 AEM 관리 콘솔에서 사용자를 만들고 Brand Portal 사용자 목록의 사용자 구성 파일에 프로필을 추가하도록 요청하십시오. [브랜드 포털 사용자 ](brand-portal-configure-asset-sourcing.md) 추가를 참조하십시오.
+>기존 브랜드 포털 사용자가 아닌 경우 AEM 관리자에게 AEM 관리 콘솔에서 사용자를 만들고 Brand Portal 사용자 목록의 사용자 구성 파일에 프로필을 추가하도록 요청하십시오.
 
 **방문자 수 사용자 가져오기에 대한 CSV 파일의 형식은 무엇입니까?**
 
@@ -172,7 +172,7 @@ AEM 6.5.4에 대한 즉각적인 픽스를 위해서는 [핫픽스](https://www.
 
 **방문자 수 기여도 폴더에 새 자산을 업로드하는 방법?**
 
-**Ans.** 기여도 폴더에 자산  [업로드에 대한 자세한 설명서를 참조하십시오](brand-portal-upload-assets-to-contribution-folder.md).
+**Ans.** 기여도 폴더에 자산  [업로드에 대한 자세한 설명서를 참조하십시오](brand-portal-publish-contribution-folder-to-brand-portal.md).
 
 
 
