@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 11%
+source-wordcount: '558'
+ht-degree: 10%
 
 ---
 
@@ -38,6 +38,8 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 ### 새 기능 {#new-features}
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
+
+* 이제 AEM Assets에서 Cloud Service으로 자산 소싱 기능을 사용할 수 있습니다. 이를 통해 브랜드 포털 사용자는 허용된 기여도 폴더에 에셋을 업로드하고 브랜드 포털의 기여도 폴더를 Cloud Service 인스턴스로 AEM Assets에 게시할 수 있습니다.
 
 * **[!UICONTROL 다운로드 설정]**&#x200B;에 추가 **[!UICONTROL 자산 다운로드]** 설정이 도입되었습니다. 폴더, 컬렉션 또는 자산의 벌크 다운로드를 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만듭니다. [다운로드 설정](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)을 참조하십시오.
 
