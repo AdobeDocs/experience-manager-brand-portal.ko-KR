@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 기여도 폴더를 만드는 목적이 달성되면 브랜드 포털 관리자는 기여도 폴더를 삭제하여 다른 사용자의 업로드 공간을 해제할 수 있습니다.
 
-**게시 작업 상태**
+## 게시 작업 상태 {#publishing-job-status}
 
 관리자가 브랜드 포털에서 AEM Assets으로 게시한 자산 기여도 폴더의 상태를 보기 위해 활용할 수 있는 2개의 보고서가 있습니다.
 
@@ -129,13 +129,27 @@ ht-degree: 0%
 
    ![](assets/contribution-folder-status.png)
 
-* AEM Assets 작성자 인스턴스에서 **[!UICONTROL 도구]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
+* AEM Assets(온-프레미스 또는 관리 서비스)에서 **[!UICONTROL 도구]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
 
    ![](assets/publishing-status.png)
 
+* Cloud Service으로 AEM Assets에서 **[!UICONTROL 도구]** > **[!UICONTROL 자산]** > **[!UICONTROL 보고서]**&#x200B;로 이동합니다.
+
+   **[!UICONTROL 만들기]** 단추를 클릭하고 **[!UICONTROL 게시]**&#x200B;를 선택하여 게시 보고서를 만듭니다.
+
+   ![](assets/create-publish-report.png)
+
+   **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을 입력한 다음, 기여도 폴더의 **[!UICONTROL 폴더 경로]**&#x200B;를 선택하고 **[!UICONTROL 지금]**&#x200B;에 대한 보고서를 예약합니다. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+
+   ![](assets/create-publish-report1.png)
+
+   보고서에서 원하는 필드 속성을 선택하고 생성합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
+
+<!--
 >[!NOTE]
 >
->Cloud Service의 AEM Assets 사용자 인터페이스는 약간의 차이가 있을 수 있지만 워크플로우는 변경되지 않습니다.
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
