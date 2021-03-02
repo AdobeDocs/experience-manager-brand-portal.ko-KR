@@ -1,6 +1,6 @@
 ---
-title: 브랜드 포털의 자산 소싱
-seo-title: 브랜드 포털의 자산 소싱
+title: Brand Portal의 자산 소싱
+seo-title: Brand Portal의 자산 소싱
 description: Adobe Experience Manager Assets 브랜드 포털에서 제공하는 자산 소싱 기능에 대한 통찰력을 얻을 수 있습니다.
 seo-description: Adobe Experience Manager Assets 브랜드 포털에서 제공하는 자산 소싱 기능에 대한 통찰력을 얻을 수 있습니다.
 uuid: null
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 product: experience-manager
 sub-product: 자산
-feature: brand-portal
+feature: 브랜드 포털
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 5a61c42762e111b824163ce7d054d413a4da56bc
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '842'
 ht-degree: 7%
 
 ---
@@ -35,14 +35,9 @@ ht-degree: 7%
 
 ## 전제 조건 {#prerequisites}
 
-* AEM 6.5.2 이상
+* AEM Assets을 Cloud Service 인스턴스로, AEM Assets 6.5.2 이상 버전으로 사용할 수 있습니다.
 * AEM Assets 인스턴스가 브랜드 포털로 구성되어 있는지 확인합니다. [브랜드 포털과 함께 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
 * 브랜드 포털 테넌트가 하나의 AEM Assets 작성자 인스턴스로 구성되어 있는지 확인합니다.
-
->[!NOTE]
->
->자산 소싱은 AEM Assets에서 Cloud Service으로 지원되지 않습니다.
-
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
@@ -51,25 +46,72 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->AEM 6.5.4에 알려진 문제가 있습니다. 브랜드 포털 사용자는 Adobe 개발자 콘솔로 업그레이드할 때 기여도 폴더의 자산을 AEM Assets에 게시할 수 없습니다.
+>AEM Assets 6.5.4에 알려진 문제가 있습니다. 브랜드 포털 사용자는 Adobe 개발자 콘솔로 업그레이드할 때 기여도 폴더의 자산을 AEM Assets에 게시할 수 없습니다.
 >
->AEM 6.5.5에서 문제가 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM으로 업그레이드하고 Adobe 개발자 콘솔에서 [구성을 업그레이드 할 수 있습니다.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
+>AEM 6.5.5에서 문제가 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM으로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)구성을 업그레이드 할 수 있습니다.[
 >
 >AEM 6.5.4를 즉시 수정하려면 [핫픽스를 다운로드](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)하고 작성자 인스턴스에 설치하는 것이 좋습니다.
 
+## 자산 소싱 구성 {#configure-asset-sourcing}
+
+**자산** 소싱은 AEM Assets 작성자 인스턴스 내에서 구성됩니다. 관리자는 **AEM 웹 콘솔 구성**&#x200B;에서 자산 소싱 기능 플래그 구성을 활성화하고 **AEM Assets**&#x200B;의 활성 브랜드 포털 사용자 목록을 업로드할 수 있습니다.
+
+>[!NOTE]
+>
+>자산 소싱은 기본적으로 AEM Assets에서 Cloud Service으로 활성화됩니다. AEM 관리자는 활성 브랜드 포털 사용자를 직접 업로드하여 자산 소싱 기능에 액세스할 수 있도록 허용할 수 있습니다.
+
+>[!NOTE]
+>
+>구성을 시작하기 전에 AEM Assets 인스턴스가 브랜드 포털로 구성되어 있는지 확인합니다. [브랜드 포털과 함께 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
+
+다음 비디오에서는 AEM Assets 작성자 인스턴스에서 자산 소싱을 구성하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
+
+### 자산 소싱 사용 {#enable-asset-sourcing}
+
+AEM 관리자는 AEM 웹 콘솔 구성(예: 구성 관리자) 내에서 자산 소싱 기능 플래그를 활성화할 수 있습니다.
+
+>[!NOTE]
+>
+>이 단계는 Cloud Service으로 AEM Assets에 적용되지 않습니다.
+
+
+**자산 소싱을 활성화하려면**
+1. AEM Assets 작성자 인스턴스에 로그인하고 구성 관리자를 엽니다.
+기본 URL:http:// localhost:4502/system/console/configMgr
+1. **자산 소싱** 키워드를 사용하여 검색하여 **[!UICONTROL 자산 소싱 기능 플래그 구성]**&#x200B;을 찾습니다.
+1. **[!UICONTROL 자산 소싱 기능 플래그 구성]**&#x200B;을 클릭하여 구성 창을 엽니다.
+1. **[!UICONTROL feature.flag.active.status]** 확인란을 선택합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+![](assets/enable-asset-sourcing.png)
+
+### 브랜드 포털 사용자 목록 {#upload-bp-user-list} 업로드
+
+AEM 관리자는 AEM Assets에서 활성 브랜드 포털 사용자 목록이 포함된 브랜드 포털 사용자 구성(.csv) 파일을 업로드할 수 있습니다. 기여도 폴더는 사용자 목록에 정의된 활성 브랜드 포털 사용자만 공유할 수 있습니다. 관리자는 구성 파일에 새 사용자를 추가하고 수정된 사용자 목록을 업로드할 수도 있습니다.
+
+>[!NOTE]
+>
+>CSV 파일의 형식은 대량 사용자 가져오기에 대해 Admin Console에서 지원되는 형식과 동일합니다. 이메일, 이름 및 성은 필수입니다.
+
+관리자는 AEM Admin Console에서 새 사용자를 추가할 수 있습니다. 자세한 내용은 [사용자 관리](brand-portal-adding-users.md)를 참조하십시오. Admin Console에서 사용자를 추가한 후 해당 사용자를 브랜드 포털 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
+
+**브랜드 포털 사용자 목록을 업로드하려면:**
+1. AEM Assets 인스턴스에 로그인합니다.
+1. **도구** 패널에서 **[!UICONTROL 자산]** > **[!UICONTROL 브랜드 포털 사용자]**&#x200B;로 이동합니다.
+
+1. 브랜드 포털 업로드 기여자 창이 열립니다.
+로컬 컴퓨터에서 탐색하고 활성 브랜드 포털 사용자 목록이 포함된 **구성(.csv) 파일**&#x200B;을(를) 업로드합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+   ![](assets/upload-user-list2.png)
+
+
+관리자는 기여도 폴더를 구성하는 동안 이 사용자 목록에서 특정 사용자에게 액세스 권한을 제공할 수 있습니다. 기여도 폴더에 할당된 사용자만 기여도 폴더에 액세스하고 브랜드 포털에서 AEM Assets으로 자산을 게시할 수 있습니다.
 
 ## 참고 항목 {#reference-articles}
 
-**관리자용**
+* [기여도 폴더 구성 및 브랜드 포털에 게시](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [AEM에서 자산 소싱 구성](brand-portal-configure-asset-sourcing.md)
-* [브랜드 포털 사용자 목록 업로드](brand-portal-configure-asset-sourcing.md)
-* [기여도 폴더 구성](brand-portal-contribution-folder.md)
-* [기여도 폴더에 기준 자산 업로드](brand-portal-upload-baseline-assets.md)
-* [브랜드 포털에 기여도 폴더 게시](brand-portal-publish-contribution-folder-to-brand-portal.md)
-
-**브랜드 포털 사용자의 경우**
-
-* [자산 요구 사항 다운로드](brand-portal-download-asset-requirements.md)
-* [기여도 폴더에 새 자산 업로드](brand-portal-upload-assets-to-contribution-folder.md)
 * [AEM Assets에 기여도 폴더 게시](brand-portal-publish-contribution-folder-to-aem-assets.md)
