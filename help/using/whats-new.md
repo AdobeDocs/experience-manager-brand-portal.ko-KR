@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '5796'
+source-wordcount: '5907'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,14 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 
 ## 2021.02.0 {#what-changed-in-feb-2021}에서 변경된 사항
 
-Brand Portal 2021.02.0은 자산 다운로드 환경의 개선에 중점을 두고 있으며 중요한 수정 사항을 포함하는 향상된 릴리스입니다. 이를 통해 관리자는 테넌트 수준에서 폴더, 컬렉션 및 자산의 대량 다운로드의 기본 다운로드 동작을 구성할 수 있습니다. 현재 브랜드 포털 사용자를 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;도 수정되었습니다. 최신 [브랜드 포털 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
+브랜드 포털 2021.02.0은 AEM Assets의 자산 소싱 기능을 Cloud Service으로 촉진하고 자산 다운로드 경험의 개선 사항과 중요한 수정 사항을 포함하는 향상된 릴리스입니다. 이를 통해 관리자는 테넌트 수준에서 폴더, 컬렉션 및 자산의 대량 다운로드의 기본 다운로드 동작을 구성할 수 있습니다. 현재 브랜드 포털 사용자를 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;도 수정되었습니다. 최신 [브랜드 포털 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
 
+
+### AEM Assets의 자산 소싱을 Cloud Service {#asset-sourcing-on-cloud-service}으로 함
+
+이제 자산 소싱 기능을 AEM Assets에서 Cloud Service으로 사용할 수 있습니다. 이 기능은 기본적으로 모든 클라우드 서비스 사용자에 대해 활성화됩니다. 허용된 브랜드 포털 사용자는 기여도 폴더에 새 자산을 업로드하고 브랜드 포털의 기여도 폴더를 Cloud Service 인스턴스로 AEM Assets에 게시하여 자산 소싱에 기여할 수 있습니다. 관리자는 브랜드 포털 사용자의 기여도를 검토하고 승인하여 다른 브랜드 포털 사용자에게 추가로 배포할 수 있습니다.
+
+이전에는, 자산 소싱은 AEM Assets(온-프레미스 및 관리 서비스)에서만 사용할 수 있었습니다.
 
 ### 자산 다운로드 {#asset-download-setting}
 
@@ -258,7 +264,7 @@ Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를
 
 자산 소싱을 통해 AEM 사용자(관리자/비관리 사용자)는 추가 **자산 기여도** 속성을 사용하여 새 폴더를 만들 수 있으므로 브랜드 포털 사용자가 만든 새 폴더를 자산 제출에 열 수 있습니다. 이렇게 하면 새로 만든 **기여도** 폴더 내에 NEW 및 SHARED라는 2개의 추가 하위 폴더가 생성되는 워크플로우가 자동으로 트리거됩니다.
 
-그러면 AEM 사용자는 [기여도 폴더에 추가해야 하는 에셋 유형에 대한 간단한](brand-portal-configure-contribution-folder-properties.md)을 업로드하고 [기준선 에셋](brand-portal-upload-baseline-assets.md)을 **SHARED** 폴더에 업로드하여 BP 사용자가 필요한 참조 정보를 갖도록 하여 요구 사항을 정의합니다. 그러면 관리자는 새로 만든 **기여도** 폴더를 브랜드 포털에 게시하기 전에 기여도 폴더에 대한 액세스 권한을 활성 브랜드 포털 사용자에게 부여할 수 있습니다.
+그러면 AEM 사용자는 BP 사용자가 필요한 참조 정보를 갖도록 하기 위해 기여도 폴더에 추가해야 하는 에셋 유형에 대한 간단한 설명을 업로드하고 기준 에셋을 **SHARED** 폴더에 업로드하여 요구 사항을 정의합니다. 그러면 관리자는 새로 만든 **기여도** 폴더를 브랜드 포털에 게시하기 전에 기여도 폴더에 대한 액세스 권한을 활성 브랜드 포털 사용자에게 부여할 수 있습니다.
 
 
 사용자가 **NEW** 폴더에 콘텐트를 추가했으면 해당 기여도 폴더를 다시 AEM 작성자 환경에 게시할 수 있습니다. 가져오기를 완료하고 AEM Assets 내에서 새로 게시된 컨텐츠를 반영하는 데 몇 분 정도 걸릴 수 있습니다.
@@ -273,7 +279,7 @@ Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를
 
 ### 기여도 폴더 {#upload-assets-in-bp}에 자산 업로드
 
-적절한 권한이 있는 브랜드 포털 사용자는 [자산 요구 사항](brand-portal-download-asset-requirements.md)을 다운로드하여 기여의 필요성을 이해하고 여러 자산이 들어 있는 여러 자산 또는 폴더를 기여도 폴더에 업로드할 수 있습니다. 그러나 브랜드 포털 사용자는 **NEW** 하위 폴더에 에셋만 업로드할 수 있습니다. **SHARED** 폴더는 요구 사항 및 기준 자산의 배포를 위한 것입니다. 참조: [자산 기여도 폴더에 업로드](brand-portal-upload-assets-to-contribution-folder.md)
+적절한 권한이 있는 브랜드 포털 사용자는 자산 요구 사항을 다운로드하여 기여도의 필요성을 파악하고 여러 자산이 들어 있는 여러 자산 또는 폴더를 기여도 폴더에 업로드할 수 있습니다. 그러나 브랜드 포털 사용자는 **NEW** 하위 폴더에 에셋만 업로드할 수 있습니다. **SHARED** 폴더는 요구 사항 및 기준 자산의 배포를 위한 것입니다.
 
 ![](assets/upload-asset6.png)
 
