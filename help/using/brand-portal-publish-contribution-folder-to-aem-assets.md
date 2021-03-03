@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,24 @@ ht-degree: 0%
 
 1. 브랜드 포털 인스턴스에 로그인합니다.
 1. 브랜드 포털 대시보드에서 기여도 폴더를 선택합니다.
-1. **[!UICONTROL 속성]** ![](assets/properties.png)을 클릭합니다. 자산 기여도 폴더 세부 사항을 표시하는 속성 창이 열립니다.
-   ![](assets/download-asset-requirement1.png)
-1. 로컬 컴퓨터에서 자산 요구 사항 문서를 다운로드하려면 **[!UICONTROL Download Brief]** ![](assets/download.png)를 클릭합니다.
+1. **[!UICONTROL 속성]**&#x200B;을 클릭합니다. 기여도 폴더 세부 사항이 포함된 속성 창이 열립니다.
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. 로컬 컴퓨터에서 자산 요구 사항 문서를 다운로드하려면 **[!UICONTROL Download Brief]** 옵션을 클릭합니다.
+
+   ![](assets/download.png)
+
 1. 브랜드 포털 대시보드로 돌아갑니다.
 1. 기여도 폴더를 열려면 을 클릭하십시오. 기여도 폴더 내에 **[!UICONTROL SHARED]** 및 **[!UICONTROL NEW]**&#x200B;라는 두 개의 하위 폴더가 표시됩니다. SHARED 폴더에는 관리자가 공유한 모든 기준 자산(참조 콘텐트)이 포함됩니다.
 1. 로컬 컴퓨터의 모든 기준 에셋이 포함된 **[!UICONTROL SHARED]** 폴더를 다운로드할 수 있습니다.
-또는 **[!UICONTROL SHARED]** 폴더를 열고 **다운로드** 아이콘 ![](assets/download.png)을 클릭하여 개별 파일/폴더를 다운로드할 수 있습니다.
-   ![](assets/download-asset-requirement3.png)
+또는 **[!UICONTROL SHARED]** 폴더를 열고 **다운로드** 아이콘을 클릭하여 개별 파일/폴더를 다운로드할 수 있습니다.
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 간략한(자산 요구 사항 문서)으로 이동하여 자산 요구 사항을 이해하려면 기준 자산을 참조하십시오. 이제 기여도를 위해 새 자산을 만들고 기여도 폴더에 업로드할 수 있습니다.
 
@@ -82,15 +91,15 @@ ht-degree: 0%
 
 1. **[!UICONTROL NEW]** 폴더를 클릭합니다.
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. **[!UICONTROL 만들기]** > **[!UICONTROL 파일]**&#x200B;을 클릭하여 여러 에셋이 포함된 개별 파일 또는 폴더(.zip)를 업로드합니다.
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. 자산(파일 또는 폴더)을 찾아 **[!UICONTROL NEW]** 폴더로 업로드합니다.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 모든 자산 또는 폴더를 NEW 폴더에 업로드한 후 기여도 폴더를 AEM Assets에 게시합니다.
 
@@ -110,7 +119,7 @@ ht-degree: 0%
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 게시 워크플로우의 다른 단계에서 브랜드 포털 사용자 및 관리자에게 이메일/펄스 알림이 전송됩니다.
 1. **큐에**  있음 - 게시 워크플로가 브랜드 포털에서 트리거될 때 브랜드 포털 사용자 및 브랜드 포털 관리자에게 알림이 전송됩니다.
@@ -129,21 +138,17 @@ ht-degree: 0%
 
    ![](assets/contribution-folder-status.png)
 
-* AEM Assets(온-프레미스 또는 관리 서비스)에서 **[!UICONTROL 도구]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
+* AEM Assets(온-프레미스 또는 관리 서비스)에서 **[!UICONTROL 자산]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
 
    ![](assets/publishing-status.png)
 
-* Cloud Service으로 AEM Assets에서 **[!UICONTROL 도구]** > **[!UICONTROL 자산]** > **[!UICONTROL 보고서]**&#x200B;로 이동합니다.
+* Cloud Service으로 AEM Assets에서 **[!UICONTROL 자산]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다.
 
-   **[!UICONTROL 만들기]** 단추를 클릭하고 **[!UICONTROL 게시]**&#x200B;를 선택하여 게시 보고서를 만듭니다.
+   또는 전역 탐색에서 **[!UICONTROL 작업]**&#x200B;으로 직접 이동할 수 있습니다.
 
-   ![](assets/create-publish-report.png)
+   이 보고서는 Brand Portal에서 AEM Assets으로 에셋을 Cloud Service으로 가져오는 것을 포함하여 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
 
-   **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을 입력한 다음, 기여도 폴더의 **[!UICONTROL 폴더 경로]**&#x200B;를 선택하고 **[!UICONTROL 지금]**&#x200B;에 대한 보고서를 예약합니다. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
-
-   ![](assets/create-publish-report1.png)
-
-   보고서에서 원하는 필드 속성을 선택하고 생성합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
