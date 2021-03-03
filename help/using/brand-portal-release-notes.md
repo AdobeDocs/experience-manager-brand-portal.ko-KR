@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 10%
 
 ---
@@ -91,6 +91,13 @@ Brand Portal users can exclude specific renditions which are not required and di
 * 공유 링크를 사용하여 자산(축소판 또는 웹 변환)을 다운로드할 때 일관성 없는 동작이 발생합니다.
 
 [브랜드 포털 2021.02.0](whats-new.md)의 새로운 기능을 참조하십시오.
+
+
+### 알려진 문제 {#known-issues}
+
+이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
+
+* 사용자는 자산 소싱 게시 워크플로우에 대한 이메일 알림을 수신하지 않습니다.
 
 <!--
 ### Known Issues {#known-issues}
