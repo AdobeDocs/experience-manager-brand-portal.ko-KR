@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 10%
 
 ---
@@ -39,9 +39,11 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
+* AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다.
+
 * 이제 AEM Assets에서 Cloud Service으로 자산 소싱 기능을 사용할 수 있습니다. 이를 통해 브랜드 포털 사용자는 허용된 기여도 폴더에 에셋을 업로드하고 브랜드 포털의 기여도 폴더를 Cloud Service 인스턴스로 AEM Assets에 게시할 수 있습니다.
 
-* **[!UICONTROL 다운로드 설정]**&#x200B;에 추가 **[!UICONTROL 자산 다운로드]** 설정이 도입되었습니다. 폴더, 컬렉션 또는 자산의 벌크 다운로드를 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만듭니다. [다운로드 설정](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)을 참조하십시오.
+* **[!UICONTROL 다운로드 설정]**&#x200B;에 추가 **[!UICONTROL 자산 다운로드]** 설정이 도입되었습니다. 폴더, 컬렉션 또는 자산의 벌크 다운로드를 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만듭니다.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
