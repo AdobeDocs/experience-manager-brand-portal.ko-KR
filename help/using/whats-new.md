@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
 workflow-type: tm+mt
-source-wordcount: '5907'
+source-wordcount: '6069'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,15 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 
 ## 2021.02.0 {#what-changed-in-feb-2021}에서 변경된 사항
 
-브랜드 포털 2021.02.0은 AEM Assets의 자산 소싱 기능을 Cloud Service으로 촉진하고 자산 다운로드 경험의 개선 사항과 중요한 수정 사항을 포함하는 향상된 릴리스입니다. 이를 통해 관리자는 테넌트 수준에서 폴더, 컬렉션 및 자산의 대량 다운로드의 기본 다운로드 동작을 구성할 수 있습니다. 현재 브랜드 포털 사용자를 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;도 수정되었습니다. 최신 [브랜드 포털 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
+브랜드 포털 2021.02.0은 AEM Assets의 브랜드 포털 자동화 워크플로우를 Cloud Service으로 가져오고, AEM Assets의 자산 소싱 기능을 Cloud Service으로 활용하고, 자산 다운로드 경험의 개선을 개선하며, 중요한 수정 사항을 포함하는 향상된 릴리스입니다. 또한 관리자는 테넌트 수준에서 폴더, 컬렉션 및 자산의 대량 다운로드에 대한 기본 다운로드 동작을 구성할 수 있습니다. 현재 브랜드 포털 사용자를 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;도 수정되었습니다. 최신 [브랜드 포털 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
 
+### AEM Assets에서 Cloud Service {#bp-automation-on-cloud-service}으로 브랜드 포털 자동화
+
+AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다. Cloud Manager 사용자는 활성화 워크플로우를 트리거하여 백 엔드에 필수 구성을 만들고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에 있는 브랜드 포털을 활성화합니다.
+
+이전에는 AEM Assets이 Cloud Service으로 Brand Portal 테넌트의 승인을 위해 Adobe Identity Management Services(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성되었습니다.
+
+Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)으로 AEM Assets의 [브랜드 포털 활성화를 참조하십시오.
 
 ### AEM Assets의 자산 소싱을 Cloud Service {#asset-sourcing-on-cloud-service}으로 함
 
@@ -33,7 +40,9 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 
 이전에는, 자산 소싱은 AEM Assets(온-프레미스 및 관리 서비스)에서만 사용할 수 있었습니다.
 
-### 자산 다운로드 {#asset-download-setting}
+브랜드 포털](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en)의 [자산 소싱을 참조하십시오.
+
+### 에셋 다운로드 {#asset-download-setting}
 
 기존 **[!UICONTROL 다운로드 설정]** 외에 브랜드 포털 관리자는 이제 **[!UICONTROL 자산 다운로드]** 설정을 구성할 수 있습니다. 이 설정을 통해 관리자는 임차인 수준에서 폴더, 컬렉션 및 자산(20개 이상의 자산)의 벌크 다운로드의 기본 다운로드 동작을 제어할 수 있습니다.
 
@@ -52,6 +61,7 @@ Earlier, all the asset renditions were directly downloaded in a zip folder in ca
 
 ![](assets/download-settings-new.png)
 
+[브랜드 포털에서 자산 다운로드](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)를 참조하십시오.
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -223,7 +233,7 @@ Document Viewer를 통해 브랜드 포털 사용자는 이제 페이지 보기,
 
    -->
 
-Brand Portal에서 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구성하는 것인지 아니면 기존 구성을 업그레이드하는 것인지에 따라 다릅니다:
+브랜드 포털로 AEM Assets을 구성하는 단계는 AEM 버전 및 처음 구성할지 또는 기존 구성을 업그레이드하는지에 따라 다릅니다.
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
@@ -339,7 +349,7 @@ Brand Portal 6.4.4 이상 버전에서는 필터링 창에서 속성 조건자�
 
 ## 6.4.3 {#what-changed-in}에서 변경된 사항
 
-브랜드 포털 6.4.3 릴리스는 브랜드 포털 액세스 URL의 테넌트 ID, 새로운 폴더 계층 구성, 비디오 지원 개선 사항, AEM 작성자 인스턴스에서 브랜드 포털로 예약된 게시, 운영 개선 사항 및 고객 요청에 대한 카테고리 이외에도 대체 별칭을 조직에 제공하는 데 중점을 둡니다.
+브랜드 포털 6.4.3 릴리스는 브랜드 포털 액세스 URL에서 테넌트 ID 외에도 대체 별칭을 조직에 제공하고, 새로운 폴더 계층 구성, 비디오 지원 개선 사항, AEM 작성자 인스턴스에서 브랜드 포털로 예약된 게시, 운영 개선 사항을 제공하고, 고객 요청에 따라 서비스를 제공합니다.
 
 ### 관리자가 아닌 사용자를 위한 폴더 계층 탐색
 
@@ -438,7 +448,7 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 * 표현물만 다운로드(원본 자산이 아니라) 선택
 * 원본 변환에 액세스할 수 있을 때 자산 다운로드가 제한됩니다.
 
-## 6.4.6 {#what-changed-in-1}에서 변경된 사항
+## 6.4.2 {#what-changed-in-1}에서 변경된 사항
 
 Brand Portal 6.4.2 릴리스는 조직의 에셋 배포 요구 사항을 해결하고 빠른 다운로드를 통해 게스트 액세스 및 최적의 경험을 통해 전세계에 배포되는 많은 사용자에게 도달할 수 있도록 지원하는 다양한 기능을 제공합니다. 또한 브랜드 포털은 관리자를 위한 새로운 구성, 새로 추가된 보고서, 고객 요청에 맞는 보고서 등을 통해 조직에 대한 보다 강력한 제어 기능을 제공합니다.
 
