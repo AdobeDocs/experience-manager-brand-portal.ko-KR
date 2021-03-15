@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '6053'
+source-wordcount: '6125'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,19 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 
 ### AEM Assets에서 Cloud Service {#bp-automation-on-cloud-service}으로 브랜드 포털 자동화
 
-AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다. Cloud Manager 사용자는 활성화 워크플로우를 트리거하여 백 엔드에 필수 구성을 만들고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에 있는 브랜드 포털을 활성화합니다.
+AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다.
 
 이전에는 Cloud Service으로 AEM Assets이 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성되었습니다.
+
+Cloud Manager 사용자는 활성화 워크플로우를 트리거하여 백 엔드에 필수 구성을 만들고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에 있는 브랜드 포털을 활성화합니다.
+
+AEM Assets에서 Cloud Service 인스턴스로 브랜드 포털을 활성화하려면:
+
+1. Adobe Cloud Manager에 로그인하고 **[!UICONTROL 환경]**&#x200B;으로 이동합니다.
+1. 환경 세부 사항을 보려면 목록에서 환경(하나씩)을 선택합니다. 브랜드 포털과 연관된 환경이 발견되면 **[!UICONTROL 브랜드 포털 활성화]** 버튼을 클릭하여 활성화 워크플로우를 시작합니다.
+1. 브랜드 포털 테넌트가 활성화되면 상태가 활성화됨으로 변경됩니다.
+
+![상태 보기](assets/create-environment5.png)
 
 Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)으로 AEM Assets의 [브랜드 포털 활성화를 참조하십시오.
 
