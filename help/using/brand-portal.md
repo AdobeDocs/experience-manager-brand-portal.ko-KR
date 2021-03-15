@@ -9,21 +9,21 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 7adc6b311a7f669b05dd8cc82cede62194cb8ec6
+source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 10%
+source-wordcount: '1553'
+ht-degree: 7%
 
 ---
 
 
 # AEM Assets 브랜드 포털 개요 {#overview-of-aem-assets-brand-portal}
 
-마케터는 고객과 연관성 높은 디지털 컨텐츠를 신속하게 제작, 관리 및 전달할 수 있도록 채널 파트너 및 내부 비즈니스 사용자와 공동 작업해야 하는 경우가 있습니다. 고객 여정 전반에서 고객의 관심사와 연관성 있는 컨텐츠를 적시에 전달함으로써 높은 수요, 전환율, 참여 및 고객 충성도를 높이는 데 매우 중요합니다.
+마케터는 고객과 연관성 높은 디지털 컨텐츠를 신속하게 제작, 관리 및 전달할 수 있도록 채널 파트너 및 내부 비즈니스 사용자와 공동 작업해야 하는 경우가 있습니다. 고객 여정 전반에 걸쳐 적절한 콘텐츠를 적시에 제공하는 것은 높은 수요, 전환율, 참여 및 고객 충성도를 높이는 데 매우 중요합니다.
 
 그러나 승인된 브랜드 로고, 지침, 캠페인 자산 또는 제품 샷을 다양한 내부 팀, 파트너 및 리셀러와 효율적이고 안전하게 공유할 수 있는 솔루션을 개발하는 것은 매우 어려운 일입니다.
 
-**Adobe Experience Manager(AEM) Assets 브랜드** 포털에서는 자산 배포 및 자산 기여도 기능을 제공함으로써 글로벌 배포된 브랜드 포털 사용자와 효과적으로 공동 작업해야 하는 마케터의 필요성을 집중적으로 살펴봅니다.
+**Adobe Experience Manager(AEM) Assets 브랜드** 포털에서는 자산 배포 및 자산 기여도 기능을 제공함으로써 마케터가 전 세계적으로 배포된 브랜드 포털 사용자와 효과적으로 공동 작업해야 하는 필요성에 중점을 둡니다.
 
 에셋 배포를 사용하면 승인된 크리에이티브 에셋을 다양한 디바이스에서 외부 관계자와 내부 비즈니스 사용자에게 손쉽게 입수하고 제어하며 안전하게 배포할 수 있습니다. 반면에 자산 기여도를 사용하면 브랜드 포털 사용자가 작성 환경에 대한 액세스 없이도 자산을 브랜드 포털에 업로드하고 AEM Assets에 게시할 수 있습니다. 기여도 기능을 브랜드 포털의 **자산 소싱**이라고 합니다. 또한 브랜드 포털 사용자(외부 에이전시/팀)의 자산 배포 및 기여도에 대한 전반적인 브랜드 포털 경험을 향상시키고 자산 출시 시간을 단축하며, 비준수 및 무단 액세스 위험을 감소시킵니다.
 브랜드 포털의 [자산 소싱](brand-portal-asset-sourcing.md)을 참조하십시오.
@@ -32,21 +32,17 @@ ht-degree: 10%
 
 ## Brand Portal로 AEM Assets 구성 {#configure-brand-portal}
 
-AEM(Adobe Experience Manager) Assets는 Brand Portal 테넌트의 인증을 위한 IMS 토큰을 조달하는 Adobe 개발자 콘솔을 통해 Brand Portal로 구성됩니다.
+브랜드 포털과 함께 Adobe Experience Manager 자산을 구성하면 브랜드 포털 사용자에 대한 자산 게시, 자산 배포 및 자산 기여도 기능을 사용할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe 개발자 콘솔을 통해 AEM Assets을 브랜드 포털로 구성하는 것은 AEM Assets에서 Cloud Service, AEM Assets 6.3 이상으로 지원됩니다.
+>AEM Assets에서 브랜드 포털로 AEM Assets 구성이 Cloud Service, AEM Assets 6.3 이상으로 지원됩니다.
 
-### 브랜드 포털 {#prerequisites}을(를) 사용하여 AEM Assets을 구성하기 위한 사전 요구 사항
+AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다. 활성화 워크플로우는 백 엔드에 필수 구성을 생성하고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에 있는 브랜드 포털을 활성화합니다.
 
-Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필요합니다.
+반면, AEM Assets(온-프레미스 및 Managed Services)은 브랜드 포털 임차인 인증을 위해 Adobe Identity Management 서비스(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성됩니다.
 
-* 실행 중인 AEM Assets 인스턴스입니다.
-* Brand Portal 테넌트 URL
-* Brand Portal 테넌트의 IMS 조직에 대한 시스템 관리자 권한이 있는 사용자
-
-자세한 내용은 [브랜드 포털](../using/configure-aem-assets-with-brand-portal.md)으로 AEM Assets 구성을 참조하십시오.
+자세한 내용은 [브랜드 포털과 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
 
 ## 브랜드 포털 {#Personas}의 사용자 개인
 
@@ -157,7 +153,7 @@ Brand Portal을 사용하여 AEM Assets를 구성하려면 다음 항목이 필�
 
 액세스를 요청하려면 다음을 수행합니다.
 
-1. 브랜드 포털 로그인 페이지에서 **[!UICONTROL 액세스 필요?]******. 그러나 게스트 세션을 입력하려면 **[!UICONTROL 손님 액세스?]**&#x200B;에 해당하는 **[!UICONTROL 여기를 클릭]**&#x200B;하십시오.
+1. 브랜드 포털 로그인 페이지에서 **[!UICONTROL 액세스 필요?****]**. 그러나 게스트 세션을 입력하려면 **[!UICONTROL 손님 액세스?]**&#x200B;에 해당하는 **[!UICONTROL 여기를 클릭]**&#x200B;하십시오.
 
    ![브랜드 포털 로그인 화면](assets/bp-login-requestaccess.png)
 
