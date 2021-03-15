@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
+source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
 workflow-type: tm+mt
-source-wordcount: '6069'
+source-wordcount: '6053'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 
 AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다. Cloud Manager 사용자는 활성화 워크플로우를 트리거하여 백 엔드에 필수 구성을 만들고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에 있는 브랜드 포털을 활성화합니다.
 
-이전에는 AEM Assets이 Cloud Service으로 Brand Portal 테넌트의 승인을 위해 Adobe Identity Management Services(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성되었습니다.
+이전에는 Cloud Service으로 AEM Assets이 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성되었습니다.
 
 Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)으로 AEM Assets의 [브랜드 포털 활성화를 참조하십시오.
 
@@ -448,7 +448,7 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 * 표현물만 다운로드(원본 자산이 아니라) 선택
 * 원본 변환에 액세스할 수 있을 때 자산 다운로드가 제한됩니다.
 
-## 6.4.2 {#what-changed-in-1}에서 변경된 사항
+## 6.4.6 {#what-changed-in-1}에서 변경된 사항
 
 Brand Portal 6.4.2 릴리스는 조직의 에셋 배포 요구 사항을 해결하고 빠른 다운로드를 통해 게스트 액세스 및 최적의 경험을 통해 전세계에 배포되는 많은 사용자에게 도달할 수 있도록 지원하는 다양한 기능을 제공합니다. 또한 브랜드 포털은 관리자를 위한 새로운 구성, 새로 추가된 보고서, 고객 요청에 맞는 보고서 등을 통해 조직에 대한 보다 강력한 제어 기능을 제공합니다.
 
