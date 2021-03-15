@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: bfb0c38bf8d5b542caf9d0d20d3168cdcac649b3
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '433'
 ht-degree: 28%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 28%
 
 브랜드 포털에서 AEM Assets 구성이 지원됩니다.
 * AEM Assets as a Cloud Service
-* AEM Assets(온-프레미스 및 Managed Services) 6.3 이상
+* AEM Assets(온-프레미스 및 관리 서비스) 6.3 이상
 
 AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다. 활성화 워크플로우는 백 엔드에 필수 구성을 생성하고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에 있는 브랜드 포털을 활성화합니다.
 
-반면, AEM Assets(온-프레미스 및 Managed Services)은 브랜드 포털 임차인 인증을 위해 Adobe Identity Management 서비스(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성됩니다.
+반면, AEM Assets(온-프레미스 및 관리 서비스)는 브랜드 포털 임차인 인증을 위해 Adobe Identity Management 서비스(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성됩니다.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 
 
 >[!TIP]
 >
->***기존 고객만 해당(온-프레미스 및 Managed Services)***
+>***기존 고객의 경우(온-프레미스 및 관리 서비스)***
 >
 >기존 OAuth 게이트웨이 구성은 기존 고객을 위해 계속 작동합니다.
 >
