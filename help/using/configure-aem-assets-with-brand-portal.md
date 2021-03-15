@@ -10,19 +10,25 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: bfb0c38bf8d5b542caf9d0d20d3168cdcac649b3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 19%
+source-wordcount: '430'
+ht-degree: 28%
 
 ---
 
 
 # Brand Portal로 AEM Assets 구성 {#configure-integration}
 
-Adobe Experience Manager Assets 브랜드 포털에서 Adobe Experience Manager 자산을 Cloud Service으로 구성하면 브랜드 포털 사용자와 자산을 게시하고 배포할 수 있습니다. 반면, 브랜드 포털과 함께 AEM 6.3(이상) 구성을 사용하면 브랜드 포털 사용자에 대한 자산 게시, 자산 배포 및 자산 기여도 기능을 사용할 수 있습니다.
+브랜드 포털과 함께 Adobe Experience Manager 자산을 구성하면 브랜드 포털 사용자에 대한 자산 게시, 자산 배포 및 자산 기여도 기능을 사용할 수 있습니다. AEM Assets 사용자는 Brand Portal 사용자와 함께 에셋을 게시하고 배포할 수 있습니다. 브랜드 포털 사용자는 에셋 기여도 폴더에 새 에셋을 업로드하고 다시 AEM Assets에 게시하여 공유 에셋에 액세스하고 증여할 수 있습니다.
 
-Adobe Experience Manager 자산은 브랜드 포털 임차인의 승인을 위해 Adobe Identity Management Services(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 통해 브랜드 포털로 구성됩니다.
+브랜드 포털에서 AEM Assets 구성이 지원됩니다.
+* AEM Assets as a Cloud Service
+* AEM Assets(온-프레미스 및 Managed Services) 6.3 이상
+
+AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다. 활성화 워크플로우는 백 엔드에 필수 구성을 생성하고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에 있는 브랜드 포털을 활성화합니다.
+
+반면, AEM Assets(온-프레미스 및 Managed Services)은 브랜드 포털 임차인 인증을 위해 Adobe Identity Management 서비스(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성됩니다.
 
 >[!NOTE]
 >
@@ -35,7 +41,7 @@ Adobe Experience Manager 자산은 브랜드 포털 임차인의 승인을 위�
 
 >[!TIP]
 >
->***기존 고객 전용***
+>***기존 고객만 해당(온-프레미스 및 Managed Services)***
 >
 >기존 OAuth 게이트웨이 구성은 기존 고객을 위해 계속 작동합니다.
 >
@@ -45,8 +51,8 @@ Adobe Experience Manager 자산은 브랜드 포털 임차인의 승인을 위�
 
 | **AEM 버전** | **새 구성** | **업그레이드 구성** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3(6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [구성 업그레이드](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM Assets as a Cloud Service** | [브랜드 포털 활성화](https://docs.adobe.com/content/help/ko-KR/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 이상)** | [구성 만들기](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://docs.adobe.com/content/help/ko-KR/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.3(6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [구성 업그레이드](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 지원 문의 | 지원 문의 |
