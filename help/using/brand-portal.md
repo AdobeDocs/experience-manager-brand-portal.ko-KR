@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1554'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 7%
 
 AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다. 활성화 워크플로우는 백 엔드에 필수 구성을 생성하고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에 있는 브랜드 포털을 활성화합니다.
 
-반면, AEM Assets(온-프레미스 및 Managed Services)은 브랜드 포털 임차인 인증을 위해 Adobe Identity Management 서비스(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성됩니다.
+반면, AEM Assets(온-프레미스 및 관리 서비스)는 브랜드 포털 임차인 인증을 위해 Adobe Identity Management 서비스(IMS) 토큰을 조달하는 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성됩니다.
 
 자세한 내용은 [브랜드 포털과 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
 
