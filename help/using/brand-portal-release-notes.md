@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 10%
+source-wordcount: '600'
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
-* AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다.
+* 이제 Cloud Service으로 AEM Assets은 사전 구성된 브랜드 포털 인스턴스를 사용할 수 있습니다. Cloud Manager 사용자는 AEM Assets의 브랜드 포털을 Cloud Service 인스턴스로 활성화할 수 있습니다.
 
 * 이제 AEM Assets에서 Cloud Service으로 자산 소싱 기능을 사용할 수 있습니다. 이를 통해 브랜드 포털 사용자는 허용된 기여도 폴더에 에셋을 업로드하고 브랜드 포털의 기여도 폴더를 Cloud Service 인스턴스로 AEM Assets에 게시할 수 있습니다.
 
