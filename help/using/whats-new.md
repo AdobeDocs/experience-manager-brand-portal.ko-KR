@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6125'
+source-wordcount: '6138'
 ht-degree: 3%
 
 ---
@@ -24,11 +24,11 @@ Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이�
 
 ## 2021.02.0 {#what-changed-in-feb-2021}에서 변경된 사항
 
-브랜드 포털 2021.02.0은 AEM Assets의 브랜드 포털 자동화 워크플로우를 Cloud Service으로 가져오고, AEM Assets의 자산 소싱 기능을 Cloud Service으로 활용하고, 자산 다운로드 경험의 개선을 개선하며, 중요한 수정 사항을 포함하는 향상된 릴리스입니다. 또한 관리자는 테넌트 수준에서 폴더, 컬렉션 및 자산의 대량 다운로드에 대한 기본 다운로드 동작을 구성할 수 있습니다. 현재 브랜드 포털 사용자를 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;도 수정되었습니다. 최신 [브랜드 포털 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
+브랜드 포털 2021.02.0은 AEM Assets의 브랜드 포털 활성화 워크플로우를 Cloud Service으로 가져오고, AEM Assets의 자산 소싱 기능을 Cloud Service으로 활용하고, 자산 다운로드 경험의 개선을 개선하며, 중요한 수정 사항을 포함하는 향상된 릴리스입니다. 또한 관리자는 테넌트 수준에서 폴더, 컬렉션 및 자산의 대량 다운로드에 대한 기본 다운로드 동작을 구성할 수 있습니다. 현재 브랜드 포털 사용자를 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;도 수정되었습니다. 최신 [브랜드 포털 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
 
-### AEM Assets에서 Cloud Service {#bp-automation-on-cloud-service}으로 브랜드 포털 자동화
+### AEM Assets에서 Cloud Service {#bp-automation-on-cloud-service}(으)로 브랜드 포털 활성화
 
-AEM Assets은 Cloud Manager에서 브랜드 포털을 활성화하여 브랜드 포털로 자동으로 구성됩니다.
+이제 Cloud Service으로 AEM Assets은 사전 구성된 브랜드 포털 인스턴스를 사용할 수 있습니다. Cloud Manager 사용자는 AEM Assets의 브랜드 포털을 Cloud Service 인스턴스로 활성화할 수 있습니다.
 
 이전에는 Cloud Service으로 AEM Assets이 Adobe 개발자 콘솔을 사용하여 브랜드 포털로 수동으로 구성되었습니다.
 
