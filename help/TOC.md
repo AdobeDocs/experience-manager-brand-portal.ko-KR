@@ -6,10 +6,12 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal 안내서
 user-guide-description: AEM Assets Brand Portal을 사용하면 승인된 브랜드 및 제품 자산을 외부 기관, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 마케팅 요구 사항을 충족할 수 있습니다.
+feature: Brand Portal
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '287'
 ht-degree: 80%
 
 ---
