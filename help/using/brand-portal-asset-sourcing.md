@@ -9,7 +9,6 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-product: experience-manager
 sub-product: 자산
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -17,14 +16,14 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
+exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 7%
 
 ---
-
 
 # 자산 소싱 개요 {#overview-asset-sourcing-in-bp}
 
@@ -47,7 +46,7 @@ ht-degree: 7%
 >
 >AEM Assets 6.5.4에 알려진 문제가 있습니다. 브랜드 포털 사용자는 Adobe 개발자 콘솔로 업그레이드할 때 기여도 폴더의 자산을 AEM Assets에 게시할 수 없습니다.
 >
->AEM 6.5.5에서 문제가 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM으로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://docs.adobe.com/content/help/ko-KR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)구성을 업그레이드 할 수 있습니다.[
+>AEM 6.5.5에서 문제가 해결되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM으로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://docs.adobe.com/content/help/ko/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)구성을 업그레이드 할 수 있습니다.[
 >
 >AEM 6.5.4를 즉시 수정하려면 [핫픽스를 다운로드](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)하고 작성자 인스턴스에 설치하는 것이 좋습니다.
 
