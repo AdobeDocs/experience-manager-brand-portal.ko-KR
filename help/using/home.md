@@ -1,20 +1,19 @@
 ---
-title: Adobe Experience Manager Assets 브랜드 포털 가이드
-seo-title: Adobe Experience Manager Assets 브랜드 포털 가이드
-description: Adobe Experience Manager Assets 브랜드 포털 가이드
+title: Adobe Experience Manager Assets Brand Portal 안내서
+seo-title: Adobe Experience Manager Assets Brand Portal 안내서
+description: Adobe Experience Manager Assets Brand Portal 안내서
 seo-description: Brand Portal 사용 방법에 대해 설명합니다.
-translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
+# Adobe Experience Manager Assets Brand Portal 안내서 {#aem-brand-portal}
 
-# Adobe Experience Manager Assets 브랜드 포털 안내서 {#aem-brand-portal}
-
-**Adobe Experience Manager Assets 브랜드** 기업은 승인된 브랜드 및 제품 자산을 외부 기관, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 조직의 마케팅 요구 사항을 충족할 수 있습니다.
+**Adobe Experience Manager Assets Brand** Portal은 승인된 브랜드 및 제품 자산을 외부 기관, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 조직의 마케팅 요구 사항을 충족할 수 있도록 지원합니다.
 
 안전한 자산 공유 솔루션이 없다면 다음과 같은 결과가 발생할 수 있습니다.
 
@@ -46,8 +45,8 @@ Brand Portal 솔루션 워크플로우는 다음 이미지에 표시되어 있�
 | [동시 게시 문제 해결](troubleshoot-parallel-publishing.md) | Brand Portal과 AEM Assets 간 복제 문제 해결. |
 | [지원되는 파일 형식](brand-portal-supported-formats.md) | 미리 보기 및 다운로드를 위해 Brand Portal에서 지원되는 파일 형식 |
 | [자산을 Brand Portal에 게시](brand-portal-sharing-folders.md) | 폴더, 컬렉션, 링크, 사전 설정, 스키마, 패싯 및 태그를 Brand Portal에 게시하는 방법. |
-| [브랜드 포털의 자산 소싱](brand-portal-asset-sourcing.md) | AEM Assets에서 자산 소싱을 구성하고, 브랜드 포털에서 자산을 업로드하고, 기여도 폴더를 다시 AEM Assets에 게시하는 방법. |
+| [Brand Portal의 자산 소싱](brand-portal-asset-sourcing.md) | AEM Assets에서 자산 소싱을 구성하고, Brand Portal에서 자산을 업로드하고, 기여 폴더를 다시 AEM Assets에 게시하는 방법. |
 
 ### 유용한 리소스
 
-* [AEM Assets을 사용한 브랜드 포털 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
+* [AEM Assets을 사용한 Brand Portal 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
