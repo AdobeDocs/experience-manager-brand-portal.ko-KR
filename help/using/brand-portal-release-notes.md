@@ -1,49 +1,48 @@
 ---
 title: 릴리스 노트
 seo-title: 릴리스 노트
-description: Adobe Experience Manager Assets Brand Portal 2021.02.0 릴리스의 기능, 개선 사항, 중요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Adobe Experience Manager Assets 브랜드 포털 2021.02.0 릴리스의 개선 사항, 주요 문제 수정 사항 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+description: Adobe Experience Manager Assets Brand Portal 2021.02.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Adobe Experience Manager Assets Brand Portal 2021.02.0 릴리스의 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
-source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
+exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 9%
 
 ---
 
-
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets 브랜드 포털 2021.02.0 릴리스의 새로운 기능, 개선 사항, 주요 문제 수정 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets Brand Portal 2021.02.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
-| 제품 | Adobe Experience Manager Assets 브랜드 포털 |
+| 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | 버전 | 2021.02.0 |
 | 날짜 | 2021년 2월 |
 
 ## 개요 {#overview}
 
-Adobe Experience Manager(AEM) Assets 브랜드 포털은 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 배포하여 모든 디바이스에서 외부 관계자와 내부 비즈니스 사용자에게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며, 비준수 및 무단 액세스 위험을 줄일 수 있습니다. 브랜드 포털을 통해 사용자는 언제 어디에서나 회사에서 승인한 포맷으로 에셋을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
+Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
 ## 2021.02.0의 새로운 기능 {#whats-new-in-2021.02.0}
 
 ### 새 기능 {#new-features}
 
-이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
+이 릴리스에는 다음과 같은 새로운 기능이 포함되어 있습니다.
 
-* 이제 Cloud Service으로 AEM Assets은 사전 구성된 브랜드 포털 인스턴스를 사용할 수 있습니다. Cloud Manager 사용자는 AEM Assets의 브랜드 포털을 Cloud Service 인스턴스로 활성화할 수 있습니다.
+* 이제 Cloud Service으로 AEM Assets에 사전 구성된 Brand Portal 인스턴스가 있을 수 있습니다. Cloud Manager 사용자는 AEM Assets에서 Brand Portal을 Cloud Service 인스턴스로 활성화할 수 있습니다.
 
-* 이제 AEM Assets에서 Cloud Service으로 자산 소싱 기능을 사용할 수 있습니다. 이를 통해 브랜드 포털 사용자는 허용된 기여도 폴더에 에셋을 업로드하고 브랜드 포털의 기여도 폴더를 Cloud Service 인스턴스로 AEM Assets에 게시할 수 있습니다.
+* 이제 AEM Assets에서 Cloud Service으로 자산 소싱 기능을 사용할 수 있습니다. 이를 통해 Brand Portal 사용자는 허용된 기여도 폴더에 자산을 업로드하고 Brand Portal의 기여도 폴더를 Cloud Service 인스턴스로 AEM Assets에 게시할 수 있습니다.
 
-* **[!UICONTROL 다운로드 설정]**&#x200B;에 추가 **[!UICONTROL 자산 다운로드]** 설정이 도입되었습니다. 폴더, 컬렉션 또는 자산의 벌크 다운로드를 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만듭니다.
+* 추가 **[!UICONTROL 자산 다운로드]** 설정이 **[!UICONTROL 다운로드 설정]**&#x200B;에 도입되었습니다. 폴더, 컬렉션 또는 자산의 벌크 다운로드를 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만듭니다.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -69,10 +68,10 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 ### 향상된 기능 {#enhancements}
 
-이 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+이 릴리스에는 다음 개선 사항이 포함됩니다.
 
-* 폴더 다운로드의 경우 **[!UICONTROL 다운로드 설정]**&#x200B;과 관계없이 공유 링크를 사용하여 각 자산에 대해 별도의 폴더가 생성됩니다.
-* 유효한 브랜드 포털 사용자만 반영하도록 브랜드 포털 **[!UICONTROL 사용 보고서]**&#x200B;가 수정되었습니다.
+* 폴더 다운로드의 경우, 공유 링크를 사용하여 **[!UICONTROL 다운로드 설정]**&#x200B;에 관계없이 각 자산에 대해 별도의 폴더가 만들어집니다.
+* Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;가 활성 Brand Portal 사용자만 반영하도록 수정되었습니다.
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -80,26 +79,26 @@ Brand Portal users can exclude specific renditions which are not required and di
 -->
 
 
-### 중요 문제가 해결되었습니다. {#critical-issues-fixed}
+### 해결된 중요한 문제 {#critical-issues-fixed}
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
-* 원본 자산만 다운로드되는 경우, 자산은 자체 확장자를 반영하며, 확장 프로그램을 수동으로 zip으로 변경할 때까지 열리지 않습니다.
-* 컬렉션 폴더의 사용자 인터페이스는 탐색 화살표를 클릭할 때 응답하지 않습니다.
-* **[!UICONTROL 폴더]** 가 비어  **** 있어도 [열 보기]에 만들기 단추가 표시됩니다.
-* **[!UICONTROL 브랜드]** 포털 인스턴스에 액세스하는 동안 디스패처가 무시되면 옴니 검색을 수행할 수 없습니다(Request-URI가 너무 깁니다).
-* 자산에 파일 이름에 쉼표(`,`)가 포함된 경우 빈 zip 폴더가 다운로드됩니다.
-* 뷰어 사용자는 사용자가 만든 컬렉션에 사용자를 추가할 수 있는 옵션을 이용할 수 있습니다.
-* 공유 링크를 사용하여 자산(축소판 또는 웹 변환)을 다운로드할 때 일관성 없는 동작이 발생합니다.
+* 원래 자산만 다운로드되는 경우, 자산은 자체 확장을 반영하며, 확장이 수동으로 zip으로 변경될 때까지 열리지 않습니다.
+* 탐색 화살표를 클릭하면 컬렉션 폴더의 사용자 인터페이스가 응답하지 않습니다.
+* **** 폴더가 비어  **** 있어도 [열] 보기에 만들기 단추가 표시됩니다.
+* **[!UICONTROL Brand Portal]** 인스턴스에 액세스하는 동안 디스패처가 우회되는 경우 옴니 검색이 414 오류 메시지(Request-URI Too Long)로 실패합니다.
+* 자산에 파일 이름에 쉼표(`,`)가 들어 있는 경우 빈 zip 폴더가 다운로드됩니다.
+* 뷰어 사용자에게는 사용자가 만든 컬렉션에 추가할 수 있는 옵션이 제공됩니다.
+* 공유 링크를 사용하여 자산(축소판 또는 웹 표현물)을 다운로드할 때 일관되지 않은 동작이 발생합니다.
 
-[브랜드 포털 2021.02.0](whats-new.md)의 새로운 기능을 참조하십시오.
+[Brand Portal 2021.02.0](whats-new.md)의 새로운 기능 을 참조하십시오.
 
 
 ### 알려진 문제 {#known-issues}
 
-이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
+이 릴리스에는 다음과 같은 알려진 문제가 포함되어 있습니다.
 
-* 사용자는 자산 소싱 게시 워크플로우에 대한 이메일 알림을 수신하지 않습니다.
+* 사용자가 자산 소싱 게시 워크플로우에 대한 이메일 알림을 받지 않습니다.
 
 <!--
 ### Known Issues {#known-issues}
@@ -150,7 +149,7 @@ This release includes the following known issues:
 
 ## 언어 {#languages}
 
-브랜드 포털 사용자 인터페이스는 다음 언어로 제공됩니다.
+Brand Portal 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 * 영어
 * 독일어
@@ -164,12 +163,12 @@ This release includes the following known issues:
 
 ## 인증된 플랫폼 {#certified-platforms}
 
-이 브랜드 포털 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 [기술 요구 사항](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)의 **사용자 인터페이스 작성용으로 지원되는 브라우저** 섹션에 있는 표의 **터치에 적합한 UI 지원** 열을 참조하십시오.
+이 Brand Portal 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 **터치에 적합한 UI 지원** 열을 참조하여 [기술 요구 사항](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)의 **사용자 인터페이스를 작성할 지원되는 브라우저** 섹션에 있는 표를 참조하십시오.
 
 ## 링크 {#links}
 
 * [adobe.com의 Adobe Experience Manager 제품 페이지](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets 브랜드 포털 설명서](https://helpx.adobe.com/kr/experience-manager/brand-portal/user-guide.html)
+* [Assets Brand Portal 설명서](https://helpx.adobe.com/kr/experience-manager/brand-portal/user-guide.html)
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}
 
@@ -181,4 +180,4 @@ This release includes the following known issues:
 
 * [제품 액세스](https://login.marketing.adobe.com)
 
-* [Adobe 고객 지원](https://helpx.adobe.com/contact.html)
+* [고객 지원 Adobe](https://helpx.adobe.com/contact.html)
