@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
+source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 7%
+source-wordcount: '684'
+ht-degree: 8%
 
 ---
 
@@ -30,16 +30,24 @@ ht-degree: 7%
 
 또한 기존 기능은 모두 변경되지 않고 그대로 유지됩니다. Brand Portal 사용자는 기여 폴더 및 허용된 다른 폴더에서 자산을 보고 검색하고 다운로드할 수 있습니다. 또한 관리자는 기여도 폴더를 추가로 공유하고, 속성을 수정하고, 컬렉션에 자산을 추가할 수 있습니다.
 
+![Brand Portal 자산 소싱](assets/asset-sourcing.png)
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+
 ## 전제 조건 {#prerequisites}
 
 * AEM Assets을 Cloud Service 인스턴스로 AEM Assets 6.5.2 이상
 * AEM Assets 인스턴스가 Brand Portal으로 구성되어 있는지 확인합니다. [Brand Portal으로 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
-* Brand Portal 테넌트가 하나의 AEM Assets 작성자 인스턴스로 구성되어 있는지 확인합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+<!--
+* Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
+-->
 
-![Brand Portal 자산 소싱](assets/asset-sourcing.png)
-
+>[!NOTE]
+>
+>AEM Assets as a Cloud Service, AEM Assets 6.5.9 이상에서 자산 소싱 기능이 기본적으로 활성화됩니다.
+>
+>기존 구성은 이전 버전에서 계속 작동합니다.
 
 >[!NOTE]
 >
@@ -49,44 +57,55 @@ ht-degree: 7%
 >
 >AEM 6.5.4를 즉시 수정하려면 [핫픽스를 다운로드](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)하고 작성자 인스턴스에 설치하는 것이 좋습니다.
 
-## 자산 소싱 {#configure-asset-sourcing} 구성
+<!--
+## Configure Asset Sourcing {#configure-asset-sourcing}
 
-**자산** 소스는 AEM Assets 작성자 인스턴스 내에서 구성됩니다. 관리자는 **AEM Web Console 구성**&#x200B;에서 Asset Sourcing 기능 플래그 구성을 활성화하고 **AEM Assets**&#x200B;에서 활성 Brand Portal 사용자 목록을 업로드할 수 있습니다.
-
->[!NOTE]
->
->기본적으로 AEM Assets에서 Cloud Service으로 자산 소싱이 활성화되어 있습니다. AEM 관리자는 활성 Brand Portal 사용자를 직접 업로드하여 자산 소싱 기능에 액세스할 수 있습니다.
+**Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
 
 >[!NOTE]
 >
->구성을 시작하기 전에 AEM Assets 인스턴스가 Brand Portal으로 구성되어 있는지 확인하십시오. [Brand Portal으로 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
+>Asset Sourcing is by default enabled on AEM Assets as a Cloud Service. The AEM administrator can directly upload the active Brand Portal users to allow them access to the Asset Sourcing feature.
 
-다음 비디오에서는 AEM Assets 작성자 인스턴스에서 자산 소싱을 구성하는 방법을 보여 줍니다.
+>[!NOTE]
+>
+>Before you begin with the configuration, ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
+
+The following video demonstrates, how to configure Asset Sourcing on your AEM Assets author instance:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
+-->
 
-### 자산 소싱 {#enable-asset-sourcing} 활성화
+<!--
+### Enable Asset Sourcing {#enable-asset-sourcing}
 
-AEM 관리자는 AEM 웹 콘솔 구성(구성 관리자라고도 함) 내에서 자산 소싱 기능 플래그를 활성화할 수 있습니다.
+AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
 >[!NOTE]
 >
->이 단계는 AEM Assets as a Cloud Service에 적용할 수 없습니다.
+>This step is not applicable for AEM Assets as a Cloud Service.
 
 
-**자산 소싱을 사용하려면**
-1. AEM Assets 작성자 인스턴스에 로그인하고 구성 관리자를 엽니다.
-기본 URL:http:// localhost:4502/system/console/configMgr 을 참조하십시오.
-1. **자산 소싱** 키워드를 사용하여 **[!UICONTROL 자산 소싱 기능 플래그 구성]**&#x200B;을 찾습니다.
-1. **[!UICONTROL 자산 소싱 기능 플래그 구성]**&#x200B;을 클릭하여 구성 창을 엽니다.
-1. **[!UICONTROL feature.flag.active.status]** 확인란을 선택합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+**To enable Asset Sourcing:**
+1. Log in to your AEM Assets author instance and open Configuration Manager. 
+Default URL: http:// localhost:4502/system/console/configMgr.
+1. Search using the keyword **Asset Sourcing** to locate **[!UICONTROL Asset Sourcing Feature Flag Config]**.
+1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window.
+1. Select the **[!UICONTROL feature.flag.active.status]** check box.
+1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
+-->
+
 
 ### Brand Portal 사용자 목록 업로드 {#upload-bp-user-list}
 
-AEM 관리자는 AEM Assets에서 활성 Brand Portal 사용자 목록이 포함된 Brand Portal 사용자 구성(.csv) 파일을 업로드할 수 있습니다. 기여 폴더는 사용자 목록에 정의된 활성 Brand Portal 사용자만 공유할 수 있습니다. 관리자는 구성 파일에 새 사용자를 추가하고 수정된 사용자 목록을 업로드할 수도 있습니다.
+AEM 관리자는 AEM Assets에서 활성 Brand Portal 사용자 목록이 들어 있는 Brand Portal 사용자 구성(.csv) 파일을 업로드하여 자산 소싱 기능에 액세스할 수 있습니다.
+
+기여 폴더는 사용자 목록에 정의된 활성 Brand Portal 사용자만 공유할 수 있습니다. 관리자는 구성 파일에 새 사용자를 추가하고 수정된 사용자 목록을 업로드할 수도 있습니다.
+
+>[!NOTE]
+>
+>AEM Assets 인스턴스가 Brand Portal으로 구성되어 있는지 확인합니다. [Brand Portal으로 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
 
 >[!NOTE]
 >
