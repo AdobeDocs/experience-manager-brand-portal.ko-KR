@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 3%
@@ -188,7 +188,7 @@ Microsoft Edge에서 가속화된 다운로드 기능을 사용하려면 신뢰�
 
 ## Aspera Connect 클라이언트 환경 설정 {#aspera-connect-client-preferences}
 
-아이콘을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 환경 설정]**&#x200B;을 선택하여 IBM Aspera Connect Client 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.
+아이콘을 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 환경 설정]**&#x200B;을 선택하여 IBM Aspera Connect Client 기본 설정에서 설정할 수 있는 몇 가지 유용한 환경 설정이 있습니다.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
