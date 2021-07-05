@@ -1,8 +1,8 @@
 ---
 title: 릴리스 노트
 seo-title: 릴리스 노트
-description: Adobe Experience Manager Assets Brand Portal 2021.02.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Adobe Experience Manager Assets Brand Portal 2021.02.0 릴리스의 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+description: Adobe Experience Manager Assets Brand Portal 2021.06.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Adobe Experience Manager Assets Brand Portal 2021.06.0 릴리스의 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,40 +10,41 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 9%
+source-wordcount: '327'
+ht-degree: 17%
 
 ---
 
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2021.02.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets Brand Portal 2021.06.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2021.02.0 |
-| 날짜 | 2021년 2월 |
+| 버전 | 2021.06.0 |
+| 날짜 | 2021년 6월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2021.02.0의 새로운 기능 {#whats-new-in-2021.02.0}
+## 2021.06.0의 새로운 기능 {#whats-new-in-2021.06.0}
 
-### 새 기능 {#new-features}
+<!--
+### New Features {#new-features}
 
-이 릴리스에는 다음과 같은 새로운 기능이 포함되어 있습니다.
+This release includes the following new features:
 
-* 이제 Cloud Service으로 AEM Assets에 사전 구성된 Brand Portal 인스턴스가 있을 수 있습니다. Cloud Manager 사용자는 AEM Assets에서 Brand Portal을 Cloud Service 인스턴스로 활성화할 수 있습니다.
+* AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-* 이제 AEM Assets에서 Cloud Service으로 자산 소싱 기능을 사용할 수 있습니다. 이를 통해 Brand Portal 사용자는 허용된 기여도 폴더에 자산을 업로드하고 Brand Portal의 기여도 폴더를 Cloud Service 인스턴스로 AEM Assets에 게시할 수 있습니다.
+* Asset Sourcing feature is now available on AEM Assets as a Cloud Service. It allows the Brand Portal users to upload assets to the permitted contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. 
 
-* 추가 **[!UICONTROL 자산 다운로드]** 설정이 **[!UICONTROL 다운로드 설정]**&#x200B;에 도입되었습니다. 폴더, 컬렉션 또는 자산의 벌크 다운로드를 다운로드하는 동안 각 자산에 대해 별도의 폴더를 만듭니다.
-
+* An additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]**. It creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
+-->
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 -->
@@ -66,12 +67,25 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-### 향상된 기능 {#enhancements}
+<!--
+### Enhancements {#enhancements}
 
-이 릴리스에는 다음 개선 사항이 포함됩니다.
+Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
 
-* 폴더 다운로드의 경우, 공유 링크를 사용하여 **[!UICONTROL 다운로드 설정]**&#x200B;에 관계없이 각 자산에 대해 별도의 폴더가 만들어집니다.
-* Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;가 활성 Brand Portal 사용자만 반영하도록 수정되었습니다.
+This release includes the following enhancements:
+
+* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+
+
+* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+
+* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
+-->
+
+<!-- 
+* For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
+* The Brand Portal **[!UICONTROL Usage Report]** has been modified to reflect only the active Brand Portal users.
+-->
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -81,24 +95,39 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
-이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
+Brand Portal 2021.06.0은 다음과 같은 중요한 문제에 대한 수정 사항이 포함된 내부 릴리스입니다.
 
-* 원래 자산만 다운로드되는 경우, 자산은 자체 확장을 반영하며, 확장이 수동으로 zip으로 변경될 때까지 열리지 않습니다.
-* 탐색 화살표를 클릭하면 컬렉션 폴더의 사용자 인터페이스가 응답하지 않습니다.
-* **** 폴더가 비어  **** 있어도 [열] 보기에 만들기 단추가 표시됩니다.
-* **[!UICONTROL Brand Portal]** 인스턴스에 액세스하는 동안 디스패처가 우회되는 경우 옴니 검색이 414 오류 메시지(Request-URI Too Long)로 실패합니다.
-* 자산에 파일 이름에 쉼표(`,`)가 들어 있는 경우 빈 zip 폴더가 다운로드됩니다.
-* 뷰어 사용자에게는 사용자가 만든 컬렉션에 추가할 수 있는 옵션이 제공됩니다.
-* 공유 링크를 사용하여 자산(축소판 또는 웹 표현물)을 다운로드할 때 일관되지 않은 동작이 발생합니다.
+* 자산 소싱 전자 메일 통지가 일부 조직에 대해 배달되지 않습니다.
 
-[Brand Portal 2021.02.0](whats-new.md)의 새로운 기능 을 참조하십시오.
+* 확장명이 .mov인 비디오 파일이 Brand Portal에서 실행되고 있지 않습니다.
 
+* 스마트 컬렉션 드롭다운에서 10개의 저장된 컬렉션만 표시됩니다.
 
-### 알려진 문제 {#known-issues}
+<!--
+* *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
+-->
 
-이 릴리스에는 다음과 같은 알려진 문제가 포함되어 있습니다.
+<!--
+In case only the original assets are downloaded, the asset reflects its own extension and does not open until the extension is manually changed to zip. 
+* The user interface of the collection folder does not respond on clicking the navigation arrow. 
+* **[!UICONTROL Create]** button is visible in the **[!UICONTROL Column]** view even when the folders are empty.
+* **[!UICONTROL Omni search]** fails with a 414 error message (Request-URI Too Long) if the dispatcher is bypassed while accessing the Brand Portal instance.
+* An empty zip folder is downloaded if the asset contains a comma (`,`) in the file name.
+* The viewer users get the option to add users to the collection they have created. 
+* Inconsistent behavior is experienced when an asset (thumbnail or web rendition) is downloaded using share link.
 
-* 사용자가 자산 소싱 게시 워크플로우에 대한 이메일 알림을 받지 않습니다.
+See [what's new in Brand Portal 2021.02.0](whats-new.md).
+-->
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+
+  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
+-->
 
 <!--
 ### Known Issues {#known-issues}
