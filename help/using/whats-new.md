@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal의 새로운 기능
 seo-title: AEM Assets Brand Portal의 새로운 기능
-description: 에 대한 새로운 기능과 향상된 기능을 2021.02.0.
-seo-description: 에 대한 새로운 기능과 향상된 기능을 2021.02.0.
+description: 에 대한 새로운 기능과 향상된 기능을 2021.06.0.
+seo-description: 에 대한 새로운 기능과 향상된 기능을 2021.06.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 11ceff7818760ea8c5ad39de93f792bfb5a96e5b
 workflow-type: tm+mt
-source-wordcount: '6138'
+source-wordcount: '6154'
 ht-degree: 3%
 
 ---
@@ -21,11 +21,51 @@ ht-degree: 3%
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Adobe은 전체 Brand Portal 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 향상된 기능을 잠깐 살펴보십시오.
 
-## 2021.02.0 {#what-changed-in-feb-2021}에서 변경된 내용
+## 2021.06.0 변경 사항 {#what-changed-in-june-2021}
 
-Brand Portal 2021.02.0은 AEM Assets as a Cloud Service으로 Brand Portal 활성화 워크플로우를 가져오고, AEM Assets의 Cloud Service 자산 소싱 기능을 쉽게 하고, 자산 다운로드 경험의 개선 사항을 포함하고 있는 개선 사항 릴리스입니다. 또한 관리자는 임차인 수준에서 폴더, 컬렉션 및 자산의 벌크 다운로드의 기본 다운로드 동작을 구성할 수 있습니다. Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;도 활성 Brand Portal 사용자를 반영하도록 수정되었습니다. 최신 [Brand Portal 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
+Brand Portal 2021.06.0은 중요한 문제에 대한 수정 사항이 포함된 내부 릴리스입니다. 최신 [Brand Portal 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
 
-### AEM Assets에서 Brand Portal을 Cloud Service {#bp-automation-on-cloud-service}(으)로 활성화
+<!--
+Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+
+   
+### Add new users to T2E organization   {#add-users-to-T2E-org}
+
+On adding a new user in Admin Console for a new or migrated T2E organization, the user will have to perform an additional step **Join Team** to get entitled to the T2E organization. 
+
+The user is entitled only if the user chooses to **Join Team**, otherwise the user won't get access to the selected T2E organization in Brand Portal. 
+
+>[!NOTE]
+>
+>The workflow is not applicable to the existing Brand Portal users.
+
+![join team](assets/join-team.png)
+
+### Additional screen while navigating to Admin Console   {#navigate-to-admin-console}
+
+The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console. The workflow applies on the new and migrated T2E organizations.   
+
+Selecting the T2E organization is a one-time activity and is not required everytime the administrator navigates from Brand Portal to Admin Console.
+
+1. Log in to a T2E organization in Brand Portal as administrator.
+1. Go to **[!UICONTROL Tools]** > **[!UICONTROL Users]** > **[!UICONTROL Management]** and click on the link **[!UICONTROL Launch Admin Console]**. 
+
+   Or, go to **[!UICONTROL Unified Shell]** > **[!UICONTROL Administration]** and click on the link **[!UICONTROL Launch Admin Console]**. 
+1. Search the T2E organization to login to Admin Console.
+
+   ![org picker](assets/org-picker.png)
+
+-->
+
+<!--
+For a new or migrated T2E orgnization, the users will have an organization specific entitlement. A user can have multiple entitlements with the same email id for different T2E organizations. 
+-->
+
+## 2021.02.0 변경 사항 {#what-changed-in-feb-2021}
+
+Brand Portal 2021.02.0은 AEM Assets as a Cloud Service으로 Brand Portal 활성화 워크플로우를 가져오고, AEM Assets의 Cloud Service 자산 소싱 기능을 쉽게 하고, 자산 다운로드 경험의 개선 사항을 포함하고 있는 개선 사항 릴리스입니다. 또한 관리자는 임차인 수준에서 폴더, 컬렉션 및 자산의 벌크 다운로드의 기본 다운로드 동작을 구성할 수 있습니다. Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;도 활성 Brand Portal 사용자를 반영하도록 수정되었습니다.
+
+### AEM Assets에서 Cloud Service으로 Brand Portal 활성화 {#bp-automation-on-cloud-service}
 
 이제 Cloud Service으로 AEM Assets에 사전 구성된 Brand Portal 인스턴스가 있을 수 있습니다. Cloud Manager 사용자는 AEM Assets에서 Brand Portal을 Cloud Service 인스턴스로 활성화할 수 있습니다.
 
@@ -77,7 +117,7 @@ Earlier, all the asset renditions were directly downloaded in a zip folder in ca
 The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
 -->
 
-### 사용 보고서 {#usage-report}
+### 사용량 보고서 {#usage-report}
 
 Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;가 활성 Brand Portal 사용자만 반영하도록 수정되었습니다. Admin Console에서 제품 프로필에 할당되지 않은 Brand Portal 사용자는 비활성 사용자로 간주되며 **[!UICONTROL 사용량 보고서]**&#x200B;에 반영되지 않습니다.
 
@@ -85,7 +125,7 @@ Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;가 활성 Brand Portal �
 
 ![](assets/usage-report.png)
 
-## 2020.10.0 {#what-changed-in-oct-2020}에서 변경된 내용
+## 2020.10.0 변경 사항 {#what-changed-in-oct-2020}
 
 Brand Portal 2020.10.0은 자산 다운로드 환경을 단순화하는 데 중점을 둔 개선 릴리스이며 중요한 수정 사항이 포함되어 있습니다. 개선된 기능에는 자산 다운로드에 대한 새롭고 향상된 워크플로우, 렌디션을 제외하는 추가 옵션, **[!UICONTROL 렌디션]** 패널에서 직접 다운로드, 특정 사용자 그룹에 대한 액세스 및 다운로드 권한을 허용하는 구성, 모든 Brand Portal 페이지에서 파일, 컬렉션 및 공유 링크를 쉽게 탐색할 수 있습니다. 최신 [Brand Portal 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
 
@@ -117,7 +157,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 
 ![다운로드 대화 상자](assets/download-dialog-box.png)
 
-### 빠른 탐색 {#quick-navigation}
+### 빠른 탐색  {#quick-navigation}
 
 이전에는 **[!UICONTROL 파일]**, **[!UICONTROL 컬렉션]** 및 **[!UICONTROL 공유 링크]**&#x200B;를 보는 옵션이 숨겨져 사용자가 다른 보기로 전환하려고 할 때마다 여러 번 클릭해야 했습니다.
 
@@ -125,7 +165,7 @@ Brand Portal 2020.10.0에서 사용자는 빠른 탐색 링크를 사용하여 �
 
 ![collection-navigation](assets/collection-navigation.png)
 
-### 향상된 변환 패널 {#rendition-panel}
+### 향상된 표현물 패널 {#rendition-panel}
 
 이전에는 **[!UICONTROL Download]** 구성에서 **[!UICONTROL 사용자 지정 표현물]** 또는 **[!UICONTROL 시스템 표현물]**&#x200B;이 활성화되어 있을 경우에만 사용자가 **[!UICONTROL 표현물]** 패널에서만 원래 자산과 해당 표현물을 볼 수 있었습니다. 또한 필요하지 않은 특정 사용자 지정 또는 동적 표현물을 제외하는 필터가 없으므로 사용자는 모든 자산 표현물을 다운로드해야 했습니다.
 
@@ -179,7 +219,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
  >
 -->
 
-## 6.4.7에서 변경된 사항 {#what-changed-in-647}
+## 6.4.7의 변경 사항 {#what-changed-in-647}
 
 Brand Portal 6.4.7 릴리스는 문서 뷰어를 가져오고, 자산 다운로드 환경을 개선하며, 중요한 수정 사항을 포함합니다. 최신 [Brand Portal 릴리스 노트](brand-portal-release-notes.md)를 참조하십시오.
 
@@ -202,7 +242,7 @@ Document Viewer를 사용하면 Brand Portal 사용자는 이제 페이지를 �
 
 ![](assets/doc-viewer.png)
 
-### 경험 {#download-configurations} 다운로드
+### 경험 다운로드 {#download-configurations}
 
 자산 다운로드 프로세스가 개선되어 [Brand Portal](brand-portal-download-assets.md)에서 자산을 다운로드하는 동안 단순한 사용자 경험을 제공합니다.
 
@@ -224,7 +264,7 @@ Brand Portal 관리자는 모든 조합을 사용하여 자산 다운로드를 �
 구성에 따라 다운로드 워크플로우는 독립형 자산, 여러 자산, 자산이 들어 있는 폴더, 라이선스가 있는 자산 또는 라이선스가 없는 자산을 포함하는 폴더, 공유 링크를 사용하여 자산 다운로드에 대해 일정하게 유지됩니다.
 
 
-## 6.4.6 {#what-changed-in-646}에서 변경된 사항
+## 6.4.6의 변경 사항 {#what-changed-in-646}
 
 Brand Portal 6.4.6에서 AEM Assets과 Brand Portal 간의 인증 채널이 변경되었습니다. Brand Portal은 이제 AEM Assets as a Cloud Service, AEM Assets 6.3 이상에서 지원됩니다. AEM Assets 6.3 이상에서 Brand Portal은 이전에 기존 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 인증을 위해 IMS 액세스 토큰을 가져오는 데 JWT 토큰 교환을 사용합니다. 이제 AEM Assets은 Brand Portal 테넌트의 인증을 위해 IMS 토큰을 전달하는 Adobe 개발자 콘솔을 통해 Brand Portal으로 구성됩니다.
 
@@ -274,7 +314,7 @@ Brand Portal으로 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 
 [Brand Portal FAQ](brand-portal-faqs.md)를 참조하십시오.
 
-## 6.4.5 {#what-changed-in-645}에서 변경된 사항
+## 6.4.5에서 변경된 사항 {#what-changed-in-645}
 
 
 Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를 Brand Portal에 업로드하고 AEM Assets에 게시할 수 있는 기능을 Brand Portal 사용자(외부 에이전시/팀)에게 제공하는 데 중점을 둔 기능 릴리스입니다. 이 기능은 **[Brand Portal에서 자산소싱](brand-portal-asset-sourcing.md)**&#x200B;이라고 하며, 사용자가 자산을 기여하고 전 세계에 배포된 다른 Brand Portal 사용자와 공유할 수 있는 양방향 메커니즘을 제공하여 고객 경험을 향상시켜 줍니다.
@@ -296,7 +336,7 @@ AEM 사용자(관리자/관리자가 아닌 사용자)는 자산 소싱을 통�
 >
 >이 기능은 이전 버전(AEM 6.3 및 AEM 6.4)에서 지원되지 않습니다.
 
-### 자산을 기여도 폴더에 업로드 {#upload-assets-in-bp}
+### 기여도 폴더에 자산 업로드 {#upload-assets-in-bp}
 
 적절한 권한이 있는 Brand Portal 사용자는 자산 요구 사항을 다운로드하여 기여의 필요성을 이해하고 여러 자산이 들어 있는 여러 자산 또는 폴더를 기여도 폴더에 업로드할 수 있습니다. 그러나 Brand Portal 사용자는 **NEW** 하위 폴더에만 자산을 업로드할 수 있습니다. **SHARED** 폴더는 요구 사항 및 기준 자산 배포를 위한 것입니다.
 
@@ -305,7 +345,7 @@ AEM 사용자(관리자/관리자가 아닌 사용자)는 자산 소싱을 통�
 ![](assets/upload-asset4.png)
 
 
-### 기여도 폴더를 AEM Assets {#publish-assets-to-aem}에 게시
+### AEM Assets에 기여도 폴더 게시 {#publish-assets-to-aem}
 
 업로드가 **NEW** 폴더에 완료되면 Brand Portal 사용자는 기여도 폴더를 다시 AEM에 게시할 수 있습니다. AEM Assets에서 게시된 콘텐츠/자산을 가져오고 반영하는 데 몇 분이 걸릴 수 있습니다. 참조: [AEM Assets에 기여도 폴더 게시](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
@@ -356,7 +396,7 @@ Brand Portal에서는 검색 쿼리의 별표(*)를 검색한 구문에 있는 �
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
-## 6.4.3에서 변경된 사항 {#what-changed-in}
+## 6.4.3의 변경 사항 {#what-changed-in}
 
 Brand Portal 6.4.3 릴리스는 Brand Portal 액세스 URL에서 테넌트 ID 외에도 대체 별칭을 조직에 제공, 새 폴더 계층 구성, 비디오 지원 개선 사항, AEM 작성자 인스턴스에서 Brand Portal으로 예약된 게시, 운영 개선 사항 및 고객 요청을 처리하는 데 중점을 둡니다.
 
@@ -457,7 +497,7 @@ Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은
 * 표현물만 다운로드하도록 선택(원본 자산이 아님).
 * 원본 표현물에 액세스할 때 자산 다운로드가 제한됩니다.
 
-## 6.4.6 {#what-changed-in-1}에서 변경된 사항
+## 6.4.2의 변경 사항 {#what-changed-in-1}
 
 Brand Portal 6.4.2 릴리스는 조직의 자산 배분 요구사항을 처리하는 다양한 기능을 도입하였고 게스트 액세스를 통해 전세계에 분포한 많은 사용자에게 빨라진 다운로드로 최적의 경험을 제공할 수 있습니다. 또한 Brand Portal은 관리자를 위한 새로운 구성, 새로 추가된 보고서, 고객 요청을 통해 조직을 더욱 강력하게 제어할 수 있습니다.
 
@@ -552,7 +592,7 @@ Brand Portal 6.4.2 이상에서는 Adobe.io [https://legacy-oauth.cloud.adobe.io
 관리자는 대/소문자 무시에 대한 확인이 있는 업데이트된 속성 설명을 사용하여 속성을 대/소문자를 구분하지 않게 지정할 수 있습니다. 이 옵션은 속성 설명과 다중 값 속성 조건자에 사용할 수 있습니다.\
 그러나 대소문자를 구분하지 않는 검색은 속성 조건자에 대한 기본 검색보다 비교적 느립니다. 검색 필터에 대/소문자를 구분하지 않는 조건자가 너무 많으면 검색이 느려질 수 있습니다. 따라서 대/소문자를 구분하지 않는 검색을 신중하게 사용하는 것이 좋습니다.
 
-## 6.4.1에서 변경된 사항 {#what-changed-in-2}
+## 6.4.1의 변경 사항 {#what-changed-in-2}
 
 Brand Portal 6.4.1은 고객 경험을 향상하기 위해 브라우징, 검색, 성능 개선 사항과 같은 몇 가지 새로운 기능과 중요한 개선 사항을 제공하는 플랫폼 업그레이드 릴리스입니다.
 
@@ -640,11 +680,11 @@ reportingReporting 인터페이스를 통해 사용자 경험이 개선되었으
 
 * 관리자가 Brand Portal 액세스를 요청한 경우 Brand Portal 알림 영역의 알림과 별도로 액세스 요청 이메일을 통해 알림을 받습니다.
 
-## 6.3.2에서 변경된 사항 {#what-changed-in-3}
+## 6.3.2의 변경 사항 {#what-changed-in-3}
 
 Brand Portal 6.3.2에는 주요 고객 요청 및 일반 성능 향상을 위한 새로운 기능과 향상된 기능이 포함되어 있습니다.
 
-### Brand Portal {#request-access-to-brand-portal}에 대한 액세스 요청
+### Brand Portal에 대한 액세스 요청 {#request-access-to-brand-portal}
 
 이제 사용자는 Brand Portal의 로그인 화면에서 사용할 수 있는 새 **액세스** 기능이 필요하여 Brand Portal에 대한 액세스를 요청할 수 있습니다.
 
@@ -654,7 +694,7 @@ Brand Portal 6.3.2에는 주요 고객 요청 및 일반 성능 향상을 위한
 
 자세한 내용은 [Brand Portal에 대한 액세스 요청](../using/brand-portal.md#requestaccesstobrandportal)을 참조하십시오.
 
-### 다운로드한 자산 보고서 {#enhancement-in-the-assets-downloaded-report}의 개선 사항
+### 다운로드한 자산 보고서의 개선 사항 {#enhancement-in-the-assets-downloaded-report}
 
 이제 다운로드된 자산 보고서에 지정된 날짜 및 시간 범위 내의 사용자당 자산 다운로드 카운트가 포함됩니다. 사용자는 이 보고서를 .csv 형식으로 다운로드하고 라이선스가 있는 자산에 대한 총 다운로드 수와 같은 데이터를 컴파일할 수 있습니다.
 
@@ -670,7 +710,7 @@ Brand Portal 6.3.2에는 주요 고객 요청 및 일반 성능 향상을 위한
 
 자세한 내용은 [Brand Portal 유지 관리 알림](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification)을 참조하십시오.
 
-### 링크 공유 기능 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}을 사용하여 공유되는 라이선스가 있는 자산에 대한 개선 사항
+### 링크 공유 기능을 사용하여 공유되는 라이선스가 있는 자산에 대한 개선 사항 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
 링크 공유 기능을 사용하여 라이선스가 있는 자산을 다운로드하는 동안 해당 자산에 대한 사용권 계약에 동의하라는 메시지가 표시됩니다.
 
@@ -696,7 +736,7 @@ Brand Portal 6.3.1에는 Brand Portal과 AEM을 연계하는 데 필요한 새�
 
 Brand Portal 사용자 경험을 AEM과 연계하기 위해 Adobe이 Coral 3 사용자 인터페이스로 전환되고 있습니다. 이러한 변경 사항으로 탐색 및 모양을 비롯한 전반적인 사용 편의성이 향상됩니다.
 
-#### 탐색 환경 개선 {#enhanced-navigational-experience}
+#### 향상된 탐색 경험 {#enhanced-navigational-experience}
 
 * 새로운 Adobe 로고를 통해 관리 도구에 빠르게 액세스:
 
@@ -722,7 +762,7 @@ Brand Portal 사용자 경험을 AEM과 연계하기 위해 Adobe이 Coral 3 사
 
 * 폴더의 자산 목록에서 업로드된 최신 자산이 맨 위에 표시됩니다.
 
-### 향상된 검색 경험 {#enhanced-search-experience}
+### 향상된 검색 환경 {#enhanced-search-experience}
 
 * 새로운 옴니 검색 기능을 사용하면 검색 키워드를 입력할 때 자동 제안을 통해 관련 콘텐츠, 기능 또는 태그에 빠르게 액세스할 수 있습니다. 옴니 검색은 모든 검색 기능에서 사용할 수 있습니다.
 
@@ -741,7 +781,7 @@ Brand Portal 사용자 경험을 AEM과 연계하기 위해 Adobe이 Coral 3 사
 
 스마트 태그가 있는 이미지가 AEM Assets에서 Brand Portal으로 게시되는 경우 스마트 태그 이름을 검색 키워드로 사용하여 Brand Portal에서 이러한 이미지를 검색할 수 있습니다. 이 기능은 파일만 사용할 수 있습니다.
 
-### 다운로드 경험이 향상되었습니다 {#enhanced-downloading-experience}
+### 다운로드 환경 개선 {#enhanced-downloading-experience}
 
 중첩된 폴더를 다운로드한 후 원래 폴더 계층 구조를 유지할 수 있습니다. 중첩된 폴더 내의 자산은 별도의 폴더와 대조적으로 단일 폴더에서 다운로드할 수 있습니다.
 
@@ -757,7 +797,7 @@ Brand Portal 사용자 경험을 AEM과 연계하기 위해 Adobe이 Coral 3 사
 
 목록 보기의 폴더에 있는 자산 정렬은 더 이상 첫 페이지에 표시되는 자산 수로 제한되지 않습니다. 첫 번째 페이지에 모든 자산이 나열되는지 여부에 관계없이 폴더의 모든 자산이 정렬됩니다.
 
-### 보고 개선 {#reporting-capabilities}
+### 향상된 보고 {#reporting-capabilities}
 
 관리자는 다운로드, 만료 및 게시된 자산의 세 가지 유형의 보고서를 만들고 관리할 수 있습니다. 보고서에서 열을 구성하고 보고서를 CSV 형식으로 내보내는 기능도 사용할 수 있습니다.
 
@@ -777,7 +817,7 @@ Brand Portal 6.3.1에서는 AEM Assets 6.3과 유사한 추가 메타데이터�
 
 * 관리자가 새 사용자를 추가하면 해당 사용자는 Brand Portal에 추가될 초대장을 수락하지 않아도 자동으로 추가됩니다.
 
-### AEM Assets 6.3의 새 게시 기능 {#new-publishing-capabilities-in-aem-assets}
+### AEM Assets 6.3의 새로운 게시 기능 {#new-publishing-capabilities-in-aem-assets}
 
 * AEM 관리자는 AEM 6.3 SP 1-CFP 1(6.3.1.1)을 사용하여 AEM Assets에서 Brand Portal으로 메타데이터 스키마를 게시할 수 있으며, 이 스키마는 2017년 4분기에 제공될 예정입니다.
 
