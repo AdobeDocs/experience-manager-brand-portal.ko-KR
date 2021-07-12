@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-role: Administrator
+role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: b4aa1bf08b8edc21d980d16d8a0068e453ae627d
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 7%
@@ -85,7 +85,7 @@ Brand Portal은 [**필터** 패널](../using/brand-portal-searching.md#search-us
 
 1. **[!UICONTROL 속성]** 텍스트 상자에서 검색할 자산의 제목을 입력합니다. 예: &quot;Adobe&quot; 검색을 수행하면 제목이 &quot;Adobe&quot;과 일치하는 자산이 검색 결과에 표시됩니다.
 
-## 검색 조건자 목록 {#list-of-search-predicates}
+## 검색 설명 목록 {#list-of-search-predicates}
 
 **[!UICONTROL 속성]** 조건자를 추가하는 방법과 유사하게 **[!UICONTROL 필터]** 패널에 다음 조건자를 추가할 수 있습니다.
 
@@ -94,7 +94,7 @@ Brand Portal은 [**필터** 패널](../using/brand-portal-searching.md#search-us
 | **[!UICONTROL 경로 브라우저]** | 특정 위치에서 자산을 검색하려면 검색 조건자를 사용하십시오. **참고:** *로그인한 사용자의 경우, 필터의 경로 브라우저에는 사용자와 공유되는 폴더(및 해당 상위 폴더)의 컨텐츠 구조만 표시됩니다.* <br> 관리자 사용자는 경로 브라우저를 사용하여 해당 폴더로 이동하여 임의의 폴더에서 자산을 검색할 수 있습니다. <br> 반면에, 관리자가 아닌 사용자는 경로 브라우저에서 해당 폴더로 이동하여 폴더의 자산을 검색할 수 있습니다(사용자가 액세스할 수 있음). | <ul><li>필드 레이블</li><li>경로</li><li>설명</li></ul> |
 | **[!UICONTROL 속성]** | 특정 메타데이터 속성을 기반으로 자산을 검색합니다. **참고:** *부분 검색을 선택할 때 기본적으로 대소문자 무시 가 선택됩니다*. | <ul><li>필드 레이블</li><li>자리 표시자</li><li>속성 이름</li><li>부분 검색</li><li>대소문자 구분 안 함</li><li> 설명</li></ul> |
 | **[!UICONTROL 다중 값 속성]** | 속성 조건자와 유사하지만, 구분 기호로 구분된 여러 개의 입력 값을 허용합니다(기본값은 COMMA[,]) 입력 값과 일치하는 자산이 결과에 반환됩니다. | <ul><li>필드 레이블</li><li>자리 표시자</li><li>속성 이름</li><li>구분 기호 지원</li><li>대소문자 구분 안 함</li><li>설명</li></ul> |
-| **[!UICONTROL 태그]** | 검색 조건자를 사용하여 태그를 기반으로 자산을 검색합니다. 태그 목록에서 다양한 태그를 채우도록 경로 속성을 구성할 수 있습니다. *참고:관리자는 경로 값(예: [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`])을 변경해야 할 수 있습니다. AEM에서 검색 양식을 게시하면 경로에 테넌트 정보가 포함되지 않습니다(예: [!UICONTROL `/etc/tags/<custom_tag_namespace>`]). | <ul><li>필드 레이블</li><li>속성 이름</li><li>경로</li><li>설명</li></ul> |
+| **[!UICONTROL 태그]** | 검색 조건자를 사용하여 태그를 기반으로 자산을 검색합니다. 태그 목록에서 다양한 태그를 채우도록 경로 속성을 구성할 수 있습니다. *참고: 관리자는 경로 값(예: [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`])을 변경해야 할 수 있습니다. AEM에서 검색 양식을 게시하면 경로에 테넌트 정보가 포함되지 않습니다(예: [!UICONTROL `/etc/tags/<custom_tag_namespace>`]). | <ul><li>필드 레이블</li><li>속성 이름</li><li>경로</li><li>설명</li></ul> |
 | **[!UICONTROL 경로]** | 특정 위치에서 자산을 검색하려면 검색 조건자를 사용하십시오. | <ul><li>필드 레이블</li><li>경로</li><li>설명</li></ul> |  |
 | **[!UICONTROL 상대적 날짜]** | 검색 조건자를 사용하여 자산의 상대적 날짜에 따라 자산을 검색합니다. | <ul><li>필드 레이블</li><li>속성 이름</li><li>상대적 날짜</li></ul> |
 | **[!UICONTROL 범위]** | 검색 조건자를 사용하여 지정된 속성 값 범위 내에 있는 자산을 검색합니다. [필터] 패널에서 범위에 대한 최소 및 최대 속성 값을 지정할 수 있습니다. | <ul><li>필드 레이블</li><li>속성 이름</li><li>설명</li></ul> |
@@ -113,7 +113,7 @@ Brand Portal은 [**필터** 패널](../using/brand-portal-searching.md#search-us
 >
 >이러한 설명이 Brand Portal에서 작동하지 않으므로 **[!UICONTROL 옵션 설명]**, **[!UICONTROL 게시 상태 설명]** 및 **[!UICONTROL 등급 설명]**&#x200B;을 사용하지 마십시오.
 
-## 검색 설명 {#delete-a-search-predicate} 삭제
+## 검색 설명 삭제 {#delete-a-search-predicate}
 
 검색 설명을 삭제하려면 다음 단계를 수행합니다.
 
