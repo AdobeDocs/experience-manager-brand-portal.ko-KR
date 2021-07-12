@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-role: Administrator
+role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Comment Type: draft
 >
 >Brand Portal에서 그룹을 만들려면 Adobe [!UICONTROL Admin Console]에서 **[!UICONTROL 사용자 페이지 > 사용자 그룹]** 대신 **[!UICONTROL 제품 > 제품 프로필]**&#x200B;을 사용하십시오. Adobe [!UICONTROL Admin Console]의 제품 프로필이 Brand Portal에서 그룹을 만드는 데 사용됩니다.
 
-## 사용자 {#add-a-user} 추가
+## 사용자 추가 {#add-a-user}
 
 제품 관리자인 경우 Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)를 사용하여 사용자를 만들고 제품 프로필(*이전에 제품 구성*&#x200B;으로 알려짐)에 할당하여 Brand Portal에 그룹으로 표시하십시오. 그룹을 사용하여 역할 관리 및 자산 공유와 같은 일괄 작업을 수행할 수 있습니다.
 
@@ -86,9 +86,9 @@ Comment Type: draft
 
    사용자에게 관리자 권한을 부여하는 방법에 대한 내용은 [사용자에게 관리자 권한 제공](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)을 참조하십시오.
 
-## 제품 프로필 {#add-a-product-profile} 추가
+## 제품 프로필 추가 {#add-a-product-profile}
 
-[!UICONTROL Admin Console]의 제품 프로필(이전의 제품 구성)은 Brand Portal에서 역할 관리 및 자산 공유와 같은 일괄 작업을 수행할 수 있도록 Brand Portal에서 그룹을 만드는 데 사용됩니다. **Brand** Portal은 사용 가능한 기본 제품 프로필입니다.더 많은 제품 프로필을 만들고 새 제품 프로필에 사용자를 추가할 수 있습니다.
+[!UICONTROL Admin Console]의 제품 프로필(이전의 제품 구성)은 Brand Portal에서 역할 관리 및 자산 공유와 같은 일괄 작업을 수행할 수 있도록 Brand Portal에서 그룹을 만드는 데 사용됩니다. **Brand** Portal은 사용 가능한 기본 제품 프로필입니다. 더 많은 제품 프로필을 만들고 새 제품 프로필에 사용자를 추가할 수 있습니다.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Comment Type: draft
 
    ![제품 프로필](assets/admin_console_productprofileadded.png)
 
-## 제품 프로필 {#add-users-to-a-product-profile}에 사용자 추가
+## 제품 프로필에 사용자 추가 {#add-users-to-a-product-profile}
 
 Brand Portal 그룹에 사용자를 추가하려면 [!UICONTROL Admin Console]에서 해당 제품 프로필(이전의 제품 구성)에 사용자를 추가하십시오. 개별적으로 또는 대량으로 사용자를 추가할 수 있습니다.
 
@@ -230,8 +230,8 @@ Brand Portal 그룹에 사용자를 추가하려면 [!UICONTROL Admin Console]�
 
 관리자 역할 외에 Brand Portal에서는 다음 역할을 지원합니다.
 
-* [!UICONTROL 뷰어]:이 역할을 가진 사용자는 관리자가 공유하는 파일과 폴더를 볼 수 있습니다. 뷰어는 자산을 검색하고 다운로드할 수도 있습니다. 그러나 뷰어는 다른 사용자와 컨텐츠(파일, 폴더, [!UICONTROL 컬렉션])를 공유할 수 없습니다.
-* [!UICONTROL 편집자]:이 역할을 가진 사용자에게는 뷰어의 모든 권한이 있습니다. 또한 편집자는 컨텐츠(폴더, [!UICONTROL 컬렉션], 링크)를 다른 사용자와 공유할 수 있습니다.
+* [!UICONTROL 뷰어]: 이 역할을 가진 사용자는 관리자가 공유하는 파일과 폴더를 볼 수 있습니다. 뷰어는 자산을 검색하고 다운로드할 수도 있습니다. 그러나 뷰어는 다른 사용자와 컨텐츠(파일, 폴더, [!UICONTROL 컬렉션])를 공유할 수 없습니다.
+* [!UICONTROL 편집자]: 이 역할을 가진 사용자에게는 뷰어의 모든 권한이 있습니다. 또한 편집자는 컨텐츠(폴더, [!UICONTROL 컬렉션], 링크)를 다른 사용자와 공유할 수 있습니다.
 
 1. 맨 위에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
 
