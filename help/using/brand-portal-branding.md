@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
+role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Brand Portal 관리자는 사용자에게 표시되는 인터페이스에 대한 사용자 지정을 제한할 수 있습니다. Brand Portal 로그인 페이지에서 특정 배경 이미지(배경 무늬)를 선택할 수 있습니다. 헤더 이미지를 추가하고 고객 브랜드와 일치하도록 자산 공유 이메일을 사용자 지정할 수도 있습니다.
 
-## 로그인 화면 배경 무늬 {#customize-the-login-screen-wallpaper} 사용자 지정
+## 로그인 화면 배경 무늬 사용자 지정 {#customize-the-login-screen-wallpaper}
 
 사용자 정의 브랜드 배경 무늬 이미지가 없는 경우 로그인 페이지에 기본 벽지가 표시됩니다.
 
@@ -71,7 +71,7 @@ Brand Portal 관리자는 사용자에게 표시되는 인터페이스에 대한
 
 
 
-## 헤더 {#customize-the-header} 사용자 지정
+## 헤더 사용자 지정 {#customize-the-header}
 
 헤더는 Brand Portal에 로그인한 후 여러 Brand Portal 페이지에 표시됩니다.
 
@@ -123,7 +123,7 @@ Brand Portal 관리자는 사용자에게 표시되는 인터페이스에 대한
 
 
 
-## 전자 메일 메시지 {#customize-the-email-messaging} 사용자 지정
+## 이메일 메시지 사용자 지정 {#customize-the-email-messaging}
 
 자산이 링크로 공유되면 사용자는 링크가 포함된 이메일을 받게 됩니다. 관리자는 이러한 이메일의 메시징, 즉 로고, 설명 및 바닥글을 사용자 지정할 수 있습니다.
 
