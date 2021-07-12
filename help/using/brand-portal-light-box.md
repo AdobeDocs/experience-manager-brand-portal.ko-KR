@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
-role: Administrator
+role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 **** Lightboxes는 자산에 쉽게 액세스할 수 있는 특별한 유형의 컬렉션입니다. 각 사용자에게는 처음으로 Brand Portal에 로그인할 때 자동으로 만들어지는 전용 **[!UICONTROL Lightbox]**&#x200B;이 있습니다. **[!UICONTROL Lightbox]** 컬렉션을 삭제할 수 없습니다.
 
-## Lightbox {#add-assets-to-lightbox}에 자산 추가
+## Lightbox에 자산 추가 {#add-assets-to-lightbox}
 
 **[!UICONTROL Lightbox]**&#x200B;에 자산을 추가하려면 다음을 수행합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
    ![](assets/added_to_collectionlightbox.png)
 
-## Lightbox {#remove-assets-from-lightbox}에서 자산 제거
+## Lightbox에서 자산 제거 {#remove-assets-from-lightbox}
 
 1. [!UICONTROL Lightbox]에서 자산을 검토하려면 왼쪽 레일에서 **[!UICONTROL 컬렉션]**&#x200B;을 클릭한 다음 [!UICONTROL Lightbox] 컬렉션을 클릭합니다.
 
