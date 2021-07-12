@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
+role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 5%
@@ -31,7 +31,7 @@ Brand Portal은 AEM Assets 작성자 인스턴스에서 원활하게 수집되�
 
 ![](assets/test-connection.png)
 
-## 처음 게시할 때 발생한 오류 문제 해결:게시 구성 확인 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## 처음 게시할 때 발생한 오류 문제 해결: 게시 구성 확인 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 게시 구성을 확인하려면:
 
@@ -63,15 +63,15 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### 기존 Brand Portal 게시 구성 정리 {#clean-up-existing-config}
 
-게시가 작동하지 않는 대부분의 경우 게시 중인 사용자(예:`mac-<tenantid>-replication`에 최신 개인 키가 없으므로 &quot;401 unauthorized&quot; 오류로 인해 게시가 실패하고 다른 오류가 복제 에이전트 로그에 보고되지 않습니다. 문제를 해결하고 대신 새 구성을 만들지 않아도 됩니다. 새 구성이 제대로 작동하려면 AEM 작성자 설정에서 다음 사항을 정리하십시오.
+게시가 작동하지 않는 대부분의 경우 게시 중인 사용자(예: `mac-<tenantid>-replication`에 최신 개인 키가 없으므로 &quot;401 unauthorized&quot; 오류로 인해 게시가 실패하고 다른 오류가 복제 에이전트 로그에 보고되지 않습니다. 문제를 해결하고 대신 새 구성을 만들지 않아도 됩니다. 새 구성이 제대로 작동하려면 AEM 작성자 설정에서 다음 사항을 정리하십시오.
 
-1. `localhost:4502/crx/de/`(localhost:4502에서 작성자 인스턴스를 실행 중임을 고려):\
-   나.`/etc/replication/agents.author/mp_replication` 삭제
+1. `localhost:4502/crx/de/`(localhost:4502:에서 작성자 인스턴스를 실행 중임을 고려)\
+   나. `/etc/replication/agents.author/mp_replication` 삭제
 ii. 삭제 
 `/etc/cloudservices/mediaportal/<config_name>`
 
 1. localhost:4502/useradmin으로 이동합니다.\
-   나.사용자 `mac-<tenantid>replication` 검색
+   나. 사용자 `mac-<tenantid>replication` 검색
 ii. 이 사용자 삭제
 
 이제 시스템이 모두 정리되었습니다. 이제 새 cloudservice 구성을 만들고 [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)에서 이미 존재하는 JWT 애플리케이션을 계속 사용할 수 있습니다. 새로 만든 클라우드 구성에서 공개 키를 업데이트해야 하지만, 새 애플리케이션을 만들 필요가 없습니다.
@@ -84,7 +84,7 @@ ii. 이 사용자 삭제
 
 JWT 애플리케이션이 적절하게 나열되지 않을 수 있습니다. 따라서 JWT 애플리케이션을 작성하는 동안 URL을 참고/책갈피로 지정하는 것이 좋습니다.
 
-## 구성 실행이 {#running-configuration-stops-working} 작업을 중지합니다.
+## 구성 실행 작동이 중지됩니다. {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -118,7 +118,7 @@ Brand Portal에 게시하던 복제 에이전트가 게시 작업 처리를 중�
 오류에 따라 Brand Portal 엔지니어링 팀이 문제를 해결하는 데 도움이 되도록 지원 티켓을 기록해야 합니다.
 
 
-## 연결 시간 제한 오류 {#connection-timeout}를 방지하도록 복제 에이전트를 구성합니다.
+## 연결 시간 제한 오류를 방지하도록 복제 에이전트를 구성합니다 {#connection-timeout}
 
 일반적으로 복제 큐에 대기 중인 요청이 여러 개 있는 경우 게시 작업이 시간 초과 오류로 실패합니다. 이 문제를 해결하려면 복제 에이전트가 시간 제한을 방지하도록 구성되어 있는지 확인합니다.
 
