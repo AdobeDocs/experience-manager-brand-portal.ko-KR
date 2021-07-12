@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-role: Administrator
+role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 이미지 사전 설정을 만드는 동안 필요한 매개 변수에 대한 자세한 내용은 [이미지 사전 설정 관리](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)를 참조하십시오.
 
-## 이미지 사전 설정 {#create-an-image-preset} 만들기
+## 이미지 사전 설정 만들기 {#create-an-image-preset}
 
 AEM 관리자는 자산 세부 사항 페이지에서 동적 변환으로 표시되는 이미지 사전 설정을 만들 수 있습니다. 처음부터 이미지 사전 설정을 만들거나 새 이름으로 기존 이미지 사전 설정을 저장할 수 있습니다. 이미지 사전 설정을 만들 때 이미지 전달용 크기와 서식 명령을 선택합니다. 이미지를 보기 위해 전달하면 선택한 명령에 따라 이미지가 최적화됩니다.
 
@@ -68,7 +68,7 @@ AEM 관리자는 자산 세부 사항 페이지에서 동적 변환으로 표시
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이미지 사전 설정이 만들어지고 이미지 사전 설정 페이지에 표시됩니다.
 1. 이미지 사전 설정을 삭제하려면 이미지 사전 설정 페이지에서 이미지 사전 설정을 선택하고 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다. 확인 페이지에서 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인합니다. 이미지 사전 설정 페이지에서 이미지 사전 설정이 제거됩니다.
 
-## 이미지를 미리 볼 때 이미지 사전 설정 적용 {#apply-image-presets-when-previewing-images}
+## 이미지를 미리 볼 때 이미지 사전 설정 적용  {#apply-image-presets-when-previewing-images}
 
 이미지 및 해당 표현물을 미리 볼 때 기존 사전 설정 중에서 선택하여 관리자가 설정한 사양에 맞게 이미지를 재포맷합니다.
 
@@ -81,7 +81,7 @@ AEM 관리자는 자산 세부 사항 페이지에서 동적 변환으로 표시
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## 이미지 {#apply-image-presets-when-downloading-images} 다운로드 시 이미지 사전 설정 적용
+## 이미지를 다운로드할 때 이미지 사전 설정 적용 {#apply-image-presets-when-downloading-images}
 
 Brand Portal에서 이미지 및 해당 표현물을 다운로드할 때는 기존 이미지 사전 설정에서 선택할 수 없습니다. 그러나 이미지 형식을 다시 지정할 이미지 사전 설정 속성을 사용자 지정할 수 있습니다.
 
