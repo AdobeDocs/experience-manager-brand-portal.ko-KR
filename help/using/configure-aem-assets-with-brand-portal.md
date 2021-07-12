@@ -9,16 +9,16 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-role: Administrator
+role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 28%
 
 ---
 
-# Brand Portal로 AEM Assets 구성 {#configure-integration}
+# Brand Portal에서 AEM Assets 구성 {#configure-integration}
 
 Brand Portal과 Adobe Experience Manager Assets를 구성하면 Brand Portal 사용자에 대한 자산 게시, 자산 분배 및 자산 기여 기능이 활성화됩니다. AEM Assets 사용자는 Brand Portal 사용자와 자산을 게시하고 배포할 수 있습니다. Brand Portal 사용자는 공유 자산에 액세스하고 새 자산을 자산 기여 폴더에 업로드하고 다시 AEM Assets에 게시하여 기여할 수 있습니다.
 
