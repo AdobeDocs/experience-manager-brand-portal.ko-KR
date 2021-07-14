@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 785be735a11277ea16e269bfc00368ced88ed510
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2224'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Comment Type: draft
    ![Brand Portal에 사용자 추가](assets/add_user_to_aem_bp.png)
 
 1. 사용자가 Brand Portal에 액세스할 수 있도록 사용자를 하나 이상의 제품 프로필(이전의 제품 구성)에 할당합니다. **[!UICONTROL 이 제품]** 필드에 대한 프로필을 선택하십시오.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 추가한 사용자에게 환영 이메일이 전송됩니다. 초대받은 사용자는 시작 이메일의 링크를 클릭하고 [!UICONTROL Adobe ID]을 사용하여 로그인하여 Brand Portal에 액세스할 수 있습니다. 자세한 내용은 [처음 로그인 경험](../using/brand-portal-onboarding.md)을 참조하십시오.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 새로 추가된 사용자에게 환영 이메일이 전송됩니다. 초대받은 사용자는 환영 이메일의 링크를 클릭하여 Brand Portal에 액세스할 수 있습니다. 사용자는 Admin Console에 구성된 이메일 ID([!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL 고급 ID])를 사용하여 로그인할 수 있습니다. 자세한 내용은 [처음 로그인 경험](../using/brand-portal-onboarding.md)을 참조하십시오.
 
    >[!NOTE]
    >
