@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 4%
+source-wordcount: '1482'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 Brand Portal FAQ는 최신 AEM Assets Brand Portal 6.4.6 릴리스 또는 이전 버전으로 작업하는 동안 발생할 수 있는 최종 사용자 쿼리 및 문제에 중점을 둡니다.
 
 
-## Brand Portal 6.4.6 FAQ {#faqs-bp646}
+## Brand Portal 6.4.6 FAQ  {#faqs-bp646}
 
 **Ques. 기존 이전 OAuth 끝점(`https://legacy-oauth.cloud.adobe.io/login`)이 작동하지 않습니다. 가능한 이유는 무엇입니까?**
 
@@ -40,7 +40,11 @@ Brand Portal FAQ는 최신 AEM Assets Brand Portal 6.4.6 릴리스 또는 이전
 
 이 문제는 AEM 6.5.5에서 수정되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM 6.5.5로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://docs.adobe.com/content/help/ko/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 구성을 업그레이드할 수 있습니다.[
 
-AEM 6.5.4를 즉시 수정하려면 [핫픽스](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)를 다운로드하고 AEM 작성자 인스턴스에 설치하는 것이 좋습니다.
+<!--
+Broken link of download hotfix, comment out this section until we have the latest URL.
+
+For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
+-->
 
 **Ques. AEM Assets의 Brand Portal에서 게시된 기여도 폴더의 컨텐츠가 표시되지 않습니다. 가능한 이유는 무엇입니까?**
 
@@ -65,7 +69,7 @@ AEM 6.5.4를 즉시 수정하려면 [핫픽스](https://www.adobeaemcloud.com/co
 1. 서버를 다시 시작하고 연결을 확인합니다.
 
 
-## Brand Portal 6.4.5 FAQ {#faqs-bp645}
+## Brand Portal 6.4.5 FAQ  {#faqs-bp645}
 
 **Ques. Brand Portal 6.4.5 릴리스의 주요 변경 사항은 무엇입니까?**
 
