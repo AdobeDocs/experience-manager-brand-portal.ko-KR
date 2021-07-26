@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 5%
+source-wordcount: '884'
+ht-degree: 4%
 
 ---
 
@@ -74,11 +74,11 @@ ii. 삭제
    나. 사용자 `mac-<tenantid>replication` 검색
 ii. 이 사용자 삭제
 
-이제 시스템이 모두 정리되었습니다. 이제 새 cloudservice 구성을 만들고 [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)에서 이미 존재하는 JWT 애플리케이션을 계속 사용할 수 있습니다. 새로 만든 클라우드 구성에서 공개 키를 업데이트해야 하지만, 새 애플리케이션을 만들 필요가 없습니다.
+이제 시스템이 모두 정리되었습니다. 이제 새 cloudservice 구성을 만들고 `https://legacy-oauth.cloud.adobe.io/`에서 이미 존재하는 JWT 애플리케이션을 계속 사용할 수 있습니다. 새로 만든 클라우드 구성에서 공개 키를 업데이트해야 하지만, 새 애플리케이션을 만들 필요가 없습니다.
 
 ## Developer Connection JWT 애플리케이션 테넌트 가시성 문제 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)에서 현재 사용자가 시스템 관리자를 보유하고 있는 모든 조직(테넌트)이 나열됩니다. 여기에서 조직 이름을 찾을 수 없거나 여기에서 필수 테넌트에 대한 응용 프로그램을 만들 수 없는 경우 이 작업을 수행할 충분한(시스템 관리자) 권한이 있는지 확인하십시오.
+`https://legacy-oauth.cloud.adobe.io/`에서 현재 사용자가 시스템 관리자를 보유하는 모든 조직(테넌트)이 나열됩니다. 여기에서 조직 이름을 찾을 수 없거나 여기에서 필수 테넌트에 대한 응용 프로그램을 만들 수 없는 경우 이 작업을 수행할 충분한(시스템 관리자) 권한이 있는지 확인하십시오.
 
 이 사용자 인터페이스에서는 상위 10개의 애플리케이션만 표시되는 알려진 문제가 한 가지 있습니다. 애플리케이션을 만들 때 해당 페이지에서 URL을 책갈피로 지정합니다. 애플리케이션의 목록 페이지로 이동하여 만든 응용 프로그램을 찾을 필요가 없습니다. 이 책갈피가 지정된 URL을 직접 누르고 필요할 때마다 애플리케이션을 업데이트/삭제할 수 있습니다.
 
