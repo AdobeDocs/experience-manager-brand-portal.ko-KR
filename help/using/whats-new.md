@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 11ceff7818760ea8c5ad39de93f792bfb5a96e5b
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '6154'
+source-wordcount: '6148'
 ht-degree: 3%
 
 ---
@@ -138,7 +138,7 @@ Brand Portal 2020.10.0은 자산 다운로드 환경을 단순화하는 데 중�
 
 >[!NOTE]
 >
->이제 모든 사용자는 기본적으로 **[!UICONTROL 빠른 다운로드]**&#x200B;를 사용할 수 있으며, Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장에 [IBM Aspera Connect 3.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)가 설치되어 있어야 합니다.
+>이제 모든 사용자는 기본적으로 **[!UICONTROL 빠른 다운로드]**&#x200B;를 사용할 수 있으며, Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장에 [IBM Aspera Connect 3.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9)가 설치되어 있어야 합니다.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -585,7 +585,7 @@ Brand Portal은 선택한 자산/폴더의 자산 속성을 보기 위한 관리
 
 ### oAuth 통합을 구성하기 위한 Adobe I/O UI
 
-Brand Portal 6.4.2 이상에서는 Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 인터페이스를 사용하여 Brand Portal과 AEM Assets을 통합할 수 있도록 oAuth 통합을 구성할 수 있는 JWT 애플리케이션을 만듭니다. 이전에는 OAuth 통합 구성을 위한 UI가 `https://marketing.adobe.com/developer/`에 호스팅되었습니다. Brand Portal에 자산 및 컬렉션을 게시하기 위해 AEM Assets과 Brand Portal을 통합하는 방법에 대한 자세한 내용은 [Brand Portal과 AEM Assets 통합 구성](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)을 참조하십시오.
+Brand Portal 6.4.2 이상에서는 이전 OAuth(`https://legacy-oauth.cloud.adobe.io/`) 인터페이스를 사용하여 JWT 애플리케이션을 만듭니다. 이 인터페이스를 통해 Brand Portal과 AEM Assets을 통합할 수 있습니다. 이전에는 OAuth 통합 구성을 위한 UI가 `https://marketing.adobe.com/developer/`에 호스팅되었습니다. Brand Portal에 자산 및 컬렉션을 게시하기 위해 AEM Assets과 Brand Portal을 통합하는 방법에 대한 자세한 내용은 [Brand Portal과 AEM Assets 통합 구성](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)을 참조하십시오.
 
 ## 검색 개선 사항
 
@@ -649,7 +649,7 @@ Brand Portal 6.4.1은 고객 경험을 향상하기 위해 브라우징, 검색,
 * 자산에 대한 검색 응답에서 최대 40% 개선.
 * 검색 성능이 최대 40% 향상되었습니다.
 
-**참고**:인용된 개선 사항은 연구실에서 수행된 테스트에 따라 입니다.
+**참고**: 인용된 개선 사항은 연구실에서 수행된 테스트에 따라 입니다.
 
 ### 향상된 보고 기능
 
