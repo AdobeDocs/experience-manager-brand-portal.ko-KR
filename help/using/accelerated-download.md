@@ -10,14 +10,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1043'
 ht-degree: 3%
 
 ---
 
-# Brand Portal 다운로드 시간 단축 {#guide-to-accelerate-downloads-from-brand-portal}
+# Brand Portal 다운로드 속도 향상 {#guide-to-accelerate-downloads-from-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal을 사용하면 설치 온디맨드 애플리케이션인 IBM Aspera Connect와 통합하여 대용량 자산 파일의 다운로드 성능을 향상시킬 수 있습니다. 이 애플리케이션은 독점 기술을 사용하여 TCP 오버헤드를 제거하고 자산 파일의 전송 속도를 개선하는 데 도움이 됩니다. 이 통합을 통해 다운로드 경험을 향상시킬 수 있습니다.
 
@@ -35,7 +35,7 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 설치 온디맨드
 
 * **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]**&#x200B;로 이동하여 **[!UICONTROL 빠른 다운로드]** 구성이 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화되어 있는지 확인합니다.
 * 방화벽에서 포트 33001(TCP 및 UDP 모두)가 열려 있는지 확인합니다. 사전 요구 사항에 대한 자세한 내용은 [IBM Aspera Connect Client 설명서](https://downloads.asperasoft.com/en/documentation/8)를 참조하십시오.
-* [관리자 권한을 사용하여 브라우저의 확장 프로그램에 IBM Aspera Connect 3.9.9를 설치합니다](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) .
+* [관리자 권한을 사용하여 브라우저의 확장 프로그램에 IBM Aspera Connect 3.9.9를 설치합니다](https://www.ibm.com/docs/en/aspera-connect/3.9.9) .
 * Aspera 전송 클라이언트에 대한 플랫폼 지원은 [IBM Aspera Connect 플랫폼 지원 매트릭스](https://www.asperasoft.com/company/support/transfer-clients/)를 참조하십시오.
 
 ## 도메인 다운로드 {#download-domains}
@@ -49,7 +49,7 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 설치 온디맨드
 | EMEA LON5 | downloads-emea1.brand-portal.adobe.com |
 | APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
 
-## 파일 가속기 {#expected-download-performance-using-file-accelerator}을 사용한 다운로드 성능 샘플
+## 파일 가속기를 사용한 다운로드 성능 샘플 {#expected-download-performance-using-file-accelerator}
 
 다음 표는 Aspera Connect 파일 다운로드 가속기를 사용하는 2GB 파일의 다운로드 성능을 보여줍니다.
 
@@ -92,7 +92,7 @@ Brand Portal에서 자산을 더 빨리 다운로드하려면 다음을 수행�
 
 1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 IBM Aspera Connect를 사용하여 자산을 다운로드하는 확인 상자가 나타납니다.
 
-   자산을 처음 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않거나 기존 버전이 오래된 경우 [Aspera 다운로드 가속기](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)를 설치하라는 메시지가 표시됩니다.
+   자산을 처음 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않거나 기존 버전이 오래된 경우 [Aspera 다운로드 가속기](https://www.ibm.com/docs/en/aspera-connect/3.9.9)를 설치하라는 메시지가 표시됩니다.
 
    ![](assets/aspera-not-launched.png)
 
@@ -213,6 +213,6 @@ Microsoft Edge에서 가속화된 다운로드 기능을 사용하려면 신뢰�
    대역폭이 몇 개(1-10Mbps) 또는 Kbps인 경우 Aspera 환경 설정을 사용하고 사용 가능한 대역폭과 동일한 대역폭을 제한하려고 합니다.
 
 1. Aspera 데모 서버에서 다운로드가 작동하는지 확인하려면 [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user)을 사용하십시오.\
-   (로그인: asperaweb , 암호: 데모아스퍼 )
+   (로그인:  asperaweb , 암호:  데모아스퍼 )
 
 1. 위의 문제 해결 단계 중 어느 것도 작동하지 않는 경우 Download Acceleration 활성화 옵션을 선택 취소하고 일반 다운로드를 사용하십시오.
