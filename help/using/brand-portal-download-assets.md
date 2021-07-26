@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1954'
 ht-degree: 3%
 
 ---
 
-#  Brand Portal에서 에셋 다운로드{#download-assets-from-bp}
+#  Brand Portal에서 에셋 다운로드 {#download-assets-from-bp}
 
 <!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal은 사용자가 Brand Portal에서 
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0(및 이상)에서 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정이 활성화되어 있습니다. 이 설정은 자산의 빠른 다운로드를 위해 IBM Aspera Connect를 사용합니다. [Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장명에 IBM Aspera Connect 3.9.9를 설치합니다.](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 자세한 내용은 [Brand Portal](../using/accelerated-download.md)에서 다운로드를 가속화하기 위한 안내서를 참조하십시오.
+>Brand Portal 2020.10.0(및 이상)에서 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정이 활성화되어 있습니다. 이 설정은 자산의 빠른 다운로드를 위해 IBM Aspera Connect를 사용합니다. [Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장명에 IBM Aspera Connect 3.9.9를 설치합니다.](https://www.ibm.com/docs/en/aspera-connect/3.9.9) 자세한 내용은 [Brand Portal](../using/accelerated-download.md)에서 다운로드를 가속화하기 위한 안내서를 참조하십시오.
 >
 >IBM Aspera Connect를 사용하지 않고 일반 다운로드 프로세스를 계속 수행하려면 Brand Portal 관리자에게 문의하여 **[!UICONTROL 빠른 다운로드]** 설정을 끄십시오.
 
@@ -99,7 +99,7 @@ Brand Portal 관리자는 **[!UICONTROL 다운로드 설정]** 외에, 원래 �
 
 다음 매트릭스는 사용자가 [다운로드 구성](#configure-download)에 따라 표현물에 액세스할 수 있는지 여부를 정의합니다.
 
-| **다운로드 설정:사용자 지정 표현물** | **다운로드 설정:시스템 표현물** | **사용자 그룹 설정:원본 다운로드** | **사용자 그룹 설정:표현물 다운로드** | **결과** |
+| **다운로드 설정: 사용자 지정 표현물** | **다운로드 설정: 시스템 표현물** | **사용자 그룹 설정: 원본 다운로드** | **사용자 그룹 설정: 표현물 다운로드** | **결과** |
 |---|---|---|---|---|
 | 켬 | 켬 | 켬 | 켬 | 모든 표현물을 보고 다운로드합니다 |
 | 켬 | 켬 | 끔 | 끔 | 원본 자산 보기 |
@@ -156,7 +156,7 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 
       >[!NOTE]
       >
-      >자산을 처음 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않은 경우 [Aspera 다운로드 촉진기](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)를 설치하라는 메시지가 표시됩니다.
+      >자산을 처음 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않은 경우 [Aspera 다운로드 촉진기](https://www.ibm.com/docs/en/aspera-connect/3.9.9)를 설치하라는 메시지가 표시됩니다.
 
 
       >[!NOTE]
@@ -224,7 +224,7 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
 -->
 
-### 자산 세부 사항 페이지 {#download-assets-from-asset-details-page}에서 자산 다운로드
+### 자산 세부 사항 페이지에서 자산 다운로드 {#download-assets-from-asset-details-page}
 
 다운로드 워크플로우 외에 자산 세부 사항 페이지에서 직접 개별 자산에 대한 렌디션을 다운로드하는 다른 방법이 있습니다.
 
@@ -399,7 +399,7 @@ Following are the steps to download assets or folders containing assets from Bra
    >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-## 다운로드 성능 {#expected-download-performance} 예상
+## 예상 다운로드 성능 {#expected-download-performance}
 
 파일 다운로드 경험은 로컬 인터넷 연결 및 서버 지연 등의 요인에 따라 다른 클라이언트 위치의 사용자에 따라 다를 수 있습니다. 다른 클라이언트 위치에서 관찰되는 2GB 파일의 예상 다운로드 성능은 다음과 같습니다. Brand Portal 서버는 미국 오레곤에 있습니다.
 
