@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1944'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal은 사용자가 Brand Portal에서 
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0(및 이상)에서 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정이 활성화되어 있습니다. 이 설정은 자산의 빠른 다운로드를 위해 IBM Aspera Connect를 사용합니다. [Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장명에 IBM Aspera Connect 3.9.9를 설치합니다.](https://www.ibm.com/docs/en/aspera-connect/3.9.9) 자세한 내용은 [Brand Portal](../using/accelerated-download.md)에서 다운로드를 가속화하기 위한 안내서를 참조하십시오.
+>Brand Portal 2020.10.0(및 이상)에서 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정이 활성화되어 있습니다. 이 설정은 자산의 빠른 다운로드를 위해 IBM Aspera Connect를 사용합니다. Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장에 IBM Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치합니다. 자세한 내용은 [Brand Portal](../using/accelerated-download.md)에서 다운로드를 가속화하기 위한 안내서를 참조하십시오.
 >
 >IBM Aspera Connect를 사용하지 않고 일반 다운로드 프로세스를 계속 수행하려면 Brand Portal 관리자에게 문의하여 **[!UICONTROL 빠른 다운로드]** 설정을 끄십시오.
 
@@ -156,7 +156,7 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 
       >[!NOTE]
       >
-      >자산을 처음 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않은 경우 [Aspera 다운로드 촉진기](https://www.ibm.com/docs/en/aspera-connect/3.9.9)를 설치하라는 메시지가 표시됩니다.
+      >처음 자산을 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않은 경우 Aspera 다운로드 가속기(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치하라는 메시지가 표시됩니다.
 
 
       >[!NOTE]
