@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 설치 온디맨드
 
 * **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]**&#x200B;로 이동하여 **[!UICONTROL 빠른 다운로드]** 구성이 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화되어 있는지 확인합니다.
 * 방화벽에서 포트 33001(TCP 및 UDP 모두)가 열려 있는지 확인합니다. 사전 요구 사항에 대한 자세한 내용은 [IBM Aspera Connect Client 설명서](https://downloads.asperasoft.com/en/documentation/8)를 참조하십시오.
-* [관리자 권한을 사용하여 브라우저의 확장 프로그램에 IBM Aspera Connect 3.9.9를 설치합니다](https://www.ibm.com/docs/en/aspera-connect/3.9.9) .
+* **** 관리자 권한(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)을 사용하여 브라우저의 확장에 IBM Aspera Connect 3.9.9를 설치합니다.
 * Aspera 전송 클라이언트에 대한 플랫폼 지원은 [IBM Aspera Connect 플랫폼 지원 매트릭스](https://www.asperasoft.com/company/support/transfer-clients/)를 참조하십시오.
 
 ## 도메인 다운로드 {#download-domains}
@@ -92,7 +92,7 @@ Brand Portal에서 자산을 더 빨리 다운로드하려면 다음을 수행�
 
 1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 IBM Aspera Connect를 사용하여 자산을 다운로드하는 확인 상자가 나타납니다.
 
-   자산을 처음 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않거나 기존 버전이 오래된 경우 [Aspera 다운로드 가속기](https://www.ibm.com/docs/en/aspera-connect/3.9.9)를 설치하라는 메시지가 표시됩니다.
+   자산을 처음 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않거나 기존 버전이 오래된 경우 Aspera 다운로드 가속기(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치하라는 메시지가 표시됩니다.
 
    ![](assets/aspera-not-launched.png)
 
