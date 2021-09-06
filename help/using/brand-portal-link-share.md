@@ -1,8 +1,8 @@
 ---
 title: 링크로 자산 공유
-seo-title: 링크로 자산 공유
+seo-title: Share assets as a link
 description: AEM Assets Brand Portal 관리자는 파트너 및 공급업체 등 승인된 내부 사용자 및 외부 엔티티와 여러 자산의 링크를 공유할 수 있습니다. 편집자는 공유된 자산만 보고 공유할 수 있습니다.
-seo-description: AEM Assets Brand Portal 관리자는 파트너 및 공급업체 등 승인된 내부 사용자 및 외부 엔티티와 여러 자산의 링크를 공유할 수 있습니다. 편집자는 공유된 자산만 보고 공유할 수 있습니다.
+seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
+source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 5%
+source-wordcount: '965'
+ht-degree: 4%
 
 ---
 
@@ -27,10 +27,6 @@ Adobe Experience Manager Assets Brand Portal 관리자는 파트너 및 공급�
 -->
 
 자세한 내용은 [사용자, 그룹 및 사용자 역할 관리](../using/brand-portal-adding-users.md#manage-user-roles)를 참조하십시오.
-
->[!NOTE]
->
->Brand Portal의 링크 공유 기능을 사용하면 최대 5GB의 zip 다운로드가 허용됩니다.
 
 
 다음은 링크로 자산을 공유하는 단계입니다.
@@ -47,7 +43,7 @@ Adobe Experience Manager Assets Brand Portal 관리자는 파트너 및 공급�
 
    ![](assets/link-sharing.png)
 
-   * 이메일 주소 상자에 링크를 공유할 사용자의 이메일 ID를 입력합니다. 여러 사용자와 링크를 공유할 수 있습니다. 사용자가 조직의 구성원인 경우 드롭다운 목록에 나타나는 제안에서 이메일 ID를 선택합니다. 사용자가 외부 사용자라면 전체 이메일 ID를 입력하고 **[!UICONTROL Enter]** 키를 누릅니다.이메일 ID가 사용자 목록에 추가됩니다.
+   * 이메일 주소 상자에 링크를 공유할 사용자의 이메일 ID를 입력합니다. 여러 사용자와 링크를 공유할 수 있습니다. 사용자가 조직의 구성원인 경우 드롭다운 목록에 나타나는 제안에서 이메일 ID를 선택합니다. 사용자가 외부 사용자라면 전체 이메일 ID를 입력하고 **[!UICONTROL Enter]** 키를 누릅니다. 이메일 ID가 사용자 목록에 추가됩니다.
 
       ![](assets/link-sharing-text.png)
 
@@ -107,7 +103,7 @@ Adobe Experience Manager Assets Brand Portal 관리자는 파트너 및 공급�
 
 >[!NOTE]
 >
->Brand Portal에서는 파일 크기보다 5GB보다 큰 자산의 다운로드를 제한합니다.
+>Brand Portal은 링크 공유를 사용하여 파일 크기인 **1** GB보다 큰 자산의 다운로드를 제한합니다.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -128,12 +124,9 @@ Adobe Experience Manager Assets Brand Portal 관리자는 파트너 및 공급�
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 -->
 
-## 자산 형식 {#preview-thumbnail-support}에 대한 미리 보기 및 축소판 지원
+## 자산 형식에 대한 미리 보기 및 축소판 지원 {#preview-thumbnail-support}
 
 다음 매트릭스에서는 Brand Portal에서 축소판 및 미리 보기를 지원하는 자산 형식을 나열합니다.
 
