@@ -1,8 +1,8 @@
 ---
 title: Brand Portal 다운로드 속도 향상
-seo-title: Brand Portal 다운로드 속도 향상
+seo-title: Speed up the Brand Portal downloads
 description: Brand Portal 및 공유 링크에서 다운로드 성능을 향상시킵니다.
-seo-description: Brand Portal 및 공유 링크에서 다운로드 성능을 향상시킵니다.
+seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1037'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,10 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 설치 온디맨드
 * 방화벽에서 포트 33001(TCP 및 UDP 모두)가 열려 있는지 확인합니다. 사전 요구 사항에 대한 자세한 내용은 [IBM Aspera Connect Client 설명서](https://downloads.asperasoft.com/en/documentation/8)를 참조하십시오.
 * **** 관리자 권한(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)을 사용하여 브라우저의 확장에 IBM Aspera Connect 3.9.9를 설치합니다.
 * Aspera 전송 클라이언트에 대한 플랫폼 지원은 [IBM Aspera Connect 플랫폼 지원 매트릭스](https://www.asperasoft.com/company/support/transfer-clients/)를 참조하십시오.
+
+>[!NOTE]
+>
+>IBM Aspera Connect에 알려진 문제가 있습니다. IBM Aspera Connect 버전 3.10 이상에서는 빠른 다운로드가 작동하지 않습니다.
 
 ## 도메인 다운로드 {#download-domains}
 
@@ -208,7 +212,7 @@ Microsoft Edge에서 가속화된 다운로드 기능을 사용하려면 신뢰�
 
    포트가 OK가 아니면 네트워크 팀에 연락하여 포트 33001(TCP 및 UDP 모두)가 방화벽에서 차단되지 않았는지 확인합니다.
 
-1. 포트가 정상 상태일 경우 [https://www.speedtest.net/](https://www.speedtest.net/)을 사용하여 사용 가능한 대역폭을 측정하여 네트워크 속도가 느려지지 않는지 확인합니다.
+1. 포트가 정상이면 [https://www.speedtest.net/](https://www.speedtest.net/)을 사용하여 사용 가능한 대역폭을 측정하여 네트워크가 느리지 않은지 확인합니다.
 
    대역폭이 몇 개(1-10Mbps) 또는 Kbps인 경우 Aspera 환경 설정을 사용하고 사용 가능한 대역폭과 동일한 대역폭을 제한하려고 합니다.
 
