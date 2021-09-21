@@ -1,8 +1,8 @@
 ---
 title: Brand Portal에 동시 게시 문제 해결
-seo-title: Brand Portal에 동시 게시 문제 해결
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: 병렬 게시 문제 해결.
-seo-description: 병렬 게시 문제 해결.
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 4%
+source-wordcount: '873'
+ht-degree: 3%
 
 ---
 
@@ -123,6 +123,7 @@ Brand Portal에 게시하던 복제 에이전트가 게시 작업 처리를 중�
 일반적으로 복제 큐에 대기 중인 요청이 여러 개 있는 경우 게시 작업이 시간 초과 오류로 실패합니다. 이 문제를 해결하려면 복제 에이전트가 시간 제한을 방지하도록 구성되어 있는지 확인합니다.
 
 복제 에이전트를 구성하려면 다음 단계를 수행하십시오.
+
 1. AEM Assets 작성자 인스턴스에 로그인합니다.
 1. **도구** 패널에서 **[!UICONTROL 배포]** > **[!UICONTROL 복제]**&#x200B;로 이동합니다.
 1. 복제 페이지에서 **[!UICONTROL 작성자의 에이전트]**&#x200B;를 클릭합니다. Brand Portal 임차인의 4개의 복제 에이전트를 볼 수 있습니다.
