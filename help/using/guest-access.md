@@ -1,27 +1,27 @@
 ---
 title: Brand Portal에 대한 게스트 액세스
-seo-title: Brand Portal에 대한 게스트 액세스
-description: 게스트 액세스를 허용하고 인증을 받을 필요가 없는 많은 사용자를 온보딩하는 데 드는 노력을 절약할 수 있습니다.
-seo-description: 게스트 액세스를 허용하고 인증을 받을 필요가 없는 많은 사용자를 온보딩하는 데 드는 노력을 절약할 수 있습니다.
+seo-title: Guest Access to Brand Portal
+description: 게스트 액세스를 허용하고 인증 없이 많은 사용자를 온보딩하는 데 드는 노력을 절약할 수 있습니다.
+seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
 uuid: edb4378d-1710-44a2-97a6-594d99f62fff
-contentOwner: mgulati
+contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
 
 # Brand Portal에 대한 게스트 액세스 {#guest-access-to-brand-portal}
 
-AEM Brand Portal에서는 게스트가 포털에 액세스할 수 있습니다. 게스트 사용자는 포털에 액세스하는 데 자격 증명이 필요하지 않으며 포털의 공개 자산(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 Lightbox(개인 컬렉션)에 자산을 추가하고 세션이 지속될 때까지 이 자산을 다운로드할 수 있습니다. 이 작업은 게스트 사용자가 [[!UICONTROL 종료 세션]](#exit-guest-session)을 선택하지 않은 경우 세션 시작 2시간입니다.
+Experience Manager Assets Brand Portal을 통해 게스트가 포털에 액세스할 수 있습니다. 게스트 사용자는 포털에 액세스하는 데 자격 증명이 필요하지 않으며 포털의 공개 자산(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 게스트 사용자가 [[!UICONTROL 종료 세션]](#exit-guest-session)을 선택하지 않는 한 세션이 시작될 때까지 Lightbox(개인 컬렉션)에 자산을 추가하고 다운로드할 수 있습니다.
 
-게스트 액세스 기능을 통해 조직에서 [승인된 자산](../using/brand-portal-sharing-folders.md#how-to-share-folders)을 온보딩할 필요 없이 규모에 맞게 의도한 대상과 빠르게 공유할 수 있습니다. Brand Portal 6.4.2 버전은 여러 동시 게스트 사용자를 제공할 수 있으며, 이는 조직당 총 사용자 할당량 10%의 수치입니다. 게스트 액세스를 허용하면 Brand Portal에서 제한된 기능을 사용해야 하는 수십 명의 사용자를 관리하고 온보드 방식으로 관리하는 데 시간이 절약됩니다.\
+게스트 액세스 기능을 통해 조직에서 [승인된 자산](../using/brand-portal-sharing-folders.md#how-to-share-folders)을 온보딩할 필요 없이 규모에 맞게 의도한 대상과 빠르게 공유할 수 있습니다. Brand Portal 6.4.2 버전은 여러 동시 게스트 사용자를 제공할 수 있으며, 이는 조직당 총 사용자 할당량 10%의 수치입니다. 게스트 액세스를 허용하면 Brand Portal에서 제한된 기능을 가진 수십 명의 사용자를 관리하고 온보드 방식으로 관리하는 데 시간이 절약됩니다.\
 조직은 관리 도구 패널의 **[!UICONTROL 액세스]** 설정에서 **[!UICONTROL 게스트 액세스 허용]** 옵션을 사용하여 조직의 Brand Portal 계정에 대한 게스트 액세스를 활성화(또는 비활성화)할 수 있습니다.
 
 <!--
@@ -35,7 +35,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 게스트 세션 시작 {#begin-guest-session}
 
-Brand Portal을 익명으로 입력하려면 **[!UICONTROL 여기에**[!UICONTROL &#x200B;게스트 액세스에 해당하는 ]**을 클릭하세요.]** Brand Portal 시작 화면 Brand Portal 사용 액세스 권한을 부여하려면 catcha 보안 검사를 입력합니다.
+Brand Portal을 익명으로 입력하려면 **[!UICONTROL 여기에**[!UICONTROL &#x200B;게스트 액세스에 해당하는 ]**을 클릭하세요.]** Brand Portal 시작 화면 Brand Portal 사용 액세스 권한을 부여하려면 captcha 보안 검사를 입력합니다.
 
 ![](assets/bp-login-screen.png)
 
@@ -45,13 +45,13 @@ Brand Portal을 익명으로 입력하려면 **[!UICONTROL 여기에**[!UICONTRO
 게스트 사용자 세션이 15분 동안 활성 상태로 유지됩니다.
 즉, **[!UICONTROL Lightbox]**&#x200B;의 상태는 세션 시작 시간부터 15분 동안 유지되며, 현재 게스트 세션이 다시 시작된 후에는 Lightbox 상태가 손실됩니다.
 
-예를 들어 게스트 사용자가 1500시간에 Brand Portal에 로그인하고 15:05시간에 다운로드하도록 **[!UICONTROL Lightbox]**&#x200B;에 자산을 추가합니다. 사용자가 15:15시간(로그인 15분 이내) 전에 **[!UICONTROL Lightbox]** 컬렉션(또는 해당 자산)을 다운로드하지 않으면 세션을 다시 시작해야 합니다. **[!UICONTROL Lightbox]**&#x200B;가 비어 있으면, 세션이 손실되면 업로드된 자산을 더 이상 사용할 수 없습니다.
+예를 들어 게스트 사용자가 1500시간에 Brand Portal에 로그인하고 15:05시간에 다운로드하도록 **[!UICONTROL Lightbox]**&#x200B;에 자산을 추가합니다. 사용자가 15:15시간(로그인 시 15분 이내) 전에 **[!UICONTROL Lightbox]** 컬렉션(또는 해당 자산)을 다운로드하지 않으면 세션을 다시 시작해야 합니다. **[!UICONTROL Lightbox]**&#x200B;가 비어 있으면 세션이 손실된 경우 업로드된 자산을 더 이상 사용할 수 없습니다.
 
-## 허용되는 동시 게스트 세션 {#concurrent-guest-sessions-allowed}
+## 동시 게스트 세션 허용 {#concurrent-guest-sessions-allowed}
 
 동시 게스트 세션 수는 조직당 총 사용자 할당량의 10%로 제한됩니다. 즉, 사용자 할당량이 200명인 조직의 경우 최대 20명의 게스트 사용자가 동시에 작업할 수 있습니다. 21번째 사용자는 액세스가 거부되며 20명의 활성 게스트 사용자의 세션이 종료되는 경우에만 게스트로 액세스할 수 있습니다.
 
-## Brand Portal {#guest-user-interaction-with-brand-portal}과의 게스트 사용자 상호 작용
+## Brand Portal과의 게스트 사용자 상호 작용 {#guest-user-interaction-with-brand-portal}
 
 ### 게스트 UI 탐색
 
@@ -83,11 +83,12 @@ Brand Portal은 게스트 사용자에게 선택한 자산/폴더의 **[!UICONTR
 
 * 자산/폴더 선택 시 맨 위의 도구 모음에서 를 클릭합니다.
 * 드롭다운에서 레일 선택기 를 선택합니다.
-자산/폴더를 선택하는 동안 **[!UICONTROL 개요]** 옵션을 선택할 때 사용자가 자산을 만든 제목, 경로 및 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지에서 **[!UICONTROL 개요]** 옵션을 선택하면 자산의 메타데이터를 볼 수 있습니다.
+
+자산/폴더를 선택하는 동안 **[!UICONTROL 개요]** 옵션을 선택할 때 사용자가 자산을 만든 제목, 경로 및 시간을 볼 수 있습니다. 반면에 자산 세부 사항 페이지에서 **[!UICONTROL 개요]** 옵션을 선택하면 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)<br />
+![](assets/overview-rail-selector-1.png)
 
 **** 왼쪽 레일의 탐색 옵션을 사용하면 파일에서 컬렉션으로 탐색하고 게스트 세션으로 다시 돌아와 사용자가 파일이나 컬렉션의 자산을 검색할 수 있습니다.
 
