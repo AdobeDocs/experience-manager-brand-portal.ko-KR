@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 1%
+source-wordcount: '1026'
+ht-degree: 0%
 
 ---
 
@@ -50,6 +50,10 @@ Brand Portal을 익명으로 입력하려면 **[!UICONTROL 여기에**[!UICONTRO
 ## 동시 게스트 세션 허용 {#concurrent-guest-sessions-allowed}
 
 동시 게스트 세션 수는 조직당 총 사용자 할당량의 10%로 제한됩니다. 즉, 사용자 할당량이 200명인 조직의 경우 최대 20명의 게스트 사용자가 동시에 작업할 수 있습니다. 21번째 사용자는 액세스가 거부되며 20명의 활성 게스트 사용자의 세션이 종료되는 경우에만 게스트로 액세스할 수 있습니다.
+
+>[!NOTE]
+>
+>Brand Portal은 라이선스 사용자 수가 계약 값(할당량)을 초과하는 경우 알림을 보내지 않습니다. 또한 라이센스가 있는 사용자의 활동은 제한되지 않습니다.
 
 ## Brand Portal과의 게스트 사용자 상호 작용 {#guest-user-interaction-with-brand-portal}
 
