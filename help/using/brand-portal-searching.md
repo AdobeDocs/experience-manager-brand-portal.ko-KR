@@ -1,8 +1,8 @@
 ---
 title: Brand Portal에서 자산 검색
-seo-title: AEM Brand Portal에서 자산 검색 및 저장된 검색
+seo-title: Asset searching and saved search on AEM Brand Portal
 description: Brand Portal 검색 기능을 사용하면 omnisearch를 사용하여 관련 자산을 빠르게 검색할 수 있고, 검색 필터를 통해 검색 범위를 좁힐 수 있습니다. 나중에 검색을 스마트 컬렉션으로 저장합니다.
-seo-description: Brand Portal 검색 기능을 사용하면 omnisearch를 사용하여 관련 자산을 빠르게 검색할 수 있고, 검색 필터를 통해 검색 범위를 좁힐 수 있습니다. 나중에 검색을 스마트 컬렉션으로 저장합니다.
+seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1123'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Brand Portal 검색 기능을 사용하면 omnisearch 및 필터를 사용하는 패싯 검색을 사용하여 관련 자산을 빠르게 검색할 수 있으므로 검색 범위를 더 좁힐 수 있습니다. 나중에 검색을 스마트 컬렉션으로 저장할 수도 있습니다.
 
-## Omnisearch {#search-assets-using-omnisearch}를 사용하여 자산 검색
+## Omnisearch를 사용하여 자산 검색 {#search-assets-using-omnisearch}
 
 Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
 
@@ -45,11 +45,11 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
 
 스마트 태그가 지정된 자산의 검색 동작에 대해 알아보려면 [검색 결과 및 동작 이해](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)를 참조하십시오.
 
-## 필터 패널 {#search-using-facets-in-filters-panel}에서 패싯을 사용하여 검색
+## 필터 패널에서 패싯을 사용하여 검색 {#search-using-facets-in-filters-panel}
 
 필터 패널의 검색 패싯을 사용하면 검색 환경에 세부 사항을 추가하여 검색 기능을 효율적으로 수행할 수 있습니다. 검색 패싯에서는 복잡한 검색을 수행할 수 있는 여러 차원(설명)을 사용합니다. 보다 집중된 검색을 위해 원하는 세부 정보로 쉽게 드릴다운할 수 있습니다.
 
-예를 들어, 이미지를 찾는 경우 비트맵과 벡터 이미지 중 어느 것을 선택할지 선택할 수 있습니다. 파일 유형 검색 패싯에서 이미지에 대한 MIME 유형을 지정하여 검색 범위를 더 줄일 수 있습니다. 마찬가지로, 문서를 검색할 때 PDF 또는 MS Word 형식과 같은 형식을 지정할 수 있습니다.<br />
+예를 들어, 이미지를 찾는 경우 비트맵과 벡터 이미지 중 어느 것을 선택할지 선택할 수 있습니다. 파일 유형 검색 패싯에서 이미지에 대한 MIME 유형을 지정하여 검색 범위를 더 줄일 수 있습니다. 마찬가지로 문서를 검색할 때 형식(예: PDF 또는 MS Word 형식)을 지정할 수 있습니다.
 
 ![Brand Portal의 Brand ](assets/file-type-search.png "Portal 필터 패널의 필터 패널")
 

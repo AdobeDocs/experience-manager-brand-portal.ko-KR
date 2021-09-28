@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 3%
+source-wordcount: '1480'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Brand Portal FAQ는 최신 AEM Assets Brand Portal 6.4.6 릴리스 또는 이전
 
 **Ans.** 예. 기여도 폴더의 자산을 Adobe 개발자 콘솔을 통해 AEM 6.5.4의 AEM Assets에 게시하는 동안 알려진 문제가 있습니다.
 
-이 문제는 AEM 6.5.5에서 수정되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM 6.5.5로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://docs.adobe.com/content/help/ko/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 구성을 업그레이드할 수 있습니다.[
+이 문제는 AEM 6.5.5에서 수정되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM 6.5.5로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 구성을 업그레이드할 수 있습니다.[
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -58,6 +58,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 **Ans.** 일반적으로 복제 큐에 대기 중인 요청이 여러 개 있는 경우 시간 초과 오류로 인해 게시가 실패합니다. 이 문제를 해결하려면 복제 에이전트가 시간 제한을 방지하도록 구성되어 있는지 확인합니다.
 
 복제 에이전트를 구성하려면 다음 단계를 수행하십시오.
+
 1. AEM Assets 작성자 인스턴스에 로그인합니다.
 1. **도구** 패널에서 **[!UICONTROL 배포]** > **[!UICONTROL 복제]**&#x200B;로 이동합니다.
 1. 복제 페이지에서 **[!UICONTROL 작성자의 에이전트]**&#x200B;를 클릭합니다. Brand Portal 임차인에 대한 4개의 복제 에이전트를 볼 수 있습니다.

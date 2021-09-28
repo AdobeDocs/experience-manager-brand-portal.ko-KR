@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Manager Assets Brand Portal 안내서
-seo-title: Adobe Experience Manager Assets Brand Portal 안내서
+seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal 안내서
-seo-description: Brand Portal 사용 방법에 대해 설명합니다.
+seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 76%
+source-wordcount: '345'
+ht-degree: 75%
 
 ---
 
@@ -49,4 +49,4 @@ Brand Portal 솔루션 워크플로우는 다음 이미지에 표시되어 있�
 
 ### 유용한 리소스
 
-* [AEM Assets을 사용한 Brand Portal 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
+* [AEM Assets을 사용한 Brand Portal 이해](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

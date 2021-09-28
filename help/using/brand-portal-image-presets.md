@@ -1,8 +1,8 @@
 ---
 title: 이미지 사전 설정 또는 동적 변환 적용
-seo-title: 이미지 사전 설정 또는 동적 변환 적용
+seo-title: Apply image presets or dynamic renditions
 description: '매크로와 마찬가지로 이미지 사전 설정은 이름 아래에 저장된 크기 및 형식 지정 명령의 사전 정의된 컬렉션입니다. 이미지 사전 설정을 사용하면 AEM Assets Brand Portal에서 다양한 크기, 형식 및 속성의 이미지를 동적으로 제공할 수 있습니다. '
-seo-description: '매크로와 마찬가지로 이미지 사전 설정은 이름 아래에 저장된 크기 및 형식 지정 명령의 사전 정의된 컬렉션입니다. 이미지 사전 설정을 사용하면 AEM Assets Brand Portal에서 다양한 크기, 형식 및 속성의 이미지를 동적으로 제공할 수 있습니다. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '800'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 >이미지 및 해당 표현물을 다운로드할 때 기존 사전 설정 중에서 선택할 수 있는 옵션이 없습니다. 대신 사용자 지정 이미지 사전 설정의 속성을 지정할 수 있습니다. 자세한 내용은 [이미지를 다운로드할 때 이미지 사전 설정 적용](../using/brand-portal-image-presets.md#main-pars-text-1403412644)을 참조하십시오.
 
 
-이미지 사전 설정을 만드는 동안 필요한 매개 변수에 대한 자세한 내용은 [이미지 사전 설정 관리](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)를 참조하십시오.
+이미지 사전 설정을 만드는 동안 필요한 매개 변수에 대한 자세한 내용은 [이미지 사전 설정 관리](../using/brand-portal-image-presets.md)를 참조하십시오.
 
 ## 이미지 사전 설정 만들기 {#create-an-image-preset}
 
@@ -57,7 +57,7 @@ AEM 관리자는 자산 세부 사항 페이지에서 동적 변환으로 표시
 
    ![](assets/image_preset_homepage.png)
 
-1. **[!UICONTROL 이미지 사전 설정 편집]** 페이지에서 이름을 포함하여 **[!UICONTROL 기본]** 및 **[!UICONTROL 고급]** 탭에 값을 적절하게 입력합니다. 옵션은 [이미지 사전 설정 옵션](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)에 요약되어 있습니다. 사전 설정은 왼쪽 창에 나타나며 다른 자산과 함께 즉시 사용할 수 있습니다.
+1. **[!UICONTROL 이미지 사전 설정 편집]** 페이지에서 이름을 포함하여 **[!UICONTROL 기본]** 및 **[!UICONTROL 고급]** 탭에 값을 적절하게 입력합니다. 사전 설정은 왼쪽 창에 나타나며 다른 자산과 함께 즉시 사용할 수 있습니다.
 
    ![](assets/image_preset_create.png)
 

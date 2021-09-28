@@ -1,8 +1,8 @@
 ---
 title: Brand Portal의 자산 소싱
-seo-title: Brand Portal의 자산 소싱
+seo-title: Asset Sourcing in Brand Portal
 description: Adobe Experience Manager Assets Brand Portal에서 릴리스된 자산 소싱 기능에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Adobe Experience Manager Assets Brand Portal에서 릴리스된 자산 소싱 기능에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 >
 >AEM Assets 6.5.4에서 알려진 문제가 있습니다. Brand Portal 사용자는 Adobe 개발자 콘솔로 업그레이드할 때 기여도 폴더의 자산을 AEM Assets에 게시할 수 없습니다.
 >
->이 문제는 AEM 6.5.5에서 수정되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM 6.5.5로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://docs.adobe.com/content/help/ko/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 구성을 업그레이드할 수 있습니다.[
+>이 문제는 AEM 6.5.5에서 수정되었습니다. AEM Assets 인스턴스를 최신 서비스 팩 AEM 6.5.5로 업그레이드하고 Adobe 개발자 콘솔에서 ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 구성을 업그레이드할 수 있습니다.[
 
 <!--
 
@@ -117,6 +117,7 @@ AEM 관리자는 AEM Assets에서 활성 Brand Portal 사용자 목록이 들어
 관리자는 AEM Admin Console에서 새 사용자를 추가할 수 있습니다. 자세한 내용은 [사용자 관리](brand-portal-adding-users.md)를 참조하십시오. Admin Console에서 사용자를 추가하면 이러한 사용자를 Brand Portal 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
 
 **Brand Portal 사용자 목록을 업로드하려면 다음을 수행하십시오.**
+
 1. AEM Assets 인스턴스에 로그인합니다.
 1. **도구** 패널에서 **[!UICONTROL 자산]** > **[!UICONTROL Brand Portal 사용자]**&#x200B;로 이동합니다.
 

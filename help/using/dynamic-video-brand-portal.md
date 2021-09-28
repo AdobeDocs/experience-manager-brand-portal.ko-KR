@@ -1,8 +1,8 @@
 ---
 title: Brand Portal에서 동적 비디오 지원
-seo-title: Brand Portal에서 동적 비디오 지원
+seo-title: Dynamic video support on Brand Portal
 description: Brand Portal에서 동적 비디오 지원
-seo-description: Brand Portal에서 동적 비디오 지원
+seo-description: Dynamic video support on Brand Portal
 uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 3%
+source-wordcount: '1185'
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ Brand Portal 테넌트가 복제되는 AEM 작성자 인스턴스에서 설정�
 >
 >**[!UICONTROL Scene7Connect]** 실행 모드에서 실행되는 AEM Author로 구성된 Brand Portal 테넌트에서 동적 비디오가 지원되지 않습니다.
 
-## 다이내믹 비디오는 어떻게 재생됩니까?{#how-are-dynamic-videos-played}
+## 다이내믹 비디오는 어떻게 재생됩니까? {#how-are-dynamic-videos-played}
 
 ![비디오 인코딩을 클라우드에서 가져옵니다](assets/VideoEncodes.png)
 
@@ -69,7 +69,7 @@ Dynamic Media Hybrid 및 Dynamic Media **[!UICONTROL S7]**&#x200B;의 기능을 
 * **Brand Portal에 비디오 인코딩이 적용된 폴더**
 를 게시 [비디오 인코딩](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 을 적용하고 AEM 작성자 인스턴스의 리치 미디어 자산이 포함된 폴더를 Brand Portal에 게시합니다.
 * **보안 미리 보기가**
-활성화된 경우 SPS에서 IP 가져오기**[!DNL Scene 7]** ( [회사](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 에 대해  **[!DNL Scene 7]** 보안 미리 보기 사용)를 사용하는 경우  [회사 관리자가 SPS(](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) Scene 7 **[!UICONTROL Publishing System) 플래시 UI를 사용하여 각 지역]** 의 공용 송신IP를 관리하는 것이좋습니다.
+활성화된 경우 SPS에서 IP 가져오기**[!DNL Scene 7]** ( [회사](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 에 대해  **[!DNL Scene 7]** 보안 미리 보기 사용)를 사용하는 경우  [회사 관리자가 SPS(](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) Scene 7 **[!UICONTROL Publishing System) 플래시 UI를 사용하여 각 지역]** 의 공용 송신IP를 관리하는 것이좋습니다.
 송신 IP는 다음과 같습니다.
 
 | **지역** | **송신 IP** |
@@ -78,7 +78,7 @@ Dynamic Media Hybrid 및 Dynamic Media **[!UICONTROL S7]**&#x200B;의 기능을 
 | EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 
-이러한 송신 IP 중 하나를 허용리스트 지정하려면 [보안 테스트 서비스를 위한 계정 준비](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)를 참조하십시오.
+이러한 송신 IP 중 하나를 허용리스트 지정하려면 [보안 테스트 서비스를 위한 계정 준비](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)를 참조하십시오.
 
 ## 우수 사례
 
@@ -86,7 +86,8 @@ Brand Portal(및 공유 링크)에서 다이내믹 비디오 자산을 성공적
 
 ### Dynamic Media Hybrid 및 Dynamic Media Scene 7 모드에 대한 별도의 테넌트 {#separate-tenants}
 
-Dynamic Media **[!DNL Scene 7]** 및 Dynamic Media Hybrid 기능을 모두 사용하는 경우 Dynamic Media Hybrid 및 Dynamic Media **[!DNL Scene 7]** 모드로 구성된 AEM Author 인스턴스에 대해 서로 다른 Brand Portal 테넌트를 사용하는 것이 좋습니다.<br />
+Dynamic Media **[!DNL Scene 7]** 및 Dynamic Media Hybrid 기능을 모두 사용하는 경우 Dynamic Media Hybrid 및 Dynamic Media **[!DNL Scene 7]** 모드로 구성된 AEM Author 인스턴스용 서로 다른 Brand Portal 테넌트를 사용하는 것이 좋습니다.
+
 
 ![작성자 및 BP 1에서 1로의 매핑](assets/BPDynamicMedia.png)
 
@@ -96,9 +97,9 @@ Dynamic Media **[!DNL Scene 7]** 및 Dynamic Media Hybrid 기능을 모두 사�
 
 ### Dynamic Media 허용 목록에 추가하다 Scene 7 모드에 대한 공개 송신 IP
 
-Dynamic Media **[!UICONTROL 보안 미리 보기 활성화]**-with [비디오 자산을 Brand Portal에 제공하는 데 사용되는 경우, **[!UICONTROL Scene 7]**&#x200B;은 스테이징 환경 또는 내부 애플리케이션을 위한 전용 이미지 서버를 설정합니다. ](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록에 없으면 오류 응답이 반환됩니다.
+Dynamic Media **[!UICONTROL 보안 미리 보기 활성화]**-with [비디오 자산을 Brand Portal에 제공하는 데 사용되는 경우, **[!UICONTROL Scene 7]**&#x200B;은 스테이징 환경 또는 내부 애플리케이션을 위한 전용 이미지 서버를 설정합니다. ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록에 없으면 오류 응답이 반환됩니다.
 따라서 **[!UICONTROL Scene-7]** 회사 관리자는 **[!UICONTROL SPS]**(Scene-7 Publishing System) 플래시 UI를 통해 회사의 **[!UICONTROL 보안 테스트]** 환경에 대해 승인된 IP 주소 목록을 구성합니다. 해당 지역의 송신 IP(다음에서)가 해당 승인된 목록에 추가되어 있는지 확인합니다.
-이러한 송신 IP 중 하나를 허용리스트 지정하려면 [보안 테스트 서비스를 위한 계정 준비](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)를 참조하십시오.
+이러한 송신 IP 중 하나를 허용리스트 지정하려면 [보안 테스트 서비스를 위한 계정 준비](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)를 참조하십시오.
 송신 IP는 다음과 같습니다.
 
 | **지역** | **송신 IP** |
@@ -137,16 +138,21 @@ Brand Portal 테넌트에서 Dynamic Media **[!UICONTROL Scene 7]** 구성을 �
 
 1. Brand Portal의 맨 위에 있는 도구 모음에서 관리 도구에 액세스하려면 AEM 로고를 선택합니다.
 
-2. 관리 도구 패널에서 **[!UICONTROL Dynamic Media 구성]** 타일을 선택합니다.<br />
+2. 관리 도구 패널에서 **[!UICONTROL Dynamic Media 구성]** 타일을 선택합니다.
+
    ![Brand Portal의 DM  [!UICONTROL Scene 7]  구성](assets/DMS7-Tile.png)
-   **[!UICONTROL Dynamic Media 구성]** 편집 페이지가 열립니다.<br />
+
+   **[!UICONTROL Dynamic Media 구성]** 편집 페이지가 열립니다.
+
    ![Brand Portal의 Scene 7 구성](assets/S7Config.png)
 
 3. 제공:
+
    * **[!UICONTROL 제목]**
    * Scene 7 서버에 액세스할 수 있는 자격 증명(**[!UICONTROL 이메일 ID]** 및 **[!UICONTROL 암호]**)
-   * ****
-영역: 이러한 값이 AEM 작성자 인스턴스의 값과 동일한지 확인합니다.
+   * **[!UICONTROL 지역]**
+
+   이러한 값이 AEM 작성자 인스턴스의 값과 동일한지 확인합니다.
 
 4. **[!UICONTROL Dynamic Media에 연결]**&#x200B;을 선택합니다.
 

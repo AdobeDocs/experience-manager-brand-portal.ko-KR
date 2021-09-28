@@ -8,10 +8,10 @@ breadcrumb-title: Brand Portal 안내서
 user-guide-description: AEM Assets Brand Portal을 사용하면 승인된 브랜드 및 제품 에셋을 외부 기관, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 마케팅 요구 사항을 충족할 수 있습니다.
 feature: Brand Portal
 role: User
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 80%
+source-wordcount: '267'
+ht-degree: 79%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 80%
    + [FAQ](using/brand-portal-faqs.md)
    + [지원되는 파일 형식](using/brand-portal-supported-formats.md)
    + [Brand Portal에 대한 게스트 액세스](using/guest-access.md)
-   + [AEM Assets을 사용한 Brand Portal 이해](https://docs.adobe.com/content/help/ko-KR/experience-manager-brand-portal/using/home.html)
+   + [AEM Assets을 사용한 Brand Portal 이해](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Brand Portal에서 자산 검색](using/browse-assets-brand-portal.md)
 + AEM Assets에서 Brand Portal에 게시 {#publish}
    + [Brand Portal에서 AEM Assets 구성](using/configure-aem-assets-with-brand-portal.md)
-   + [자산을 Brand Portal에 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [폴더를 Brand Portal에 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [컬렉션을 Brand Portal에 게시](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [자산을 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [컬렉션을 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [Brand Portal에 동시 게시 문제 해결](using/troubleshoot-parallel-publishing.md)
    + [태그를 Brand Portal에 게시](using/brand-portal-publish-tags.md)
    + [사전 설정, 스키마 및 패싯을 Brand Portal에 게시](using/publish-schema-search-facets-presets.md)
