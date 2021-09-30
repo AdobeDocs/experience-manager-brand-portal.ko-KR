@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 13%
+source-wordcount: '396'
+ht-degree: 12%
 
 ---
 
@@ -100,8 +100,8 @@ This release includes the following enhancements:
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
-* Brand Portal에서 게시된 자산이 특정 기여도 폴더에 대한 Experience Manager 자산에 표시되지 않습니다.
-* 기여도 폴더의 게시가 취소되면 Brand Portal 테넌트에 대한 **[!UICONTROL totalUploadSize]**&#x200B;가 감소되지 않습니다.
+* 크기가 동일한 기여도 폴더의 자산은 Brand Portal에서 Experience Manager 자산에 게시되지 않습니다.
+* 기여도 폴더의 게재 여부는 게시 취소될 때 축소되지 않습니다.
 * 사용자가 폴더에서 적용된 메타데이터 스키마 프로필을 제거할 수 없습니다.
 * 사용자 권한 페이지의 그룹 수가 잘못되었습니다.
 * 목록을 탐색할 때 컬렉션 페이지가 너무 오래 걸립니다.
