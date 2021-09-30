@@ -1,8 +1,8 @@
 ---
 title: 릴리스 노트
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2021.08.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2021.10.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 10%
+source-wordcount: '391'
+ht-degree: 13%
 
 ---
 
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2021.08.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets Brand Portal 2021.10.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2021.08.0 |
-| 날짜 | 2021년 8월 |
+| 버전 | 2021.10.0 |
+| 날짜 | 2021년 10월 일 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2021.08.0의 새로운 기능 {#whats-new-in-2021.08.0}
+## 2021.10.0의 새로운 기능 {#whats-new-in-2021.10.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,22 +67,23 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users]() to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
+<!--
+### Enhancements {#enhancements}
 
-### 향상된 기능 {#enhancements}
+Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
 
-Brand Portal 2021.08.0은 기업 및 팀 고객을 위한 비즈니스 프로필을 도입하여 조직에 자산을 더 잘 제어할 수 있는 내부 릴리스입니다.
+This release includes the following enhancements:
 
-이 릴리스에는 다음 개선 사항이 포함됩니다.
+* The users now have organization-specific entitlement on the new and migrated organizations. If a user is entitled to multiple organizations, the user has to select the organization at the time of login.
 
-* 이제 사용자는 신규 및 마이그레이션된 조직에 대해 조직별 권한을 갖습니다. 사용자에게 여러 조직에 대한 권한이 부여된 경우 사용자는 로그인 시 조직을 선택해야 합니다.
-
-* Admin Console에 추가된 새 사용자는 **Join Team**&#x200B;에 가입하여 조직에 대한 권한 부여를 받아야 합니다.
+* The new users that are added in Admin Console must **Join Team** to get entitled to the organization. 
 
 >[!NOTE]
 >
->비즈니스 프로필은 현재 2021년 8월 16일 이후에 생성된 새 조직에 적용할 수 있습니다.
+>Business profiles are currently applicable for the new organizations that are created after August 16, 2021. 
 >
->조직이 마이그레이션될 때까지 Adobe ID, Enterprise ID 또는 Federated ID 유형을 사용하여 조직에 계속 액세스할 수 있습니다.
+>Until your organization is migrated, you can continue to use Adobe ID, Enterprise ID, or Federated ID types to access the organization.   
+-->
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -99,12 +100,19 @@ Brand Portal 2021.08.0은 기업 및 팀 고객을 위한 비즈니스 프로필
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
-* 자산 소싱 전자 메일 통지가 일부 조직에 대해 배달되지 않습니다.
+* Brand Portal에서 게시된 자산이 특정 기여도 폴더에 대한 Experience Manager 자산에 표시되지 않습니다.
+* 기여도 폴더의 게시가 취소되면 Brand Portal 테넌트에 대한 **[!UICONTROL totalUploadSize]**&#x200B;가 감소되지 않습니다.
+* 사용자가 폴더에서 적용된 메타데이터 스키마 프로필을 제거할 수 없습니다.
+* 사용자 권한 페이지의 그룹 수가 잘못되었습니다.
+* 목록을 탐색할 때 컬렉션 페이지가 너무 오래 걸립니다.
 
-* 확장명이 `.mov`인 비디오 파일이 Brand Portal에서 실행되고 있지 않습니다.
+<!--
+* Asset Sourcing email notifications are not delivered for some organizations. 
 
-* **[!UICONTROL 스마트 컬렉션]** 드롭다운 목록에서 10개의 저장된 컬렉션만 표시됩니다.
+* Video files with extension `.mov` are not running on Brand Portal. 
 
+* In the **[!UICONTROL Smart Collections]** dropdown list, only ten saved collections are visible. 
+-->
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
 -->
@@ -131,8 +139,6 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
    그러나 Brand Portal에 로그인한 활성 사용자는 현재 세션이 만료될 때까지 계속 작업할 수 있습니다.
 
 * Brand Portal에서 Admin Console으로 이동할 때 관리자는 조직을 선택할 수 있는 추가 화면이 표시될 수 있습니다.
-
-* 사용자가 폴더에서 적용된 메타데이터 스키마 프로필을 제거할 수 없습니다.
 
 
 <!--
