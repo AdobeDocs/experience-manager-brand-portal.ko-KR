@@ -1,8 +1,8 @@
 ---
-title: 자산을 업로드하고 Brand Portal의 기여도 폴더를 AEM Assets에 게시합니다
-seo-title: 자산을 업로드하고 Brand Portal의 기여도 폴더를 AEM Assets에 게시합니다
-description: 새 자산을 업로드하고 Brand Portal에서 AEM Assets으로 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
-seo-description: 새 자산을 업로드하고 Brand Portal에서 AEM Assets으로 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
+title: 자산을 업로드하고 Brand Portal의 기여도 폴더를 Experience Manager 자산에 게시합니다
+seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
+description: 새 자산을 업로드하고 Brand Portal에서 Experience Manager 자산에 기여도 폴더를 게시하는 방법에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,14 +10,14 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
 
-# 기여도 폴더를 AEM Assets {#using-asset-souring-in-bp}에 게시
+# 기여도 폴더를 Experience Manager 자산에 게시 {#using-asset-souring-in-bp}
 
 적절한 권한이 있는 Brand Portal 사용자는 여러 자산 또는 여러 자산이 들어 있는 폴더를 기여도 폴더에 업로드할 수 있습니다. 그러나 Brand Portal 사용자는 **NEW** 폴더에만 자산을 업로드할 수 있습니다. **공유** 폴더는 기여도를 위한 새 자산을 만드는 동안 Brand Portal 사용자가 사용할 수 있는 기준 자산(참조 컨텐츠)의 배포를 위한 것입니다.
 
@@ -25,16 +25,16 @@ ht-degree: 0%
 
 * [자산 요구 사항 다운로드](#download-asset-requirements)
 * [기여도 폴더에 새 자산 업로드](#uplad-new-assets-to-contribution-folder)
-* [AEM Assets에 기여도 폴더 게시](#publish-contribution-folder-to-aem)
+* [기여도 폴더를 Experience Manager 자산에 게시](#publish-contribution-folder-to-aem)
 
 ## 자산 요구 사항 다운로드 {#download-asset-requirements}
 
-Brand Portal 사용자는 기여 폴더가 AEM 사용자가 공유될 때마다 자동으로 이메일/펄스 알림을 수신하여, **SHARED** 폴더에서 간단한(자산 요구 사항) 문서를 다운로드하고 기본 자산(참조 컨텐츠)을 다운로드하여 자산 요구 사항을 이해할 수 있습니다.
+Brand Portal 사용자는 Experience Manager 자산 사용자가 기여도 폴더를 공유할 때마다 자동으로 이메일/펄스 알림을 수신하여 **SHARED** 폴더에서 간단한(자산 요구 사항) 문서를 다운로드하고 기본 자산(참조 컨텐츠)을 다운로드하여 자산 요구 사항을 이해할 수 있습니다.
 
 Brand Portal 사용자는 다음 활동을 수행하여 자산 요구 사항을 다운로드합니다.
 
-* **다운로드 개요**:자산 유형, 목적, 지원되는 형식, 최대 자산 크기 등과 같은 자산 관련 정보가 있는 기여도 폴더에 첨부된 간략한(자산 요구 문서)을 다운로드합니다.
-* **기준 자산 다운로드**:필요한 자산 유형을 이해하는 데 사용할 수 있는 기준 자산을 다운로드합니다. Brand Portal 사용자는 이러한 자산을 참조로 사용하여 기여할 새 자산을 만들 수 있습니다.
+* **다운로드 개요**: 자산 유형, 목적, 지원되는 형식, 최대 자산 크기 등과 같은 자산 관련 정보가 있는 기여도 폴더에 첨부된 간략한(자산 요구 문서)을 다운로드합니다.
+* **기준 자산 다운로드**: 필요한 자산 유형을 이해하는 데 사용할 수 있는 기준 자산을 다운로드합니다. Brand Portal 사용자는 이러한 자산을 참조로 사용하여 기여할 새 자산을 만들 수 있습니다.
 
 Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 사용자에게 허용된 모든 기존 폴더를 반영합니다. 이 예에서 Brand Portal 사용자는 새로 만든 기여도 폴더에만 액세스할 수 있고, 다른 기존 폴더는 사용자와 공유되지 않습니다.
 
@@ -64,7 +64,7 @@ Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 
 간략한(자산 요구 사항 문서)을 살펴보고 자산 요구 사항을 이해하려면 기준 자산을 참조하십시오. 이제 기여도를 위한 새 자산을 만들고 기여도 폴더에 업로드할 수 있습니다.
 
 
-## 자산을 기여도 폴더에 업로드 {#uplad-new-assets-to-contribution-folder}
+## 기여도 폴더에 자산 업로드 {#uplad-new-assets-to-contribution-folder}
 
 자산 요구 사항을 거친 후 Brand Portal 사용자는 기여할 새 자산을 만들고 기여도 폴더 내의 NEW 폴더에 업로드할 수 있습니다.
 
@@ -76,9 +76,9 @@ Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 
 
 >[!NOTE]
 >
->기여도 폴더를 AEM Assets에 게시한 후 업로드 공간을 해제하여 다른 Brand Portal 사용자가 기여하기 위해 사용할 수 있도록 하는 것이 좋습니다.
+>기여도 폴더를 Experience Manager 자산에 게시한 후에 업로드 공간을 해제하여 다른 Brand Portal 사용자가 기여하기 위해 사용할 수 있도록 하는 것이 좋습니다.
 >
->Brand Portal 테넌트의 업로드 제한을 **10** GB 이상으로 연장해야 하는 경우 요구 사항을 지정하는 Adobe 지원 센터에 문의하십시오.
+>Brand Portal 테넌트의 업로드 제한을 **10** GB 이상으로 연장해야 하는 경우 요구 사항을 지정하는 고객 지원 센터에 문의하십시오.
 
 
 **새 자산을 업로드하려면 다음을 수행하십시오.**
@@ -100,12 +100,12 @@ Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 
 
    ![](assets/upload-new-assets6.png)
 
-모든 자산 또는 폴더를 새 폴더에 업로드한 후 기여도 폴더를 AEM Assets에 게시합니다.
+모든 자산이나 폴더를 새 폴더에 업로드한 후 기여도 폴더를 Experience Manager 자산에 게시합니다.
 
 
-## 기여도 폴더를 AEM Assets {#publish-contribution-folder-to-aem}에 게시
+## 기여도 폴더를 Experience Manager 자산에 게시 {#publish-contribution-folder-to-aem}
 
-Brand Portal 사용자는 AEM 작성자 인스턴스에 액세스하지 않아도 기여도 폴더를 AEM Assets에 게시할 수 있습니다.
+Brand Portal 사용자는 Experience Manager 작성자 인스턴스에 액세스하지 않아도 기여도 폴더를 Experience Manager 자산에 게시할 수 있습니다.
 
 자산 요구 사항을 통과했는지 확인하고 기여도 폴더 내의 **NEW** 폴더에 새로 만든 자산을 업로드합니다.
 
@@ -121,31 +121,32 @@ Brand Portal 사용자는 AEM 작성자 인스턴스에 액세스하지 않아�
    ![](assets/publish-contribution-folder-to-aem1.png)
 
 게시 워크플로우의 여러 단계에서 Brand Portal 사용자 및 관리자에게 이메일/펄스 알림이 전송됩니다.
+
 1. **큐에 있음**  - Brand Portal에서 게시 작업 과정이 트리거될 때 Brand Portal 사용자 및 Brand Portal 관리자에게 알림이 전송됩니다.
 
-1. **완료**  - 기여도 폴더가 AEM Assets에 성공적으로 게시되면 Brand Portal 사용자 및 Brand Portal 관리자에게 알림이 전송됩니다.
+1. **완료**  - 기여도 폴더가 Experience Manager에 성공적으로 게시되면 Brand Portal 사용자 및 Brand Portal 관리자에게 알림이 전송됩니다.
 
-새로 만든 자산을 AEM Assets에 게시하면 Brand Portal 사용자는 새 폴더에서 삭제할 수 있습니다. 반면에 Brand Portal 관리자는 NEW 및 SHARED 폴더 모두에서 자산을 삭제할 수 있습니다.
+새로 만든 자산을 자산 Experience Manager에 게시하면 Brand Portal 사용자는 새 폴더에서 자산을 삭제할 수 있습니다. 반면에 Brand Portal 관리자는 NEW 및 SHARED 폴더 모두에서 자산을 삭제할 수 있습니다.
 
 기여 폴더를 만드는 목적이 달성되면 Brand Portal 관리자는 기여 폴더를 삭제하여 다른 사용자의 업로드 공간을 해제할 수 있습니다.
 
-## 작업 상태 {#publishing-job-status} 게시 중
+## 게시 작업 상태 {#publishing-job-status}
 
-관리자가 Brand Portal에서 AEM Assets으로 게시된 자산 기여 폴더의 상태를 보는 데 사용할 수 있는 두 개의 보고서가 있습니다.
+관리자가 Brand Portal에서 Experience Manager으로 게시된 자산 기여 폴더의 상태를 보는 데 사용할 수 있는 두 개의 보고서가 있습니다.
 
 * Brand Portal에서 **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여 상태]**&#x200B;로 이동합니다. 이 보고서는 게시 작업 과정의 여러 단계에 있는 모든 게시 작업 상태를 반영합니다.
 
    ![](assets/contribution-folder-status.png)
 
-* AEM Assets(온-프레미스 또는 관리 서비스)에서 **[!UICONTROL 자산]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
+* Experience Manager 자산(온-프레미스 또는 관리 서비스)에서 **[!UICONTROL 자산]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
 
    ![](assets/publishing-status.png)
 
-* Cloud Service으로 AEM Assets에서 **[!UICONTROL 자산]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다.
+* Assets를 Cloud Service으로 Experience Manager에서 **[!UICONTROL Assets]** > **[!UICONTROL 작업]**&#x200B;으로 이동합니다.
 
    또는 전역 탐색에서 **[!UICONTROL 작업]**&#x200B;으로 직접 이동할 수 있습니다.
 
-   이 보고서는 Brand Portal에서 AEM Assets으로 자산을 Cloud Service으로 가져오는 것을 포함하여 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
+   이 보고서는 Brand Portal에서 Experience Manager Assets으로 자산을 가져오는 것을 포함하여 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
 
    ![](assets/cloud-service-job-status.png)
 

@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
@@ -29,19 +29,19 @@ Brand Portal 사용자는
 
 >[!NOTE]
 >
->비디오를 사용하여 작업하고 Brand Portal에 게시하려면 AEM 작성자 인스턴스가 Dynamic Media 하이브리드 모드 또는 Dynamic Media **[!DNL Scene 7]** 모드에 설정되어 있는지 확인하십시오.
+>비디오를 사용하여 작업하고 Brand Portal에 게시하려면 Experience Manager 작성자 인스턴스가 Dynamic Media 하이브리드 모드 또는 Dynamic Media **[!DNL Scene 7]** 모드에 설정되어 있는지 확인하십시오.
 
 비디오를 미리 보고 재생하고 다운로드하려면 Brand Portal이 관리자에게 다음 두 가지 구성을 표시합니다.
 
 * [Dynamic Media 하이브리드 ](#configure-dm-hybrid-settings)
-구성AEM 작성자 인스턴스가 dynamic media 하이브리드 모드에서 실행 중인 경우.
+구성Experience Manager 작성자 인스턴스가 dynamic media 하이브리드 모드에서 실행 중인 경우.
 * [Dynamic  [!DNL Scene 7] ](#configure-dm-scene7-settings)
-Media 구성AEM 작성자 인스턴스가 다이내믹 미디어 모드에서 실행 중인 **[!DNL Scene 7]** 경우.
-Brand Portal 테넌트가 복제되는 AEM 작성자 인스턴스에서 설정한 구성을 기반으로 이러한 구성 중 하나를 설정합니다.
+Media 구성: Experience Manager 작성자 인스턴스가 다이내믹 미디어 모드에서 실행 중인 **[!DNL Scene 7]** 경우.
+Brand Portal 테넌트가 복제되는 Experience Manager 작성자 인스턴스에서 설정한 구성을 기반으로 이러한 구성 중 하나를 설정합니다.
 
 >[!NOTE]
 >
->**[!UICONTROL Scene7Connect]** 실행 모드에서 실행되는 AEM Author로 구성된 Brand Portal 테넌트에서 동적 비디오가 지원되지 않습니다.
+>**[!UICONTROL Scene7Connect]** 실행 모드에서 실행되는 Experience Manager 작성자로 구성된 Brand Portal 테넌트에서 동적 비디오가 지원되지 않습니다.
 
 ## 다이내믹 비디오는 어떻게 재생됩니까? {#how-are-dynamic-videos-played}
 

@@ -1,8 +1,8 @@
 ---
 title: 컬렉션 공유
-seo-title: 컬렉션 공유
-description: AEM Assets Brand Portal 관리자는 인증된 사용자와 컬렉션 또는 스마트 컬렉션을 공유 및 공유 취소할 수 있습니다. 편집자는 자신이 만든 컬렉션, 공유된 컬렉션 및 공개 컬렉션만 보고 공유할 수 있습니다.
-seo-description: AEM Assets Brand Portal 관리자는 인증된 사용자와 컬렉션 또는 스마트 컬렉션을 공유 및 공유 취소할 수 있습니다. 편집자는 자신이 만든 컬렉션, 공유된 컬렉션 및 공개 컬렉션만 보고 공유할 수 있습니다.
+seo-title: Share a collection
+description: Assets Brand Portal Experience Manager 관리자는 인증된 사용자와 컬렉션 또는 스마트 컬렉션을 공유 및 공유 취소할 수 있습니다. 편집자는 자신이 만든 컬렉션, 공유된 컬렉션 및 공개 컬렉션만 보고 공유할 수 있습니다.
+seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
    >
    >사용자의 역할은 컬렉션 내의 자산 및 폴더에 대한 액세스를 제어합니다. 사용자에게 자산에 대한 액세스 권한이 없는 경우 빈 컬렉션이 사용자와 공유됩니다. 또한 사용자의 역할은 컬렉션에 사용할 수 있는 작업을 제어합니다.
 
-## 컬렉션 공유 취소 {#unshare-a-collection}
+## 컬렉션 공유 안 함 {#unshare-a-collection}
 
 이전에 공유한 컬렉션의 공유를 취소하려면 다음을 수행하십시오.
 

@@ -1,36 +1,36 @@
 ---
 title: 폴더 공유
-seo-title: 폴더 공유
-description: Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 AEM 작성자 인스턴스에서 Brand Portal에 자산을 게시해야 합니다. 게시된 자산은 AEM 인스턴스로 복제를 구성하는 동안 구성되지 않은 경우 Brand Portal의 관리자가 아닌 사용자가 액세스할 수 없으며 이 사용자와 공유해야 합니다.
-seo-description: Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 AEM 작성자 인스턴스에서 Brand Portal에 자산을 게시해야 합니다. 게시된 자산은 AEM 인스턴스로 복제를 구성하는 동안 구성되지 않은 경우 Brand Portal의 관리자가 아닌 사용자가 액세스할 수 없으며 이 사용자와 공유해야 합니다.
+seo-title: Share folders
+description: Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 Experience Manager 자산 작성자 인스턴스에서 Brand Portal에 자산을 게시해야 합니다. 게시된 자산은 Brand Portal의 관리자가 아닌 사용자가 Experience Manager 인스턴스로 복제를 구성하는 동안 구성되지 않은 경우 해당 사용자와 공유해야 합니다.
+seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1110'
 ht-degree: 1%
 
 ---
 
-# Brand Portal {#share-folders}에서 폴더 공유
+# Brand Portal에서 폴더 공유 {#share-folders}
 
-Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 AEM 작성자 인스턴스에서 Brand Portal에 자산을 게시해야 합니다.
+Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 Experience Manager 작성자 인스턴스에서 Brand Portal에 자산을 게시해야 합니다.
 
-## Brand Portal {#folder-sharing-workflow-in-brand-portal}의 폴더 공유 워크플로우
+## Brand Portal의 폴더 공유 워크플로우 {#folder-sharing-workflow-in-brand-portal}
 
 다음은 폴더 공유 워크플로우 및 사용자 액세스에 대해 설명합니다.
 
-* 기본적으로 AEM Assets에서 Brand Portal으로 게시된 모든 폴더는 복제를 구성하는 동안 공개로 표시되지 않는 한 Brand Portal 관리자만 볼 수 있습니다.
+* 기본적으로 Experience Manager 자산에서 Brand Portal으로 게시된 모든 폴더는 복제를 구성하는 동안 공개로 표시되지 않는 한 Brand Portal 관리자만 볼 수 있습니다.
 * 관리자는 **[!UICONTROL 폴더 속성]** 콘솔을 사용하여 선택적 사용자 또는 그룹과 폴더를 공유합니다. 폴더가 공유되는 사용자나 그룹만 Brand Portal에 로그인한 후에 폴더를 볼 수 있습니다. 폴더가 다른 사용자에게 표시되지 않습니다.
 * 관리자는 **[!UICONTROL 폴더 속성]** 콘솔에서 **[!UICONTROL 공용 폴더]** 확인란을 통해 폴더를 공개하도록 선택할 수도 있습니다. 모든 사용자가 공용 폴더를 볼 수 있습니다.
 
 * 사용자 역할 및 권한에 관계없이 사용자가 Brand Portal에 로그인하면 모든 공용 폴더 및 해당 폴더와 직접 공유되거나 해당 폴더가 속한 그룹과 직접 공유되는 폴더가 표시됩니다. 비공개 폴더 또는 다른 사용자와 공유된 폴더는 모든 사용자에게 표시되지 않습니다.
 
-### Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}에서 사용자 그룹과 폴더 공유
+### Brand Portal에서 사용자 그룹과 폴더 공유 {#sharing-folders-with-user-groups-on-brand-portal}
 
 폴더의 자산에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 달라집니다. 하위 폴더는 상위 폴더에서 ACL을 상속하므로 이 동작은 AEM의 [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)에 의해 제어됩니다. 예를 들어, 폴더 A에 폴더 C가 들어 있는 폴더 B가 포함되어 있으면 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한이 있습니다. 폴더 B는 해당 ACL을 상속하고 폴더 C는 폴더 B의 하위 폴더는 해당 ACL을 상속합니다.
 
@@ -48,7 +48,7 @@ Brand Portal 복제를 구성하는 동안 **[!UICONTROL 공용 폴더 게시]**
 >
 >**[!UICONTROL 공용 폴더 게시]**&#x200B;를 활성화하는 옵션은 AEM 6.3.2.1 이상에서 사용할 수 있습니다.
 
-## 공유 폴더 {#access-to-shared-folders}에 액세스
+## 공유 폴더에 대한 액세스 {#access-to-shared-folders}
 
 다음 매트릭스에서는 다양한 사용자 역할에 대해 자산을 공유/공유 취소할 액세스 권한 및 권한을 설명합니다.
 
@@ -63,7 +63,7 @@ Brand Portal 복제를 구성하는 동안 **[!UICONTROL 공용 폴더 게시]**
 >
 >AEM 작성자와 함께 Brand Portal의 복제를 구성하는 동안 기본적으로 **[!UICONTROL 공용 폴더 게시]** 옵션이 비활성화됩니다. 옵션이 활성화되어 있으면 기본적으로 Brand Portal에 게시된 폴더에 모든 사용자(관리자가 아닌 사용자도)가 액세스할 수 있습니다.
 
-### 공유 폴더 {#non-admin-user-access-to-shared-folders}에 대한 관리자가 아닌 사용자 액세스
+### 공유 폴더에 대한 관리자가 아닌 사용자 액세스 {#non-admin-user-access-to-shared-folders}
 
 관리자가 아닌 사용자는 Brand Portal에서 공유된 폴더에만 액세스할 수 있습니다. 그러나 이러한 폴더가 로그인할 때 포털에 표시되는 방식은 **[!UICONTROL 폴더 계층 구조 활성화]** 구성의 설정에 따라 다릅니다.
 

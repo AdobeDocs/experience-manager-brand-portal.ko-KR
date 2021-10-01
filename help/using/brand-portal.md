@@ -1,22 +1,22 @@
 ---
-title: AEM Assets Brand Portal 개요
-seo-title: AEM Assets Brand Portal 개요
-description: AEM Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다.
-seo-description: AEM Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다.
+title: Assets Brand Portal Experience Manager 개요
+seo-title: Overview of Experience Manager Assets Brand Portal
+description: Experience Manager Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다.
+seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1528'
 ht-degree: 7%
 
 ---
 
-# AEM Assets Brand Portal 개요 {#overview-of-aem-assets-brand-portal}
+# Assets Brand Portal Experience Manager 개요 {#overview-of-aem-assets-brand-portal}
 
 마케터는 경우에 따라 채널 파트너 및 내부 비즈니스 사용자와 협력하여 관련 디지털 컨텐츠를 신속하게 작성, 관리 및 고객에게 전달해야 합니다. 전체 고객 여정에서 관련 컨텐츠를 적시에 제공하는 것은 더 많은 수요, 전환, 참여 및 고객 충성도를 높이는 데 매우 중요합니다.
 
@@ -24,24 +24,24 @@ ht-degree: 7%
 
 **Adobe Experience Manager(AEM) Assets Brand** Portal은 자산 분배 및 자산 기여 기능을 제공하여 전체적으로 배포된 Brand Portal 사용자와 효과적으로 공동 작업해야 하는 마케터의 요구 사항에 중점을 둡니다.
 
-자산 배포를 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 반면에, 자산 기여 기능을 사용하면 Brand Portal 사용자가 작성 환경에 액세스하지 않아도 자산을 Brand Portal에 업로드하고 AEM Assets에 게시할 수 있습니다. 기여도 기능은 Brand Portal **에서**자산 소싱이라고 합니다. 또한 Brand Portal 사용자(외부 에이전시/팀)의 자산 분배 및 기여에 대한 전반적인 Brand Portal 경험을 향상하고 자산의 출시 시간을 가속화하고, 규정 준수 및 무단 액세스의 위험을 감소시킵니다.
+자산 배포를 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 반면에, 자산 기여 를 사용하면 Brand Portal 사용자가 작성 환경에 액세스하지 않아도 자산을 Brand Portal에 업로드하고 자산을 Experience Manager에 게시할 수 있습니다. 기여도 기능은 Brand Portal **에서**자산 소싱이라고 합니다. 또한 Brand Portal 사용자(외부 에이전시/팀)의 자산 분배 및 기여에 대한 전반적인 Brand Portal 경험을 향상하고 자산의 출시 시간을 가속화하고, 규정 준수 및 무단 액세스의 위험을 감소시킵니다.
 Brand Portal](brand-portal-asset-sourcing.md)의 [자산 소싱을 참조하십시오.
 
 브라우저 기반 포털 환경을 사용하면 승인된 형식으로 자산을 쉽게 업로드, 탐색, 검색, 미리 보기 및 내보낼 수 있습니다.
 
-## Brand Portal로 AEM Assets 구성 {#configure-brand-portal}
+## Brand Portal로 Experience Manager Assets를 클라우드 서비스로 구성 {#configure-brand-portal}
 
 Brand Portal과 Adobe Experience Manager Assets를 구성하면 Brand Portal 사용자에 대한 자산 게시, 자산 분배 및 자산 기여 기능이 활성화됩니다.
 
 >[!NOTE]
 >
->AEM Assets as a Cloud Service, AEM Assets 6.3 이상에서 Brand Portal으로 AEM Assets을 구성할 수 있습니다.
+>Experience Manager Assets에서 Cloud Service, Experience Manager Assets 6.3 이상에서 Brand Portal으로 Experience Manager 자산 구성이 지원됩니다.
 
-AEM Assets as a Cloud Service은 Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal으로 자동으로 구성됩니다. 활성화 워크플로우는 백엔드에 필수 구성을 만들고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
+Cloud Service으로 Experience Manager 자산은 Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal으로 자동으로 구성됩니다. 활성화 워크플로우는 백엔드에 필수 구성을 만들고 Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
 
-반면, AEM Assets(온-프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 IMS(Adobe Identity Management Services) 토큰을 전달하는 Adobe 개발자 콘솔을 사용하여 Brand Portal으로 수동으로 구성합니다.
+반면에, Experience Manager 자산(온-프레미스 및 관리 서비스)은 Brand Portal 테넌트의 인증을 위해 IMS(Adobe Identity Management Services) 토큰을 전달하는 Adobe 개발자 콘솔을 사용하여 Brand Portal으로 수동으로 구성합니다.
 
-자세한 내용은 [Brand Portal에서 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
+자세한 내용은 [Brand Portal에서 Experience Manager 자산 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
 
 ## Brand Portal의 사용자 성향 {#Personas}
 
@@ -133,7 +133,7 @@ Brand Portal의 표준 사용자는 일반적으로 뷰어 역할을 가진 사�
 
 [컬렉션을 Brand Portal에 게시](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
-## Brand Portal url {#tenant-alias-for-portal-url}에 대한 대체 별칭
+## Brand Portal URL에 대한 대체 별칭 {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 이상에서 조직은 Brand Portal 임차인의 기존 URL에 대해 하나의 대체(별칭) URL을 가질 수 있습니다. 별칭 URL은 URL에 대체 접두사가 있어 만들 수 있습니다.\
 Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다. 예를 들어 기존 도메인 **[!UICONTROL geometritrix.brand-portal.adobe.com]**&#x200B;이 있는 조직은 요청 시 **[!UICONTROL geometrixx.brand-portal.adobe.com]**&#x200B;을 만들 수 있습니다.
@@ -142,11 +142,11 @@ Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은
 
 >[!NOTE]
 >
->기존 포털 URL에서 테넌트 이름에 대한 별칭을 가져오려면 조직이 새 테넌트 별칭 생성 요청을 통해 Adobe 지원에 문의해야 합니다. 이 요청은 먼저 별칭을 사용할 수 있는지 확인한 다음 별칭을 만들어 처리됩니다.
+>기존 포털 URL에서 테넌트 이름에 대한 별칭을 가져오려면 조직이 새 테넌트 별칭 생성 요청을 사용하여 고객 지원에 문의해야 합니다. 이 요청은 먼저 별칭을 사용할 수 있는지 확인한 다음 별칭을 만들어 처리됩니다.
 >
 >이전 별칭을 바꾸거나 이전 별칭을 삭제하려면 동일한 프로세스를 수행해야 합니다.
 
-## Brand Portal {#request-access-to-brand-portal}에 대한 액세스 요청
+## Brand Portal에 대한 액세스 요청 {#request-access-to-brand-portal}
 
 사용자는 로그인 화면에서 Brand Portal에 대한 액세스를 요청할 수 있습니다. 이러한 요청은 Brand Portal 관리자에게 전송되며, 이 관리자는 Adobe [!UICONTROL Admin Console]을 통해 사용자에게 액세스 권한을 부여합니다. 액세스 권한이 부여되면 사용자는 알림 이메일을 받게 됩니다.
 
@@ -187,7 +187,7 @@ Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은
 
    ![](assets/bplogin-request-access.png)
 
-## 제품 관리자는 액세스 권한 {#grant-access-to-brand-portal} 부여
+## 제품 관리자 액세스 권한 부여 {#grant-access-to-brand-portal}
 
 Brand Portal 제품 관리자는 받은 편지함에서 Brand Portal 알림 영역 및 이메일을 통해 액세스 요청을 받습니다.
 
@@ -228,5 +228,8 @@ Brand Portal을 유지 보수 목적으로 아래로 이동하도록 예약하�
 
 ## 관련 리소스 {#related-resources}
 
-* [고객 지원 Adobe](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
+<!--
+* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+-->
+
 * [AEM 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

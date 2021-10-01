@@ -1,26 +1,26 @@
 ---
 title: Brand Portal에서 자산 찾아보기
-seo-title: Brand Portal에서 자산 찾아보기
+seo-title: Browse assets on Brand Portal
 description: Brand Portal에서 다양한 보기 옵션 및 UI 요소를 사용하여 자산을 탐색하고, 자산 계층을 탐색하고, 자산을 검색합니다.
-seo-description: Brand Portal에서 다양한 보기 옵션 및 UI 요소를 사용하여 자산을 탐색하고, 자산 계층을 탐색하고, 자산을 검색합니다.
+seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
 
-# Brand Portal {#browsing-assets-on-brand-portal}에서 자산 찾아보기
+# Brand Portal에서 자산 찾아보기 {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal은 다양한 보기 옵션을 사용하여 리소스를 검색하고, 자산 계층을 탐색하고, 자산을 검색할 수 있도록 해주는 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
+Experience Manager Assets Brand Portal은 다양한 보기 옵션을 사용하여 리소스를 검색하고, 자산 계층을 탐색하고, 자산을 검색할 수 있도록 해주는 다양한 기능과 사용자 인터페이스 요소를 제공합니다.
 
-맨 위의 AEM 도구 모음에 있는 AEM 로고는 관리 도구 패널에 액세스할 수 있도록 관리 사용자가 쉽게 해줍니다.
+맨 위의 도구 모음에 있는 Experience Manager 로고는 관리 도구 패널에 쉽게 액세스할 수 있도록 해줍니다.
 
 ![](assets/aemlogo.png)
 

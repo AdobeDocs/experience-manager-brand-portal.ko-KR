@@ -1,24 +1,24 @@
 ---
 title: 지원되는 파일 형식
-seo-title: 지원되는 파일 형식
-description: '각 AEM Assets Brand Portal은 매트릭스에 표시된 대로 특정 파일 형식을 지원합니다. '
-seo-description: '각 AEM Assets Brand Portal은 매트릭스에 표시된 대로 특정 파일 형식을 지원합니다. '
+seo-title: Supported file formats
+description: '각 Experience Manager Assets Brand Portal은 매트릭스에 표시된 대로 특정 파일 형식을 지원합니다. '
+seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 46%
+source-wordcount: '315'
+ht-degree: 48%
 
 ---
 
 # 지원되는 파일 형식 {#supported-file-formats}
 
-각 AEM Assets Brand Portal은 매트릭스에 표시된 대로 특정 파일 형식을 지원합니다.
+각 Experience Manager Assets Brand Portal은 매트릭스에 표시된 대로 특정 파일 형식을 지원합니다.
 
 | 파일 형식 | Brand Portal에 게시된 자산 | Brand Portal에 게시된 표현물 | Brand Portal에 게시된 메타데이터 | Brand Portal에 게시된 축소판 | Brand Portal에 게시된 자산 세부 사항 페이지 | 링크 공유 | 링크 공유 축소판 | 링크 공유 미리 보기 |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|

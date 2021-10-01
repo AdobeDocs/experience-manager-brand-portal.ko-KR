@@ -1,26 +1,26 @@
 ---
 title: 태그를 Brand Portal에 게시
-seo-title: 태그를 Brand Portal에 게시
-description: AEM Assets에서 Brand Portal으로 태그를 게시하는 방법을 알아봅니다.
-seo-description: AEM Assets에서 Brand Portal으로 태그를 게시하는 방법을 알아봅니다.
+seo-title: Publish tags to Brand Portal
+description: Assets Experience Manager에서 Brand Portal으로 태그를 게시하는 방법을 알아봅니다.
+seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '610'
 ht-degree: 4%
 
 ---
 
 # 태그를 Brand Portal에 게시 {#publish-tags-to-brand-portal}
 
-AEM Assets에서 Brand Portal으로 태그를 게시하는 방법을 알아봅니다.
+Assets Experience Manager에서 Brand Portal으로 태그를 게시하는 방법을 알아봅니다.
 
-태그는 자산을 구성하고 연결된 자산의 검색 가능성을 높이는 데 유용합니다. 태그는 자산과 함께 첨부된 키워드 또는 레이블(메타데이터)으로 생각할 수 있으며 검색 결과로 자산을 빠르게 찾을 수 있습니다. AEM Assets에서 자산에 태그를 할당하는 방법은 [태그를 사용하여 자산 구성](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets) 을 참조하십시오.
+태그는 자산을 구성하고 연결된 자산의 검색 가능성을 높이는 데 유용합니다. 태그는 자산과 함께 첨부된 키워드 또는 레이블(메타데이터)으로 생각할 수 있으며 검색 결과로 자산을 빠르게 찾을 수 있습니다. Experience Manager 자산의 자산에 태그를 할당하는 방법을 알려면 [태그를 사용하여 자산 구성](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets) 을 참조하십시오.
 
 연결된 태그가 있는 자산(및 컬렉션)을 Brand Portal에 게시하면 태그(AEM의 자산 및 컬렉션과 연관된)가 Brand Portal에 자동으로 게시됩니다. 게시된 태그는 검색에서 관련 자산을 찾을 수 있도록 하는 데 유용합니다.
 

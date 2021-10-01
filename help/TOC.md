@@ -3,15 +3,15 @@ cloud: Experience Cloud
 product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
-user-guide-title: AEM Brand Portal
+user-guide-title: Adobe Experience Manager Assets Brand Portal
 breadcrumb-title: Brand Portal 안내서
-user-guide-description: AEM Assets Brand Portal을 사용하면 승인된 브랜드 및 제품 에셋을 외부 기관, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 마케팅 요구 사항을 충족할 수 있습니다.
+user-guide-description: Experience Manager Assets Brand Portal을 사용하여 승인된 브랜드 및 제품 자산을 외부 에이전시, 파트너, 내부 팀 및 리셀러에 안전하게 배포하여 마케팅 요구 사항을 충족할 수 있습니다.
 feature: Brand Portal
 role: User
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 79%
+source-wordcount: '277'
+ht-degree: 61%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 79%
 + [Brand Portal 안내서](using/home.md)
 + 소개 {#introduction}
    + [개요](using/brand-portal.md)
-   + [AEM Assets Brand Portal의 새로운 기능](using/whats-new.md)
+   + [Experience Manager Assets Brand Portal의 새로운 기능](using/whats-new.md)
    + [릴리스 노트](using/brand-portal-release-notes.md)
    + [FAQ](using/brand-portal-faqs.md)
    + [지원되는 파일 형식](using/brand-portal-supported-formats.md)
    + [Brand Portal에 대한 게스트 액세스](using/guest-access.md)
-   + [AEM Assets을 사용한 Brand Portal 이해](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [Experience Manager 자산을 사용하는 Brand Portal 이해](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Brand Portal에서 자산 검색](using/browse-assets-brand-portal.md)
-+ AEM Assets에서 Brand Portal에 게시 {#publish}
-   + [Brand Portal에서 AEM Assets 구성](using/configure-aem-assets-with-brand-portal.md)
++ Experience Manager 자산에서 Brand Portal에 게시 {#publish}
+   + [Brand Portal로 Experience Manager Assets를 클라우드 서비스로 구성](using/configure-aem-assets-with-brand-portal.md)
    + [자산을 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [컬렉션을 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
@@ -38,8 +38,8 @@ ht-degree: 79%
    + [사전 설정, 스키마 및 패싯을 Brand Portal에 게시](using/publish-schema-search-facets-presets.md)
 + Brand Portal의 자산 소싱 {#asset-sourcing-in-brand-portal}
    + [자산 소싱 개요](using/brand-portal-asset-sourcing.md)
-   + [AEM Assets에서 기여 폴더 구성](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [AEM Assets에 기여도 폴더 게시](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Experience Manager 자산에서 기여 폴더 구성](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [기여도 폴더를 Experience Manager 자산에 게시](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 사용자와 자산 공유 {#share}
    + [컬렉션 공유](using/brand-portal-share-collection.md)
    + [폴더 공유](using/brand-portal-sharing-folders.md)

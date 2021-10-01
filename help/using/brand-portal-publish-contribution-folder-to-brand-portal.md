@@ -1,8 +1,8 @@
 ---
-title: 'AEM Assets에서 Brand Portal으로 기여도 폴더 구성 및 게시 '
-seo-title: AEM Assets에서 Brand Portal으로 기여도 폴더 구성 및 게시
-description: AEM Assets에서 Brand Portal으로 기여도 폴더를 구성하고 게시하기 위한 통찰력을 얻을 수 있습니다.
-seo-description: AEM Assets에서 Brand Portal으로 기여도 폴더를 구성하고 게시하기 위한 통찰력을 얻을 수 있습니다.
+title: 'Experience Manager 자산에서 Brand Portal으로 기여도 폴더 구성 및 게시 '
+seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
+description: Experience Manager 자산에서 Brand Portal으로 기여도 폴더를 구성하고 게시하기 위한 통찰력을 얻을 수 있습니다.
+seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,34 +10,34 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
-# AEM Assets {#configure-contribution-folder}에서 기여 폴더 구성
+# Experience Manager 자산에서 기여 폴더 구성 {#configure-contribution-folder}
 
-공동 작업 자산 소싱의 경우 AEM 사용자(권한이 있는 관리자 및 비관리 사용자)는 **자산 기여도** 유형의 새 폴더를 만들 수 있으므로 Brand Portal 사용자가 만든 새 폴더를 자산 제출로 열 수 있도록 할 수 있습니다.  이렇게 하면 새로 만든 **기여도** 폴더 내에서 **SHARED** 및 **NEW**&#x200B;라는 두 개의 추가 하위 폴더를 만드는 워크플로우가 자동으로 트리거됩니다.
+공동 작업 자산 소싱의 경우, Experience Manager 자산 사용자(권한이 있는 관리자 및 비관리 사용자)는 **자산 기여도** 유형의 새 폴더를 만들 수 있으므로 Brand Portal 사용자가 만든 새 폴더를 자산 제출로 열 수 있습니다.  이렇게 하면 새로 만든 **기여도** 폴더 내에서 **SHARED** 및 **NEW**&#x200B;라는 두 개의 추가 하위 폴더를 만드는 워크플로우가 자동으로 트리거됩니다.
 
-그런 다음 AEM 사용자는 Brand Portal 폴더에 추가해야 하는 자산 유형과 기준 자산 세트에 대한 요약을 **SHARED** 폴더에 업로드하여 사용자가 필요한 정보를 갖도록 함으로써 자산 요구 사항을 정의합니다. 그런 다음 관리자는 새로 만든 기여도 폴더를 Brand Portal에 게시하기 전에 활성 Brand Portal 사용자에게 기여도 폴더에 대한 액세스 권한을 부여할 수 있습니다.
+그런 다음 Experience Manager 자산 사용자는 Brand Portal 사용자가 필요한 정보를 갖도록 기여도 폴더에 추가해야 하는 자산 유형과 기준 자산 세트에 대한 요약을 **SHARED** 폴더에 업로드하여 자산 요구 사항을 정의합니다. 그런 다음 관리자는 새로 만든 기여도 폴더를 Brand Portal에 게시하기 전에 활성 Brand Portal 사용자에게 기여도 폴더에 대한 액세스 권한을 부여할 수 있습니다.
 
-다음 비디오에서는 AEM Assets에서 기여도 폴더를 구성하는 방법을 보여 줍니다.
+다음 비디오에서는 Experience Manager 자산에서 기여도 폴더를 구성하는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-AEM 사용자는 기여 폴더를 구성하는 동안 다음 활동을 수행합니다.
+Experience Manager 자산 사용자는 기여 폴더를 구성하는 동안 다음 활동을 수행합니다.
 
 * [기여도 폴더 만들기](#create-contribution-folder)
 * [자산 요구 사항 업로드 및 기여자 할당](#configure-contribution-folder-properties)
 * [기준 자산 업로드](#uplad-new-assets-to-contribution-folder)
-* [AEM Assets의 기여도 폴더를 Brand Portal에 게시](#publish-contribution-folder-to-brand-portal)
+* [Experience Manager 자산의 기여도 폴더를 Brand Portal에 게시](#publish-contribution-folder-to-brand-portal)
 
-## 기여도 폴더 {#create-contribution-folder} 만들기
+## 기여도 폴더 만들기 {#create-contribution-folder}
 
 
-AEM 관리자와 관리자가 아닌 사용자가 새 폴더를 만들 권한이 있는 경우 AEM Assets에서 기여 폴더를 만들 수 있습니다.
+Experience Manager 자산 관리자와 관리자가 아닌 사용자가 새 폴더를 만들 권한이 있는 경우 Experience Manager 자산에서 기여 폴더를 만들 수 있습니다.
 기여도 폴더를 만들려면, 자산 기여도 유형의 새 폴더를 만드십시오. 이렇게 하면 Brand Portal 사용자가 만든 새 폴더를 자산 제출로 열 수 있습니다.  이렇게 하면 기여도 폴더 내에서 SHARED 및 NEW라는 두 개의 추가 하위 폴더를 만드는 워크플로우를 자동으로 트리거합니다.
 
 
@@ -48,16 +48,17 @@ AEM 관리자와 관리자가 아닌 사용자가 새 폴더를 만들 권한이
 기여도 폴더를 만드는 동안 기여도 폴더 속성을 별도로 구성할 수도 있습니다. 이 예에서는 속성을 별도로 구성합니다.
 
 **기여 폴더를 만들려면:**
-1. AEM Assets 인스턴스에 로그인합니다.
 
-1. **[!UICONTROL 자산]** > **[!UICONTROL 파일]**&#x200B;로 이동합니다. AEM Assets 저장소의 모든 기존 폴더를 나열합니다.
+1. Experience Manager 자산 인스턴스에 로그인합니다.
+
+1. **[!UICONTROL 자산]** > **[!UICONTROL 파일]**&#x200B;로 이동합니다. Experience Manager 자산 저장소의 모든 기존 폴더를 나열합니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 새 폴더를 만듭니다. **[!UICONTROL 폴더]** 만들기 대화 상자가 열립니다.
 
 1. 폴더의 **[!UICONTROL 제목]** 및 **[!UICONTROL 이름]**&#x200B;을 입력하고 **[!UICONTROL 자산 기여도]** 확인란을 선택합니다.
 폴더 이름을 지정하려면 공백 없이 소문자를 사용하는 것이 좋습니다.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. AEM Assets 저장소에 나열된 기여도 폴더를 볼 수 있습니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 자산 Experience Manager 저장소에 나열된 기여도 폴더를 볼 수 있습니다.
 
    >[!NOTE]
    >
@@ -71,19 +72,19 @@ AEM 관리자와 관리자가 아닌 사용자가 새 폴더를 만들 권한이
    ![](assets/contribution-folder.png)
 
 
-## 기여도 폴더 속성 {#configure-contribution-folder-properties} 구성
+## 기여도 폴더 속성 구성 {#configure-contribution-folder-properties}
 
-AEM 관리자는 기여 폴더의 속성을 구성하는 동안 다음 활동을 수행합니다.
+Experience Manager 자산 관리자는 기여 폴더의 속성을 구성하는 동안 다음 활동을 수행합니다.
 
-* **설명 추가**:기여 폴더에 대한 높은 수준의 설명을 제공합니다.
-* **업로드 개요**:자산 관련 정보가 포함된 자산 요구 사항 문서를 업로드합니다.
-* **기여자 추가**:기여도 폴더에 대한 액세스 권한을 부여할 Brand Portal 사용자를 추가합니다.
+* **설명 추가**: 기여 폴더에 대한 높은 수준의 설명을 제공합니다.
+* **업로드 개요**: 자산 관련 정보가 포함된 자산 요구 사항 문서를 업로드합니다.
+* **기여자 추가**: 기여도 폴더에 대한 액세스 권한을 부여할 Brand Portal 사용자를 추가합니다.
 
 자산 요구 사항은 기여자(Brand Portal 사용자)가 기여도 폴더의 요구 사항과 요구 사항을 이해하는 데 도움이 되도록 관리자가 제공하는 세부 정보를 나타냅니다. 관리자가 기여도 폴더 및 자산 관련 정보(예: 목적, 이미지 유형, 최대 크기 등)에 추가해야 하는 자산 유형에 대한 간단한 설명이 포함된 자산 요구 사항 문서를 업로드합니다.
 
 **기여도 폴더 속성을 구성하려면:**
 
-1. AEM Assets 인스턴스에 로그인합니다.
+1. Experience Manager 자산 인스턴스에 로그인합니다.
 
 1. **[!UICONTROL 자산 > 파일]**&#x200B;로 이동하여 기여 폴더를 찾습니다.
 1. 기여도 폴더를 선택하고 **[!UICONTROL 속성]**&#x200B;을 클릭하여 폴더 속성 창을 엽니다.
@@ -105,9 +106,9 @@ AEM 관리자는 기여 폴더의 속성을 구성하는 동안 다음 활동을
 
 >[!NOTE]
 >
->검색 결과는 AEM Assets에 구성된 Brand Portal 사용자 목록을 기반으로 합니다. 업데이트된 Brand Portal 사용자 목록이 있는지 확인합니다.
+>검색 결과는 Experience Manager 자산에 구성된 Brand Portal 사용자 목록을 기반으로 합니다. 업데이트된 Brand Portal 사용자 목록이 있는지 확인합니다.
 
-## 자산을 기여도 폴더에 업로드 {#uplad-new-assets-to-contribution-folder}
+## 기여도 폴더에 자산 업로드 {#uplad-new-assets-to-contribution-folder}
 
 Brand Portal 사용자는 기여의 필요성을 이해하기 위해 자산 요구 사항을 다운로드할 수 있습니다.
 그런 다음 기여도를 위한 새 자산을 만들고 기여도 폴더 내의 NEW 폴더에 업로드할 수 있습니다.
@@ -119,15 +120,15 @@ Brand Portal 사용자는 기여의 필요성을 이해하기 위해 자산 요�
 >모든 Brand Portal 임차인에 대한 최대 업로드 제한은 모든 기여도 폴더에 누적 적용되는 **10** GB입니다.
 
 
-새로 만든 자산을 AEM Assets에 게시하면 Brand Portal 사용자는 새 폴더에서 삭제할 수 있습니다. 반면에 Brand Portal 관리자는 NEW 및 SHARED 폴더 모두에서 자산을 삭제할 수 있습니다.
+새로 만든 자산을 자산 Experience Manager에 게시하면 Brand Portal 사용자는 새 폴더에서 자산을 삭제할 수 있습니다. 반면에 Brand Portal 관리자는 NEW 및 SHARED 폴더 모두에서 자산을 삭제할 수 있습니다.
 
 기여 폴더를 만드는 목적이 달성되면 Brand Portal 관리자는 기여 폴더를 삭제하여 다른 사용자의 업로드 공간을 해제할 수 있습니다.
 
 >[!NOTE]
 >
->기여도 폴더를 AEM Assets에 게시한 후 업로드 공간을 해제하여 다른 Brand Portal 사용자가 기여하기 위해 사용할 수 있도록 하는 것이 좋습니다.
+>기여도 폴더를 Experience Manager 자산에 게시한 후에 업로드 공간을 해제하여 다른 Brand Portal 사용자가 기여하기 위해 사용할 수 있도록 하는 것이 좋습니다.
 >
->Brand Portal 테넌트의 업로드 제한을 **10** GB 이상으로 연장해야 하는 경우 요구 사항을 지정하는 Adobe 지원 센터에 문의하십시오.
+>Brand Portal 테넌트의 업로드 제한을 **10** GB 이상으로 연장해야 하는 경우 요구 사항을 지정하는 고객 지원 센터에 문의하십시오.
 
 
 **새 자산을 업로드하려면 다음을 수행하십시오.**
@@ -149,17 +150,17 @@ Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 
 
    ![](assets/upload-new-assets3.png)
 
-모든 자산 또는 폴더를 새 폴더에 업로드한 후 기여도 폴더를 AEM Assets에 게시합니다.
+모든 자산이나 폴더를 새 폴더에 업로드한 후 기여도 폴더를 Experience Manager 자산에 게시합니다.
 
 
-## 기여도 폴더를 Brand Portal {#publish-contribution-folder-to-brand-portal}에 게시
+## Brand Portal에 기여도 폴더 게시 {#publish-contribution-folder-to-brand-portal}
 
-기여도 폴더가 구성되면 AEM 사용자(관리자/관리자가 아닌 사용자)가 AEM Assets의 기여도 폴더를 Brand Portal에 게시할 수 있습니다. 기여도 폴더에 액세스할 수 있는 권한이 있는 Brand Portal 사용자는 게시 작업이 완료되면 이메일/펄스 알림을 받게 됩니다.
+기여도 폴더가 구성되면 Experience Manager 자산 사용자(관리자/비관리 사용자)가 Experience Manager 자산의 기여도 폴더를 Brand Portal에 게시할 수 있습니다. 기여도 폴더에 액세스할 수 있는 권한이 있는 Brand Portal 사용자는 게시 작업이 완료되면 이메일/펄스 알림을 받게 됩니다.
 
 
 **기여도 폴더를 게시하려면 다음을 수행하십시오.**
 
-1. AEM Assets 인스턴스에 로그인합니다.
+1. Experience Manager 자산 인스턴스에 로그인합니다.
 
 1. **[!UICONTROL 자산 > 파일]** 로 이동하고 Brand Portal에 게시하려는 기여도 폴더를 찾습니다.
 1. 기여도 폴더를 선택하고 **[!UICONTROL 빠른 게시]** > **[!UICONTROL Brand Portal에 게시]**&#x200B;를 클릭합니다.
@@ -168,4 +169,4 @@ Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 
 
    기여도 폴더가 Brand Portal에 게시되면 성공 메시지가 표시됩니다.
 
-기여도 폴더에 지정된 Brand Portal 사용자에게 이메일/펄스 알림이 전송됩니다. Brand Portal 사용자는 기여도 폴더에 액세스하고 기여도를 시작할 수 있습니다. 참조: [자산을 기여도 폴더에 업로드하고 AEM Assets에 게시](brand-portal-publish-contribution-folder-to-aem-assets.md).
+기여도 폴더에 지정된 Brand Portal 사용자에게 이메일/펄스 알림이 전송됩니다. Brand Portal 사용자는 기여도 폴더에 액세스하고 기여도를 시작할 수 있습니다. 참조: [자산을 기여도 폴더에 업로드하고 자산 Experience Manager](brand-portal-publish-contribution-folder-to-aem-assets.md)에 게시.

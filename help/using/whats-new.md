@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6339'
-ht-degree: 2%
+source-wordcount: '6340'
+ht-degree: 1%
 
 ---
 
-# AEM Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
+# Experience Manager Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Adobe은 전체 Brand Portal 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 향상된 기능을 잠깐 살펴보십시오.
 
@@ -525,7 +525,7 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 
 ### URL에서 구성 가능한 테넌트 별칭
 
-조직은 URL에 대체 접두사를 포함하여 포털 URL을 사용자 지정할 수 있습니다. 기존 포털 URL에서 테넌트 이름에 대한 별칭을 가져오려면 조직이 Adobe 지원에 문의해야 합니다.
+조직은 URL에 대체 접두사를 포함하여 포털 URL을 사용자 지정할 수 있습니다. 기존 포털 URL에서 테넌트 이름에 대한 별칭을 가져오려면 조직이 고객 지원에 문의해야 합니다.
 
 Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다.\
 예를 들어 기존 도메인 **geometritrix.brand-portal.adobe.com**&#x200B;이 있는 조직은 요청 시 **geometrixx.brand-portal.adobe.com**&#x200B;을 만들 수 있습니다.
@@ -668,7 +668,7 @@ Brand Portal 6.4.1은 고객 경험을 향상하기 위해 브라우징, 검색,
 
 * 자산의 세부 사항 페이지에서 AEM에서 업로드된 오디오 파일을 미리 보는 새로운 기능입니다.
 * 자산 속성에 제공된 새 관련 자산 기능. AEM의 다른 소스/파생 자산과 관련되어 있고 Brand Portal에 게시된 자산은 이제 Brand Portal에서 관계를 유지하며, 속성 페이지의 관련 자산에 대한 링크가 있습니다.
-* 관리자가 아닌 사용자가 공개 컬렉션을 만들지 못하도록 제한하는 새로운 구성이 도입되었습니다. 조직은 Adobe 지원 팀과 협력하여 특정 계정에서 이 기능을 구성할 수 있습니다.
+* 관리자가 아닌 사용자가 공개 컬렉션을 만들지 못하도록 제한하는 새로운 구성이 도입되었습니다. 조직은 고객 지원 팀과 협력하여 특정 계정에서 이 기능을 구성할 수 있습니다.
 
 ### 검색 개선 사항
 

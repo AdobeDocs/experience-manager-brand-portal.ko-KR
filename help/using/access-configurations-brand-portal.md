@@ -1,8 +1,8 @@
 ---
 title: Brand Portal에 대한 관리자 액세스
-seo-title: Brand Portal에 대한 관리자 액세스
+seo-title: Administer user access on Brand Portal
 description: brand portal에서 게스트 액세스 및 새 사용자 액세스를 구성합니다.
-seo-description: brand portal에서 게스트 액세스 및 새 사용자 액세스를 구성합니다.
+seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 10%
+source-wordcount: '288'
+ht-degree: 9%
 
 ---
 
 # Brand Portal에 대한 관리자 액세스 {#administer-user-access-on-brand-portal}
 
-AEM Assets Brand Portal 6.4.2 이상에서 관리자는 관리자가 게스트 액세스를 구성하고 사용자가 조직의 Brand Portal에 대한 액세스를 요청할 수 있도록 허용합니다. 이러한 구성은 관리 패널에서 **[!UICONTROL 액세스 설정]** 구성으로 제공되었습니다. 두 설정은 기본적으로 비활성화됩니다.
+Adobe Experience Manager Assets Brand Portal 6.4.2 이상에서 관리자는 관리자가 게스트 액세스를 구성하고 사용자가 조직의 Brand Portal에 대한 액세스를 요청할 수 있도록 허용합니다. 이러한 구성은 관리 패널에서 **[!UICONTROL 액세스 설정]** 구성으로 제공되었습니다. 두 설정은 기본적으로 비활성화됩니다.
 
 ![](assets/access-configs.png)
 

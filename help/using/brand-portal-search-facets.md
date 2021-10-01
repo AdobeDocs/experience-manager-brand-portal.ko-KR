@@ -1,8 +1,8 @@
 ---
 title: 사용자 정의 검색 패싯 사용
-seo-title: 사용자 정의 검색 패싯 사용
+seo-title: Use custom search facets
 description: 관리자는 필터 패널에 검색 설명을 추가하여 검색을 사용자 지정하고 검색 기능을 다양하게 만들 수 있습니다.
-seo-description: 관리자는 필터 패널에 검색 설명을 추가하여 검색을 사용자 지정하고 검색 기능을 다양하게 만들 수 있습니다.
+seo-description: Administrators can add search predicates to the Filters panel to customize search and make the search functionality versatile.
 uuid: 986fba5a-fac5-4128-ac75-d04da5b52d45
 content-type: reference
 topic-tags: administration
@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 7%
+source-wordcount: '1279'
+ht-degree: 9%
 
 ---
 
@@ -27,13 +27,13 @@ Brand Portal은 [**필터** 패널](../using/brand-portal-searching.md#search-us
 
 >[!NOTE]
 >
->AEM에서는 조직에서 Brand Portal에서 동일한 양식을 다시 만드는 대신 [AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)에서 Brand Portal으로 사용자 지정된 검색 양식을 게시할 수 있습니다.
+>조직에서 Experience Manager 자산을 사용하면 Brand Portal에서 동일한 양식을 다시 만드는 대신 [AEM 작성자](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)에서 Brand Portal으로 사용자 지정된 검색 양식을 게시할 수 있습니다.
 
 ## 검색 설명 추가 {#add-a-search-predicate}
 
 **[!UICONTROL 필터]** 패널에 검색 설명을 추가하려면:
 
-1. 관리 도구에 액세스하려면 맨 위의 도구 모음에서 AEM 로고를 클릭합니다.
+1. 관리 도구에 액세스하려면 맨 위의 도구 모음에서 Experience Manager 로고를 클릭합니다.
 
    ![](assets/aemlogo.png)
 

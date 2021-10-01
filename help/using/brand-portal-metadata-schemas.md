@@ -1,8 +1,8 @@
 ---
 title: 메타데이터 스키마 양식 사용
-seo-title: 메타데이터 스키마 양식 사용
+seo-title: Use the metadata schema form
 description: 메타데이터 스키마는 속성 페이지의 레이아웃과 특정 스키마를 사용하는 자산에 대해 표시되는 메타데이터 속성을 설명합니다. 자산에 적용하는 스키마는 해당 속성 페이지에 나타나는 메타데이터 필드를 결정합니다.
-seo-description: 메타데이터 스키마는 속성 페이지의 레이아웃과 특정 스키마를 사용하는 자산에 대해 표시되는 메타데이터 속성을 설명합니다. 자산에 적용하는 스키마는 해당 속성 페이지에 나타나는 메타데이터 필드를 결정합니다.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1718'
 ht-degree: 6%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 6%
 
 메타데이터 스키마는 속성 페이지의 레이아웃과 특정 스키마를 사용하는 자산에 대해 표시되는 메타데이터 속성을 설명합니다. 자산에 적용하는 스키마는 해당 속성 페이지에 나타나는 메타데이터 필드를 결정합니다.
 
-각 자산에 대한 **[!UICONTROL 속성]** 페이지에는 자산의 MIME 유형에 따라 기본 메타데이터 속성이 포함됩니다. 관리자는 메타데이터 스키마 편집기를 사용하여 기존 스키마를 수정하거나 사용자 지정 메타데이터 스키마를 추가할 수 있습니다. AEM Assets Brand Portal은 다양한 MIME 유형의 자산에 대한 기본 양식을 제공합니다. 그러나 이러한 자산에 대한 사용자 지정 양식을 추가할 수도 있습니다.
+각 자산에 대한 **[!UICONTROL 속성]** 페이지에는 자산의 MIME 유형에 따라 기본 메타데이터 속성이 포함됩니다. 관리자는 메타데이터 스키마 편집기를 사용하여 기존 스키마를 수정하거나 사용자 지정 메타데이터 스키마를 추가할 수 있습니다. Experience Manager Assets Brand Portal은 다양한 MIME 유형의 자산에 대한 기본 양식을 제공합니다. 그러나 이러한 자산에 대한 사용자 지정 양식을 추가할 수도 있습니다.
 
 ## 메타데이터 스키마 양식 추가 {#add-a-metadata-schema-form}
 
 새 메타데이터 스키마 양식을 만들려면 다음을 수행하십시오.
 
-1. 맨 위에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
+1. 맨 위의 도구 모음에서 Experience Manager 로고를 클릭하여 관리 도구에 액세스합니다.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 메타데이터 스키마 양식을 편집하려면 다음을 수행합니다.
 
-1. 맨 위에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
+1. 맨 위의 도구 모음에서 Experience Manager 로고를 클릭하여 관리 도구에 액세스합니다.
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ ht-degree: 6%
 | **[!UICONTROL 번호]** | 숫자 구성 요소를 추가합니다. |
 | **[!UICONTROL 날짜]** | 날짜 구성 요소를 추가합니다. |
 | **[!UICONTROL 드롭다운]** | 드롭다운 목록을 추가합니다. |
-| **[!UICONTROL 표준 태그]** | 태그 추가. **참고:** 관리자는 경로 값을 변경해야 할 수 있습니다. 예를 들어, 관리자가 AEM에서 메타데이터 스키마 양식을 게시하는 경우(예:  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`경로에 테넌트 정보가 포함되지 않음)에  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL 스마트 태그]** | AEM 스마트 태그 추가 기능을 구매하고 구성한 경우 자동으로 감지된 태그. |
+| **[!UICONTROL 표준 태그]** | 태그 추가. **참고:** 관리자는 경로 값을 변경해야 할 수 있습니다. 예를 들어, Experience Manager 자산에서 메타데이터 스키마 양식을 게시하는 경우(예:  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`경로에 테넌트 정보가 포함되지 않은 경우)  `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL 스마트 태그]** | 자산 스마트 태그 추가 기능을 구매하고 구성한 경우 자동으로 감지된 태그입니다. |
 | **[!UICONTROL 숨김 필드]** | 숨김 필드를 추가합니다. 자산을 저장할 때 POST 매개 변수로 전송됩니다. |
 | **[!UICONTROL 자산 참조자]** | 이 구성 요소를 추가하여 자산에서 참조하는 자산 목록을 표시합니다. |
 | **[!UICONTROL 자산 참조]** | 를 추가하여 자산을 참조하는 자산 목록을 표시합니다. |
-| **[!UICONTROL 자산 등급]** | Brand Portal에 게시되기 전에 AEM Assets에서 추가한 자산의 평균 등급입니다. |
+| **[!UICONTROL 자산 등급]** | Brand Portal에 게시되기 전의 Experience Manager 자산에서 추가된 자산의 평균 등급입니다. |
 | **[!UICONTROL 상황에 맞는 메타데이터]** | 를 추가하여 자산의 속성 페이지에서 다른 메타데이터 탭 표시를 제어합니다. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->모든 메타데이터 필드는 자산의 메타데이터 편집기 양식에서 읽기 전용입니다. 자산을 Brand Portal에 게시하려면 먼저 자산의 메타데이터를 AEM Assets에서 편집해야 하므로
+>모든 메타데이터 필드는 자산의 메타데이터 편집기 양식에서 읽기 전용입니다. 자산이 Brand Portal에 게시되기 전에 자산의 메타데이터를 Experience Manager 자산에서 편집해야 하므로
 
 #### 스키마 양식에서 탭 추가 또는 삭제 {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal에서는 자산의 **[!UICONTROL 속성]** 페이지에 표시하�
 
 메타데이터 스키마 양식을 폴더에 적용하려면 다음을 수행합니다.
 
-1. 맨 위에 있는 AEM 도구 모음에서 Adobe 로고를 클릭하여 관리 도구에 액세스합니다.
+1. 맨 위의 도구 모음에서 Experience Manager 로고를 클릭하여 관리 도구에 액세스합니다.
 
    ![](assets/aemlogo.png)
 
@@ -195,7 +195,7 @@ Brand Portal을 사용하면 사용자 지정 스키마 양식만 삭제할 수 
 
 | **이름** | **유형** | **값** |
 |---|---|---|
-| exposedmimetype | 문자열 | image/jpeg |
+| exposedmimetype | String | image/jpeg |
 | mimetypes | String[] | image/png |
 
 * **exposedmimetype**: 매핑할 기존 양식의 이름

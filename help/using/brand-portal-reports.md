@@ -1,8 +1,8 @@
 ---
 title: 보고서를 사용한 작업
-seo-title: 보고서를 사용한 작업
-description: AEM Assets Brand Portal 관리자는 Brand Portal 사용에 대한 보고서를 보고, Brand Portal을 통해 공유되는 자산 다운로드, 만료, 게시 및 링크에 대한 보고서를 만들고, 관리하고 볼 수 있습니다.
-seo-description: AEM Assets Brand Portal 관리자는 Brand Portal 사용에 대한 보고서를 보고, Brand Portal을 통해 공유되는 자산 다운로드, 만료, 게시 및 링크에 대한 보고서를 만들고, 관리하고 볼 수 있습니다.
+seo-title: Work with reports
+description: Assets Brand Portal Experience Manager 관리자는 Brand Portal 사용에 대한 보고서를 보고, Brand Portal을 통해 공유되는 자산 다운로드, 만료, 게시 및 링크에 대한 보고서를 만들고, 관리하고 볼 수 있습니다.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '996'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 보고서를 보려면 다음 단계를 수행합니다.
 
-1. 맨 위의 도구 모음에서 AEM 로고를 탭/클릭하여 관리 도구에 액세스합니다.
+1. 맨 위의 도구 모음에서 Experience Manager 로고를 탭/클릭하여 관리 도구에 액세스합니다.
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    ![](assets/expiration-report.png)
 
-   **** 게시 보고서는 지정된 기간 동안 AEM에서 Brand Portal으로 게시되는 모든 자산에 대한 정보를 나열하고 제공합니다.
+   **** 게시 보고서는 지정된 기간 동안 Experience Manager 자산에서 Brand Portal으로 게시되는 모든 자산에 대한 정보를 나열하고 제공합니다.
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 다운로드, 만료 및 게시 보고서의 열을 사용자 지정하여 볼 수 있습니다. 보고서를 생성하려면 다음 단계를 수행합니다.
 
-1. 맨 위의 도구 모음에서 AEM 로고를 탭/클릭하여 관리 도구에 액세스합니다.
+1. 맨 위의 도구 모음에서 Experience Manager 로고를 탭/클릭하여 관리 도구에 액세스합니다.
 
 1. 관리 도구 패널에서 **[!UICONTROL 보고서 만들기/관리]**&#x200B;를 탭/클릭하여 **[!UICONTROL 자산 보고서]** 페이지를 엽니다.
 

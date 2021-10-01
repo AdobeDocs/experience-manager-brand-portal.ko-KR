@@ -10,20 +10,20 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 96ce77b306c207bb20e0fdc56dd218295fbaeffe
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '871'
 ht-degree: 3%
 
 ---
 
 # Brand Portal에 동시 게시 문제 해결 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal은 AEM Assets 작성자 인스턴스에서 원활하게 수집되거나 게시된 브랜드 자산을 승인하도록 AEM Assets으로 구성됩니다. [이 구성되면 Experience Manager 작성자는 복제 에이전트를 사용하여 선택한 자산을 Brand Portal 클라우드 서비스에 복제하여 Brand Portal 사용자의 승인을 받은 용도로 사용합니다. ](../using/configure-aem-assets-with-brand-portal.md) 여러 복제 에이전트가 Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 및 이상에서 사용하여 고속 병렬 게시를 허용합니다.
+Brand Portal은 Experience Manager 자산 작성자 인스턴스에서 원활하게 수집되거나 게시된 승인된 브랜드 자산을 Experience Manager 자산으로 구성합니다. [이 구성되면 Experience Manager 작성자는 복제 에이전트를 사용하여 선택한 자산을 Brand Portal 클라우드 서비스에 복제하여 Brand Portal 사용자의 승인을 받은 용도로 사용합니다. ](../using/configure-aem-assets-with-brand-portal.md) 여러 복제 에이전트가 Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 및 이상에서 사용하여 고속 병렬 게시를 허용합니다.
 
 >[!NOTE]
 >
->Adobe은 AEM Assets Brand Portal이 AEM Assets으로 성공적으로 구성되었는지 확인하기 위해 Experience Manager 6.4.1.0으로 업그레이드할 것을 권장합니다. Experience Manager 6.4의 제한 사항으로 인해 Brand Portal 및 복제가 포함된 AEM Assets을 구성할 때 오류가 발생합니다.
+>Adobe은 Experience Manager Assets Brand Portal이 Experience Manager 자산으로 성공적으로 구성되었는지 확인하려면 Experience Manager 6.4.1.0으로 업그레이드할 것을 권장합니다. Brand Portal과 함께 Experience Manager 자산을 구성하는 동안 Experience Manager 6.4의 제한 사항에 오류가 발생하여 복제가 실패합니다.
 
 **[!UICONTROL /etc/cloudservice]**&#x200B;에서 Brand Portal에 대한 클라우드 서비스를 구성할 때 필요한 모든 사용자 및 토큰이 자동으로 생성되고 저장소에 저장됩니다. 클라우드 서비스 구성이 생성되면 복제 및 복제 에이전트가 컨텐츠를 복제하는 데 필요한 서비스 사용자도 생성됩니다. 4개의 복제 에이전트를 생성합니다. 따라서 Experience Manager에서 Brand Portal으로 많은 자산을 게시하면 자산이 라운드 로빈을 통해 복제 에이전트 간에 큐에 올라가 배포됩니다.
 
@@ -49,7 +49,7 @@ Brand Portal은 AEM Assets 작성자 인스턴스에서 원활하게 수집되�
 
 복제 로그에 오류가 있는 경우 로그 보기:
 
-1. Adobe 지원에 문의하십시오.
+1. 고객 지원에 문의하십시오.
 
 1. [정리](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config)를 다시 시도하고 게시 구성을 다시 만듭니다.
 

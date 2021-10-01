@@ -1,8 +1,8 @@
 ---
 title: 관리자 일반 테넌트 구성
-seo-title: 관리자 일반 테넌트 구성
+seo-title: Administer general tenant configurations
 description: 다운로드 가속, 공개 스마트 컬렉션 생성, 공개 컬렉션 생성 등을 구성하고, 관리 사용자가 테넌트에 대한 자산을 삭제할 수 있도록 합니다.
-seo-description: 다운로드 가속, 공개 스마트 컬렉션 생성, 공개 컬렉션 생성 등을 구성하고, 관리 사용자가 테넌트에 대한 자산을 삭제할 수 있도록 합니다.
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 4%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
 # 관리자 일반 테넌트 구성 {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal을 통해 조직에서는 특정 테넌트에 대해 다음 기능을 구성할 수 있습니다.
+조직 Assets Brand Portal에서는 특정 테넌트에 대해 다음 기능을 구성할 수 있습니다.
 
 * 관리자별 자산 삭제
 * 관리자가 아닌 사용자의 공용 컬렉션 생성
@@ -44,7 +44,7 @@ AEM Assets Brand Portal을 통해 조직에서는 특정 테넌트에 대해 다
 다음 각 구성을 활성화/비활성화하려면 다음을 수행하십시오.
 
 1. 관리자 권한으로 로그인합니다.
-1. 맨 위의 도구 모음에서 관리 도구에 액세스할 AEM 로고를 선택합니다.
+1. 맨 위의 도구 모음에서 관리 도구에 액세스할 Experience Manager 로고를 선택합니다.
 1. 관리 도구 패널에서 **[!UICONTROL 일반]**&#x200B;을 선택하여 **[!UICONTROL 일반 설정]** 페이지를 엽니다.
 1. 각 전환 스위치를 사용하여 일반 구성을 활성화/비활성화합니다.
 1. **[!UICONTROL 변경 사항을 저장합니다.]**
