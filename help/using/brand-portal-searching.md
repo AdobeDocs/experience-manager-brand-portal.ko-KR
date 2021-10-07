@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1124'
 ht-degree: 7%
 
 ---
@@ -43,7 +43,7 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
 
    *omnisearch를 사용한 자산 검색*
 
-스마트 태그가 지정된 자산의 검색 동작에 대해 알아보려면 [검색 결과 및 동작 이해](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)를 참조하십시오.
+스마트 태그가 지정된 자산의 검색 동작에 대해 알아보려면 [검색 결과 및 동작 이해](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html)를 참조하십시오.
 
 ## 필터 패널에서 패싯을 사용하여 검색 {#search-using-facets-in-filters-panel}
 
@@ -72,10 +72,10 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
 
    * **[!UICONTROL 파일]** 유형 을 사용하여 찾고 있는 자산 파일의 유형(이미지, 문서, 멀티미디어, 아카이브)을 지정합니다. 또한 검색 범위를 좁힐 수 있습니다. 예를 들어 문서의 이미지 또는 형식(PDF 또는 MS Word)에 대한 MIME 유형(Tiff, Bitmap, GIMP 이미지)을 지정할 수 있습니다.
    * **[!UICONTROL 파일]** 크기 기준으로 자산을 검색합니다. 검색 범위를 좁힐 수 있도록 크기 범위의 하한과 상한을 지정하고 검색할 측정 단위를 지정할 수 있습니다.
-   * **** 승인(승인, 변경 요청, 거부, 보류 중) 및 만료와 같은 자산 상태를 기반으로 자산을 검색하는 상태.
+   * **** 승인(승인됨, 변경요청, 거부됨, 보류 중) 및 만료와 같은 자산 상태를 기반으로 자산을 검색하는 상태
    * **[!UICONTROL 자산]** 등급을 기준으로 자산을 검색하는 평균 등급.
    * **** 방향 자산의 방향(가로, 세로, 사각형)을 기반으로 자산을 검색합니다.
-   * **** 자산의 스타일(컬러, 모노크롬)을 기반으로 자산을 검색하려면 클릭합니다.
+   * **** 자산의 스타일(컬러, 모노크롬)을 기반으로 자산을 검색하려면 다음을 수행하십시오.
    * **[!UICONTROL 비디오]** 포맷에서 비디오 자산을 검색할 수 있습니다(DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
 
    기본 검색 양식을 편집하여 필터 패널에서 [사용자 정의 검색 패싯](../using/brand-portal-search-facets.md)을 사용할 수 있습니다.

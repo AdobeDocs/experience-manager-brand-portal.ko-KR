@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 2%
@@ -34,9 +34,9 @@ Brand Portal FAQ는 최신 Experience Manager Assets Brand Portal 6.4.6 릴리�
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Ques. Adobe 개발자 콘솔로 업그레이드한 후 기여도 폴더의 자산을 Brand Portal에서 Experience Manager Assets에 게시할 수 없습니다. 작성자 인스턴스가 Experience Manager 자산 6.5.4에 있습니다. 가능한 이유는 무엇입니까?**
+**Ques. Adobe 개발자 콘솔로 업그레이드한 후 기여도 폴더의 자산을 Brand Portal에서 Experience Manager Assets에 게시할 수 없습니다. 작성자 인스턴스는 Experience Manager Assets 6.5.4에 있습니다. 가능한 이유는 무엇입니까?**
 
-**Ans.** 예. Adobe 개발자 콘솔을 통해 기여도 폴더의 자산을 자산 6.5.4에 게시하는 동안 알려진 문제가 있습니다.
+**Ans.** 예. Adobe 개발자 콘솔을 통해 기여도 폴더의 자산을 Experience Manager Assets 6.5.4에 게시하는 동안 알려진 문제가 있습니다.
 
 Experience Manager Assets 6.5.5에서 문제가 해결되었습니다. Experience Manager Assets 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe 개발자 콘솔에서 구성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)을 [업그레이드할 수 있습니다.
 
@@ -46,14 +46,14 @@ Broken link of download hotfix, comment out this section until we have the lates
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 -->
 
-**Ques. Experience Manager 자산의 Brand Portal에서 게시된 기여도 폴더의 컨텐츠가 표시되지 않습니다. 가능한 이유는 무엇입니까?**
+**Ques. Experience Manager Assets의 Brand Portal에서 게시된 기여도 폴더의 컨텐츠가 표시되지 않습니다. 가능한 이유는 무엇입니까?**
 
-**Ans.** 구성을 확인하고 Brand Portal 테넌트가 하나의 Experience Manager Assets 작성자 인스턴스로만 구성되었는지 확인하려면 Assets Experience Manager 관리자에게 문의하십시오.
+**Ans.** Experience Manager Assets 관리자에게 문의하여 구성을 확인하고 Brand Portal 테넌트가 하나의 Experience Manager Assets 작성자 인스턴스로만 구성되어 있는지 확인하십시오.
 
-이 문제는 여러 Experience Manager Assets 작성자 인스턴스에서 Brand Portal 테넌트를 구성한 경우 발생할 수 있습니다. 예를 들어 관리자는 스테이징 및 프로덕션 환경의 Experience Manager Assets 작성자 인스턴스에 동일한 Brand Portal 테넌트를 구성합니다. 이 경우 자산 게시는 Brand Portal에서 트리거되지만 Experience Manager Assets 작성자 인스턴스에서 복제 에이전트가 요청 토큰을 받지 않는 자산 토큰을 가져올 수 없습니다.
+이 문제는 여러 Experience Manager Assets 작성자 인스턴스에서 Brand Portal 테넌트를 구성한 경우 발생할 수 있습니다. 예를 들어 관리자는 스테이징 및 프로덕션 환경의 Experience Manager Assets 작성자 인스턴스에 동일한 Brand Portal 테넌트를 구성합니다. 이 경우 자산 게시가 Brand Portal에서 트리거되지만 Experience Manager Assets 작성자 인스턴스에서 요청 토큰을 받지 않는 복제 에이전트가 자산 토큰을 가져올 수 없습니다.
 
 
-**Ques. Assets Experience Manager의 자산을 Brand Portal에 게시할 수 없습니다. 복제 로그에는 연결 시간이 초과되었음을 나타냅니다. 빠른 수정 사항이 있습니까?**
+**Ques. Experience Manager Assets의 자산을 Brand Portal에 게시할 수 없습니다. 복제 로그에는 연결 시간이 초과되었음을 나타냅니다. 빠른 수정 사항이 있습니까?**
 
 **Ans.** 일반적으로 복제 큐에 대기 중인 요청이 여러 개 있는 경우 시간 초과 오류로 인해 게시가 실패합니다. 이 문제를 해결하려면 복제 에이전트가 시간 제한을 방지하도록 구성되어 있는지 확인합니다.
 
@@ -74,7 +74,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **Ques. Brand Portal 6.4.5 릴리스의 주요 변경 사항은 무엇입니까?**
 
-**Ans.** Experience Manager Assets Brand Portal 6.4.5는 Brand Portal 사용자가 관리자 권한이 필요 없이 Brand Portal 인스턴스 내에서 컨텐츠를 업로드하고 기여도 폴더를 다시 Experience Manager 자산으로 게시할 수 있는 기능 릴리스입니다.
+**Ans.** Experience Manager Assets Brand Portal 6.4.5는 Brand Portal 사용자가 관리자 권한이 없어도 Brand Portal 인스턴스 내에서 컨텐츠를 업로드하고 기여도 폴더를 다시 Experience Manager Assets에 게시할 수 있는 기능 릴리스입니다.
 자세한 내용은 Brand Portal](brand-portal-asset-sourcing.md)의 [자산 소싱 을 참조하십시오.
 
 
@@ -100,13 +100,13 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **Ques. Brand Portal 사용자로 내 부분에 필요한 작업이 있습니까?**
 
-**Ans.** Brand Portal 6.4.5 릴리스에는 Asset Sourcing이라는 새로운 기능이 포함되어 있습니다. 관리자는 Brand Portal 사용자에 대해 기능을 활성화하려면 자산 Experience Manager에서 자산 소싱 기능을 구성해야 합니다. 자세한 내용은 [자산 소싱 사용](brand-portal-asset-sourcing.md)을 참조하십시오.
+**Ans.** Brand Portal 6.4.5 릴리스에는 Asset Sourcing이라는 새로운 기능이 포함되어 있습니다. 관리자는 Brand Portal 사용자를 위해 기능을 활성화하려면 Experience Manager Assets에서 자산 소싱 기능을 구성해야 합니다. 자세한 내용은 [자산 소싱 사용](brand-portal-asset-sourcing.md)을 참조하십시오.
 
 
 
 **Ques. 누가 기여도 폴더를 만들 수 있습니까?**
 
-**Ans.** Experience Manager 자산에서 새 폴더를 만들 수 있는 권한이 있는 모든 Experience Manager 자산 사용자는 기여도 폴더를 만들 수  **** 있습니다. **기여도** 폴더를 만들려면 **자산 기여도** 유형의 새 폴더를 만듭니다.
+**Ans.** Experience Manager Assets에서 새 폴더를 만들 수 있는 권한이 있는 모든 Experience Manager Assets 사용자는 기여 폴더를 만들 수  **** 있습니다. **기여도** 폴더를 만들려면 **자산 기여도** 유형의 새 폴더를 만듭니다.
 이 폴더는 기여를 위해 활성 Brand Portal 사용자와 공유됩니다.
 
 
@@ -132,7 +132,7 @@ Brand Portal 사용자는 **기여도** 폴더에 액세스하고 **NEW** 폴더
 
 **Ques. 자산을 허용된 폴더에 업로드할 수 있습니까?**
 
-**Ans.** 일부 허용된 폴더는 아닙니다. Brand Portal 사용자는 Experience Manager 자산 또는 Brand Portal 관리자가 공유하는 **기여도** 폴더에만 컨텐츠를 업로드할 수 있습니다.
+**Ans.** 일부 허용된 폴더는 아닙니다. Brand Portal 사용자는 Experience Manager Assets 또는 Brand Portal 관리자가 공유하는 **기여도** 폴더에만 컨텐츠를 업로드할 수 있습니다.
 
 
 
@@ -142,7 +142,7 @@ Brand Portal 사용자는 **기여도** 폴더에 액세스하고 **NEW** 폴더
 
 >[!NOTE]
 >
->기존 Brand Portal 사용자가 아닌 경우 Experience Manager Assets 관리자에게 요청하여 Admin Console에서 사용자를 만들고 프로필을 Brand Portal 사용자 목록의 사용자 구성 파일에 추가합니다.
+>기존 Brand Portal 사용자가 아닌 경우 Experience Manager Assets 관리자에게 문의하여 Admin Console에서 사용자를 만들고 Brand Portal 사용자 목록의 사용자 구성 파일에 프로필을 추가하십시오.
 
 **Ques. 사용자 가져오기에 대한 CSV 파일의 형식은 무엇입니까?**
 
@@ -158,19 +158,19 @@ Brand Portal 사용자는 **기여도** 폴더에 액세스하고 **NEW** 폴더
 
 **Ques. 가져오기 및 게시 작업의 상태는 어디에서 볼 수 있습니까?**
 
-**Ans.** Assets Experience Manager에서 비동기 작업 페이지에서 가져오기 상태를 확인할 수  **** 있습니다. Brand Portal에서는 **[!UICONTROL 도구 > 자산 기여 상태]**&#x200B;에서 게시 작업의 상태를 볼 수 있습니다.
+**Ans.** Experience Manager Assets에서는 비동기 작업 페이지에서 가져오기 상태를 볼  **** 수 있습니다. Brand Portal에서는 **[!UICONTROL 도구 > 자산 기여 상태]**&#x200B;에서 게시 작업의 상태를 볼 수 있습니다.
 
 
 
 **Ques. Experience Manager에서 주기적으로 실행되는 가져오기 작업의 빈도는 무엇입니까?**
 
-**Ans.** Experience Manager 자산에서 폴링은 5분마다 실행됩니다.
+**Ans.** Experience Manager Assets에서는 5분마다 폴링이 실행됩니다.
 
 
 
-**Ques. Brand Portal에서 Experience Manager Assets로 폴더를 게시할 수 있는 횟수에 제한이 있습니까?**
+**Ques. Brand Portal에서 Experience Manager Assets으로 폴더를 게시할 수 있는 횟수에 제한이 있습니까?**
 
-**Ans.** 아니요.  **** NEWfolder의 모든 자산은 이전에 게시되었는지에 관계없이 Experience Manager 자산에 게시됩니다. **기여도** 폴더가 Brand Portal에서 Experience Manager에 게시될 때마다 **NEW** 폴더의 컨텐츠를 무시합니다.
+**Ans.** 아니요.  **** NEWfolder의 모든 자산은 이전에 게시되었는지에 관계없이 Experience Manager Assets에 게시됩니다. **기여도** 폴더가 Brand Portal에서 Experience Manager Assets에 게시될 때마다 **NEW** 폴더의 컨텐츠를 무시합니다.
 
 
 
@@ -186,10 +186,10 @@ Brand Portal 사용자는 **기여도** 폴더에 액세스하고 **NEW** 폴더
 
 
 
-**Ques. Experience Manager Assets에서 유동적인 Brand Portal으로 폴더가 게시되면 어떻게 됩니까?**
+**Ques. 폴더가 Experience Manager Assets에서 Brand Portal으로 게시(flux인 폴더)되면 어떻게 됩니까?**
 
-**Ans.** Assets Experience Manager에서, 폴더가 Brand Portal에 게시될 때마다 로그가 유지됩니다. 게시 시, Brand Portal에 게시되지 않은 모든 자산은 복제 큐에 배치됩니다. 게시 작업이 트리거된 후 폴더에 추가된 모든 자산은 Brand Portal에 게시되지 않습니다. Experience Manager 자산 사용자가 폴더를 다시 게시하면 이전에 게시되지 않은(복제 큐에 있음) 자산만 Brand Portal에 게시됩니다.
-이 폴더는 Experience Manager 자산에서 Brand Portal으로 게시되고, 기여도 폴더 내의 공유 폴더에 대해 true입니다.
+**Ans.** Experience Manager Assets에서 폴더가 Brand Portal에 게시될 때마다 로그가 유지됩니다. 게시 시, Brand Portal에 게시되지 않은 모든 자산은 복제 큐에 배치됩니다. 게시 작업이 트리거된 후 폴더에 추가된 모든 자산은 Brand Portal에 게시되지 않습니다. Experience Manager Assets 사용자가 폴더를 다시 게시하면 이전에 게시되지 않은(복제 큐에 있음) 자산만 Brand Portal에 게시됩니다.
+이 폴더는 Experience Manager Assets에서 Brand Portal으로 게시된 모든 폴더와 기여도 폴더 내의 공유 폴더에 대해 true입니다.
 
 **Ques. 문의 사항은 누구에게 문의해야 합니까?**
 
@@ -207,5 +207,5 @@ Brand Portal 사용자는 **기여도** 폴더에 액세스하고 **NEW** 폴더
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support]()
 -->

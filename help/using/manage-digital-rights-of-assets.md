@@ -1,8 +1,8 @@
 ---
 title: 자산의 디지털 권한 관리
-seo-title: 자산의 디지털 권한 관리
+seo-title: Manage digital rights of assets
 description: 자산 라이선스 및 자산 및 공유 링크에 대한 만료 설정을 통해 이러한 자산의 사용을 제어하고 안전하게 보호할 수 있습니다.
-seo-description: 자산 라이선스 및 자산 및 공유 링크에 대한 만료 설정을 통해 이러한 자산의 사용을 제어하고 안전하게 보호할 수 있습니다.
+seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '805'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Brand Portal에서 관리자는 만료된 자산을 보고, 다운로드하고, 
 
 라이선스가 있는 자산은 Brand Portal에서 다운로드하기 전에 라이선스 계약을 수락해야 합니다. 라이선스가 있는 자산에 대한 이 계약은 Brand Portal에서 자산을 직접 다운로드하거나 공유 링크를 통해 다운로드할 때 제공됩니다. 만료되었거나 만료되지 않았더라도 라이선스로 보호된 자산은 모든 사용자가 볼 수 있습니다. 그러나 라이선스가 만료된 자산의 다운로드 및 사용은 제한됩니다. 만료된 라이선스가 있는 자산의 동작 및 사용자 역할에 따른 허용 활동에 대해 알아보려면 [만료된 자산의 사용 권한](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)을 참조하십시오.
 
-라이선스로 보호된 자산에는 [사용권 계약이 첨부되어 있습니다. 이 계약서는 AEM Assets에서 자산의 [메타데이터 속성](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)을 설정하여 수행됩니다.](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)
+라이선스로 보호된 자산에는 [사용권 계약이 첨부되어 있습니다. 이 계약서는 AEM Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)을 설정하여 수행됩니다.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)
 
 라이선스로 보호된 자산을 다운로드하도록 선택하면 **[!UICONTROL Copyright Management]** 페이지로 리디렉션됩니다.
 

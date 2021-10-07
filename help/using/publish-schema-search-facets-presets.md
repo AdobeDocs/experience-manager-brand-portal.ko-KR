@@ -1,18 +1,18 @@
 ---
 title: 사전 설정, 스키마 및 패싯을 Brand Portal에 게시
-seo-title: 사전 설정, 스키마 및 패싯을 Brand Portal에 게시
+seo-title: Publish presets, schema, and facets to Brand Portal
 description: 사전 설정, 스키마 및 패싯을 Brand Portal에 게시하는 방법을 알아봅니다.
-seo-description: 사전 설정, 스키마 및 패싯을 Brand Portal에 게시하는 방법을 알아봅니다.
+seo-description: Learn how to publish presets, schema, and facets to Brand Portal.
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 2%
+source-wordcount: '1141'
+ht-degree: 1%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 2%
 >
 >AEM 작성자 인스턴스에서 Brand Portal으로 이미지 사전 설정, 메타데이터 스키마 및 검색 패싯을 게시하는 기능은 AEM 6.2 SP1-CFP7 및 AEM 6.3 SP 1-CFP 1(6.3.1.1) 이상에서 사용할 수 있습니다.
 
-## Brand Portal {#publish-image-presets-to-brand-portal}에 이미지 사전 설정 게시
+## Brand Portal에 이미지 사전 설정 게시 {#publish-image-presets-to-brand-portal}
 
 이미지 사전 설정은 이미지 전달 시 이미지에 적용되는 크기 및 형식 지정 명령 세트입니다. Brand Portal에서 이미지 사전 설정을 만들고 수정할 수 있습니다. 또는 AEM 작성자 인스턴스가 다이내믹 미디어 모드에서 실행 중인 경우 AEM 작성기에서 사전 설정을 만들어 AEM Assets Brand Portal에 게시하고 Brand Portal에서 동일한 사전 설정을 다시 작성하지 않아도 됩니다.\
 사전 설정이 만들어지면 자산 세부 변환 레일과 다운로드 대화 상자에 동적 표현물로 나열됩니다.
 
 >[!NOTE]
 >
->AEM 작성자 인스턴스가 **[!UICONTROL Dynamic Media 모드]**&#x200B;에서 실행되고 있지 않은 경우(고객이 Dynamic Media을 구매하지 않은 경우) 업로드할 때 자산의 **[!UICONTROL Pyramid TIFF]** 표현물이 생성되지 않습니다. 이미지 사전 설정 또는 동적 표현물은 자산의 **[!UICONTROL Pyramid TIFF]**&#x200B;에서 작동하므로 AEM 작성자 인스턴스에서 **[!UICONTROL Pyramid TIFF]**&#x200B;를 사용할 수 없는 경우 Brand Portal에서도 사용할 수 없습니다. 그 결과, 자산 세부 사항 페이지 및 다운로드 대화 상자의 표현물 레일에 동적 표현물이 없습니다.
+>AEM 작성자 인스턴스가 **[!UICONTROL Dynamic Media 모드]**&#x200B;에서 실행되고 있지 않은 경우(고객이 Dynamic Media을 구매하지 않은 경우) 업로드할 때 자산의 **[!UICONTROL 피라미드 TIFF]** 표현물이 생성되지 않습니다. 이미지 사전 설정 또는 동적 표현물은 자산의 **[!UICONTROL 피라미드 TIFF]**&#x200B;에서 작동하므로 AEM 작성자 인스턴스에서 **[!UICONTROL 피라미드 TIFF]**&#x200B;를 사용할 수 없는 경우 Brand Portal에서도 사용할 수 없습니다. 그 결과, 자산 세부 사항 페이지 및 다운로드 대화 상자의 표현물 레일에 동적 표현물이 없습니다.
 
 Brand Portal에 이미지 사전 설정을 게시하려면:
 
@@ -49,7 +49,7 @@ Brand Portal에서 이미지 사전 설정 게시를 취소하려면,
 1. AEM 작성자 인스턴스에서 AEM 로고를 탭/클릭하여 전역 탐색 콘솔에 액세스하고 **[!UICONTROL 도구]** 아이콘을 탭/클릭하고 **[!UICONTROL 자산 > 이미지 사전 설정]**&#x200B;으로 이동합니다.
 1. 이미지 사전 설정을 선택하고 맨 위에 있는 옵션에서 **[!UICONTROL Brand Portal]**&#x200B;에서 제거 를 선택합니다.
 
-## 메타데이터 스키마를 Brand Portal {#publish-metadata-schema-to-brand-portal}에 게시
+## Brand Portal에 메타데이터 스키마 게시  {#publish-metadata-schema-to-brand-portal}
 
 메타데이터 스키마는 자산/컬렉션의 속성 페이지에 표시되는 레이아웃 및 속성을 설명합니다.
 
@@ -83,9 +83,9 @@ Brand Portal에서 메타데이터 스키마 게시를 취소하려면 다음을
 1. AEM 작성자 인스턴스에서 AEM 로고를 탭/클릭하여 전역 탐색 콘솔에 액세스하고 도구 아이콘을 탭/클릭하고 **[!UICONTROL 자산 > 메타데이터 스키마]**&#x200B;로 이동합니다.
 1. 메타데이터 스키마를 선택하고 맨 위에 있는 옵션에서 **[!UICONTROL Brand Portal]**&#x200B;에서 제거 를 선택합니다.
 
-## 검색 패싯을 Brand Portal {#publish-search-facets-to-brand-portal}에 게시
+## 검색 패싯을 Brand Portal에 게시 {#publish-search-facets-to-brand-portal}
 
-검색 양식은 Brand Portal의 사용자에게 [면처리된 검색](../using/brand-portal-search-facets.md) 기능을 제공합니다. 검색 패싯은 Brand Portal에서 검색하기 위해 더 세분화된 기능을 제공합니다. 검색 양식에 추가된 모든 [조건자는 검색 필터의 검색 패싯으로 사용할 수 있습니다.](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)
+검색 양식은 Brand Portal의 사용자에게 [면처리된 검색](../using/brand-portal-search-facets.md) 기능을 제공합니다. 검색 패싯은 Brand Portal에서 검색하기 위해 더 세분화된 기능을 제공합니다. 검색 양식에 추가된 모든 [조건자는 검색 필터의 검색 패싯으로 사용할 수 있습니다.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html)
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 12%
@@ -100,7 +100,7 @@ This release includes the following enhancements:
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
-* 크기가 동일한 기여도 폴더의 자산은 Brand Portal에서 Experience Manager 자산에 게시되지 않습니다.
+* 크기가 동일한 기여도 폴더의 자산은 Brand Portal에서 Experience Manager Assets에 게시되지 않습니다.
 * 자산 기여 폴더의 게시가 취소되면 기여 폴더의 크기가 감소되지 않습니다.
 * 사용자가 폴더에서 적용된 메타데이터 스키마 프로필을 제거할 수 없습니다.
 * 사용자 권한 페이지의 그룹 수가 잘못되었습니다.
@@ -220,5 +220,5 @@ Brand Portal 사용자 인터페이스는 다음 언어로 제공됩니다.
 -->
 
 <!--
-* [Customer Support](https://helpx.adobe.com/contact.html)
+* [Customer Support]()
 -->

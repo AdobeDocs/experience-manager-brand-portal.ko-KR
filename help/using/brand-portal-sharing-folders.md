@@ -1,7 +1,7 @@
 ---
 title: 폴더 공유
 seo-title: Share folders
-description: Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 Experience Manager 자산 작성자 인스턴스에서 Brand Portal에 자산을 게시해야 합니다. 게시된 자산은 Brand Portal의 관리자가 아닌 사용자가 Experience Manager 인스턴스로 복제를 구성하는 동안 구성되지 않은 경우 해당 사용자와 공유해야 합니다.
+description: Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 Experience Manager Assets 작성자 인스턴스에서 Brand Portal에 자산을 게시해야 합니다. 게시된 자산은 Brand Portal의 관리자가 아닌 사용자가 Experience Manager 인스턴스로 복제를 구성하는 동안 구성되지 않은 경우 해당 사용자와 공유해야 합니다.
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -9,9 +9,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 Expe
 
 다음은 폴더 공유 워크플로우 및 사용자 액세스에 대해 설명합니다.
 
-* 기본적으로 Experience Manager 자산에서 Brand Portal으로 게시된 모든 폴더는 복제를 구성하는 동안 공개로 표시되지 않는 한 Brand Portal 관리자만 볼 수 있습니다.
+* 기본적으로 Experience Manager Assets에서 Brand Portal으로 게시된 모든 폴더는 복제를 구성하는 동안 공개로 표시되지 않는 한 Brand Portal 관리자만 볼 수 있습니다.
 * 관리자는 **[!UICONTROL 폴더 속성]** 콘솔을 사용하여 선택적 사용자 또는 그룹과 폴더를 공유합니다. 폴더가 공유되는 사용자나 그룹만 Brand Portal에 로그인한 후에 폴더를 볼 수 있습니다. 폴더가 다른 사용자에게 표시되지 않습니다.
 * 관리자는 **[!UICONTROL 폴더 속성]** 콘솔에서 **[!UICONTROL 공용 폴더]** 확인란을 통해 폴더를 공개하도록 선택할 수도 있습니다. 모든 사용자가 공용 폴더를 볼 수 있습니다.
 
@@ -32,7 +32,7 @@ Brand Portal은 자산 수집을 지원하지 않으므로 사전 구성된 Expe
 
 ### Brand Portal에서 사용자 그룹과 폴더 공유 {#sharing-folders-with-user-groups-on-brand-portal}
 
-폴더의 자산에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 달라집니다. 하위 폴더는 상위 폴더에서 ACL을 상속하므로 이 동작은 AEM의 [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)에 의해 제어됩니다. 예를 들어, 폴더 A에 폴더 C가 들어 있는 폴더 B가 포함되어 있으면 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한이 있습니다. 폴더 B는 해당 ACL을 상속하고 폴더 C는 폴더 B의 하위 폴더는 해당 ACL을 상속합니다.
+폴더의 자산에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 달라집니다. 하위 폴더는 상위 폴더에서 ACL을 상속하므로 이 동작은 AEM의 [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)에 의해 제어됩니다. 예를 들어, 폴더 A에 폴더 C가 들어 있는 폴더 B가 포함되어 있으면 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한이 있습니다. 폴더 B는 해당 ACL을 상속하고 폴더 C는 폴더 B의 하위 폴더는 해당 ACL을 상속합니다.
 
 마찬가지로 폴더 B에만 액세스할 수 있는 권한이 있는 사용자 그룹(또는 사용자)은 폴더 C에는 동일한 액세스 권한이 있지만 폴더 A에는 액세스할 수 없습니다. 따라서 노출된 가장 많은 자산이 하위 폴더에 배치되도록 컨텐츠를 정렬하고 하위 폴더에서 루트 폴더 액세스로 제한할 수 있습니다.
 
@@ -79,7 +79,7 @@ Brand Portal 복제를 구성하는 동안 **[!UICONTROL 공용 폴더 게시]**
 
 이러한 상위 폴더는 가상 폴더이며, 가상 폴더에 대해 작업을 수행할 수 없습니다. 잠금 아이콘을 사용하여 이러한 가상 폴더를 인식할 수 있습니다.
 
-공유 폴더와 달리 **[!UICONTROL 카드 보기]**&#x200B;에서 작업을 선택하거나 마우스로 선택할 때 작업 작업이 표시되지 않습니다. **** 열 보기 및 목록 보기에서 가상 폴더를 선택할 때  **[!UICONTROL 개요]** 단추 **[!UICONTROL 가 표시됩니다]**.
+공유 폴더와 달리 **[!UICONTROL 카드 보기]**&#x200B;에서 작업을 선택하거나 마우스로 선택할 때 작업 작업이 표시되지 않습니다. **** [열 보기] 및 [목록 보기]에서 가상 폴더를  **[!UICONTROL 선택할 때]** 개요  **[!UICONTROL 단추가 표시됩니다]**.
 
 >[!NOTE]
 >

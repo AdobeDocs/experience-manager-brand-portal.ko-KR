@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1191'
 ht-degree: 2%
 
 ---
@@ -60,14 +60,14 @@ Dynamic Media 구성([Hybrid](../using/dynamic-video-brand-portal.md#configure-d
 Brand Portal에서 다이내믹 비디오를 사용하여 작업하려면 다음을 수행하십시오.
 
 * **DM(Dynamic Media)**
-모드에서 AEM 작성자 시작  [Dynamic Media Hybrid 모드 또는 ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Dynamic  [Mediamode [!DNL Scene 7] 에서 AEM 작성자 인스턴스(Brand Portal이 구성된 ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)인스턴스)를 시작합니다.
+모드에서 AEM 작성자 시작  [Dynamic Media Hybrid 모드 또는 ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) Dynamic  [Mediamode [!DNL Scene 7] 에서 AEM 작성자 인스턴스(Brand Portal이 구성된 ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html)인스턴스)를 시작합니다.
 * **AEM 작성자에서 Dynamic Media 클라우드 서비스**
-구성 AEM 작성자가 실행 중인 Dynamic Media 모드를 기반으로  [Dynamic Media 클라우드 ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) 서비스 또는  [[!DNL Scene 7] 도구](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 의 AEM 작성자에 대한  **클라우드 서비스** |  **Cloud Services** |  **Dynamic Media**.
+구성 AEM 작성자가 실행 중인 Dynamic Media 모드를 기반으로  [Dynamic Media 클라우드 ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) 서비스 또는  [[!DNL Scene 7] 도구](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) 의 AEM 작성자에 대한  **클라우드 서비스** |  **Cloud Services** |  **Dynamic Media**.
 * **Brand Portal에서 Dynamic Media**
 구성AEM 작성자의 Dynamic Media 클라우드 구성을 기반으로  [Dynamic Media ](#configure-dm-hybrid-settings) 설정 또는 Brand Portal 관리  [[!DNL Scene 7] ](#configure-dm-scene7-settings)  도구에서 설정을 구성합니다.
 Dynamic Media Hybrid 및 Dynamic Media **[!UICONTROL S7]**&#x200B;의 기능을 사용하는 경우, Dynamic Media Hybrid 및 Dynamic Media **[!UICONTROL Scene7]** 모드로 구성된 AEM Author 인스턴스에 별도의 Brand Portal 테넌트](#separate-tenants)가 사용되는지 확인하십시오.[
 * **Brand Portal에 비디오 인코딩이 적용된 폴더**
-를 게시 [비디오 인코딩](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 을 적용하고 AEM 작성자 인스턴스의 리치 미디어 자산이 포함된 폴더를 Brand Portal에 게시합니다.
+를 게시 [비디오 인코딩](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 을 적용하고 AEM 작성자 인스턴스의 리치 미디어 자산이 포함된 폴더를 Brand Portal에 게시합니다.
 * **보안 미리 보기가**
 활성화된 경우 SPS에서 IP 가져오기**[!DNL Scene 7]** ( [회사](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 에 대해  **[!DNL Scene 7]** 보안 미리 보기 사용)를 사용하는 경우  [회사 관리자가 SPS(](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) Scene 7 **[!UICONTROL Publishing System) 플래시 UI를 사용하여 각 지역]** 의 공용 송신IP를 관리하는 것이좋습니다.
 송신 IP는 다음과 같습니다.
@@ -114,7 +114,7 @@ AEM 작성자 인스턴스가 Dynamic Media 하이브리드 모드에서 실행 
 
 >[!NOTE]
 >
->[비디오 인코딩 프로필](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html)은 Brand Portal에 게시되지 않고, 대신 **[!UICONTROL Scene 7]** 서버에서 가져옵니다. 따라서 비디오 인코딩이 Brand Portal에서 성공적으로 재생되도록 하려면 구성 세부 사항이 AEM 작성자 인스턴스의 [[!UICONTROL Scene7 클라우드 구성]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices)와 동일한지 확인하십시오.
+>[비디오 인코딩 프로필](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html)은 Brand Portal에 게시되지 않고, 대신 **[!UICONTROL Scene 7]** 서버에서 가져옵니다. 따라서 비디오 인코딩이 Brand Portal에서 성공적으로 재생되도록 하려면 구성 세부 사항이 AEM 작성자 인스턴스의 [Scene7 클라우드 구성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html)과 동일한지 확인하십시오.
 
 Brand Portal 테넌트에 대해 Dynamic Media 구성을 설정하려면 다음을 수행하십시오.
 

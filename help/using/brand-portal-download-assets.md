@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 3%
@@ -28,9 +28,9 @@ Adobe Experience Manager Assets Brand Portal은 사용자가 Brand Portal에서 
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0(및 이상)에서 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정이 활성화되어 있습니다. 이 설정은 자산의 빠른 다운로드를 위해 IBM Aspera Connect를 사용합니다. Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장에 IBM Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치합니다. 자세한 내용은 [Brand Portal](../using/accelerated-download.md)에서 다운로드를 가속화하기 위한 안내서를 참조하십시오.
+>Brand Portal 2020.10.0(및 이상)에서 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 IBM Aspera Connect를 사용하여 자산의 빠른 다운로드를 지원합니다. Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장명에 IBM Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치합니다. 자세한 내용은 [Brand Portal](../using/accelerated-download.md)에서 다운로드를 가속화하기 위한 안내서를 참조하십시오.
 >
->IBM Aspera Connect를 사용하지 않고 일반 다운로드 프로세스를 계속 수행하려면 Brand Portal 관리자에게 문의하여 **[!UICONTROL 빠른 다운로드]** 설정을 끄십시오.
+>IBM Aspera Connect를 사용하지 않고 일반 다운로드 프로세스를 계속하려면 Brand Portal 관리자에게 문의하여 **[!UICONTROL 빠른 다운로드]** 설정을 끄십시오.
 
 ## 자산 다운로드 구성 {#configure-download}
 
@@ -65,7 +65,7 @@ Brand Portal 인터페이스에서 자산 표현물에 액세스 및 다운로�
 
    자산의 시스템 생성 변환을 다운로드할 수 있습니다.
 
-   다음은 &quot;DAM 자산 업데이트&quot; 워크플로우를 기반으로 Experience Manager 자산에서 자동으로 생성되는 축소판입니다.
+   다음은 &quot;DAM 자산 업데이트&quot; 워크플로우를 기반으로 Experience Manager Assets에서 자동으로 생성되는 축소판입니다.
 
 * **[!UICONTROL 에셋 다운로드]**
 
@@ -156,14 +156,14 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 
       >[!NOTE]
       >
-      >처음 자산을 다운로드하는 중에 브라우저에 IBM Aspera Connect가 설치되어 있지 않은 경우 Aspera 다운로드 가속기(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치하라는 메시지가 표시됩니다.
+      >자산을 처음 다운로드하고 브라우저에 IBM Aspera Connect가 설치되어 있지 않으면 Aspera 다운로드 가속기(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치하라는 메시지가 표시됩니다.
 
 
       >[!NOTE]
       >
       >다운로드하려는 자산에 라이선스가 있는 자산도 포함되어 있으면 **[!UICONTROL Copyright Management]** 페이지로 리디렉션됩니다. 이 페이지에서 자산을 선택하고 **[!UICONTROL 동의]**&#x200B;를 클릭한 다음 **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다. 동의하지 않기로 선택하면 라이선스가 있는 자산이 다운로드되지 않습니다.
       > 
-      >라이선스로 보호된 자산에 [사용권 계약이 첨부되어 있습니다. 이 작업은 Experience Manager 자산에서 자산의 [메타데이터 속성](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)을 설정하여 수행됩니다.](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)
+      >라이선스로 보호된 자산에는 [사용권 계약이 첨부되어 있습니다. 이 계약서는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)을 설정하여 수행됩니다.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)
 
 
       ![라이선스 자산](assets/licensed-asset-new.png)
@@ -190,11 +190,11 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 
    **[!UICONTROL 빠른 다운로드]**&#x200B;를 계속 사용하려면 **[!UICONTROL 허용]**&#x200B;을 클릭하십시오. 선택한 모든 표현물은 IBM Aspera Connect를 사용하여 zip 폴더에 다운로드됩니다.
 
-   IBM Aspera Connect를 사용하지 않으려면 **[!UICONTROL Deny]**&#x200B;를 클릭합니다. **[!UICONTROL 빠른 다운로드]**&#x200B;가 거부되거나 실패하면 시스템이 오류 메시지를 채웁니다. **[!UICONTROL 일반 다운로드]** 단추를 클릭하여 자산 다운로드를 계속합니다.
+   IBM Aspera 연결을 사용하지 않으려면 **[!UICONTROL 거부]**&#x200B;를 클릭합니다. **[!UICONTROL 빠른 다운로드]**&#x200B;가 거부되거나 실패하면 시스템이 오류 메시지를 채웁니다. **[!UICONTROL 일반 다운로드]** 단추를 클릭하여 자산 다운로드를 계속합니다.
 
 >[!NOTE]
 >
->관리자가 **[!UICONTROL 빠른 다운로드]** 설정을 해제하면 선택한 변환이 IBM Aspera Connect를 사용하지 않고 zip 폴더에서 직접 다운로드됩니다.
+>관리자가 **[!UICONTROL 빠른 다운로드]** 설정을 해제한 경우 선택한 변환은 IBM Aspera Connect를 사용하지 않고 zip 폴더에서 직접 다운로드됩니다.
 
 >[!NOTE]
 >
@@ -208,9 +208,9 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 >
 >Brand Portal은 - 하이브리드 및 Scene 7 모드에서 모두 Dynamic Media 구성을 지원합니다.
 >
->(*Experience Manager Assets 작성자 인스턴스가&#x200B;**Dynamic Media Hybrid 모드***에서 실행 중인 경우)
+>(*Experience Manager Assets 작성자 인스턴스가&#x200B;**Dynamic Media Hybrid 모드에서 실행 중인 경우***)
 >
->자산의 동적 변환을 미리 보거나 다운로드하려면 다이내믹 미디어가 활성화되어 있고 자산의 피라미드형 tiff 표현물이 자산이 게시된 Experience Manager Assets 작성자 인스턴스에 있는지 확인하십시오. 자산을 Experience Manager Assets에서 Brand Portal으로 게시하면 해당 Tiff 표현도 게시됩니다.
+>자산의 동적 변환을 미리 보거나 다운로드하려면 다이내믹 미디어가 활성화되어 있고 자산의 피라미드형 tiff 표현물이 자산이 게시된 Experience Manager Assets 작성자 인스턴스에 있는지 확인하십시오. 자산을 Experience Manager Assets에서 Brand Portal으로 게시하면 해당 Pyramid Tiff 표현도 게시됩니다.
 
 
 
@@ -252,7 +252,7 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 
 >[!NOTE]
 >
->관리자가 **[!UICONTROL 빠른 다운로드]** 설정을 해제하면 선택한 변환이 IBM Aspera Connect를 사용하지 않고 zip 폴더에서 직접 다운로드됩니다.
+>관리자가 **[!UICONTROL 빠른 다운로드]** 설정을 해제한 경우 선택한 변환은 IBM Aspera Connect를 사용하지 않고 zip 폴더에서 직접 다운로드됩니다.
 
 
 >[!NOTE]
@@ -328,7 +328,7 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
-     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+     >License-protected assets have [license agreement attached]() to them, which is done by setting asset's [metadata property]() in Experience Manager Assets.
 
 
      ![](assets/licensed-asset-download-1.png)

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1014'
 ht-degree: 4%
 
 ---
@@ -60,7 +60,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 * 크기
 * 크기
 
-카드를 탭하거나 클릭하여 계층 구조를 탐색하거나(빠른 작업이 발생하지 않도록 주의) 헤더](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)에서 [탐색 표시를 사용하여 위로 다시 탐색할 수 있습니다.
+카드를 탭하거나 클릭하여 계층 구조를 탐색하거나(빠른 작업이 발생하지 않도록 주의) 헤더](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)에서 [탐색 표시를 사용하여 위로 다시 탐색할 수 있습니다.
 
 ![](assets/cardquickactions.png)
 
@@ -109,7 +109,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 * 자산 계층 구조를 보여주는 폴더 경로<sup>*</sup>
 * Brand Portal에 자산을 게시하는 날짜
 
-경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 구조를 탐색하고 헤더](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)에서 [탐색 표시를 사용하여 백업할 수 있습니다.
+경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 구조를 탐색하고 헤더](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)에서 [탐색 표시를 사용하여 백업할 수 있습니다.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
