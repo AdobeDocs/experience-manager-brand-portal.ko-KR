@@ -1,7 +1,7 @@
 ---
 title: Brand Portal로 Experience Manager Assets를 클라우드 서비스로 구성
 seo-title: Configure Experience Manager Assets with Brand Portal
-description: Brand Portal으로 Experience Manager 자산 구성에 대한 통찰력을 얻을 수 있습니다.
+description: Brand Portal으로 Experience Manager Assets 구성에 대한 통찰력을 얻을 수 있습니다.
 seo-description: Get an insight into configuring Experience Manager Assets with Brand Portal.
 uuid: null
 content-type: reference
@@ -11,29 +11,29 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '421'
 ht-degree: 17%
 
 ---
 
 # Brand Portal로 Experience Manager Assets를 클라우드 서비스로 구성 {#configure-integration}
 
-Brand Portal과 Adobe Experience Manager Assets를 구성하면 Brand Portal 사용자에 대한 자산 게시, 자산 분배 및 자산 기여 기능이 활성화됩니다. Assets Experience Manager 사용자는 Brand Portal 사용자와 자산을 게시하고 배포할 수 있습니다. Brand Portal 사용자는 공유 자산에 액세스하고 새 자산을 자산 기여 폴더에 업로드하고 다시 Experience Manager 자산에 게시하여 기여할 수 있습니다.
+Brand Portal과 Adobe Experience Manager Assets를 구성하면 Brand Portal 사용자에 대한 자산 게시, 자산 분배 및 자산 기여 기능이 활성화됩니다. Experience Manager Assets 사용자는 Brand Portal 사용자와 자산을 게시하고 배포할 수 있습니다. Brand Portal 사용자는 공유 자산에 액세스하고 새 자산을 자산 기여 폴더에 업로드하고 다시 Experience Manager Assets에 게시하여 기여할 수 있습니다.
 
-Brand Portal과 Experience Manager 자산 구성이 지원됩니다.
+Brand Portal과 Experience Manager Assets을 구성할 수 있습니다.
 
 * Experience Manager Assets as a Cloud Service
-* Experience Manager 자산(온-프레미스 및 관리 서비스) 6.3 이상
+* Experience Manager Assets (온-프레미스 및 관리 서비스) 6.3 이상
 
-Cloud Service으로 Experience Manager 자산은 Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal으로 자동으로 구성됩니다. 활성화 워크플로우는 백엔드에 필수 구성을 만들고 Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
+Experience Manager Assets as a Cloud Service은 Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal으로 자동으로 구성됩니다. 활성화 워크플로우는 백엔드에 필수 구성을 만들고 Experience Manager Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
 
-반면에, Experience Manager 자산(온-프레미스 및 관리 서비스)은 Brand Portal 테넌트의 인증을 위해 IMS(Adobe Identity Management Services) 토큰을 전달하는 Adobe 개발자 콘솔을 사용하여 Brand Portal으로 수동으로 구성합니다.
+반면, Experience Manager Assets(온-프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 IMS(Adobe Identity Management Services) 토큰을 전달하는 Adobe 개발자 콘솔을 사용하여 Brand Portal으로 수동으로 구성합니다.
 
 >[!NOTE]
 >
->***Experience Manager 자산 6.3 이상의 경우***
+>***Experience Manager Assets 6.3 이상용***
 >
 >이전에는 Brand Portal이 기존 OAuth 게이트웨이를 통해 클래식 인터페이스에 구성되었으며, 이 게이트웨이는 인증을 위해 IMS 토큰을 가져오는 데 JWT(JSON 웹 토큰) 교환을 사용합니다.
 >
@@ -56,4 +56,4 @@ Brand Portal으로 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 | **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4(6.4.8.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [구성 업그레이드](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | 지원 문의 | 지원 문의 |
+| **AEM 6.2** | 고객 지원에 문의 | 고객 지원에 문의 |

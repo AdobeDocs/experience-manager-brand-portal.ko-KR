@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
 workflow-type: tm+mt
-source-wordcount: '6340'
+source-wordcount: '6294'
 ht-degree: 1%
 
 ---
@@ -109,17 +109,17 @@ Brand Portal 2021.06.0은 중요한 문제에 대한 수정 사항이 포함된 
 
 ## 2021.02.0 변경 사항 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0은 AEM Assets as a Cloud Service으로 Brand Portal 활성화 워크플로우를 가져오고, AEM Assets의 Cloud Service 자산 소싱 기능을 쉽게 하고, 자산 다운로드 경험의 개선 사항을 포함하고 있는 개선 사항 릴리스입니다. 또한 관리자는 임차인 수준에서 폴더, 컬렉션 및 자산의 벌크 다운로드의 기본 다운로드 동작을 구성할 수 있습니다. Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;도 활성 Brand Portal 사용자를 반영하도록 수정되었습니다.
+Brand Portal 2021.02.0은 AEM Assets as a Cloud Service에서 Brand Portal 활성화 워크플로우를 제공하는 개선 사항 릴리스이며, AEM Assets에서 자산 소싱 기능을 간편하게 하고, 자산 다운로드 경험의 개선 사항을 포함하며, 중요한 수정 사항을 포함합니다. 또한 관리자는 임차인 수준에서 폴더, 컬렉션 및 자산의 벌크 다운로드의 기본 다운로드 동작을 구성할 수 있습니다. Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;도 활성 Brand Portal 사용자를 반영하도록 수정되었습니다.
 
-### AEM Assets에서 Cloud Service으로 Brand Portal 활성화 {#bp-automation-on-cloud-service}
+### AEM Assets에서 Brand Portal 활성화 as a Cloud Service {#bp-automation-on-cloud-service}
 
-이제 Cloud Service으로 AEM Assets에 사전 구성된 Brand Portal 인스턴스가 있을 수 있습니다. Cloud Manager 사용자는 AEM Assets에서 Brand Portal을 Cloud Service 인스턴스로 활성화할 수 있습니다.
+이제 AEM Assets as a Cloud Service에는 사전 구성된 Brand Portal 인스턴스가 있을 수 있습니다. Cloud Manager 사용자는 AEM Assets as a Cloud Service 인스턴스에서 Brand Portal을 활성화할 수 있습니다.
 
-이전에는 AEM Assets as a Cloud Service을 Adobe 개발자 콘솔을 사용하여 Brand Portal으로 수동으로 구성했습니다.
+이전에는 AEM Assets as a Cloud Service이 Adobe 개발자 콘솔을 사용하여 Brand Portal으로 수동으로 구성되었습니다.
 
-Cloud Manager 사용자는 백엔드에서 필수 구성을 만들고 Cloud Service 인스턴스로 AEM Assets과 동일한 IMS 조직에서 Brand Portal을 활성화하는 활성화 워크플로우를 트리거합니다.
+Cloud Manager 사용자는 백엔드에서 필수 구성을 만들고 AEM Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화하는 활성화 워크플로우를 트리거합니다.
 
-AEM Assets에서 Cloud Service 인스턴스로 Brand Portal을 활성화하려면
+AEM Assets as a Cloud Service 인스턴스에서 Brand Portal을 활성화하려면
 
 1. Cloud Manager에 로그인하고 **[!UICONTROL 환경]**&#x200B;으로 이동합니다.
 1. 목록에서 환경(하나씩)을 선택합니다. Brand Portal과 연관된 환경이 발견되면 **[!UICONTROL Brand Portal 활성화]** 단추를 클릭하여 활성화 워크플로우를 시작합니다.
@@ -127,11 +127,11 @@ AEM Assets에서 Cloud Service 인스턴스로 Brand Portal을 활성화하려�
 
 ![상태 보기](assets/create-environment5.png)
 
-[AEM Assets에서 Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)로 Brand Portal 활성화 을 참조하십시오.
+AEM Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)에서 [Brand Portal 활성화 을 참조하십시오.
 
-### AEM Assets as a Cloud Service의 자산 소싱 {#asset-sourcing-on-cloud-service}
+### AEM Assets의 자산 소싱 as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-이제 AEM Assets에서 Cloud Service으로 자산 소싱 기능을 사용할 수 있습니다. 이 기능은 모든 클라우드 서비스 사용자에 대해 기본적으로 활성화되어 있습니다. 허용된 Brand Portal 사용자는 기여도 폴더에 새 자산을 업로드하고 기여도 폴더를 Cloud Service 인스턴스로 Brand Portal에서 AEM Assets으로 게시하여 자산 소싱에 기여할 수 있습니다. 관리자는 Brand Portal 사용자의 기여도를 검토하고 승인하여 다른 Brand Portal 사용자에게 추가로 배포할 수 있습니다.
+이제 AEM Assets as a Cloud Service에서 자산 소싱 기능을 사용할 수 있습니다. 이 기능은 모든 클라우드 서비스 사용자에 대해 기본적으로 활성화되어 있습니다. 허용된 Brand Portal 사용자는 기여도 폴더에 새 자산을 업로드하고 Brand Portal의 기여도 폴더를 AEM Assets as a Cloud Service 인스턴스에 게시하여 자산 소싱에 기여할 수 있습니다. 관리자는 Brand Portal 사용자의 기여도를 검토하고 승인하여 다른 Brand Portal 사용자에게 추가로 배포할 수 있습니다.
 
 이전에는 AEM Assets(온-프레미스 및 관리 서비스)에서만 자산 소싱을 사용할 수 있었습니다.
 
@@ -184,7 +184,7 @@ Brand Portal 2020.10.0은 자산 다운로드 환경을 단순화하는 데 중�
 
 >[!NOTE]
 >
->이제 모든 사용자는 기본적으로 **[!UICONTROL 빠른 다운로드]**&#x200B;를 사용할 수 있으며, Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장에 IBM Aspera Connect 3.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)가 설치되어 있어야 합니다.
+>이제 모든 사용자는 기본적으로 **[!UICONTROL 빠른 다운로드]**&#x200B;가 활성화되어 있으며, Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장에 IBM Aspera Connect 3.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)가 설치되어 있어야 합니다.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -275,9 +275,9 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### 문서 뷰어 {#doc-viewer}
 
-문서 뷰어는 PDF 보기 환경을 향상시킵니다. Brand Portal에서 PDF 파일을 보는 동안 Adobe Document Cloud과 유사한 경험을 제공합니다.
+문서 뷰어는 PDF 보기 환경을 개선합니다. Brand Portal에서 PDF 파일을 보는 동안 Adobe Document Cloud과 유사한 경험을 제공합니다.
 
-이전에는 PDF 파일을 볼 수 있는 제한된 옵션을 사용할 수 있었습니다.
+이전에는 PDF 파일을 보는 데 제한된 옵션을 사용할 수 있었습니다.
 
 Document Viewer를 사용하면 Brand Portal 사용자는 이제 페이지를 보고, 책갈피를 보고, 페이지 내 텍스트 검색, 확대, 축소, 이전 및 다음 페이지로 이동하고, 페이지로 전환하거나, 창에 맞추고, 화면에 표시하고, 도구 모음을 숨기거나 숨길 수 있는 옵션을 사용할 수 있습니다.
 
@@ -325,7 +325,7 @@ Brand Portal 6.4.6에서 AEM Assets과 Brand Portal 간의 인증 채널이 변�
 | **AEM 6.5** |[Create new integration](../using/brand-portal-configure-integration-65.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4** |[Create new integration](../using/brand-portal-configure-integration-64.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-| **AEM 6.2** |Contact Support |Contact Support | 
+| **AEM 6.2** | | 
 
    -->
 
@@ -336,7 +336,7 @@ Brand Portal으로 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-| **AEM 6.2** |Contact Support |Contact Support | 
+
 -->
 
 
@@ -351,7 +351,7 @@ Brand Portal으로 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 | **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4(6.4.8.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [구성 업그레이드](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | 지원 문의 | 지원 문의 |
+| **AEM 6.2** | 고객 지원에 문의 | 고객 지원에 문의 |
 
 >[!NOTE]
 >
@@ -440,7 +440,7 @@ Brand Portal에서는 검색 쿼리의 별표(*)를 검색한 구문에 있는 �
 >
 >**부분 검색** 확인란을 선택하면 기본적으로 **대/소문자 무시**&#x200B;가 선택됩니다.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## 6.4.3의 변경 사항 {#what-changed-in}
 
@@ -467,7 +467,7 @@ Brand Portal 6.4.3 릴리스는 Brand Portal 액세스 URL에서 테넌트 ID �
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### 특정 폴더 계층 구조 또는 경로에서 검색
 
@@ -487,7 +487,7 @@ Brand Portal 6.4.3 릴리스는 Brand Portal 액세스 URL에서 테넌트 ID �
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Dynamic Media 비디오 표현물 지원
 
@@ -509,11 +509,11 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Brand Portal에 게시 예약됨
 
-[AEM(6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) 작성자 인스턴스를 Brand Portal에 게시하는 자산(및 폴더) 게시 워크플로우는 나중 날짜, 시간 동안 예약할 수 있습니다.
+[AEM(6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ko-KR) 작성자 인스턴스를 Brand Portal에 게시하는 자산(및 폴더) 게시 워크플로우는 나중 날짜, 시간 동안 예약할 수 있습니다.
 
 마찬가지로, 게시된 자산은 Brand Portal에서 게시 취소 워크플로우를 예약하여 나중에 포털에서 제거할 수 있습니다.
 
@@ -521,7 +521,7 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### URL에서 구성 가능한 테넌트 별칭
 
@@ -530,11 +530,11 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다.\
 예를 들어 기존 도메인 **geometritrix.brand-portal.adobe.com**&#x200B;이 있는 조직은 요청 시 **geometrixx.brand-portal.adobe.com**&#x200B;을 만들 수 있습니다.
 
-그러나 AEM 작성자 인스턴스는 테넌트 ID가 없고 임차인 별칭(대체) URL이 없는 [구성된](https://helpx.adobe.com/kr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)일 수 있습니다.
+그러나 AEM 작성자 인스턴스는 테넌트 ID가 없고 임차인 별칭(대체) URL이 없는 [구성된](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html)일 수 있습니다.
 
 조직은 Adobe에서 제공한 URL에 의존하는 대신 포털 URL을 사용자 지정하여 브랜딩 요구 사항을 충족할 수 있습니다.
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 다운로드 환경 개선 사항
 
@@ -559,11 +559,11 @@ AEM Brand Portal에서는 게스트가 포털에 액세스할 수 있습니다. 
 
 ### 가속화된 다운로드
 
-Brand Portal 사용자는 IBM Aspera Connect 기반의 빠른 다운로드를 적용하여 최대 25배 더 빠르게 속도를 낼 수 있으며 전 세계 위치에 관계없이 완벽한 다운로드 경험을 제공할 수 있습니다. Brand Portal 또는 공유 링크에서 자산을 더 빨리 다운로드하려면 조직에서 다운로드 가속화가 활성화되어 있을 경우 다운로드 대화 상자에서 **다운로드 가속 사용** 옵션을 선택해야 합니다.
+Brand Portal 사용자는 IBM Aspera Connect 기반의 빠른 다운로드를 적용하여 최대 25배 더 빠르게 속도를 낼 수 있으며 전 세계 위치에 상관없이 원활한 다운로드 경험을 제공할 수 있습니다. Brand Portal 또는 공유 링크에서 자산을 더 빨리 다운로드하려면 조직에서 다운로드 가속화가 활성화되어 있을 경우 다운로드 대화 상자에서 **다운로드 가속 사용** 옵션을 선택해야 합니다.
 
 ![](assets/donload-assets-dialog-2.png)
 
-조직에 대해 IBM Aspera 기반 가속 다운로드를 활성화하려면 관리 도구 패널에서 [일반 설정](brand-portal-general-configuration.md#allow-download-acceleration)에서 관리자 **다운로드 가속 사용** 옵션(기본적으로 비활성화됨)을 활성화합니다. Brand Portal 및 공유 링크에서 자산 파일을 더 빨리 다운로드하기 위한 사전 요구 사항 및 문제 해결 단계에 대해 자세히 알려면 [가이드를 참조하여 Brand Portal](../using/accelerated-download.md#main-pars-header)에서 다운로드를 가속화합니다.
+조직에 대해 IBM Aspera 기반 엑셀러레이티드 다운로드를 활성화하려면 관리자 도구 패널의 [일반 설정](brand-portal-general-configuration.md#allow-download-acceleration)에서 **다운로드 가속 사용** 옵션(기본적으로 비활성화됨)을 활성화하십시오. Brand Portal 및 공유 링크에서 자산 파일을 더 빨리 다운로드하기 위한 사전 요구 사항 및 문제 해결 단계에 대해 자세히 알려면 [가이드를 참조하여 Brand Portal](../using/accelerated-download.md#main-pars-header)에서 다운로드를 가속화합니다.
 
 ### 사용자 로그인 보고서
 
@@ -754,7 +754,7 @@ Brand Portal 6.3.2에는 주요 고객 요청 및 일반 성능 향상을 위한
 
 ![](assets/bp_maintenance_notification-1.png)
 
-자세한 내용은 [Brand Portal 유지 관리 알림](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification)을 참조하십시오.
+자세한 내용은 [Brand Portal 유지 관리 알림](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html)을 참조하십시오.
 
 ### 링크 공유 기능을 사용하여 공유되는 라이선스가 있는 자산에 대한 개선 사항 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
