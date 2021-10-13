@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 6%
+source-wordcount: '1528'
+ht-degree: 7%
 
 ---
 
@@ -61,7 +61,9 @@ Brand Portal은 다음 사용자 역할을 지원합니다.
 | **편집자** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **관리자** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-* 게스트 사용자는 공용 폴더 및 컬렉션에서만 자산을 검색, 액세스 및 검색할 수 있습니다.
+>[!NOTE]
+>
+>게스트 사용자는 공용 폴더 및 컬렉션에서만 자산을 검색, 액세스 및 검색할 수 있습니다.
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
@@ -77,23 +79,23 @@ Brand Portal은 다음 사용자 역할을 지원합니다.
 
 그러나 게스트 세션에서는 컬렉션과 저장된 검색을 만들지 못하고 추가로 공유할 수 없습니다. 게스트 세션의 사용자는 폴더 및 컬렉션 설정에 액세스할 수 없으며 자산을 링크로 공유할 수 없습니다. 다음은 게스트 사용자가 수행할 수 있는 작업 목록입니다.
 
-[공개 자산 찾아보기 및 액세스](browse-assets-brand-portal.md)
+* [공개 자산 찾아보기 및 액세스](browse-assets-brand-portal.md)
 
-[공개 자산 검색](brand-portal-searching.md)
+* [공개 자산 검색](brand-portal-searching.md)
 
-[공개 자산 다운로드](brand-portal-download-assets.md)
+* [공개 자산 다운로드](brand-portal-download-assets.md)
 
-[[!UICONTROL Lightbox]에 자산 추가](brand-portal-light-box.md#add-assets-to-lightbox)
+* [[!UICONTROL Lightbox]에 자산 추가](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 뷰어 {#viewer}
 
 Brand Portal의 표준 사용자는 일반적으로 뷰어 역할을 가진 사용자입니다. 이 역할을 가진 사용자는 허용된 폴더, 컬렉션 및 자산에 액세스할 수 있습니다. 또한 자산(원본 또는 특정 표현물)을 검색, 미리 보기, 다운로드 및 내보내고, 계정 설정을 구성하고, 자산을 검색할 수도 있습니다. 다음은 뷰어가 수행할 수 있는 작업 목록입니다.
 
-[자산 찾아보기](browse-assets-brand-portal.md)
+* [자산 찾아보기](browse-assets-brand-portal.md)
 
-[자산 검색](brand-portal-searching.md)
+* [자산 검색](brand-portal-searching.md)
 
-[자산 다운로드](brand-portal-download-assets.md)
+* [자산 다운로드](brand-portal-download-assets.md)
 
 ### 편집자 {#editor}
 
@@ -101,11 +103,11 @@ Brand Portal의 표준 사용자는 일반적으로 뷰어 역할을 가진 사�
 
 편집자는 뷰어가 수행할 수 있는 작업 외에도 다음과 같은 추가 작업을 수행할 수 있습니다.
 
-[폴더 공유](brand-portal-sharing-folders.md)
+* [폴더 공유](brand-portal-sharing-folders.md)
 
-[컬렉션 공유](brand-portal-share-collection.md)
+* [컬렉션 공유](brand-portal-share-collection.md)
 
-[링크로 자산 공유](brand-portal-link-share.md)
+* [링크로 자산 공유](brand-portal-link-share.md)
 
 ### 관리자 {#administrator}
 
@@ -113,30 +115,30 @@ Brand Portal의 표준 사용자는 일반적으로 뷰어 역할을 가진 사�
 
 관리자는 편집기에서 다음과 같은 추가 작업을 수행할 수 있는 모든 작업을 수행할 수 있습니다.
 
-[사용자, 그룹 및 사용자 역할 관리](brand-portal-adding-users.md)
+* [사용자, 그룹 및 사용자 역할 관리](brand-portal-adding-users.md)
 
-[월페이퍼, 페이지 헤더 및 이메일 사용자 정의](brand-portal-branding.md)
+* [월페이퍼, 페이지 헤더 및 이메일 사용자 정의](brand-portal-branding.md)
 
-[사용자 정의 검색 패싯 사용](brand-portal-search-facets.md)
+* [사용자 정의 검색 패싯 사용](brand-portal-search-facets.md)
 
-[메타데이터 스키마 양식 사용](brand-portal-metadata-schemas.md)
+* [메타데이터 스키마 양식 사용](brand-portal-metadata-schemas.md)
 
-[이미지 사전 설정 또는 동적 변환 적용](brand-portal-image-presets.md)
+* [이미지 사전 설정 또는 동적 변환 적용](brand-portal-image-presets.md)
 
-[보고서를 사용한 작업](brand-portal-reports.md)
+* [보고서를 사용한 작업](brand-portal-reports.md)
 
 위의 작업 외에 AEM Assets의 작성자는 다음 작업을 수행할 수 있습니다.
 
-[Brand Portal에서 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)
+* [Brand Portal에서 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)
 
-[폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+* [폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[컬렉션을 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [컬렉션을 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Brand Portal URL에 대한 대체 별칭 {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 이상에서 조직은 Brand Portal 임차인의 기존 URL에 대해 하나의 대체(별칭) URL을 가질 수 있습니다. 별칭 URL은 URL에 대체 접두사가 있어 만들 수 있습니다.\
-Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다. 예를 들어 기존 도메인 **[!UICONTROL geometritrix.brand-portal.adobe.com]**&#x200B;이 있는 조직은 요청 시 **[!UICONTROL geometrixx.brand-portal.adobe.com]**&#x200B;을 만들 수 있습니다.
+Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은 사용자 지정할 수 없습니다. 예를 들어 기존 도메인 `geomettrix.brand-portal.adobe.com`이 있는 조직은 요청 시 `geomettrixinc.brand-portal.adobe.com`을 만들 수 있습니다.
 
 그러나 AEM 작성자 인스턴스는 테넌트 ID가 없고 임차인 별칭(대체) URL이 없는 [구성된](../using/configure-aem-assets-with-brand-portal.md)일 수 있습니다.
 
@@ -160,30 +162,33 @@ Brand Portal URL의 접두사만 사용자 지정할 수 있으며 전체 URL은
 
 1. 조직의 Brand Portal에 대한 액세스를 요청하려면 유효한 [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]이 있어야 합니다.
 
-   [!UICONTROL 액세스 요청] 페이지에서 ID(시나리오 1)를 사용하여 로그인하거나 [!UICONTROL Adobe ID](시나리오 2):<br />
+   [!UICONTROL 액세스 요청] 페이지에서 ID(시나리오 1)를 사용하여 로그인하거나 [!UICONTROL Adobe ID](시나리오 2)를 만드십시오.
+
    ![[!UICONTROL 액세스 요청]](assets/bplogin_request_access_2.png)
 
    **시나리오 1**
+
    1. [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]가 있는 경우 **[!UICONTROL 로그인]**을 클릭합니다.
 [!UICONTROL 로그인] 페이지가 열립니다.
-   1. [!UICONTROL Adobe ID] 자격 증명을 입력하고 **[!UICONTROL 로그인]**.<br />
 
-   ![Adobe 로그인](assets/bplogin_request_access_3.png)
+   1. [!UICONTROL Adobe ID] 자격 증명을 입력하고 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
 
-   [!UICONTROL 액세스 요청] 페이지로 리디렉션됩니다.<br />
+      ![Adobe 로그인](assets/bplogin_request_access_3.png)
+   [!UICONTROL 액세스 요청] 페이지로 리디렉션됩니다.
+
    **시나리오 2**
+
    1. [!UICONTROL Adobe ID]이 없는 경우 만들려면 [!UICONTROL 액세스 요청] 페이지에서 **[!UICONTROL Adobe ID]**을 클릭하십시오.
 [!UICONTROL 로그인] 페이지가 열립니다.
    1. **[!UICONTROL Adobe ID 가져오기]**를 클릭합니다.
 [!UICONTROL 등록] 페이지가 열립니다.
    1. 이름과 성, 이메일 ID 및 암호를 입력합니다.
-   1. **[!UICONTROL 등록]**.<br />을 선택합니다.
+   1. **[!UICONTROL 등록]**&#x200B;을 선택합니다.
 
-   ![](assets/bplogin_request_access_5.png)
-
+      ![](assets/bplogin_request_access_5.png)
    [!UICONTROL 액세스 요청] 페이지로 리디렉션됩니다.
 
-1. 다음 페이지에는 액세스를 요청하는 데 사용된 이름과 이메일 ID가 표시됩니다. 관리자의 설명을 그대로 두고 **[!UICONTROL Submit]**.<br />
+1. 다음 페이지에는 액세스를 요청하는 데 사용된 이름과 이메일 ID가 표시됩니다. 관리자의 설명을 그대로 두고 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
    ![](assets/bplogin-request-access.png)
 
@@ -206,7 +211,7 @@ Adobe [!UICONTROL Experience Cloud 설정]에서 Brand Portal 언어를 변경�
 
 언어를 변경하려면 다음을 수행하십시오.
 
-1. 상단 메뉴에서 [!UICONTROL 사용자] > [!UICONTROL 프로필 편집]을 선택합니다.<br />
+1. 상단 메뉴에서 [!UICONTROL 사용자] > [!UICONTROL 프로필 편집]을 선택합니다.
 
    ![프로필 편집](assets/EditBPProfile.png)
 
