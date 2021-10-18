@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Experience Manager Assets 관리자와 관리자가 아닌 사용자가 새 폴�
 
 >[!NOTE]
 >
->폴더 내에 여러 기여도 폴더를 만들 수 있습니다.
+>관리자는 폴더 내에 여러 자산 기여 폴더를 만들 수 있습니다.
 >
->자산 기여 폴더에는 자산의 분배 및 기여 시 사용할 NEW 및 SHARED 폴더가 포함됩니다. 자산 기여 폴더 내에 자산, 폴더 또는 기여 폴더를 만들지 마십시오.
+>자산 기여 폴더에는 자산의 분배 및 기여 시 사용할 NEW 및 SHARED 폴더가 포함됩니다. 기여도 폴더 내에 자산, 폴더 또는 기여도 폴더를 만들지 마십시오.
 
 
 기여도 폴더를 만드는 동안 기여도 폴더 속성을 별도로 구성할 수도 있습니다. 이 예에서는 속성을 별도로 구성합니다.

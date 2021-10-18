@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Experience Manager Assets Brand Portal은 다양한 보기 옵션을 사용하�
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Brand Portal의 왼쪽 상단에 있는 레일 선택기가 아래로 드롭다운되어 자산을 탐색하고 검색을 간소화하고 리소스를 표시할 수 있습니다.
 
@@ -106,7 +106,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 * Dimension
 * 크기
 * 등급
-* 자산 계층 구조를 보여주는 폴더 경로<sup>*</sup>
+* 자산 계층 구조를 보여주는 폴더 경로
 * Brand Portal에 자산을 게시하는 날짜
 
 경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 구조를 탐색하고 헤더](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)에서 [탐색 표시를 사용하여 백업할 수 있습니다.
