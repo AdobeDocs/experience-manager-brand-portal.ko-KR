@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 533b2a637700770ff08c88da92892af863265902
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,10 @@ Experience Manager Assets 관리자는 기여 폴더의 속성을 구성하는 �
 >
 >검색 결과는 Experience Manager Assets에 구성된 Brand Portal 사용자 목록을 기반으로 합니다. 업데이트된 Brand Portal 사용자 목록이 있는지 확인합니다.
 
+관리자는 [!DNL Admin Console]에서 `user.csv` 파일을 다운로드하고 Brand Portal 사용자를 추가하기 위한 기본 템플릿으로 사용할 수 있습니다. [!UICONTROL 사용자]로 이동하고 [!UICONTROL 사용자 목록을 csv] 옵션으로 를 클릭하여 `users.csv` 파일을 다운로드합니다. 다음 샘플 사용자는사용자를 추가하는 데 필요한 속성에 대해 자세히 설명합니다. 사용자 항목에 대한 유일한 필수 속성은 `Email`이고 다른 모든 속성은 선택 사항입니다.
+
+[파일 가져오기](assets/users.csv)
+
 ## 기여도 폴더에 자산 업로드 {#uplad-new-assets-to-contribution-folder}
 
 Brand Portal 사용자는 기여의 필요성을 이해하기 위해 자산 요구 사항을 다운로드할 수 있습니다.
@@ -120,7 +124,7 @@ Brand Portal 사용자는 기여의 필요성을 이해하기 위해 자산 요�
 >
 >Brand Portal 사용자는 NEW 폴더에만 자산을 업로드할 수 있습니다.
 >
->모든 Brand Portal 임차인에 대한 최대 업로드 제한은 모든 기여도 폴더에 누적 적용되는 **10** GB입니다.
+>모든 Brand Portal 테넌트의 최대 업로드 제한은 모든 기여도 폴더에 누적 적용되는 **10** GB입니다.
 
 
 새로 만든 자산을 Experience Manager Assets에 게시하면 Brand Portal 사용자는 새 폴더에서 삭제할 수 있습니다. 반면에 Brand Portal 관리자는 NEW 및 SHARED 폴더 모두에서 자산을 삭제할 수 있습니다.
