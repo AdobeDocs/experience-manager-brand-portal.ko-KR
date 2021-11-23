@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 7128c71576ae938a49f9bff0b95b98b7fc480f69
+source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1250'
 ht-degree: 3%
 
 ---
@@ -60,11 +60,11 @@ Dynamic Media 구성([하이브리드](../using/dynamic-video-brand-portal.md#co
 Brand Portal에서 다이내믹 비디오를 사용하여 작업하려면 다음을 수행하십시오.
 
 * **Dynamic Media 모드에서 Experience Manager 작성자 시작**
-의 Experience Manager 작성자 인스턴스(Brand Portal이 구성된 인스턴스)를 시작합니다. [Dynamic Media - [!DNL Scene7] 모드](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) 또는 [Dynamic Media - 하이브리드 모드](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) 또는
+의 Experience Manager 작성자 인스턴스(Brand Portal이 구성된 인스턴스)를 시작합니다. [Dynamic Media - [!DNL Scene7] 모드](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) 또는 [Dynamic Media - 하이브리드 모드](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) 또는
 * **Experience Manager 작성자에 대한 Dynamic Media Cloud Services 구성**
-Dynamic Media 모드(Scene7 모드 또는 하이브리드 모드) Experience Manager 작성자가 실행 중인를 기반으로 다음 중 하나를 설정합니다 [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) 또는 [Dynamic Media Cloud Services(하이브리드 모드)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) 작성자 Experience Manager 시 **도구** | **Cloud Services** | **Dynamic Media**.
+Dynamic Media 모드(Scene7 모드 또는 하이브리드 모드) Experience Manager 작성자가 실행 중인를 기반으로 다음 중 하나를 설정합니다 [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) 또는 [Dynamic Media Cloud Services(하이브리드 모드)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) 작성자 Experience Manager 시 **도구** | **Cloud Services** | **Dynamic Media**.
 * **Brand Portal에서 Dynamic Media 구성**
-Experience Manager 작성자의 Dynamic Media 클라우드 구성에 따라 다음을 구성합니다 [Dynamic Media 설정](#configure-dm-hybrid-settings) 또는 [[!DNL Scene7] 설정](#configure-dm-scene7-settings)  Brand Portal 관리 도구 사용.
+Experience Manager 작성자의 Dynamic Media 클라우드 구성에 따라 다음을 구성합니다 [Dynamic Media 설정](#configure-dm-hybrid-settings) 또는 [[!DNL Scene7] 설정](#configure-dm-scene7-settings) Brand Portal 관리 도구 사용.
 확인 [별도의 Brand Portal 테넌트](#separate-tenants) Dynamic Media에 구성된 Experience Manager 작성자 인스턴스에 사용됩니다. **[!UICONTROL Scene7]** 모드 및 Dynamic Media - 하이브리드 모드. 특히 Dynamic Media의 기능을 사용하는 경우 **[!UICONTROL S7]** 및 Dynamic Media Hybrid입니다.
 * **Brand Portal에 적용된 비디오 인코딩을 사용하여 폴더 게시**
 적용 [비디오 인코딩](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 및 Experience Manager 작성자 인스턴스의 리치 미디어 자산이 포함된 폴더를 Brand Portal에 게시합니다.
@@ -122,7 +122,7 @@ Experience Manager 작성자 인스턴스가 dynamic media 하이브리드 모�
 
 >[!NOTE]
 >
->다음 [비디오 인코딩 프로필](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 가 Brand Portal에 게시되지 않고 대신 **[!UICONTROL Scene7]** server. 따라서 Brand Portal에서 비디오 인코딩이 성공적으로 재생되도록 하려면 구성 세부 사항이 와 동일한지 확인하십시오 [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) Experience Manager 작성자 인스턴스에서 사용됩니다.
+>다음 [비디오 인코딩 프로필](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 가 Brand Portal에 게시되지 않고 대신 **[!UICONTROL Scene7]** server. 따라서 Brand Portal에서 비디오 인코딩이 성공적으로 재생되도록 하려면 구성 세부 사항이 와 동일한지 확인하십시오 [Dynamic Media Cloud Services ([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) Experience Manager 작성자 인스턴스에서 사용됩니다.
 
 Brand Portal 테넌트에 대해 Dynamic Media 구성을 설정하려면 다음을 수행하십시오.
 
