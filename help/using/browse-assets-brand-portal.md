@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1080'
 ht-degree: 4%
 
 ---
@@ -60,7 +60,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 * 크기
 * 크기
 
-카드를 탭하거나 클릭하여 계층 구조를 탐색하거나(빠른 작업이 발생하지 않도록 주의) 헤더](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)에서 [탐색 표시를 사용하여 위로 다시 탐색할 수 있습니다.
+카드를 탭하거나 클릭하여 계층 구조를 탐색하거나(빠른 작업이 발생하지 않도록 주의), [헤더의 탐색 표시](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 ![](assets/cardquickactions.png)
 
@@ -80,7 +80,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 * 를 클릭합니다.
 * 드롭다운 목록에서 레일 선택기 를 선택합니다.
 
-자산/폴더를 선택하는 동안 **[!UICONTROL 개요]** 옵션을 선택할 때 사용자가 자산을 만든 제목, 경로 및 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지에서 개요 옵션을 선택하면 자산의 메타데이터를 볼 수 있습니다.
+선택 시 **[!UICONTROL 개요]** 옵션 자산/폴더를 선택한 동안 사용자는 자산 생성 제목, 경로 및 시간을 볼 수 있습니다. 반면에, 자산 세부 사항 페이지에서 개요 옵션을 선택하면 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +88,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 
 #### 카드 보기에서 설정 보기
 
-**[!UICONTROL 보기]** 설정 대화 상자가 보기 선택기에서  **[!UICONTROL 보기]** 설정을 선택할 때 열립니다. 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이 방법으로 뷰를 개인화하고 표시되는 축소판 수를 제어할 수 있습니다.
+**[!UICONTROL 설정 보기]** 선택 시 대화 상자가 열립니다 **[!UICONTROL 설정 보기]** 를 선택합니다. 카드 보기에서 자산 축소판의 크기를 조정할 수 있습니다. 이 방법으로 뷰를 개인화하고 표시되는 축소판 수를 제어할 수 있습니다.
 
 ![](assets/cardviewsettings.png)
 
@@ -109,7 +109,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 * 자산 계층 구조를 보여주는 폴더 경로
 * Brand Portal에 자산을 게시하는 날짜
 
-경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 구조를 탐색하고 헤더](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)에서 [탐색 표시를 사용하여 백업할 수 있습니다.
+경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 구조를 탐색하고 를 사용하여 백업할 수 있습니다 [헤더의 탐색 표시](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 목록 보기의 설정 보기
 
-목록 보기에는 기본적으로 첫 번째 열로 자산 **[!UICONTROL 이름]**&#x200B;이 표시됩니다. 자산 **[!UICONTROL 제목]**, **[!UICONTROL 로케일]**, **[!UICONTROL 유형]**, **[!UICONTROL Dimension]**, **[!UICONTROL 크기]**, **[!UICONTROL 등급]**&#x200B;과 같은 추가 정보가 표시됩니다. 그러나 **[!UICONTROL 보기 설정]**&#x200B;을 사용하여 표시할 열을 선택할 수 있습니다.
+목록 보기에는 자산이 표시됩니다 **[!UICONTROL 이름]** 기본적으로 첫 번째 열로 사용됩니다. 자산 등의 추가 정보 **[!UICONTROL 제목]**, **[!UICONTROL 로케일]**, **[!UICONTROL 유형]**, **[!UICONTROL Dimension]**, **[!UICONTROL 크기]**, **[!UICONTROL 등급]**, 게시 상태도 표시됩니다. 그러나 를 사용하여 표시할 열을 선택할 수 있습니다 **[!UICONTROL 설정 보기]**.
 
 ![](assets/list-view-setting.png)
 
@@ -234,7 +234,7 @@ Comment Type: draft
 
 이러한 보기 외에도 트리 보기를 사용하여 원하는 자산 또는 폴더를 보고 선택하는 동안 자산 계층을 드릴다운할 수 있습니다.
 
-트리 보기를 열려면 왼쪽 상단에 있는 레일 선택기를 탭/클릭하고 메뉴에서 **[!UICONTROL 컨텐츠 트리]**&#x200B;를 선택합니다.
+트리 보기를 열려면 왼쪽 상단의 레일 선택기를 탭/클릭하고 **[!UICONTROL 컨텐츠 트리]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](assets/contenttree.png)
 
@@ -252,11 +252,19 @@ Comment Type: draft
 
 ![](assets/asset-overview.png)
 
-자산 세부 사항 페이지에서 사용 가능한 모든 자산 렌디션을 보고 미리 볼 변환을 선택할 수 있습니다.
+자산의 사용 가능한 모든 표현물을 자산 세부 사항 페이지에서 보고, **[!UICONTROL 표현물]** 패널을 클릭하여 미리 봅니다.
 
 ![](assets/renditions.png)
 
-자산 속성 페이지를 열려면 상단 막대에서 **[!UICONTROL 속성 (p)]** 옵션을 사용합니다.
+>[!CAUTION]
+>
+>(**Experience Manager Assets as a Cloud Service** (만) 향후 릴리스에서는 다음과 같은 알려진 문제가 해결됩니다.
+>
+>다음 **[!UICONTROL 표현물]** 패널은 2021년 12월 16일 이후에 Brand Portal에 게시되는 자산의 모든 정적 렌디션을 나열하지 않습니다.
+>
+>다음 **[!UICONTROL 표현물]** 패널에 자산의 스마트 자르기 렌디션이 나열되지만 사용자가 스마트 자르기 렌디션을 미리 보거나 다운로드할 수 없습니다.
+
+자산 속성 페이지를 열려면 **[!UICONTROL 속성(p)]** 상단 막대에서 옵션을 선택합니다.
 
 ![](assets/asset-properties.png)
 
