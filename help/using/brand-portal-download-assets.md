@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
 workflow-type: tm+mt
 source-wordcount: '2026'
 ht-degree: 3%
@@ -188,7 +188,7 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 
    >[!CAUTION]
    >
-   >(**Experience Manager Assets as a Cloud Service** (만) 향후 릴리스에서는 다음과 같은 알려진 문제가 해결됩니다.
+   >(**Experience Manager Assets as a Cloud Service** (만) 다음 알려진 문제는 향후 릴리스에서 수정됩니다.
    >
    >다운로드 대화 상자에는 선택한 자산의 스마트 자르기 표현물이 표시되지만 스마트 자르기 렌디션은 다운로드할 수 없습니다.
 
