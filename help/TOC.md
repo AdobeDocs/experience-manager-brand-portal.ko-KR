@@ -8,7 +8,7 @@ breadcrumb-title: Brand Portal 안내서
 user-guide-description: Experience Manager Assets Brand Portal을 사용하면 승인된 브랜드 및 제품 에셋을 외부 기관, 파트너, 내부 팀 및 리셀러에 다운로드용으로 안전하게 배포하여 마케팅 요구 사항을 충족할 수 있습니다.
 feature: Brand Portal
 role: User
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 75%
@@ -48,7 +48,7 @@ ht-degree: 75%
    + [Brand Portal에서 자산 검색](using/brand-portal-searching.md)
    + [사용자 정의 검색 패싯 사용](using/brand-portal-search-facets.md)
 + 다운로드 기능 사용 {#download}
-   + [에셋 다운로드](using/download-assets.md)
+   + [에셋 다운로드](using/brand-portal-download-assets.md)
    + [Brand Portal에서 동적 비디오 지원](using/dynamic-video-brand-portal.md)
    + [라이트박스 컬렉션 관리](using/brand-portal-light-box.md)
    + [자산의 디지털 권한 관리](using/manage-digital-rights-of-assets.md)

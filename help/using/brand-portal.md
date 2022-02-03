@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '1528'
 ht-degree: 7%
@@ -83,7 +83,7 @@ Brand Portal은 다음 사용자 역할을 지원합니다.
 
 * [공개 자산 검색](brand-portal-searching.md)
 
-* [공개 자산 다운로드](download-assets.md)
+* [공개 자산 다운로드](brand-portal-download-assets.md)
 
 * [에 자산 추가 [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -95,7 +95,7 @@ Brand Portal의 표준 사용자는 일반적으로 뷰어 역할을 가진 사�
 
 * [자산 검색](brand-portal-searching.md)
 
-* [에셋 다운로드](download-assets.md)
+* [에셋 다운로드](brand-portal-download-assets.md)
 
 ### 편집자 {#editor}
 

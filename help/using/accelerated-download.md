@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 63b7bdd34ff185a96ea69560d2b94c2dc04129de
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 3%
@@ -90,7 +90,7 @@ Brand Portal에서 자산을 더 빨리 다운로드하려면 다음을 수행�
 
    자산을 다운로드하는 동안 Brand Portal 폴더 계층 구조를 유지하려면 **[!UICONTROL 각 자산에 대해 별도의 폴더를 만듭니다]** 확인란을 선택합니다.
 
-   다운로드 단추는 선택한 항목의 수를 반영합니다. 규칙 적용을 완료하면 **[!UICONTROL 항목 다운로드]**. 규칙 적용 방법에 대한 자세한 내용은 [자산 다운로드](../using/download-assets.md#download-assets).
+   다운로드 단추는 선택한 항목의 수를 반영합니다. 규칙 적용을 완료하면 **[!UICONTROL 항목 다운로드]**. 규칙 적용 방법에 대한 자세한 내용은 [자산 다운로드](../using/brand-portal-download-assets.md#download-assets).
 
    ![다운로드 대화 상자](assets/download-dialog-box-new.png)
 
