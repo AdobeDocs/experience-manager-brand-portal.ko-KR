@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 10%
@@ -145,7 +145,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 * Brand Portal에서 Admin Console으로 이동할 때 관리자는 조직을 선택할 수 있는 추가 화면이 표시될 수 있습니다.
 
-* If `Color Tags` 이 활성화되고 사용자가 폴더 또는 컬렉션을 다운로드하여 추가 `xml` 파일은 보관된 zip 폴더에 있는 폴더(또는 컬렉션)의 각 자산에 대해 다운로드됩니다.
+* If `Color Tags` 이 활성화되고 사용자가 폴더 또는 컬렉션을 다운로드하여 추가 `xml` 보관된 zip 폴더에 있는 폴더(또는 컬렉션)의 각 자산에 대해 파일이 다운로드됩니다.
 
 
 <!--
@@ -166,7 +166,7 @@ This release includes the following known issue:
 <!--
 * Document Viewer has been introduced to enhance the PDF viewing experience. New options are available for viewing the PDF files in Brand Portal.
 
-* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](download-assets.md). Brand Portal administrators can configure **[!UICONTROL Fast Download]**, **[!UICONTROL Custom Renditions]**, and **[!UICONTROL System Renditions]** from the **[!UICONTROL Download]** settings. 
 
 For details, see [what's new in Brand Portal 6.4.7](whats-new.md). 
 

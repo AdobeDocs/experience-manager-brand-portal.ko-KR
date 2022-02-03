@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: e460f4713886f084c87418cf23d1fa468a734f49
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
 source-wordcount: '6316'
 ht-degree: 2%
@@ -184,14 +184,14 @@ Brand Portal 2020.10.0은 자산 다운로드 환경을 단순화하는 데 중�
 
 이전, **[!UICONTROL 다운로드]** 각 자산에 대해 별도의 폴더 만들기, 이메일 자산, 원본 자산 선택, 사용자 지정 표현물, 동적 표현물 제외, 시스템 표현물 제외, 다운로드 가속화 활성화 등의 여러 옵션이 있는 대화 상자가 나타나며, 여러 자산 또는 폴더를 다운로드하도록 선택했을 때 특별히 비기술 또는 새 사용자에게 모호한 대화 상자가 표시됩니다. 또한 사용자가 모든 자산 표현물을 볼 수 없거나 특정 사용자 지정 표현물 또는 동적 표현물을 제외하지 못했습니다.
 
-새로운 **[!UICONTROL 다운로드]** 대화 상자는 자산 선택 및 필터링 프로세스를 일반화합니다. 그러면 Brand Portal 사용자가 자산 표현물을 다운로드하는 동안 효과적인 결정을 쉽게 내릴 수 있습니다. 선택한 모든 자산과 해당 표현물이 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 구성 및 **[!UICONTROL 다운로드]** 설정.
+새로운 **[!UICONTROL 다운로드]** 대화 상자는 자산 선택 및 필터링 프로세스를 일반화합니다. 그러면 Brand Portal 사용자가 자산 표현물을 다운로드하는 동안 효과적인 결정을 쉽게 내릴 수 있습니다. 선택한 모든 자산과 해당 표현물이 [**[!UICONTROL 다운로드]**](download-assets.md) 구성 및 **[!UICONTROL 다운로드]** 설정.
 
 >[!NOTE]
 >
 >이제 모든 사용자가 **[!UICONTROL 빠른 다운로드]** 기본적으로 활성화되며 IBM Aspera Connect 3.9.9( 가 필요합니다.`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)을 클릭하여 Brand Portal에서 자산을 다운로드하기 전에 브라우저의 확장에 설치합니다.
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
 에서 **[!UICONTROL 다운로드]** 대화 상자에서 다음을 수행할 수 있습니다.
@@ -224,7 +224,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-Brand Portal 2020.10.0에서 사용자는 특정 표현물을 제외하고 직접 제외할 수 있습니다 [변환 패널에서 선택한 변환 다운로드](brand-portal-download-assets.md#download-assets-from-asset-details-page) 자산 세부 사항 페이지에서 **[!UICONTROL 다운로드]** 대화 상자.
+Brand Portal 2020.10.0에서 사용자는 특정 표현물을 제외하고 직접 제외할 수 있습니다 [변환 패널에서 선택한 변환 다운로드](download-assets.md#download-assets-from-asset-details-page) 자산 세부 사항 페이지에서 **[!UICONTROL 다운로드]** 대화 상자.
 
 
 <!-- 
@@ -294,7 +294,7 @@ Document Viewer를 사용하면 Brand Portal 사용자는 이제 페이지를 �
 
 ### 경험 다운로드 {#download-configurations}
 
-자산 다운로드 프로세스가 개선되어 간소화된 사용자 경험을 제공하는 동시에 [Brand Portal에서 자산 다운로드](brand-portal-download-assets.md).
+자산 다운로드 프로세스가 개선되어 간소화된 사용자 경험을 제공하는 동시에 [Brand Portal에서 자산 다운로드](download-assets.md).
 
 Brand Portal에서 자산을 다운로드하는 기존 워크플로우에는 필연적으로  **[!UICONTROL 다운로드]** 선택할 수 있는 여러 다운로드 옵션이 있는 대화 상자.
 
