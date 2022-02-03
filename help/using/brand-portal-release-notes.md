@@ -1,8 +1,8 @@
 ---
 title: 릴리스 노트
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2021.10.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2022.02.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 12%
+source-wordcount: '537'
+ht-degree: 10%
 
 ---
 
 # 릴리스 노트 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2021.10.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets Brand Portal 2022.02.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2021.10.0 |
-| 날짜 | 2021년 10월 일 |
+| 버전 | 2022.02.0 |
+| 날짜 | 2022년 2월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2021.10.0의 새로운 기능 {#whats-new-in-2021.10.0}
+## 2022.02.0의 새로운 기능 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
-* 크기가 동일한 기여도 폴더의 자산은 Brand Portal에서 Experience Manager Assets에 게시되지 않습니다.
-* 자산 기여 폴더의 게시가 취소되면 기여 폴더의 크기가 감소되지 않습니다.
-* 사용자가 폴더에서 적용된 메타데이터 스키마 프로필을 제거할 수 없습니다.
-* 사용자 권한 페이지의 그룹 수가 잘못되었습니다.
-* 목록을 탐색할 때 컬렉션 페이지가 너무 오래 걸립니다.
+* 사용자가 폴더를 검색, 탐색 또는 열 수 없습니다. 사용자 인터페이스에 오류 메시지가 표시됩니다. `Failed to load data`.
+* 다음 **[!UICONTROL 표현물]** 패널에 Brand Portal에 게시된 자산의 모든 정적 표현물이 나열되지는 않습니다.
+* 다음 **[!UICONTROL 표현물]** 패널에 자산의 스마트 자르기 렌디션이 나열되지만 사용자가 스마트 자르기 렌디션을 미리 보거나 다운로드할 수 없습니다.
+* 다운로드 대화 상자에는 선택한 자산의 스마트 자르기 표현물이 표시되지만 스마트 자르기 렌디션은 다운로드할 수 없습니다.
+* 관리자가 아닌 사용자가 자산을 다운로드할 때 원래 자산 표현물만 받게 됩니다. 시스템 및 사용자 지정 표현물은 다운로드되지 않습니다.
+* 검색 필터를 적용하여 자산을 다운로드할 때 `Download` 버튼은 다운로드 대화 상자에서 비활성화되며 사용자가 자산을 다운로드할 수 없습니다.
+* If `Smart Tags` 및 (또는) `Color Tags` 활성화되면 다운로드 대화 상자에 `json` 를 변환으로 지정하고 다음 파일을 다운로드합니다. `json` 보관된 zip 폴더에 있는 파일입니다.
+* 링크가 Brand Portal 로그인 페이지로 리디렉션되므로 익명 사용자는 공유 링크를 사용하여 자산을 다운로드할 수 없습니다.
+* 시스템이 활성 동시 사용자 수에 대한 올바른 값을 반영하지 않습니다.
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
    그러나 Brand Portal에 로그인한 활성 사용자는 현재 세션이 만료될 때까지 계속 작업할 수 있습니다.
 
 * Brand Portal에서 Admin Console으로 이동할 때 관리자는 조직을 선택할 수 있는 추가 화면이 표시될 수 있습니다.
+
+* If `Color Tags` 이 활성화되고 사용자가 폴더 또는 컬렉션을 다운로드하여 추가 `xml` 파일은 보관된 zip 폴더에 있는 폴더(또는 컬렉션)의 각 자산에 대해 다운로드됩니다.
 
 
 <!--
@@ -204,7 +211,7 @@ Brand Portal 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 ## 인증된 플랫폼 {#certified-platforms}
 
-이 Brand Portal 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 **터치에 적합한 UI 지원** 열을 참조하여 [기술 요구 사항](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)의 **사용자 인터페이스를 작성할 지원되는 브라우저** 섹션에 있는 표를 참조하십시오.
+이 Brand Portal 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 **터치에 적합한 UI 지원** 테이블의 열 **사용자 인터페이스 작성을 위해 지원되는 브라우저** 섹션 [기술 요구 사항](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## 링크 {#links}
 

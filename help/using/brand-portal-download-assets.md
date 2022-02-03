@@ -1,5 +1,5 @@
 ---
-title: 자산 다운로드
+title: 에셋 다운로드
 seo-title: Download assets
 description: 모든 사용자는 동시에 여러 자산과 폴더에 액세스할 수 있는 폴더를 다운로드할 수 있습니다. 이 방법으로 승인된 브랜드 자산은 오프라인에서 사용할 수 있도록 안전하게 분배할 수 있습니다.
 seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
+source-git-commit: 7f08db48bb259795860415a0569929eef58f8ca5
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '1924'
 ht-degree: 3%
 
 ---
@@ -114,7 +114,7 @@ Brand Portal 인터페이스에서 자산 표현물에 액세스 및 다운로�
 
 
 
-## 자산 다운로드 {#download-assets}
+## 에셋 다운로드 {#download-assets}
 
 Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자산이 들어 있는 폴더 및 컬렉션을 다운로드할 수 있습니다.
 
@@ -123,6 +123,7 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 >자산 표현물에 액세스하거나 다운로드할 수 있는 권한이 없는 경우 Brand Portal 관리자에게 문의하십시오.
 
 사용자가 표현물에 액세스할 수 있는 경우 향상된 기능을 사용자에게 제공합니다 **[!UICONTROL 다운로드]** 대화 상자에서 다음을 수행할 수 있습니다.
+
 * 다운로드 목록에서 자산의 사용 가능한 모든 표현물을 봅니다.
 * 다운로드할 필요가 없는 자산의 렌디션을 제외합니다.
 * 한 번의 클릭으로 모든 유사한 자산 유형에 동일한 표현물 세트를 적용합니다.
@@ -186,17 +187,19 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 
    ![다운로드 대화 상자](assets/download-dialog-box-new.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** (만) 다음 알려진 문제는 향후 릴리스에서 수정됩니다.
-   >
-   >다운로드 대화 상자에는 선택한 자산의 스마트 자르기 표현물이 표시되지만 스마트 자르기 렌디션은 다운로드할 수 없습니다.
-
 1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 이 설정은에서 활성화됩니다. **[!UICONTROL 다운로드 설정]**. 따라서 IBM Aspera Connect를 사용하여 빠른 다운로드를 허용하는 확인 상자가 나타납니다.
 
    계속 사용하려면 **[!UICONTROL 빠른 다운로드]**&#x200B;를 클릭합니다. **[!UICONTROL 허용]**. 선택한 모든 표현물은 IBM Aspera Connect를 사용하여 zip 폴더에 다운로드됩니다.
 
    IBM Aspera Connect를 사용하지 않으려면 를 클릭합니다 **[!UICONTROL 거부]**. If **[!UICONTROL 빠른 다운로드]** 가 거부되거나 실패하면 시스템에서 오류 메시지를 채웁니다. 을(를) 클릭합니다. **[!UICONTROL 일반 다운로드]** 단추를 클릭하여 자산을 계속 다운로드합니다.
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -250,19 +253,22 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 자산, 자�
 
    ![표현물 패널](assets/renditions-panel.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** (만) 향후 릴리스에서는 다음과 같은 알려진 문제가 해결됩니다.
-   >
-   >다음 **[!UICONTROL 표현물]** 패널은 2021년 12월 16일 이후에 Brand Portal에 게시되는 자산의 모든 정적 렌디션을 나열하지 않습니다.
-   >
-   >다음 **[!UICONTROL 표현물]** 패널에 자산의 스마트 자르기 렌디션이 나열되지만 사용자가 스마트 자르기 렌디션을 미리 보거나 다운로드할 수 없습니다.
 
 1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 이 설정은에서 활성화됩니다. **[!UICONTROL 다운로드 설정]**. 따라서 IBM Aspera Connect를 사용하여 빠른 다운로드를 허용하는 확인 상자가 나타납니다.
 
    계속 사용하려면 **[!UICONTROL 빠른 다운로드]**&#x200B;를 클릭합니다. **[!UICONTROL 허용]**. 선택한 모든 표현물은 IBM Aspera Connect를 사용하여 zip 폴더에 다운로드됩니다.
 
    사용을 거부하는 경우 **[!UICONTROL 빠른 다운로드]**&#x200B;를 입력하면 시스템이 오류 메시지를 채웁니다. 을(를) 클릭합니다. **[!UICONTROL 일반 다운로드]** 단추를 클릭하여 자산을 계속 다운로드합니다.
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
