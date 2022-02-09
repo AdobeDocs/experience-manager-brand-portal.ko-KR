@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 7%
+source-wordcount: '1225'
+ht-degree: 6%
 
 ---
 
 # Brand Portal에서 자산 검색 {#search-assets-on-brand-portal}
 
-Brand Portal 검색 기능을 사용하면 omnisearch 및 필터를 사용하는 패싯 검색을 사용하여 관련 자산을 빠르게 검색할 수 있으므로 검색 범위를 더 좁힐 수 있습니다. 파일 또는 폴더 수준에서 자산을 검색하고 검색 결과를 스마트 컬렉션으로 저장할 수 있습니다. 그러나 omnisearch 또는 패싯 검색을 사용하여 컬렉션의 자산을 검색할 수 없습니다.
+Brand Portal 검색 기능을 사용하면 omnisearch 및 필터를 사용하는 패싯 검색을 사용하여 관련 자산을 빠르게 검색할 수 있으므로 검색 범위를 더 좁힐 수 있습니다. 파일 또는 폴더 수준에서 자산을 검색하고 검색 결과를 스마트 컬렉션으로 저장할 수 있습니다.
+
+>[!NOTE]
+>
+>Brand Portal은 omnisearch를 사용한 컬렉션 검색을 지원하지 않습니다.
+>
+>그러나 다음 아이콘을 사용할 수 있습니다 [검색 필터를 사용하여 관련 컬렉션 목록 가져오기](#search-collection).
 
 ## Omnisearch를 사용하여 자산 검색 {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
 1. 설정 **[!UICONTROL 스마트 컬렉션 편집]** 대화 상자, 선택 **[!UICONTROL 다른 이름으로 저장]** 스마트 컬렉션 이름을 입력합니다. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## 검색 컬렉션 {#search-collection}
+
+Omnisearch는 컬렉션에서 지원되지 않습니다. 그러나 검색 필터를 적용하여 내의 관련 컬렉션을 나열할 수 있습니다 [!UICONTROL 컬렉션] 인터페이스.
+
+에서 [!UICONTROL 컬렉션] 인터페이스에서 오버레이 아이콘을 클릭하여 왼쪽 레일에서 필터 패널을 엽니다. 사용 가능한 필터에서 단일 또는 여러 검색 필터 적용(`modified date`, `access type`, 및 `tags`). 적용된 필터를 기반으로 가장 관련성이 높은 컬렉션 세트를 나열합니다.
+
+![](assets/collection-search.png)
