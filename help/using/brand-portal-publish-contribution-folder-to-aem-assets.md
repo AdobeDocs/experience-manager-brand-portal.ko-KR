@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 
 
 >[!NOTE]
 >
->Brand Portal 사용자는 NEW 폴더에만 자산을 업로드할 수 있습니다.
+>Brand Portal 사용자는 자산을 업로드할 수 있습니다(최대 **2개** NEW 폴더에 GB(파일 크기당)를 추가합니다.
 >
 >모든 Brand Portal 테넌트에 대한 최대 업로드 제한은 다음과 같습니다 **10**&#x200B;모든 기여도 폴더에 누적 적용되는 GB입니다.
 >
