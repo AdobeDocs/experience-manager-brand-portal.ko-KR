@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 7%
+source-wordcount: '1558'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ Brand Portal과 Adobe Experience Manager Assets를 구성하면 Brand Portal 사
 
 Experience Manager Assets as a Cloud Service은 Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal으로 자동으로 구성됩니다. 활성화 워크플로우는 백엔드에 필수 구성을 만들고 Experience Manager Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
 
-반면, Experience Manager Assets(온-프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 IMS(Adobe Identity Management Services) 토큰을 전달하는 Adobe 개발자 콘솔을 사용하여 Brand Portal으로 수동으로 구성합니다.
+반면에, Experience Manager Assets(온-프레미스 및 관리 서비스)는 Brand Portal 테넌트의 승인을 위해 IMS(Adobe Identity Management Services) 토큰을 전달하는 Adobe Developer 콘솔을 사용하여 Brand Portal으로 수동으로 구성합니다.
 
 자세한 내용은 [Brand Portal과 Experience Manager Assets 구성](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -113,7 +113,11 @@ Brand Portal의 표준 사용자는 일반적으로 뷰어 역할을 가진 사�
 
 관리자는 [!UICONTROL Admin Console]. 관리자는 시스템 관리자와 사용자를 추가 및 제거하고, 사전 설정을 정의하고, 사용자에게 이메일을 보내고, 포털 사용량 및 저장소 보고서를 볼 수 있습니다.
 
-관리자는 편집기에서 다음과 같은 추가 작업을 수행할 수 있는 모든 작업을 수행할 수 있습니다.
+>[!NOTE]
+>
+>Brand Portal에서 의 지원 관리자 역할이 표시된 사용자 [!UICONTROL Admin Console] 는 시스템 관리자와 동일한 권한을 갖습니다.
+
+관리자는 편집기에서 수행할 수 있는 모든 작업을 수행할 수 있습니다. 다음은 관리자가 수행할 수 있는 추가 작업입니다.
 
 * [사용자, 그룹 및 사용자 역할 관리](brand-portal-adding-users.md)
 
@@ -228,7 +232,7 @@ Brand Portal을 유지 보수 목적으로 아래로 이동하도록 예약하�
 ## 릴리스 및 시스템 정보 {#release-and-system-information}
 
 * [새로운 기능](whats-new.md)
-* [릴리스 노트](brand-portal-release-notes.md)
+* [릴리스 정보](brand-portal-release-notes.md)
 * [지원되는 파일 형식](brand-portal-supported-formats.md)
 
 ## 관련 리소스 {#related-resources}
