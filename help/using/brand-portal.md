@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
+source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1585'
 ht-degree: 6%
 
 ---
@@ -73,9 +73,9 @@ Brand Portal은 다음 사용자 역할을 지원합니다.
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### 게스트 사용자 {#guest-user}
+### 게스트 사용자(경량 사용자) {#guest-user}
 
-인증을 받지 않은 Brand Portal의 자산에 대한 액세스 권한이 제한된 사용자는 게스트 사용자입니다. 게스트 세션을 통해 공용 폴더 및 컬렉션에 액세스할 수 있습니다. 게스트 사용자는 자산 세부 사항을 탐색하고 공용 폴더 및 컬렉션 구성원의 전체 자산 보기를 가질 수 있습니다. 공개 자산을 검색, 다운로드 및 추가할 수 있습니다 [!UICONTROL Lightbox] 컬렉션.
+Experience Manager Assets Brand Portal은 [게스트 액세스](#request-access-to-brand-portal) Brand Portal에 연결할 수도 있습니다. 게스트 사용자는 포털에 액세스하는 데 자격 증명이 필요하지 않으며 공용 폴더 및 컬렉션에 액세스할 수 있습니다. 게스트 사용자는 자산 세부 사항을 탐색하고 공용 폴더 및 컬렉션 구성원의 전체 자산 보기를 가질 수 있습니다. 공개 자산을 검색, 다운로드 및 추가할 수 있습니다 [!UICONTROL Lightbox] 컬렉션.
 
 그러나 게스트 세션에서는 컬렉션과 저장된 검색을 만들지 못하고 추가로 공유할 수 없습니다. 게스트 세션의 사용자는 폴더 및 컬렉션 설정에 액세스할 수 없으며 자산을 링크로 공유할 수 없습니다. 다음은 게스트 사용자가 수행할 수 있는 작업 목록입니다.
 
@@ -87,9 +87,11 @@ Brand Portal은 다음 사용자 역할을 지원합니다.
 
 * [에 자산 추가 [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-### 뷰어 {#viewer}
+자세한 내용은 [Brand Portal에 대한 게스트 액세스](../using/guest-access.md).
 
-Brand Portal의 표준 사용자는 일반적으로 뷰어 역할을 가진 사용자입니다. 이 역할을 가진 사용자는 허용된 폴더, 컬렉션 및 자산에 액세스할 수 있습니다. 또한 자산(원본 또는 특정 표현물)을 검색, 미리 보기, 다운로드 및 내보내고, 계정 설정을 구성하고, 자산을 검색할 수도 있습니다. 다음은 뷰어가 수행할 수 있는 작업 목록입니다.
+### 뷰어(표준 사용자) {#viewer}
+
+표준 사용자는 [!DNL Admin Console] 뷰어 역할을 가진 Brand Portal에 액세스할 수 있는 사용자. 이 역할을 가진 사용자는 Brand Portal에 로그인하고 허용된 폴더, 컬렉션 및 자산에 액세스할 수 있습니다. 또한 자산(원본 또는 특정 표현물)을 검색, 미리 보기, 다운로드 및 내보내고, 계정 설정을 구성하고, 자산을 검색할 수도 있습니다. 다음은 뷰어가 수행할 수 있는 작업 목록입니다.
 
 * [자산 찾아보기](browse-assets-brand-portal.md)
 
