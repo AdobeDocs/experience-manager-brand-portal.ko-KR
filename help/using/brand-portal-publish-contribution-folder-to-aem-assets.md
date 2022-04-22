@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 
 
 ## 기여도 폴더에 자산 업로드 {#uplad-new-assets-to-contribution-folder}
 
-자산 요구 사항을 거친 후 Brand Portal 사용자는 기여할 새 자산을 만들고 기여도 폴더 내의 NEW 폴더에 업로드할 수 있습니다.
+자산 요구 사항을 거친 후 Brand Portal 사용자는 기여할 새 자산을 만들고 기여도 폴더 내의 NEW 폴더에 업로드할 수 있습니다. 사용자는 여러 자산을 자산 기여 폴더에 업로드할 수 있습니다. 그러나 한 번에 하나의 폴더만 만들 수 있습니다.
 
 >[!NOTE]
 >
