@@ -1,38 +1,38 @@
 ---
-title: 릴리스 노트
+title: 릴리스 정보
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2022.02.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2022.05.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Anuj Kapoor
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 10%
+source-wordcount: '445'
+ht-degree: 13%
 
 ---
 
-# 릴리스 노트 {#release-notes}
+# 릴리스 정보 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2022.02.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets Brand Portal 2022.05.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2022.02.0 |
-| 날짜 | 2022년 2월 |
+| 버전 | 2022.05.0 |
+| 날짜 | 2022년 5월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2022.02.0의 새로운 기능 {#whats-new-in-2022.02.0}
+## 2022.05.0의 새로운 기능 {#whats-new-in-2022.05.0}
 
 <!--
 ### New Features {#new-features}
@@ -93,22 +93,38 @@ This release includes the following enhancements:
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
 * The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
+
+* The users are unable to search, navigate, or open folders. The user interface reflects the error message: `Failed to load data`. 
+* The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal.
+* The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+* The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions. 
+* A non-admin user is getting only the original asset rendition when downloading an asset. The system and custom renditions are not downloaded.  
+* When applying search filter to download an asset, the `Download` button is disabled in the download dialog and does not allows the user to download the asset.
+* If `Smart Tags` and (or) `Color Tags` are enabled, the download dialog lists the `json` files as renditions and downloads these `json` files in the archived zip folder.
+* The anonymous users are unable to download assets using a shared link because the link redirects to the Brand Portal login page. 
+* The system is not reflecting the correct value for the number of active concurrent users.
 -->
+
+### 새로운 기능 {#new-features}
+
+이제 Brand Portal은 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 자산을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하려면 기여도 폴더에서 자산을 수동으로 삭제할 필요가 없습니다. 자세한 내용은 [Experience Manager Assets Brand Portal의 새로운 기능](whats-new.md).
 
 
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
-* 사용자가 폴더를 검색, 탐색 또는 열 수 없습니다. 사용자 인터페이스에 오류 메시지가 표시됩니다. `Failed to load data`.
-* 다음 **[!UICONTROL 표현물]** 패널에 Brand Portal에 게시된 자산의 모든 정적 표현물이 나열되지는 않습니다.
-* 다음 **[!UICONTROL 표현물]** 패널에 자산의 스마트 자르기 렌디션이 나열되지만 사용자가 스마트 자르기 렌디션을 미리 보거나 다운로드할 수 없습니다.
-* 다운로드 대화 상자에는 선택한 자산의 스마트 자르기 표현물이 표시되지만 스마트 자르기 렌디션은 다운로드할 수 없습니다.
-* 관리자가 아닌 사용자가 자산을 다운로드할 때 원래 자산 표현물만 받게 됩니다. 시스템 및 사용자 지정 표현물은 다운로드되지 않습니다.
-* 검색 필터를 적용하여 자산을 다운로드할 때 `Download` 버튼은 다운로드 대화 상자에서 비활성화되며 사용자가 자산을 다운로드할 수 없습니다.
-* If `Smart Tags` 및 (또는) `Color Tags` 활성화되면 다운로드 대화 상자에 `json` 를 변환으로 지정하고 다음 파일을 다운로드합니다. `json` 보관된 zip 폴더에 있는 파일입니다.
-* 링크가 Brand Portal 로그인 페이지로 리디렉션되므로 익명 사용자는 공유 링크를 사용하여 자산을 다운로드할 수 없습니다.
-* 시스템이 활성 동시 사용자 수에 대한 올바른 값을 반영하지 않습니다.
+* 색상 태그가 있는 자산이 포함된 폴더나 컬렉션을 다운로드하면 XML 파일도 다운로드됩니다.
+
+* 표현물이 포함된 비디오를 다운로드하면 Brand Portal에서 잘못된 .ZIP 파일을 만듭니다.
+
+* AEM 작성기에서 사전 설정 및 자산을 만들고 Brand Portal에 게시한 다음 자산을 다운로드하는 동안 동적 변환을 선택하면 다운로드된 사전 설정을 추출할 수 없습니다. ZIP 파일입니다.
+
+* Brand Portal에서 사용할 수 있는 특정 폴더에서 비디오 자산을 다운로드하는 동안 문제가 발생합니다.
+
+* 이메일을 사용하여 기여도 폴더의 URL을 공유하는 경우 탐색 표시를 사용하여 상위 폴더에 액세스하는 동안 뷰어 및 편집기 역할에 문제가 발생합니다.
+
+* 게시된 소싱 보고서에 잘못된 작업 시작 시간이 표시됩니다.
 
 
 <!--
@@ -137,15 +153,9 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 ### 알려진 문제 {#known-issues}
 
-이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
+이 릴리스에는 다음과 같은 알려진 문제가 포함되어 있습니다.
 
-* 사용자는 기존 조직을 마이그레이션하는 동안 Brand Portal에 로그인할 수 없습니다.
-
-   그러나 Brand Portal에 로그인한 활성 사용자는 현재 세션이 만료될 때까지 계속 작업할 수 있습니다.
-
-* Brand Portal에서 Admin Console으로 이동할 때 관리자는 조직을 선택할 수 있는 추가 화면이 표시될 수 있습니다.
-
-* If `Color Tags` 이 활성화되고 사용자가 폴더 또는 컬렉션을 다운로드하여 추가 `xml` 보관된 zip 폴더에 있는 폴더(또는 컬렉션)의 각 자산에 대해 파일이 다운로드됩니다.
+* 자산 소싱 보고서 컨텐츠의 부분 현지화.
 
 
 <!--

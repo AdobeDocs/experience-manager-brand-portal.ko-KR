@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets Brand Portal의 새로운 기능
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2022.02.0에 대한 새로운 기능 및 개선 사항은 무엇입니까?
-seo-description: What are the new features and enhancements for 2022.02.0
+description: 2022.05.0에 대한 새로운 기능 및 개선 사항은 무엇입니까?
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,35 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6325'
-ht-degree: 2%
+source-wordcount: '6482'
+ht-degree: 1%
 
 ---
 
 # Experience Manager Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Adobe은 전체 Brand Portal 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 향상된 기능을 잠깐 살펴보십시오.
+
+## 2022.05.0 변경 사항 {#what-changed-in-May-2022}
+
+이제 Brand Portal은 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 자산을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하려면 기여도 폴더에서 자산을 수동으로 삭제할 필요가 없습니다. 를 사용하여 자동으로 실행된 삭제 작업의 상태를 모니터링할 수도 있습니다 **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여 상태]** > **[!UICONTROL 삭제 보고서]** Brand Portal 옵션. 작업에 대한 보고서는 다음 세부 정보를 제공합니다.
+
+* 작업 시작 시간
+* 작업 종료 시간
+* 작업 상태
+* 작업에 포함된 총 자산
+* 작업에서 성공적으로 삭제된 자산의 합계입니다.
+
+![삭제 보고서](assets/deletion-reports.png)
+
+추가로 드릴다운하여 삭제 작업에 포함된 각 자산의 세부 사항을 볼 수도 있습니다. 자산 제목, 크기, 작성자, 삭제 상태 및 삭제 시간과 같은 세부 정보가 보고서에 포함됩니다.
+
+![삭제 보고서 세부 정보](assets/deletion-reports-detailed.png)
+
+또한 Brand Portal 2022.05.0에는 중요한 문제에 대한 수정 사항이 포함되어 있습니다. 최신 항목 보기 [Brand Portal 릴리스 노트](brand-portal-release-notes.md).
+
 
 ## 2022.02.0 변경 사항 {#what-changed-in-Feb-2022}
 
