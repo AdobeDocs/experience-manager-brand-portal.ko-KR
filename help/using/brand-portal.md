@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
+source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1576'
 ht-degree: 6%
 
 ---
@@ -73,7 +73,7 @@ Brand Portal은 다음 사용자 역할을 지원합니다.
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### 게스트 사용자(경량 사용자) {#guest-user}
+### 게스트 사용자 {#guest-user}
 
 Experience Manager Assets Brand Portal은 [게스트 액세스](#request-access-to-brand-portal) Brand Portal에 연결할 수도 있습니다. 게스트 사용자는 포털에 액세스하는 데 자격 증명이 필요하지 않으며 공용 폴더 및 컬렉션에 액세스할 수 있습니다. 게스트 사용자는 자산 세부 사항을 탐색하고 공용 폴더 및 컬렉션 구성원의 전체 자산 보기를 가질 수 있습니다. 공개 자산을 검색, 다운로드 및 추가할 수 있습니다 [!UICONTROL Lightbox] 컬렉션.
 
@@ -89,9 +89,9 @@ Experience Manager Assets Brand Portal은 [게스트 액세스](#request-access-
 
 자세한 내용은 [Brand Portal에 대한 게스트 액세스](../using/guest-access.md).
 
-### 뷰어(표준 사용자) {#viewer}
+### 뷰어 {#viewer}
 
-표준 사용자는 [!DNL Admin Console] 뷰어 역할을 가진 Brand Portal에 액세스할 수 있는 사용자. 이 역할을 가진 사용자는 Brand Portal에 로그인하고 허용된 폴더, 컬렉션 및 자산에 액세스할 수 있습니다. 또한 자산(원본 또는 특정 표현물)을 검색, 미리 보기, 다운로드 및 내보내고, 계정 설정을 구성하고, 자산을 검색할 수도 있습니다. 다음은 뷰어가 수행할 수 있는 작업 목록입니다.
+에 정의된 Brand Portal 사용자 [!DNL Admin Console] 뷰어 역할을 가진 Brand Portal에 액세스할 수 있는 사용자. 이 역할을 가진 사용자는 Brand Portal에 로그인하고 허용된 폴더, 컬렉션 및 자산에 액세스할 수 있습니다. 또한 자산(원본 또는 특정 표현물)을 검색, 미리 보기, 다운로드 및 내보내고, 계정 설정을 구성하고, 자산을 검색할 수도 있습니다. 다음은 뷰어가 수행할 수 있는 작업 목록입니다.
 
 * [자산 찾아보기](browse-assets-brand-portal.md)
 
