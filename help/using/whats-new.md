@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
+source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
-source-wordcount: '6482'
-ht-degree: 1%
+source-wordcount: '6493'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,8 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 승인된 크리에
 * 작업 종료 시간
 * 작업 상태
 * 작업에 포함된 총 자산
-* 작업에서 성공적으로 삭제된 자산의 합계입니다.
+* 작업에서 성공적으로 삭제된 총 자산 수
+* 작업 실행 결과로 사용할 수 있는 총 스토리지 수
 
 ![삭제 보고서](assets/deletion-reports.png)
 
@@ -336,7 +337,7 @@ Brand Portal 관리자는 모든 조합을 사용하여 자산 다운로드를 �
 
 ## 6.4.6의 변경 사항 {#what-changed-in-646}
 
-Brand Portal 6.4.6에서 AEM Assets과 Brand Portal 간의 인증 채널이 변경되었습니다. Brand Portal은 이제 AEM Assets as a Cloud Service, AEM Assets 6.3 이상에서 지원됩니다. AEM Assets 6.3 이상에서 Brand Portal은 이전에 기존 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 인증을 위해 IMS 액세스 토큰을 가져오는 데 JWT 토큰 교환을 사용합니다. 이제 AEM Assets은 Brand Portal 테넌트의 인증을 위해 IMS 토큰을 전달하는 Adobe 개발자 콘솔을 통해 Brand Portal으로 구성됩니다.
+Brand Portal 6.4.6에서 AEM Assets과 Brand Portal 간의 인증 채널이 변경되었습니다. Brand Portal은 이제 AEM Assets as a Cloud Service, AEM Assets 6.3 이상에서 지원됩니다. AEM Assets 6.3 이상에서 Brand Portal은 이전에 기존 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 인증을 위해 IMS 액세스 토큰을 가져오는 데 JWT 토큰 교환을 사용합니다. 이제 AEM Assets은 Adobe Developer 콘솔을 통해 Brand Portal에 구성되며, 이 콘솔을 통해 Brand Portal 테넌트의 승인을 위해 IMS 토큰을 받습니다.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->

@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Brand Portal 대시보드는 새 공유 기여도 폴더와 함께 Brand Portal 
 간략한(자산 요구 사항 문서)을 살펴보고 자산 요구 사항을 이해하려면 기준 자산을 참조하십시오. 이제 기여도를 위한 새 자산을 만들고 기여도 폴더에 업로드할 수 있습니다.
 
 
-## 기여도 폴더에 자산 업로드 {#uplad-new-assets-to-contribution-folder}
+## 기여도 폴더에 자산 업로드 {#upload-new-assets-to-contribution-folder}
 
 자산 요구 사항을 거친 후 Brand Portal 사용자는 기여할 새 자산을 만들고 기여도 폴더 내의 NEW 폴더에 업로드할 수 있습니다. 사용자는 여러 자산을 자산 기여 폴더에 업로드할 수 있습니다. 그러나 한 번에 하나의 폴더만 만들 수 있습니다.
 
@@ -138,7 +138,7 @@ Brand Portal 사용자는 Experience Manager 작성자 인스턴스에 액세스
 
 * Brand Portal에서 **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여 상태]**. 이 보고서는 게시 작업 과정의 여러 단계에 있는 모든 게시 작업 상태를 반영합니다.
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * Experience Manager Assets(온-프레미스 또는 관리 서비스)에서 **[!UICONTROL 자산]** > **[!UICONTROL 작업]**. 이 보고서는 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
 
@@ -157,3 +157,58 @@ Brand Portal 사용자는 Experience Manager 작성자 인스턴스에 액세스
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## 기여도 폴더에서 Experience Manager Assets에 게시된 자산의 자동 삭제 {#automatically-delete-published-assets-from-contribution-folder}
+
+이제 Brand Portal은 12시간마다 자동 작업을 실행하여 모든 기여도 폴더를 스캔하고 AEM에 게시된 모든 자산을 삭제합니다. 따라서 폴더 크기를 [임계값 제한](#upload-new-assets-to-contribution-folder). 지난 7일 동안 자동으로 실행된 삭제 작업의 상태를 모니터링할 수도 있습니다. 작업에 대한 보고서는 다음 세부 정보를 제공합니다.
+
+* 작업 시작 시간
+* 작업 종료 시간
+* 작업 상태
+* 작업에 포함된 총 자산
+* 작업에서 성공적으로 삭제된 총 자산 수
+* 작업 실행 결과로 사용할 수 있는 총 스토리지 수
+
+   ![삭제 보고서](assets/deletion-reports.png)
+
+추가로 드릴다운하여 삭제 작업에 포함된 각 자산의 세부 사항을 볼 수도 있습니다. 자산 제목, 크기, 작성자, 삭제 상태 및 삭제 시간과 같은 세부 정보가 보고서에 포함됩니다.
+
+![삭제 보고서 세부 정보](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * 고객은 Adobe 고객 지원 센터에 자동 삭제 작업 기능을 비활성화하고 다시 활성화하거나 실행 빈도를 변경하도록 요청할 수 있습니다.
+> * 이 기능은 Experience Manager 6.5.13.0 이상 릴리스에서 사용할 수 있습니다.
+
+
+### 삭제 보고서 보기 및 다운로드 {#view-delete-jobs}
+
+삭제 작업에 대한 보고서를 보고 다운로드하려면
+
+1. Brand Portal에서 **[!UICONTROL 도구]**>**[!UICONTROL 자산 기여 상태]**>**[!UICONTROL 삭제 보고서]** 선택 사항입니다.
+
+1. 작업을 선택하고 **[!UICONTROL 보기]** 보고서를 보려면
+
+   삭제 작업에 포함된 각 자산의 세부 사항을 봅니다. 자산 제목, 크기, 작성자, 삭제 상태 및 삭제 시간과 같은 세부 정보가 보고서에 포함됩니다. 클릭 **[!UICONTROL 다운로드]** 작업에 대한 보고서를 CSV 형식으로 다운로드하려면 다음을 수행하십시오.
+
+   보고서의 자산에 대한 삭제 상태는 다음 값을 가질 수 있습니다.
+
+   * **삭제됨** - 기여도 폴더에서 자산이 삭제되었습니다.
+
+   * **없음** - Brand Portal에서 기여도 폴더에서 자산을 찾을 수 없습니다. 자산이 이미 폴더에서 수동으로 삭제됩니다.
+
+   * **건너뛴** - 기여도 폴더에 아직 Experience Manager에 게시되지 않은 자산에서 사용할 수 있는 새 버전이 있으므로 Brand Portal에서 자산 삭제를 건너뛰었습니다.
+
+   * **실패** - Brand Portal에서 자산을 삭제하지 못했습니다. 가 있는 자산을 삭제하기 위해 세 번 다시 시도됩니다. `Failed` 삭제 상태. 자산이 세 번째 다시 삭제 시도에 실패하면 자산을 수동으로 삭제해야 합니다.
+
+### 보고서 삭제
+
+Brand Portal에서는 하나 이상의 보고서를 선택하고 수동으로 삭제할 수도 있습니다.
+
+보고서를 삭제하려면
+
+1. 다음으로 이동 **[!UICONTROL 도구]**>**[!UICONTROL 자산 기여 상태]**>**[!UICONTROL 삭제 보고서]** 선택 사항입니다.
+
+1. 하나 이상의 보고서를 선택하고 **[!UICONTROL 삭제]**.
+
+
