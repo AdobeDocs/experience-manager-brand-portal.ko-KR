@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 15%
 
 ---
@@ -37,7 +37,8 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
-* NUI가 Experience Manager에서 자산을 처리하지 못하면 Brand Portal에 부정확한 자산 가져오기 상태가 표시됩니다.
+
+* asset compute이 Experience Manager에서 자산을 처리하지 못하면 Brand Portal에 부정확한 자산 가져오기 상태가 표시됩니다.
 * 미리 보기 작업이 실패하면 실패를 알리는 알림이 없습니다.
 * 임차인에 대해 테넌트 업로드 할당량 속성이 잘못 설정됩니다.
 * 를 클릭하면 **모든 항목 다운로드** 그리고 자산에 사용할 수 있는 표현물이 많습니다. Brand Portal은 잘못된 .ZIP 파일을 다운로드합니다.
