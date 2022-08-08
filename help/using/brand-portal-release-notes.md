@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 13%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2022.05.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets Brand Portal 2022.08.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2022.05.0 |
-| 날짜 | 2022년 5월 |
+| 버전 | 2022.08.0 |
+| 날짜 | 2022년 8월 |
 
 ## 개요 {#overview}
 
-Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
+Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2022.05.0의 새로운 기능 {#whats-new-in-2022.05.0}
+## 2022.08.0의 새로운 기능 {#whats-new-in-2022.08.0}
+
+### 해결된 중요한 문제 {#critical-issues-fixed}
+
+이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
+* NUI가 Experience Manager에서 자산을 처리하지 못하면 Brand Portal에 부정확한 자산 가져오기 상태가 표시됩니다.
+* 미리 보기 작업이 실패하면 실패를 알리는 알림이 없습니다.
+* 임차인에 대해 테넌트 업로드 할당량 속성이 잘못 설정됩니다.
+* 를 클릭하면 **모든 항목 다운로드** 그리고 자산에 사용할 수 있는 표현물이 많습니다. Brand Portal은 잘못된 .ZIP 파일을 다운로드합니다.
+* 일부 문자열의 번역은 Brand Portal 사용자 인터페이스에서 잘립니다.
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### 새로운 기능 {#new-features}
+<!--
+### New features {#new-features}
 
-이제 Brand Portal은 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 자산을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하려면 기여도 폴더에서 자산을 수동으로 삭제할 필요가 없습니다. 자세한 내용은 [Experience Manager Assets Brand Portal의 새로운 기능](whats-new.md).
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### 해결된 중요한 문제 {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* 색상 태그가 있는 자산이 포함된 폴더나 컬렉션을 다운로드하면 XML 파일도 다운로드됩니다.
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* 표현물이 포함된 비디오를 다운로드하면 Brand Portal에서 잘못된 .ZIP 파일을 만듭니다.
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* AEM 작성기에서 사전 설정 및 자산을 만들고 Brand Portal에 게시한 다음 자산을 다운로드하는 동안 동적 변환을 선택하면 다운로드된 사전 설정을 추출할 수 없습니다. ZIP 파일입니다.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* Brand Portal에서 사용할 수 있는 특정 폴더에서 비디오 자산을 다운로드하는 동안 문제가 발생합니다.
-
-* 이메일을 사용하여 기여도 폴더의 URL을 공유하는 경우 탐색 표시를 사용하여 상위 폴더에 액세스하는 동안 뷰어 및 편집기 역할에 문제가 발생합니다.
-
-* 게시된 소싱 보고서에 잘못된 작업 시작 시간이 표시됩니다.
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함되어 있습니다.
 
-* 자산 소싱 보고서 컨텐츠의 부분 현지화.
+* 자산 소싱 보고서 컨텐츠의 부분 로컬라이제이션
 
 
 <!--

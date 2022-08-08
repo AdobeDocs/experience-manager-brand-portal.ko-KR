@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
+source-git-commit: 002647322fe105c5551a89e8fd65a7f7314963a2
 workflow-type: tm+mt
-source-wordcount: '6493'
+source-wordcount: '6498'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,13 @@ ht-degree: 2%
 
 Adobe Experience Manager Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Adobe은 전체 Brand Portal 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 향상된 기능을 잠깐 살펴보십시오.
 
+## 2022.08.0 변경 사항 {#what-changed-in-August-2022}
+
+Brand Portal 2022.08.0에는 주요 문제에 대한 수정 사항이 포함되어 있습니다. 최신 항목 보기 [Brand Portal 릴리스 노트](brand-portal-release-notes.md).
+
 ## 2022.05.0 변경 사항 {#what-changed-in-May-2022}
 
-이제 Brand Portal은 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 자산을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하려면 기여도 폴더에서 자산을 수동으로 삭제할 필요가 없습니다. 를 사용하여 자동으로 실행된 삭제 작업의 상태를 모니터링할 수도 있습니다 **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여 상태]** > **[!UICONTROL 삭제 보고서]** Brand Portal 옵션. 작업에 대한 보고서는 다음 세부 정보를 제공합니다.
+Brand Portal은 이제 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 에셋을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하기 위해 기여도 폴더에 에셋을 수동으로 삭제할 필요가 없습니다. 를 사용하여 자동으로 실행된 삭제 작업의 상태를 모니터링할 수도 있습니다 **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여 상태]** > **[!UICONTROL 삭제 보고서]** Brand Portal 옵션. 작업에 대한 보고서는 다음 세부 정보를 제공합니다.
 
 * 작업 시작 시간
 * 작업 종료 시간
@@ -388,9 +392,9 @@ Brand Portal으로 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 ## 6.4.5에서 변경된 사항 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 컨텐츠를 Brand Portal에 업로드하고 AEM Assets에 게시할 수 있는 기능을 Brand Portal 사용자(외부 에이전시/팀)에게 제공하는 데 중점을 둔 기능 릴리스입니다. 이 기능을 라고 합니다 **[Brand Portal의 자산 소싱](brand-portal-asset-sourcing.md)**, 그리고 는 사용자가 자산을 기여하고 전 세계에 배포된 다른 Brand Portal 사용자와 공유할 수 있는 양방향 메커니즘을 제공하여 고객 경험을 향상시켜 줍니다.
+Brand Portal 6.4.5는 작성자 환경에 액세스하지 않아도 콘텐츠를 Brand Portal에 업로드하고 AEM Assets에 게시할 수 있는 기능을 Brand Portal 사용자(외부 에이전시/팀)에게 제공하는 데 중점을 둔 기능 릴리스입니다. 이 기능을 라고 합니다 **[Brand Portal의 자산 소싱](brand-portal-asset-sourcing.md)**, 그리고 는 사용자가 자산을 기여하고 전 세계에 배포된 다른 Brand Portal 사용자와 공유할 수 있는 양방향 메커니즘을 제공하여 고객 경험을 향상시켜 줍니다.
 
-### Brand Portal의 자산 소싱 {#asset-sourcing-in-bp}
+### Brand Portal의 에셋 소싱 {#asset-sourcing-in-bp}
 
 AEM 사용자(관리자/관리자가 아닌 사용자)는 자산 소싱을 통해 추가 항목이 있는 폴더를 만들 수 있습니다 **자산 기여** 속성을 사용하여 만든 새 폴더를 Brand Portal 사용자가 자산 제출을 열도록 합니다. 새로 만든 폴더 내에서 NEW 및 SHARED라는 두 개의 추가 하위 폴더를 만드는 워크플로우를 자동으로 트리거합니다 **기여도** 폴더를 입력합니다.
 
