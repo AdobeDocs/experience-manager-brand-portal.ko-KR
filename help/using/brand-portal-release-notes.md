@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 16%
+source-wordcount: '382'
+ht-degree: 14%
 
 ---
 
@@ -37,18 +37,19 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
-* Brand Portal에서 타사 도구로 대용량 파일을 복사하는 동안 응답 시간이 느려집니다.
+
+* 대용량 파일을 Brand Portal에서 타사 도구로 복사하는 동안 응답 시간이 느려집니다.
 * 표현물 수 확인란을 선택하면 개별 표현물을 선택하는 확인란이 비활성화됩니다.
 * 검색에 대한 응답 시간이 느립니다.
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal의 펄스 알림은 2022년 12월 1일부터 중단됩니다. 펄스 알림 대신 다음 이벤트에 대한 이메일 알림을 계속 받게 됩니다.
->* 링크를 통한 자산 공유
->* 액세스 워크플로우 요청
->* 기여도 폴더 공유
->* AEM으로 내보내기 시작
->* AEM으로 내보내기 완료
+>AEM Assets Brand Portal의 펄스 알림은 2022년 12월 1일부터 중단됩니다. 다음 이벤트에 대한 이메일 알림을 계속 수신하게 됩니다.
+>* 공유 링크를 통해 Brand Portal 자산을 사용자와 공유하는 경우
+>* 관리자가 Brand Portal 액세스 요청을 승인하는 경우. 또한 Brand Portal 액세스를 요청하면 관리자가 알림을 받습니다.
+>* 기여 폴더를 사용자와 공유할 때
+>* Brand Portal에서 AEM으로 자산을 게시하기 시작할 때
+>* 자산이 Brand Portal에서 AEM으로 성공적으로 게시되는 경우
 
 
 <!--
@@ -152,7 +153,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
