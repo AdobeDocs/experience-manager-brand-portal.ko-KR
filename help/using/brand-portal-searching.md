@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1358'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
    >[!NOTE]
    >
    >* 검색 제안이 표시되려면 omnisearch에 3자 이상이 필요합니다.
-   >* 검색어 검색 시 `mountain` 또는 `biking` 그런 다음 omnisearch는 검색 결과에 텍스트를 제공합니다 `mountain` 및 `biking` 메타데이터 필드에서 참조할 수 있습니다. 그렇지 않으면, 동작은 스마트 태그의 경우 `mountain` 또는 `biking` 각각의 스마트 태그에서 검색됩니다.
+   >* 검색할 때 `mountain biking`, omnisearch는 두 자산이 모두 있는 검색 결과의 모든 자산을 반환합니다. `mountain` 및 `biking` 메타데이터 필드에서 사용할 수 있습니다. 예, `mountain` 에서 `Title` 필드 및 `biking` 에서 `Description` 필드. 검색 결과에 표시하려면 메타데이터 필드에서 두 용어를 모두 사용할 수 있어야 합니다. 하지만 Omnisearch는 스마트 태그 메타데이터 필드에서 두 용어 중 하나만 사용할 수 있어도 검색 결과에 자산을 반환합니다. 예를 들어, 자산에 이 포함되어 있는 경우 `mountain` 는 스마트 태그 중 하나로서, 다음을 포함하지 않음 `biking` 다른 메타데이터 필드에서 `mountain biking`, omnisearch는 여전히 검색 결과에 있는 자산을 반환합니다.
 
 
 1. 드롭다운 목록에 나타나는 관련 제안 중에서 선택하여 관련 자산에 빠르게 액세스합니다.
