@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 13%
@@ -43,7 +43,6 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 * 컨텐츠 트리 창의 크기는 조정할 수 없습니다. 파일 이름이 컨텐츠 트리의 기본 너비보다 긴 경우 컨텐츠 트리를 가로와 세로로 모두 드래그할 수 없습니다. 따라서 더 긴 파일 이름을 읽을 수 없습니다.
 * 검색 양식에서 두 번 사용된 동일한 속성 설명을 위해 검색 결과가 일치하지 않습니다.
 * 중간 로그인 페이지의 텍스트는 모든 언어에 대해 현지화되지 않습니다.
-* 사용자 프로필의 일부 필드를 편집할 수 없습니다 `Edit` 프로필 페이지.
 
 ### 향상된 기능 {#enhancements}
 
@@ -60,7 +59,8 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함되어 있습니다.
 
-* 자산 소싱 보고서 컨텐츠의 부분 로컬라이제이션
+* 자산 소싱 보고서 컨텐츠의 부분 현지화.
+* 사용자 프로필에서 일부 사용자 프로필을 편집할 수 없습니다.
 
 <!--
 This release include fixes to the following critical issues:
