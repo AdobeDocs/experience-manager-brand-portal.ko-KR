@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 13%
+source-wordcount: '1047'
+ht-degree: 7%
 
 ---
 
@@ -26,13 +26,13 @@ Adobe Experience Manager Assets Brand Portal 2023.02.0 릴리스의 새로운 �
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | 버전 | 2023.02.0 |
-| 날짜 | 2023년 2월 |
+| 날짜 | 2023년 2월 일 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2023.02.0의 새로운 기능 {#whats-new-in-2023.02.0}
+## 의 새로운 2023.02.0 {#whats-new-in-2023.02.0}
 
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
@@ -62,14 +62,72 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 * 자산 소싱 보고서 컨텐츠의 부분 현지화.
 * 사용자 프로필에서 일부 사용자 프로필을 편집할 수 없습니다.
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## 이전 릴리스
+
+### 2022년 10월 릴리스 {#oct-2022}
+
+**해결된 중요한 문제**
+
+이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
+* Brand Portal에서 타사 도구로 대용량 파일을 복사하는 동안 응답 시간이 느려집니다.
+* 표현물 수 확인란을 선택하면 개별 표현물을 선택하는 확인란이 비활성화됩니다.
+* 검색에 대한 응답 시간이 느립니다.
+
+>[!IMPORTANT]
+>
+>AEM Assets Brand Portal의 펄스 알림은 2022년 12월 1일부터 중단됩니다. 펄스 알림 대신 다음 이벤트에 대한 이메일 알림을 계속 받게 됩니다.
+>* 링크를 통한 자산 공유
+>* 액세스 워크플로우 요청
+>* 기여도 폴더 공유
+>* AEM으로 내보내기 시작
+>* AEM으로 내보내기 완료
+>
+
+
+### 2022년 8월 릴리스 {#aug-2022}
+
+**해결된 중요한 문제**
+
+이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
+* NUI가 Experience Manager에서 자산을 처리하지 못하면 Brand Portal에 부정확한 자산 가져오기 상태가 표시됩니다.
+* 미리 보기 작업이 실패하면 실패를 알리는 알림이 없습니다.
+* 각 자산에 대한 totalUploadedSize 속성에 대한 부정확한 값이 수정되었습니다.
+* 를 클릭하면 **모든 항목 다운로드** 그리고 자산에 사용할 수 있는 표현물이 많습니다. Brand Portal은 잘못된 .ZIP 파일을 다운로드합니다.
+* 일부 문자열의 번역은 Brand Portal 사용자 인터페이스에서 잘립니다.
+
+### 2022년 5월 릴리스 {#may-2022}
+
+**새로운 기능**
+
+Brand Portal은 이제 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 에셋을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하기 위해 기여도 폴더에 에셋을 수동으로 삭제할 필요가 없습니다.
+
+**해결된 중요한 문제**
+
+이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
+
+* 색상 태그가 있는 자산이 포함된 폴더나 컬렉션을 다운로드하면 XML 파일도 다운로드됩니다.
+* 표현물이 포함된 비디오를 다운로드하면 Brand Portal에서 잘못된 .ZIP 파일을 만듭니다.
+* AEM 작성기에서 사전 설정 및 자산을 만들고 Brand Portal에 게시한 다음 자산을 다운로드하는 동안 동적 변환을 선택하면 다운로드한 .ZIP 파일을 추출할 수 없습니다.
+* Brand Portal에서 사용할 수 있는 특정 폴더에서 비디오 자산을 다운로드하는 동안 문제가 발생합니다.
+* 이메일을 사용하여 기여도 폴더의 URL을 공유하는 경우 탐색 표시를 사용하여 상위 폴더에 액세스하는 동안 뷰어 및 편집기 역할에 문제가 발생합니다.
+* 게시된 소싱 보고서에 잘못된 작업 시작 시간이 표시됩니다.
+
+### 2022년 2월 릴리스 {#feb-2022}
+
+**새로운 기능**
+
+* 게스트 사용자에 대한 세션 시간 제한 임계값이 2시간에서 15분으로 줄었습니다.
+* 추가 **[!UICONTROL 페이지 보기]** 사용자가 이제 Adobe Document Cloud 뷰어에서 PDF 페이지를 볼 수 있으므로 다중 페이지 PDF에 대한 옵션이 제거되었습니다.
+* 사용자가 폴더를 검색, 탐색 또는 열 수 없습니다. 사용자 인터페이스에 오류 메시지가 표시됩니다. `Failed to load data`.
+* 다음 **[!UICONTROL 표현물]** 패널에 Brand Portal에 게시된 자산의 모든 정적 표현물이 나열되지는 않습니다.
+* 다음 **[!UICONTROL 표현물]** 패널에 자산의 스마트 자르기 렌디션이 나열되지만 사용자가 스마트 자르기 렌디션을 미리 보거나 다운로드할 수 없습니다.
+* 다운로드 대화 상자에는 선택한 자산의 스마트 자르기 표현물이 표시되지만 스마트 자르기 렌디션은 다운로드할 수 없습니다.
+* 관리자가 아닌 사용자가 자산을 다운로드할 때 원래 자산 표현물만 받게 됩니다. 시스템 및 사용자 지정 표현물은 다운로드되지 않습니다.
+* 검색 필터를 적용하여 자산을 다운로드할 때 `Download` 버튼은 다운로드 대화 상자에서 비활성화되며 사용자가 자산을 다운로드할 수 없습니다.
+* If `Smart Tags` 및 (또는) `Color Tags` 활성화되면 다운로드 대화 상자에 `json` 를 변환으로 지정하고 다음 파일을 다운로드합니다. `json` 보관된 zip 폴더에 있는 파일입니다.
+* 링크가 Brand Portal 로그인 페이지로 리디렉션되므로 익명 사용자는 공유 링크를 사용하여 자산을 다운로드할 수 없습니다.
+* 시스템이 활성 동시 사용자 수에 대한 올바른 값을 반영하지 않습니다.
+
 <!--
 ### New Features {#new-features}
 
@@ -242,7 +300,7 @@ Brand Portal 사용자 인터페이스는 다음 언어로 제공됩니다.
 * 프랑스어
 * 스페인어
 * 이탈리아어
-* 브라질 포르투갈어
+* 포르투갈어(브라질)
 * 일본어
 * 중국어 간체
 * 한국어
@@ -258,7 +316,7 @@ Brand Portal 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}
 
-다음 사이트는 고객만 사용할 수 있습니다. 고객이고 액세스 권한이 필요한 경우 Adobe 계정 관리자에게 문의하십시오.
+이러한 사이트는 고객만 사용할 수 있습니다. 고객이고 액세스 권한이 필요한 경우 Adobe 계정 관리자에게 문의하십시오.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
