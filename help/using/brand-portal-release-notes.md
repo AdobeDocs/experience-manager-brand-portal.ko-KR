@@ -1,8 +1,8 @@
 ---
 title: 릴리스 정보
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2023.02.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.02.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2023.05.0 릴리스의 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,50 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
+source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1125'
 ht-degree: 7%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2023.02.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
+Adobe Experience Manager Assets Brand Portal 2023.05.0 릴리스의 새로운 기능, 개선 사항, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻을 수 있습니다.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2023.02.0 |
-| 날짜 | 2023년 2월 일 |
+| 버전 | 2023.05.0 |
+| 날짜 | 2023년 5월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 당사자 및 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고 자산 출시 시간을 단축하며 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 자산을 언제 어디서나 기업 승인 형식으로 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 의 새로운 2023.02.0 {#whats-new-in-2023.02.0}
+## 의 새로운 2023.05.0 {#whats-new-in-2023.05.0}
 
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
 #### 버그 수정 {#bug-fixes}
+
+이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
+* 공유 링크에서 자산을 다운로드하는 동안 오류가 발생하면 `Notice` 및 `Close` 오류 프롬프트의 레이블은 현지화되지 않습니다.
+* Brand Portal 디스플레이 **요청 헤더 필드가 너무 큽니다.** 을 사용하여 검색 필터에 액세스하는 동안 오류가 발생했습니다. `Filter` 창
+
+### 알려진 문제 {#known-issues}
+
+이 릴리스에는 다음과 같은 알려진 문제가 포함되어 있습니다.
+
+* 자산 소싱 보고서 컨텐츠의 부분 현지화.
+* 사용자 프로필에서 일부 사용자 프로필을 편집할 수 없습니다.
+
+## 이전 릴리스
+
+### 2023년 2월 릴리스 {#feb-2023}
+
+**버그 수정**
 
 이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 * Brand Portal에서는 프로필 사진을 업데이트할 수 없습니다.
@@ -44,7 +61,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 * 검색 양식에서 두 번 사용된 동일한 속성 설명을 위해 검색 결과가 일치하지 않습니다.
 * 중간 로그인 페이지의 텍스트는 모든 언어에 대해 현지화되지 않습니다.
 
-### 향상된 기능 {#enhancements}
+**향상된 기능**
 
 이 릴리스에는 다음 개선 사항이 포함됩니다.
 * 이제 PDF 자산의 향상된 미리 보기에 대해 최신 PDF 뷰어를 사용할 수 있습니다.
@@ -55,14 +72,12 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 * 요청 액세스가 비활성화된 경우 권한이 없는 사용자는 Brand Portal에 대한 액세스를 요청할 수 없습니다.
 * Brand Portal에 대해 프로비저닝된 조직만 프로필 선택기 목록에 표시됩니다.
 
-### 알려진 문제 {#known-issues}
+**알려진 문제**
 
 이 릴리스에는 다음과 같은 알려진 문제가 포함되어 있습니다.
 
 * 자산 소싱 보고서 컨텐츠의 부분 현지화.
 * 사용자 프로필에서 일부 사용자 프로필을 편집할 수 없습니다.
-
-## 이전 릴리스
 
 ### 2022년 10월 릴리스 {#oct-2022}
 

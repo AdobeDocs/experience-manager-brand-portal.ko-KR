@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets Brand Portal의 새로운 기능
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2032.02.0에 대한 새로운 기능 및 개선 사항은 무엇입니까?
-seo-description: What are the new features and enhancements for 2023.02.0
+description: 2032.05.0에 대한 새로운 기능 및 개선 사항은 무엇입니까?
+seo-description: What are the new features and enhancements for 2023.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
+source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6514'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Experience Manager Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 사용자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하며 장치 간에 안전하게 분배할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 준수 및 무단 액세스의 위험을 줄일 수 있습니다. Adobe은 전체 Brand Portal 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 향상된 기능을 잠깐 살펴보십시오.
+
+## 2023.05.0 변경 사항 {#what-changed-in-May-2023}
+
+Brand Portal 2023.05.0은 중요한 문제에 대한 수정 사항이 포함된 내부 릴리스입니다. 최신 항목 보기 [Brand Portal 릴리스 노트](brand-portal-release-notes.md).
 
 ## 2023.02.0 변경 사항 {#what-changed-in-February-2023}
 
@@ -385,9 +389,6 @@ Brand Portal으로 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4(6.4.8.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [구성 업그레이드](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3 (6.3.3.8 이상)** | [구성 만들기](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [구성 업그레이드](https://helpx.adobe.com/kr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | 고객 지원에 문의 | 고객 지원에 문의 |
 
 >[!NOTE]
 >
@@ -440,7 +441,7 @@ Brand Portal 사용자는 자산을 **신규** 하위 폴더. 다음 **공유** 
 
 ## 6.4.4에서 변경된 사항 {#what-changed-in-644}
 
-Brand Portal 6.4.4 릴리스는 텍스트 검색 향상 및 상위 고객 요청 사항에 중점을 둡니다. 최신 항목 보기 [Brand Portal 릴리스 노트](brand-portal-release-notes.md).
+Brand Portal 6.4.4 릴리스는 텍스트 검색 개선 사항과 상위 고객 요청에 중점을 둡니다. 최신 항목 보기 [Brand Portal 릴리스 노트](brand-portal-release-notes.md).
 
 ### 검색 개선 사항
 
@@ -552,7 +553,7 @@ Dynamic Media 비디오 인코딩은 다음 위치에서 다운로드할 수 있
 
 ### Brand Portal에 게시 예약됨
 
-의 자산(및 폴더) 게시 워크플로우 [AEM (6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) Brand Portal에 대한 작성자 인스턴스는 이후 날짜, 시간 동안 예약할 수 있습니다.
+AEM 6.4.2.0 작성자 인스턴스의 자산(및 폴더) 게시 워크플로우를 나중에 Brand Portal에 예약할 수 있습니다.
 
 마찬가지로, 게시된 자산은 Brand Portal에서 게시 취소 워크플로우를 예약하여 나중에 포털에서 제거할 수 있습니다.
 
@@ -670,7 +671,7 @@ Brand Portal은 선택한 자산/폴더의 자산 속성을 보기 위한 관리
 
 ### oAuth 통합을 구성하기 위한 Adobe I/O UI
 
-Brand Portal 6.4.2 이상에서 이전 OAuth(`https://legacy-oauth.cloud.adobe.io/`) 인터페이스를 사용하여 JWT 애플리케이션을 만들 수 있습니다. 이 경우 Brand Portal과의 AEM Assets 통합을 허용하도록 oAuth 통합을 구성할 수 있습니다. 이전에는 OAuth 통합 구성을 위한 UI가 `https://marketing.adobe.com/developer/`. Brand Portal에 자산 및 컬렉션을 게시하기 위해 AEM Assets과 Brand Portal을 통합하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [Brand Portal과 AEM Assets 통합 구성](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2 이상에서 이전 OAuth(`https://legacy-oauth.cloud.adobe.io/`) 인터페이스를 사용하여 JWT 애플리케이션을 만들 수 있습니다. 이 경우 Brand Portal과의 AEM Assets 통합을 허용하도록 oAuth 통합을 구성할 수 있습니다. 이전에는 OAuth 통합 구성을 위한 UI가 `https://marketing.adobe.com/developer/`. Brand Portal에 자산 및 컬렉션을 게시하기 위해 AEM Assets과 Brand Portal을 통합하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [Brand Portal과 AEM Assets 통합 구성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## 검색 개선 사항
 
