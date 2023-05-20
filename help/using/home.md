@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Manager Assets Brand Portal 안내서
 seo-title: Adobe Experience Manager Assets Brand Portal Guide
-description: Experience Manager Assets Brand Portal을 사용하면 승인된 브랜드 및 제품 에셋을 외부 기관, 파트너, 내부 팀 및 리셀러에 다운로드용으로 안전하게 배포하여 마케팅 요구 사항을 충족할 수 있습니다.
+description: Experience Manager Assets Brand Portal을 사용하면 승인된 브랜드 및 제품 자산을 외부 기관, 파트너, 내부 팀 및 리셀러에 다운로드용으로 안전하게 배포하여 마케팅 요구 사항을 충족할 수 있습니다.
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: 08162bdd26983c0362598625e26705addd32975f
@@ -13,7 +13,7 @@ ht-degree: 69%
 
 # Adobe Experience Manager Assets Brand Portal 안내서 {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** 은 승인된 브랜드 및 제품 자산을 외부 에이전시, 파트너, 내부 팀 및 리셀러에게 다운로드하도록 안전하게 분배하여 조직의 마케팅 요구 사항을 충족할 수 있도록 지원합니다.
+**Adobe Experience Manager Assets Brand Portal** 조직은 브랜드 용 외부 기관, 파트너, 내부 팀 및 대리점에 승인 된 다운로드 및 제품 자산을 안전 하 게 배포 하 여 마케팅 요구를 충족 하는 데 도움이 됩니다.
 
 안전한 자산 공유 솔루션이 없다면 다음과 같은 결과가 발생할 수 있습니다.
 
@@ -41,13 +41,13 @@ Brand Portal 솔루션 워크플로우는 다음 이미지에 표시되어 있�
 |--- |---|
 | [새로운 기능](whats-new.md) | 변경된 사항 및 이전 릴리스를 통한 Brand Portal의 최신 서비스. |
 | [릴리스 노트](brand-portal-release-notes.md) | 개선 사항, 해결된 주요 문제 및 현재 릴리스의 알려진 문제. |
-| [Brand Portal로 Experience Manager Assets를 클라우드 서비스로 구성](../using/configure-aem-assets-with-brand-portal.md) | Experience Manager Assets으로 Brand Portal을 복제하여 자산을 게시하는 방법. |
-| [동시 게시 문제 해결](troubleshoot-parallel-publishing.md) | Brand Portal과 Experience Manager Assets 간 복제 문제 해결. |
+| [Brand Portal로 Experience Manager Assets 구성](../using/configure-aem-assets-with-brand-portal.md) | 게시 자산에 Experience Manager Assets로 Brand Portal를 복제 하는 방법. |
+| [동시 게시 문제 해결](troubleshoot-parallel-publishing.md) | Brand Portal와 Experience Manager Assets 간의 복제 문제를 해결 합니다. |
 | [지원되는 파일 형식](brand-portal-supported-formats.md) | 미리 보기 및 다운로드를 위해 Brand Portal에서 지원되는 파일 형식 |
 | [자산을 Brand Portal에 게시](brand-portal-sharing-folders.md) | 폴더, 컬렉션, 링크, 사전 설정, 스키마, 패싯 및 태그를 Brand Portal에 게시하는 방법. |
-| [Brand Portal의 자산 소싱](brand-portal-asset-sourcing.md) | AEM Assets에서 자산 소싱을 구성하고, Brand Portal에서 자산을 업로드하고, 기여 폴더를 다시 AEM Assets에 게시하는 방법. |
-| [Brand Portal 기능 비디오](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 비디오 자습서의 도움을 받아 Experience Manager Assets Brand Portal을 사용하는 방법을 알아봅니다. |
+| [Brand Portal의 에셋 소싱](brand-portal-asset-sourcing.md) | AEM Assets에서 자산 소싱을 구성 하는 방법, Brand Portal 및 게시 기여도 폴더의 자산을 AEM Assets로 다시 업로드. |
+| [Brand Portal 기능 비디오](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 비디오 자습서와 함께 Experience Manager Assets Brand Portal를 사용 하는 방법에 대해 알아보십시오. |
 
 ### 유용한 리소스
 
-* [AEM Assets을 사용한 Brand Portal 이해](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [AEM Assets Brand Portal 이해](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

@@ -1,7 +1,7 @@
 ---
 title: 컬렉션 공유
 seo-title: Share a collection
-description: Assets Brand Portal Experience Manager 관리자는 인증된 사용자와 컬렉션 또는 스마트 컬렉션을 공유 및 공유 취소할 수 있습니다. 편집자는 자신이 만든 컬렉션, 공유된 컬렉션 및 공개 컬렉션만 보고 공유할 수 있습니다.
+description: Experience Manager Assets Brand Portal 관리자는 승인된 사용자와 컬렉션 또는 스마트 컬렉션을 공유하고 공유를 해제할 수 있습니다. 편집자는 자신이 만든 컬렉션, 공유 된 컬렉션 및 공용 컬렉션만 보고 공유할 수 있습니다.
 seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
@@ -19,71 +19,71 @@ ht-degree: 1%
 
 # 컬렉션 공유 {#share-collections}
 
-컬렉션은 Adobe Experience Manager Assets Brand Portal에 함께 저장된 관련 자산 그룹을 나타냅니다. 사용자는 [omnisearch 또는 패싯 검색을 적용하여 관련 자산](brand-portal-searching.md)을 필터링하고 함께 저장하여 쉽게 액세스하고 다른 Brand Portal 사용자와 추가로 공유할 수 있습니다.
+컬렉션은 Adobe Experience Manager Assets Brand Portal에 함께 저장된 관련 에셋 그룹을 나타냅니다. 사용자는 다음 방법으로 스마트 컬렉션을 만들 수 있습니다. [omnisearch 또는 facet 검색을 적용하여 관련 에셋 필터링](brand-portal-searching.md) 간편하게 액세스하고 다른 Brand Portal 사용자와 공유할 수 있도록 여러 파일을 함께 저장할 수 있습니다.
 
-관리자는 승인된 Brand Portal 사용자와 컬렉션을 공유 및 공유 취소할 수 있습니다. 편집자 및 뷰어는 사용자가 만든 컬렉션, 공유된 컬렉션 및 공개 컬렉션을 보고 공유할 수 있습니다.
+관리자는 권한이 부여 된 Brand Portal 사용자와 컬렉션를 공유 하 고 공유 안 함 수 있습니다. 편집자와 뷰어는 자신이 만든 컬렉션을 보고 공유 하 고, 공유 하 고, 공용 컬렉션을 공유할 수 있습니다.
 
 >[!NOTE]
 >
->편집자는 공개 컬렉션을 비공용 컬렉션으로 변경할 수 없으므로 **[!UICONTROL 컬렉션 설정]** 대화 상자에서 사용할 수 있는 **[!UICONTROL 공용 컬렉션]** 확인란이 없습니다.
+>편집자는 공용 컬렉션를 비공용 컬렉션으로 변경할 수 없으므로 컬렉션 설정 ]**대화 상자에서**[!UICONTROL  사용할 수 있는 공용 컬렉션 ]**확인란은**[!UICONTROL  없습니다.
 
 ## 컬렉션 공유 {#share-collection}
 
-다음은 승인된 Brand Portal 사용자와 컬렉션을 공유하는 절차입니다.
+다음은 권한이 부여 된 Brand Portal 사용자와 컬렉션를 공유 하는 단계입니다.
 
-1. Brand Portal 테넌트에 로그인합니다. 기본적으로 게시된 모든 자산 및 폴더가 포함된 **[!UICONTROL 파일]** 보기가 열립니다.
+1. Brand Portal 테 넌 트에 로그인 합니다. 기본적으로, **[!UICONTROL 게시 된 모든 자산 및 폴더를 포함 하는 파일]** 보기가 열립니다.
 
-1. 맨 위에 있는 빠른 탐색에서 **[!UICONTROL 컬렉션]**&#x200B;을 클릭합니다.
+1. 맨 위에 있는 빠른 탐색에서 컬렉션 ]**을 클릭**[!UICONTROL  합니다.
 
-1. **[!UICONTROL 컬렉션]** 콘솔에서 다음 중 하나를 수행합니다.
+1. 다음에서 **[!UICONTROL 컬렉션]** console에서 다음 중 하나를 수행합니다.
 
-   * 공유할 컬렉션 위로 포인터를 가져갑니다. 컬렉션에 사용할 수 있는 빠른 작업 미리 보기에서 **[!UICONTROL 설정]** 아이콘을 클릭합니다.
+   * 공유할 컬렉션 위에 포인터를 놓습니다. 컬렉션에 사용할 수 있는 빠른 작업 썸네일에서 **[!UICONTROL 설정]** 아이콘.
 
       ![](assets/settings-icon.png)
 
-   * 공유할 컬렉션을 선택합니다. 맨 위의 도구 모음에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+   * 공유할 컬렉션을 선택하십시오. 맨 위에 있는 도구 모음에서 를 클릭합니다. **[!UICONTROL 설정]**.
 
       ![](assets/collection-console.png)
 
-1. **[!UICONTROL 컬렉션 설정]** 대화 상자에서 컬렉션을 공유할 사용자를 선택하고 전역 역할과 일치하는 사용자의 역할을 선택합니다. 예를 들어 글로벌 편집기에 편집기 역할을 지정하고 글로벌 뷰어에 뷰어 역할을 할당합니다.
+1. **[!UICONTROL 컬렉션 설정]** 대화 상자에서 컬렉션를 공유할 사용자를 선택 하 고 사용자의 전역 역할와 일치 하는 역할를 선택 합니다. 예를 들어, 전체 뷰어에 대 한 뷰어 역할를 글로벌 편집기에 편집기 역할 지정 합니다.
 
-   또는 그룹 멤버십과 역할에 관계없이 모든 사용자가 컬렉션을 사용할 수 있도록 하려면 **[!UICONTROL 공용 컬렉션]** 확인란을 선택하여 공개하십시오.
+   또는 그룹 멤버십 및 역할에 관계 없이 모든 사용자가 컬렉션를 사용할 수 있도록 하려면 공개 컬렉션 ]**확인란을 선택**[!UICONTROL  하 여 공개 해야 합니다.
 
    >[!NOTE]
    >
-   >그러나 관리자가 아닌 사용자는 공용 컬렉션을 만들 수 없도록 하여 시스템 공간을 저장할 수 있도록 많은 공용 컬렉션을 보유할 수 있습니다. 조직은 관리 도구 패널에서 사용할 수 있는 **[!UICONTROL 일반]** 설정에서 **[!UICONTROL 공개 컬렉션 생성 허용]** 구성을 비활성화할 수 있습니다.
+   >그러나 관리자가 아닌 사용자는 공용 컬렉션 만들기를 제한할 수 있으므로 시스템 공간을 저장할 수 있도록 여러 개의 공개 컬렉션이 포함 되지 않습니다. 조직은 [관리 도구] 패널에서 사용 가능한 일반 ]**설정에서 [**[!UICONTROL  공용 컬렉션 만들기 ]**허용]**[!UICONTROL  구성을 비활성화할 수 있습니다.
 
    ![](assets/collection_sharingadduser.png)
 
-   편집자는 공개 컬렉션을 비공용 컬렉션으로 변경할 수 없으므로 **[!UICONTROL 컬렉션 설정]** 대화 상자에 사용할 수 있는 **[!UICONTROL 공용 컬렉션]** 확인란이 없습니다.
+   편집자는 공용 컬렉션를 비공용 컬렉션 **[!UICONTROL 으로 변경할 수 없으므로 컬렉션 설정]** 대화 상자에서 **[!UICONTROL 사용할 수 있는 공용 컬렉션]** 확인란은 없습니다.
 
    ![](assets/collection-setting-editor.png)
 
-1. **[!UICONTROL 추가]** 단추를 클릭하여 사용자를 추가한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 컬렉션은 사용자와 공유됩니다.
+1. **[!UICONTROL 추가]** 버튼을 클릭 하 여 사용자 추가 하 고 저장 ]**을 클릭**[!UICONTROL  합니다. 컬렉션 사용자와 공유 됩니다.
 
    >[!NOTE]
    >
-   >사용자의 역할은 컬렉션 내의 자산 및 폴더에 대한 액세스를 제어합니다. 사용자에게 자산에 대한 액세스 권한이 없는 경우 빈 컬렉션이 사용자와 공유됩니다. 또한 사용자의 역할은 컬렉션에 사용할 수 있는 작업을 제어합니다.
+   >사용자의 역할는 컬렉션 내의 자산 및 폴더에 대 한 액세스를 제어 합니다. 사용자에게 에셋에 대한 액세스 권한이 없는 경우 빈 컬렉션이 사용자와 공유됩니다. 또한 사용자의 역할는 컬렉션에 사용할 수 있는 작업을 제어 합니다.
 
-## 컬렉션 공유 안 함 {#unshare-a-collection}
+## 컬렉션 공유 해제 {#unshare-a-collection}
 
-이전에 공유한 컬렉션의 공유를 취소하려면 다음을 수행하십시오.
+이전에 공유한 컬렉션에 대한 공유를 해제하려면 다음을 수행합니다.
 
-1. **[!UICONTROL 컬렉션]** 콘솔에서 공유를 해제할 컬렉션을 선택합니다.
+1. **[!UICONTROL 컬렉션]** 콘솔에서 공유 안 함 컬렉션를 선택 합니다.
 
-   맨 위의 도구 모음에서 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+   맨 위의 도구 모음에서 설정 ]**을 클릭**[!UICONTROL  합니다.
 
    ![](assets/collection_settings.png)
 
-1. **[!UICONTROL 컬렉션 설정]** 대화 상자의 **[!UICONTROL 멤버]** 섹션에서 사용자 옆에 있는 **[!UICONTROL x]** 기호를 클릭하여 컬렉션에 액세스할 수 있는 사용자 목록에서 제거합니다.
+1. **[!UICONTROL 컬렉션 설정]** 대화 상자의 **[!UICONTROL 구성원]** 섹션에서 사용자 옆에 있는 **[!UICONTROL x]** 기호를 클릭 하 여 컬렉션에 대 한 액세스 권한이 있는 사용자 목록에서 제거 합니다.
 
    ![](assets/unshare_collection.png)
 
-1. 경고 메시지가 나타납니다. **[!UICONTROL 확인]**&#x200B;을 클릭하여 컬렉션 공유를 해제합니다.
+1. 경고 메시지가 나타납니다. 확인 ]**을 클릭**[!UICONTROL  하 여 컬렉션를 공유 안 함 합니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 사항을 적용합니다.
+1. 저장 ]**을 클릭**[!UICONTROL  하 여 변경 사항을 적용 합니다.
 
-   사용자가 공유 목록에서 제거되면 공유되지 않은 컬렉션이 사용자의 **[!UICONTROL Collections]** 콘솔에서 제거됩니다.
+   공유 목록에서 사용자 제거 되 면 사용자의 **[!UICONTROL 컬렉션]** 콘솔에서 공유 되지 않은 컬렉션 제거 됩니다.
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.

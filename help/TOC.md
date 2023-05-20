@@ -21,14 +21,14 @@ ht-degree: 75%
 + [Brand Portal 안내서](using/home.md)
 + 소개 {#introduction}
    + [개요](using/brand-portal.md)
-   + [Experience Manager Assets Brand Portal의 새로운 기능](using/whats-new.md)
+   + [Experience Manager Assets의 새로운 기능 Brand Portal](using/whats-new.md)
    + [릴리스 정보](using/brand-portal-release-notes.md)
    + [FAQ](using/brand-portal-faqs.md)
    + [지원되는 파일 형식](using/brand-portal-supported-formats.md)
    + [Brand Portal에 대한 게스트 액세스](using/guest-access.md)
-   + [Experience Manager Assets을 사용한 Brand Portal 이해](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [Experience Manager Assets Brand Portal 이해](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Brand Portal에서 자산 검색](using/browse-assets-brand-portal.md)
-+ Experience Manager Assets에서 Brand Portal으로 게시 {#publish}
++ Experience Manager Assets에서 Brand Portal Publish {#publish}
    + [Brand Portal로 Experience Manager Assets 구성](using/configure-aem-assets-with-brand-portal.md)
    + [자산을 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
@@ -38,8 +38,8 @@ ht-degree: 75%
    + [사전 설정, 스키마 및 패싯을 Brand Portal에 게시](using/publish-schema-search-facets-presets.md)
 + Brand Portal의 에셋 소싱 {#asset-sourcing-in-brand-portal}
    + [자산 소싱 개요](using/brand-portal-asset-sourcing.md)
-   + [Experience Manager Assets에서 기여 폴더 구성](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [Experience Manager Assets에 기여도 폴더 게시](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Experience Manager Assets에서 기여도 폴더 구성](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Publish 기여도 폴더 Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 사용자와 자산 공유 {#share}
    + [컬렉션 공유](using/brand-portal-share-collection.md)
    + [폴더 공유](using/brand-portal-sharing-folders.md)
@@ -48,7 +48,7 @@ ht-degree: 75%
    + [Brand Portal에서 자산 검색](using/brand-portal-searching.md)
    + [사용자 정의 검색 패싯 사용](using/brand-portal-search-facets.md)
 + 다운로드 기능 사용 {#download}
-   + [에셋 다운로드](using/brand-portal-download-assets.md)
+   + [자산 다운로드](using/brand-portal-download-assets.md)
    + [Brand Portal에서 동적 비디오 지원](using/dynamic-video-brand-portal.md)
    + [라이트박스 컬렉션 관리](using/brand-portal-light-box.md)
    + [자산의 디지털 권한 관리](using/manage-digital-rights-of-assets.md)
