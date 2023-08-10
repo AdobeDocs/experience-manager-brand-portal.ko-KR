@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3b46e53ea29c498d3884a88b7532bb64d854f2a4
+source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1210'
 ht-degree: 6%
 
 ---
@@ -38,12 +38,12 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 
 #### 버그 수정 및 개선 사항 {#bug-fixes-enhancements}
 
-이번 릴리스에는 다음 개선 사항에 대한 수정 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 * 에서 에셋을 로드하는 동안 성능 개선 [!UICONTROL 다운로드] 팝업.
 * 이제 에셋 또는 에셋의 렌디션을 다운로드할 때 zip 파일 대신 원본 파일 유형 형식으로 다운로드됩니다.
 
-이 릴리스에는 다음 버그 수정에 대한 수정 사항이 포함됩니다.
+이 릴리스에는 다음과 같은 버그 수정이 포함됩니다.
 
 * 긴 레이블이나 태그가 검색 필터에 대해 적절하게 표시되지 않습니다.
 * 다운로드 대화 상자에 긴 렌디션 이름을 표시할 수 없습니다.
