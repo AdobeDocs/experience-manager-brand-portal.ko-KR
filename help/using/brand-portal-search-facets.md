@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1312'
 ht-degree: 10%
 
 ---
@@ -68,7 +68,7 @@ Brand Portal 지원 [패싯된 검색](../using/brand-portal-searching.md#search
    >
    >선택 시 **[!UICONTROL 부분 검색]** 확인란, **[!UICONTROL 대소문자 무시]** 기본적으로 가 선택되어 있습니다.
 
-1. 다음에서 **[!UICONTROL 속성 이름]** 필드에서 속성 선택기를 열고 검색이 수행되는 기준 속성을 선택합니다. 또는 속성의 이름을 입력합니다. For example, enter `  jcr :content/metadata/dc:title` or `./jcr:content/metadata/dc:title`.
+1. 다음에서 **[!UICONTROL 속성 이름]** 필드에서 속성 선택기를 열고 검색이 수행되는 기준 속성을 선택합니다. 또는 속성의 이름을 입력합니다. For example, enter `jcr :content/metadata/dc:title` or `./jcr:content/metadata/dc:title`.
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Brand Portal 지원 [패싯된 검색](../using/brand-portal-searching.md#search
 
 >[!NOTE]
 >
->사용하지 않음 **[!UICONTROL 옵션 조건자]**, **[!UICONTROL 게시 상태 조건자]**, 및 **[!UICONTROL 등급 조건자]** 따라서 이 술어는 Brand Portal에서 작동하지 않습니다.
+>* 사용하지 않음 **[!UICONTROL 옵션 조건자]**, **[!UICONTROL 게시 상태 조건자]**, 및 **[!UICONTROL 등급 조건자]** 따라서 이 술어는 Brand Portal에서 작동하지 않습니다.
+>* 폴더 유형 조건자 `(nt:folder type)` 는 Brand Portal에서 지원되지 않으며 성능 문제가 발생할 수 있습니다. 게시된 사용자 정의 검색 양식에 있는 경우 검색 양식을 편집하여 삭제할 수 있습니다.
 
 ## 검색 조건자 삭제 {#delete-a-search-predicate}
 
