@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets Brand Portal의 새로운 기능
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2032.05.0의 새로운 기능과 개선 사항은 무엇입니까
-seo-description: What are the new features and enhancements for 2023.05.0
+description: 2032.08.0의 새로운 기능과 개선 사항은 무엇입니까
+seo-description: What are the new features and enhancements for 2023.08.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
+source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
 workflow-type: tm+mt
-source-wordcount: '6514'
+source-wordcount: '6536'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Experience Manager Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 관련자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하고 장치 간에 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시기를 앞당길 수 있으며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다. Adobe은 전반적인 Brand Portal 경험을 개선하기 위해 노력하고 있습니다. 새로운 기능과 향상된 기능을 간단히 살펴보겠습니다.
+
+## 2023.08.0의 변경 사항 {#what-changed-in-August-2023}
+
+Brand Portal 2023.08.0은 중요한 문제에 대한 수정 사항이 포함된 내부 릴리스입니다. 최신 항목 보기 [Brand Portal 릴리스 노트](brand-portal-release-notes.md).
 
 ## 2023.05.0의 변경 사항 {#what-changed-in-May-2023}
 
@@ -220,7 +224,7 @@ Brand Portal 2020.10.0은 자산 다운로드 경험을 단순화하는 데 중�
 
 이전, **[!UICONTROL 다운로드]** 대화 상자에 각 에셋에 대한 개별 폴더 만들기, 이메일 에셋, 원본 에셋 선택, 사용자 지정 렌디션, 동적 렌디션, 시스템 렌디션 제외 및 다운로드 가속화 사용 등의 여러 옵션이 표시되었지만, 다운로드용으로 에셋 또는 폴더를 여러 개 선택한 경우 비기술적 또는 신규 사용자에게 특별히 모호했습니다. 또한, 모든 에셋 렌디션을 보거나 특정 사용자 지정 또는 동적 렌디션을 제외할 수 없습니다.
 
-새로운 **[!UICONTROL 다운로드]** 대화 상자는 에셋 선택 및 필터링 프로세스를 일반화하므로 Brand Portal 사용자가 에셋 렌디션을 다운로드하는 동안 효과적인 결정을 쉽게 내릴 수 있습니다. 이 목록에는 선택한 모든 에셋과 해당 렌디션이 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 구성 및 **[!UICONTROL 다운로드]** 설정.
+새로운 **[!UICONTROL 다운로드]** 대화 상자는 에셋 선택 및 필터링 프로세스를 일반화하여 Brand Portal 사용자가 에셋 렌디션을 다운로드하는 동안 보다 효과적으로 결정을 내릴 수 있도록 합니다. 이 목록에는 선택한 모든 에셋과 해당 렌디션이 [**[!UICONTROL 다운로드]**](brand-portal-download-assets.md) 구성 및 **[!UICONTROL 다운로드]** 설정.
 
 >[!NOTE]
 >
@@ -516,7 +520,7 @@ Brand Portal 6.4.3 릴리스는 — 조직에 Brand Portal 액세스 URL의 테�
 * 관리자 사용자는 경로 브라우저를 사용하여 Brand Portal의 모든 폴더 디렉토리로 이동할 수 있습니다.
 * 관리자가 아닌 사용자는 경로 브라우저를 사용하여 공유된 폴더(및 상위 폴더로 다시 이동)만 탐색할 수 있습니다.
 
-   예를 들어, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 는 관리자가 아닌 사용자와 공유됩니다. 사용자는 경로 브라우저를 사용하여 folderC 내에서 에셋을 검색할 수 있습니다. 이 사용자는 folderB 및 folderA(사용자와 공유되는 folderC의 상위 항목이므로)로 이동할 수도 있습니다.
+  예를 들어, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 는 관리자가 아닌 사용자와 공유됩니다. 사용자는 경로 브라우저를 사용하여 folderC 내에서 에셋을 검색할 수 있습니다. 이 사용자는 folderB 및 folderA(사용자와 공유되는 folderC의 상위 항목이므로)로 이동할 수도 있습니다.
 
 ![](assets/edit-search-form.png)
 
@@ -745,7 +749,7 @@ Brand Portal 6.4.1은 브라우징, 검색 및 성능 향상과 같은 몇 가�
 ![](assets/navigatereport.png)
 
 **사용량 보고서에 액세스하도록 진입점을 수정했습니다.**
-사용 보고서는 이제 다른 보고서와 통합되었으며 이제 자산 보고서 콘솔에서 볼 수 있습니다. 자산 보고서 콘솔에 연결하려면 다음으로 이동합니다. **보고서 만들기/관리** 관리 도구 패널에서 가져올 수 있습니다.
+사용 보고서는 이제 다른 보고서와 통합되었으며 이제 자산 보고서 콘솔에서 볼 수 있습니다. 자산 보고서 콘솔에 연결하려면 다음으로 이동합니다. **보고서 만들기/관리** 관리 도구 패널에서 가져옵니다.
 
 ![](assets/accessassetreport.png)
 
@@ -764,7 +768,7 @@ Brand Portal의 보고 인터페이스가 보다 직관적이고 조직의 제�
 
 ![](assets/public-folder-publish.png)
 
-* 누군가 Brand Portal에 대한 액세스를 요청한 경우 관리자는 Brand Portal 알림 영역의 알림과 별도로 액세스 요청 이메일을 통해 알림을 받습니다.
+* 누군가 Brand Portal에 대한 액세스를 요청한 경우 관리자는 Brand Portal 알림 영역의 알림과 별도로 액세스 요청 이메일을 통해 알림을 받게 됩니다.
 
 ## 6.3.2의 변경 사항 {#what-changed-in-3}
 
