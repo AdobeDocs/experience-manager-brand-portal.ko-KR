@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
+source-git-commit: 10c310a0bc77abf73f058dc4da5cb09bce7c31d5
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
 
 # Brand Portal에 대한 게스트 액세스 {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal을 사용하면 게스트가 포털에 액세스할 수 있습니다. 게스트 사용자는 포털에 로그인하기 위해 자격 증명이 필요하지 않으며 포털의 공개 에셋(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 세션이 지속될 때까지 또는 게스트 사용자가 선택하지 않는 한 Lightbox(개인 컬렉션)에 자산을 추가하고 다운로드할 수 있습니다. [[!UICONTROL 세션 종료]](#exit-guest-session). 게스트 사용자 세션은 15분 동안 활성 상태로 유지되지만 실제 게스트 사용자 시간 제한은 2시간입니다.
+Experience Manager Assets Brand Portal을 사용하면 게스트가 포털에 액세스할 수 있습니다. 게스트 사용자는 포털에 로그인하기 위해 자격 증명이 필요하지 않으며 포털의 공개 에셋(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 Lightbox(개인 컬렉션)에 자산을 추가하고 세션이 지속될 때까지 다운로드할 수 있습니다(게스트 사용자가 선택하지 않는 한 세션 시작부터 2시간). [[!UICONTROL 세션 종료]](#exit-guest-session).
 
 게스트 액세스 기능을 통해 조직은 다음과 같은 작업을 수행할 수 있습니다 [승인된 에셋 빠른 공유](../using/brand-portal-sharing-folders.md#how-to-share-folders) 온보딩할 필요 없이 의도한 대상자가 규모에 맞게 확장할 수 있습니다. Brand Portal 6.4.2 이상에서는 여러 명의 동시 게스트 사용자를 지원할 수 있습니다. 이는 조직당 총 사용자 할당량의 10%입니다. 게스트 액세스를 허용하면 Brand Portal에서 제한된 기능을 가진 사용자의 점수를 관리하고 온보딩하는 데 시간이 절약됩니다.\
 조직은 다음을 사용하여 조직의 Brand Portal 계정에서 게스트 액세스를 활성화(또는 비활성화)할 수 있습니다. **[!UICONTROL 게스트 액세스 허용]** 옵션 from **[!UICONTROL 액세스]** 관리 도구 패널의 설정.
