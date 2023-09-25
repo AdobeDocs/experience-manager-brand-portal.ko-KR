@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1325'
 ht-degree: 10%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 10%
 
 Brand Portal 지원 [패싯된 검색](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) 승인된 브랜드 자산의 세분화된 검색을 위해, 다음 이유로 인해 가능한: [**필터** 패널](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). 검색 패싯은 다음을 통해 필터 패널에서 사용할 수 있습니다. **[!UICONTROL 검색 양식]** 을 참조하십시오. 자산 관리자 검색 레일이라는 기본 검색 양식이 관리 도구의 Forms 검색 페이지에 있습니다. 그러나 관리자는 검색 술어를 추가, 수정 또는 제거하여 기본 검색 양식(에셋 관리자 검색 레일)을 편집하여 기본 필터 패널을 사용자 정의하여 검색 기능을 다용화할 수 있습니다.
 
-다양한 검색 술어를 사용하여 **[!UICONTROL 필터]** 패널. 예를 들어 속성 술어를 추가하여 이 술어에 지정하는 단일 속성과 일치하는 에셋을 검색합니다. 특정 속성에 대해 지정한 하나 이상의 값과 일치하는 에셋을 검색하려면 옵션 술어를 추가합니다. 지정된 날짜 범위 내에 생성된 에셋을 검색하려면 날짜 범위 술어를 추가합니다.
+다양한 검색 술어를 사용하여 **[!UICONTROL 필터]** 패널. 예를 들어 속성 술어를 추가하여 이 술어에 지정하는 단일 속성과 일치하는 에셋을 검색합니다. 특정 속성에 대해 지정한 하나 이상의 값과 일치하는 에셋을 검색하려면 옵션 술어를 추가합니다. 지정된 날짜 범위 내에서 생성된 에셋을 검색하려면 날짜 범위 술어를 추가합니다.
 
 >[!NOTE]
 >
->Experience Manager Assets을 통해 다음을 수행할 수 있습니다. [aem 작성자에서 사용자 지정된 검색 양식 게시](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) 동일한 양식을 Brand Portal에서 다시 만드는 대신 Brand Portal에서 사용할 수 있습니다.
+>Experience Manager Assets을 통해 다음을 수행할 수 있습니다. [AEM Author에서 사용자 지정된 검색 양식 게시](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) 동일한 양식을 Brand Portal에서 다시 만드는 대신 Brand Portal에서 사용할 수 있습니다.
 
 ## 검색 조건자 추가 {#add-a-search-predicate}
 
@@ -72,7 +72,7 @@ Brand Portal 지원 [패싯된 검색](../using/brand-portal-searching.md#search
 
    >[!NOTE]
    >
-   >Brand Portal에서 모든 문자열 속성(다음으로 시작하는 속성 제외) `xmp`) `jcrcontent/metadata` / `dam:asset` 기본적으로 색인화됩니다.
+   >Brand Portal에서 모든 문자열 속성(다음으로 시작하는 속성 제외) `xmp`) `jcrcontent/metadata` / `dam:asset` 기본적으로 색인화됩니다. 모든 유형의 나머지 다른 모든 사용자 지정 속성은 기본적으로 인덱싱되지 않습니다.
    >
    >속성 술어를 만드는 동안 인덱싱된 모든 속성을 사용할 수 있습니다. 인덱싱되지 않은 속성이 구성된 경우 인덱싱되지 않은 속성에 대한 검색 쿼리가 검색 결과를 제공하지 않을 수 있습니다.
 
