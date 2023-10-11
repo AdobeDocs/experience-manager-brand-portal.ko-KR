@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
+source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1310'
 ht-degree: 6%
 
 ---
@@ -56,7 +56,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 
 * 탐색 중 성능 향상 [!UICONTROL 컬렉션].
 
-* OmniSearch 필드를 사용하여 부분 검색을 수행하면 결과가 정확하지 않습니다.
+* OmniSearch 필드를 사용하여 부분 검색을 수행하는 동안 검색 결과가 개선되었습니다.
 
 ## 이전 릴리스
 
