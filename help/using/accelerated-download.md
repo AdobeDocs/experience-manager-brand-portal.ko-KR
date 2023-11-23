@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: b91e0b4f03beb37d826ce75ac49498b7b79e4a39
+source-git-commit: 76d7c808d99c9c2ec86e0e9100b9c2954c695854
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,9 +36,8 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 주문형 설치 �
 파일을 더 빨리 다운로드하려면 다음을 확인하십시오.
 
 * 다음으로 이동 **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]** 및 확인 **[!UICONTROL 빠른 다운로드]** 구성이 다음 위치에서 활성화됨 **[!UICONTROL 다운로드 설정]**.
-* 방화벽에서 포트 33001(TCP 및 UDP 모두)가 열려 있는지 확인합니다. 전제 조건에 대한 자세한 내용은 [IBM® Aspera Connect Client 설명서](https://downloads.asperasoft.com/en/documentation/8).
-* **IBM® Aspera Connect 3.9.9 설치** 관리자 권한( )을 사용하여 브라우저의 확장에서`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
-* Aspera 전송 클라이언트의 플랫폼 지원은 다음을 참조하십시오. [IBM® Aspera Connect 플랫폼 지원 매트릭스](https://www.asperasoft.com/company/support/transfer-clients/).
+* 방화벽에서 포트 33001(TCP 및 UDP 모두)가 열려 있는지 확인합니다.
+* **IBM® Aspera Connect 3.9.9 설치** 관리자 권한( )을 사용하여 브라우저의 확장에서[IBM® Asperra Connect 다운로드](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
 
 >[!NOTE]
 >
@@ -82,11 +81,11 @@ Brand Portal에서 에셋을 더 빨리 다운로드하려면:
 
    * 다운로드할 에셋 또는 폴더를 선택합니다. 맨 위에 있는 도구 모음에서 **[!UICONTROL 다운로드]** 아이콘.
 
-      ![여러 자산 선택](assets/select-assets-new.png)
+     ![여러 자산 선택](assets/select-assets-new.png)
 
    * 에셋의 특정 에셋 렌디션을 다운로드하려면 에셋 위로 포인터를 가져간 다음 **[!UICONTROL 다운로드]** 빠른 작업 썸네일에서 사용할 수 있는 아이콘.
 
-      ![select-asset](assets/select-asset.png)
+     ![select-asset](assets/select-asset.png)
 
 1. 다음 **[!UICONTROL 다운로드]** 선택한 에셋을 모두 나열하는 대화 상자가 열립니다.
 
@@ -119,6 +118,7 @@ Brand Portal에서 에셋을 더 빨리 다운로드하려면:
    IBM® Aspera Connect를 사용하지 않으려면 **[!UICONTROL 거부]**. If **[!UICONTROL 빠른 다운로드]** 이 거부되거나 실패하면 오류 메시지가 표시됩니다. 다음을 클릭합니다. **[!UICONTROL 일반 다운로드]** 단추를 클릭하여 자산을 계속 다운로드합니다.
 
 >[!NOTE]
+>
 다음과 같은 경우 **[!UICONTROL 빠른 다운로드]** 관리자가 설정을 해제하면 IBM® Aspera Connect를 사용하지 않고 선택한 렌디션을 zip 폴더에서 직접 다운로드합니다.
 
 <!-- 

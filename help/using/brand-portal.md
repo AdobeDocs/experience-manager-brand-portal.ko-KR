@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
+source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 그러나 승인된 브랜드 로고, 지침, 캠페인 자산 또는 제품 샷을 확장된 내부 팀, 파트너 및 리셀러와 효율적이고 안전하게 공유할 수 있도록 지원하는 솔루션을 개발하는 것은 과제입니다.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** 는 자산 분배 및 자산 기여 기능을 제공하여 전 세계에 분포한 Brand Portal 사용자와 효과적으로 공동 작업해야 하는 마케터의 요구에 중점을 둡니다.
+**Adobe Experience Manager (AEM) Assets Brand Portal** 는 자산 분배 및 자산 기여 기능을 제공하여 전 세계에 분포된 Brand Portal 사용자와 효과적으로 공동 작업해야 하는 마케터의 필요에 중점을 둡니다.
 
 에셋 배포를 사용하면 승인된 크리에이티브 에셋을 외부 관련자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하고 장치 간에 안전하게 배포할 수 있습니다. 반면, 에셋 기여를 통해 Brand Portal 사용자는 작성 환경에 액세스하지 않아도 에셋을 Brand Portal에 업로드하고 Experience Manager Assets에 게시할 수 있습니다. 기여도 기능은 (으)로 호출됩니다. **Brand Portal의 에셋 소싱**. 또한 이를 함께 사용하면 Brand Portal 사용자(외부 에이전시/팀)의 자산 배포 및 기여에 대한 전반적인 Brand Portal 경험을 개선할 수 있고, 자산 출시 시기를 앞당길 수 있으며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다.
 다음을 참조하십시오. [Brand Portal의 에셋 소싱](brand-portal-asset-sourcing.md).
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 ## Brand Portal로 Experience Manager Assets 구성 {#configure-brand-portal}
 
-Brand Portal과 함께 Adobe Experience Manager Assets를 구성하면 Brand Portal 사용자를 위한 자산 게시, 자산 분배 및 자산 기여 기능을 사용할 수 있습니다.
+Brand Portal과 함께 Adobe Experience Manager Assets을 구성하면 Brand Portal 사용자에게 자산 게시, 자산 배포 및 자산 기여 기능이 활성화됩니다.
 
 >[!NOTE]
 >
@@ -144,9 +144,10 @@ Experience Manager Assets Brand Portal 허용 [게스트 액세스](#request-acc
 ## Brand Portal URL에 대한 대체 별칭 {#tenant-alias-for-portal-url}
 
 Brand Portal 6.4.3 이상에서 조직은 Brand Portal 테넌트의 기존 URL에 대해 하나의 대체(별칭) URL을 가질 수 있습니다. 별칭 URL은 URL에 대체 접두사를 사용하여 만들 수 있습니다.\
+테넌트 이름이 32자를 초과하는 경우 테넌트 별칭을 만들어야 합니다.
 Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은 사용자 정의할 수 없습니다. 기존 도메인이 있는 조직 `geomettrix.brand-portal.adobe.com` 가져올 수 있음 `geomettrixinc.brand-portal.adobe.com` 이(가) 요청 시 만들어졌습니다.
 
-그러나 AEM 작성자 인스턴스는 [구성됨](../using/configure-aem-assets-with-brand-portal.md) 테넌트 ID URL을 사용하는 경우에만 해당하며 테넌트 별칭(대체) URL은 포함되지 않습니다.
+그러나 AEM 작성자 인스턴스는 다음과 같을 수 있습니다. [구성됨](../using/configure-aem-assets-with-brand-portal.md) 테넌트 ID URL을 사용하는 경우에만 해당하며 테넌트 별칭(대체) URL은 포함되지 않습니다.
 
 >[!NOTE]
 >
@@ -166,7 +167,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
    다음 [!UICONTROL 액세스 요청] 페이지가 열립니다.
 
-1. 조직의 Brand Portal에 대한 액세스 권한을 요청하려면 권한이 있어야 합니다 [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], 또는 [!UICONTROL Federated ID].
+1. 조직의 Brand Portal에 대한 액세스 권한을 요청하려면 권한이 있어야 합니다. [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], 또는 [!UICONTROL Federated ID].
 
    다음에서 [!UICONTROL 액세스 요청] 페이지, ID를 사용하여 로그인(시나리오 1) 또는 만들기 [!UICONTROL Adobe ID] (시나리오 2):
 
@@ -180,6 +181,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
    1. 다음을 제공하십시오. [!UICONTROL Adobe ID] 자격 증명 및 클릭 **[!UICONTROL 로그인]**.
 
       ![Adobe 로그인](assets/bplogin_request_access_3.png)
+
    (으)로 리디렉션됩니다 [!UICONTROL 액세스 요청] 페이지를 가리키도록 업데이트하는 중입니다.
 
    **시나리오 2**
@@ -192,6 +194,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
    1. 선택 **[!UICONTROL 등록]**.
 
       ![](assets/bplogin_request_access_5.png)
+
    (으)로 리디렉션됩니다 [!UICONTROL 액세스 요청] 페이지를 가리키도록 업데이트하는 중입니다.
 
 1. 다음 페이지에는 액세스를 요청하는 데 사용되는 이름과 이메일 ID가 표시됩니다. 관리자를 위한 주석을 남기고 을 클릭합니다. **[!UICONTROL 제출]**.
