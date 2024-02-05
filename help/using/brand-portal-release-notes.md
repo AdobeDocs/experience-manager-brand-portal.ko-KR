@@ -1,8 +1,8 @@
 ---
 title: 릴리스 정보
 seo-title: Release Notes
-description: Adobe Experience Manager Assets Brand Portal 2023.10.0 릴리스의 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+description: Adobe Experience Manager Assets Brand Portal 2024.02.0 릴리스의 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
+source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 6%
+source-wordcount: '1475'
+ht-degree: 3%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2023.10.0 릴리스의 새로운 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
+Adobe Experience Manager Assets Brand Portal 2024.02.0 릴리스의 새로운 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2023.10.0 |
-| 날짜 | 2023년 10월 |
+| 버전 | 2024.02.0 |
+| 날짜 | 2024년 2월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 관련자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하고 장치 간에 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 언제 어디서나 회사에서 승인한 형식으로 자산을 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2023.10.0의 새로운 기능 {#whats-new-in-2023.10.0}
+## 2024.02.0의 새로운 기능 {#whats-new-in-2024.02.0}
 
 ### 해결된 주요 문제 {#critical-issues-fixed}
 
 #### 버그 수정 {#bug-fixes}
+
+이 릴리스에는 다음과 같은 버그 수정이 포함됩니다.
+
+* 터키어 로케일에서 DRM으로 보호된 디지털 에셋을 다운로드할 수 없습니다.
+
+* 여러 줄 제목이 있는 자산이 포함된 기존 보고서를 열고 다운로드할 수 없습니다.
+
+* 를 사용하여 에셋을 다운로드하는 경우 [!UICONTROL 다운로드] 작업 모음의 단추를 클릭하면 최대 1000개의 에셋이 다운로드됩니다.
+
+* 컨텐츠 트리에서 볼 때 PSD 유형 자산의 이름이 잘못되었습니다.
+
+* [!UICONTROL 렌디션 삭제] 자산 세부 사항 페이지의 옵션이 작동하지 않습니다.
+
+* 다운로드 팝업 창에서 자산의 제목과 크기가 잘못 정렬되었습니다.
+
+* 트리 보기에서 전환하는 경우 카드 보기에서 폴더를 로드할 수 없습니다.
+
+* 다음의 경우에도 [!UICONTROL 빠른 다운로드] 이(가) 다음에서 활성화됨: [!UICONTROL 다운로드 설정] 편집자와 관리자 모두의 경우 특정 테넌트가 만료된 에셋을 다운로드할 수 없습니다.
+
+* 모든 확인란을 선택하지 않은 경우 보고서를 작성하는 동안 사용자 인터페이스 오류가 현지화되지 않습니다.
+
+* 보고서를 만드는 동안 레이블이 현지화되지 않습니다.
+
+* 지원 관리자는 Brand Portal에서 관리자라고 했습니다.
+
+## 이전 출시 버전
+
+### 2023년 10월 릴리스 {#oct-2023}
+
+**버그 수정 및 개선 사항**
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* 탐색 중 성능 향상 [!UICONTROL 컬렉션].
+
+* OmniSearch 필드를 사용하여 부분 검색을 수행하는 동안 검색 결과가 개선되었습니다.
 
 이 릴리스에는 다음과 같은 버그 수정이 포함됩니다.
 
@@ -49,16 +84,6 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 * 다음과 같은 경우 [!UICONTROL 제목] 필드는에 멀티바이트 기호를 포함합니다. [!UICONTROL 링크 공유], 보고서를 다운로드할 수 없습니다.
 
 * PDF 유형 문서를 볼 때 레이블과 도구 팁이 현지화되지 않습니다.
-
-#### 개선 사항 {#enhancements}
-
-이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
-
-* 탐색 중 성능 향상 [!UICONTROL 컬렉션].
-
-* OmniSearch 필드를 사용하여 부분 검색을 수행하는 동안 검색 결과가 개선되었습니다.
-
-## 이전 릴리스
 
 ### 2023년 8월 릴리스 {#aug-2023}
 
@@ -154,7 +179,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 
 **새로운 기능**
 
-Brand Portal은 이제 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 에셋을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하기 위해 기여도 폴더에 에셋을 수동으로 삭제할 필요가 없습니다.
+이제 Brand Portal은 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 에셋을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하기 위해 기여도 폴더의 에셋을 수동으로 삭제할 필요가 없습니다.
 
 **해결된 주요 문제**
 

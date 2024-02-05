@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets Brand Portal의 새로운 기능
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2023.10.0의 새로운 기능과 개선 사항은 무엇입니까
-seo-description: What are the new features and enhancements for 2023.10.0
+description: 2024.02.0의 새로운 기능과 개선 사항은 무엇입니까
+seo-description: What are the new features and enhancements for 2024.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
+source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
 workflow-type: tm+mt
-source-wordcount: '6558'
-ht-degree: 2%
+source-wordcount: '6616'
+ht-degree: 1%
 
 ---
 
 # Experience Manager Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 관련자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하고 장치 간에 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시기를 앞당길 수 있으며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다. Adobe은 전반적인 Brand Portal 경험을 개선하기 위해 노력하고 있습니다. 새로운 기능과 향상된 기능을 간단히 살펴보겠습니다.
+
+## 2024.02.0의 변경 사항 {#what-changed-in-February-2024}
+
+Brand Portal 2024.02.0은 중요한 문제에 대한 수정 사항이 포함된 내부 릴리스입니다. 최신 항목 보기 [Brand Portal 릴리스 노트](brand-portal-release-notes.md).
 
 ## 2023.10.0의 변경 사항 {#what-changed-in-October-2023}
 
@@ -47,7 +51,7 @@ Brand Portal 2022.08.0은 중요한 문제에 대한 수정 사항이 포함된 
 
 ## 2022.05.0의 변경 사항 {#what-changed-in-May-2022}
 
-Brand Portal은 이제 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 에셋을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하기 위해 기여도 폴더에 에셋을 수동으로 삭제할 필요가 없습니다. 를 사용하여 자동으로 실행된 삭제 작업의 상태를 모니터링할 수도 있습니다. **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여 상태]** > **[!UICONTROL 삭제 보고서]** Brand Portal의 옵션입니다. 작업 보고서는 다음 세부 정보를 제공합니다.
+이제 Brand Portal은 12시간마다 자동 작업을 실행하여 AEM에 게시된 모든 Brand Portal 에셋을 삭제합니다. 따라서 폴더 크기를 임계값 제한 이하로 유지하기 위해 기여도 폴더에 에셋을 수동으로 삭제할 필요가 없습니다. 를 사용하여 자동으로 실행된 삭제 작업의 상태를 모니터링할 수도 있습니다. **[!UICONTROL 도구]** > **[!UICONTROL 자산 기여 상태]** > **[!UICONTROL 삭제 보고서]** Brand Portal의 옵션입니다. 작업 보고서는 다음 세부 정보를 제공합니다.
 
 * 작업 시작 시간
 * 작업 종료 시간
@@ -244,7 +248,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 다운로드에 필요하지 않은 자산의 렌디션을 제외합니다.
 * 한 번의 클릭으로 유사한 모든 에셋 유형에 동일한 렌디션 세트를 적용합니다.
 * 서로 다른 에셋 유형에 대해 서로 다른 렌디션 세트를 적용합니다.
-* 각 자산에 대해 별도의 폴더 만들기.
+* 각 에셋에 대해 별도의 폴더를 만듭니다.
 * 선택한 에셋 및 해당 렌디션을 다운로드합니다.
 
 다운로드 워크플로우는 독립 실행형 에셋, 여러 에셋, 에셋이 포함된 폴더, 라이선스가 있는 에셋 또는 라이선스가 없는 에셋, 공유 링크를 사용한 에셋 다운로드에 대해 일정하게 유지됩니다. 다음을 참조하십시오 [Brand Portal에서 에셋을 다운로드하는 단계](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
