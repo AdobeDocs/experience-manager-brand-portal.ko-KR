@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -41,25 +41,12 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 이 릴리스에는 다음과 같은 버그 수정이 포함됩니다.
 
 * 터키어 로케일에서 DRM으로 보호된 디지털 에셋을 다운로드할 수 없습니다.
-
 * 여러 줄 제목이 있는 자산이 포함된 기존 보고서를 열고 다운로드할 수 없습니다.
-
 * 를 사용하여 에셋을 다운로드하는 경우 [!UICONTROL 다운로드] 작업 모음의 단추를 클릭하면 최대 1000개의 에셋이 다운로드됩니다.
-
 * 컨텐츠 트리에서 볼 때 PSD 유형 자산의 이름이 잘못되었습니다.
-
 * [!UICONTROL 렌디션 삭제] 자산 세부 사항 페이지의 옵션이 작동하지 않습니다.
-
 * 다운로드 팝업 창에서 자산의 제목과 크기가 잘못 정렬되었습니다.
-
-* 트리 보기에서 전환하는 경우 카드 보기에서 폴더를 로드할 수 없습니다.
-
-* 다음의 경우에도 [!UICONTROL 빠른 다운로드] 이(가) 다음에서 활성화됨: [!UICONTROL 다운로드 설정] 편집자와 관리자 모두의 경우 특정 테넌트가 만료된 에셋을 다운로드할 수 없습니다.
-
-* 모든 확인란을 선택하지 않은 경우 보고서를 작성하는 동안 사용자 인터페이스 오류가 현지화되지 않습니다.
-
 * 보고서를 만드는 동안 레이블이 현지화되지 않습니다.
-
 * 지원 관리자는 Brand Portal에서 관리자라고 했습니다.
 
 ## 이전 출시 버전
