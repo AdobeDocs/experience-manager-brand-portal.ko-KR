@@ -12,21 +12,21 @@ discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: fe6677df928a4125185051d80ae3055afb479369
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1932'
 ht-degree: 3%
 
 ---
 
 # 자산 다운로드 {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal은 사용자가 Brand Portal에서 액세스할 수 있는 에셋과 폴더를 동시에 다운로드할 수 있도록 함으로써 다운로드 경험을 향상시킵니다. 이렇게 하면 승인된 브랜드 자산을 오프라인용으로 안전하게 배포할 수 있습니다. Brand Portal에서 에셋(승인된 에셋)을 다운로드하는 방법과 [다운로드 성능](#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal은 사용자가 Brand Portal에서 액세스할 수 있는 에셋과 폴더를 동시에 다운로드할 수 있도록 함으로써 다운로드 경험을 향상시킵니다. 이렇게 하면 승인된 브랜드 자산을 오프라인용으로 안전하게 배포할 수 있습니다. Brand Portal에서 에셋(승인된 에셋)을 다운로드하는 방법과 [다운로드 성능](#expected-download-performance)에서 예상되는 사항에 대해 알아보려면 계속 읽어 보십시오.
 
 
 >[!NOTE]
 >
->Brand Portal 2020.10.0(및 이상)에서 **[!UICONTROL 빠른 다운로드]** 설정은 자산의 가속화된 다운로드를 위해 IBM Aspera Connect를 사용하는 기본적으로 활성화됩니다. IBM Aspera Connect 3.9.9 설치(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 클릭하여 Brand Portal에서 에셋을 다운로드할 수 있습니다. 자세한 내용은 [Brand Portal에서 다운로드를 가속화하기 위한 안내서](../using/accelerated-download.md).
+>Brand Portal 2020.10.0 이상 버전에서는 에셋의 빠른 다운로드를 위해 IBM Aspera Connect를 사용하는 **[!UICONTROL 빠른 다운로드]** 설정이 기본적으로 활성화됩니다. IBM에서 자산을 다운로드하기 전에 브라우저의 확장에 Brand Portal Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치합니다. 자세한 내용은 [Brand Portal에서 다운로드를 가속화하는 안내서](../using/accelerated-download.md)를 참조하십시오.
 >
->IBM Aspera Connect를 사용하지 않고 일반 다운로드 프로세스를 계속하려면 Brand Portal 관리자에게 문의하여 을 끄십시오. **[!UICONTROL 빠른 다운로드]** 설정.
+>IBM Aspera Connect를 사용하지 않고 일반 다운로드 프로세스를 계속하려면 Brand Portal 관리자에게 문의하여 **[!UICONTROL 빠른 다운로드]** 설정을 끄십시오.
 
 ## 에셋 다운로드 구성 {#configure-download}
 
@@ -43,32 +43,32 @@ Brand Portal 인터페이스에서 에셋 렌디션에 액세스하고 다운로
 
 ### 다운로드 설정 활성화 {#enable-download-settings}
 
-관리자는 해당 에셋을 활성화할 수 있습니다 **[!UICONTROL 다운로드 설정]** Brand Portal 사용자가 다운로드할 수 있는 렌디션 세트를 정의합니다.
+관리자는 **[!UICONTROL 다운로드 설정]** 에셋을 활성화하여 Brand Portal 사용자가 다운로드할 수 있는 렌디션 집합을 정의할 수 있습니다.
 
 사용 가능한 설정은 다음과 같습니다.
 
 * **[!UICONTROL 빠른 다운로드]**
 
-   IBM Aspera Connect를 사용하여 에셋을 신속하게 다운로드할 수 있습니다. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 다음에서 활성화됩니다. **[!UICONTROL 다운로드 설정]**.
+  IBM Aspera Connect를 사용하여 에셋을 신속하게 다운로드할 수 있습니다. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다.
 
 * **[!UICONTROL 사용자 지정 표현물]**
 
-   에셋의 사용자 지정 및 (또는) 동적 렌디션을 다운로드할 수 있습니다.
+  에셋의 사용자 지정 및 (또는) 동적 렌디션을 다운로드할 수 있습니다.
 
-   원래 에셋 및 시스템 생성 렌디션이 아닌 모든 에셋 렌디션을 사용자 지정 렌디션이라고 합니다. 자산에 사용할 수 있는 정적 렌디션과 동적 렌디션이 포함되어 있습니다. 모든 사용자는 Experience Manager Assets에서 사용자 정의 정적 렌디션을 만들 수 있지만 사용자 정의 동적 렌디션은 관리자만 만들 수 있습니다. 자세한 내용은 [이미지 사전 설정 또는 동적 변환 적용 방법](../using/brand-portal-image-presets.md).
+  원래 에셋 및 시스템 생성 렌디션이 아닌 모든 에셋 렌디션을 사용자 지정 렌디션이라고 합니다. 자산에 사용할 수 있는 정적 렌디션과 동적 렌디션이 포함되어 있습니다. 모든 사용자는 Experience Manager Assets에서 사용자 정의 정적 렌디션을 만들 수 있지만 사용자 정의 동적 렌디션은 관리자만 만들 수 있습니다. 자세한 내용은 [이미지 사전 설정 또는 동적 변환을 적용하는 방법](../using/brand-portal-image-presets.md)을 참조하세요.
 
 * **[!UICONTROL 시스템 표현물]**
 
-   에셋의 시스템 생성 렌디션을 다운로드할 수 있습니다.
+  에셋의 시스템 생성 렌디션을 다운로드할 수 있습니다.
 
-   DAM 자산 업데이트 워크플로우를 기반으로 Experience Manager Assets에서 자동으로 생성되는 썸네일입니다.
+  DAM 자산 업데이트 워크플로우를 기반으로 Experience Manager Assets에서 자동으로 생성되는 썸네일입니다.
 
-* **[!UICONTROL 에셋 다운로드]**
+* **[!UICONTROL 자산 다운로드]**
 
-   각 에셋에 대해 별도의 폴더에 렌디션을 다운로드할 수 있습니다. 이 설정은 폴더, 컬렉션 및 에셋(20개 이상의 에셋)의 대량 다운로드에 적용할 수 있습니다.
+  각 에셋에 대해 별도의 폴더에 렌디션을 다운로드할 수 있습니다. 이 설정은 폴더, 컬렉션 및 에셋(20개 이상의 에셋)의 대량 다운로드에 적용할 수 있습니다.
 
 
-관리자로 Brand Portal 테넌트에 로그인하고 다음 위치로 이동합니다. **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]**.
+관리자로 Brand Portal 테넌트에 로그인하고 **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]**&#x200B;로 이동합니다.
 
 관리자는 Brand Portal 사용자가 에셋 렌디션에 액세스하고 다운로드할 수 있도록 모든 설정을 활성화할 수 있습니다.
 
@@ -77,15 +77,15 @@ Brand Portal 인터페이스에서 에셋 렌디션에 액세스하고 다운로
 
 >[!NOTE]
 >
->관리자만 만료된 에셋을 다운로드할 수 있습니다. 만료된 에셋에 대한 자세한 내용은 [자산의 디지털 권한 관리](../using/manage-digital-rights-of-assets.md).
+>관리자만 만료된 에셋을 다운로드할 수 있습니다. 만료된 자산에 대한 자세한 내용은 [자산의 디지털 권한 관리](../using/manage-digital-rights-of-assets.md)를 참조하십시오.
 
 ### 사용자 그룹 설정 구성 {#configure-user-group-settings}
 
-이외에도 **[!UICONTROL 다운로드 설정]**, Brand Portal 관리자는 다양한 사용자 그룹에 대한 설정을 추가로 구성하여 원본 에셋 및 그 렌디션을 보고 다운로드 할 수 있습니다.
+Brand Portal 관리자는 **[!UICONTROL 다운로드 설정]** 외에도 다른 사용자 그룹에 대한 설정을 추가로 구성하여 원본 에셋과 해당 렌디션을 보거나 다운로드할 수 있습니다.
 
-관리자로 Brand Portal 테넌트에 로그인하고 다음 위치로 이동합니다. **[!UICONTROL 도구]** > **[!UICONTROL 사용자]**. 다음에서 **[!UICONTROL 사용자 역할]** 페이지, 다음으로 이동 **[!UICONTROL 그룹]** 사용자 그룹에 대한 보기 및(또는) 다운로드 설정을 구성하는 탭입니다.
+관리자로 Brand Portal 테넌트에 로그인하고 **[!UICONTROL 도구]** > **[!UICONTROL 사용자]**(으)로 이동합니다. **[!UICONTROL 사용자 역할]** 페이지에서 **[!UICONTROL 그룹]** 탭으로 이동하여 사용자 그룹에 대한 보기 및(또는) 다운로드 설정을 구성합니다.
 
-![view-download-permission](assets/download-permissions.png)
+![보기-다운로드-권한](assets/download-permissions.png)
 
 >[!NOTE]
 >
@@ -93,20 +93,20 @@ Brand Portal 인터페이스에서 에셋 렌디션에 액세스하고 다운로
 
 구성에 따라 다운로드 워크플로우는 독립 실행형 에셋, 여러 에셋, 에셋이 포함된 폴더, 라이선스가 있는 에셋 또는 라이선스가 없는 에셋, 공유 링크를 사용한 에셋 다운로드에 대해 일정하게 유지됩니다.
 
-다음 매트릭스는 사용자가 다음 항목에 따라 렌디션에 액세스할 수 있는지 여부를 정의합니다. [다운로드 구성](#configure-download):
+다음 매트릭스는 사용자가 [다운로드 구성](#configure-download)에 따라 렌디션에 액세스할 수 있는지 여부를 정의합니다.
 
-| **다운로드 설정: 사용자 지정 표현물** | **다운로드 설정: 시스템 렌디션** | **사용자 그룹 설정: 원본 다운로드** | **사용자 그룹 설정: 렌디션 다운로드** | **결과** |
+| **다운로드 설정: 사용자 지정 표현물** | **다운로드 설정: 시스템 표현물** | **사용자 그룹 설정: 원본 다운로드** | **사용자 그룹 설정: 렌디션 다운로드** | **결과** |
 |---|---|---|---|---|
 | 켬 | 켬 | 켬 | 켬 | 모든 렌디션 보기 및 다운로드 |
-| 켬 | 켬 | 끔 | 끔 | 원본 에셋 보기 |
-| 끔 | 끔 | 켬 | 켬 | 원본 에셋 보기 및 다운로드 |
-| 켬 | 끔 | 켬 | 켬 | 원본 에셋 및 사용자 지정 렌디션 보기 및 다운로드 |
-| 끔 | 켬 | 켬 | 켬 | 원본 에셋 및 시스템 렌디션 보기 및 다운로드 |
-| 켬 | 끔 | 끔 | 끔 | 원본 에셋 보기 |
-| 끔 | 켬 | 끔 | 끔 | 원본 에셋 보기 |
-| 끔 | 끔 | 끔 | 켬 | 원본 에셋 보기 |
-| 끔 | 끔 | 켬 | 끔 | 원본 에셋 보기 및 다운로드 |
-| 끔 | 끔 | 끔 | 끔 | 원본 에셋 보기 |
+| 켬 | 켬 | 꺼짐 | 꺼짐 | 원본 에셋 보기 |
+| 꺼짐 | 꺼짐 | 켬 | 켬 | 원본 에셋 보기 및 다운로드 |
+| 켬 | 꺼짐 | 켬 | 켬 | 원본 에셋 및 사용자 지정 렌디션 보기 및 다운로드 |
+| 꺼짐 | 켬 | 켬 | 켬 | 원본 에셋 및 시스템 렌디션 보기 및 다운로드 |
+| 켬 | 꺼짐 | 꺼짐 | 꺼짐 | 원본 에셋 보기 |
+| 꺼짐 | 켬 | 꺼짐 | 꺼짐 | 원본 에셋 보기 |
+| 꺼짐 | 꺼짐 | 꺼짐 | 켬 | 원본 에셋 보기 |
+| 꺼짐 | 꺼짐 | 켬 | 꺼짐 | 원본 에셋 보기 및 다운로드 |
+| 꺼짐 | 꺼짐 | 꺼짐 | 꺼짐 | 원본 에셋 보기 |
 
 
 
@@ -118,7 +118,7 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 에셋, 에�
 >
 >에셋 렌디션에 액세스하거나 다운로드할 수 있는 권한이 없는 경우 Brand Portal 관리자에게 문의하십시오.
 
-사용자가 표현물에 액세스할 수 있는 경우 향상된 기능이 제공됩니다 **[!UICONTROL 다운로드]** 대화 상자에서 다음 기능을 사용할 수 있습니다.
+사용자가 변환에 액세스할 수 있는 경우 다음과 같은 기능이 포함된 향상된 **[!UICONTROL 다운로드]** 대화 상자가 제공됩니다.
 
 * 다운로드 목록에서 사용 가능한 모든 에셋 렌디션을 표시합니다.
 * 다운로드에 필요하지 않은 자산의 렌디션을 제외합니다.
@@ -127,67 +127,67 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 에셋, 에�
 * 각 에셋에 대해 별도의 폴더를 만듭니다.
 * 선택한 에셋 및 해당 렌디션을 다운로드합니다.
 
-![download-dialog](assets/download-dialog-box.png)
+![다운로드 대화 상자](assets/download-dialog-box.png)
 
 >[!NOTE]
 >
->다음 **[!UICONTROL 다운로드]** 대화 상자는 다음과 같은 경우에만 표시됩니다. **[!UICONTROL 사용자 지정 표현물]** 및 (또는) **[!UICONTROL 시스템 표현물]** 이(가) 다음에서 활성화됨: **[!UICONTROL 다운로드 설정]**.
+>**[!UICONTROL 다운로드]** 대화 상자는 **[!UICONTROL 다운로드 설정]**&#x200B;에서 **[!UICONTROL 사용자 지정 렌디션]** 및(또는) **[!UICONTROL 시스템 렌디션]**&#x200B;을 사용하도록 설정한 경우에만 나타납니다.
 
 
 ### 에셋 다운로드 단계 {#bulk-download}
 
 Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 다운로드하는 단계는 다음과 같습니다.
 
-1. Brand Portal 테넌트에 로그인합니다. 기본적으로 **[!UICONTROL 파일]** 보기는 게시된 모든 에셋과 폴더를 포함하는 열립니다.
+1. Brand Portal 테넌트에 로그인합니다. 기본적으로 게시된 모든 에셋과 폴더가 포함된 **[!UICONTROL 파일]** 보기가 열립니다.
 
    다음 중 하나를 수행하십시오.
 
-   * 다운로드할 에셋 또는 폴더를 선택합니다. 맨 위에 있는 도구 모음에서 **[!UICONTROL 다운로드]** 아이콘.
+   * 다운로드할 에셋 또는 폴더를 선택합니다. 상단의 도구 모음에서 **[!UICONTROL 다운로드]** 아이콘을 클릭합니다.
 
-      ![여러 자산 선택](assets/select-assets-new.png)
+     ![다중 자산 선택](assets/select-assets-new.png)
 
-   * 에셋의 특정 에셋 렌디션을 다운로드하려면 에셋 위로 포인터를 가져간 다음 **[!UICONTROL 다운로드]** 빠른 작업 썸네일에서 사용할 수 있는 아이콘.
+   * 에셋의 특정 에셋 렌디션을 다운로드하려면 에셋 위로 포인터를 가져간 다음 빠른 작업 썸네일에서 사용할 수 있는 **[!UICONTROL 다운로드]** 아이콘을 클릭합니다.
 
-      ![select-asset](assets/select-asset.png)
-
-
-      >[!NOTE]
-      >
-      >에셋을 처음 다운로드하고 브라우저에 IBM Aspera Connect가 설치되어 있지 않은 경우 Aspera 다운로드 가속기를 설치하라는 메시지가 표시됩니다(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+     ![select-asset](assets/select-asset.png)
 
 
-      >[!NOTE]
-      >
-      >다운로드하는 에셋에 라이센스가 있는 에셋도 포함되어 있으면 로 리디렉션됩니다. **[!UICONTROL 저작권 관리]** 페이지를 가리키도록 업데이트하는 중입니다. 이 페이지에서 자산을 선택하고 **[!UICONTROL 동의]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 다운로드]**. 동의하지 않기로 선택한 경우 라이센스가 부여된 에셋이 다운로드되지 않습니다.
-      > 
-      >라이선스로 보호된 자산에는 [라이선스 계약 첨부됨](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) 에셋의 [메타데이터 속성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) Experience Manager Assets.
+     >[!NOTE]
+     >
+     >자산을 처음 다운로드하는 경우 브라우저에 IBM Aspera Connect가 설치되어 있지 않으면 Aspera 다운로드 가속기(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치하라는 메시지가 표시됩니다.
 
 
-      ![라이센스 자산](assets/licensed-asset-new.png)
+     >[!NOTE]
+     >
+     >다운로드하는 에셋에 사용 허가된 에셋도 포함되어 있으면 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다. 이 페이지에서 자산을 선택하고 **[!UICONTROL 동의]**&#x200B;를 클릭한 다음 **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다. 동의하지 않기로 선택한 경우 라이센스가 부여된 에셋이 다운로드되지 않습니다.
+     > 
+     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)이(가) 첨부되어 있습니다.
 
-1. 다음 **[!UICONTROL 다운로드]** 선택한 에셋을 모두 나열하는 대화 상자가 열립니다.
+
+     ![라이선스 자산](assets/licensed-asset-new.png)
+
+1. 선택한 모든 자산을 나열하는 **[!UICONTROL 다운로드]** 대화 상자가 열립니다.
 
    에셋을 클릭하여 사용 가능한 렌디션을 보고 다운로드할 렌디션에 해당하는 확인란을 선택합니다.
 
-   개별 에셋에 대한 렌디션을 수동으로 선택 또는 제외하거나 **적용** 아이콘 유사한 에셋 유형(이 예제의 모든 이미지 파일)에 대해 다운로드할 렌디션 세트를 선택합니다. 다음에서 **[!UICONTROL 모두 적용]** 대화 상자, 클릭 **[!UICONTROL 완료]** 를 클릭하여 유사한 모든 에셋에 규칙을 적용합니다.
+   개별 에셋에 대한 렌디션을 수동으로 선택하거나 제외하거나 **적용** 아이콘을 클릭하여 유사한 에셋 유형(이 예제의 모든 이미지 파일)에 대해 다운로드할 렌디션 집합을 선택할 수 있습니다. **[!UICONTROL 모두 적용]** 대화 상자에서 **[!UICONTROL 완료]**&#x200B;를 클릭하여 유사한 모든 자산에 규칙을 적용합니다.
 
    ![모두 적용](assets/apply.png)
 
-   필요한 경우 다운로드 목록에서 자산을 클릭하여 제거할 수도 있습니다. **제거** 아이콘.
+   필요한 경우 **제거** 아이콘을 클릭하여 다운로드 목록에서 자산을 제거할 수도 있습니다.
 
    ![제거](assets/remove.png)
 
-   에셋을 다운로드하는 동안 Brand Portal 폴더 계층 구조를 유지하려면 **[!UICONTROL 각 자산에 대해 별도의 폴더 만들기]** 확인란.
+   에셋을 다운로드하는 동안 Brand Portal 폴더 계층 구조를 유지하려면 **[!UICONTROL 각 에셋에 대해 별도의 폴더 만들기]** 확인란을 선택하십시오.
 
-   다운로드 버튼은 선택한 항목의 수를 반영합니다. 규칙 적용이 끝나면 **[!UICONTROL 다운로드 항목]**.
+   다운로드 버튼은 선택한 항목의 수를 반영합니다. 규칙 적용이 끝나면 **[!UICONTROL 항목 다운로드]**&#x200B;를 클릭합니다.
 
-   ![download-dialog](assets/download-dialog-box-new.png)
+   ![다운로드 대화 상자](assets/download-dialog-box-new.png)
 
-1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 다음에서 활성화됩니다. **[!UICONTROL 다운로드 설정]**. 따라서 IBM Aspera Connect를 사용하여 가속화된 다운로드를 허용하는 확인 상자가 나타납니다.
+1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 IBM Aspera Connect를 사용하여 가속화된 다운로드를 허용하는 확인 상자가 나타납니다.
 
-   을(를) 계속하려면 **[!UICONTROL 빠른 다운로드]**, 클릭 **[!UICONTROL 허용]**. 선택한 모든 렌디션은 IBM Aspera Connect를 사용하여 zip 폴더로 다운로드됩니다.
+   **[!UICONTROL 빠른 다운로드]**&#x200B;를 계속 사용하려면 **[!UICONTROL 허용]**&#x200B;을 클릭하세요. 선택한 모든 렌디션은 IBM Aspera Connect를 사용하여 zip 폴더로 다운로드됩니다.
 
-   IBM Aspera Connect를 사용하지 않으려면 **[!UICONTROL 거부]**. If **[!UICONTROL 빠른 다운로드]** 이 거부되거나 실패하면 오류 메시지가 표시됩니다. 다음을 클릭합니다. **[!UICONTROL 일반 다운로드]** 단추를 클릭하여 자산을 계속 다운로드합니다.
+   IBM Aspera Connect를 사용하지 않으려면 **[!UICONTROL 거부]**&#x200B;를 클릭합니다. **[!UICONTROL 빠른 다운로드]**&#x200B;가 거부되거나 실패하면 시스템에서 오류 메시지를 채웁니다. 에셋 다운로드를 계속하려면 **[!UICONTROL 일반 다운로드]** 단추를 클릭하십시오.
 
 <!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
@@ -199,29 +199,29 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
 
 >[!NOTE]
 >
->다음과 같은 경우 **[!UICONTROL 빠른 다운로드]** 관리자가 설정을 해제하면 IBM Aspera Connect를 사용하지 않고 선택한 렌디션을 zip 폴더에서 직접 다운로드합니다.
+>관리자가 **[!UICONTROL 빠른 다운로드]** 설정을 해제하면 IBM Aspera Connect를 사용하지 않고 선택한 렌디션을 zip 폴더로 직접 다운로드합니다.
 
 >[!NOTE]
 >
->다음과 같은 경우 **[!UICONTROL 에셋 다운로드]** 설정은 다음에서 활성화됩니다. **[!UICONTROL 다운로드 설정]**, 에셋 렌디션은 zip 폴더 내의 각 에셋에 대해 별도의 폴더로 다운로드됩니다.
+>**[!UICONTROL 다운로드 설정]**&#x200B;에서 **[!UICONTROL 에셋 다운로드]** 설정을 사용하면 에셋 렌디션이 zip 폴더 내의 각 에셋에 대해 별도의 폴더로 다운로드됩니다.
 >  
 >공유 링크에서 에셋을 다운로드하는 경우 에셋 렌디션은 zip 폴더 내의 각 에셋에 대해 별도의 폴더로 다운로드됩니다.
 >
->폴더, 컬렉션 또는 20개가 넘는 자산을 다운로드하도록 선택한 경우 **[!UICONTROL 다운로드]** 대화 상자를 건너뛰고 동적 변환을 제외한 사용자가 액세스할 수 있는 모든 에셋 변환을 zip 폴더에 다운로드합니다.
+>폴더, 컬렉션 또는 20개 이상의 에셋을 다운로드하도록 선택한 경우 **[!UICONTROL 다운로드]** 대화 상자를 건너뛰고 동적 렌디션을 제외한 사용자가 액세스할 수 있는 모든 에셋 렌디션을 zip 폴더로 다운로드합니다.
 
 >[!NOTE]
 >
 >Brand Portal은 하이브리드 및 Scene 7 모드 모두에서 Dynamic Media 구성을 지원합니다.
 >
->(*Experience Manager Assets 작성자 인스턴스가에서 실행 중인 경우&#x200B;**Dynamic Media 하이브리드 모드***)
+>(*Experience Manager Assets 작성자 인스턴스가&#x200B;**Dynamic Media 하이브리드 모드***에서 실행 중인 경우)
 >
 >에셋의 동적 렌디션을 미리 보거나 다운로드하려면 dynamic media가 활성화되고 에셋의 피라미드 tiff 렌디션이 에셋이 게시된 Experience Manager Assets 작성자 인스턴스에 존재하는지 확인하십시오. 자산이 Experience Manager Assets에서 Brand Portal으로 게시되면 피라미드형 tiff 표현물도 게시됩니다.
 
 
 
-그렇지 않은 경우 [관리자가 원본 렌디션에 대한 액세스 권한을 부여함](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)로 설정되어 있는 경우에는 선택한 에셋의 원본 렌디션이 다운로드되지 않습니다.
+관리자가 원본 렌디션에 액세스할 수 있도록 [승인하지 않은 경우](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) 선택한 에셋의 원본 렌디션은 다운로드되지 않습니다.
 
-![접근 금지 메시지](assets/no-access-message.png)
+![액세스 안 함 메시지](assets/no-access-message.png)
 
 <!-- This issue has been resolved, check with engineering.
 >[!NOTE]
@@ -233,28 +233,28 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
 
 다운로드 워크플로우 외에도 에셋 세부 사항 페이지에서 개별 에셋에 대한 렌디션을 직접 다운로드하는 다른 방법이 있습니다.
 
-사용자는 여러 에셋 렌디션을 미리 보고 특정 렌디션을 선택하고 에셋 렌디션을 **[!UICONTROL 표현물]** 패널을 열지 않고도 에셋 세부 사항 페이지의 **[!UICONTROL 다운로드]** 대화 상자.
+사용자는 **[!UICONTROL 다운로드]** 대화 상자를 열지 않고도 에셋 세부 정보 페이지의 **[!UICONTROL 렌디션]** 패널에서 다른 에셋 렌디션을 미리 보고 특정 렌디션을 선택하고 에셋 렌디션을 직접 다운로드할 수 있습니다.
 
 
 다음은 에셋 세부 정보 페이지에서 에셋 렌디션을 다운로드하는 단계입니다.
 
 1. Brand Portal 테넌트에 로그인하고 에셋을 클릭하여 에셋 세부 사항 페이지를 엽니다.
-1. 왼쪽의 오버레이 아이콘을 클릭한 다음 를 클릭합니다 **[!UICONTROL 표현물]**.
+1. 왼쪽의 오버레이 아이콘을 클릭한 다음 **[!UICONTROL 렌디션]**&#x200B;을 클릭합니다.
 
    ![렌디션 탐색](assets/rendition-navigation.png)
 
-1. 다음 **[!UICONTROL 표현물]** 패널 은 에셋을 기반으로 액세스 가능한 모든 에셋 렌디션을 나열합니다. [다운로드 구성](#configure-download).
+1. **[!UICONTROL 렌디션]** 패널에 에셋 [다운로드 구성](#configure-download)을 기반으로 액세스 가능한 에셋 렌디션이 모두 나열됩니다.
 
-   다운로드할 특정 렌디션을 선택하고 **[!UICONTROL 다운로드 항목]**.
+   다운로드할 특정 표현물을 선택하고 **[!UICONTROL 항목 다운로드]**&#x200B;를 클릭합니다.
 
    ![renditions-panel](assets/renditions-panel.png)
 
 
-1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 다음에서 활성화됩니다. **[!UICONTROL 다운로드 설정]**. 따라서 IBM Aspera Connect를 사용하여 가속화된 다운로드를 허용하는 확인 상자가 나타납니다.
+1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 IBM Aspera Connect를 사용하여 가속화된 다운로드를 허용하는 확인 상자가 나타납니다.
 
-   을(를) 계속하려면 **[!UICONTROL 빠른 다운로드]**, 클릭 **[!UICONTROL 허용]**. 선택한 모든 렌디션은 IBM Aspera Connect를 사용하여 zip 폴더로 다운로드됩니다.
+   **[!UICONTROL 빠른 다운로드]**&#x200B;를 계속 사용하려면 **[!UICONTROL 허용]**&#x200B;을 클릭하세요. 선택한 모든 렌디션은 IBM Aspera Connect를 사용하여 zip 폴더로 다운로드됩니다.
 
-   사용을 거부하는 경우 **[!UICONTROL 빠른 다운로드]**&#x200B;로 설정하면 오류 메시지가 표시됩니다. 다음을 클릭합니다. **[!UICONTROL 일반 다운로드]** 단추를 클릭하여 자산을 계속 다운로드합니다.
+   **[!UICONTROL 빠른 다운로드]** 사용을 거부하면 오류 메시지가 표시됩니다. 에셋 다운로드를 계속하려면 **[!UICONTROL 일반 다운로드]** 단추를 클릭하십시오.
 
 <!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
@@ -268,12 +268,12 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
 
 >[!NOTE]
 >
->다음과 같은 경우 **[!UICONTROL 빠른 다운로드]** 관리자가 설정을 해제하면 IBM Aspera Connect를 사용하지 않고 선택한 렌디션을 zip 폴더에서 직접 다운로드합니다.
+>관리자가 **[!UICONTROL 빠른 다운로드]** 설정을 해제하면 IBM Aspera Connect를 사용하지 않고 선택한 렌디션을 zip 폴더로 직접 다운로드합니다.
 
 
 >[!NOTE]
 >
->개별적으로 다운로드되는 에셋은 에셋 다운로드 보고서에 표시됩니다. 그러나 에셋이 들어 있는 폴더를 다운로드하면 폴더 및 에셋이 에셋 다운로드 보고서에 표시되지 않습니다.
+>개별적으로 다운로드된 Assets은 에셋 다운로드 보고서에 표시됩니다. 그러나 에셋이 들어 있는 폴더를 다운로드하면 폴더 및 에셋이 에셋 다운로드 보고서에 표시되지 않습니다.
 
 <!--
 >[!NOTE]

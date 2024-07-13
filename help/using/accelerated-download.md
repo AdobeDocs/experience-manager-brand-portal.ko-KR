@@ -12,7 +12,7 @@ discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '999'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 주문형 설치 �
 >
 >다운로드 속도는 네트워크 대역폭, 서버 지연, 클라이언트의 지리적 위치 등의 요소에 따라 다르므로 사용자마다 다릅니다.
 
-다음 **[!UICONTROL 빠른 다운로드]** 구성은 기본적으로 활성화되어 있으므로 Brand Portal에서 원하는 에셋 파일을 다운로드하는 데 소요되는 시간이 크게 줄어듭니다.
+**[!UICONTROL 빠른 다운로드]** 구성은 기본적으로 활성화되어 있으므로 Brand Portal에서 원하는 에셋 파일을 다운로드하는 데 걸리는 시간이 크게 줄어듭니다.
 
 ![](assets/download-settings-new.png)
 
@@ -35,9 +35,9 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 주문형 설치 �
 
 파일을 더 빨리 다운로드하려면 다음을 확인하십시오.
 
-* 다음으로 이동 **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]** 및 확인 **[!UICONTROL 빠른 다운로드]** 구성이 다음 위치에서 활성화됨 **[!UICONTROL 다운로드 설정]**.
+* **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]**(으)로 이동하여 **[!UICONTROL 다운로드 설정]**&#x200B;에서 **[!UICONTROL 빠른 다운로드]** 구성이 활성화되어 있는지 확인합니다.
 * 방화벽에서 포트 33001(TCP 및 UDP 모두)가 열려 있는지 확인합니다.
-* **IBM® Aspera Connect 3.9.9 설치** 관리자 권한( )을 사용하여 브라우저의 확장에서[IBM® Aspera Connect 다운로드](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **관리자 권한을 사용하여 브라우저의 확장에 IBM® Aspera Connect 3.9.9**&#x200B;을 설치합니다([IBM® Aspera Connect 다운로드](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 주문형 설치 �
 
 다음 표는 Aspera Connect 파일 다운로드 가속기를 사용하여 2GB인 파일의 다운로드 성능을 보여 줍니다.
 
-*관찰된 결과는 Brand Portal 서버가 오레곤(미국)에 있는 것을 고려할 때 네트워크 대역폭, 서버 지연 시간 및 클라이언트 위치와 같은 요인으로 인해 달라집니다.*
+*관찰된 결과는 Brand Portal 서버가 오레곤(미국)에 있는 것을 고려할 때 네트워크 대역폭, 서버 지연, 클라이언트 위치와 같은 요인으로 인해 달라집니다.*
 
 | 클라이언트 위치 | 클라이언트와 서버 간 지연 시간(밀리초) | Aspera Connect File Transfer Accelerator를 사용한 속도(MBps) | Aspera File Transfer Accelerator로 2GB의 파일을 다운로드하는 데 걸린 시간(초) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -75,29 +75,29 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 주문형 설치 �
 
 Brand Portal에서 에셋을 더 빨리 다운로드하려면:
 
-1. Brand Portal 테넌트에 로그인합니다. 기본적으로 **[!UICONTROL 파일]** 보기는 게시된 모든 에셋과 폴더를 포함하는 열립니다.
+1. Brand Portal 테넌트에 로그인합니다. 기본적으로 게시된 모든 에셋과 폴더가 포함된 **[!UICONTROL 파일]** 보기가 열립니다.
 
    다음 중 하나를 수행하십시오.
 
-   * 다운로드할 에셋 또는 폴더를 선택합니다. 맨 위에 있는 도구 모음에서 **[!UICONTROL 다운로드]** 아이콘.
+   * 다운로드할 에셋 또는 폴더를 선택합니다. 상단의 도구 모음에서 **[!UICONTROL 다운로드]** 아이콘을 클릭합니다.
 
-     ![여러 자산 선택](assets/select-assets-new.png)
+     ![다중 자산 선택](assets/select-assets-new.png)
 
-   * 에셋의 특정 에셋 렌디션을 다운로드하려면 에셋 위로 포인터를 가져간 다음 **[!UICONTROL 다운로드]** 빠른 작업 썸네일에서 사용할 수 있는 아이콘.
+   * 에셋의 특정 에셋 렌디션을 다운로드하려면 에셋 위로 포인터를 가져간 다음 빠른 작업 썸네일에서 사용할 수 있는 **[!UICONTROL 다운로드]** 아이콘을 클릭합니다.
 
      ![select-asset](assets/select-asset.png)
 
-1. 다음 **[!UICONTROL 다운로드]** 선택한 에셋을 모두 나열하는 대화 상자가 열립니다.
+1. 선택한 모든 자산을 나열하는 **[!UICONTROL 다운로드]** 대화 상자가 열립니다.
 
-   에셋을 다운로드하는 동안 Brand Portal 폴더 계층 구조를 유지하려면 **[!UICONTROL 각 자산에 대해 별도의 폴더 만들기]** 확인란.
+   에셋을 다운로드하는 동안 Brand Portal 폴더 계층 구조를 유지하려면 **[!UICONTROL 각 에셋에 대해 별도의 폴더 만들기]** 확인란을 선택하십시오.
 
-   다운로드 버튼은 선택한 항목의 수를 반영합니다. 규칙 적용이 끝나면 **[!UICONTROL 다운로드 항목]**. 규칙을 적용하는 방법에 대한 자세한 내용은 [에셋 다운로드](../using/brand-portal-download-assets.md#download-assets).
+   다운로드 버튼은 선택한 항목의 수를 반영합니다. 규칙 적용이 끝나면 **[!UICONTROL 항목 다운로드]**&#x200B;를 클릭합니다. 규칙을 적용하는 방법에 대한 자세한 내용은 [자산 다운로드](../using/brand-portal-download-assets.md#download-assets)를 참조하세요.
 
-   ![download-dialog](assets/download-dialog-box-new.png)
+   ![다운로드 대화 상자](assets/download-dialog-box-new.png)
 
-1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 다음에서 활성화됩니다. **[!UICONTROL 다운로드 설정]**. 따라서 IBM® Aspera Connect를 사용하여 에셋을 다운로드하라는 확인 상자가 나타납니다.
+1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 IBM® Aspera Connect를 사용하여 에셋을 다운로드하라는 확인 상자가 나타납니다.
 
-   에셋을 처음 다운로드하고 브라우저에 IBM® Aspera Connect가 설치되어 있지 않거나 기존 버전이 오래된 경우 Aspera 다운로드 가속기를 설치하라는 메시지가 표시됩니다(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   에셋을 처음 다운로드하고 브라우저에 IBM® Aspera Connect가 설치되어 있지 않거나 기존 버전이 오래된 경우 Aspera 다운로드 가속기(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치하라는 메시지가 표시됩니다.
 
    ![](assets/aspera-not-launched.png)
 
@@ -109,17 +109,17 @@ Brand Portal에서 에셋을 더 빨리 다운로드하려면:
 
 1. 클라이언트가 성공적으로 설치되면 브라우저 페이지를 새로 고치고 다운로드 단계를 다시 시작합니다.
 
-1. 을(를) 계속하려면 **[!UICONTROL 빠른 다운로드]**, 클릭 **[!UICONTROL 허용]**. 선택한 모든 렌디션은 IBM® Aspera Connect를 사용하여 zip 폴더로 다운로드됩니다.
+1. **[!UICONTROL 빠른 다운로드]**&#x200B;를 계속 사용하려면 **[!UICONTROL 허용]**&#x200B;을 클릭하세요. 선택한 모든 렌디션은 IBM® Aspera Connect를 사용하여 zip 폴더로 다운로드됩니다.
 
    다운로드가 완료되면 대화 상자에 에셋이 사용자 시스템에 다운로드되는 위치가 표시됩니다.
 
    ![](assets/aspera-download-2.png)
 
-   IBM® Aspera Connect를 사용하지 않으려면 **[!UICONTROL 거부]**. If **[!UICONTROL 빠른 다운로드]** 이 거부되거나 실패하면 오류 메시지가 표시됩니다. 다음을 클릭합니다. **[!UICONTROL 일반 다운로드]** 단추를 클릭하여 자산을 계속 다운로드합니다.
+   IBM® Aspera Connect를 사용하지 않으려면 **[!UICONTROL 거부]**&#x200B;를 클릭합니다. **[!UICONTROL 빠른 다운로드]**&#x200B;가 거부되거나 실패하면 시스템에서 오류 메시지를 채웁니다. 에셋 다운로드를 계속하려면 **[!UICONTROL 일반 다운로드]** 단추를 클릭하십시오.
 
 >[!NOTE]
 >
-다음과 같은 경우 **[!UICONTROL 빠른 다운로드]** 관리자가 설정을 해제하면 IBM® Aspera Connect를 사용하지 않고 선택한 렌디션을 zip 폴더에서 직접 다운로드합니다.
+>관리자가 **[!UICONTROL 빠른 다운로드]** 설정을 해제하면 IBM® Aspera Connect를 사용하지 않고 선택한 렌디션을 zip 폴더로 직접 다운로드합니다.
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -180,20 +180,20 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Microsoft® Edge 브라우저에서 파일 가속기 사용 {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge는 EPM(고급 보호 모드)에서 실행되어 동일한 개인 네트워크에 있거나 신뢰할 수 있는 사이트와 Aspera Connect 서버와의 통신을 방지합니다. 따라서 서버와 연결이 설정될 때마다 팝업이 표시됩니다.
+Microsoft® Edge은 EPM(향상된 보호 모드)에서 실행되므로 동일한 개인 네트워크에 있거나 신뢰할 수 있는 사이트에 있는 동안 Aspera Connect 서버와 통신할 수 없습니다. 따라서 서버와 연결이 설정될 때마다 팝업이 표시됩니다.
 
 ![](assets/switchapps-msedge.png)
 
 Microsoft® Edge에서 가속화된 다운로드 기능을 사용하려면 신뢰할 수 있는 사이트 목록에서 Brand Portal 사이트를 제거하십시오.
 
-1. Campaign 컨트롤 패널 열기(**[!UICONTROL 창 키 + X]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL Campaign 컨트롤 패널]**).
-1. 다음으로 이동 **[!UICONTROL 네트워크 및 인터넷]** > **[!UICONTROL 인터넷 옵션]**. 다음을 클릭합니다. **[!UICONTROL 보안]** 탭.
-1. 다음을 클릭합니다. **[!UICONTROL 신뢰할 수 있는 사이트 영역]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 사이트]**.
+1. Campaign 컨트롤 패널(**[!UICONTROL Window 키 + X]**)를 연 다음 **[!UICONTROL Campaign 컨트롤 패널]**)를 선택합니다.
+1. **[!UICONTROL 네트워크 및 인터넷]** > **[!UICONTROL 인터넷 옵션]**(으)로 이동합니다. **[!UICONTROL 보안]** 탭을 클릭합니다.
+1. **[!UICONTROL 신뢰할 수 있는 사이트 영역]**&#x200B;을 클릭한 다음 **[!UICONTROL 사이트]**&#x200B;를 클릭합니다.
 1. 목록에서 Brand Portal 사이트를 제거합니다.
 
 ## Aspera Connect 클라이언트 기본 설정 {#aspera-connect-client-preferences}
 
-아이콘을 마우스 오른쪽 단추로 클릭하고 를 선택하여 IBM® Aspera Connect Client 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다 **[!UICONTROL 환경 설정]**.
+아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1}을 선택하여 IBMAspera Connect Client 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -213,7 +213,7 @@ Microsoft® Edge에서 가속화된 다운로드 기능을 사용하려면 신�
 
    포트가 안전하지 않은 경우 네트워크 팀에 연락하여 포트 33001(TCP 및 UDP 모두)가 방화벽에서 차단되지 않았는지 확인하십시오.
 
-1. 포트가 정상 상태인 경우 다음을 사용하여 사용 가능한 대역폭을 측정하여 네트워크가 느리지 않는지 확인합니다. [https://www.speedtest.net/](https://www.speedtest.net/).
+1. 포트가 정상이면 [https://www.speedtest.net/](https://www.speedtest.net/)을(를) 사용하여 사용 가능한 대역폭을 측정하여 네트워크가 느리지 않는지 확인하십시오.
 
    대역폭이 몇 개(1-10Mbps) 또는 Kbps인 경우 Aspera 기본 설정을 사용하고 대역폭을 사용 가능한 대역폭과 동일하게 제한하십시오.
 

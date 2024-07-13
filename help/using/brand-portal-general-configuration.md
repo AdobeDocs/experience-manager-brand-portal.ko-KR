@@ -14,7 +14,7 @@ exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Manager Assets Brand Portal을 통해 조직에서는 특정 테넌�
 * 관리자가 아닌 사용자에 의한 공용 스마트 컬렉션 만들기
 * 관리자가 아닌 사용자가 볼 수 있는 공유 폴더의 상위 계층
 
-이러한 구성은 다음과 같이 제공되었습니다. **[!UICONTROL 일반 설정]** 구성 을 참조하십시오.
+이러한 구성은 관리 도구 패널에서 **[!UICONTROL 일반 설정]** 구성으로 제공됩니다.
 
 ![](assets/general-config.png)
 
@@ -37,7 +37,7 @@ Experience Manager Assets Brand Portal을 통해 조직에서는 특정 테넌�
 
 **C**   관리자가 아닌 사용자가 공용 스마트 컬렉션을 만들 수 있도록 하는 구성입니다. (기본값은 활성화됨)
 
-**D**  공유 폴더의 폴더 계층 구조(루트에서 관리자가 아닌 사용자(편집자, 뷰어, 게스트 사용자)를 표시하는 구성입니다. (기본값은 비활성화됨)
+공유 폴더의 폴더 계층 구조(루트에서)를 관리자가 아닌 사용자(편집자, 뷰어, 게스트 사용자)에게 표시하는 **D** 구성입니다. (기본값은 비활성화됨)
 
 ## 일반 구성 활성화/비활성화 {#enable-disable-general-configurations}
 
@@ -45,18 +45,18 @@ Experience Manager Assets Brand Portal을 통해 조직에서는 특정 테넌�
 
 1. 관리자 권한으로 로그인합니다.
 1. 상단의 도구 모음에서 Experience Manager 로고를 선택하여 관리 도구에 액세스합니다.
-1. 관리 도구 패널에서 를 선택합니다. **[!UICONTROL 일반]** 을(를) 열려면 **[!UICONTROL 일반 설정]** 페이지를 가리키도록 업데이트하는 중입니다.
+1. 관리 도구 패널에서 **[!UICONTROL 일반]**&#x200B;을 선택하여 **[!UICONTROL 일반 설정]** 페이지를 엽니다.
 1. 각 토글 스위치를 사용하여 일반 구성을 활성화/비활성화합니다.
-1. **[!UICONTROL 변경 사항을 저장합니다.]**
+1. 변경 내용을 **[!UICONTROL 저장]**&#x200B;합니다.
 1. 로그아웃하여 변경 사항을 적용합니다.
 
 ## 관리자 사용자가 Brand Portal에서 에셋을 삭제하도록 허용 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL 사용자가 삭제하도록 허용]** 구성을 통해 조직은 관리자 권한이 있는 사용자가 Brand Portal에서 에셋 및 폴더를 삭제할 수 있도록 허용(또는 제한)할 수 있습니다.
+**[!UICONTROL 사용자 삭제 허용]** 구성을 사용하면 관리자 권한이 있는 사용자가 Brand Portal에서 에셋 및 폴더를 삭제할 수 있도록 허용(또는 제한)할 수 있습니다.
 
 ## 관리자가 아닌 사용자가 공용 컬렉션을 만들 수 있음 {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL 공개 컬렉션 만들기 허용]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 구성은 관리자가 아닌 사용자가 Brand Portal에서 공용 컬렉션을 만들 수 있는지 여부를 제어합니다. 구성은 기본적으로 활성화되어 있습니다. 구성 조직을 비활성화하면 포털에 수많은 공개 컬렉션이 있는 것을 방지하여 시스템 공간을 절약할 수 있습니다.
+[[!UICONTROL 공개 컬렉션 만들기 허용]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 구성은 관리자가 아닌 사용자가 Brand Portal에서 공개 컬렉션을 만들 수 있는지 여부를 제어합니다. 구성은 기본적으로 활성화되어 있습니다. 구성 조직을 비활성화하면 포털에 수많은 공개 컬렉션이 있는 것을 방지하여 시스템 공간을 절약할 수 있습니다.
 
 ## 관리자가 아닌 사용자가 공용 스마트 컬렉션을 만들 수 있도록 허용 {#allow-public-smart-collections-creation-by-non-admins}
 
@@ -70,4 +70,4 @@ Experience Manager Assets Brand Portal을 통해 조직에서는 특정 테넌�
 
 ## 폴더 계층 구조 사용 {#enable-folder-hierarchy}
 
-[[!UICONTROL 폴더 계층 구조 활성화]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 관리자는 구성을 사용하여 관리자가 아닌 사용자(편집자, 뷰어 및 게스트 사용자)가 로그인 후 공유 폴더를 보는 방법을 제어할 수 있습니다.
+[[!UICONTROL 폴더 계층 구조 사용]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 구성을 통해 관리자는 관리자가 아닌 사용자(편집자, 뷰어 및 게스트 사용자)가 로그인 후 공유 폴더를 보는 방법을 제어할 수 있습니다.
