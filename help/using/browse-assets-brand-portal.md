@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1005'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 * 이름
 * AEM에서 Brand Portal에 자산이 게시된 날짜 및 시간
 * 크기
-* 차원
+* 치수
 
 카드를 탭하거나 클릭하여 계층 구조를 아래로 이동하거나(빠른 작업이 발생하지 않도록 주의) 헤더에서 [탐색 표시를 사용하여](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html) 다시 위로 이동할 수 있습니다.
 
@@ -112,7 +112,7 @@ Brand Portal의 오른쪽 상단에 있는 보기 선택기에서 사용 가능�
 경로 열을 사용하면 폴더 계층 구조에서 자산 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 탭/클릭하여 계층 구조를 탐색하고 헤더에서 [탐색 표시를 사용하여 ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)백업할 수 있습니다.
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### 목록 보기에서 설정 보기
@@ -140,7 +140,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 * 제목
 * 이름
-* 차원
+* 치수
 * AEM에서 Brand Portal에 자산이 게시된 날짜 및 시간
 * 크기
 * 유형
@@ -234,7 +234,7 @@ Comment Type: draft
 
 이러한 보기 외에 트리 보기를 사용하여 원하는 에셋 또는 폴더를 보고 선택하는 동안 에셋 계층을 드릴다운할 수 있습니다.
 
-트리 보기를 열려면 왼쪽 상단의 레일 선택기를 탭/클릭한 다음 메뉴에서 **[!UICONTROL 콘텐츠 트리]**&#x200B;를 선택합니다.
+트리 보기를 열려면 왼쪽 상단의 레일 선택기를 클릭하고 메뉴에서 **[!UICONTROL 콘텐츠 트리]**&#x200B;를 선택합니다.
 
 ![](assets/contenttree.png)
 
