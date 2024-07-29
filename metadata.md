@@ -6,10 +6,10 @@ feature-set: Experience Manager Assets
 type: Documentation
 index: y
 recommendations: noDisplay
-source-git-commit: b8b0f367a74023a12a29e05e8c384cd0d5cd84a3
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 89%
+source-wordcount: '112'
+ht-degree: 99%
 
 ---
 
@@ -25,5 +25,5 @@ metadata.md 파일에는 보고서에서 사용 안내서 TOC.md 파일로 전�
 | solution-icon | 솔루션 제목 옆에 솔루션 아이콘을 표시합니다. 아직 구현되지 않음 |
 | getting-started-url | helpx 시작 페이지에 대한 링크 |
 | tutorials-url | 비디오 튜토리얼 링크—helpx 튜토리얼 또는 KT 튜토리얼 |
-| mini-toc-levels | 오른쪽 레일에 나타나는 제목 수준 수를 결정합니다. 기본값은 2입니다. |
-| git-repo | 내부 사용을 위한 기본 보고서의 위치를 지정합니다. |
+| mini-toc-levels | 오른쪽 레일에 표시되는 제목 수준 수를 결정합니다. 기본값은 2입니다. |
+| git-repo | 내부 사용을 위한 기본 저장소의 위치를 지정합니다. |

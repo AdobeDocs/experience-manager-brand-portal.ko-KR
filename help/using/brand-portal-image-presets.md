@@ -1,18 +1,14 @@
 ---
 title: 이미지 사전 설정 또는 동적 변환 적용
-seo-title: Apply image presets or dynamic renditions
 description: 매크로와 마찬가지로 이미지 사전 설정은 이름 아래에 저장된 크기 조정 및 서식 지정 명령의 미리 정의된 컬렉션입니다. 이미지 사전 설정을 사용하면 Experience Manager Assets Brand Portal에서 다양한 크기, 형식 및 속성의 이미지를 동적으로 전달할 수 있습니다.
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
-uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
@@ -23,7 +19,7 @@ ht-degree: 1%
 
 이미지 사전 설정은 미리 보고 다운로드할 수 있는 이미지의 동적 변환을 생성하는 데 사용됩니다. 이미지 및 해당 표현물을 미리 볼 때 사전 설정을 선택하여 관리자가 설정한 사양에 맞게 이미지의 형식을 변경할 수 있습니다.
 
-(*Experience Manager Assets 작성자 인스턴스가&#x200B;**Dynamic Media 하이브리드 모드***에서 실행 중인 경우) Brand Portal에서 자산의 동적 렌디션을 보려면 Brand Portal에 게시한 Experience Manager Assets 작성자 인스턴스에 피라미드 tiff 렌디션이 있는지 확인하십시오. 에셋을 게시하면 해당 PTIFF 표현물도 Brand Portal에 게시됩니다.
+(*Experience Manager Assets 작성자 인스턴스가&#x200B;**Dynamic Media 하이브리드 모드***에서 실행 중인 경우). Brand Portal에서 에셋의 동적 렌디션을 보려면 Brand Portal에 게시한 위치에서 Experience Manager Assets 작성자 인스턴스에 피라미드 TIFF 렌디션이 있는지 확인하십시오. 에셋을 게시하면 해당 PTIFF 표현물도 Brand Portal에 게시됩니다.
 
 >[!NOTE]
 >
@@ -42,7 +38,7 @@ Experience Manager Assets 관리자는 에셋 세부 정보 페이지에 동적 
 >
 >Experience Manager Assets 작성자 인스턴스가 **Dynamic Media 하이브리드 모드**&#x200B;에서 실행 중인 경우 이미지 에셋의 피라미드 TIFF 렌디션이 생성되어 Experience Manager Assets 저장소에 저장됩니다.
 >
->반면에 Experience Manager Assets 작성자 인스턴스가 **Dynamic Media Scene 7 모드**&#x200B;에서 실행 중인 경우 이미지 에셋의 피라미드 TIFF 렌디션이 Scene 7 서버에 존재합니다.
+>Experience Manager Assets 작성자 인스턴스가 **Dynamic Media Scene7 모드**&#x200B;에서 실행 중인 경우 Scene7 서버에 이미지 에셋의 피라미드 TIFF 렌디션이 존재합니다.
 >
 >이러한 에셋이 Brand Portal에 게시되면 이미지 사전 설정이 적용되고 동적 변환이 표시됩니다.
 
@@ -68,7 +64,7 @@ Experience Manager Assets 관리자는 에셋 세부 정보 페이지에 동적 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이미지 사전 설정이 생성되어 이미지 사전 설정 페이지에 표시됩니다.
 1. 이미지 사전 설정을 삭제하려면 이미지 사전 설정 페이지에서 이미지 사전 설정을 선택하고 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다. 확인 페이지에서 **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인합니다. 이미지 사전 설정이 이미지 사전 설정 페이지에서 제거됩니다.
 
-## 이미지 미리 보기 시 이미지 사전 설정 적용  {#apply-image-presets-when-previewing-images}
+## 이미지 미리 보기 시 이미지 사전 설정 적용 {#apply-image-presets-when-previewing-images}
 
 이미지 및 해당 표현물을 미리 볼 때 기존 사전 설정 중에서 선택하여 관리자가 설정한 사양에 맞게 이미지 서식을 다시 지정합니다.
 
@@ -99,8 +95,8 @@ Brand Portal에서 이미지 및 해당 표현물을 다운로드할 때 기존 
 
    ![](assets/donload-assets-dialog.png)
 
-1. 에셋의 동적 변환을 다운로드하려면 **[!UICONTROL 동적 변환]** 옵션을 선택하십시오.
-1. 다운로드하는 동안 이미지 및 해당 표현물의 형식을 동적으로 변경할 이미지 사전 설정 속성을 사용자 지정합니다. 크기, 형식, 색상 공간, 해상도 및 이미지 수정자를 지정합니다.
+1. 에셋의 동적 변환을 다운로드하려면 **[!UICONTROL 동적 변환]** 옵션을 선택합니다.
+1. 이미지 사전 설정 속성을 사용자 지정하여 다운로드 중에 이미지와 해당 표현물의 형식을 동적으로 변경할 수 있습니다. 크기, 형식, 색상 공간, 해상도 및 이미지 수정자를 지정합니다.
 
    ![](assets/dynamicrenditions.png)
 
