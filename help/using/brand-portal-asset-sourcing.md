@@ -1,14 +1,10 @@
 ---
 title: Brand Portal의 에셋 소싱
-seo-title: Asset Sourcing in Brand Portal
 description: Adobe Experience Manager Assets Brand Portal에 릴리스된 에셋 소싱 기능에 대한 통찰력을 얻으십시오.
-seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -17,7 +13,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -26,7 +22,7 @@ ht-degree: 1%
 
 # 에셋 소싱 개요 {#overview-asset-sourcing-in-bp}
 
-**자산 소싱**&#x200B;을 통해 Experience Manager Assets 사용자(관리자/관리자가 아닌 사용자)는 추가 **자산 기여** 속성을 사용하여 새 폴더를 만들 수 있으므로 Brand Portal 사용자가 만든 새 폴더가 자산 제출에 열려 있도록 합니다. 이렇게 하면 새로 만든 **기여도** 폴더 내에 **SHARED** 및 **NEW**&#x200B;이라는 두 개의 추가 하위 폴더를 만드는 워크플로가 자동으로 트리거됩니다. 그런 다음 관리자는 기여도 폴더에 추가해야 하는 자산 유형과 기준 자산 세트에 대한 간단한 개요를 **SHARED** 폴더에 업로드하여 BP 사용자에게 필요한 참조 정보가 있는지 확인하여 요구 사항을 정의합니다. 그런 다음 관리자는 새로 만든 **기여도** 폴더를 Brand Portal에 게시하기 전에 활성 Brand Portal 사용자에게 기여도 폴더에 대한 액세스 권한을 부여할 수 있습니다. 사용자가 **NEW** 폴더에 콘텐츠를 추가하고 나면 기여도 폴더를 다시 Experience Manager 작성 환경에 게시할 수 있습니다. 가져오기를 완료하고 Experience Manager Assets 내에 새로 게시된 콘텐츠를 반영하는 데 몇 분 정도 걸릴 수 있습니다.
+**자산 소싱**&#x200B;을 통해 Experience Manager Assets 사용자(관리자/관리자가 아닌 사용자)는 추가 **자산 기여** 속성을 사용하여 새 폴더를 만들 수 있으므로 Brand Portal 사용자가 만든 새 폴더가 자산 제출에 열려 있도록 합니다. 이렇게 하면 새로 만든 **기여도** 폴더 내에 **SHARED** 및 **NEW**&#x200B;이라는 두 개의 추가 하위 폴더를 만드는 워크플로가 자동으로 트리거됩니다. 관리자는 기여도 폴더에 추가해야 하는 에셋 유형에 대한 간단한 개요를 업로드하여 요구 사항을 정의합니다. 기준선 에셋 집합을 **SHARED** 폴더에 업로드하여 Brand Portal 사용자에게 필요한 참조 정보를 제공합니다. 그런 다음 관리자는 새로 만든 **기여도** 폴더를 Brand Portal에 게시하기 전에 활성 Brand Portal 사용자에게 기여도 폴더에 대한 액세스 권한을 부여할 수 있습니다. 사용자가 **NEW** 폴더에 컨텐츠를 추가했으면 기여 폴더를 다시 Experience Manager 작성 환경에 게시할 수 있습니다. 가져오기를 완료하고 Experience Manager Assets 내에 새로 게시된 콘텐츠를 반영하는 데 몇 분 정도 걸릴 수 있습니다.
 
 또한 기존의 모든 기능은 변경되지 않습니다. Brand Portal 사용자는 기여 폴더와 다른 허용된 폴더에서 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여 폴더를 공유하고, 속성을 수정하고, 컬렉션을 통해 에셋을 추가할 수 있습니다.
 
@@ -53,7 +49,7 @@ ht-degree: 1%
 >
 >Experience Manager Assets 6.5.4에 알려진 문제가 있습니다. Brand Portal 사용자는 Adobe Developer Console으로 업그레이드할 때 기여 폴더의 자산을 Experience Manager Assets에 게시할 수 없습니다.
 >
->이 문제는 Experience Manager Assets 6.5.5에서 해결되었습니다. Experience Manager Assets 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe Developer Console에서 [구성을 업그레이드](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)할 수 있습니다.
+>이 문제는 Experience Manager Assets 6.5.5에서 해결되었습니다. Experience Manager Assets 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe Developer Console에서 [구성을 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)할 수 있습니다.
 
 <!--
 
@@ -114,15 +110,15 @@ Experience Manager Assets 관리자는 Experience Manager Assets의 활성 Brand
 >
 >CSV 파일의 형식은 대량 사용자 가져오기에 대해 Admin Console에서 지원되는 것과 같습니다. 이메일, 이름 및 성은 필수입니다.
 
-관리자는 Admin Console에서 새 사용자를 추가할 수 있습니다. 자세한 내용은 [사용자 관리](brand-portal-adding-users.md)를 참조하십시오. Admin Console에서 사용자를 추가한 후 이러한 사용자를 Brand Portal 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
+관리자는 Admin Console에 새 사용자를 추가할 수 있습니다. 자세한 내용을 보려면 [사용자 관리](brand-portal-adding-users.md)(으)로 이동하십시오. 이러한 사용자는 Admin Console에 사용자를 추가한 후 Brand Portal 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
 
 **Brand Portal 사용자 목록을 업로드하려면:**
 
 1. Experience Manager Assets 인스턴스에 로그인.
-1. **도구** 패널에서 **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal 사용자]**(으)로 이동합니다.
+1. [!UICONTROL 도구] 패널에서 **[!UICONTROL Assets]** > **[!UICONTROL Brand Portal 사용자]**(으)로 이동합니다.
 
 1. Brand Portal 업로드 기여자 창이 열립니다.
-로컬 컴퓨터에서 찾아보고 활성 Brand Portal 사용자 목록이 포함된 **구성(.csv) 파일**&#x200B;을 업로드하십시오.
+로컬 컴퓨터에서 활성 Brand Portal 사용자 목록을 포함하는 **구성 파일(.csv)을 업로드**&#x200B;합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![](assets/upload-user-list2.png)
@@ -132,6 +128,6 @@ Experience Manager Assets 관리자는 Experience Manager Assets의 활성 Brand
 
 ## 추가 참조 {#reference-articles}
 
-* [기여 폴더 구성 및 Brand Portal에 게시](brand-portal-publish-contribution-folder-to-brand-portal.md)
+* [기여도 폴더 구성 및 Brand Portal에 게시](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 * [Experience Manager Assets에 대한 Publish 기여 폴더](brand-portal-publish-contribution-folder-to-aem-assets.md)

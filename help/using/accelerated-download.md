@@ -1,18 +1,14 @@
 ---
 title: Brand Portal 다운로드 속도 향상
-seo-title: Speed up the Brand Portal downloads
 description: Brand Portal 및 공유 링크에서 다운로드 성능을 향상시킵니다.
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -21,11 +17,11 @@ ht-degree: 3%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal을 사용하면 주문형 설치 애플리케이션인 IBM® Aspera Connect와 통합하여 대형 에셋 파일의 다운로드 성능을 향상시킬 수 있습니다. 이 응용 프로그램은 독점 기술을 사용하여 TCP 오버헤드를 제거하고 에셋 파일의 전송 속도를 향상시킵니다. 이 통합을 통해 다운로드 경험을 향상시킬 수 있습니다.
+Adobe Experience Manager Assets Brand Portal을 사용하면 주문형 설치 애플리케이션인 IBM® Aspera Connect와 통합하여 대형 에셋 파일의 다운로드 성능을 향상시킬 수 있습니다. 이 응용 프로그램은 독점 기술을 사용하여 TCP 오버헤드를 제거하고 에셋 파일의 전송 속도를 향상시킵니다. 이 통합을 통해 향상된 다운로드 경험을 보장할 수 있습니다.
 
 >[!NOTE]
 >
->다운로드 속도는 네트워크 대역폭, 서버 지연, 클라이언트의 지리적 위치 등의 요소에 따라 다르므로 사용자마다 다릅니다.
+>다운로드 속도는 네트워크 대역폭, 서버 지연 시간 및 클라이언트의 지리적 위치와 같은 요소에 따라 다르므로 사용자마다 다릅니다.
 
 **[!UICONTROL 빠른 다운로드]** 구성은 기본적으로 활성화되어 있으므로 Brand Portal에서 원하는 에셋 파일을 다운로드하는 데 걸리는 시간이 크게 줄어듭니다.
 
@@ -89,7 +85,7 @@ Brand Portal에서 에셋을 더 빨리 다운로드하려면:
 
 1. 선택한 모든 자산을 나열하는 **[!UICONTROL 다운로드]** 대화 상자가 열립니다.
 
-   에셋을 다운로드하는 동안 Brand Portal 폴더 계층 구조를 유지하려면 **[!UICONTROL 각 에셋에 대해 별도의 폴더 만들기]** 확인란을 선택하십시오.
+   자산을 다운로드하는 동안 Brand Portal 폴더 계층 구조를 유지하려면 **[!UICONTROL `Create separate folder for each asset`]** 확인란을 선택하십시오.
 
    다운로드 버튼은 선택한 항목의 수를 반영합니다. 규칙 적용이 끝나면 **[!UICONTROL 항목 다운로드]**&#x200B;를 클릭합니다. 규칙을 적용하는 방법에 대한 자세한 내용은 [자산 다운로드](../using/brand-portal-download-assets.md#download-assets)를 참조하세요.
 
@@ -97,7 +93,7 @@ Brand Portal에서 에셋을 더 빨리 다운로드하려면:
 
 1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 IBM® Aspera Connect를 사용하여 에셋을 다운로드하라는 확인 상자가 나타납니다.
 
-   에셋을 처음 다운로드하고 브라우저에 IBM® Aspera Connect가 설치되어 있지 않거나 기존 버전이 오래된 경우 Aspera 다운로드 가속기(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)를 설치하라는 메시지가 표시됩니다.
+   에셋을 처음 다운로드했는데 브라우저에 IBM® Aspera Connect가 설치되어 있지 않은 경우 해당 에셋을 설치하라는 메시지가 표시됩니다. 기존 버전이 오래된 경우 [Aspera 다운로드 가속기를 설치](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)하라는 메시지가 표시됩니다.
 
    ![](assets/aspera-not-launched.png)
 
@@ -180,7 +176,7 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Microsoft® Edge 브라우저에서 파일 가속기 사용 {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge은 EPM(향상된 보호 모드)에서 실행되므로 동일한 개인 네트워크에 있거나 신뢰할 수 있는 사이트에 있는 동안 Aspera Connect 서버와 통신할 수 없습니다. 따라서 서버와 연결이 설정될 때마다 팝업이 표시됩니다.
+Microsoft® Edge은 EPM(고급 보호 모드)에서 실행되어 Aspera Connect 서버와 통신할 수 없지만 동일한 개인 네트워크나 신뢰할 수 있는 사이트에서는 통신합니다. 따라서 서버와 연결이 설정될 때마다 팝업이 표시됩니다.
 
 ![](assets/switchapps-msedge.png)
 
@@ -193,7 +189,7 @@ Microsoft® Edge에서 가속화된 다운로드 기능을 사용하려면 신�
 
 ## Aspera Connect 클라이언트 기본 설정 {#aspera-connect-client-preferences}
 
-아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1}을 선택하여 IBMAspera Connect Client 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
+아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1}을 선택하여 IBMAspera Connect 클라이언트 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,7 +197,7 @@ Microsoft® Edge에서 가속화된 다운로드 기능을 사용하려면 신�
 
 ![](assets/aspera-preferences.png)
 
-또한 Aspera Connect 클라이언트는 시스템 시작 시 자동으로 시작되도록 표시하여 연결 클라이언트가 실행 중이고 다운로드가 더 빨리 시작되도록 할 수 있습니다.
+또한 Aspera Connect 클라이언트를 시스템 시작 시 자동으로 시작되도록 표시할 수 있습니다. 또한 Connect 클라이언트가 실행되고 다운로드가 더 빨리 시작될 수 있습니다.
 
 ![](assets/aspera-automaticallylaunch.png)
 

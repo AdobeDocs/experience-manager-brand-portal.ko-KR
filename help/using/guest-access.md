@@ -1,18 +1,14 @@
 ---
 title: Brand Portal에 대한 게스트 액세스
-seo-title: Guest Access to Brand Portal
 description: 게스트 액세스를 허용하고 인증 없이 수많은 사용자를 온보딩하는 데 드는 노력을 절약하십시오.
-seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
-uuid: edb4378d-1710-44a2-97a6-594d99f62fff
 contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -21,7 +17,7 @@ ht-degree: 0%
 
 Experience Manager Assets Brand Portal을 사용하면 게스트가 포털에 액세스할 수 있습니다. 게스트 사용자는 포털에 로그인하기 위해 자격 증명이 필요하지 않으며 포털의 공개 에셋(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 세션이 지속될 때까지 또는 게스트 사용자가 [[!UICONTROL 세션 종료]](#exit-guest-session)를 선택하지 않는 한 Lightbox(개인 컬렉션)에 자산을 추가하고 다운로드할 수 있습니다. 게스트 사용자 세션은 15분 동안 활성 상태로 유지됩니다.
 
-게스트 액세스 기능을 사용하면 온보딩할 필요 없이 의도한 대상자와 대규모로 [승인된 자산을 빠르게 공유](../using/brand-portal-sharing-folders.md#how-to-share-folders)할 수 있습니다. Brand Portal 6.4.2 이상에서는 여러 명의 동시 게스트 사용자를 지원할 수 있습니다. 이는 조직당 총 사용자 할당량의 10%입니다. 게스트 액세스를 허용하면 Brand Portal에서 제한된 기능을 가진 사용자의 점수를 관리하고 온보딩하는 데 시간이 절약됩니다.\
+게스트 액세스 기능을 통해 조직은 온보딩할 필요 없이 의도한 대상자와 규모에 맞게 [승인된 자산을 빠르게 공유](../using/brand-portal-sharing-folders.md#how-to-share-folders)할 수 있습니다. Brand Portal 6.4.2 이상에서는 여러 명의 동시 게스트 사용자를 지원할 수 있습니다. 이는 조직당 총 사용자 할당량의 10%입니다. 게스트 액세스를 허용하면 Brand Portal에서 제한된 기능을 가진 사용자의 점수를 관리하고 온보딩하는 데 시간이 절약됩니다.\
 조직은 관리 도구 패널의 **[!UICONTROL 액세스]** 설정에서 **[!UICONTROL 게스트 액세스 허용]** 옵션을 사용하여 조직의 Brand Portal 계정에서 게스트 액세스를 활성화(또는 비활성화)할 수 있습니다.
 
 <!--
@@ -35,20 +31,20 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 게스트 세션 시작 {#begin-guest-session}
 
-익명으로 Brand Portal을 입력하려면 **[!UICONTROL 게스트 액세스에 해당하는**[!UICONTROL &#x200B;여기를 클릭&#x200B;]**을 선택하십시오.Brand Portal 시작 화면의]**. Brand Portal 사용 액세스 권한을 부여하려면 captcha 보안 검사를 입력합니다.
+익명으로 Brand Portal을 입력하려면 Brand Portal의 시작 화면에서 **[!UICONTROL `Guest Access?`]**&#x200B;에 해당하는 **[!UICONTROL 여기를 클릭하세요]**&#x200B;을 선택합니다. Brand Portal 사용 액세스 권한을 부여하려면 captcha 보안 검사를 입력합니다.
 
 ![](assets/bp-login-screen.png)
 
 ## 게스트 세션 기간 {#guest-session-duration}
 
 게스트 사용자 세션은 15분 동안 활성 상태로 유지됩니다.
-즉, 세션 시작 시간부터 15분 동안 **[!UICONTROL Lightbox]**&#x200B;의 상태가 유지되며, 그 이후에는 현재 게스트 세션이 다시 시작되어 Lightbox 상태가 손실됩니다.
+이 프로세스는 세션 시작 시간부터 15분 동안 **[!UICONTROL Lightbox]**&#x200B;의 상태를 유지합니다. 이후 현재 게스트 세션이 다시 시작되어 Lightbox 상태가 손실됩니다.
 
-예를 들어 게스트 사용자는 1500시간에 Brand Portal에 로그인하고 15:05시간에 다운로드할 자산을 **[!UICONTROL Lightbox]**&#x200B;에 추가합니다. 사용자가 15:15시간(로그인 후 15분 이내) 전에 **[!UICONTROL Lightbox]** 컬렉션(또는 자산)을 다운로드하지 않으면 세션을 다시 시작해야 합니다. **[!UICONTROL Lightbox]**&#x200B;이(가) 비어 있습니다. 즉, 세션이 손실된 경우 업로드된 자산을 더 이상 사용할 수 없습니다.
+예를 들어 게스트 사용자는 1500시간에 Brand Portal에 로그인하고 15:05시간에 다운로드할 자산을 **[!UICONTROL Lightbox]**&#x200B;에 추가합니다. 사용자가 로그인하고 15분 후 15시 15분 이내에 **[!UICONTROL Lightbox]** 컬렉션(또는 자산)을 다운로드하지 않으면 세션을 다시 시작해야 합니다. **[!UICONTROL Lightbox]**&#x200B;이(가) 비어 있습니다. 즉, 세션이 손실된 경우 업로드된 자산을 더 이상 사용할 수 없습니다.
 
 ## 허용된 동시 게스트 세션 {#concurrent-guest-sessions-allowed}
 
-동시 게스트 세션의 수는 조직당 총 사용자 할당량의 10%로 제한됩니다. 사용자 할당량이 200명인 조직에서 동시에 최대 20명의 게스트 사용자가 작업할 수 있다는 의미입니다. 21번째 사용자는 액세스가 거부되고 20명의 활성 게스트 사용자 중 하나의 세션이 종료된 경우에만 게스트로 액세스할 수 있습니다.
+동시 게스트 세션의 수는 조직당 총 사용자 할당량의 10%로 제한됩니다. 사용자 할당량이 200명인 조직의 경우 최대 20명의 게스트 사용자가 동시에 작업할 수 있다는 의미다. 21번째 사용자는 액세스가 거부되고 20명의 활성 게스트 사용자 중 하나의 세션이 종료된 경우에만 게스트로 액세스할 수 있습니다.
 
 >[!NOTE]
 >
@@ -62,9 +58,10 @@ Brand Portal을 게스트로 시작하면 사용자는 모든 [공유된 자산 
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-그러나 관리자가 [폴더 계층 구조 사용](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) 구성을 사용하도록 설정한 경우 게스트 사용자는 Brand Portal에 로그인할 때 루트 폴더에서 시작하여 해당 상위 폴더 내에 배치된 폴더 트리 및 공유 폴더를 볼 수 있습니다.
 
-이러한 상위 폴더는 가상 폴더이며 가상 폴더에서 작업을 수행할 수 없습니다. 잠금 아이콘으로 이러한 가상 폴더를 인식할 수 있습니다.
+관리자가 [폴더 계층 구조 사용](../using/brand-portal-general-configuration.md#main-pars-header-1621071021)을 사용하도록 설정하면 게스트 사용자는 Brand Portal에 로그인할 때 루트 폴더 및 상위 폴더 내의 공유 폴더에 있는 폴더 트리를 볼 수 있습니다.
+
+이러한 상위 폴더는 가상 폴더이며 이 폴더에서는 작업을 수행할 수 없습니다. 잠금 아이콘으로 이러한 가상 폴더를 인식할 수 있습니다.
 
 공유 폴더와 달리 마우스를 가리거나 **[!UICONTROL 카드 보기]**&#x200B;에서 선택할 때 작업 작업이 표시되지 않습니다. **[!UICONTROL 열 보기]** 및 **[!UICONTROL 목록 보기]**&#x200B;에서 가상 폴더를 선택할 때 **[!UICONTROL 개요]** 단추가 표시됩니다.
 
@@ -74,7 +71,7 @@ Brand Portal을 게스트로 시작하면 사용자는 모든 [공유된 자산 
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-**[!UICONTROL 설정 보기]** 옵션을 사용하면 게스트 사용자가 **[!UICONTROL 카드 보기]**&#x200B;에서 카드 크기를 조정하거나 **[!UICONTROL 목록 보기]**&#x200B;에서 표시할 열을 조정할 수 있습니다.
+게스트 사용자는 **[!UICONTROL 설정 보기]** 옵션을 사용하여 **[!UICONTROL 카드 보기]**&#x200B;에서 카드 크기를 조정하거나 **[!UICONTROL 목록 보기]**&#x200B;에서 표시할 열을 조정할 수 있습니다.
 
 ![](assets/nav-guest-user.png)
 
@@ -82,12 +79,12 @@ Brand Portal을 게스트로 시작하면 사용자는 모든 [공유된 자산 
 
 ![](assets/guest-login-ui.png)
 
-Brand Portal은 게스트 사용자에게 선택한 에셋/폴더의 **[!UICONTROL 에셋 속성]**&#x200B;을 볼 수 있는 **[!UICONTROL 개요]** 옵션을 제공합니다. **[!UICONTROL 개요]** 옵션이 표시됩니다.
+Brand Portal에서는 게스트 사용자가 선택한 에셋/폴더의 **[!UICONTROL 에셋 속성]**&#x200B;을 볼 수 있는 **[!UICONTROL 개요]** 옵션을 제공합니다. **[!UICONTROL 개요]** 옵션이 표시됩니다.
 
-* 에셋/폴더 선택 시 맨 위에 있는 도구 모음에서 를 클릭합니다.
+* 도구 모음의 맨 위에서 에셋 또는 폴더 선택 시
 * 레일 선택기 선택 드롭다운에서 다음을 수행합니다.
 
-에셋/폴더를 선택한 상태에서 **[!UICONTROL 개요]** 옵션을 선택하면 에셋 생성의 제목, 경로 및 시간이 표시됩니다. 자산 세부 정보 페이지에서 **[!UICONTROL 개요]** 옵션을 선택하면 사용자가 자산의 메타데이터를 볼 수 있습니다.
+에셋 또는 폴더를 선택한 상태에서 **[!UICONTROL 개요]** 옵션을 선택하면 에셋 생성 제목, 경로 및 시간이 표시됩니다. 반면에 에셋 세부 정보 페이지에서는 **[!UICONTROL 개요]** 옵션을 선택하면 에셋의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option-1.png)
 
@@ -95,7 +92,7 @@ Brand Portal은 게스트 사용자에게 선택한 에셋/폴더의 **[!UICONTR
 
 왼쪽 레일의 **[!UICONTROL 탐색]** 옵션을 사용하면 파일에서 컬렉션으로 이동하고 게스트 세션으로 돌아올 수 있으므로 사용자는 파일이나 컬렉션의 에셋을 검색할 수 있습니다.
 
-**[!UICONTROL 필터]** 옵션을 사용하면 게스트 사용자는 관리자가 설정한 검색 조건자를 사용하여 자산 파일 및 폴더를 필터링할 수 있습니다.
+게스트 사용자는 **[!UICONTROL 필터]** 옵션을 사용하여 관리자가 설정한 검색 조건자를 사용하여 자산 파일 및 폴더를 필터링할 수 있습니다.
 
 ### 게스트 사용자 기능
 
@@ -136,4 +133,4 @@ Brand Portal은 게스트 사용자에게 선택한 에셋/폴더의 **[!UICONTR
 
 ## 게스트 사용자 활동 모니터링 {#monitoring-guest-user-activities}
 
-관리자는 Brand Portal과의 게스트 사용자 상호 작용을 모니터링할 수 있습니다. Brand Portal에서 생성된 보고서는 게스트 사용자 활동에 대한 주요 통찰력을 제공할 수 있습니다. 예를 들어 게스트 사용자가 다운로드한 에셋의 수를 추적하는 데 **[!UICONTROL 다운로드]** 보고서를 사용할 수 있습니다. **[!UICONTROL 사용자 로그인]** 보고서는 게스트 사용자가 포털에 마지막으로 로그인한 시간과 지정된 기간 동안의 로그인 빈도를 알릴 수 있습니다.
+관리자는 Brand Portal과의 게스트 사용자 상호 작용을 모니터링할 수 있습니다. Brand Portal에서 생성된 보고서는 게스트 사용자 활동에 대한 주요 통찰력을 제공할 수 있습니다. 예를 들어, 게스트 사용자가 다운로드한 에셋의 수를 추적하는 데 **[!UICONTROL 다운로드]** 보고서를 사용할 수 있습니다. **[!UICONTROL 사용자 로그인]** 보고서는 게스트 사용자가 포털에 마지막으로 로그인한 시간과 지정된 기간 동안의 로그인 빈도를 알릴 수 있습니다.
