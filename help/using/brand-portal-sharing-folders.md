@@ -1,17 +1,13 @@
 ---
 title: 폴더 공유
-seo-title: Share folders
-description: Brand Portal은 에셋 수집을 지원하지 않으므로 사전 구성된 Experience Manager Assets 작성자 인스턴스에서 Brand Portal에 에셋을 게시해야 합니다. 게시된 에셋은 Experience Manager 인스턴스로 복제를 구성하는 동안 구성되지 않는 한 Brand Portal의 관리자가 아닌 사용자가 액세스할 수 없으며 사용자와 공유해야 합니다.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal을 사용하려면 사전 구성된 Experience Manager Assets 작성자 인스턴스에서 자산을 게시해야 합니다. 관리자가 아닌 사용자는 Experience Manager으로 복제를 설정하는 동안 구성된 경우에만 게시된 자산에 액세스할 수 있으며 자산을 공유해야 합니다.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -32,17 +28,17 @@ Assets은 에셋 수집을 지원하지 않으므로 사전 구성된 Experience
 
 ### Brand Portal에서 사용자 그룹과 폴더 공유 {#sharing-folders-with-user-groups-on-brand-portal}
 
-폴더 에셋에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 다릅니다. 하위 폴더는 상위 폴더에서 ACL을 상속하므로 이 동작은 AEM의 [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)에서 제어됩니다. 예를 들어 폴더 A에 폴더 C가 포함된 폴더 B가 있는 경우 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한을 갖습니다. 폴더 B가 A의 하위 폴더이면 ACL을 상속하고 폴더 C가 B의 하위 폴더이면 ACL을 상속합니다.
+폴더 에셋에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 다릅니다. AEM의 [ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)은(는) 이 동작을 관리하며 하위 폴더는 상위 폴더에서 ACL을 상속합니다. 예를 들어 폴더 A에 폴더 C가 포함된 폴더 B가 있다고 가정해 봅시다. 그러면 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한을 갖습니다. 폴더 B는 A의 하위 폴더이고 폴더 C는 B의 하위 폴더로서 ACL을 상속합니다.
 
-마찬가지로 폴더 B에만 액세스할 수 있는 권한을 가진 사용자 그룹(또는 사용자)은 폴더 C에는 동일한 액세스 권한을 가지지만 폴더 A에는 동일한 액세스 권한을 가지지 않습니다. 따라서 노출된 대부분의 자산이 하위 폴더에 배치되고 하위 폴더에서 루트 폴더로 액세스가 제한될 수 있도록 조직이 콘텐츠를 정렬하는 것이 좋습니다.
+마찬가지로 폴더 B에만 액세스할 수 있는 권한이 있는 사용자 그룹(또는 사용자)은 폴더 C에는 동일한 액세스 권한이 있지만 폴더 A에는 액세스할 수 없습니다. Adobe은 가장 많이 노출된 에셋이 하위 폴더에 배치되도록 콘텐츠를 구성하여 하위 폴더에서 루트 폴더까지 액세스를 제한할 것을 권장합니다.
 
 ### 공개 폴더 게시 {#public-folder-publish}
 
-Brand Portal 복제를 구성하는 동안 **[!UICONTROL 공용 폴더 Publish]** 옵션을 선택하지 않으면 관리자가 아닌 사용자(예: 편집자 및 뷰어)는 AEM Assets에서 Brand Portal으로 게시된 자산에 액세스할 수 없습니다.
+관리자가 아닌 사용자(편집자 및 뷰어 등)는 Brand Portal 복제 구성 중에 **[!UICONTROL 공용 폴더 Publish]** 옵션을 선택한 경우에만 AEM Assets에서 Brand Portal으로 게시된 자산에 액세스할 수 있습니다.
 
 ![](assets/assetbpreplication.png)
 
-**[!UICONTROL 공용 폴더 Publish]** 옵션이 비활성화된 경우 관리자는 공유 기능을 사용하여 관리자가 아닌 사용자와 이러한 에셋을 특별히 공유해야 합니다.
+**[!UICONTROL 공용 폴더 Publish]** 옵션이 비활성화된 경우 관리자는 공유 기능을 사용하여 이러한 에셋을 관리자가 아닌 사용자와 특별히 공유해야 합니다.
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Brand Portal 복제를 구성하는 동안 **[!UICONTROL 공용 폴더 Publish]*
 
 ## 공유 폴더 액세스 {#access-to-shared-folders}
 
-다음 매트릭스에서는 다양한 사용자 역할에 대한 에셋 공유/공유 해제에 대한 액세스 권한 및 권한에 대해 설명합니다.
+다음 매트릭스에서는 다양한 사용자 역할에 대한 에셋을 공유하거나 공유를 해제할 수 있는 액세스 권한과 권한에 대해 설명합니다.
 
-|               | AEM Assets에서 Brand Portal으로 게시된 모든 폴더에 대한 액세스 | 공유 폴더 액세스 | 폴더 권한 공유/공유 해제 |
+|               | AEM Assets에서 Brand Portal으로 게시된 모든 폴더에 대한 액세스 | 공유 폴더 액세스 | 폴더 권한 공유 또는 공유 해제 |
 |---------------|-----------|-----------|------------|
 | 관리자 | 예 | 예 | 예 |
 | 편집기 | 아니요* | 예, 해당 사용자와 공유되거나 해당 사용자가 속한 그룹과 공유되는 경우에만 | 예. 폴더 또는 폴더가 속한 그룹과 공유된 폴더만 해당됩니다. |
@@ -69,7 +65,7 @@ Brand Portal 복제를 구성하는 동안 **[!UICONTROL 공용 폴더 Publish]*
 
 **구성이 비활성화된 경우**
 
-관리자가 아닌 사용자는 랜딩 페이지, Brand Portal 로그인 시 사용자와 공유된 모든 폴더를 볼 수 있습니다.
+관리자가 아닌 사용자는 Brand Portal에 로그인하면 랜딩 페이지에서 사용자와 공유된 모든 폴더를 볼 수 있습니다.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,7 +73,7 @@ Brand Portal 복제를 구성하는 동안 **[!UICONTROL 공용 폴더 Publish]*
 
 관리자가 아닌 사용자는 Brand Portal에 로그인하면 폴더 트리(루트 폴더에서 시작)와 각 상위 폴더 내에 배치된 공유 폴더를 볼 수 있습니다.
 
-이러한 상위 폴더는 가상 폴더이며 가상 폴더에서 작업을 수행할 수 없습니다. 잠금 아이콘으로 이러한 가상 폴더를 인식할 수 있습니다.
+이러한 상위 폴더는 가상 폴더이며 이 폴더에서는 작업을 수행할 수 없습니다. 잠금 아이콘으로 이러한 가상 폴더를 인식할 수 있습니다.
 
 공유 폴더와 달리 마우스를 가리거나 **[!UICONTROL 카드 보기]**&#x200B;에서 선택할 때 작업 작업이 표시되지 않습니다. **[!UICONTROL 열 보기]** 및 **[!UICONTROL 목록 보기]**&#x200B;에서 가상 폴더를 선택할 때 **[!UICONTROL 개요]** 단추가 표시됩니다.
 
@@ -95,7 +91,7 @@ Brand Portal의 사용자와 폴더를 공유하려면 다음 단계를 따르�
 
    ![](assets/selectorrail.png)
 
-1. 왼쪽의 사이드레일에서 **[!UICONTROL 파일]**&#x200B;을 선택합니다.
+1. 왼쪽의 측면 레일에서 **[!UICONTROL 파일]**&#x200B;을 선택합니다.
 
    ![](assets/access_files.png)
 

@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Experience Manager Assets 관리자는 에셋 세부 정보 페이지에 동적 
 >
 >Experience Manager Assets 작성자 인스턴스가 **Dynamic Media 하이브리드 모드**&#x200B;에서 실행 중인 경우 이미지 에셋의 피라미드 TIFF 렌디션이 생성되어 Experience Manager Assets 저장소에 저장됩니다.
 >
->Experience Manager Assets 작성자 인스턴스가 **Dynamic Media Scene7 모드**&#x200B;에서 실행 중인 경우 Scene7 서버에 이미지 에셋의 피라미드 TIFF 렌디션이 존재합니다.
+>그러나 Experience Manager Assets 작성자 인스턴스가 **Dynamic Media Scene7 모드**&#x200B;에서 실행 중인 경우 Scene7 서버에 이미지 자산의 피라미드 TIFF 렌디션이 존재합니다.
 >
 >이러한 에셋이 Brand Portal에 게시되면 이미지 사전 설정이 적용되고 동적 변환이 표시됩니다.
 

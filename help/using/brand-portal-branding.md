@@ -1,18 +1,14 @@
 ---
 title: 월페이퍼, 헤더 및 이메일 메시지 사용자 정의
-seo-title: Customize wallpaper, header, and email message
 description: Brand Portal 관리자는 사용자에게 표시되는 인터페이스를 제한적으로 사용자 지정할 수 있습니다. Brand Portal 로그인 페이지의 특정 배경 이미지(배경 무늬)를 선택할 수 있습니다. 고객의 브랜드에 맞게 헤더 이미지를 추가하고 에셋 공유 이메일을 사용자 지정할 수도 있습니다.
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -30,7 +26,6 @@ Brand Portal 관리자는 사용자에게 표시되는 인터페이스를 제한
    ![](assets/aemlogo.png)
 
 1. 관리 도구 패널에서 **[!UICONTROL 브랜딩]**&#x200B;을 클릭합니다.
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -87,7 +82,7 @@ Brand Portal 관리자는 사용자에게 표시되는 인터페이스를 제한
 
 1. 헤더 이미지를 업로드하려면 **[!UICONTROL 이미지 선택]** 아이콘을 클릭하고 **[!UICONTROL 업로드]**&#x200B;를 선택합니다.
 
-   기존 Brand Portal 이미지를 사용하려면 **[!UICONTROL 기존 이미지에서 선택]**&#x200B;을 선택합니다.
+   기존 Brand Portal 이미지를 사용하려면 **[!UICONTROL 기존 이미지 선택]**&#x200B;을 선택하세요.
 
    ![](assets/choose_wallpaperimage-1.png)
 

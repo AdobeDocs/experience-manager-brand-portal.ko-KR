@@ -1,18 +1,14 @@
 ---
 title: 릴리스 정보
-seo-title: Release Notes
 description: Adobe Experience Manager Assets Brand Portal 2024.02.0 릴리스의 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1429'
 ht-degree: 3%
 
 ---
@@ -30,7 +26,7 @@ Adobe Experience Manager Assets Brand Portal 2024.02.0 릴리스의 새로운 �
 
 ## 개요 {#overview}
 
-Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 관련자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하고 장치 간에 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 언제 어디서나 회사에서 승인한 형식으로 자산을 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
+Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 관련자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하고 장치 간에 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 언제 어디서나 회사에서 승인한 형식으로 자산을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
 ## 2024.02.0의 새로운 기능 {#whats-new-in-2024.02.0}
 
@@ -143,6 +139,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 >[!IMPORTANT]
 >
 >AEM Assets Brand Portal의 Pulse 알림은 2022년 12월 1일부터 중단됩니다. Pulse 알림 대신 다음 이벤트에 대한 이메일 알림을 계속 수신하게 됩니다.
+>
 >* 링크를 통한 자산 공유
 >* 액세스 워크플로우 요청 중
 >* 기여 폴더 공유
@@ -158,7 +155,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 
 * NUI가 Experience Manager에서 에셋을 처리하지 못하면 Brand Portal에 부정확한 에셋 가져오기 상태가 표시됩니다.
 * 미리 보기 작업이 실패하면 오류를 알리는 알림이 없습니다.
-* 각 에셋의 totalUploadedSize 속성에 대해 부정확한 값이 수정되었습니다.
+* 각 자산의 `totalUploadedSize` 속성에 대해 부정확한 값이 수정되었습니다.
 * **모든 항목 다운로드**&#x200B;를 클릭하고 에셋에 사용할 수 있는 표현물이 많으면 Brand Portal에서 잘못된 .ZIP 파일을 다운로드합니다.
 * Brand Portal 사용자 인터페이스에서 일부 문자열의 번역이 잘립니다.
 
@@ -174,7 +171,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 
 * 색상 태그가 있는 에셋이 포함된 폴더 또는 컬렉션을 다운로드하면 XML 파일도 다운로드됩니다.
 * 렌디션이 포함된 비디오를 다운로드하면 Brand Portal에서 잘못된 .ZIP 파일을 생성합니다.
-* AEM 작성자에 사전 설정 및 에셋을 만들어 Brand Portal에 게시한 다음 에셋을 다운로드하는 동안 동적 변환을 선택하면 다운로드한 .ZIP 파일의 압축을 풀 수 없습니다.
+* AEM 작성자에서 사전 설정 및 에셋을 만든 다음 Brand Portal에 게시하면 에셋을 다운로드하는 동안 동적 변환을 선택할 수 있습니다. 그러나 다운로드한 .ZIP 파일은 추출할 수 없습니다. 이 문제로 인해 다운로드한 콘텐츠에 액세스할 수 없습니다.
 * Brand Portal에서 사용할 수 있는 특정 폴더에서 비디오 자산을 다운로드하는 동안 문제가 발생합니다.
 * 이메일을 사용하여 기여 폴더의 URL을 공유할 경우 이동 경로를 사용하여 상위 폴더에 액세스하는 동안 뷰어 및 편집기 역할에 문제가 발생합니다.
 * 출판 보고서를 소싱하면 잘못된 작업 시작 시간이 표시됩니다.
@@ -374,12 +371,12 @@ Brand Portal 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 ## 인증된 플랫폼 {#certified-platforms}
 
-이 Brand Portal 릴리스에서 실행하도록 인증된 플랫폼을 확인하려면 [기술 요구 사항](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)의 **사용자 인터페이스 작성을 위해 지원되는 브라우저** 섹션에 있는 표의 **터치에 적합한 UI 지원** 열을 참조하십시오.
+이 Brand Portal 릴리스에 대해 인증된 플랫폼을 보려면 [기술 요구 사항](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements)의 **사용자 인터페이스 작성을 위해 지원되는 브라우저** 섹션에서 **터치에 최적화된 UI 지원** 열을 확인하십시오.
 
 ## 링크 {#links}
 
 * [adobe.com의 Adobe Experience Manager 제품 페이지](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal 설명서](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Assets Brand Portal 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}
 

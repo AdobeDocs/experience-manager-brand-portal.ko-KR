@@ -5,9 +5,9 @@ topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ AEM에서 태그를 만들고, Brand Portal에서 태그를 게시하고, 태그
 
 ## 검색 승격 {#search-promote}
 
-AEM Assets Brand Portal을 사용하면 키워드 태그를 기반으로 특정 에셋을 검색 결과의 맨 위로 올리도록 할 수 있습니다.
+AEM Assets Brand Portal을 사용하면 키워드 태그를 기반으로 특정 에셋이 검색 상위 결과로 표시되도록 할 수 있습니다.
 
 검색 키워드에 대한 자산을 향상시키려면 다음 단계를 따르십시오.
 

@@ -6,9 +6,9 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '6550'
+source-wordcount: '6554'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Brand Portal 관리자는 모든 조합을 활성화하여 에셋 다운로드�
 
 ## 6.4.6의 변경 사항 {#what-changed-in-646}
 
-Brand Portal 6.4.6에서 AEM Assets과 Brand Portal 간의 인증 채널이 변경되었습니다. 이제 AEM Assets as a Cloud Service, AEM Assets 6.3 이상에서 Brand Portal이 지원됩니다. AEM Assets 6.3 이상에서는 이전에 Brand Portal이 기존 OAuth 게이트웨이를 통해 클래식 UI에 구성되었으며, 이 게이트웨이는 인증을 위해 IMS 액세스 토큰을 가져오는 데 JWT 토큰 교환을 사용합니다. 이제 AEM Assets은 Adobe Developer Console을 통해 Brand Portal으로 구성되며, Brand Portal 테넌트의 인증을 위해 IMS 토큰을 받습니다.
+Brand Portal 6.4.6에서 AEM Assets과 Brand Portal 간의 인증 채널이 변경되었습니다. 이제 AEM Assets as a Cloud Service, AEM Assets 6.3 이상에서 Brand Portal이 지원됩니다. AEM Assets 6.3 이상에서는 기존 OAuth 게이트웨이를 사용하여 처음에 Brand Portal이 클래식 UI에 구성되었습니다. 이 게이트웨이는 인증을 위해 IMS 액세스 토큰을 얻기 위해 JWT 토큰 교환을 사용합니다. 이제 AEM Assets은 Adobe Developer Console을 통해 Brand Portal으로 구성되며, Brand Portal 테넌트의 인증을 위해 IMS 토큰을 받습니다.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -593,7 +593,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
 ## 6.4.2의 변경 사항 {#what-changed-in-1}
 
-Brand Portal 6.4.2는 조직의 에셋 배분 요구 사항을 충족하는 기능을 도입하여 게스트 액세스 및 더 빠른 다운로드를 통해 글로벌 도달 가능합니다. 또한 새로운 관리 구성, 추가된 보고서를 통해 향상된 제어를 제공하며 고객 요청을 해결합니다.
+Brand Portal 6.4.2는 조직의 에셋 배분 요구 사항을 충족하는 기능을 도입하여 게스트 액세스 및 더 빠른 다운로드를 통해 글로벌 도달 가능하게 합니다. 또한 새로운 관리 구성, 추가된 보고서를 통해 향상된 제어를 제공하며 고객 요청을 해결합니다.
 
 ### 게스트 액세스
 

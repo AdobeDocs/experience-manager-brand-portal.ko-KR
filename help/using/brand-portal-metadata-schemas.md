@@ -1,19 +1,15 @@
 ---
 title: 메타데이터 스키마 양식 사용
-seo-title: Use the metadata schema form
 description: 메타데이터 스키마는 속성 페이지의 레이아웃과 특정 스키마를 사용하는 자산에 대해 표시되는 메타데이터 속성을 설명합니다. 에셋에 적용하는 스키마는 해당 속성 페이지에 나타나는 메타데이터 필드를 결정합니다.
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 8%
+source-wordcount: '1622'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +41,7 @@ ht-degree: 8%
 
 ## 메타데이터 스키마 양식 편집 {#edit-a-metadata-schema-form}
 
-새로 추가된 메타데이터 스키마 양식 또는 기존 메타데이터 스키마 양식을 편집할 수 있습니다. 메타데이터 스키마 양식에는 탭 및 탭 내의 양식 항목을 포함하여 상위 항목에서 파생된 콘텐츠가 포함되어 있습니다. 이러한 양식 항목을 메타데이터 노드 내의 필드에 매핑하거나 구성할 수 있습니다.
+추가되거나 기존 메타데이터 스키마 양식은 모두 편집할 수 있습니다. 메타데이터 스키마 양식에는 탭 및 탭 내의 양식 항목을 포함하여 상위 항목에서 파생된 콘텐츠가 포함되어 있습니다. 이러한 양식 항목을 메타데이터 노드 내의 필드에 매핑하거나 구성할 수 있습니다.
 
 메타데이터 스키마 양식에 새 탭이나 양식 항목을 추가할 수 있습니다. 파생 탭과 양식 항목(상위 항목)이 잠긴 상태입니다. 하위 수준에서는 변경할 수 없습니다.
 
@@ -66,9 +62,9 @@ ht-degree: 8%
 
 1. 상단의 도구 모음에서 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-   **[!UICONTROL 메타데이터 스키마 편집기]** 페이지가 열리고 왼쪽에는 **[!UICONTROL 기본]** 탭이 열리고 오른쪽에는 **[!UICONTROL 빌드 양식]** 탭이 열립니다.
+   **[!UICONTROL 메타데이터 스키마 편집기]** 페이지가 열리고 왼쪽에 **[!UICONTROL 기본]** 탭이 열립니다. 오른쪽에는 **[!UICONTROL 양식 작성]** 탭이 열립니다.
 
-1. **[!UICONTROL 메타데이터 스키마 편집기]** 페이지에서 **[!UICONTROL 빌드 양식]** 탭의 구성 요소 유형 목록에서 하나 이상의 구성 요소를 **[!UICONTROL 기본]** 탭으로 끌어 자산의 **[!UICONTROL 속성]** 페이지를 사용자 지정합니다.
+1. **[!UICONTROL 메타데이터 스키마 편집기]** 페이지에서 자산의 **[!UICONTROL 속성]** 페이지를 사용자 지정합니다. **[!UICONTROL 양식 작성]** 탭의 구성 요소 형식 목록에서 구성 요소를 하나 이상 끌어 놓기만 하면 됩니다. **[!UICONTROL 기본]** 탭으로 끌어 놓으십시오.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,10 +82,10 @@ ht-degree: 8%
 | **[!UICONTROL 숫자]** | 숫자 구성 요소를 추가합니다. |
 | **[!UICONTROL 날짜]** | 날짜 구성 요소를 추가합니다. |
 | **[!UICONTROL 드롭다운]** | 드롭다운 목록을 추가합니다. |
-| **[!UICONTROL 표준 태그]** | 태그를 추가합니다. **참고:** 관리자가 Experience Manager Assets에서 메타데이터 스키마 양식을 게시하는 경우 경로 값(예: `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`)을 변경해야 할 수 있습니다. 여기서 경로에는 테넌트 정보(예: `/etc/tags/<custom_tag_namespace>`)가 포함되지 않습니다. |
+| **[!UICONTROL 표준 태그]** | 태그를 추가합니다. 관리자는 경로 값을 변경해야 할 수 있습니다. 예를 들어, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`이(가) Experience Manager Assets에서 메타데이터 스키마 양식을 게시하는 경우 경로에 테넌트 정보(예: `/etc/tags/<custom_tag_namespace>`)가 포함되어 있지 않습니다. |
 | **[!UICONTROL 스마트 태그]** | Experience Manager Assets 스마트 태그 추가 기능을 구매하고 구성한 경우 태그가 자동으로 검색됩니다. |
 | **[!UICONTROL 숨겨진 필드]** | 숨겨진 필드를 추가합니다. 에셋이 저장될 때 POST 매개 변수로 전송됩니다. |
-| **[!UICONTROL 자산 참조자]** | 자산이 참조하는 자산 목록을 보려면 이 구성 요소를 추가하십시오. |
+| **[!UICONTROL 자산 참조자]** | 이 구성 요소를 추가하여 에셋에서 참조한 에셋 목록을 확인하십시오. |
 | **[!UICONTROL 자산 참조]** | 를 추가하여 에셋을 참조하는 에셋 목록을 표시합니다. |
 | **[!UICONTROL 자산 등급]** | Brand Portal에 게시되기 전에 Experience Manager Assets에서 추가된 에셋의 평균 등급. |
 | **[!UICONTROL 컨텍스트 메타데이터]** | 를 추가하여 자산의 속성 페이지에서 다른 메타데이터 탭의 표시를 제어합니다. |
@@ -108,9 +104,9 @@ ht-degree: 8%
 
 다음은 이 속성에 유효한 값입니다.
 
-— `./jcr:content/metadata/dc:title`: 자산의 메타데이터 노드에 있는 값을 속성 [!UICONTROL `dc:title`](으)로 저장합니다.
+— `./jcr:content/metadata/dc:title`: 자산의 메타데이터 노드에 있는 값을 속성 `dc:title`(으)로 저장합니다.
 
-— `./jcr:created`: 자산의 노드에 jcr 속성을 표시합니다. If you configure these properties on view properties, we recommend that you mark them as Disable Edit, because they are protected. Otherwise, the error &quot;Asset(s) failed to modify&quot; occurs when you save the asset&#39;s properties.
+— `./jcr:created`: 자산의 노드에 jcr 속성을 표시합니다. 보기 속성에서 이러한 속성을 구성한 경우, Adobe은 보호되므로 편집을 비활성화로 표시하는 것을 권장합니다. 그렇지 않으면 자산의 속성을 저장할 때 &quot;Assets이 수정되지 않음&quot; 오류가 발생합니다.
 
 * **[!UICONTROL 자리 표시자]**: 이 속성을 사용하여 메타데이터 속성과 관련된 모든 관련 정보를 사용자에게 제공합니다.
 * **[!UICONTROL 필수]**: 이 속성을 사용하여 메타데이터 속성을 속성 페이지에서 필수로 표시합니다.
@@ -139,7 +135,7 @@ ht-degree: 8%
 
 ## 폴더에 메타데이터 스키마 적용 {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal을 사용하면 자산의 **[!UICONTROL 속성]** 페이지에 표시되도록 선택한 특정 정보만 표시되도록 메타데이터 스키마를 사용자 지정하고 제어할 수 있습니다. **[!UICONTROL 속성]** 페이지에 표시되는 메타데이터를 제어하려면 메타데이터 스키마 양식에서 필요한 메타데이터를 제거하고 특정 폴더에 적용합니다.
+Brand Portal을 사용하면 에셋의 **[!UICONTROL 속성]** 페이지에 표시할 특정 정보만 표시되도록 메타데이터 스키마를 사용자 지정하고 제어할 수 있습니다. **[!UICONTROL 속성]** 페이지에 표시되는 메타데이터를 제어하려면 메타데이터 스키마 양식에서 필요한 메타데이터를 제거하고 특정 폴더에 적용합니다.
 
 폴더에 메타데이터 스키마 양식을 적용하려면 다음을 수행합니다.
 
@@ -155,7 +151,7 @@ Brand Portal을 사용하면 자산의 **[!UICONTROL 속성]** 페이지에 표�
 
 1. 상단의 도구 모음에서 **[!UICONTROL 폴더에 적용]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL 폴더 선택]** 페이지에서 **[!UICONTROL 의류]** 메타데이터 스키마를 적용할 폴더(예: **[!UICONTROL 장갑]**)로 이동합니다.
+1. **[!UICONTROL 폴더 선택]** 페이지에서 **[!UICONTROL 의류]** 메타데이터 스키마를 적용할 폴더로 이동합니다(예: **[!UICONTROL 장갑]**).
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
@@ -185,7 +181,7 @@ Brand Portal을 사용하면 사용자 정의 스키마 양식만 삭제할 수 
 
 ### MIME 유형에 대한 새 양식 추가 {#adding-new-forms-for-mime-types}
 
-기본 양식 외에도 다양한 MIME 유형의 자산에 대한 사용자 정의 양식을 추가하거나 적절한 양식 유형에서 새 양식을 만들 수 있습니다. For example, to add a new template for the **[!UICONTROL image/png]** subtype, create the form under the &quot;image&quot; forms. The title for the schema form is the subtype name. 이 경우 제목은 &quot;png&quot; 입니다.
+기본 양식 외에도 다양한 MIME 유형의 자산에 대한 사용자 정의 양식을 추가하거나 적절한 양식 유형에서 새 양식을 만들 수 있습니다. For example, to add a new template for the **[!UICONTROL image/png]** subtype, create the form under the &quot;image&quot; forms. The title for the schema form is the subtype name. 이 경우 제목은 &quot;png&quot;입니다.
 
 #### 다양한 MIME 유형에 기존 스키마 템플릿 사용 {#using-an-existing-schema-template-for-various-mime-types}
 
@@ -196,10 +192,10 @@ Brand Portal을 사용하면 사용자 정의 스키마 양식만 삭제할 수 
 | **이름** | **유형** | **값** |
 |---|---|---|
 | exposedmimetype | 문자열 | image/jpeg |
-| mimetypes | 문자열[] | image/png |
+| mime 유형 | 문자열[] | image/png |
 
 * **exposedmimetype**: 매핑할 기존 양식의 이름
-* **mimetypes**: **exposedmimetype** 특성에 정의된 양식을 사용하는 MIME 유형 목록입니다
+* **mime 형식**: **exposedmimetype** 특성에 정의된 양식을 사용하는 MIME 형식 목록입니다
 
 Brand Portal은 다음 MIME 유형 및 스키마 양식을 매핑합니다.
 
@@ -214,29 +210,29 @@ Brand Portal은 다음 MIME 유형 및 스키마 양식을 매핑합니다.
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi, video/msvideo, video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 다음은 기본 메타데이터 속성 목록입니다.
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBitrate
-* jcr:content/metadata/audioBitrate
-* jcr:content/usage/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
-* jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

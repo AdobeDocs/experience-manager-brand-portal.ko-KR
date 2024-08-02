@@ -1,18 +1,14 @@
 ---
 title: Lightbox 컬렉션 관리
-seo-title: Manage the lightbox collection
 description: Lightbox는 자산에 쉽게 액세스할 수 있는 특별한 유형의 컬렉션입니다. 각 사용자에게는 Brand Portal에 처음 로그인할 때 자동으로 생성되는 전용 Lightbox가 있습니다. Lightbox 컬렉션을 삭제할 수 없습니다.
-seo-description: Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
-uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
-discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -29,7 +25,7 @@ ht-degree: 0%
 
    ![](assets/link_sharing_assetselection.png)
 
-1. 맨 위에 있는 도구 모음에서 컬렉션에 추가 아이콘을 클릭합니다.
+1. 상단의 도구 모음에서 **컬렉션에 추가** 아이콘을 클릭합니다.
 
    ![](assets/add_to_collection.png)
 

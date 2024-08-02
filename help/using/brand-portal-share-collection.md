@@ -1,18 +1,14 @@
 ---
 title: 컬렉션 공유
-seo-title: Share a collection
-description: Experience Manager Assets Brand Portal 관리자는 승인된 사용자와 컬렉션 또는 스마트 컬렉션을 공유하고 공유를 해제할 수 있습니다. 편집자는 자신이 만든 컬렉션, 공유된 컬렉션 및 공용 컬렉션만 보고 공유할 수 있습니다.
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: Experience Manager Assets Brand Portal 관리자가 승인된 사용자와 컬렉션이나 스마트 컬렉션을 공유하고 공유 해제하는 방법에 대해 알아봅니다. 편집자는 자신이 만든 컬렉션, 공유된 컬렉션 및 공용 컬렉션만 보고 공유할 수 있습니다.
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -23,7 +19,7 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-컬렉션은 이메일을 통해 링크로 공유됩니다. 공유 링크에 액세스할 수 있는 모든 사용자는 컬렉션을 열 수 있지만 공유 전자 메일은 모든 사용자에게 전달할 수 있습니다. 또한 [공유된 링크](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en)는 임시적이며 제한된 기간 동안만 액세스할 수 있습니다. 또는 사용자를 컬렉션에 영구 멤버로 초대할 수 있습니다. 컬렉션에는 다음과 같은 사용자 유형이 있습니다.
+컬렉션은 전자 메일을 통해 링크로 공유됩니다. 공유 링크에 대한 액세스 권한이 있는 모든 사용자가 컬렉션을 열 수 있습니다. 그러나 공유된 이메일은 누구에게나 전달될 수 있습니다. 또한 [공유된 링크](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)는 임시적이며 제한된 기간 동안만 액세스할 수 있습니다. 또는 사용자를 컬렉션에 영구 멤버로 초대할 수 있습니다. 컬렉션에는 다음과 같은 사용자 유형이 있습니다.
 
 * **관리자**&#x200B;는 인증된 Brand Portal 사용자와 컬렉션을 공유하거나 공유를 해제할 수 있습니다. 특정 컬렉션에 다른 사용자를 초대하고 해당 컬렉션에서 자신의 역할을 정의할 수 있습니다. 또한 관리자는 공용 컬렉션을 만들 수 있습니다.
 

@@ -1,18 +1,14 @@
 ---
 title: 지원되는 파일 형식
-seo-title: Supported file formats
 description: 각 Experience Manager Assets Brand Portal은 표에 표시된 대로 특정 파일 형식을 지원합니다.
-seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
-uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -59,7 +55,7 @@ ht-degree: 62%
 | MIDI | ✓ | NA | ✓ | NA | NA | ✓ | ✕ 덧신 | ✕ 덧신 |
 | 3GP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ 덧신 | ✕ 덧신 |
 | MP3 | ✓ | NA | ✓ | NA | ✕ 덧신 | ✓ | ✕ 덧신 | ✕ 덧신 |
-| Mp4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ 덧신 | ✕ 덧신 |
+| MP4 | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ 덧신 | ✕ 덧신 |
 | 마일 | ✓ | NA | ✓ | NA | NA | ✓ | ✕ 덧신 | ✕ 덧신 |
 | OGA | ✓ | NA | ✓ | NA | ✕ 덧신 | ✓ | ✕ 덧신 | ✕ 덧신 |
 | OGG | ✓ | NA | ✓ | NA | ✓ | ✓ | ✕ 덧신 | ✕ 덧신 |
