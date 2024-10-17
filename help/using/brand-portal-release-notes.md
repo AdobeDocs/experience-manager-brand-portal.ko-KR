@@ -1,38 +1,55 @@
 ---
 title: 릴리스 정보
-description: Adobe Experience Manager Assets Brand Portal 2024.02.0 릴리스의 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
+description: Adobe Experience Manager Assets Brand Portal 2024.10.0 릴리스의 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1535'
 ht-degree: 3%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2024.02.0 릴리스의 새로운 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
+Adobe Experience Manager Assets Brand Portal 2024.10.0 릴리스의 새로운 기능, 향상된 기능, 해결된 주요 문제 및 알려진 문제에 대한 통찰력을 얻으십시오.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2024.02.0 |
-| 날짜 | 2024년 2월 |
+| 버전 | 2024.10.0 |
+| 날짜 | 2024년 10월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크리에이티브 자산을 외부 관련자와 내부 비즈니스 사용자가 간편하게 구매하고 제어하고 장치 간에 안전하게 배포할 수 있습니다. 자산 공유의 효율성을 향상시키고, 자산 출시 시간을 단축하며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다. Brand Portal을 사용하면 언제 어디서나 회사에서 승인한 형식으로 자산을 검색, 검색, 미리 보기, 다운로드 및 내보낼 수 있습니다.
 
-## 2024.02.0의 새로운 기능 {#whats-new-in-2024.02.0}
+## 2024.10.0의 새로운 기능 {#whats-new-in-2024.10.0}
 
 ### 해결된 주요 문제 {#critical-issues-fixed}
 
 #### 버그 수정 {#bug-fixes}
+
+이 릴리스에는 다음과 같은 버그 수정이 포함됩니다.
+
+* 소싱 가져오기 이벤트에 대한 이메일 알림이 전송되지 않습니다.
+* 검색 필터를 사용하는 동안 Brand Portal은 검색 필터 창에 중복 폴더를 표시합니다.
+* 이름에 특수 문자가 있는 라이선스가 없는 자산이 포함된 컬렉션 다운로드가 작동하지 않습니다.
+* [!UICONTROL 검색 양식 편집기](으)로 이동하는 동안 레이블이 현지화되지 않습니다.
+* 링크 공유 창에서 레이블이 현지화되지 않습니다.
+* 이름에 특수 문자가 있는 비디오를 다운로드할 수 없습니다.
+* [!DNL Adobe Experience Manager Assets]에서 Brand Portal으로 자산을 게시하고 게시를 취소하는 작업이 제대로 작동하지 않습니다.
+* Brand Portal에서 다운로드한 비디오를 재생할 수 없습니다.
+
+## 이전 출시 버전
+
+### 2024년 2월 릴리스 {#feb-2024}
+
+**버그 수정 및 개선 사항**
 
 이 릴리스에는 다음과 같은 버그 수정이 포함됩니다.
 
@@ -44,8 +61,6 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 * 다운로드 팝업 창에서 자산의 제목과 크기가 잘못 정렬되었습니다.
 * 보고서를 만드는 동안 레이블이 현지화되지 않습니다.
 * 지원 관리자는 Brand Portal에서 관리자라고 했습니다.
-
-## 이전 출시 버전
 
 ### 2023년 10월 릴리스 {#oct-2023}
 
