@@ -6,9 +6,9 @@ contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
+source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1533'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 이 릴리스에는 다음과 같은 버그 수정이 포함됩니다.
 
 * 소싱 가져오기 이벤트에 대한 이메일 알림이 전송되지 않습니다.
-* 검색 필터를 사용하는 동안 Brand Portal은 검색 필터 창에 중복 폴더를 표시합니다.
+* 검색 필터를 사용하는 동안 [!DNL Brand Portal]은(는) 검색 필터 창에 중복된 폴더를 표시합니다.
 * 이름에 특수 문자가 있는 라이선스가 없는 자산이 포함된 컬렉션 다운로드가 작동하지 않습니다.
 * [!UICONTROL 검색 양식 편집기](으)로 이동하는 동안 레이블이 현지화되지 않습니다.
 * 링크 공유 창에서 레이블이 현지화되지 않습니다.
