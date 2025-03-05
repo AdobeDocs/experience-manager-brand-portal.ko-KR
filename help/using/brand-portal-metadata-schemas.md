@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1603'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 5%
 **[!UICONTROL 양식 작성]** 탭에는 스키마 양식에 사용할 수 있는 항목이 나열됩니다. **[!UICONTROL 설정]** 탭은 **[!UICONTROL 양식 작성]** 탭에서 선택한 각 항목의 특성을 제공합니다. 다음 표에는 **[!UICONTROL 양식 작성]** 탭에서 사용할 수 있는 양식 항목이 나열되어 있습니다.
 
 | 구성 요소 이름 | 설명 |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----|----|
 | **[!UICONTROL 섹션 머리글]** | 공통 구성 요소 목록의 섹션 머리글을 추가합니다. |
 | **[!UICONTROL 한 줄 텍스트]** | 한 줄 텍스트 속성을 추가합니다. 문자열로 저장됩니다. |
 | **[!UICONTROL 다중 값 텍스트]** | 다중 값 텍스트 속성을 추가합니다. 문자열 배열로 저장됩니다. |
@@ -84,11 +84,12 @@ ht-degree: 5%
 | **[!UICONTROL 드롭다운]** | 드롭다운 목록을 추가합니다. |
 | **[!UICONTROL 표준 태그]** | 태그를 추가합니다. 관리자는 경로 값을 변경해야 할 수 있습니다. 예를 들어, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`이(가) Experience Manager Assets에서 메타데이터 스키마 양식을 게시하는 경우 경로에 테넌트 정보(예: `/etc/tags/<custom_tag_namespace>`)가 포함되어 있지 않습니다. |
 | **[!UICONTROL 스마트 태그]** | Experience Manager Assets 스마트 태그 추가 기능을 구매하고 구성한 경우 태그가 자동으로 검색됩니다. |
-| **[!UICONTROL 숨겨진 필드]** | 숨겨진 필드를 추가합니다. 에셋이 저장될 때 POST 매개 변수로 전송됩니다. |
+| **[!UICONTROL 숨겨진 필드]** | 숨겨진 필드를 추가합니다. 자산이 저장될 때 POST 매개 변수로 전송됩니다. |
 | **[!UICONTROL 자산 참조자]** | 이 구성 요소를 추가하여 에셋에서 참조한 에셋 목록을 확인하십시오. |
 | **[!UICONTROL 자산 참조]** | 를 추가하여 에셋을 참조하는 에셋 목록을 표시합니다. |
-| **[!UICONTROL 자산 등급]** | Brand Portal에 게시되기 전에 Experience Manager Assets에서 추가된 에셋의 평균 등급. |
 | **[!UICONTROL 컨텍스트 메타데이터]** | 를 추가하여 자산의 속성 페이지에서 다른 메타데이터 탭의 표시를 제어합니다. |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -106,7 +107,7 @@ ht-degree: 5%
 
 — `./jcr:content/metadata/dc:title`: 자산의 메타데이터 노드에 있는 값을 속성 `dc:title`(으)로 저장합니다.
 
-— `./jcr:created`: 자산의 노드에 jcr 속성을 표시합니다. 보기 속성에서 이러한 속성을 구성한 경우, Adobe은 보호되므로 편집을 비활성화로 표시하는 것을 권장합니다. 그렇지 않으면 자산의 속성을 저장할 때 &quot;Assets이 수정되지 않음&quot; 오류가 발생합니다.
+— `./jcr:created`: 자산의 노드에 jcr 속성을 표시합니다. 보기 속성에 대해 이러한 속성을 구성한 경우 Adobe에서는 속성이 보호되므로 이를 편집 비활성화로 표시하는 것이 좋습니다. 그렇지 않으면 자산의 속성을 저장할 때 &quot;Assets이 수정되지 않음&quot; 오류가 발생합니다.
 
 * **[!UICONTROL 자리 표시자]**: 이 속성을 사용하여 메타데이터 속성과 관련된 모든 관련 정보를 사용자에게 제공합니다.
 * **[!UICONTROL 필수]**: 이 속성을 사용하여 메타데이터 속성을 속성 페이지에서 필수로 표시합니다.
@@ -115,7 +116,7 @@ ht-degree: 5%
 * **[!UICONTROL 설명]**: 메타데이터 구성 요소에 대한 간단한 설명을 추가하려면 이 속성을 사용합니다.
 * **[!UICONTROL 삭제 아이콘]**: 스키마 양식에서 구성 요소를 삭제하려면 이 아이콘을 클릭하십시오.
 
-![](assets/delete_icon_editmetadataschemaform.png)
+  ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -129,9 +130,9 @@ ht-degree: 5%
 
 * 스키마 양식에 새 탭을 추가하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다. 기본적으로 새 탭의 이름은 &quot;Unnamed-1&quot;입니다. **[!UICONTROL 설정]** 탭에서 이름을 수정할 수 있습니다.
 
-![](assets/add-tab-metadata-form.png)
+  ![](assets/add-tab-metadata-form.png)
 
-* 탭을 삭제하려면 **[!UICONTROL x]**&#x200B;을(를) 클릭합니다. 변경 내용을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
+* 탭을 삭제하려면 **[!UICONTROL x]**&#x200B;을(를) 클릭합니다. **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
 ## 폴더에 메타데이터 스키마 적용 {#apply-a-metadata-schema-to-a-folder}
 
