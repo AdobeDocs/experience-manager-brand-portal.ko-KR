@@ -10,10 +10,10 @@ topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
 audience: author, marketer
-version: 6.5
+version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 # 에셋 소싱 개요 {#overview-asset-sourcing-in-bp}
 
-**자산 소싱**&#x200B;을 통해 Experience Manager Assets 사용자(관리자/관리자가 아닌 사용자)는 추가 **자산 기여** 속성을 사용하여 새 폴더를 만들 수 있으므로 Brand Portal 사용자가 만든 새 폴더가 자산 제출에 열려 있도록 합니다. 이렇게 하면 새로 만든 **기여도** 폴더 내에 **SHARED** 및 **NEW**&#x200B;이라는 두 개의 추가 하위 폴더를 만드는 워크플로가 자동으로 트리거됩니다. 관리자는 기여도 폴더에 추가해야 하는 에셋 유형에 대한 간단한 개요를 업로드하여 요구 사항을 정의합니다. 기준선 에셋 집합을 **SHARED** 폴더에 업로드하여 Brand Portal 사용자에게 필요한 참조 정보를 제공합니다. 그런 다음 관리자는 새로 만든 **기여도** 폴더를 Brand Portal에 게시하기 전에 활성 Brand Portal 사용자에게 기여도 폴더에 대한 액세스 권한을 부여할 수 있습니다. 사용자가 **NEW** 폴더에 컨텐츠를 추가했으면 기여 폴더를 다시 Experience Manager 작성 환경에 게시할 수 있습니다. 가져오기를 완료하고 Experience Manager Assets 내에 새로 게시된 콘텐츠를 반영하는 데 몇 분 정도 걸릴 수 있습니다.
+**자산 소싱**&#x200B;을 통해 Experience Manager Assets 사용자(관리자/관리자가 아닌 사용자)는 추가 **자산 기여** 속성을 사용하여 새 폴더를 만들 수 있으므로 Brand Portal 사용자가 만든 새 폴더가 자산 제출에 열려 있도록 합니다. 이렇게 하면 새로 만든 **기여도** 폴더 내에 **SHARED** 및 **NEW**&#x200B;이라는 두 개의 추가 하위 폴더를 만드는 워크플로가 자동으로 트리거됩니다. 관리자는 기여도 폴더에 추가해야 하는 에셋 유형에 대한 간단한 개요를 업로드하여 요구 사항을 정의합니다. 기준선 에셋 집합을 **SHARED** 폴더에 업로드하여 Brand Portal 사용자에게 필요한 참조 정보를 제공합니다. 그런 다음 관리자는 새로 만든 **기여도** 폴더를 Brand Portal에 게시하기 전에 활성 Brand Portal 사용자에게 기여도 폴더에 대한 액세스 권한을 부여할 수 있습니다. 사용자가 **NEW** 폴더에 콘텐츠를 추가했으면 기여 폴더를 다시 Experience Manager 작성 환경에 게시할 수 있습니다. 가져오기를 완료하고 Experience Manager Assets 내에 새로 게시된 콘텐츠를 반영하는 데 몇 분 정도 걸릴 수 있습니다.
 
 또한 기존의 모든 기능은 변경되지 않습니다. Brand Portal 사용자는 기여 폴더와 다른 허용된 폴더에서 자산을 보고, 검색하고, 다운로드할 수 있습니다. 또한 관리자는 기여 폴더를 공유하고, 속성을 수정하고, 컬렉션을 통해 에셋을 추가할 수 있습니다.
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 사전 요구 사항 {#prerequisites}
 
-* Experience Manager Assets as a Cloud Service 2, Experience Manager Assets 6.5 이상
+* Experience Manager Assets as a Cloud Service 인스턴스, Experience Manager Assets 6.5.2 이상.
 * Experience Manager Assets 인스턴스가 Brand Portal으로 구성되었는지 확인합니다. [Brand Portal으로 Experience Manager Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하세요.
 
 <!--
@@ -108,9 +108,9 @@ Experience Manager Assets 관리자는 Experience Manager Assets의 활성 Brand
 
 >[!NOTE]
 >
->CSV 파일의 형식은 대량 사용자 가져오기에 대해 Admin Console에서 지원되는 것과 같습니다. 이메일, 이름 및 성은 필수입니다.
+>CSV 파일의 형식은 대량 사용자 가져오기용 Admin Console에서 지원되는 것과 동일합니다. 이메일, 이름 및 성은 필수입니다.
 
-관리자는 Admin Console에 새 사용자를 추가할 수 있습니다. 자세한 내용을 보려면 [사용자 관리](brand-portal-adding-users.md)(으)로 이동하십시오. 이러한 사용자는 Admin Console에 사용자를 추가한 후 Brand Portal 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
+관리자는 Admin Console에서 새 사용자를 추가할 수 있습니다. 자세한 내용을 보려면 [사용자 관리](brand-portal-adding-users.md)(으)로 이동하십시오. Admin Console에서 사용자를 추가한 후 이러한 사용자를 Brand Portal 사용자 구성 파일에 추가한 다음 기여도 폴더에 액세스할 수 있는 권한을 할당할 수 있습니다.
 
 **Brand Portal 사용자 목록을 업로드하려면:**
 
@@ -130,4 +130,4 @@ Experience Manager Assets 관리자는 Experience Manager Assets의 활성 Brand
 
 * [기여도 폴더 구성 및 Brand Portal에 게시](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Experience Manager Assets에 대한 Publish 기여 폴더](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [기여 폴더를 Experience Manager Assets에 게시](brand-portal-publish-contribution-folder-to-aem-assets.md)
