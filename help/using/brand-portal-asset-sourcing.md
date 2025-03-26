@@ -13,7 +13,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
+source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -122,7 +122,6 @@ Experience Manager Assets 관리자는 Experience Manager Assets의 활성 Brand
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![](assets/upload-user-list2.png)
-
 
 관리자는 기여 폴더를 구성하는 동안 이 사용자 목록에서 특정 사용자에게 액세스 권한을 제공할 수 있습니다. 기여 폴더에 할당된 사용자만 기여 폴더에 액세스하고 Brand Portal에서 Experience Manager Assets으로 에셋을 게시할 수 있습니다.
 
