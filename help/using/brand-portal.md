@@ -5,7 +5,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 4%
@@ -31,11 +31,11 @@ Brand Portal과 함께 Adobe Experience Manager Assets을 구성하면 Brand Por
 
 >[!NOTE]
 >
->Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 이상에서 Experience Manager Assets Brand Portal 구성이 지원됩니다.
+>Brand Portal을 사용하여 Experience Manager Assets을 구성하는 기능은 Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 이상에서 지원됩니다.
 
-Experience Manager Assets as a Cloud Service Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal을 자동으로 구성합니다. 활성화 워크플로우는 백엔드에서 필요한 구성을 만들고 Experience Manager Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
+Experience Manager Assets as a Cloud Service은 Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal에 자동으로 구성됩니다. 활성화 워크플로우는 백엔드에서 필요한 구성을 만들고 Experience Manager Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
 
-그러나 Experience Manager Assets(온 프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 Adobe Identity Management 서비스(IMS) 토큰을 전달하는 Adobe Developer Console을 사용하여 Brand Portal으로 수동으로 구성합니다.
+하지만 Experience Manager Assets(온 프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 Adobe Identity Management IMS(Services) 토큰을 전달하는 Adobe Developer Console을 사용하여 Brand Portal으로 수동으로 구성합니다.
 
 자세한 내용은 [Brand Portal을 사용하여 Experience Manager Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
 
@@ -52,7 +52,7 @@ Brand Portal은 다음 사용자 역할을 지원합니다.
 
 |  | **찾아보기** | **검색** | **다운로드** | **폴더 공유** | **컬렉션 공유** | **링크로 자산 공유** | **관리 도구에 액세스** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **게스트 사용자** | ✓ * | ✓ * | ✓ * | x | x | x | x |
+| **게스트 사용자** | ✓* | ✓* | ✓* | x | x | x | x |
 | **뷰어** | ✓ | ✓ | ✓ | x | x | x | x |
 | **편집기** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **관리자** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -97,7 +97,7 @@ Experience Manager Assets Brand Portal에서 [게스트가 Brand Portal에 액�
 
 ### 편집기 {#editor}
 
-편집기 역할을 가진 사용자는 뷰어가 수행할 수 있는 모든 작업을 수행할 수 있습니다. 또한 관리자가 공유하는 파일 및 폴더를 편집기에서 볼 수 있습니다. 편집기 역할을 가진 사용자는 다른 사용자와 컨텐츠(파일, 폴더, 컬렉션)를 공유할 수도 있습니다.
+편집기 역할을 가진 사용자는 뷰어가 수행할 수 있는 모든 작업을 수행할 수 있습니다. 또한 편집기는 관리자가 공유하는 파일 및 폴더를 볼 수 있습니다. 편집기 역할을 가진 사용자는 다른 사용자와 컨텐츠(파일, 폴더, 컬렉션)를 공유할 수도 있습니다.
 
 뷰어가 수행할 수 있는 작업 외에도 편집기는 다음과 같은 추가 작업을 수행할 수 있습니다.
 
@@ -113,7 +113,7 @@ Experience Manager Assets Brand Portal에서 [게스트가 Brand Portal에 액�
 
 >[!NOTE]
 >
->Brand Portal에서 [!UICONTROL Admin Console]에서 지원 관리자 역할로 표시된 사용자는 시스템 관리자와 동일한 권한을 가집니다.
+>Brand Portal에서 [!UICONTROL Admin Console]에서 지원 관리자 역할로 표시된 사용자는 시스템 관리자와 동일한 권한을 갖습니다.
 
 관리자는 편집기가 수행할 수 있는 모든 작업을 수행할 수 있습니다. 다음은 관리자가 수행할 수 있는 추가 작업입니다.
 
@@ -146,7 +146,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
 ## Brand Portal 액세스 요청 {#request-access-to-brand-portal}
 
-사용자는 로그인 화면에서 Brand Portal 액세스를 요청할 수 있습니다. 이러한 요청은 Adobe [!UICONTROL Admin Console]을(를) 통해 사용자에게 액세스 권한을 부여하는 Brand Portal 관리자에게 전송됩니다. 액세스 권한이 부여되면 사용자에게 알림 이메일이 전송됩니다.
+사용자는 로그인 화면에서 Brand Portal 액세스를 요청할 수 있습니다. 이러한 요청은 Brand Portal 관리자에게 전송되며, 관리자는 Adobe [!UICONTROL Admin Console]을(를) 통해 사용자에게 액세스 권한을 부여합니다. 액세스 권한이 부여되면 사용자에게 알림 이메일이 전송됩니다.
 
 액세스 권한을 요청하려면 다음을 수행하십시오.
 
@@ -156,9 +156,9 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
    [!UICONTROL 액세스 요청] 페이지가 열립니다.
 
-1. 조직의 Brand Portal에 대한 액세스를 요청하려면 유효한 [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]이 있어야 합니다.
+1. 조직의 Brand Portal에 대한 액세스를 요청하려면 유효한 [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]이(가) 있어야 합니다.
 
-   [!UICONTROL 액세스 요청] 페이지에서 ID를 사용하여 로그인하거나(시나리오 1) [!UICONTROL Adobe ID](시나리오 2)을(를) 만듭니다.
+   [!UICONTROL 액세스 요청] 페이지에서 ID를 사용하여 로그인하거나(시나리오 1) [!UICONTROL Adobe ID]&#x200B;(시나리오 2)을(를) 만듭니다.
 
    ![[!UICONTROL 액세스 요청]](assets/bplogin_request_access_2.png)
 
@@ -197,7 +197,7 @@ Brand Portal 제품 관리자는 자신의 Brand Portal 알림 영역과 받은 
 ![요청된 알림에 액세스](assets/bplogin_request_access_7.png)
 
 액세스 권한을 부여하려면 제품 관리자가 Brand Portal 알림 영역에서 관련 알림을 클릭한 다음 **[!UICONTROL 액세스 권한 부여]**를 클릭해야 합니다.
-또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 [!UICONTROL Admin Console] Adobe을 방문하여 해당 제품 구성에 사용자를 추가할 수 있습니다.
+또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 Adobe [!UICONTROL Admin Console]을(를) 방문하여 사용자를 관련 제품 구성에 추가할 수 있습니다.
 
 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 홈 페이지로 리디렉션되었습니다. Adobe [!UICONTROL Admin Console]을(를) 사용하여 사용자를 만들고 Brand Portal에 그룹으로 표시되는 제품 프로필(이전의 제품 구성)에 사용자를 할당합니다. [!UICONTROL Admin Console]에서 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자 추가](brand-portal-adding-users.md#add-a-user)를 참조하십시오(사용자 추가 절차의 4-7단계).
 
