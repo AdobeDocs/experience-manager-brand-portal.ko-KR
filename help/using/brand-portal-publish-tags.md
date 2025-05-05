@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Experience Manager Assets에서 Brand Portal으로 태그를 게시하는 방법에 대해 알아봅니다.
 
-태그는 자산을 구성하고 자산과 연결된 자산의 검색 가능성을 향상시키는 데 유용합니다. 태그는 자산과 함께 첨부된 키워드 또는 레이블(메타데이터)로 생각할 수 있으며 검색 결과 자산을 빠르게 찾을 수 있습니다. Experience Manager Assets의 자산에 태그를 할당하는 방법에 대해 알아보려면 [태그를 사용하여 자산 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)을 참조하세요.
+태그는 자산을 구성하고 자산과 연결된 자산의 검색 가능성을 향상시키는 데 유용합니다. 태그는 자산과 함께 첨부된 키워드 또는 레이블(메타데이터)로 생각할 수 있으며 검색 결과 자산을 빠르게 찾을 수 있습니다. Experience Manager Assets의 자산에 태그를 할당하는 방법에 대해 알아보려면 [태그를 사용하여 자산 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/managing/organize-assets)을 참조하세요.
 
 연결된 태그가 있는 자산(및 컬렉션)이 Brand Portal에 게시되면 태그(AEM의 자산 및 컬렉션과 연결됨)가 Brand Portal에 자동으로 게시됩니다. 게시된 태그는 검색을 활성화하여 관련 에셋을 찾는 데 유용합니다.
 
@@ -47,7 +47,7 @@ AEM에서 태그를 만들고, Brand Portal에서 태그를 게시하고, 태그
      *(필수)* 태그에 대한 표시 제목입니다.
    * **[!UICONTROL 이름]**
 
-     *(필수)* 태그의 이름입니다. 지정하지 않으면 제목에서 올바른 노드 이름이 만들어집니다. [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)를 참조하십시오.
+     *(필수)* 태그의 이름입니다. 지정하지 않으면 제목에서 올바른 노드 이름이 만들어집니다. [TagID](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)를 참조하십시오.
    * **설명**
 
      *(선택 사항)* 태그에 대한 설명입니다.
@@ -64,7 +64,7 @@ AEM에서 태그를 만들고, Brand Portal에서 태그를 게시하고, 태그
 
 1. **자산(또는 컬렉션)에 태그를 첨부합니다**.
 
-   에셋(또는 컬렉션)을 선택하고 해당 에셋의 속성 섹션 또는 태그 관리 섹션을 사용하여 원하는 태그를 첨부합니다. AEM Assets의 자산에 태그를 할당하는 방법에 대해 자세히 알아보려면 [태그를 사용하여 자산 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)(으)로 이동하십시오.
+   에셋(또는 컬렉션)을 선택하고 해당 에셋의 속성 섹션 또는 태그 관리 섹션을 사용하여 원하는 태그를 첨부합니다. AEM Assets의 자산에 태그를 할당하는 방법에 대해 자세히 알아보려면 [태그를 사용하여 자산 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/managing/organize-assets)(으)로 이동하십시오.
 
 1. **Publish 에셋(또는 컬렉션)을 Brand Portal**&#x200B;에 연결합니다.\
    에셋(또는 컬렉션)을 Brand Portal에 게시하면 첨부된 태그를 Brand Portal에서도 사용할 수 있습니다.

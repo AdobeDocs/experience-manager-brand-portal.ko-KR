@@ -391,7 +391,7 @@ Brand Portal 사용자 인터페이스는 다음 언어로 제공됩니다.
 ## 링크 {#links}
 
 * [adobe.com의 Adobe Experience Manager 제품 페이지](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [Assets Brand Portal 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/home)
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}
 

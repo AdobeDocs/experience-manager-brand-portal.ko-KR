@@ -49,4 +49,4 @@ Brand Portal에서 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 | **AEM 버전** | **새 구성** | **구성 업그레이드** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Brand Portal 활성화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [구성 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [구성 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |

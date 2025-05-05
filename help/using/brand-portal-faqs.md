@@ -29,7 +29,7 @@ Brand Portal FAQ는 최종 사용자 쿼리와 최신 Experience Manager Assets 
 
 **대답:** 예, Adobe Developer Console을 통해 기여 폴더의 자산을 Experience Manager Assets 6.5.4에 게시하는 동안 알려진 문제가 있습니다.
 
-이 문제는 Experience Manager Assets 6.5.5에서 해결되었습니다. Experience Manager Assets 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe Developer Console에서 [구성을 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)할 수 있습니다.
+이 문제는 Experience Manager Assets 6.5.5에서 해결되었습니다. Experience Manager Assets 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe Developer Console에서 [구성을 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)할 수 있습니다.
 
 
 **질문: Experience Manager Assets의 Brand Portal에서 게시된 기여도 폴더의 컨텐츠가 표시되지 않습니다. 가능한 이유는 무엇입니까?**

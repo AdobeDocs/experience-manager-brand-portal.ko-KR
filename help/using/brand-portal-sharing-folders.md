@@ -28,7 +28,7 @@ Assets은 에셋 수집을 지원하지 않으므로 사전 구성된 Experience
 
 ### Brand Portal에서 사용자 그룹과 폴더 공유 {#sharing-folders-with-user-groups-on-brand-portal}
 
-폴더 에셋에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 다릅니다. AEM의 [ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)은(는) 이 동작을 관리하며 하위 폴더는 상위 폴더에서 ACL을 상속합니다. 예를 들어 폴더 A에 폴더 C가 포함된 폴더 B가 있다고 가정해 봅시다. 그러면 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한을 갖습니다. 폴더 B는 A의 하위 폴더이고 폴더 C는 B의 하위 폴더로서 ACL을 상속합니다.
+폴더 에셋에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 다릅니다. AEM의 [ACL](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/security/security)은(는) 이 동작을 관리하며 하위 폴더는 상위 폴더에서 ACL을 상속합니다. 예를 들어 폴더 A에 폴더 C가 포함된 폴더 B가 있다고 가정해 봅시다. 그러면 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한을 갖습니다. 폴더 B는 A의 하위 폴더이고 폴더 C는 B의 하위 폴더로서 ACL을 상속합니다.
 
 마찬가지로 폴더 B에만 액세스할 수 있는 권한이 있는 사용자 그룹(또는 사용자)은 폴더 C에는 동일한 액세스 권한이 있지만 폴더 A에는 액세스할 수 없습니다. Adobe은 가장 많이 노출된 에셋이 하위 폴더에 배치되도록 콘텐츠를 구성하여 하위 폴더에서 루트 폴더까지 액세스를 제한할 것을 권장합니다.
 

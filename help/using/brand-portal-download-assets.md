@@ -156,7 +156,7 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
      >
      >다운로드한 자산에 사용 허가된 자산도 포함되어 있으면 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다. 이 페이지에서 자산을 선택하고 **[!UICONTROL 동의]**&#x200B;를 클릭한 다음 **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다. 동의하지 않기로 선택한 경우 라이센스가 부여된 에셋이 다운로드되지 않습니다.
      > 
-     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)이(가) 첨부되어 있습니다.
+     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)이(가) 첨부되어 있습니다.
 
 
      ![라이선스 자산](assets/licensed-asset-new.png)

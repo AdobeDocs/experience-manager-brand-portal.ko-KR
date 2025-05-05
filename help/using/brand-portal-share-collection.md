@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-컬렉션은 전자 메일을 통해 링크로 공유됩니다. 공유 링크에 대한 액세스 권한이 있는 모든 사용자가 컬렉션을 열 수 있습니다. 그러나 공유된 이메일은 누구에게나 전달될 수 있습니다. 또한 [공유된 링크](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)는 임시적이며 제한된 기간 동안만 액세스할 수 있습니다. 또는 사용자를 컬렉션에 영구 멤버로 초대할 수 있습니다. 컬렉션에는 다음과 같은 사용자 유형이 있습니다.
+컬렉션은 전자 메일을 통해 링크로 공유됩니다. 공유 링크에 대한 액세스 권한이 있는 모든 사용자가 컬렉션을 열 수 있습니다. 그러나 공유된 이메일은 누구에게나 전달될 수 있습니다. 또한 [공유된 링크](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)는 임시적이며 제한된 기간 동안만 액세스할 수 있습니다. 또는 사용자를 컬렉션에 영구 멤버로 초대할 수 있습니다. 컬렉션에는 다음과 같은 사용자 유형이 있습니다.
 
 * **관리자**&#x200B;는 인증된 Brand Portal 사용자와 컬렉션을 공유하거나 공유를 해제할 수 있습니다. 특정 컬렉션에 다른 사용자를 초대하고 해당 컬렉션에서 자신의 역할을 정의할 수 있습니다. 또한 관리자는 공용 컬렉션을 만들 수 있습니다.
 

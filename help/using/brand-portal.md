@@ -127,8 +127,8 @@ Experience Manager Assets Brand Portal에서 [게스트가 Brand Portal에 액�
 위의 작업 외에도 AEM Assets의 작성자는 다음 작업을 수행할 수 있습니다.
 
 * [Brand Portal에서 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)
-* [폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [컬렉션을 Brand Portal에 게시](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [컬렉션을 Brand Portal에 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Brand Portal URL에 대한 대체 별칭 {#tenant-alias-for-portal-url}
 
@@ -235,4 +235,4 @@ Brand Portal이 유지 관리를 위해 다운되도록 예약되기 전에 Bran
 * [Adobe Customer Support]()
 -->
 
-* [AEM 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ko)

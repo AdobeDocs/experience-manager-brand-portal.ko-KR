@@ -97,19 +97,19 @@ Brand Portal 2021.08.0은 기업이 자산을 더 잘 제어할 수 있도록 �
 
 ### 참조 문서 {#reference-articles}
 
-* [Adobe 프로필 소개](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
+* [Adobe 프로필 소개](https://helpx.adobe.com/kr/enterprise/kb/introducing-adobe-profiles.html)
 
-* [Adobe 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
+* [Adobe 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-adobe-profiles.html)
 
-* [사용자 및 관리자의 로그인 경험으로 업데이트](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [사용자 및 관리자의 로그인 경험으로 업데이트](https://helpx.adobe.com/kr/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* [마이그레이션 중 로그인 제한](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
+* [마이그레이션 중 로그인 제한](https://helpx.adobe.com/kr/enterprise/kb/account-temporarily-unavailable.html)
 
-* [Admin Console에서 사용자 관리](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [Admin Console에서 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html)
 
-* [Enterprise 사용자의 제품 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
+* [Enterprise 사용자의 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [도메인 트러스트](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [도메인 트러스트](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -187,7 +187,7 @@ AEM Assets as a Cloud Service 인스턴스에서 Brand Portal을 활성화하려
 
 이전에는 AEM Assets(온프레미스 및 관리 서비스)에서만 에셋 소싱을 사용할 수 있었습니다.
 
-[Brand Portal의 자산 소싱](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)을 참조하세요.
+[Brand Portal의 자산 소싱](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)을 참조하세요.
 
 ### 에셋 다운로드 {#asset-download-setting}
 
@@ -208,7 +208,7 @@ Earlier, all the asset renditions were directly downloaded in a zip folder in ca
 
 ![](assets/download-settings-new.png)
 
-[Brand Portal에서 에셋 다운로드](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)를 참조하십시오.
+[Brand Portal에서 에셋 다운로드](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)를 참조하십시오.
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -251,7 +251,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 각 에셋에 대해 별도의 폴더를 만듭니다.
 * 선택한 에셋 및 해당 렌디션을 다운로드합니다.
 
-다운로드 워크플로우는 독립 실행형 에셋, 에셋이 포함된 여러 에셋, 폴더, 라이선스 에셋 또는 라이선스가 없는 에셋, 공유 링크를 통해 에셋을 다운로드할 때 일관됩니다. Brand Portal에서 자산을 다운로드하는 [단계](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)를 참조하세요.
+다운로드 워크플로우는 독립 실행형 에셋, 에셋이 포함된 여러 에셋, 폴더, 라이선스 에셋 또는 라이선스가 없는 에셋, 공유 링크를 통해 에셋을 다운로드할 때 일관됩니다. Brand Portal에서 자산을 다운로드하는 [단계](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)를 참조하세요.
 
 ![다운로드 대화 상자](assets/download-dialog-box.png)
 
@@ -301,7 +301,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 * **[!UICONTROL 원본 다운로드]** 설정만 켜져 있으면 사용자는 자산 세부 정보 페이지에서 원본 자산만 보고 다운로드할 수 있습니다.
 * **[!UICONTROL 렌디션 다운로드]** 설정만 사용하도록 설정되어 있으면 사용자는 원본 에셋을 볼 수 있지만 다운로드할 수는 없습니다. 그러나 사용자는 에셋 렌디션을 보고 다운로드할 수 있습니다.
 
-[자산 다운로드 구성](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions)을 참조하세요.
+[자산 다운로드 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions)을 참조하세요.
 
 ![보기-다운로드-권한](assets/download-permissions.png)
 
@@ -400,7 +400,7 @@ Brand Portal에서 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구
 | **AEM 버전** | **새 구성** | **구성 업그레이드** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [구성 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [구성 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM 6.5(6.5.4.0 이상)** | [구성 만들기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [구성 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >
@@ -808,7 +808,7 @@ Brand Portal 6.3.2에는 주요 고객 요청 및 일반적인 성능 향상을 
 
 ![](assets/bp_maintenance_notification-1.png)
 
-자세한 내용은 [Brand Portal 유지 관리 알림](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/introduction/brand-portal)을 참조하세요.
+자세한 내용은 [Brand Portal 유지 관리 알림](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/introduction/brand-portal)을 참조하세요.
 
 ### 링크 공유 기능을 사용하여 공유된 라이센스 에셋의 개선 사항 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 

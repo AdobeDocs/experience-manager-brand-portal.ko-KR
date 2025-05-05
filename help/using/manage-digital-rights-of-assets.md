@@ -71,7 +71,7 @@ Brand Portal에서 관리자는 만료된 에셋을 보고 다운로드하고 �
 
 라이센스가 부여된 자산은 Brand Portal에서 다운로드하기 전에 라이센스 계약의 동의가 필요합니다. 라이센스가 부여된 에셋에 대한 이 계약은 Brand Portal에서 또는 공유 링크를 통해 에셋을 직접 다운로드할 때 제공됩니다. 만료되었거나 만료되지 않았더라도 모든 사용자는 라이선스로 보호된 에셋을 볼 수 있습니다. 그러나 만료된 라이선스 자산의 다운로드와 사용은 제한됩니다. 사용자 역할에 따라 만료된 라이선스 에셋 및 허용되는 활동의 동작에 대해 알아보려면 [만료된 에셋의 사용 권한](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)을 참조하세요.
 
-라이선스로 보호된 자산에는 [!DNL Experience Manager Assets]에서 자산의 메타데이터 속성을 설정하여 [라이선스 계약](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)이 첨부되어 있습니다.
+라이선스로 보호된 자산에는 [!DNL Experience Manager Assets]에서 자산의 메타데이터 속성을 설정하여 [라이선스 계약](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)이 첨부되어 있습니다.
 
 자산에 다음(또는 두 가지 모두) 메타데이터 속성 중 하나가 포함되어 있으면 자산이 보호되는 것으로 간주됩니다.
 

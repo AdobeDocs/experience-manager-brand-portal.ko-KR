@@ -49,7 +49,7 @@ ht-degree: 1%
 >
 >Experience Manager Assets 6.5.4에 알려진 문제가 있습니다. Brand Portal 사용자는 Adobe Developer Console으로 업그레이드할 때 기여 폴더의 자산을 Experience Manager Assets에 게시할 수 없습니다.
 >
->이 문제는 Experience Manager Assets 6.5.5에서 해결되었습니다. Experience Manager Assets 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe Developer Console에서 [구성을 업그레이드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)할 수 있습니다.
+>이 문제는 Experience Manager Assets 6.5.5에서 해결되었습니다. Experience Manager Assets 인스턴스를 최신 서비스 팩으로 업그레이드하고 Adobe Developer Console에서 [구성을 업그레이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)할 수 있습니다.
 
 <!--
 

@@ -170,7 +170,7 @@ Brand Portal 그룹에 사용자를 추가하려면 해당 사용자를 [!UICONT
 
 ## 사용자에게 관리자 권한 제공 {#provide-administrator-privileges-to-users}
 
-Brand Portal 사용자에게 시스템 관리자 또는 제품 관리자 권한을 부여할 수 있습니다. 그러나 [!UICONTROL Admin Console]에서 사용할 수 있는 다른 관리 역할은 할당하지 마십시오. 제품 프로필 관리자, 사용자 그룹 관리자, 지원 관리자 등이 이에 해당합니다. [관리자 역할](https://helpx.adobe.com/enterprise/using/admin-roles.html)을 참조하세요.
+Brand Portal 사용자에게 시스템 관리자 또는 제품 관리자 권한을 부여할 수 있습니다. 그러나 [!UICONTROL Admin Console]에서 사용할 수 있는 다른 관리 역할은 할당하지 마십시오. 제품 프로필 관리자, 사용자 그룹 관리자, 지원 관리자 등이 이에 해당합니다. [관리자 역할](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html)을 참조하세요.
 
 >[!NOTE]
 >

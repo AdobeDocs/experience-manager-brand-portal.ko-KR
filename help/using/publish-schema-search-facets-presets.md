@@ -81,7 +81,7 @@ Brand Portal에서 메타데이터 스키마 게시를 취소하려면 다음 �
 
 ## Brand Portal에 대한 Publish 검색 패싯 {#publish-search-facets-to-brand-portal}
 
-검색 양식은 Brand Portal의 사용자에게 [패싯된 검색](../using/brand-portal-search-facets.md) 기능을 제공합니다. 검색 패싯은 Brand Portal 검색에 더 많은 세부기간을 부여합니다. 검색 양식에서 [추가된 술어](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets)를 검색 필터에서 검색 패싯으로 사용할 수 있습니다.
+검색 양식은 Brand Portal의 사용자에게 [패싯된 검색](../using/brand-portal-search-facets.md) 기능을 제공합니다. 검색 패싯은 Brand Portal 검색에 더 많은 세부기간을 부여합니다. 검색 양식에서 [추가된 술어](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/search-facets)를 검색 필터에서 검색 패싯으로 사용할 수 있습니다.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
