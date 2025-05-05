@@ -39,7 +39,7 @@ ht-degree: 0%
 
    보고서를 보려면 보고서 링크를 클릭합니다. 또는 보고서를 선택하고 도구 모음에서 보기 아이콘을 클릭합니다.
 
-   **[!UICONTROL 사용 보고서]**&#x200B;에는 활성 Brand Portal 사용자 수, 모든 자산이 사용 중인 저장소 공간 및 Brand Portal의 총 자산 수에 대한 정보가 표시됩니다. Admin Console의 제품 프로필에 할당되지 않은 Brand Portal 사용자는 비활성 사용자로 간주되며 **[!UICONTROL 사용 보고서]**에 반영되지 않습니다.
+   **[!UICONTROL 사용 보고서]**&#x200B;에는 활성 Brand Portal 사용자 수, 모든 자산이 사용 중인 저장소 공간 및 Brand Portal의 총 자산 수에 대한 정보가 표시됩니다. Admin Console의 제품 프로필에 할당되지 않은 Brand Portal 사용자는 비활성 사용자로 간주되며 **[!UICONTROL 사용 보고서]**&#x200B;에 반영되지 않습니다.
 또한 이 보고서에는 이러한 각 정보 지표에 대해 허용되는 능력이 표시됩니다.
 
    ![](assets/usage-report.png)

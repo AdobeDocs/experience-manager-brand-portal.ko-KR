@@ -24,7 +24,7 @@ ht-degree: 48%
 
 Brand Portal은 마케터가 파트너 및 내부 사용자와 공동 작업을 통해 디자인 지침, 로고 및 캠페인 자산을 생성하고, 관리하고, 관련자들에게 전달함으로써 브랜드 준수를 보장합니다.
 
-Brand Portal은 클라우드 기반 SAAS 서비스입니다. Adobe Experience Manager Assets 제품(On-Premise 또는 Managed Service)의 추가 기능으로 사용할 수 있습니다. [!DNL Adobe Experience Manager Assets]을(를) [!DNL Cloud Service](으)로 사용하여 Brand Portal을 사용할 수 있습니다. [구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal)되면 [!DNL Adobe Experience Manager Assets]에서 [!DNL Cloud Service] 인스턴스로 승인된 에셋을 [!DNL Brand Portal]에 게시하고 Brand Portal 사용자에게 배포할 수 있습니다.
+Brand Portal은 클라우드 기반 SAAS 서비스입니다. Adobe Experience Manager Assets 제품(On-Premise 또는 Managed Service)의 추가 기능으로 사용할 수 있습니다. [!DNL Adobe Experience Manager Assets]을(를) [!DNL Cloud Service] (으)로 사용하여 Brand Portal을 사용할 수 있습니다. [구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal)되면 [!DNL Adobe Experience Manager Assets]에서 [!DNL Cloud Service] 인스턴스로 승인된 에셋을 [!DNL Brand Portal]에 게시하고 Brand Portal 사용자에게 배포할 수 있습니다.
 
 Brand Portal 솔루션 워크플로우는 다음 이미지에 표시되어 있습니다.
 

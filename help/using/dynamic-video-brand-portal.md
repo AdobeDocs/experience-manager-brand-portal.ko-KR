@@ -85,7 +85,7 @@ Brand Portal에서 동적 비디오로 작업하려면 다음을 확인하십시
   | EMEA | 185.34.189.3, 51.132.146.75 |
   | APAC | 63.140.44.54 |
 
-  허용 목록에 추가하다 이러한 이그레스 IP 중 0개를 테스트하려면 ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비{를 참조하십시오.[
+  허용 목록에 추가하다 이러한 이그레스 IP 중 0개를 테스트하려면 [&#128279;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비&lbrace;를 참조하십시오.
 
 ## 모범 사례
 
@@ -112,10 +112,10 @@ Brand Portal 및 **[!UICONTROL Experience Manager 클라우드 구성]**&#x200B;
 
 ### 허용 목록에 추가하다 Dynamic Media Scene7 모드용 공개 이그레스
 
-Dynamic Media **[!UICONTROL Scene7]**([보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public))을(를) 사용하여 비디오 자산을 Brand Portal에 제공하는 경우 **[!UICONTROL Scene7]**은(는) 스테이징 환경 또는 내부 애플리케이션에 대한 전용 이미지 서버를 설정합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없는 경우 실패 응답이 반환됩니다.
+Dynamic Media **[!UICONTROL Scene7]**([보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public))을(를) 사용하여 비디오 자산을 Brand Portal에 제공하는 경우 **[!UICONTROL Scene7]**&#x200B;은(는) 스테이징 환경 또는 내부 애플리케이션에 대한 전용 이미지 서버를 설정합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없는 경우 실패 응답이 반환됩니다.
 따라서 **[!UICONTROL Scene7]** 회사 관리자는 **[!UICONTROL SPS]**(Scene7 Publishing System) 플래시 UI를 통해 회사의 **[!UICONTROL 보안 테스트]** 환경에 대해 승인된 IP 주소 목록을 구성합니다. 각 지역의 이그레스 IP가 해당 승인 목록에 추가되었는지 확인합니다(다음에서).
-허용 목록에 추가하다 이러한 이그레스 IP 중 0개를 테스트하려면 ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비{를 참조하십시오.
-[
+허용 목록에 추가하다 이러한 이그레스 IP 중 0개를 테스트하려면 보안 테스트 서비스를 위한 계정 준비&lbrace;를 참조하십시오.
+[&#128279;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)
 이그레스 IP는 다음과 같습니다.
 
 | **지역** | **이그레스 IP** |

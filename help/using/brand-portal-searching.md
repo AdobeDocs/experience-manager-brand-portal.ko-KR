@@ -56,7 +56,7 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
 
 ![Brand Portal의 필터 패널](assets/file-type-search.png "Brand Portal의 필터 패널")
 
-**[!UICONTROL 필터]** 패널에는 **[!UICONTROL 경로 브라우저]**, **[!UICONTROL 파일 형식]**, **[!UICONTROL 파일 크기]**, **[!UICONTROL 상태]** 및 **[!UICONTROL 방향]**과 같은 몇 가지 표준 패싯이 포함되어 있습니다.
+**[!UICONTROL 필터]** 패널에는 **[!UICONTROL 경로 브라우저]**, **[!UICONTROL 파일 형식]**, **[!UICONTROL 파일 크기]**, **[!UICONTROL 상태]** 및 **[!UICONTROL 방향]**&#x200B;과 같은 몇 가지 표준 패싯이 포함되어 있습니다.
 그러나 [사용자 지정 검색 패싯을 추가](../using/brand-portal-search-facets.md)하거나 **[!UICONTROL 필터]** 패널에서 특정 검색 패싯을 제거할 수 있습니다. 기본 검색 양식에서 술어를 편집하기만 하면 됩니다. 사용 가능하고 사용 가능한 [Brand Portal의 검색 조건자](../using/brand-portal-search-facets.md#list-of-search-predicates) 목록을 확인하십시오.
 
 사용 가능한 [검색 패싯](../using/brand-portal-search-facets.md)을 사용하여 검색에 필터를 적용하려면:

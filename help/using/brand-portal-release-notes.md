@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 * 소싱 가져오기 이벤트에 대한 이메일 알림이 전송되지 않습니다.
 * 검색 필터를 사용하는 동안 [!DNL Brand Portal]은(는) 검색 필터 창에 중복된 폴더를 표시합니다.
 * 이름에 특수 문자가 있는 라이선스가 없는 자산이 포함된 컬렉션 다운로드가 작동하지 않습니다.
-* [!UICONTROL 검색 양식 편집기](으)로 이동하는 동안 레이블이 현지화되지 않습니다.
+* [!UICONTROL 검색 양식 편집기] (으)로 이동하는 동안 레이블이 현지화되지 않습니다.
 * 링크 공유 창에서 레이블이 현지화되지 않습니다.
 * 이름에 특수 문자가 있는 비디오를 다운로드할 수 없습니다.
 * [!DNL Adobe Experience Manager Assets]에서 Brand Portal으로 자산을 게시하고 게시를 취소하는 작업이 제대로 작동하지 않습니다.
@@ -127,7 +127,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 승인된 크�
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 * 이제 새로운 최신 PDF 뷰어를 사용하여 PDF 에셋을 보다 효율적으로 미리 볼 수 있습니다.
-* 이제 관리자에 대한 에셋 소싱 통지를 활성화 또는 비활성화하도록 선택할 수 있습니다. [!UICONTROL 일반 설정](으)로 이동한 다음 [!UICONTROL `Notify Administrator of asset contribution`]을(를) 활성화하거나 비활성화합니다.
+* 이제 관리자에 대한 에셋 소싱 통지를 활성화 또는 비활성화하도록 선택할 수 있습니다. [!UICONTROL 일반 설정] (으)로 이동한 다음 [!UICONTROL `Notify Administrator of asset contribution`]을(를) 활성화하거나 비활성화합니다.
 
   ![관리자에게 자산 기여 알림](assets/notify-admin.png)
 

@@ -43,10 +43,13 @@ AEM에서 태그를 만들고, Brand Portal에서 태그를 게시하고, 태그
 1. 지정:
 
    * **[!UICONTROL 제목]**
+
      *(필수)* 태그에 대한 표시 제목입니다.
    * **[!UICONTROL 이름]**
+
      *(필수)* 태그의 이름입니다. 지정하지 않으면 제목에서 올바른 노드 이름이 만들어집니다. [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)를 참조하십시오.
    * **설명**
+
      *(선택 사항)* 태그에 대한 설명입니다.
    * **태그 경로**
 태그의 JCR 경로.

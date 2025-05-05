@@ -193,7 +193,7 @@ Brand Portal 사용자에게 시스템 관리자 또는 제품 관리자 권한�
 
    ![Admin Console에 사용자 추가](assets/admin_console_adduseruserpage.png)
 
-1. 사용자 프로필 페이지에서 맨 아래에 있는 **[!UICONTROL 관리 권한]** 섹션을 찾은 다음 **[!UICONTROL 줄임표(...) > 관리 권한 편집]**을 선택합니다.
+1. 사용자 프로필 페이지에서 맨 아래에 있는 **[!UICONTROL 관리 권한]** 섹션을 찾은 다음 **[!UICONTROL 줄임표(...) > 관리 권한 편집]**&#x200B;을 선택합니다.
    ![Admin Console의 관리자 권한](assets/admin_console_editadminrights.png)
 
 1. [!UICONTROL 관리자 편집] 페이지에서 시스템 관리자 또는 제품 관리자를 선택합니다.

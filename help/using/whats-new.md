@@ -179,7 +179,7 @@ AEM Assets as a Cloud Service 인스턴스에서 Brand Portal을 활성화하려
 
 ![상태 보기](assets/create-environment5.png)
 
-{AEM Assetsas a Cloud Service 에서 Brand Portal 활성화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal)를 참조하십시오.[
+&lbrace;AEM Assetsas a Cloud Service 에서 Brand Portal 활성화[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal)를 참조하십시오.
 
 ### AEM Assetsas a Cloud Service 의 에셋 소싱 {#asset-sourcing-on-cloud-service}
 

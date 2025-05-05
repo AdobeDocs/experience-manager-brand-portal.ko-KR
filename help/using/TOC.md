@@ -28,7 +28,7 @@ ht-degree: 34%
    + [Brand Portal에 대한 게스트 액세스](/help/using/guest-access.md)
    + [Experience Manager Assets을 통한 Brand Portal 이해](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [Brand Portal에서 에셋 찾아보기](/help/using/browse-assets-brand-portal.md)
-+ Experience Manager Assets에서 Brand Portal {#publish}(으)로 Publish
++ Experience Manager Assets에서 Brand Portal(으)로 Publish {#publish}
    + [Brand Portal로 Experience Manager Assets 구성](/help/using/configure-aem-assets-with-brand-portal.md)
    + [자산을 Brand Portal에 게시](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
    + [폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
@@ -36,7 +36,7 @@ ht-degree: 34%
    + [Brand Portal에 동시 게시 문제 해결](/help/using/troubleshoot-parallel-publishing.md)
    + [Brand Portal에 Publish 태그 추가](/help/using/brand-portal-publish-tags.md)
    + [Publish 사전 설정, 스키마 및 Brand Portal 패싯](/help/using/publish-schema-search-facets-presets.md)
-+ Brand Portal {#asset-sourcing-in-brand-portal}의 에셋 소싱
++ Brand Portal의 에셋 소싱 {#asset-sourcing-in-brand-portal}
    + [에셋 소싱 개요](/help/using/brand-portal-asset-sourcing.md)
    + [Experience Manager Assets에서 기여 폴더 구성](/help/using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [Experience Manager Assets에 대한 Publish 기여 폴더](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
