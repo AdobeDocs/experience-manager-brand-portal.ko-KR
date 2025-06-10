@@ -1,16 +1,16 @@
 ---
 title: Brand Portal로 Experience Manager Assets 구성
-description: Brand Portal을 사용하여 Experience Manager Assets 구성에 대한 통찰력을 얻으십시오.
+description: insight을 Brand Portal으로 Experience Manager Assets 구성에 참여시킵니다.
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 6%
+source-wordcount: '361'
+ht-degree: 18%
 
 ---
 
@@ -23,9 +23,9 @@ Brand Portal을 사용하여 Experience Manager Assets 구성은에서 지원됩
 * Experience Manager Assets as a Cloud Service
 * Experience Manager Assets(On-Premise 및 Managed Service) 6.5 이상
 
-Experience Manager Assets as a Cloud Service Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal을 자동으로 구성합니다. 활성화 워크플로우는 백엔드에서 필요한 구성을 만들고 Experience Manager Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
+Experience Manager Assets as a Cloud Service은 Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal에 자동으로 구성됩니다. 활성화 워크플로우는 백엔드에서 필요한 구성을 만들고 Experience Manager Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
 
-반면 Experience Manager Assets(온 프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 Adobe Identity Management 서비스(IMS) 토큰을 전달하는 Adobe Developer Console을 사용하여 Brand Portal으로 수동으로 구성합니다.
+반면 Experience Manager Assets(온 프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 Adobe Identity Management Services(IMS) 토큰을 전달하는 Adobe Developer Console을 사용하여 Brand Portal으로 수동으로 구성합니다.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Experience Manager Assets as a Cloud Service Cloud Manager에서 Brand Portal을
 >
 >기존 OAuth 게이트웨이 구성 문제가 발생하는 경우 기존 구성을 삭제하고 Adobe Developer Console을 통해 새 구성을 만드십시오.
 
-Brand Portal에서 AEM Assets을 구성하는 단계는 AEM 버전과 처음 구성하는 것인지 아니면 기존 구성을 업그레이드하는 것인지에 따라 다릅니다.
+Brand Portal에서 AEM Assets를 구성하는 단계는 AEM 버전과 처음 구성하는 것인지 아니면 기존 구성을 업그레이드하는 것인지에 따라 다릅니다.
 
 | **AEM 버전** | **새 구성** | **구성 업그레이드** |
 |---|---|---|

@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
-workflow-type: ht
-source-wordcount: '6576'
-ht-degree: 100%
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+workflow-type: tm+mt
+source-wordcount: '6357'
+ht-degree: 99%
 
 ---
 
@@ -163,31 +163,40 @@ Brand Portal 2021.06.0는 중요한 문제에 대한 수정 사항이 포함된 
 
 Brand Portal 2021.02.0에서는 활성화 워크플로 및 자산 아웃소싱 기능을 통해 AEM Assets as a Cloud Service가 개선되었습니다. 여기에는 자산 다운로드 환경이 개선되고 중요한 수정 사항도 포함되어 있습니다. 또한 관리자는 테넌트 수준에서 자산의 폴더, 컬렉션 및 일괄 다운로드에 대한 기본 다운로드 동작을 구성할 수 있습니다. Brand Portal **[!UICONTROL 사용 보고서]**&#x200B;는 활성 Brand Portal 사용자를 반영하도록 수정되었습니다.
 
-### AEM Assets as a Cloud Service에서 Brand Portal 활성화 {#bp-automation-on-cloud-service}
+>[!IMPORTANT]
+>
+> * Brand Portal은 현재 유지 관리 중입니다.
+> * Cloud Manager을 사용하여 Brand Portal을 활성화하기 위한 사용 사례 및 특정 요구 사항에 대한 자세한 내용은 Adobe 담당자에게 문의할 수 있습니다.
+> * Brand Portal은 Assets Prime 또는 Assets Ultimate에서 사용할 수 없습니다. 그러나 이미 Assets에 액세스할 수 있는 기존 Brand Portal Cloud Services 고객은 Assets Ultimate으로 전환할 때 해당 계정을 유지할 수 있습니다.
 
-AEM Assets as a Cloud Service는 이제 사전 구성된 Brand Portal 인스턴스를 가질 수 있습니다. Cloud Manager 사용자는 AEM Assets as a Cloud Service 인스턴스에서 Brand Portal을 활성화할 수 있습니다.
+<!--
 
-이전에는 Adobe Developer Console을 사용하여 Brand Portal로 AEM Assets as a Cloud Service를 수동으로 구성해야 했습니다.
+### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-Cloud Manager 사용자는 백엔드에서 필요한 구성을 만드는 활성화 워크플로를 트리거하고 AEM Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
+AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-AEM Assets as a Cloud Service 인스턴스에서 Brand Portal을 활성화하는 방법은 다음과 같습니다.
+Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
 
-1. Adobe Cloud Manager에 로그인하고 **[!UICONTROL 환경]**&#x200B;으로 이동합니다.
-1. 목록에서 환경을 하나씩 선택합니다. Brand Portal과 연계된 환경을 찾은 다음 **[!UICONTROL Brand Portal 활성화]**&#x200B;를 클릭하여 활성화 워크플로를 시작합니다.
-1. Brand Portal 테넌트가 활성화되면 상태가 “활성화됨”으로 변경됩니다.
+The Cloud Manager user triggers the activation workflow that creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance. 
 
-![상태 보기](assets/create-environment5.png)
+To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
-[AEM Assets as a Cloud Service에서 Brand Portal 활성화](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal)를 참조하십시오.
+1. Log in to Adobe Cloud Manager and navigate to **[!UICONTROL Environments]**.
+1. Select the environments (one by one) from the list. Once you find the environment associated with Brand Portal, click on the **[!UICONTROL Activate Brand Portal]** button to begin the activation workflow. 
+1. Once the Brand Portal tenant is activated, the status changes to Activated.
 
-### AEM Assets as a Cloud Service에서의 자산 소싱 {#asset-sourcing-on-cloud-service}
+![View Status](assets/create-environment5.png)
 
-이제 AEM Assets as a Cloud Service에서 자산 소싱 기능을 사용할 수 있습니다. 이 기능은 기본적으로 모든 클라우드 서비스 사용자에게 활성화되어 있습니다. 허용되는 Brand Portal 사용자는 기여 폴더에 새로운 자산을 업로드하여 자산 소싱에 기여할 수 있으며, Brand Portal의 기여 폴더를 AEM Assets as a Cloud Service 인스턴스로 게시할 수 있습니다. 관리자는 다른 사용자에게 배포하기 전에 Brand Portal 사용자의 기여를 검토하고 승인할 수 있습니다.
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
-이전에는 자산 소싱이 AEM Assets(온프레미스 및 관리 서비스)에서만 제공되었습니다.
+### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-[Brand Portal의 자산 소싱](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)을 참조하십시오.
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The feature is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to Asset Sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. Administrators can review and approve contributions from Brand Portal users before distributing them to other users.     
+
+Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
+
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+-->
 
 ### 자산 다운로드 {#asset-download-setting}
 

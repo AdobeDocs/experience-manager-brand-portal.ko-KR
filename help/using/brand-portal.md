@@ -5,10 +5,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 4%
+source-wordcount: '1613'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 **Adobe Experience Manager(AEM) Assets Brand Portal**&#x200B;은(는) 자산 배포 및 자산 기여 기능을 제공하여 전 세계에 배포된 Brand Portal 사용자와 효과적으로 공동 작업해야 하는 마케터의 요구에 중점을 둡니다.
 
-Asset distribution을 사용하면 승인된 크리에이티브 에셋을 획득, 제어하고, 장치 간에 외부 관련자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 그러나 에셋 기여를 통해 Brand Portal 사용자는 작성 환경에 액세스하지 않아도 에셋을 Brand Portal에 업로드하고 Experience Manager Assets에 게시할 수 있습니다. 기여 기능을 **Brand Portal의 Assets 소싱**&#x200B;이라고 합니다. 또한 이를 함께 사용하면 Brand Portal 사용자(외부 에이전시/팀)의 자산 배포 및 기여에 대한 전반적인 Brand Portal 경험을 개선할 수 있고, 자산 출시 시기를 앞당길 수 있으며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다.
+Asset distribution을 사용하면 승인된 크리에이티브 에셋을 획득, 제어하고, 장치 간에 외부 관련자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 그러나 에셋 기여를 통해 Brand Portal 사용자는 작성 환경에 액세스하지 않아도 에셋을 Brand Portal에 업로드하고 Experience Manager Assets에 게시할 수 있습니다. 기여 기능을 **Brand Portal의 Assets 소싱**이라고 합니다. 또한 이를 함께 사용하면 Brand Portal 사용자(외부 에이전시/팀)의 자산 배포 및 기여에 대한 전반적인 Brand Portal 경험을 개선할 수 있고, 자산 출시 시기를 앞당길 수 있으며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다.
 [Brand Portal의 자산 소싱](brand-portal-asset-sourcing.md)을 참조하세요.
 
 브라우저 기반 포털 환경을 사용하면 승인된 형식으로 에셋을 쉽게 업로드, 찾아보기, 검색, 미리 보기 및 내보낼 수 있습니다.
@@ -33,7 +33,13 @@ Brand Portal과 함께 Adobe Experience Manager Assets을 구성하면 Brand Por
 >
 >Brand Portal을 사용하여 Experience Manager Assets을 구성하는 기능은 Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 이상에서 지원됩니다.
 
-Experience Manager Assets as a Cloud Service은 Cloud Manager에서 Brand Portal을 활성화하여 Brand Portal에 자동으로 구성됩니다. 활성화 워크플로우는 백엔드에서 필요한 구성을 만들고 Experience Manager Assets as a Cloud Service 인스턴스와 동일한 IMS 조직에서 Brand Portal을 활성화합니다.
+>[!IMPORTANT]
+>
+> * Brand Portal은 현재 유지 관리 중입니다.
+> * Cloud Manager을 사용하여 Brand Portal을 활성화하기 위한 사용 사례 및 특정 요구 사항에 대한 자세한 내용은 Adobe 담당자에게 문의할 수 있습니다.
+> * Brand Portal은 Assets Prime 또는 Assets Ultimate에서 사용할 수 없습니다. 그러나 이미 Assets에 액세스할 수 있는 기존 Brand Portal Cloud Services 고객은 Assets Ultimate으로 전환할 때 해당 계정을 유지할 수 있습니다.
+
+<!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
 하지만 Experience Manager Assets(온 프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 Adobe Identity Management IMS(Services) 토큰을 전달하는 Adobe Developer Console을 사용하여 Brand Portal으로 수동으로 구성합니다.
 
@@ -121,8 +127,8 @@ Experience Manager Assets Brand Portal에서 [게스트가 Brand Portal에 액�
 * [배경 무늬, 페이지 헤더 및 이메일 사용자 지정](brand-portal-branding.md)
 * [사용자 정의 검색 패싯 사용](brand-portal-search-facets.md)
 * [메타데이터 스키마 사용](brand-portal-metadata-schemas.md)
-* [이미지 사전 설정 또는 동적 변환 적용](brand-portal-image-presets.md)
-* [보고서 작업](brand-portal-reports.md)
+* [이미지 사전 설정 또는 동적 렌디션 적용](brand-portal-image-presets.md)
+* [보고서를 사용한 작업](brand-portal-reports.md)
 
 위의 작업 외에도 AEM Assets의 작성자는 다음 작업을 수행할 수 있습니다.
 
@@ -144,13 +150,13 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 >
 >이전 별칭을 바꾸거나 삭제하려면 동일한 프로세스를 따라야 합니다.
 
-## Brand Portal 액세스 요청 {#request-access-to-brand-portal}
+## Brand Portal에 대한 액세스 권한 요청 {#request-access-to-brand-portal}
 
 사용자는 로그인 화면에서 Brand Portal 액세스를 요청할 수 있습니다. 이러한 요청은 Brand Portal 관리자에게 전송되며, 관리자는 Adobe [!UICONTROL Admin Console]을(를) 통해 사용자에게 액세스 권한을 부여합니다. 액세스 권한이 부여되면 사용자에게 알림 이메일이 전송됩니다.
 
 액세스 권한을 요청하려면 다음을 수행하십시오.
 
-1. Brand Portal 로그인 페이지에서 **[!UICONTROL 액세스 필요 여부에 해당하는**&#x200B;[!UICONTROL &#x200B;여기를 클릭&#x200B;]&#x200B;**을 선택합니다.]**. 그러나 게스트 세션을 시작하려면 **[!UICONTROL 게스트 액세스?]**&#x200B;에 해당하는 **[!UICONTROL 여기를 클릭]**&#x200B;하세요.
+1. Brand Portal 로그인 페이지에서 **[!UICONTROL 액세스 필요 여부에 해당하는**[!UICONTROL &#x200B;여기를 클릭&#x200B;]**을 선택합니다.]**. 그러나 게스트 세션을 시작하려면 **[!UICONTROL 게스트 액세스?]**&#x200B;에 해당하는 **[!UICONTROL 여기를 클릭]**&#x200B;하세요.
 
    ![Brand Portal 로그인 화면](assets/bp-login-requestaccess.png)
 
@@ -164,7 +170,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
    **시나리오 1**
 
-   1. [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]이 있는 경우 **[!UICONTROL 로그인]**&#x200B;을 클릭하세요.
+   1. [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]이 있는 경우 **[!UICONTROL 로그인]**을 클릭하세요.
 [!UICONTROL 로그인] 페이지가 열립니다.
 
    1. [!UICONTROL Adobe ID] 자격 증명을 제공하고 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
@@ -175,9 +181,9 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
    **시나리오 2**
 
-   1. [!UICONTROL Adobe ID]이 없는 경우 새로 만들려면 [!UICONTROL 액세스 요청] 페이지에서 **[!UICONTROL Adobe ID 가져오기]**&#x200B;를 클릭하세요.
+   1. [!UICONTROL Adobe ID]이 없는 경우 새로 만들려면 [!UICONTROL 액세스 요청] 페이지에서 **[!UICONTROL Adobe ID 가져오기]**를 클릭하세요.
 [!UICONTROL 로그인] 페이지가 열립니다.
-   1. **[!UICONTROL Adobe ID 가져오기]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL Adobe ID 가져오기]**를 클릭합니다.
 [!UICONTROL 등록] 페이지가 열립니다.
    1. 이름과 성, 이메일 ID 및 암호를 입력합니다.
    1. **[!UICONTROL 등록]**&#x200B;을 선택하세요.
@@ -196,7 +202,7 @@ Brand Portal 제품 관리자는 자신의 Brand Portal 알림 영역과 받은 
 
 ![요청된 알림에 액세스](assets/bplogin_request_access_7.png)
 
-액세스 권한을 부여하려면 제품 관리자가 Brand Portal 알림 영역에서 관련 알림을 클릭한 다음 **[!UICONTROL 액세스 권한 부여]**&#x200B;를 클릭해야 합니다.
+액세스 권한을 부여하려면 제품 관리자가 Brand Portal 알림 영역에서 관련 알림을 클릭한 다음 **[!UICONTROL 액세스 권한 부여]**를 클릭해야 합니다.
 또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 Adobe [!UICONTROL Admin Console]을(를) 방문하여 사용자를 관련 제품 구성에 추가할 수 있습니다.
 
 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 홈 페이지로 리디렉션되었습니다. Adobe [!UICONTROL Admin Console]을(를) 사용하여 사용자를 만들고 Brand Portal에 그룹으로 표시되는 제품 프로필(이전의 제품 구성)에 사용자를 할당합니다. [!UICONTROL Admin Console]에서 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자 추가](brand-portal-adding-users.md#add-a-user)를 참조하십시오(사용자 추가 절차의 4-7단계).
@@ -217,7 +223,7 @@ Adobe [!UICONTROL Experience Cloud 설정]에서 Brand Portal 언어를 변경�
 
 ## Brand Portal 유지 관리 알림 {#brand-portal-maintenance-notification}
 
-Brand Portal이 유지 관리를 위해 다운되도록 예약되기 전에 Brand Portal에 로그인하면 알림이 배너로 표시됩니다. 샘플 알림:
+Brand Portal이 유지 관리를 위해 다운되도록 예약되기 전에 Brand Portal에 로그인하면 알림이 배너로 표시됩니다. 샘플 알림은 다음과 같습니다.
 
 ![](assets/bp_maintenance_notification.png)
 
@@ -235,4 +241,4 @@ Brand Portal이 유지 관리를 위해 다운되도록 예약되기 전에 Bran
 * [Adobe Customer Support]()
 -->
 
-* [AEM 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ko)
+* [AEM 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
