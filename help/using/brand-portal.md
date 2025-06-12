@@ -37,7 +37,7 @@ Brand Portal과 함께 Adobe Experience Manager Assets을 구성하면 Brand Por
 >
 > * Brand Portal은 유지 관리 모드입니다. 모든 새로운 제품 혁신은 [Content Hub](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)에서 사용할 수 있습니다.
 > * 여전히 Brand Portal을 활성화해야 하는 경우 사용 사례 및 기타 특정 요구 사항에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
-> * Brand Portal은 [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) 또는 [Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)에서 사용할 수 없습니다. 그러나 이미 Brand Portal에 액세스할 수 있는 기존 Assets as a Cloud Service 고객은 Assets Ultimate으로 전환할 때 계속 사용할 수 있습니다.
+> * Brand Portal은 [Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime) 또는 [Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)에서 사용할 수 없습니다. 그러나 이미 Brand Portal에 액세스할 수 있는 기존 Assets as a Cloud Service 고객은 Assets Ultimate으로 전환할 때 계속 사용할 수 있습니다.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
