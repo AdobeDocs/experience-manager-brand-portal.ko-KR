@@ -241,4 +241,4 @@ Brand Portal이 유지 관리를 위해 다운되도록 예약되기 전에 Bran
 * [Adobe Customer Support]()
 -->
 
-* [AEM 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ko)
