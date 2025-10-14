@@ -33,7 +33,7 @@ Adobe Experience Manager Assets Brand Portal을 사용하면 주문형 설치 �
 
 * **[!UICONTROL 도구]** > **[!UICONTROL 다운로드]**(으)로 이동하여 **[!UICONTROL 다운로드 설정]**&#x200B;에서 **[!UICONTROL 빠른 다운로드]** 구성이 활성화되어 있는지 확인합니다.
 * 방화벽에서 포트 33001(TCP 및 UDP 모두)가 열려 있는지 확인합니다.
-* **관리자 권한을 사용하여 브라우저의 확장에 IBM® Aspera Connect 3.9.9**&#x200B;을 설치합니다([IBM® Aspera Connect 다운로드](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **관리자 권한을 사용하여 브라우저의 확장에 IBM® Aspera Connect 3.9.9**&#x200B;을 설치합니다([IBM® Aspera Connect 다운로드](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Brand Portal에서 에셋을 더 빨리 다운로드하려면:
 
 1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 IBM® Aspera Connect를 사용하여 에셋을 다운로드하라는 확인 상자가 나타납니다.
 
-   에셋을 처음 다운로드했는데 브라우저에 IBM® Aspera Connect가 설치되어 있지 않은 경우 해당 에셋을 설치하라는 메시지가 표시됩니다. 기존 버전이 오래된 경우 [Aspera 다운로드 가속기를 설치](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)하라는 메시지가 표시됩니다.
+   에셋을 처음 다운로드했는데 브라우저에 IBM® Aspera Connect가 설치되어 있지 않은 경우 해당 에셋을 설치하라는 메시지가 표시됩니다. 기존 버전이 오래된 경우 [Aspera 다운로드 가속기를 설치](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)하라는 메시지가 표시됩니다.
 
    ![](assets/aspera-not-launched.png)
 
