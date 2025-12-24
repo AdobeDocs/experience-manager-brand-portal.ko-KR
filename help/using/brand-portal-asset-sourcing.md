@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ![Brand Portal 자산 소싱](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32893/?captions=kor&quality=12)
 
 ## 사전 요구 사항 {#prerequisites}
 
