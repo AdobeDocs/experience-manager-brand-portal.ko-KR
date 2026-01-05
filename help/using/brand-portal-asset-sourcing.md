@@ -12,7 +12,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 9b8a415fa3a19e462ea797cfc9c3ea9b9323723e
+source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ![Brand Portal 자산 소싱](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/32893/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -40,7 +40,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->에셋 소싱 기능은 기본적으로 Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 이상에서 활성화됩니다.
+>에셋 소싱 기능은 Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 이상에서 기본적으로 활성화되어 있습니다.
 >
 >기존 구성은 이전 버전에서 계속 작동합니다.
 
