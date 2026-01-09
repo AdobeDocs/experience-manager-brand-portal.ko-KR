@@ -1,21 +1,24 @@
 ---
 title: Experience Manager Assets Brand Portal의 새로운 기능
-description: Experience Manager Assets Brand Portal 버전 2024.10.0의 새로운 기능과 개선 사항에 대해 알아봅니다.
+description: Experience Manager Assets Brand Portal 버전 2026.01.01의 새로운 기능 및 개선 사항에 대해 알아봅니다.
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
-workflow-type: ht
-source-wordcount: '6373'
-ht-degree: 100%
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '6400'
+ht-degree: 99%
 
 ---
 
 # Experience Manager Assets Brand Portal의 새로운 기능 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal을 사용하면 다양한 디바이스에서 승인된 크리에이티브 자산을 손쉽게 확보하고, 제어하고, 외부 당사자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 이렇게 하면 자산 공유의 효율성을 높이고, 자산의 시장 출시 기간을 앞당기고, 규정 비준수 및 무단 액세스의 위험을 줄이는 데 도움이 됩니다. Adobe는 전반적인 Brand Portal 경험을 개선하기 위해 노력하고 있습니다. 다음은 새로운 기능 및 개선 사항에 대한 미리보기입니다.
+
+## 2026.01.01의 변경 사항 {#what-changed-in-January-2026}
+
+Brand Portal 2026.01.01은 중요한 문제에 대한 수정 사항이 포함된 내부 릴리스입니다. 최신 [Brand Portal 릴리스 정보](brand-portal-release-notes.md)를 참조하십시오.
 
 ## 2024.10.0에서 변경된 내용 {#what-changed-in-October-2024}
 
@@ -187,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +198,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### 자산 다운로드 {#asset-download-setting}
@@ -775,7 +778,7 @@ Brand Portal 6.4.1은 플랫폼 업그레이드 릴리스입니다. 여기에는
 **사용자 보고 경험 향상**
 Brand Portal의 보고 인터페이스가 더욱 직관적으로 개선되어 조직의 제어를 강화합니다. 다양한 보고서를 만드는 것 외에도 관리자는 생성된 보고서를 다시 열람하고 다운로드하거나 삭제할 수 있습니다. 이들 보고서는 Brand Portal에 저장됩니다.
 
-생성되는 각 보고서는 기본 열을 추가하거나 제거하여 사용자 지정할 수 있습니다. 또한 다운로드, 만료 및 게시 보고서에 사용자 정의 열을 추가하여 보고서의 세부 수준을 조절할 수 있습니다.
+생성되는 각 보고서는 기본 열을 추가하거나 제거하여 사용자 지정할 수 있습니다. 또한 다운로드, 만료 및 게시 보고서에 사용자 정의 열을 추가하여 보고서의 세부성 수준을 조절할 수 있습니다.
 
 ### 개선된 관리 도구
 

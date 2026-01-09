@@ -1,15 +1,15 @@
 ---
 title: Experience Manager Assets에서 Brand Portal으로 기여도 폴더 구성 및 게시
-description: Experience Manager Assets에서 Brand Portal으로의 기여 폴더 구성 및 게시에 대한 통찰력을 얻으십시오.
+description: insight에서 Brand Portal으로 기여도 폴더 구성 및 게시하기에 Experience Manager Assets을 다운로드하십시오.
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 9e51048d21c5b4a34696e668309657d2091a8b04
+source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 0%
+source-wordcount: '1057'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Manager Assets 사용자는 기여 폴더를 구성하는 동안 다�
 * [기여 폴더 만들기](#create-contribution-folder)
 * [자산 요구 사항 업로드 및 참가자 할당](#configure-contribution-folder-properties)
 * [기준선 에셋 업로드](#uplad-new-assets-to-contribution-folder)
-* [Experience Manager Assets에서 Brand Portal으로의 Publish 기여 폴더](#publish-contribution-folder-to-brand-portal)
+* [Experience Manager Assets에서 Brand Portal으로 기여 폴더 게시](#publish-contribution-folder-to-brand-portal)
 
 ## 기여 폴더 만들기 {#create-contribution-folder}
 
@@ -53,13 +53,14 @@ Experience Manager Assets 사용자는 기여 폴더를 구성하는 동안 다�
 1. 새 폴더를 만들려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하십시오. **[!UICONTROL 폴더 만들기]** 대화 상자가 열립니다.
 
 1. 폴더의 **[!UICONTROL 제목]** 및 **[!UICONTROL 이름]**&#x200B;을 입력하고 **[!UICONTROL 자산 기여도]** 확인란을 선택하십시오.
-Adobe은 공백 없이 소문자를 사용하여 폴더 이름을 지정할 것을 권장합니다.
+Adobe에서는 공백 없이 소문자를 사용하여 폴더 이름을 지정할 것을 권장합니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. Experience Manager Assets 저장소에 나열된 기여 폴더를 볼 수 있습니다.
 
    >[!NOTE]
    >
-   >관리자가 아닌 사용자는 자산 기여 폴더를 만들고 공유할 수 있지만 수정하거나 삭제할 수는 없습니다.
+   > * Brand Portal에서 AEM으로 빈 폴더를 게시할 수 없으므로 소싱 폴더는 비워 둘 수 없으며 하나 이상의 자산을 포함해야 합니다.
+   > * 관리자가 아닌 사용자는 자산 기여 폴더를 만들고 공유할 수 있지만 수정하거나 삭제할 수는 없습니다.
 
 
    ![](assets/create-contribution-folder.png)
@@ -92,7 +93,7 @@ Experience Manager Assets 관리자는 기여 폴더의 속성을 구성하는 �
 
 1. **[!UICONTROL 자산 기여]** 탭으로 이동합니다.
 1. 기여도 폴더의 높은 수준의 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
-1. 로컬 컴퓨터에서 찾아보고 **자산 요구 사항 문서**&#x200B;를 업로드하려면 **[!UICONTROL 개요 업로드]**&#x200B;를 클릭하세요.
+1. 로컬 컴퓨터에서 찾아보고 **[!UICONTROL 자산 요구 사항 문서]**&#x200B;를 업로드하려면 **개요 업로드**&#x200B;를 클릭하세요.
 
    ![](assets/upload.png)
 
@@ -105,7 +106,7 @@ Experience Manager Assets 관리자는 기여 폴더의 속성을 구성하는 �
 >
 >검색 결과는 Experience Manager Assets에 구성된 Brand Portal 사용자 목록을 기반으로 합니다. 업데이트된 Brand Portal 사용자 목록이 있는지 확인합니다.
 
-관리자는 [!DNL Admin Console]에서 `user.csv` 파일을 다운로드하여 Brand Portal 사용자를 추가하기 위한 기본 템플릿으로 사용할 수 있습니다. [!UICONTROL 사용자] (으)로 이동하고 [!UICONTROL 사용자 목록을 csv로 내보내기] 옵션을 클릭하여 `users.csv` 파일을 다운로드합니다. 다음 샘플 사용자 목록에서는 사용자를 추가하는 데 필요한 속성을 자세히 설명합니다. 사용자 항목에 대한 유일한 필수 특성은 `Email`이며 다른 모든 특성은 선택 사항입니다.
+관리자는 `user.csv`에서 [!DNL Admin Console] 파일을 다운로드하여 Brand Portal 사용자를 추가하기 위한 기본 템플릿으로 사용할 수 있습니다. [!UICONTROL 사용자]&#x200B;(으)로 이동하고 [!UICONTROL 사용자 목록을 csv로 내보내기] 옵션을 클릭하여 `users.csv` 파일을 다운로드합니다. 다음 샘플 사용자 목록에서는 사용자를 추가하는 데 필요한 속성을 자세히 설명합니다. 사용자 항목에 대한 유일한 필수 특성은 `Email`이며 다른 모든 특성은 선택 사항입니다.
 
 [파일 가져오기](assets/users.csv)
 
@@ -136,7 +137,7 @@ Experience Manager Assets 사용자는 기본 자산 집합을 **SHARED** 폴더
 모든 에셋 또는 폴더를 NEW 폴더에 업로드한 후 기여도 폴더를 Experience Manager Assets에 게시합니다.
 
 
-## Brand Portal에 대한 Publish 기여 폴더 {#publish-contribution-folder-to-brand-portal}
+## 기여 폴더를 Brand Portal에 게시 {#publish-contribution-folder-to-brand-portal}
 
 기여도 폴더가 구성되면 Experience Manager Assets 사용자(관리자/관리자가 아닌 사용자)는 기여도 폴더를 Experience Manager Assets에서 Brand Portal으로 게시할 수 있습니다. 기여 폴더에 액세스할 수 있는 권한이 있는 Brand Portal 사용자는 게시 작업이 완료되면 이메일 또는 펄스 알림을 받게 됩니다.
 
@@ -146,7 +147,7 @@ Experience Manager Assets 사용자는 기본 자산 집합을 **SHARED** 폴더
 1. Experience Manager Assets 인스턴스에 로그인.
 
 1. **[!UICONTROL Assets > 파일]**(으)로 이동하여 Brand Portal에 게시할 기여 폴더를 찾습니다.
-1. 기여 폴더를 선택하고 **[!UICONTROL 빠른 Publish]** > **[!UICONTROL Brand Portal으로 Publish]**&#x200B;을 클릭합니다.
+1. 기여도 폴더를 선택하고 **[!UICONTROL 빠른 게시]** > **[!UICONTROL Brand Portal에 게시]**&#x200B;를 클릭합니다.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 

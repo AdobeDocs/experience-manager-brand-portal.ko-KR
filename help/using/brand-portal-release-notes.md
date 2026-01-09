@@ -1,38 +1,49 @@
 ---
 title: 릴리스 정보
-description: Adobe Experience Manager Assets Brand Portal 2024.10.0 릴리스의 기능, 개선 사항, 해결된 중요한 문제 및 알려진 문제에 대한 인사이트를 얻으십시오.
+description: Adobe Experience Manager Assets Brand Portal 2026.01.01 릴리스의 기능, 개선 사항, 해결된 중요한 문제 및 알려진 문제에 대한 인사이트를 얻으십시오.
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
-workflow-type: ht
-source-wordcount: '1533'
-ht-degree: 100%
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '1595'
+ht-degree: 96%
 
 ---
 
 # 릴리스 정보 {#release-notes}
 
-Adobe Experience Manager Assets Brand Portal 2024.10.0 릴리스의 새로운 기능, 개선 사항, 해결된 중요한 문제 및 알려진 문제에 대한 인사이트를 얻으십시오.
+Adobe Experience Manager Assets Brand Portal 2026.01.01 릴리스의 새로운 기능, 개선 사항, 해결된 중요한 문제 및 알려진 문제에 대한 인사이트를 얻으십시오.
 
 ## 릴리스 정보 {#release-information}
 
 | 제품 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 버전 | 2024.10.0 |
-| 날짜 | 2024년 10월 |
+| 버전 | 2026.01.01 |
+| 날짜 | 2026년 1월 |
 
 ## 개요 {#overview}
 
 Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디바이스에서 승인된 크리에이티브 자산을 손쉽게 확보하고, 제어하고, 외부 당사자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 이렇게 하면 자산 공유의 효율성을 높이고, 자산의 시장 출시 기간을 앞당기고, 규정 비준수 및 무단 액세스의 위험을 줄이는 데 도움이 됩니다. Brand Portal을 이용하면 사용자는 언제 어디서나 회사에서 승인한 형식으로 자산을 탐색하고, 검색하고, 미리 보고, 다운로드하고, 내보낼 수 있습니다.
 
-## 2024.10.0의 새로운 기능 {#whats-new-in-2024.10.0}
+## 2026.01.01의 새로운 기능 {#whats-new-in-2026.01.01}
 
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
-#### 버그 수정 {#bug-fixes}
+#### 개선 사항 {#enhancements}
+
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* 이제 [관리 도구] 패널 > [Dynamic Media 구성]에서 **[!UICONTROL 재설정]** 단추를 사용하여 변경 내용을 지우고 암호를 재설정하고 구성을 기본 상태로 복원할 수 있습니다.
+
+* Brand Portal은 AEM에 게시하기 전에 소싱 폴더에 하나 이상의 에셋이 포함되어 있는지 확인하여 불완전한 게시를 방지합니다.
+
+## 이전 릴리스
+
+### 2024년 10월 릴리스 {#oct-2024}
+
+**버그 수정 및 개선 사항**
 
 이번 릴리스에는 다음과 같은 버그 수정 사항이 포함됩니다.
 
@@ -44,8 +55,6 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 * 이름에 특수 문자가 포함된 비디오를 다운로드할 수 없습니다.
 * [!DNL Adobe Experience Manager Assets]의 자산을 Brand Portal에 게시하거나 게시 취소하는 기능이 제대로 작동하지 않습니다.
 * Brand Portal에서 다운로드한 비디오를 재생할 수 없습니다.
-
-## 이전 릴리스
 
 ### 2024년 2월 릴리스 {#feb-2024}
 
