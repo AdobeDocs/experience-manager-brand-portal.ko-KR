@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
 workflow-type: tm+mt
-source-wordcount: '6400'
-ht-degree: 99%
+source-wordcount: '6645'
+ht-degree: 97%
 
 ---
 
@@ -104,15 +104,15 @@ Brand Portal 2021.08.0은 자산에 대한 조직의 제어 권한을 강화하�
 
 * [Adobe 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-adobe-profiles.html)
 
-* [사용자 및 관리자의 로그인 경험 업데이트](https://helpx.adobe.com/kr/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [사용자 및 관리자의 로그인 경험으로 업데이트](https://helpx.adobe.com/kr/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* [마이그레이션 중 로그인 제한 사항](https://helpx.adobe.com/kr/enterprise/kb/account-temporarily-unavailable.html)
+* [마이그레이션 중 로그인 제한](https://helpx.adobe.com/kr/enterprise/kb/account-temporarily-unavailable.html)
 
 * [Admin Console에서 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html)
 
-* [기업 사용자의 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html#assign-users)
+* [기업 사용자를 위한 제품 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [도메인 신뢰](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [도메인 트러스트](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -190,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -198,7 +198,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### 자산 다운로드 {#asset-download-setting}
@@ -379,7 +379,8 @@ Brand Portal 관리자는 모든 조합을 활성화하여 자산 다운로드�
 
 Brand Portal 6.4.6에서는 AEM Assets 및 Brand Portal 간 인증 채널이 변경되었습니다. 이제 Brand Portal은 AEM Assets as a Cloud Service, AEM Assets 6.3 이상에서 지원됩니다. AEM Assets 6.3 이상 버전에서 Brand Portal은 처음에 기존 OAuth 게이트웨이를 사용하여 클래식 UI로 구성되었습니다. 이 게이트웨이는 JWT 토큰 교환을 통해 인증을 위해 IMS 액세스 토큰을 받습니다. 이제 AEM Assets는 Adobe Developer Console을 통해 Brand Portal로 구성되며, Brand Portal은 Brand Portal 테넌트의 인증을 위해 IMS 토큰을 받습니다.
 
-<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+<!-- 
+The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
 
 <!--
@@ -391,23 +392,25 @@ Brand Portal 6.4.6에서는 AEM Assets 및 Brand Portal 간 인증 채널이 변
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** | | 
 
-   -->
+-->
 
 Brand Portal에서 AEM Assets를 구성하는 단계는 AEM 버전과 처음 구성하는 것인지 아니면 기존 구성을 업그레이드하는 것인지에 따라 다릅니다.
 
-<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+<!--
+| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-
 -->
 
 
-<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+<!-- 
+AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 * AEM 6.5.4.0 and above
 * AEM 6.4.8.0 and above
-* AEM 6.3.3.8 and above -->
+* AEM 6.3.3.8 and above 
+-->
 
 | **AEM 버전** | **새 구성** | **구성 업그레이드** |
 |---|---|---|
@@ -512,7 +515,7 @@ Brand Portal 6.4.3에서는 액세스 URL에 대한 대체 별칭, 새로운 폴
 
 ### 관리자가 아닌 사용자를 위한 폴더 계층 탐색
 
-이제 관리자는 로그인 시 관리자가 아닌 사용자(편집자, 뷰어 및 게스트 사용자)에게 폴더가 표시되는 방식을 구성할 수 있습니다. 관리 도구 패널의 **일반 설정**&#x200B;에 [폴더 계층 구조 활성화 구성](../using/brand-portal-general-configuration.md)이 추가되었습니다. 구성 상태에 대한 설명은 다음과 같습니다.
+이제 관리자는 로그인 시 관리자가 아닌 사용자(편집자, 뷰어 및 게스트 사용자)에게 폴더를 표시하는 방법을 구성할 수 있습니다. [폴더 계층 구조 사용](../using/brand-portal-general-configuration.md) 구성이 관리 도구 패널의 **일반 설정**&#x200B;에 추가되었습니다. 구성 상태에 대한 설명은 다음과 같습니다.
 
 * 구성이 **활성화된 경우**, 루트 폴더부터 시작하는 폴더 트리가 관리자가 아닌 사용자에게도 표시됩니다. 따라서 관리자와 유사한 탐색 환경이 제공됩니다.
 * 구성이 **비활성화**&#x200B;된 경우, 공유 폴더만 랜딩 페이지에 표시됩니다.
@@ -917,7 +920,7 @@ Brand Portal 사용자 경험을 AEM에 맞추기 위해 Adobe는 Coral 3 사용
 
 ### 추가 메타데이터 {#additional-metadata}
 
-Brand Portal 6.3.1에서는 AEM Assets 6.3과 동등한 수준의 추가 메타데이터가 도입되었습니다. 스키마 편집기 양식을 사용하여 자산 속성 페이지에 표시될 메타데이터를 제어할 수 있습니다. 외부 링크 공유 사용자는 링크 공유 URL을 통해 자산을 미리 보고 다운로드할 수 있으나, 자산 메타데이터는 확인할 수 없습니다.
+Brand Portal 6.3.1은 AEM Assets 6.3과 동등한 추가 메타데이터를 도입했습니다. 스키마 편집기 양식을 사용하여 Assets 속성 페이지에 표시되어야 하는 메타데이터를 제어할 수 있습니다. 외부 링크 공유 사용자는 링크 공유 URL을 통해 자산을 미리 보고 다운로드할 수 있으나, 자산 메타데이터는 확인할 수 없습니다.
 
 ![](assets/additionsinmetadata.png)
 
