@@ -6,10 +6,10 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 3%
+source-wordcount: '1957'
+ht-degree: 9%
 
 ---
 
@@ -47,13 +47,13 @@ Brand Portal 관리자는 Brand Portal 사용자에 대한 에셋 다운로드 �
 
   IBM® Aspera Connect를 사용하여 에셋을 신속하게 다운로드할 수 있습니다. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다.
 
-* **[!UICONTROL 사용자 지정 표현물]**
+* **[!UICONTROL 사용자 정의 렌디션]**
 
   에셋의 사용자 지정 및 (또는) 동적 렌디션을 다운로드할 수 있습니다.
 
   원래 에셋 및 시스템 생성 렌디션이 아닌 모든 에셋 렌디션을 사용자 지정 렌디션이라고 합니다. 자산에 사용할 수 있는 정적 렌디션과 동적 렌디션이 포함되어 있습니다. 모든 사용자는 Experience Manager Assets에서 사용자 정의 정적 렌디션을 만들 수 있지만 관리자만 사용자 정의 동적 렌디션을 만들 수 있습니다. [이미지 사전 설정 또는 동적 변환을 적용하는 방법](../using/brand-portal-image-presets.md)을 참조하세요.
 
-* **[!UICONTROL 시스템 표현물]**
+* **[!UICONTROL 시스템 렌디션]**
 
   에셋의 시스템 생성 렌디션을 다운로드할 수 있습니다.
 
@@ -79,13 +79,13 @@ Brand Portal 관리자는 Brand Portal 사용자에 대한 에셋 다운로드 �
 
 Brand Portal 관리자는 **[!UICONTROL 다운로드 설정]** 외에도 다른 사용자 그룹에 대한 설정을 추가로 구성하여 원본 에셋과 해당 렌디션을 보거나 다운로드할 수 있습니다.
 
-관리자로 Brand Portal 테넌트에 로그인하고 **[!UICONTROL 도구]** > **[!UICONTROL 사용자]**(으)로 이동합니다. **[!UICONTROL 사용자 역할]** 페이지에서 **[!UICONTROL 그룹]** 탭으로 이동하여 사용자 그룹에 대한 보기 및(또는) 다운로드 설정을 구성합니다.
+관리자로 Brand Portal 테넌트에 로그인하고 **[!UICONTROL 도구]** > **[!UICONTROL 사용자]**&#x200B;로 이동합니다. **[!UICONTROL 사용자 역할]** 페이지에서 **[!UICONTROL 그룹]** 탭으로 이동하여 사용자 그룹에 대한 보기 및(또는) 다운로드 설정을 구성합니다.
 
-![보기-다운로드-권한](assets/download-permissions.png)
+![다운로드-권한-보기](assets/download-permissions.png)
 
 >[!NOTE]
 >
->사용자가 여러 그룹에 추가되고 이러한 그룹 중 하나에 제한이 있는 경우 해당 사용자에게는 제한이 적용됩니다.
+>사용자가 여러 그룹에 추가되고 해당 그룹 중 하나에 제한이 있는 경우, 해당 제한은 사용자에게 적용됩니다.
 
 구성에 따라 다운로드 워크플로우는 독립 실행형 에셋, 에셋이 포함된 여러 에셋, 라이센스가 부여되거나 라이센스 부여되지 않은 에셋 및 공유 링크를 사용하는 에셋 다운로드에 대해 일정하게 유지됩니다.
 
@@ -116,12 +116,12 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 에셋, 에�
 
 사용자가 변환에 액세스할 수 있는 경우 다음과 같은 기능이 포함된 향상된 **[!UICONTROL 다운로드]** 대화 상자가 제공됩니다.
 
-* 다운로드 목록에서 사용 가능한 모든 에셋 렌디션을 표시합니다.
+* 다운로드 목록에 있는 모든 자산의 사용 가능한 렌디션을 볼 수 있습니다.
 * 다운로드에 필요하지 않은 자산의 렌디션을 제외합니다.
-* 한 번의 클릭으로 유사한 모든 에셋 유형에 동일한 렌디션 세트를 적용합니다.
-* 서로 다른 에셋 유형에 대해 서로 다른 렌디션 세트를 적용합니다.
-* 각 에셋에 대해 별도의 폴더를 만듭니다.
-* 선택한 에셋 및 해당 렌디션을 다운로드합니다.
+* 한 번의 클릭으로 모든 유사한 자산 유형에 동일한 렌디션 세트를 적용할 수 있습니다.
+* 다양한 자산 유형에 대해 다른 렌디션 세트를 적용할 수 있습니다.
+* 각 자산에 대해 별도의 폴더를 만들 수 있습니다.
+* 선택한 자산과 해당 렌디션을 다운로드할 수 있습니다.
 
 ![다운로드 대화 상자](assets/download-dialog-box.png)
 
@@ -156,7 +156,7 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
      >
      >다운로드한 자산에 사용 허가된 자산도 포함되어 있으면 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다. 이 페이지에서 자산을 선택하고 **[!UICONTROL 동의]**&#x200B;를 클릭한 다음 **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다. 동의하지 않기로 선택한 경우 라이센스가 부여된 에셋이 다운로드되지 않습니다.
      > 
-     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)이(가) 첨부되어 있습니다.
+     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)이(가) 첨부되어 있습니다.
 
 
      ![라이선스 자산](assets/licensed-asset-new.png)
@@ -185,7 +185,8 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
 
    IBM® Aspera Connect를 사용하지 않으려면 **[!UICONTROL 거부]**&#x200B;를 클릭합니다. **[!UICONTROL 빠른 다운로드]**&#x200B;가 거부되거나 실패하면 시스템에서 오류 메시지를 채웁니다. 에셋 다운로드를 계속하려면 **[!UICONTROL 일반 다운로드]** 단추를 클릭하십시오.
 
-<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+<!-- 
+   removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
@@ -209,7 +210,7 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
 >
 >Brand Portal은 하이브리드 모드와 Scene7 모드 모두에서 Dynamic Media 구성을 지원합니다.
 >
->(*Experience Manager Assets 작성자 인스턴스가&#x200B;**Dynamic Media 하이브리드 모드***에서 실행 중인 경우)
+>(*Experience Manager Assets 작성자 인스턴스가&#x200B;**Dynamic Media 하이브리드 모드에서 실행 중인 경우***)
 >
 >동적 변환을 미리 보거나 다운로드하려면 dynamic media를 활성화합니다. 에셋이 게시된 Experience Manager Assets 작성자 인스턴스에 에셋의 피라미드형 tiff 표현물이 있는지 확인합니다. 자산이 Experience Manager Assets에서 Brand Portal으로 게시되면 피라미드형 tiff 표현물도 게시됩니다.
 
@@ -217,7 +218,8 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
 
 ![액세스 안 함 메시지](assets/no-access-message.png)
 
-<!-- This issue has been resolved, check with engineering.
+<!-- 
+This issue has been resolved, check with engineering.
 >[!NOTE]
 >
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
@@ -250,7 +252,8 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
 
    **[!UICONTROL 빠른 다운로드]** 사용을 거부하면 오류 메시지가 표시됩니다. 에셋 다운로드를 계속하려면 **[!UICONTROL 일반 다운로드]** 단추를 클릭하십시오.
 
-<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+<!-- 
+removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -275,7 +278,8 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
 >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-<!-- Backup of content before updating the new feature docs.
+<!-- 
+Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 

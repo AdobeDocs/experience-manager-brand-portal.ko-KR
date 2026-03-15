@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 6%
+source-wordcount: '1044'
+ht-degree: 12%
 
 ---
 
@@ -52,11 +52,11 @@ Brand Portal의 보기 선택기에서 사용 가능한 보기(카드, 열 및 �
 * 유형
 * 제목
 * 이름
-* AEM에서 자산이 Brand Portal에 게시된 날짜 및 시간
+* AEM에서 Brand Portal으로 자산이 게시된 날짜 및 시간
 * 크기
-* 치수
+* 해상도
 
-카드를 클릭하여 계층 구조를 아래로 이동하거나(빠른 작업이 발생하지 않도록 주의), 헤더에서 [탐색 표시를 사용하여](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) 다시 위로 이동할 수 있습니다.
+카드를 클릭하여 계층 구조를 아래로 이동하거나(빠른 작업이 발생하지 않도록 주의), 헤더에서 [탐색 표시를 사용하여](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) 다시 위로 이동할 수 있습니다.
 
 ![](assets/cardquickactions.png)
 
@@ -64,20 +64,20 @@ Brand Portal의 보기 선택기에서 사용 가능한 보기(카드, 열 및 �
 
 폴더 카드는 카드 보기에서 관리자가 아닌 사용자(편집자, 뷰어 및 게스트 사용자)에게 폴더 계층 구조 정보를 표시합니다. 이 기능을 사용하면 상위 계층 구조를 기준으로 액세스하는 폴더의 위치를 알 수 있습니다.
 
-폴더 계층 정보는 다른 폴더 계층 구조에서 공유되는 다른 폴더와 이름이 유사한 폴더를 구분하는 데 특히 유용합니다. 관리자가 아닌 사용자가 공유된 에셋의 폴더 구조를 알지 못하는 경우 유사한 이름의 에셋/폴더가 혼동되는 것으로 보입니다.
+폴더 계층 정보는 다른 폴더 계층 구조에서 공유되는 다른 폴더와 이름이 유사한 폴더를 구분하는 데 특히 유용합니다. 관리자가 아닌 사용자가 자신과 공유된 자산의 폴더 구조를 모르는 경우, 유사한 이름을 가진 자산/폴더는 혼란을 줄 수 있습니다.
 
-* 각 카드에 표시된 경로는 카드 크기에 맞게 잘립니다. 그러나 사용자는 잘린 경로 위로 마우스를 가져가면 전체 경로를 도구 설명으로 볼 수 있습니다.
+* 각 카드에 표시되는 경로는 카드 크기에 맞게 잘려서 표시됩니다. 그러나 사용자는 잘린 경로 위로 마우스를 가져가면 전체 경로를 도구 설명으로 볼 수 있습니다.
 
 ![](assets/folder-hierarchy1.png)
 
 **자산 속성을 보는 개요 옵션**
 
-개요 옵션은 관리자가 아닌 사용자(편집자, 뷰어, 게스트 사용자)가 선택한 에셋/폴더의 에셋 속성을 볼 수 있습니다. 개요 옵션이 표시됩니다.
+개요 옵션은 관리자가 아닌 사용자(편집자, 뷰어, 게스트 사용자)가 선택한 에셋/폴더의 에셋 속성을 볼 수 있습니다. 개요 옵션은 다음 위치에서 확인할 수 있습니다.
 
-* 도구 모음의 맨 위에서 에셋/폴더 선택 시
+* 자산/폴더 선택 시 상단 도구 모음에 표시됩니다.
 * 드롭다운에서 레일 선택기 선택 시
 
-에셋/폴더를 선택한 상태에서 **[!UICONTROL 개요]** 옵션을 선택하면 에셋 생성의 제목, 경로 및 시간이 표시됩니다. 반면에 에셋 세부 정보 페이지에서는 개요 옵션을 선택하여 에셋의 메타데이터를 볼 수 있습니다.
+에셋/폴더를 선택한 상태에서 **[!UICONTROL 개요]** 옵션을 선택하면 에셋 생성의 제목, 경로 및 시간이 표시됩니다. 자산 세부 정보 페이지에서 개요 옵션을 선택하면 사용자는 자산의 메타데이터를 볼 수 있습니다.
 
 ![](assets/overview-option.png)
 
@@ -106,7 +106,7 @@ Brand Portal의 보기 선택기에서 사용 가능한 보기(카드, 열 및 �
 * 자산 계층 구조를 보여 주는 폴더 경로
 * Brand Portal에 자산을 게시한 날짜
 
-경로 열을 사용하면 폴더 계층에서 에셋 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 클릭하여 계층 구조를 탐색하고 헤더의 [탐색 표시](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)를 사용하여 백업할 수 있습니다.
+경로 열을 사용하면 폴더 계층에서 에셋 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 클릭하여 계층 구조를 탐색하고 헤더의 [탐색 표시](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)를 사용하여 백업할 수 있습니다.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -114,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 목록 보기에서 설정 보기
 
-목록 보기에는 기본적으로 자산 **[!UICONTROL Name]**&#x200B;이(가) 첫 번째 열로 표시됩니다. 자산 **[!UICONTROL 제목]**, **[!UICONTROL 로케일]**, **[!UICONTROL 유형]**, **[!UICONTROL Dimension]**, **[!UICONTROL 크기]**, **[!UICONTROL 등급]**, 게시 상태 등의 추가 정보도 표시됩니다. 그러나 **[!UICONTROL 설정 보기]**&#x200B;를 사용하여 표시할 열을 선택할 수 있습니다.
+목록 보기에는 기본적으로 자산 **[!UICONTROL Name]**&#x200B;이(가) 첫 번째 열로 표시됩니다. 자산 **[!UICONTROL 제목]**, **[!UICONTROL 로케일]**, **[!UICONTROL 유형]**, **[!UICONTROL 차원]**, **[!UICONTROL 크기]**, **[!UICONTROL 등급]**, 게시 상태와 같은 추가 정보도 표시됩니다. 그러나 **[!UICONTROL 설정 보기]**&#x200B;를 사용하여 표시할 열을 선택할 수 있습니다.
 
 ![](assets/list-view-setting.png)
 
@@ -137,8 +137,8 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 * 제목
 * 이름
-* 치수
-* AEM에서 자산이 Brand Portal에 게시된 날짜 및 시간
+* 해상도
+* AEM에서 Brand Portal으로 자산이 게시된 날짜 및 시간
 * 크기
 * 유형
 * 에셋의 세부 정보 페이지와 함께 제공되는 추가 세부 정보 옵션
@@ -253,7 +253,8 @@ Comment Type: draft
 
 ![](assets/renditions.png)
 
-<!-- removed as it is fixed in 2022.02.0 release
+<!-- 
+removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
 >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -267,4 +268,4 @@ Comment Type: draft
 
 ![](assets/asset-properties.png)
 
-에셋 관계가 AEM에서 Brand Portal으로 게시되므로 에셋의 속성 페이지에서 모든 관련 에셋(AEM의 소스 또는 파생된 에셋) 목록을 볼 수도 있습니다.
+에셋 관계가 AEM에서 Brand Portal으로 게시되므로 에셋의 속성 페이지에서 모든 관련 에셋(AEM의 소스 또는 파생 에셋) 목록을 볼 수도 있습니다.

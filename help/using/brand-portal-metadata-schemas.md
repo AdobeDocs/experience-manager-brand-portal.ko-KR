@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 5%
+source-wordcount: '1617'
+ht-degree: 6%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 
 * **[!UICONTROL 필드 레이블]**: 자산의 속성 페이지에 표시되는 메타데이터 속성의 이름입니다.
 
-* **[!UICONTROL 속성에 매핑]**: 이 속성의 값은 CRX 저장소에 저장된 에셋 노드에 대한 상대 경로/이름을 제공합니다. &quot;**&quot;(으)로 시작합니다.경로가 자산의 노드 아래에 있음을 나타내므로 /**&quot;.
+* **[!UICONTROL 속성에 매핑]**: 이 속성의 값은 CRX 저장소에 저장된 에셋 노드에 대한 상대 경로/이름을 제공합니다. 경로가 자산의 노드 아래에 있음을 나타내기 때문에 &quot;**./**&quot;(으)로 시작합니다.
 
 다음은 이 속성에 유효한 값입니다.
 
@@ -124,7 +124,7 @@ ht-degree: 5%
 
 #### 스키마 양식에서 탭 추가 또는 삭제 {#add-or-delete-a-tab-in-the-schema-form}
 
-기본 스키마 양식에는 **[!UICONTROL 기본]** 및 **[!UICONTROL 고급]** 탭이 있습니다. 스키마 편집기를 사용하여 탭을 추가하거나 삭제할 수 있습니다.
+기본 스키마 양식에는 **[!UICONTROL 기본]** 및 **[!UICONTROL 고급]** 탭이 있습니다. The schema editor lets you add or delete a tab.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
@@ -182,7 +182,7 @@ Brand Portal을 사용하면 사용자 정의 스키마 양식만 삭제할 수 
 
 ### MIME 유형에 대한 새 양식 추가 {#adding-new-forms-for-mime-types}
 
-기본 양식 외에도 다양한 MIME 유형의 자산에 대한 사용자 정의 양식을 추가하거나 적절한 양식 유형에서 새 양식을 만들 수 있습니다. For example, to add a new template for the **[!UICONTROL image/png]** subtype, create the form under the &quot;image&quot; forms. The title for the schema form is the subtype name. 이 경우 제목은 &quot;png&quot;입니다.
+기본 양식 외에도 다양한 MIME 유형의 자산에 대한 사용자 정의 양식을 추가하거나 적절한 양식 유형에서 새 양식을 만들 수 있습니다. 예를 들어 **[!UICONTROL image/png]** 서브타입에 대한 새 템플릿을 추가하려면 “이미지” 양식 아래에 폼을 생성합니다. The title for the schema form is the subtype name. 이 경우 제목은 &quot;png&quot;입니다.
 
 #### 다양한 MIME 유형에 기존 스키마 템플릿 사용 {#using-an-existing-schema-template-for-various-mime-types}
 

@@ -6,9 +6,9 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1078'
 ht-degree: 3%
 
 ---
@@ -189,7 +189,7 @@ Microsoft® Edge에서 가속화된 다운로드 기능을 사용하려면 신�
 
 ## Aspera Connect 클라이언트 기본 설정 {#aspera-connect-client-preferences}
 
-아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1&rbrace;을 선택하여 IBMAspera Connect 클라이언트 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
+아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1}을 선택하여 IBMAspera Connect 클라이언트 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -213,7 +213,9 @@ Microsoft® Edge에서 가속화된 다운로드 기능을 사용하려면 신�
 
    대역폭이 몇 개(1-10Mbps) 또는 Kbps인 경우 Aspera 기본 설정을 사용하고 대역폭을 사용 가능한 대역폭과 동일하게 제한하십시오.
 
-   <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
-   (login:  asperaweb , password:  demoaspera ) -->
+   <!-- 
+   The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+   (login:  asperaweb , password:  demoaspera ) 
+   -->
 
 1. 위의 문제 해결 단계 중 어느 것도 작동하지 않는 경우 다운로드 가속화 활성화 옵션을 선택 취소하고 일반 다운로드를 사용합니다.

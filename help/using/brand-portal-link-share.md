@@ -7,10 +7,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 6%
+source-wordcount: '969'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,8 @@ Adobe Experience Manager Assets Brand Portal 관리자는 승인된 내부 사�
 
 링크를 통해 에셋을 공유하면 수신자가 에셋에 액세스하기 위해 Brand Portal에 로그인할 필요가 없기 때문에 외부 당사자가 에셋을 사용할 수 있는 편리한 방법입니다.
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 자세한 내용은 [사용자, 그룹 및 사용자 역할 관리](../using/brand-portal-adding-users.md#manage-user-roles)를 참조하십시오.
@@ -65,7 +66,7 @@ Adobe Experience Manager Assets Brand Portal 관리자는 승인된 내부 사�
 
 ## 공유 링크에서 에셋 다운로드 {#download-assets-from-shared-links}
 
-이메일의 링크를 클릭하여 공유 에셋에 액세스합니다. AEM Link 공유 페이지가 열립니다.
+이메일의 링크를 클릭하여 공유 에셋에 액세스합니다. AEM 링크 공유 페이지가 열립니다.
 
 공유 에셋을 다운로드하려면 다음 작업을 수행하십시오.
 
@@ -131,69 +132,69 @@ Adobe Experience Manager Assets Brand Portal 관리자는 승인된 내부 사�
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ 덧신 |
+| TIFF | ✓ | ✕ |
 | JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ 덧신 |
+| BMP | ✓ | ✕ |
 | PNM* | NA | NA |
 | PGM* | NA | NA |
 | PBM* | NA | NA |
 | PPM* | NA | NA |
-| PSD | ✓ | ✕ 덧신 |
-| EPS | NA | ✕ 덧신 |
-| DNG | ✓ | ✕ 덧신 |
-| PICT | ✓ | ✕ 덧신 |
-| PSB* | ✓ | ✕ 덧신 |
+| PSD | ✓ | ✕ |
+| EPS | NA | ✕ |
+| DNG | ✓ | ✕ |
+| PICT | ✓ | ✕ |
+| PSB* | ✓ | ✕ |
 | JPG | ✓ | ✓ |
-| AI | ✓ | ✕ 덧신 |
-| DOC | ✕ 덧신 | ✕ 덧신 |
-| DOCX | ✕ 덧신 | ✕ 덧신 |
-| ODT* | ✕ 덧신 | ✕ 덧신 |
-| PDF | ✓ | ✕ 덧신 |
-| HTML | ✕ 덧신 | ✕ 덧신 |
-| RTF | ✕ 덧신 | ✕ 덧신 |
-| TXT | ✓ | ✕ 덧신 |
-| XLS | ✕ 덧신 | ✕ 덧신 |
-| XLSX | ✕ 덧신 | ✕ 덧신 |
-| ODS | ✕ 덧신 | ✕ 덧신 |
-| PPT | ✓ | ✕ 덧신 |
-| PPTX | ✕ 덧신 | ✕ 덧신 |
-| ODP | ✕ 덧신 | ✕ 덧신 |
-| INDD | ✓ | ✕ 덧신 |
-| PS | ✕ 덧신 | ✕ 덧신 |
-| QXP | ✕ 덧신 | ✕ 덧신 |
-| EPUB | ✓ | ✕ 덧신 |
-| AAC | ✕ 덧신 | ✕ 덧신 |
-| MIDI | ✕ 덧신 | ✕ 덧신 |
-| 3GP | ✕ 덧신 | ✕ 덧신 |
-| MP3 | ✕ 덧신 | ✕ 덧신 |
-| MP4 | ✕ 덧신 | ✕ 덧신 |
-| OGA | ✕ 덧신 | ✕ 덧신 |
-| OGG | ✕ 덧신 | ✕ 덧신 |
-| RA | ✕ 덧신 | ✕ 덧신 |
-| WAV | ✕ 덧신 | ✕ 덧신 |
-| WMA | ✕ 덧신 | ✕ 덧신 |
-| DVI | ✕ 덧신 | ✕ 덧신 |
-| FLV | ✕ 덧신 | ✕ 덧신 |
-| M4V | ✕ 덧신 | ✕ 덧신 |
-| 마일 | ✕ 덧신 | ✕ 덧신 |
-| OGV | ✕ 덧신 | ✕ 덧신 |
-| MOV | ✕ 덧신 | ✕ 덧신 |
-| WMV | ✕ 덧신 | ✕ 덧신 |
-| SWF | ✕ 덧신 | ✕ 덧신 |
-| TGZ | NA | ✕ 덧신 |
-| JAR | ✓ | ✕ 덧신 |
-| RAR | NA | ✕ 덧신 |
-| TAR | NA | ✕ 덧신 |
-| ZIP | ✓ | ✕ 덧신 |
+| AI | ✓ | ✕ |
+| DOC | ✕ | ✕ |
+| DOCX | ✕ | ✕ |
+| ODT* | ✕ | ✕ |
+| PDF | ✓ | ✕ |
+| HTML | ✕ | ✕ |
+| RTF | ✕ | ✕ |
+| TXT | ✓ | ✕ |
+| XLS | ✕ | ✕ |
+| XLSX | ✕ | ✕ |
+| ODS | ✕ | ✕ |
+| PPT | ✓ | ✕ |
+| PPTX | ✕ | ✕ |
+| ODP | ✕ | ✕ |
+| INDD | ✓ | ✕ |
+| PS | ✕ | ✕ |
+| QXP | ✕ | ✕ |
+| EPUB | ✓ | ✕ |
+| AAC | ✕ | ✕ |
+| MIDI | ✕ | ✕ |
+| 3GP | ✕ | ✕ |
+| MP3 | ✕ | ✕ |
+| MP4 | ✕ | ✕ |
+| OGA | ✕ | ✕ |
+| OGG | ✕ | ✕ |
+| RA | ✕ | ✕ |
+| WAV | ✕ | ✕ |
+| WMA | ✕ | ✕ |
+| DVI | ✕ | ✕ |
+| FLV | ✕ | ✕ |
+| M4V | ✕ | ✕ |
+| 마일 | ✕ | ✕ |
+| OGV | ✕ | ✕ |
+| MOV | ✕ | ✕ |
+| WMV | ✕ | ✕ |
+| SWF | ✕ | ✕ |
+| TGZ | NA | ✕ |
+| JAR | ✓ | ✕ |
+| RAR | NA | ✕ |
+| TAR | NA | ✕ |
+| ZIP | ✓ | ✕ |
 
 다음 범례에서는 행렬에 사용되는 기호에 대해 설명합니다.
 
 | 기호 | 의미 |
 |---|---|
 | ✓ | 이 파일 형식은 이 기능을 지원합니다. |
-| ✕ 덧신 | 이 파일 형식은 이 기능을 지원하지 않습니다. |
+| ✕ | 이 파일 형식은 이 기능을 지원하지 않습니다. |
 | NA | 이 기능은 이 파일 형식에 적용할 수 없습니다. |
-| &#42; | 이 기능을 사용하려면 AEM 작성자 인스턴스에서 이 파일 형식에 대한 추가 기능이 지원되어야 하지만 자산이 Brand Portal에 게시된 후 Brand Portal에서는 지원되지 않습니다 |
+| &#42; | 이 기능을 사용하려면 AEM 작성자 인스턴스에서 이 파일 형식에 대한 추가 기능이 지원되어야 하지만 에셋이 Brand Portal에 게시된 후에는 Brand Portal에서 지원되지 않습니다 |
 
 ## 링크로 공유된 에셋 공유 해제 {#unshare-assets-shared-as-a-link}
 
