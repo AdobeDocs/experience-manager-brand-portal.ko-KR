@@ -57,11 +57,11 @@ Brand Portal에서 동적 비디오로 작업하려면 다음을 확인하십시
 
 * **Dynamic Media 모드에서 Experience Manager 작성자 시작**
 
-  [Dynamic Media - [!DNL Scene7] 모드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) 또는 [Dynamic Media - 하이브리드 모드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic)에서 Brand Portal이 구성된 Experience Manager 작성자 인스턴스를 시작합니다.
+  [Dynamic Media - [!DNL Scene7] 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) 또는 [Dynamic Media - 하이브리드 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dynamic)에서 Brand Portal이 구성된 Experience Manager 작성자 인스턴스를 시작합니다.
 
 * **Experience Manager 작성자 인스턴스에서 Dynamic Media Cloud Services 구성**
 
-  Experience Manager 작성자가 실행 중인 Dynamic Media 모드(Scene7 모드 또는 하이브리드 모드)를 기반으로 Experience Manager 작성자의 [Dynamic Media Cloud Services([!DNL Scene7] 모드)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) 또는 [Dynamic Media Cloud Services(하이브리드 모드)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)를 **도구** | **Cloud Services** | **Dynamic Media**&#x200B;에서 설정합니다.
+  Experience Manager 작성자가 실행 중인 Dynamic Media 모드(Scene7 모드 또는 하이브리드 모드)를 기반으로 Experience Manager 작성자의 [Dynamic Media Cloud Services([!DNL Scene7] 모드)](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) 또는 [Dynamic Media Cloud Services(하이브리드 모드)](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)를 **도구** | **Cloud Services** | **Dynamic Media**&#x200B;에서 설정합니다.
 
 * **Brand Portal에서 Dynamic Media 구성**
 
@@ -71,11 +71,11 @@ Brand Portal에서 동적 비디오로 작업하려면 다음을 확인하십시
 
 * **Brand Portal에 비디오 인코딩이 적용된 폴더 게시**
 
-  [비디오 인코딩](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)을 적용하고 Experience Manager 작성자 인스턴스의 리치 미디어 자산이 포함된 폴더를 Brand Portal에 게시합니다.
+  [비디오 인코딩](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/video-profiles)을 적용하고 Experience Manager 작성자 인스턴스의 리치 미디어 자산이 포함된 폴더를 Brand Portal에 게시합니다.
 
 * SPS에서 보안 IP 미리 보기가 활성화된 경우 **허용 목록에 추가하다**
 
-  Dynamic Media-**[!DNL Scene7]**(회사에 대해 [보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public))을(를) 사용하는 경우, SPS(**[!UICONTROL Scene7]** Publishing System) 플래시 UI를 사용하는 각 지역에 대해 &lbrace;3 회사 관리자 [공개 이그레스 IP를 허용 목록](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)하는 것이 좋습니다.**[!DNL Scene7]**
+  Dynamic Media-**[!DNL Scene7]**(회사에 대해 [보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public))을(를) 사용하는 경우, SPS(**[!UICONTROL Scene7]** Publishing System) 플래시 UI를 사용하는 각 지역에 대해 &lbrace;3 회사 관리자 [공개 이그레스 IP를 허용 목록](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)하는 것이 좋습니다.**[!DNL Scene7]**
 
   이그레스 IP는 다음과 같습니다.
 
@@ -85,7 +85,7 @@ Brand Portal에서 동적 비디오로 작업하려면 다음을 확인하십시
   | EMEA | 185.34.189.3, 51.132.146.75 |
   | APAC | 172.82.240.74, 172.82.240.75 |
 
-  이러한 이그레스 IP 중 0개를 테스트하려면 [&#128279;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비&lbrace;를 참조하십시오.
+  이러한 이그레스 IP 중 0개를 테스트하려면 [&#128279;](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비&lbrace;를 참조하십시오.
 
 ## 모범 사례
 
@@ -112,9 +112,9 @@ Brand Portal 및 **[!UICONTROL Experience Manager 클라우드 구성]**&#x200B;
 
 ### Dynamic Media Scene7 모드에 대한 공개 이그레스
 
-[보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)인 Dynamic Media **[!UICONTROL Scene7]**&#x200B;이(가) Brand Portal에 비디오 자산을 제공하는 데 사용되는 경우 **[!UICONTROL Scene7]**&#x200B;은(는) 스테이징 환경 또는 내부 응용 프로그램을 위한 전용 이미지 서버를 설정합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없는 경우 실패 응답이 반환됩니다.
+[보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)인 Dynamic Media **[!UICONTROL Scene7]**&#x200B;이(가) Brand Portal에 비디오 자산을 제공하는 데 사용되는 경우 **[!UICONTROL Scene7]**&#x200B;은(는) 스테이징 환경 또는 내부 응용 프로그램을 위한 전용 이미지 서버를 설정합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없는 경우 실패 응답이 반환됩니다.
 따라서 **[!UICONTROL Scene7]** 회사 관리자는 **[!UICONTROL SPS]**(Scene7 Publishing System) 플래시 UI를 통해 회사의 **[!UICONTROL 보안 테스트]** 환경에 대해 승인된 IP 주소 목록을 구성합니다. 각 지역의 이그레스 IP가 해당 승인 목록에 추가되었는지 확인합니다(다음에서).
-이러한 이그레스 IP 중 0개를 테스트하려면 [&#128279;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비&lbrace;를 참조하십시오.
+이러한 이그레스 IP 중 0개를 테스트하려면 [&#128279;](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비&lbrace;를 참조하십시오.
 이그레스 IP는 다음과 같습니다.
 
 | **지역** | **이그레스 IP** |
@@ -129,7 +129,7 @@ Experience Manager 작성자 인스턴스가 Dynamic Media 하이브리드 모�
 
 >[!NOTE]
 >
->[비디오 인코딩 프로필](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)이 Brand Portal에 게시되지 않았습니다. 대신 **[!UICONTROL Scene7]** 서버에서 가져옵니다. 따라서, Brand Portal에서 비디오 인코딩을 성공적으로 재생하려면 구성 세부 정보가 Experience Manager 작성자 인스턴스의 [Dynamic Media Cloud Services([!DNL Scene7] 모드)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)와(과) 동일한지 확인하십시오.
+>[비디오 인코딩 프로필](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/video-profiles)이 Brand Portal에 게시되지 않았습니다. 대신 **[!UICONTROL Scene7]** 서버에서 가져옵니다. 따라서, Brand Portal에서 비디오 인코딩을 성공적으로 재생하려면 구성 세부 정보가 Experience Manager 작성자 인스턴스의 [Dynamic Media Cloud Services([!DNL Scene7] 모드)](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)와(과) 동일한지 확인하십시오.
 
 Brand Portal 테넌트에 대해 Dynamic Media 구성을 설정하려면 다음을 수행하십시오.
 
