@@ -6,9 +6,14 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: 689
 ht-degree: 0%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-컬렉션은 전자 메일을 통해 링크로 공유됩니다. 공유 링크에 대한 액세스 권한이 있는 모든 사용자가 컬렉션을 열 수 있습니다. 그러나 공유된 이메일은 누구에게나 전달될 수 있습니다. 또한 [공유된 링크](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)는 임시적이며 제한된 기간 동안만 액세스할 수 있습니다. 또는 사용자를 컬렉션에 영구 멤버로 초대할 수 있습니다. 컬렉션에는 다음과 같은 사용자 유형이 있습니다.
+컬렉션은 전자 메일을 통해 링크로 공유됩니다. 공유 링크에 대한 액세스 권한이 있는 모든 사용자가 컬렉션을 열 수 있습니다. 그러나 공유된 이메일은 누구에게나 전달될 수 있습니다. 또한 [공유된 링크](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)는 임시적이며 제한된 기간 동안만 액세스할 수 있습니다. 또는 사용자를 컬렉션에 영구 멤버로 초대할 수 있습니다. 컬렉션에는 다음과 같은 사용자 유형이 있습니다.
 
 * **관리자**&#x200B;는 인증된 Brand Portal 사용자와 컬렉션을 공유하거나 공유를 해제할 수 있습니다. 특정 컬렉션에 다른 사용자를 초대하고 해당 컬렉션에서 자신의 역할을 정의할 수 있습니다. 또한 관리자는 공용 컬렉션을 만들 수 있습니다.
 

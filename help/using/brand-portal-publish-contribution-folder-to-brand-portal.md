@@ -6,9 +6,12 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
+TQID: https://experienceleague.adobe.com/o--c7CzIqcaLPuOVG81dQpALRa0wxI-Aul6F-pN-spI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: 1063
 ht-degree: 1%
 
 ---
@@ -93,7 +96,7 @@ Experience Manager Assets 관리자는 기여 폴더의 속성을 구성하는 �
 
 1. **[!UICONTROL 자산 기여]** 탭으로 이동합니다.
 1. 기여도 폴더의 높은 수준의 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
-1. 로컬 컴퓨터에서 찾아보고 **[!UICONTROL 자산 요구 사항 문서]**&#x200B;를 업로드하려면 **개요 업로드**&#x200B;를 클릭하세요.
+1. 로컬 컴퓨터에서 찾아보고 **자산 요구 사항 문서**&#x200B;를 업로드하려면 **[!UICONTROL 개요 업로드]**&#x200B;를 클릭하세요.
 
    ![](assets/upload.png)
 
@@ -106,7 +109,7 @@ Experience Manager Assets 관리자는 기여 폴더의 속성을 구성하는 �
 >
 >검색 결과는 Experience Manager Assets에 구성된 Brand Portal 사용자 목록을 기반으로 합니다. 업데이트된 Brand Portal 사용자 목록이 있는지 확인합니다.
 
-관리자는 `user.csv`에서 [!DNL Admin Console] 파일을 다운로드하여 Brand Portal 사용자를 추가하기 위한 기본 템플릿으로 사용할 수 있습니다. [!UICONTROL 사용자]&#x200B;(으)로 이동하고 [!UICONTROL 사용자 목록을 csv로 내보내기] 옵션을 클릭하여 `users.csv` 파일을 다운로드합니다. 다음 샘플 사용자 목록에서는 사용자를 추가하는 데 필요한 속성을 자세히 설명합니다. 사용자 항목에 대한 유일한 필수 특성은 `Email`이며 다른 모든 특성은 선택 사항입니다.
+관리자는 [!DNL Admin Console]에서 `user.csv` 파일을 다운로드하여 Brand Portal 사용자를 추가하기 위한 기본 템플릿으로 사용할 수 있습니다. [!UICONTROL 사용자]&#x200B;(으)로 이동하고 [!UICONTROL 사용자 목록을 csv로 내보내기] 옵션을 클릭하여 `users.csv` 파일을 다운로드합니다. 다음 샘플 사용자 목록에서는 사용자를 추가하는 데 필요한 속성을 자세히 설명합니다. 사용자 항목에 대한 유일한 필수 특성은 `Email`이며 다른 모든 특성은 선택 사항입니다.
 
 [파일 가져오기](assets/users.csv)
 

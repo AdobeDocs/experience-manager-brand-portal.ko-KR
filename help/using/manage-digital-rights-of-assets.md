@@ -7,10 +7,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 3%
+source-wordcount: 904
+ht-degree: 4%
 
 ---
 
@@ -71,12 +75,12 @@ Brand Portal에서 관리자는 만료된 에셋을 보고 다운로드하고 �
 
 라이센스가 부여된 자산은 Brand Portal에서 다운로드하기 전에 라이센스 계약의 동의가 필요합니다. 라이센스가 부여된 에셋에 대한 이 계약은 Brand Portal에서 또는 공유 링크를 통해 에셋을 직접 다운로드할 때 제공됩니다. 만료되었거나 만료되지 않았더라도 모든 사용자는 라이선스로 보호된 에셋을 볼 수 있습니다. 그러나 만료된 라이선스 자산의 다운로드와 사용은 제한됩니다. 사용자 역할에 따라 만료된 라이선스 에셋 및 허용되는 활동의 동작에 대해 알아보려면 [만료된 에셋의 사용 권한](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)을 참조하세요.
 
-라이선스로 보호된 자산에는 [!DNL Experience Manager Assets]에서 자산의 메타데이터 속성을 설정하여 [라이선스 계약](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)이 첨부되어 있습니다.
+라이선스로 보호된 자산에는 [!DNL Experience Manager Assets]에서 자산의 메타데이터 속성을 설정하여 [라이선스 계약](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)이 첨부되어 있습니다.
 
 자산에 다음(또는 두 가지 모두) 메타데이터 속성 중 하나가 포함되어 있으면 자산이 보호되는 것으로 간주됩니다.
 
 * `xmpRights:WebStatement`: 이 속성은 자산에 대한 사용권 계약이 포함된 페이지의 경로를 참조합니다. `xmpRights:WebStatement`은(는) 저장소의 올바른 경로여야 합니다.
-* `adobe_dam:restrictions`: 이 HTML의 값은 사용권 계약을 지정하는 원시 속성입니다.
+* `adobe_dam:restrictions`: 이 속성의 값은 사용권 계약을 지정하는 원시 HTML입니다.
 
 
 라이선스로 보호된 자산을 다운로드하도록 선택한 경우 메타데이터 속성에 따라 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다.

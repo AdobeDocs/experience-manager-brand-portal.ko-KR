@@ -5,9 +5,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/BkJZocCqHqpIIn-BdxmRJWi0bX7afdWEKbzWmPzraDk
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: 1044
 ht-degree: 12%
 
 ---
@@ -56,7 +60,7 @@ Brand Portal의 보기 선택기에서 사용 가능한 보기(카드, 열 및 �
 * 크기
 * 해상도
 
-카드를 클릭하여 계층 구조를 아래로 이동하거나(빠른 작업이 발생하지 않도록 주의), 헤더에서 [탐색 표시를 사용하여](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) 다시 위로 이동할 수 있습니다.
+카드를 클릭하여 계층 구조를 아래로 이동하거나(빠른 작업이 발생하지 않도록 주의), 헤더에서 [탐색 표시를 사용하여](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) 다시 위로 이동할 수 있습니다.
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +110,7 @@ Brand Portal의 보기 선택기에서 사용 가능한 보기(카드, 열 및 �
 * 자산 계층 구조를 보여 주는 폴더 경로
 * Brand Portal에 자산을 게시한 날짜
 
-경로 열을 사용하면 폴더 계층에서 에셋 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 클릭하여 계층 구조를 탐색하고 헤더의 [탐색 표시](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)를 사용하여 백업할 수 있습니다.
+경로 열을 사용하면 폴더 계층에서 에셋 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 클릭하여 계층 구조를 탐색하고 헤더의 [탐색 표시](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)를 사용하여 백업할 수 있습니다.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."

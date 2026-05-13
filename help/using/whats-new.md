@@ -5,9 +5,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
+TQID: https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085id: e17747bc-9b7b-44e6-a443-f54229a02620
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: d17d085a-e808-49dd-b9a6-85a996b999bdid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '6645'
+source-wordcount: 6645
 ht-degree: 97%
 
 ---
@@ -190,7 +196,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -198,7 +204,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### 자산 다운로드 {#asset-download-setting}
@@ -481,7 +487,7 @@ Brand Portal 6.4.4 이상에서는 필터링 창에서 속성 설명의 부분 �
 이제 필터링 창에서 검색한 문구의 일부, 즉 단어 하나 또는 두 개만 지정하여 자산을 검색할 수 있습니다.
 
 **사용 사례**
-부분 구문 검색은 검색 구문에서 정확한 단어 조합이 확실하지 않을 때 유용합니다.
+부분 구문 검색은 검색된 구문에서 발생하는 정확한 단어 조합을 모를 때 유용합니다.
 
 예를 들어 Brand Portal의 검색 양식에서 자산 제목에 대한 부분 검색을 위해 속성 설명을 사용하는 경우 **camp**&#x200B;라는 단어를 지정하면 제목 구문에 camp라는 단어가 포함된 모든 자산이 반환됩니다.
 
@@ -515,7 +521,7 @@ Brand Portal 6.4.3에서는 액세스 URL에 대한 대체 별칭, 새로운 폴
 
 ### 관리자가 아닌 사용자를 위한 폴더 계층 탐색
 
-이제 관리자는 로그인 시 관리자가 아닌 사용자(편집자, 뷰어 및 게스트 사용자)에게 폴더를 표시하는 방법을 구성할 수 있습니다. [폴더 계층 구조 사용](../using/brand-portal-general-configuration.md) 구성이 관리 도구 패널의 **일반 설정**&#x200B;에 추가되었습니다. 구성 상태에 대한 설명은 다음과 같습니다.
+이제 관리자는 로그인 시 관리자가 아닌 사용자(편집자, 뷰어 및 게스트 사용자)에게 폴더가 표시되는 방식을 구성할 수 있습니다. 관리 도구 패널의 **일반 설정**&#x200B;에 [폴더 계층 구조 활성화 구성](../using/brand-portal-general-configuration.md)이 추가되었습니다. 구성 상태에 대한 설명은 다음과 같습니다.
 
 * 구성이 **활성화된 경우**, 루트 폴더부터 시작하는 폴더 트리가 관리자가 아닌 사용자에게도 표시됩니다. 따라서 관리자와 유사한 탐색 환경이 제공됩니다.
 * 구성이 **비활성화**&#x200B;된 경우, 공유 폴더만 랜딩 페이지에 표시됩니다.
@@ -768,18 +774,18 @@ Brand Portal 6.4.1은 플랫폼 업그레이드 릴리스입니다. 여기에는
 
 ### 향상된 보고 기능
 
-**링크 공유 보고서 도입**
-공유 링크에 대한 정보를 제공하는 새로운 보고서가 도입되었습니다. 링크 공유 보고서에는 내부 및 외부 사용자와 공유된 자산의 모든 URL이 나열됩니다. 이 보고서는 지정된 시간대 동안 조직 전체의 사용자에 대한 보고를 제공합니다. 링크가 언제 공유되었는지, 누가 공유했는지, 그리고 언제 만료되는지에 대해서도 알려줍니다.
+**도입된 링크 공유 보고서**
+공유 링크에 대한 정보를 제공하는 새 보고서가 도입되었습니다. 링크 공유 보고서에는 내부 및 외부 사용자와 공유된 자산의 모든 URL이 나열됩니다. 이 보고서는 지정된 시간대 동안 조직 전체의 사용자에 대한 보고를 제공합니다. 링크가 언제 공유되었는지, 누가 공유했는지, 그리고 언제 만료되는지에 대해서도 알려줍니다.
 
 ![](assets/navigatereport.png)
 
-**사용 보고서에 액세스하기 위한 진입점 수정**
-이제 사용 보고서는 다른 보고서와 통합되어 자산 보고서 콘솔에서 볼 수 있습니다. 자산 보고서 콘솔에 도달하려면 관리 도구 패널에서 **보고서 만들기/관리**&#x200B;로 이동하십시오.
+**사용 보고서에 액세스하기 위해 진입점을 수정했습니다.**
+사용 보고서는 이제 다른 보고서와 통합되었으며 이제 자산 보고서 콘솔에서 볼 수 있습니다. 자산 보고서 콘솔에 도달하려면 관리 도구 패널에서 **보고서 만들기/관리**&#x200B;로 이동하십시오.
 
 ![](assets/accessassetreport.png)
 
-**사용자 보고 경험 향상**
-Brand Portal의 보고 인터페이스가 더욱 직관적으로 개선되어 조직의 제어를 강화합니다. 다양한 보고서를 만드는 것 외에도 관리자는 생성된 보고서를 다시 열람하고 다운로드하거나 삭제할 수 있습니다. 이들 보고서는 Brand Portal에 저장됩니다.
+**향상된 보고 사용자 환경**
+Brand Portal의 보고 인터페이스가 보다 직관적이고 조직의 제어를 강화했습니다. 다양한 보고서를 만드는 것 외에도 관리자는 생성된 보고서를 다시 열람하고 다운로드하거나 삭제할 수 있습니다. 이들 보고서는 Brand Portal에 저장됩니다.
 
 생성되는 각 보고서는 기본 열을 추가하거나 제거하여 사용자 지정할 수 있습니다. 또한 다운로드, 만료 및 게시 보고서에 사용자 정의 열을 추가하여 보고서의 세부성 수준을 조절할 수 있습니다.
 

@@ -1,18 +1,23 @@
 ---
-title: 최초 로그인 경험
+title: 첫 번째 로그인 경험
 description: 관리자를 비롯한 모든 새 Experience Manager Assets Brand Portal 사용자는 동일한 최초 로그인 경험을 갖습니다. 관리자가 귀하를 조직의 Brand Portal 계정에 추가하면 초대를 수락할 필요 없이 자동으로 포함됩니다. 조직의 Brand Portal 계정에 액세스할 수 있는 링크가 포함된 시작 이메일을 받게 됩니다.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/hHVL1ersk74XAckuul6nwPhS-qaR1bi3sersJnnoO9g
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: 282
+ht-degree: 2%
 
 ---
 
-# 최초 로그인 경험 {#first-time-login-experience}
+# 첫 번째 로그인 경험 {#first-time-login-experience}
 
 관리자를 비롯한 모든 새 Experience Manager Assets Brand Portal 사용자는 동일한 최초 로그인 경험을 갖습니다. 관리자가 귀하를 조직의 Brand Portal 계정에 추가하면 초대를 수락할 필요 없이 자동으로 포함됩니다. 조직의 Brand Portal 계정에 액세스할 수 있는 링크가 포함된 시작 이메일을 받게 됩니다.
 
