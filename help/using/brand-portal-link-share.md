@@ -7,9 +7,17 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/KfAwxHD9kHk-EdnUkYPfbHyJlJr0uQwyeFTXokO3lic
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: 969
 ht-degree: 5%
 
 ---
@@ -82,7 +90,7 @@ Link sharing access is restricted to editors and administrators.
 
    ![다운로드 대화 상자](assets/download-dialog-box-new.png)
 
-1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 IBM® Aspera Connect를 사용하여 다운로드를 계속하는 확인 상자가 나타납니다.
+1. 기본적으로 **[!UICONTROL 빠른 다운로드]** 설정은 **[!UICONTROL 다운로드 설정]**&#x200B;에서 활성화됩니다. 따라서 ® Aspera Connect를 사용하여 다운로드를 계속하는 확인 상자가 나타납니다.
 
    **[!UICONTROL 빠른 다운로드]**&#x200B;를 계속 사용하려면 **[!UICONTROL 허용]**&#x200B;을 클릭하세요.
 

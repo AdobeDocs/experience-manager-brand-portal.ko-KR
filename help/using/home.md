@@ -2,10 +2,18 @@
 title: Adobe Experience Manager Assets Brand Portal 안내서
 description: Experience Manager Assets Brand Portal을 사용하면 승인된 브랜드 및 제품 자산을 외부 기관, 파트너, 내부 팀 및 리셀러에 다운로드용으로 안전하게 배포하여 마케팅 요구 사항을 충족할 수 있습니다.
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/-IsbLpGrq16MLj74ma34fxV3ac9EKMNBMny7taDO6ZQ
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+workflow-type: tm+mt
+source-wordcount: 439
+ht-degree: 98%
 
 ---
 
@@ -32,7 +40,7 @@ Brand Portal 솔루션 워크플로는 다음 이미지에 표시되어 있습�
 
 ## Adobe Experience Manager Brand Portal 사용 안내서
 
-이 사용자는 Brand Portal 서비스 및 주요 워크플로에 대한 통찰력을 제공하는 문서를 안내합니다. 왼쪽 레일을 사용하여 다양한 기능을 탐색하고 다양한 사람들이 포털과 상호 작용하는 방법을 자세히 알아보십시오.
+이 사용자는 Brand Portal 서비스 및 주요 워크플로에 대한 인사이트를 제공하는 문서를 안내합니다. 왼쪽 레일을 사용하여 다양한 기능을 탐색하고 다양한 페르소나가 포털과 상호 작용하는 방법을 자세히 알아보십시오.
 
 ### 참고 항목
 
@@ -45,8 +53,8 @@ Brand Portal 솔루션 워크플로는 다음 이미지에 표시되어 있습�
 | [지원되는 파일 형식](brand-portal-supported-formats.md) | 미리 보기 및 다운로드를 위해 Brand Portal에서 지원되는 파일 형식 |
 | [자산을 Brand Portal에 게시](brand-portal-sharing-folders.md) | 폴더, 컬렉션, 링크, 사전 설정, 스키마, 패싯 및 태그를 Brand Portal에 게시하는 방법. |
 | [Brand Portal의 자산 소싱](brand-portal-asset-sourcing.md) | AEM Assets에서 자산 소싱을 구성하고, Brand Portal에 자산을 업로드하고, 기여 폴더를 AEM Assets에 다시 게시하는 방법. |
-| [Brand Portal 기능 비디오](https://experienceleague.adobe.com/ko?lang=ko&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 비디오 튜토리얼을 통해 Experience Manager Assets Brand Portal을 사용하는 방법을 알아보십시오. |
+| [Brand Portal 기능 비디오](https://experienceleague.adobe.com/ko?lang=ko&tag=Brand+Portal#recommended/solutions/experience-manager) | 비디오 튜토리얼을 통해 Experience Manager Assets Brand Portal을 사용하는 방법을 알아보십시오. |
 
 ### 유용한 리소스
 
-* [AEM Assets를 사용한 Brand Portal 이해](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/home)
+* [AEM Assets을 사용한 Brand Portal 이해](https://experienceleague.adobe.com/ko/docs/experience-manager-brand-portal/using/home)

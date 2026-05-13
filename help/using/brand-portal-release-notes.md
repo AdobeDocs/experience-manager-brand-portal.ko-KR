@@ -5,10 +5,23 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 96%
+source-wordcount: 1633
+ht-degree: 93%
 
 ---
 
@@ -74,7 +87,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 ### 2023년 10월 릴리스 {#oct-2023}
 
 **버그 수정 및 개선 사항**
-이 릴리스에는 다음 개선 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 * [!UICONTROL 컬렉션]을 탐색할 때의 성능이 향상되었습니다.
 
@@ -95,7 +108,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 ### 2023년 8월 릴리스 {#aug-2023}
 
 **버그 수정 및 개선 사항**
-이 릴리스에는 다음 개선 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 * [!UICONTROL 다운로드] 팝업에서 자산을 로드할 때의 성능이 향상되었습니다.
 * 자산이나 자산의 렌디션을 다운로드하면 이제 zip 파일이 아닌 원래 파일 유형 형식으로 다운로드됩니다.
@@ -109,13 +122,13 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 ### 2023년 5월 릴리스 {#may-2023}
 
 **버그 수정**
-이번 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
+이 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
 * 공유 링크에서 자산을 다운로드하는 도중 오류가 발생하는 경우 오류 프롬프트의 `Notice` 및 `Close` 레이블이 현지화되지 않습니다.
 * Brand Portal에서 `Filter` 창을 사용하여 검색 필터에 액세스하는 도중 **요청 헤더 필드가 너무 큼**&#x200B;이라는 오류가 표시됩니다.
 
 **알려진 문제**
-여기에는 다음의 알려진 문제가 포함됩니다.
+이 릴리스에는 다음과 같은 알려진 문제가 포함됩니다.
 
 * 자산 소싱 보고서 내용이 부분적으로 현지화되었습니다.
 * 사용자 프로필의 일부 필드를 사용자 프로필에서 편집할 수 없습니다.

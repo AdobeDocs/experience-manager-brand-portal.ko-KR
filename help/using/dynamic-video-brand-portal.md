@@ -6,9 +6,25 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 3800baf10e1186b8f49fc7eb6afcb0edfb29769a
+TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+  - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1779df8cb07a952926d7680a8d69557fd184a56c
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: 1379
 ht-degree: 1%
 
 ---
@@ -61,7 +77,7 @@ Brand Portal에서 동적 비디오로 작업하려면 다음을 확인하십시
 
 * **Experience Manager 작성자 인스턴스에서 Dynamic Media Cloud Services 구성**
 
-  Experience Manager 작성자가 실행 중인 Dynamic Media 모드(Scene7 모드 또는 하이브리드 모드)를 기반으로 Experience Manager 작성자의 [Dynamic Media Cloud Services([!DNL Scene7] 모드)](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) 또는 [Dynamic Media Cloud Services(하이브리드 모드)](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)를 **도구** | **Cloud Services** | **Dynamic Media**&#x200B;에서 설정합니다.
+  Experience Manager 작성자가 실행 중인 Dynamic Media 모드(Scene7 모드 또는 하이브리드 모드)를 기반으로 **도구**&#x200B;에서 Experience Manager 작성자에 대해 [Dynamic Media 클라우드 서비스([!DNL Scene7] 모드)](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) 또는 [Dynamic Media 클라우드 서비스(하이브리드 모드)](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)를 설정하십시오. | **클라우드 서비스** | **Dynamic Media**.
 
 * **Brand Portal에서 Dynamic Media 구성**
 

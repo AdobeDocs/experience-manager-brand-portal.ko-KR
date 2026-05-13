@@ -12,16 +12,26 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
+TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 11%
+source-wordcount: 662
+ht-degree: 12%
 
 ---
 
 # 자산 소싱 개요 {#overview-asset-sourcing-in-bp}
 
-**자산 소싱**&#x200B;을 통해 Experience Manager Assets 사용자(관리자/관리자가 아닌 사용자)는 추가 **자산 기여** 속성을 사용하여 새 폴더를 만들 수 있으므로 Brand Portal 사용자가 만든 새 폴더가 자산 제출에 열려 있도록 합니다. 이렇게 하면 새로 만든 **기여도** 폴더 내에 **SHARED** 및 **NEW**&#x200B;이라는 두 개의 추가 하위 폴더를 만드는 워크플로가 자동으로 트리거됩니다. 관리자는 기여도 폴더에 추가해야 하는 에셋 유형에 대한 간단한 개요를 업로드하여 요구 사항을 정의합니다. 기준선 에셋 집합을 **SHARED** 폴더에 업로드하여 Brand Portal 사용자에게 필요한 참조 정보를 제공합니다. 그런 다음 관리자는 새로 만든 **기여도** 폴더를 Brand Portal에 게시하기 전에 활성 Brand Portal 사용자에게 기여도 폴더에 대한 액세스 권한을 부여할 수 있습니다. 사용자가 **NEW** 폴더에 콘텐츠를 추가했으면 기여 폴더를 다시 Experience Manager 작성 환경에 게시할 수 있습니다. 가져오기를 완료하고 Experience Manager Assets 내에 새로 게시된 콘텐츠를 반영하는 데 몇 분 정도 걸릴 수 있습니다.
+**자산 소싱**&#x200B;을 통해 Experience Manager Assets 사용자(관리자/관리자가 아닌 사용자)는 추가 **자산 기여** 속성을 사용하여 새 폴더를 만들 수 있으므로 Brand Portal 사용자가 만든 새 폴더가 자산 제출에 열려 있도록 합니다. 이렇게 하면 새로 만든 **기여도** 폴더 내에 **SHARED** 및 **NEW**&#x200B;이라는 두 개의 추가 하위 폴더를 만드는 워크플로가 자동으로 트리거됩니다. 관리자는 기여도 폴더에 추가해야 하는 에셋 유형에 대한 간단한 개요를 업로드하여 요구 사항을 정의합니다. 기준선 에셋 집합을 **SHARED** 폴더에 업로드하여 Brand Portal 사용자에게 필요한 참조 정보를 제공합니다. 그런 다음 관리자는 새로 생성된 **기여** 폴더를 Brand Portal에 게시하기 전에 기여 폴더에 활성 Brand Portal 사용자 액세스 권한을 부여할 수 있습니다. 사용자가 **NEW** 폴더에 콘텐츠를 추가했으면 기여 폴더를 다시 Experience Manager 작성 환경에 게시할 수 있습니다. 가져오기를 완료하고 Experience Manager Assets 내에 새로 게시된 콘텐츠를 반영하는 데 몇 분 정도 걸릴 수 있습니다.
 
 또한 기존의 모든 기능은 변경되지 않습니다. Brand Portal 사용자는 기여 폴더와 다른 허용된 폴더에서 자산을 보고, 검색하고, 다운로드할 수 있습니다. 관리자는 추가적으로 기여 폴더를 공유하고, 속성을 수정하고, 컬렉션에 자산을 추가할 수 있습니다.
 

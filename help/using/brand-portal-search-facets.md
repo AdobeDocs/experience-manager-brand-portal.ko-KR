@@ -6,10 +6,22 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/SYuZB0vfNFNK55QKcIQeROLmufoUIXMrgtXEPGkTo8A
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 7%
+source-wordcount: 1363
+ht-degree: 9%
 
 ---
 
@@ -27,7 +39,7 @@ Brand Portal은 승인된 브랜드 에셋의 세분화된 검색에 대해 [패
 
 ## 필터 패널에 검색 조건자 추가 {#add-a-search-predicate}
 
-1. 관리 도구에 액세스하려면 맨 위의 도구 모음에서 Experience Manager 로고를 클릭합니다.
+1. 관리 도구에 액세스하려면 맨 위의 도구 모음에서 Experience Manager 로고를 클릭하십시오.
 
    ![](assets/aemlogo.png)
 
@@ -60,7 +72,7 @@ Brand Portal은 승인된 브랜드 에셋의 세분화된 검색에 대해 [패
 
    >[!NOTE]
    >
-   >**[!UICONTROL 부분 검색]** 확인란을 선택하면 기본적으로 **[!UICONTROL 대/소문자 구분 안 함]**&#x200B;이 선택됩니다.
+   >**[!UICONTROL 부분 검색]** 확인란을 선택하면 기본적으로 **[!UICONTROL 대소문자 무시]**&#x200B;가 선택됩니다.
 
 1. **[!UICONTROL 속성 이름]** 필드에서 속성 선택기를 열고 검색을 수행할 속성을 선택합니다. 또는 속성의 이름을 입력합니다. For example, enter `jcr :content/metadata/dc:title` or `./jcr:content/metadata/dc:title`.
 
@@ -77,7 +89,7 @@ Brand Portal은 승인된 브랜드 에셋의 세분화된 검색에 대해 [패
 
    ![](assets/property-filter-panel.png)
 
-1. **[!UICONTROL 속성]** 텍스트 상자에 검색할 에셋의 제목을 입력합니다. 예를 들어 &quot;Adobe&quot; 검색을 수행하면 제목이 &quot;Adobe&quot;와 일치하는 에셋이 검색 결과에 표시됩니다.
+1. **[!UICONTROL 속성]** 텍스트 상자에 검색할 에셋의 제목을 입력합니다. 예를 들어 &quot;Adobe&quot;입니다. 검색을 수행하면 제목이 &quot;Adobe&quot;와 일치하는 에셋이 검색 결과에 표시됩니다.
 
 ## 검색 조건자 목록 {#list-of-search-predicates}
 
@@ -85,7 +97,7 @@ Brand Portal은 승인된 브랜드 에셋의 세분화된 검색에 대해 [패
 
 | **조건자 이름** | **설명** | **속성** |
 |-------|-------|----------|
-| **[!UICONTROL 경로 브라우저]** | 특정 위치에서 에셋을 검색하는 검색 조건자입니다. **참고:** *로그인한 사용자의 경우 필터의 경로 브라우저에 사용자와 공유된 폴더(및 상위 항목)의 콘텐츠 구조만 표시됩니다.* <br> 관리자 사용자는 경로 브라우저를 사용하여 해당 폴더로 이동하여 모든 폴더에서 에셋을 검색할 수 있습니다. <br> 관리자가 아닌 사용자는 경로 브라우저에서 해당 폴더로 이동하여 폴더의 자산을 검색할 수 있습니다. | <ul><li>필드 레이블</li><li>경로</li><li>설명</li></ul> |
+| **[!UICONTROL 경로 브라우저]** | 특정 위치에서 에셋을 검색하는 검색 조건자입니다. **참고:** *로그인한 사용자의 경우 필터의 경로 브라우저에 사용자와 공유된 폴더(및 상위 항목)의 콘텐츠 구조만 표시됩니다.* <br> 관리자 사용자는 경로 브라우저를 사용하여 해당 폴더로 이동하여 모든 폴더에서 에셋을 검색할 수 있습니다. <br> 반면 관리자가 아닌 사용자는 경로 브라우저에서 해당 폴더로 이동하여 폴더에서 에셋을 검색할 수 있습니다(액세스 가능). | <ul><li>필드 레이블</li><li>경로</li><li>설명</li></ul> |
 | **[!UICONTROL 속성]** | 특정 메타데이터 속성을 기반으로 에셋을 검색합니다. **참고:** *부분 검색을 선택하면 대소문자 구분이 기본적으로 선택됩니다*. | <ul><li>필드 레이블</li><li>플레이스홀더</li><li>속성 이름</li><li>부분 검색</li><li>대소문자 구분 안 함</li><li> 설명</li></ul> |
 | **[!UICONTROL 다중 값 속성]** | 속성 술어와 유사하지만 구분 기호로 구분된 여러 입력 값을 사용할 수 있습니다(기본값은 쉼표). 입력 값 중 하나와 일치하는 에셋은 결과로 반환됩니다. | <ul><li>필드 레이블</li><li>플레이스홀더</li><li>속성 이름</li><li>구분 기호 지원</li><li>대소문자 구분 안 함</li><li>설명</li></ul> |
 | **[!UICONTROL 태그]** | 태그를 기반으로 에셋을 검색하는 검색 조건자입니다. 태그 목록의 다양한 태그를 채우도록 경로 속성을 구성할 수 있습니다. 관리자는 경로 값을 변경해야 할 수 있습니다(예: [!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]). 경로에 테넌트 정보(예: [!UICONTROL `/etc/tags/<custom_tag_namespace>`])가 포함되어 있지 않은 AEM에서 검색 양식을 게시하는 경우 필요합니다. | <ul><li>필드 레이블</li><li>속성 이름</li><li>경로</li><li>설명</li></ul> |
@@ -105,7 +117,7 @@ Brand Portal은 승인된 브랜드 에셋의 세분화된 검색에 대해 [패
 
 >[!NOTE]
 >
->* **[!UICONTROL 옵션 조건자]**, **[!UICONTROL Publish 상태 조건자]** 및 **[!UICONTROL 등급 조건자]**&#x200B;는 Brand Portal에서 작동하지 않으므로 사용하지 마십시오.
+>* **[!UICONTROL 옵션 조건자]**, **[!UICONTROL 게시 상태 조건자]** 및 **[!UICONTROL 등급 조건자]**&#x200B;는 Brand Portal에서 사용할 수 없으므로 사용하지 마십시오.
 >* 폴더 유형 조건자 `(nt:folder type)`은(는) Brand Portal에서 지원되지 않으므로 성능 문제가 발생할 수 있습니다. 게시된 사용자 정의 검색 양식에 있는 경우 검색 양식을 편집하여 삭제할 수 있습니다.
 
 ## 검색 조건자 삭제 {#delete-a-search-predicate}

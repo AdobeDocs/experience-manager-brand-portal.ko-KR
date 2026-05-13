@@ -6,10 +6,24 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 0%
+source-wordcount: 1051
+ht-degree: 3%
 
 ---
 
@@ -40,7 +54,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 게스트 사용자 세션은 15분 동안 활성 상태로 유지됩니다.
 이 프로세스는 세션 시작 시간부터 15분 동안 **[!UICONTROL Lightbox]**&#x200B;의 상태를 유지합니다. 이후 현재 게스트 세션이 다시 시작되어 Lightbox 상태가 손실됩니다.
 
-예를 들어 게스트 사용자는 1500시간에 Brand Portal에 로그인하고 15:05시간에 다운로드할 자산을 **[!UICONTROL Lightbox]**&#x200B;에 추가합니다. 사용자가 로그인하고 15분 후 15시 15분 이내에 **[!UICONTROL Lightbox]** 컬렉션(또는 자산)을 다운로드하지 않으면 세션을 다시 시작해야 합니다. **[!UICONTROL Lightbox]**&#x200B;이(가) 비어 있습니다. 즉, 세션이 손실된 경우 업로드된 자산을 더 이상 사용할 수 없습니다.
+예를 들어 게스트 사용자는 1500시간에 Brand Portal에 로그인하고 15:05시간에 다운로드할 자산을 **[!UICONTROL Lightbox]**&#x200B;에 추가합니다. 사용자가 15:15시간(로그인 후 15분 이내) 전에 **[!UICONTROL Lightbox]** 컬렉션(또는 자산)을 다운로드하지 않으면 세션을 다시 시작해야 합니다. **[!UICONTROL Lightbox]**&#x200B;이(가) 비어 있습니다. 즉, 세션이 손실된 경우 업로드된 자산을 더 이상 사용할 수 없습니다.
 
 ## 허용된 동시 게스트 세션 {#concurrent-guest-sessions-allowed}
 
@@ -61,7 +75,7 @@ Brand Portal을 게스트로 시작하면 사용자는 모든 [공유된 자산 
 
 관리자가 [폴더 계층 구조 사용](../using/brand-portal-general-configuration.md#main-pars-header-1621071021)을 사용하도록 설정하면 게스트 사용자는 Brand Portal에 로그인할 때 루트 폴더 및 상위 폴더 내의 공유 폴더에 있는 폴더 트리를 볼 수 있습니다.
 
-이러한 상위 폴더는 가상 폴더이며 이 폴더에서는 작업을 수행할 수 없습니다. 잠금 아이콘으로 이러한 가상 폴더를 인식할 수 있습니다.
+이러한 상위 폴더는 가상 폴더이며 이 폴더에서는 작업을 수행할 수 없습니다. 이들 가상 폴더는 잠금 아이콘으로 식별할 수 있습니다.
 
 공유 폴더와 달리 마우스를 가리거나 **[!UICONTROL 카드 보기]**&#x200B;에서 선택할 때 작업 작업이 표시되지 않습니다. **[!UICONTROL 열 보기]** 및 **[!UICONTROL 목록 보기]**&#x200B;에서 가상 폴더를 선택할 때 **[!UICONTROL 개요]** 단추가 표시됩니다.
 

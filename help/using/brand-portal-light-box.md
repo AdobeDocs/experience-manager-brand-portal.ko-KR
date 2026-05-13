@@ -6,14 +6,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/L2E-5TOIkUJ0eC73It7IY9FLcvq9NrFnzw-lFUu6FKc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: 241
+ht-degree: 2%
 
 ---
 
-# Lightbox 컬렉션 관리 {#manage-the-lightbox-collection}
+# 라이트박스 컬렉션 관리 {#manage-the-lightbox-collection}
 
 **[!UICONTROL Lightbox]**&#x200B;은(는) 자산에 쉽게 액세스할 수 있는 특수 형식의 컬렉션입니다. 각 사용자에게는 Brand Portal에 처음 로그인할 때 자동으로 만들어지는 전용 **[!UICONTROL Lightbox]**&#x200B;이(가) 있습니다. **[!UICONTROL Lightbox]** 컬렉션을 삭제할 수 없습니다.
 

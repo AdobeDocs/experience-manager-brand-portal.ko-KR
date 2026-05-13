@@ -7,10 +7,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 3%
+source-wordcount: 904
+ht-degree: 4%
 
 ---
 
@@ -76,7 +84,7 @@ Brand Portal에서 관리자는 만료된 에셋을 보고 다운로드하고 �
 자산에 다음(또는 두 가지 모두) 메타데이터 속성 중 하나가 포함되어 있으면 자산이 보호되는 것으로 간주됩니다.
 
 * `xmpRights:WebStatement`: 이 속성은 자산에 대한 사용권 계약이 포함된 페이지의 경로를 참조합니다. `xmpRights:WebStatement`은(는) 저장소의 올바른 경로여야 합니다.
-* `adobe_dam:restrictions`: 이 HTML의 값은 사용권 계약을 지정하는 원시 속성입니다.
+* `adobe_dam:restrictions`: 이 속성의 값은 사용권 계약을 지정하는 원시 HTML입니다.
 
 
 라이선스로 보호된 자산을 다운로드하도록 선택한 경우 메타데이터 속성에 따라 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다.

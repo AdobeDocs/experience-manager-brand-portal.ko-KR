@@ -1,19 +1,25 @@
 ---
 title: Brand Portal에서 Experience Manager Assets으로 에셋 업로드 및 기여 폴더 게시
-description: Brand Portal에서 Experience Manager Assets으로 새 자산을 업로드하고 기여 폴더를 게시하는 방법에 대한 통찰력을 얻으십시오.
+description: insight에서 새 자산을 업로드하고 Brand Portal에서 Experience Manager Assets으로 기여 폴더를 게시하도록 합니다.
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/u5hGJpkNkUSrnC50ydHo4iERbyBn9uu4FItvZa-N34M
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 0%
+source-wordcount: 1469
+ht-degree: 10%
 
 ---
 
-# Experience Manager Assets에 대한 Publish 기여 폴더 {#using-asset-souring-in-bp}
+# Experience Manager Assets에 기여 폴더 게시 {#using-asset-souring-in-bp}
 
 적절한 권한이 있는 Brand Portal 사용자는 여러 에셋 또는 여러 에셋이 포함된 폴더를 기여도 폴더에 업로드할 수 있습니다. 그러나 Brand Portal 사용자는 **NEW** 폴더에만 에셋을 업로드할 수 있습니다. **SHARED** 폴더는 기여를 위해 새 자산을 만드는 동안 Brand Portal 사용자가 사용하는 기준 자산(참조 컨텐츠)을 배포하기 위한 것입니다.
 
@@ -21,7 +27,7 @@ ht-degree: 0%
 
 * [에셋 요구 사항 다운로드](#download-asset-requirements)
 * [기여 폴더에 새 에셋 업로드](#uplad-new-assets-to-contribution-folder)
-* [Experience Manager Assets에 대한 Publish 기여 폴더](#publish-contribution-folder-to-aem)
+* [Experience Manager Assets에 기여 폴더 게시](#publish-contribution-folder-to-aem)
 
 ## 에셋 요구 사항 다운로드 {#download-asset-requirements}
 
@@ -61,7 +67,7 @@ Brand Portal 대시보드는 새로 공유된 기여 폴더와 함께 Brand Port
 
 ## 기여 폴더에 자산 업로드 {#upload-new-assets-to-contribution-folder}
 
-에셋 요구 사항을 살펴본 후 Brand Portal 사용자는 기여를 위한 새 에셋을 만들고 기여 폴더 내의 NEW 폴더에 업로드할 수 있습니다. 사용자는 여러 에셋을 에셋 기여 폴더에 업로드할 수 있습니다. 단, 한 번에 하나의 폴더만 만들 수 있습니다.
+에셋 요구 사항을 살펴본 후 Brand Portal 사용자는 기여를 위한 새 에셋을 만들고 기여 폴더 내의 NEW 폴더에 업로드할 수 있습니다. 사용자는 여러 자산을 자산 기여 폴더에 업로드할 수 있습니다. 단, 한 번에 하나의 폴더만 만들 수 있습니다.
 
 >[!NOTE]
 >
@@ -73,7 +79,7 @@ Brand Portal 대시보드는 새로 공유된 기여 폴더와 함께 Brand Port
 
 >[!NOTE]
 >
->Adobe은 다른 Brand Portal 사용자가 기여도를 위해 사용할 수 있도록 기여도 폴더를 Experience Manager Assets에 게시한 후 업로드 공간을 해제하는 것을 권장합니다.
+>Adobe은 기여도 폴더를 Experience Manager Assets에 게시한 후 업로드 공간을 릴리스하여 다른 Brand Portal 사용자가 기여도를 위해 사용할 수 있도록 권장합니다.
 >
 >Brand Portal 테넌트의 업로드 제한을 **10** GB 이상으로 확장해야 하는 경우 요구 사항을 지정하여 고객 지원 센터에 문의하십시오.
 
@@ -100,9 +106,9 @@ Brand Portal 대시보드는 새로 공유된 기여 폴더와 함께 Brand Port
 모든 에셋 또는 폴더를 NEW 폴더에 업로드한 후 기여도 폴더를 Experience Manager Assets에 게시합니다.
 
 
-## Experience Manager Assets에 대한 Publish 기여 폴더 {#publish-contribution-folder-to-aem}
+## Experience Manager Assets에 기여 폴더 게시 {#publish-contribution-folder-to-aem}
 
-Brand Portal 사용자는 Experience Manager 작성자 인스턴스에 액세스할 필요 없이 기여도 폴더를 Experience Manager Assets에 게시할 수 있습니다.
+Brand Portal 사용자는 Experience Manager 작성자 인스턴스에 액세스할 필요 없이 Experience Manager Assets에 기여 폴더를 게시할 수 있습니다.
 
 에셋 요구 사항을 충족하는지 확인하고 기여도 폴더 내의 **NEW** 폴더에 새로 만든 에셋을 업로드하십시오.
 
@@ -111,7 +117,7 @@ Brand Portal 사용자는 Experience Manager 작성자 인스턴스에 액세스
 1. Brand Portal 인스턴스에 로그인.
 
 1. Brand Portal 대시보드에서 기여도 폴더를 선택합니다.
-1. **[!UICONTROL AEM에 Publish]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL AEM에 게시]**&#x200B;를 클릭합니다.
 
    ![](assets/export.png)
 
@@ -139,11 +145,11 @@ Brand Portal 사용자는 새로 만든 에셋을 Experience Manager Assets에 �
 
   ![](assets/publishing-status.png)
 
-* Experience Manager Assetsas a Cloud Service 에서 **[!UICONTROL Assets]** > **[!UICONTROL 작업]**(으)로 이동
+* Experience Manager Assets as a Cloud Service에서 **[!UICONTROL Assets]** > **[!UICONTROL 작업]**(으)로 이동합니다.
 
   또는 전역 탐색에서 직접 **[!UICONTROL 작업]**(으)로 이동할 수 있습니다.
 
-  이 보고서는 Brand Portal에서 Experience Manager Assetsas a Cloud Service 로 에셋 가져오기를 포함하여 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
+  이 보고서는 Brand Portal에서 Experience Manager Assets as a Cloud Service으로 에셋 가져오기를 포함하여 모든 게시 작업의 최종 상태(성공 또는 오류)를 반영합니다.
 
   ![](assets/cloud-service-job-status.png)
 
@@ -155,25 +161,25 @@ Brand Portal 사용자는 새로 만든 에셋을 Experience Manager Assets에 �
 
 ## 기여 폴더에서 Experience Manager Assets으로 게시된 에셋 자동 삭제 {#automatically-delete-published-assets-from-contribution-folder}
 
-이제 Brand Portal은 12시간마다 자동 작업을 실행하여 모든 기여 폴더를 스캔하고 AEM에 게시된 모든 에셋을 삭제합니다. 따라서 폴더 크기를 [임계값 제한](#upload-new-assets-to-contribution-folder) 미만으로 유지하기 위해 기여도 폴더의 자산을 수동으로 삭제할 필요가 없습니다. 지난 7일 동안 자동으로 실행된 삭제 작업의 상태를 모니터링할 수도 있습니다. 작업 보고서는 다음 세부 정보를 제공합니다.
+이제 Brand Portal은 12시간마다 자동 작업을 실행하여 모든 기여 폴더를 스캔하고 AEM에 게시된 모든 에셋을 삭제합니다. 따라서 폴더 크기를 [임계값 제한](#upload-new-assets-to-contribution-folder) 미만으로 유지하기 위해 기여도 폴더의 자산을 수동으로 삭제할 필요가 없습니다. 지난 7일 동안 자동으로 실행된 삭제 작업의 상태를 모니터링할 수도 있습니다. 작업 보고서는 다음과 같은 세부 정보를 제공합니다.
 
 * 작업 시작 시간
 * 작업 종료 시간
 * 작업 상태
-* 작업에 포함된 총 자산
-* 작업에서 삭제된 총 자산
-* 작업 실행의 결과로 사용할 수 있는 총 저장소
+* 직업에 포함된 총 자산
+* 작업에서 정상적으로 삭제된 총 자산
+* 작업 실행의 결과로 확보된 총 스토리지
 
   ![삭제 보고서](assets/deletion-reports.png)
 
-추가 드릴다운하여 삭제 작업에 포함된 각 에셋의 세부 정보를 볼 수도 있습니다. 자산 제목, 크기, 작성자, 삭제 상태 및 삭제 시간 등 세부 정보가 보고서에 포함됩니다.
+더욱 세부적으로 살펴보면 삭제 작업에 포함된 각 자산의 세부 정보를 확인할 수 있습니다. 보고서에는 자산 제목, 크기, 작성자, 삭제 상태 및 삭제 시간 등의 세부 정보가 포함됩니다.
 
-![삭제 보고서 상세 정보](assets/deletion-reports-detailed.png)
+![보고서 삭제 세부 정보](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >
 > * 고객은 Adobe 고객 지원 센터에 자동 삭제 작업 기능을 비활성화하고 다시 활성화하거나 실행 빈도를 변경하도록 요청할 수 있습니다.
-> * 이 기능은 Experience Manager 6.5.13.0 이상 릴리스에서 사용할 수 있습니다.
+> * 이 기능은 Experience Manager 6.5.13.0 및 이후 릴리스에서 사용할 수 있습니다.
 
 ### 삭제 보고서 보기 및 다운로드 {#view-delete-jobs}
 
@@ -183,7 +189,7 @@ Brand Portal 사용자는 새로 만든 에셋을 Experience Manager Assets에 �
 
 1. 작업을 선택하고 **[!UICONTROL 보기]**&#x200B;를 클릭하여 보고서를 봅니다.
 
-   삭제 작업에 포함된 각 에셋의 세부 정보를 확인합니다. 자산 제목, 크기, 작성자, 삭제 상태 및 삭제 시간 등 세부 정보가 보고서에 포함됩니다. 작업에 대한 보고서를 CSV 형식으로 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 클릭하십시오.
+   삭제 작업에 포함된 각 에셋의 세부 정보를 확인합니다. 보고서에는 자산 제목, 크기, 작성자, 삭제 상태 및 삭제 시간 등의 세부 정보가 포함됩니다. 작업에 대한 보고서를 CSV 형식으로 다운로드하려면 **[!UICONTROL 다운로드]**&#x200B;를 클릭하십시오.
 
    보고서에서 에셋의 삭제 상태는 다음과 같은 값을 가질 수 있습니다.
 

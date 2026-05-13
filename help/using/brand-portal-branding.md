@@ -1,19 +1,29 @@
 ---
-title: 월페이퍼, 헤더 및 이메일 메시지 사용자 정의
+title: 배경 무늬, 헤더 및 이메일 메시지 사용자 정의
 description: Brand Portal 관리자는 사용자에게 표시되는 인터페이스를 제한적으로 사용자 지정할 수 있습니다. Brand Portal 로그인 페이지의 특정 배경 이미지(배경 무늬)를 선택할 수 있습니다. 고객의 브랜드에 맞게 헤더 이미지를 추가하고 에셋 공유 이메일을 사용자 지정할 수도 있습니다.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/hYCuP-z0l45Qc7ZXOjsgFptFF8QGhRp-62iDNFJ1x-o
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 0%
+source-wordcount: 761
+ht-degree: 3%
 
 ---
 
-# 월페이퍼, 헤더 및 이메일 메시지 사용자 정의 {#customize-wallpaper-header-and-email-message}
+# 배경 무늬, 헤더 및 이메일 메시지 사용자 정의 {#customize-wallpaper-header-and-email-message}
 
 Brand Portal 관리자는 사용자에게 표시되는 인터페이스를 제한적으로 사용자 지정할 수 있습니다. Brand Portal 로그인 페이지의 특정 배경 이미지(배경 무늬)를 선택할 수 있습니다. 고객의 브랜드에 맞게 헤더 이미지를 추가하고 에셋 공유 이메일을 사용자 지정할 수도 있습니다.
 
@@ -62,7 +72,7 @@ Brand Portal 관리자는 사용자에게 표시되는 인터페이스를 제한
 
    ![](assets/chlimage_1-2.png)
 
-   * 변경 내용을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
+   * **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
 ## 헤더 사용자 정의 {#customize-the-header}
 
@@ -112,7 +122,7 @@ Brand Portal 관리자는 사용자에게 표시되는 인터페이스를 제한
 
    ![](assets/chlimage_1-5.png)
 
-   * 변경 내용을 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
+   * **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
 ## 이메일 메시지 사용자 지정 {#customize-the-email-messaging}
 

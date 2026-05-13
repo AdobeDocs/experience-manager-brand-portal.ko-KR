@@ -5,10 +5,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
+TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 6%
+source-wordcount: 1714
+ht-degree: 14%
 
 ---
 
@@ -35,9 +48,9 @@ Brand Portal과 함께 Adobe Experience Manager Assets을 구성하면 Brand Por
 
 >[!IMPORTANT]
 >
-> * Brand Portal은 유지 관리 모드입니다. 모든 새로운 제품 혁신은 [Content Hub](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)에서 사용할 수 있습니다.
-> * 여전히 Brand Portal을 활성화해야 하는 경우 사용 사례 및 기타 특정 요구 사항에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
-> * Brand Portal은 [Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime) 또는 [Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)에서 사용할 수 없습니다. 그러나 이미 Brand Portal에 액세스할 수 있는 기존 Assets as a Cloud Service 고객은 Assets Ultimate으로 전환할 때 계속 사용할 수 있습니다.
+> * Brand Portal은 현재 유지 관리 모드입니다. 모든 신제품 혁신은 [Content Hub](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)에서 확인할 수 있습니다.
+> * Brand Portal을 활성화해야 하는 경우 Adobe 담당자에게 문의하여 사용 사례 및 기타 특정 요구 사항에 대한 세부 정보를 확인하십시오.
+> * Brand Portal은 [Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime) 또는 [Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)와 함께 사용할 수 없습니다. 단, 이미 Brand Portal에 대한 액세스 권한을 보유한 기존 Assets as a Cloud Service 고객은 Assets Ultimate로 전환해도 이를 계속 사용할 수 있습니다.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -134,7 +147,7 @@ Experience Manager Assets Brand Portal에서 [게스트가 Brand Portal에 액�
 
 * [Brand Portal에서 AEM Assets 구성](../using/configure-aem-assets-with-brand-portal.md)
 * [폴더를 Brand Portal에 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [컬렉션을 Brand Portal에 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Brand Portal에 컬렉션 게시](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Brand Portal URL에 대한 대체 별칭 {#tenant-alias-for-portal-url}
 
@@ -156,7 +169,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
 액세스 권한을 요청하려면 다음을 수행하십시오.
 
-1. Brand Portal 로그인 페이지에서 **[!UICONTROL 액세스 필요 여부에 해당하는**&#x200B;[!UICONTROL &#x200B;여기를 클릭&#x200B;]&#x200B;**을 선택합니다.]**. 그러나 게스트 세션을 시작하려면 **[!UICONTROL 게스트 액세스?]**&#x200B;에 해당하는 **[!UICONTROL 여기를 클릭]**&#x200B;하세요.
+1. Brand Portal 로그인 페이지에서 **[!UICONTROL 액세스가 필요하십니까?]**&#x200B;에 해당하는 **[!UICONTROL 여기를 클릭]**&#x200B;합니다. 그러나 게스트 세션을 시작하려면 **[!UICONTROL 게스트 액세스?]**&#x200B;에 해당하는 **[!UICONTROL 여기를 클릭]**&#x200B;하세요.
 
    ![Brand Portal 로그인 화면](assets/bp-login-requestaccess.png)
 
