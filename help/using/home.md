@@ -53,7 +53,7 @@ Brand Portal 솔루션 워크플로는 다음 이미지에 표시되어 있습�
 | [지원되는 파일 형식](brand-portal-supported-formats.md) | 미리 보기 및 다운로드를 위해 Brand Portal에서 지원되는 파일 형식 |
 | [자산을 Brand Portal에 게시](brand-portal-sharing-folders.md) | 폴더, 컬렉션, 링크, 사전 설정, 스키마, 패싯 및 태그를 Brand Portal에 게시하는 방법. |
 | [Brand Portal의 자산 소싱](brand-portal-asset-sourcing.md) | AEM Assets에서 자산 소싱을 구성하고, Brand Portal에 자산을 업로드하고, 기여 폴더를 AEM Assets에 다시 게시하는 방법. |
-| [Brand Portal 기능 비디오](https://experienceleague.adobe.com/?lang=ko&tag=Brand+Portal#recommended/solutions/experience-manager) | 비디오 튜토리얼을 통해 Experience Manager Assets Brand Portal을 사용하는 방법을 알아보십시오. |
+| [Brand Portal 기능 비디오](https://experienceleague.adobe.com/ko?lang=ko&tag=Brand+Portal#recommended/solutions/experience-manager) | 비디오 튜토리얼을 통해 Experience Manager Assets Brand Portal을 사용하는 방법을 알아보십시오. |
 
 ### 유용한 리소스
 

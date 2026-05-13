@@ -64,7 +64,7 @@ Brand Portal의 보기 선택기에서 사용 가능한 보기(카드, 열 및 �
 * 크기
 * 해상도
 
-카드를 클릭하여 계층 구조를 아래로 이동하거나(빠른 작업이 발생하지 않도록 주의), 헤더에서 [탐색 표시를 사용하여](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) 다시 위로 이동할 수 있습니다.
+카드를 클릭하여 계층 구조를 아래로 이동하거나(빠른 작업이 발생하지 않도록 주의), 헤더에서 [탐색 표시를 사용하여](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling) 다시 위로 이동할 수 있습니다.
 
 ![](assets/cardquickactions.png)
 
@@ -114,7 +114,7 @@ Brand Portal의 보기 선택기에서 사용 가능한 보기(카드, 열 및 �
 * 자산 계층 구조를 보여 주는 폴더 경로
 * Brand Portal에 자산을 게시한 날짜
 
-경로 열을 사용하면 폴더 계층에서 에셋 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 클릭하여 계층 구조를 탐색하고 헤더의 [탐색 표시](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)를 사용하여 백업할 수 있습니다.
+경로 열을 사용하면 폴더 계층에서 에셋 위치를 쉽게 식별할 수 있습니다. 리소스 이름을 클릭하여 계층 구조를 탐색하고 헤더의 [탐색 표시](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)를 사용하여 백업할 수 있습니다.
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
