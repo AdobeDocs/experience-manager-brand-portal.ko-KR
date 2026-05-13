@@ -6,11 +6,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1714
@@ -26,7 +33,7 @@ ht-degree: 14%
 
 **Adobe Experience Manager(AEM) Assets Brand Portal**&#x200B;은(는) 자산 배포 및 자산 기여 기능을 제공하여 전 세계에 배포된 Brand Portal 사용자와 효과적으로 공동 작업해야 하는 마케터의 요구에 중점을 둡니다.
 
-Asset distribution을 사용하면 승인된 크리에이티브 에셋을 획득, 제어하고, 장치 간에 외부 관련자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 그러나 에셋 기여를 통해 Brand Portal 사용자는 작성 환경에 액세스하지 않아도 에셋을 Brand Portal에 업로드하고 Experience Manager Assets에 게시할 수 있습니다. 기여 기능을 **Brand Portal의 Assets 소싱**이라고 합니다. 또한 이를 함께 사용하면 Brand Portal 사용자(외부 에이전시/팀)의 자산 배포 및 기여에 대한 전반적인 Brand Portal 경험을 개선할 수 있고, 자산 출시 시기를 앞당길 수 있으며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다.
+Asset distribution을 사용하면 승인된 크리에이티브 에셋을 획득, 제어하고, 장치 간에 외부 관련자와 내부 비즈니스 사용자에게 안전하게 배포할 수 있습니다. 그러나 에셋 기여를 통해 Brand Portal 사용자는 작성 환경에 액세스하지 않아도 에셋을 Brand Portal에 업로드하고 Experience Manager Assets에 게시할 수 있습니다. 기여 기능을 **Brand Portal의 Assets 소싱**&#x200B;이라고 합니다. 또한 이를 함께 사용하면 Brand Portal 사용자(외부 에이전시/팀)의 자산 배포 및 기여에 대한 전반적인 Brand Portal 경험을 개선할 수 있고, 자산 출시 시기를 앞당길 수 있으며, 규정 미준수 및 무단 액세스의 위험을 줄일 수 있습니다.
 [Brand Portal의 자산 소싱](brand-portal-asset-sourcing.md)을 참조하세요.
 
 브라우저 기반 포털 환경을 사용하면 승인된 형식으로 에셋을 쉽게 업로드, 찾아보기, 검색, 미리 보기 및 내보낼 수 있습니다.
@@ -176,7 +183,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
    **시나리오 1**
 
-   1. [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]이 있는 경우 **[!UICONTROL 로그인]**을 클릭하세요.
+   1. [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]이 있는 경우 **[!UICONTROL 로그인]**&#x200B;을 클릭하세요.
 [!UICONTROL 로그인] 페이지가 열립니다.
 
    1. [!UICONTROL Adobe ID] 자격 증명을 제공하고 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
@@ -187,9 +194,9 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
    **시나리오 2**
 
-   1. [!UICONTROL Adobe ID]이 없는 경우 새로 만들려면 [!UICONTROL 액세스 요청] 페이지에서 **[!UICONTROL Adobe ID 가져오기]**를 클릭하세요.
+   1. [!UICONTROL Adobe ID]이 없는 경우 새로 만들려면 [!UICONTROL 액세스 요청] 페이지에서 **[!UICONTROL Adobe ID 가져오기]**&#x200B;를 클릭하세요.
 [!UICONTROL 로그인] 페이지가 열립니다.
-   1. **[!UICONTROL Adobe ID 가져오기]**를 클릭합니다.
+   1. **[!UICONTROL Adobe ID 가져오기]**&#x200B;를 클릭합니다.
 [!UICONTROL 등록] 페이지가 열립니다.
    1. 이름과 성, 이메일 ID 및 암호를 입력합니다.
    1. **[!UICONTROL 등록]**&#x200B;을 선택하세요.
@@ -208,7 +215,7 @@ Brand Portal 제품 관리자는 자신의 Brand Portal 알림 영역과 받은 
 
 ![요청된 알림에 액세스](assets/bplogin_request_access_7.png)
 
-액세스 권한을 부여하려면 제품 관리자가 Brand Portal 알림 영역에서 관련 알림을 클릭한 다음 **[!UICONTROL 액세스 권한 부여]**를 클릭해야 합니다.
+액세스 권한을 부여하려면 제품 관리자가 Brand Portal 알림 영역에서 관련 알림을 클릭한 다음 **[!UICONTROL 액세스 권한 부여]**&#x200B;를 클릭해야 합니다.
 또는 제품 관리자는 액세스 요청 이메일에 제공된 링크를 따라 Adobe [!UICONTROL Admin Console]을(를) 방문하여 사용자를 관련 제품 구성에 추가할 수 있습니다.
 
 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 홈 페이지로 리디렉션되었습니다. Adobe [!UICONTROL Admin Console]을(를) 사용하여 사용자를 만들고 Brand Portal에 그룹으로 표시되는 제품 프로필(이전의 제품 구성)에 사용자를 할당합니다. [!UICONTROL Admin Console]에서 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자 추가](brand-portal-adding-users.md#add-a-user)를 참조하십시오(사용자 추가 절차의 4-7단계).

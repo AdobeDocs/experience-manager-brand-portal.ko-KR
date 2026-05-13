@@ -7,10 +7,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1010
@@ -44,7 +50,7 @@ ht-degree: 4%
 
    보고서를 보려면 보고서 링크를 클릭합니다. 또는 보고서를 선택하고 도구 모음에서 보기 아이콘을 클릭합니다.
 
-   **[!UICONTROL 사용 보고서]**&#x200B;에는 활성 Brand Portal 사용자 수, 모든 자산이 사용 중인 저장소 공간 및 Brand Portal의 총 자산 수에 대한 정보가 표시됩니다. Admin Console에서 어떤 제품 프로필에도 할당되지 않은 Brand Portal 사용자는 비활성 사용자로 간주되며 **[!UICONTROL 사용 보고서]**에 반영되지 않습니다.
+   **[!UICONTROL 사용 보고서]**&#x200B;에는 활성 Brand Portal 사용자 수, 모든 자산이 사용 중인 저장소 공간 및 Brand Portal의 총 자산 수에 대한 정보가 표시됩니다. Admin Console에서 어떤 제품 프로필에도 할당되지 않은 Brand Portal 사용자는 비활성 사용자로 간주되며 **[!UICONTROL 사용 보고서]**&#x200B;에 반영되지 않습니다.
 또한 이 보고서에는 이러한 각 정보 지표에 대해 허용되는 능력이 표시됩니다.
 
    ![](assets/usage-report.png)

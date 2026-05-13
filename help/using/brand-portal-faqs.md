@@ -8,10 +8,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
 TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1513
@@ -103,7 +108,7 @@ Brand Portal FAQ는 최종 사용자가 최신 Experience Manager Assets Brand P
 
 **질문: 기여 폴더에는 무엇이 포함됩니까?**
 
-**답변:** **기여** 폴더에는 **신규**&#x200B;와 **공유됨**이라는 두 개의 하위 폴더가 포함되어 있습니다. 처음에는 신규 폴더가 비어 있고 공유됨 폴더에는 Brand Portal 사용자를 위한 참조 콘텐츠(재사용 가능한 자산)가 포함되어 있습니다.
+**답변:** **기여** 폴더에는 **신규**&#x200B;와 **공유됨**&#x200B;이라는 두 개의 하위 폴더가 포함되어 있습니다. 처음에는 신규 폴더가 비어 있고 공유됨 폴더에는 Brand Portal 사용자를 위한 참조 콘텐츠(재사용 가능한 자산)가 포함되어 있습니다.
 Brand Portal 사용자는 **기여** 폴더에 액세스하고 **신규** 폴더에 콘텐츠를 업로드합니다.
 
 

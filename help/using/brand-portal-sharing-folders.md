@@ -6,11 +6,17 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1108
@@ -114,7 +120,7 @@ Brand Portal의 사용자와 폴더를 공유하려면 다음 단계를 따르�
    ![](assets/folder_properties.png)
 
 1. 기본 이름을 사용자에게 표시하지 않으려면 **[!UICONTROL 폴더 속성]** 콘솔에서 **[!UICONTROL 폴더 제목]** 필드에 폴더 제목을 지정합니다.
-1. **[!UICONTROL 사용자 추가]** 목록에서 폴더를 공유할 사용자 또는 그룹을 선택하고 **[!UICONTROL 추가]**를 클릭합니다.
+1. **[!UICONTROL 사용자 추가]** 목록에서 폴더를 공유할 사용자 또는 그룹을 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 폴더를 게스트 사용자만 공유하고 다른 사용자는 공유하지 않으려면 **[!UICONTROL 구성원]** 드롭다운에서 **[!UICONTROL 익명 사용자]**&#x200B;를 선택하십시오.
 
    ![](assets/only-anonymous.png)
@@ -141,7 +147,7 @@ Brand Portal의 사용자와 폴더를 공유하려면 다음 단계를 따르�
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 경고 메시지 상자에서 **[!UICONTROL 확인]**을 클릭하여 공유 취소를 확인합니다.
+1. 경고 메시지 상자에서 **[!UICONTROL 확인]**&#x200B;을 클릭하여 공유 취소를 확인합니다.
 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 1. 공유 목록에서 제거한 사용자의 자격 증명으로 Brand Portal에 로그인합니다. 해당 폴더는 사용자의 Brand Portal 인터페이스에서 더 이상 사용할 수 없습니다.

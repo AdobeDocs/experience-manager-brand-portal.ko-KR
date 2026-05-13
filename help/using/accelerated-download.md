@@ -7,11 +7,18 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 TQID: https://experienceleague.adobe.com/4YwbUZ1PopjlrANgrvsKdf1EczcUTD2VR4PPyfRs1f4
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1078
@@ -195,7 +202,7 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Aspera Connect 클라이언트 기본 설정 {#aspera-connect-client-preferences}
 
-아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1}을 선택하여 IBMAspera Connect 클라이언트 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
+아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1&rbrace;을 선택하여 IBMAspera Connect 클라이언트 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
