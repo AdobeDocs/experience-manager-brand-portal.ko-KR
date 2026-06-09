@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
 workflow-type: tm+mt
-source-wordcount: 1714
+source-wordcount: 1549
 ht-degree: 14%
 
 ---
@@ -50,11 +50,11 @@ Brand Portal과 함께 Adobe Experience Manager Assets을 구성하면 Brand Por
 >
 > * Brand Portal은 현재 유지 관리 모드입니다. 모든 신제품 혁신은 [Content Hub](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)에서 확인할 수 있습니다.
 > * Brand Portal을 활성화해야 하는 경우 Adobe 담당자에게 문의하여 사용 사례 및 기타 특정 요구 사항에 대한 세부 정보를 확인하십시오.
-> * Brand Portal은 [Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime) 또는 [Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)와 함께 사용할 수 없습니다. 단, 이미 Brand Portal에 대한 액세스 권한을 보유한 기존 Assets as a Cloud Service 고객은 Assets Ultimate로 전환해도 이를 계속 사용할 수 있습니다.
+> * Brand Portal은 [Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime) 또는 [Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)와 함께 사용할 수 없습니다. 그러나 이미 Brand Portal에 액세스할 수 있는 기존 Assets as a Cloud Service 고객은 Assets Ultimate으로 전환할 때 계속 사용할 수 있습니다.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
-하지만 Experience Manager Assets(온 프레미스 및 관리 서비스)는 Brand Portal 테넌트의 인증을 위해 Adobe Identity Management IMS(Services) 토큰을 전달하는 Adobe Developer Console을 사용하여 Brand Portal으로 수동으로 구성합니다.
+그러나 Experience Manager Assets(On-Premise 및 Managed Services)는 Brand Portal 테넌트의 인증을 위해 Adobe IMS(Identity Management Services) 토큰을 조달하는 Adobe Developer Console을 사용하여 Brand Portal으로 수동으로 구성됩니다.
 
 자세한 내용은 [Brand Portal을 사용하여 Experience Manager Assets 구성](../using/configure-aem-assets-with-brand-portal.md)을 참조하십시오.
 
@@ -92,7 +92,7 @@ Brand Portal은 다음 사용자 역할을 지원합니다.
 
 Experience Manager Assets Brand Portal에서 [게스트가 Brand Portal에 액세스](#request-access-to-brand-portal)할 수 있습니다. 게스트 사용자는 포털에 로그인하기 위해 자격 증명이 필요하지 않으며 공용 폴더 및 컬렉션에 액세스할 수 있습니다. 게스트 사용자는 에셋 세부 사항을 탐색하고 공개 폴더 및 컬렉션의 멤버에 대한 전체 에셋 보기를 가질 수 있습니다. 공개 자산을 검색 및 다운로드하고 [!UICONTROL Lightbox] 컬렉션에 추가할 수 있습니다.
 
-그러나 게스트 세션에서는 컬렉션 및 저장된 검색을 만들 수 없도록 제한하고 추가로 공유합니다. 게스트 세션의 사용자는 폴더 및 컬렉션 설정에 액세스할 수 없으며 링크로 에셋을 공유할 수 없습니다. 다음은 게스트 사용자가 수행할 수 있는 작업 목록입니다.
+그러나 게스트 세션에서는 컬렉션 및 저장된 검색을 만들 수 없습니다. 게스트 세션의 사용자는 폴더 및 컬렉션 설정에 액세스할 수 없으며 링크로 에셋을 공유할 수 없습니다. 다음은 게스트 사용자가 수행할 수 있는 작업 목록입니다.
 
 * [공개 에셋 검색 및 액세스](browse-assets-brand-portal.md)
 
@@ -205,7 +205,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
 
    [!UICONTROL 액세스 요청] 페이지로 리디렉션되었습니다.
 
-1. 다음 페이지에는 액세스를 요청하는 데 사용되는 이름과 이메일 ID가 표시됩니다. 관리자에게 댓글을 남겨 주고 **[!UICONTROL 제출]**&#x200B;을 클릭하세요.
+1. 다음 페이지에는 액세스를 요청하는 데 사용되는 이름과 이메일 ID가 표시됩니다. 관리자를 위한 댓글을 남겨 두고 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
    ![](assets/bplogin-request-access.png)
 
