@@ -7,21 +7,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1957
 ht-degree: 9%
@@ -39,7 +30,7 @@ Adobe Experience Manager Assets Brand Portal은 사용자가 Brand Portal에서 
 >
 >® Aspera Connect를 사용하지 않고 일반 다운로드 프로세스를 계속하려면 Brand Portal 관리자에게 문의하여 **[!UICONTROL 빠른 다운로드]** 설정을 끄십시오.
 
-## 에셋 다운로드 구성 {#configure-download}
+## 에셋 다운로드 구성
 
 Brand Portal 관리자는 Brand Portal 사용자에 대한 에셋 다운로드 및 사용자 그룹 설정을 구성할 수 있습니다. 이 기능을 사용하면 사용자가 Brand Portal 인터페이스에서 에셋 표현물에 액세스하고 이를 다운로드할 수 있습니다.
 
@@ -171,7 +162,7 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
      >
      >다운로드한 자산에 사용 허가된 자산도 포함되어 있으면 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다. 이 페이지에서 자산을 선택하고 **[!UICONTROL 동의]**&#x200B;를 클릭한 다음 **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다. 동의하지 않기로 선택한 경우 라이센스가 부여된 에셋이 다운로드되지 않습니다.
      > 
-     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)이(가) 첨부되어 있습니다.
+     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)이(가) 첨부되어 있습니다.
 
 
      ![라이선스 자산](assets/licensed-asset-new.png)
@@ -295,7 +286,7 @@ removed the known issue from step 3 as it is fixed in 2022.02.0 release.
 
 <!-- 
 Backup of content before updating the new feature docs.
-## Configure asset download {#configure-download}
+## Configure asset download
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
 
