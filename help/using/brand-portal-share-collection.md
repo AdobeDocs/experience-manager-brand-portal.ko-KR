@@ -16,7 +16,7 @@ subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
    >
    >사용자의 역할은 컬렉션 내의 에셋 및 폴더에 대한 액세스를 제어합니다. 사용자에게 에셋에 대한 액세스 권한이 없는 경우 빈 컬렉션이 사용자와 공유됩니다. 또한 사용자 역할은 컬렉션에 사용할 수 있는 작업을 제어합니다.
 
-## 컬렉션 공유 해제 {#unshare-a-collection}
+## 컬렉션 공유 해제
 
 이전에 공유한 컬렉션에 대한 공유를 해제하려면 다음을 수행합니다.
 
@@ -138,7 +138,7 @@ ht-degree: 0%
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 

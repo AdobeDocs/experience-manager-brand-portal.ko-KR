@@ -18,7 +18,7 @@ subfeature_v2:
   - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1633
 ht-degree: 93%
@@ -44,7 +44,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 
 ### 해결된 중요한 문제 {#critical-issues-fixed}
 
-#### 개선 사항 {#enhancements}
+#### 개선 사항
 
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
@@ -230,7 +230,7 @@ Brand Portal은 이제 12시간마다 자동 작업을 실행하여 AEM에 게�
 * 시스템에 동시 활성 사용자 수에 대한 올바른 값이 반영되지 않습니다.
 
 <!--
-### New Features {#new-features}
+### New Features
 
 This release includes the following new features:
 
@@ -263,7 +263,7 @@ Brand Portal users can exclude specific renditions which are not required and di
 -->
 
 <!--
-### Enhancements {#enhancements}
+### Enhancements
 
 Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
 
@@ -301,7 +301,7 @@ This release includes the following enhancements:
 -->
 
 <!--
-### New features {#new-features}
+### New features
 
 Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
 -->
