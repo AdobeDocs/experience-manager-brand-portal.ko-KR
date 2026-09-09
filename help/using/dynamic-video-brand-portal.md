@@ -7,10 +7,21 @@ content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: d17d085a-e808-49dd-b9a6-85a996b999bdid: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: ee69dd13-2aba-4eb0-912b-399e82368d73
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+  - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4b423f850ccbdf8c2c2da14a7cd5ab844502883a
 workflow-type: tm+mt
 source-wordcount: 1412
@@ -80,7 +91,7 @@ Brand Portal에서 동적 비디오로 작업하려면 다음을 확인하십시
 
 * SPS에서 보안 IP 미리 보기가 활성화된 경우 **허용 목록에 추가하다**
 
-  Dynamic Media-**[!DNL Scene7]**(회사에 대해 [보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public))을(를) 사용하는 경우, SPS(**[!UICONTROL Scene7]** Publishing System) 플래시 UI를 사용하는 각 지역에 대해 {3 회사 관리자 [공개 이그레스 IP를 허용 목록](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)하는 것이 좋습니다.**[!DNL Scene7]**
+  Dynamic Media-**[!DNL Scene7]**(회사에 대해 [보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public))을(를) 사용하는 경우, SPS(**[!UICONTROL Scene7]** Publishing System) 플래시 UI를 사용하는 각 지역에 대해 &lbrace;3 회사 관리자 [공개 이그레스 IP를 허용 목록](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)하는 것이 좋습니다.**[!DNL Scene7]**
 
   이그레스 IP는 다음과 같습니다.
 
@@ -90,7 +101,7 @@ Brand Portal에서 동적 비디오로 작업하려면 다음을 확인하십시
   | EMEA | 185.34.189.3, 51.132.146.75 |
   | APAC | 172.82.240.74, 172.82.240.75 |
 
-  이러한 이그레스 IP 중 0개를 테스트하려면 ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비{를 참조하십시오.[
+  이러한 이그레스 IP 중 0개를 테스트하려면 [&#128279;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비&lbrace;를 참조하십시오.
 
 ## 모범 사례
 
@@ -117,9 +128,9 @@ Brand Portal 및 **[!UICONTROL Experience Manager 클라우드 구성]**&#x200B;
 
 ### Dynamic Media Scene7 모드에 대한 공개 이그레스
 
-[보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)인 Dynamic Media **[!UICONTROL Scene7]**&#x200B;이(가) Brand Portal에 비디오 자산을 제공하는 데 사용되는 경우 **[!UICONTROL Scene7]**은(는) 스테이징 환경 또는 내부 응용 프로그램을 위한 전용 이미지 서버를 설정합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없는 경우 실패 응답이 반환됩니다.
+[보안 미리 보기가 활성화됨](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)인 Dynamic Media **[!UICONTROL Scene7]**&#x200B;이(가) Brand Portal에 비디오 자산을 제공하는 데 사용되는 경우 **[!UICONTROL Scene7]**&#x200B;은(는) 스테이징 환경 또는 내부 응용 프로그램을 위한 전용 이미지 서버를 설정합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없는 경우 실패 응답이 반환됩니다.
 따라서 **[!UICONTROL Scene7]** 회사 관리자는 **[!UICONTROL SPS]**(Scene7 Publishing System) 플래시 UI를 통해 회사의 **[!UICONTROL 보안 테스트]** 환경에 대해 승인된 IP 주소 목록을 구성합니다. 각 지역의 이그레스 IP가 해당 승인 목록에 추가되었는지 확인합니다(다음에서).
-이러한 이그레스 IP 중 0개를 테스트하려면 ](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비{를 참조하십시오.[
+이러한 이그레스 IP 중 0개를 테스트하려면 [&#128279;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)보안 테스트 서비스를 위한 계정 준비&lbrace;를 참조하십시오.
 이그레스 IP는 다음과 같습니다.
 
 | **지역** | **이그레스 IP** |
