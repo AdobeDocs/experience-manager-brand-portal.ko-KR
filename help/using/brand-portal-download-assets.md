@@ -9,25 +9,32 @@ exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+    internal-label: Hybrid mode
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+    internal-label: Scene7 mode
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+    internal-label: Metadata
+source-git-commit: d2c6731ba328a0acc2d95354d2e2490f5cf0b320
 workflow-type: tm+mt
-source-wordcount: 1957
+source-wordcount: '1957'
 ht-degree: 9%
-
 ---
-
 # 자산 다운로드 {#download-assets-from-bp}
 
 Adobe Experience Manager Assets Brand Portal은 사용자가 Brand Portal에서 액세스할 수 있는 에셋 및 폴더를 동시에 다운로드할 수 있도록 함으로써 다운로드 경험을 향상시킵니다. 이 방법은 승인된 브랜드 자산을 오프라인으로 사용할 수 있도록 안전하게 배포할 수 있음을 의미합니다. Brand Portal에서 에셋(승인된 에셋)을 다운로드하는 방법과 [다운로드 성능](#expected-download-performance)에서 예상되는 사항에 대해 알아보려면 계속 읽어 보십시오.
@@ -131,12 +138,12 @@ Brand Portal 사용자는 Brand Portal 인터페이스에서 여러 에셋, 에�
 
 사용자가 변환에 액세스할 수 있는 경우 다음과 같은 기능이 포함된 향상된 **[!UICONTROL 다운로드]** 대화 상자가 제공됩니다.
 
-* 다운로드 목록에 있는 모든 자산의 사용 가능한 렌디션을 볼 수 있습니다.
+* 다운로드 목록에 있는 모든 에셋의 사용 가능한 렌디션을 볼 수 있습니다.
 * 다운로드에 필요하지 않은 자산의 렌디션을 제외합니다.
 * 한 번의 클릭으로 모든 유사한 자산 유형에 동일한 렌디션 세트를 적용할 수 있습니다.
-* 다양한 자산 유형에 대해 다른 렌디션 세트를 적용할 수 있습니다.
-* 각 자산에 대해 별도의 폴더를 만들 수 있습니다.
-* 선택한 자산과 해당 렌디션을 다운로드할 수 있습니다.
+* 다양한 에셋 유형에 대해 다른 렌디션 세트를 적용할 수 있습니다.
+* 각 에셋에 대해 별도의 폴더를 만들 수 있습니다.
+* 선택한 에셋과 해당 렌디션을 다운로드할 수 있습니다.
 
 ![다운로드 대화 상자](assets/download-dialog-box.png)
 
@@ -171,7 +178,7 @@ Brand Portal 인터페이스에서 에셋 또는 에셋이 포함된 폴더를 �
      >
      >다운로드한 자산에 사용 허가된 자산도 포함되어 있으면 **[!UICONTROL 저작권 관리]** 페이지로 리디렉션됩니다. 이 페이지에서 자산을 선택하고 **[!UICONTROL 동의]**&#x200B;를 클릭한 다음 **[!UICONTROL 다운로드]**&#x200B;를 클릭합니다. 동의하지 않기로 선택한 경우 라이센스가 부여된 에셋이 다운로드되지 않습니다.
      > 
-     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/drm)이(가) 첨부되어 있습니다.
+     >라이선스로 보호된 자산에는 Experience Manager Assets에서 자산의 [메타데이터 속성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)을(를) 설정하여 [라이선스 계약](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)이(가) 첨부되어 있습니다.
 
 
      ![라이선스 자산](assets/licensed-asset-new.png)
