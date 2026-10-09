@@ -6,27 +6,35 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+TQID: 'https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Insights
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1056'
 ht-degree: 3%
-
 ---
-
 # Brand Portal에 대한 게스트 액세스 {#guest-access-to-brand-portal}
 
 Experience Manager Assets Brand Portal을 사용하면 게스트가 포털에 액세스할 수 있습니다. 게스트 사용자는 포털에 로그인하기 위해 자격 증명이 필요하지 않으며 포털의 공개 에셋(및 컬렉션)에 액세스할 수 있습니다. 게스트 세션의 사용자는 세션이 지속될 때까지 또는 게스트 사용자가 [[!UICONTROL 세션 종료]](#exit-guest-session)를 선택하지 않는 한 Lightbox(개인 컬렉션)에 자산을 추가하고 다운로드할 수 있습니다. 게스트 사용자 세션은 15분 동안 활성 상태로 유지됩니다.
@@ -54,7 +62,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 게스트 사용자 세션은 15분 동안 활성 상태로 유지됩니다.
 이 프로세스는 세션 시작 시간부터 15분 동안 **[!UICONTROL Lightbox]**&#x200B;의 상태를 유지합니다. 이후 현재 게스트 세션이 다시 시작되어 Lightbox 상태가 손실됩니다.
 
-예를 들어 게스트 사용자는 1500시간에 Brand Portal에 로그인하고 15:05시간에 다운로드할 자산을 **[!UICONTROL Lightbox]**&#x200B;에 추가합니다. 사용자가 15:15시간(로그인 후 15분 이내) 전에 **[!UICONTROL Lightbox]** 컬렉션(또는 자산)을 다운로드하지 않으면 세션을 다시 시작해야 합니다. **[!UICONTROL Lightbox]**&#x200B;이(가) 비어 있습니다. 즉, 세션이 손실된 경우 업로드된 자산을 더 이상 사용할 수 없습니다.
+예를 들어 게스트 사용자는 1500시간에 Brand Portal에 로그인하고 15:05시간에 다운로드할 자산을 **[!UICONTROL Lightbox]**&#x200B;에 추가합니다. 사용자가 로그인하고 15분 후 15시 15분 이내에 **[!UICONTROL Lightbox]** 컬렉션(또는 자산)을 다운로드하지 않으면 세션을 다시 시작해야 합니다. **[!UICONTROL Lightbox]**&#x200B;이(가) 비어 있습니다. 즉, 세션이 손실된 경우 업로드된 자산을 더 이상 사용할 수 없습니다.
 
 ## 허용된 동시 게스트 세션 {#concurrent-guest-sessions-allowed}
 

@@ -5,25 +5,31 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+TQID: 'https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1108
+source-wordcount: '1112'
 ht-degree: 2%
-
 ---
-
 # Brand Portal에서 폴더 공유 {#share-folders}
 
 Assets은 Brand Portal 수집을 지원하지 않으므로 사전 구성된 Experience Manager 작성자 인스턴스에서 Brand Portal을 에셋에 게시해야 합니다.
@@ -40,7 +46,7 @@ Assets은 Brand Portal 수집을 지원하지 않으므로 사전 구성된 Expe
 
 ### Brand Portal에서 사용자 그룹과 폴더 공유 {#sharing-folders-with-user-groups-on-brand-portal}
 
-폴더 에셋에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 다릅니다. AEM의 [ACL](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/security/security)은(는) 하위 폴더가 상위 폴더에서 ACL을 상속하면서 이 동작을 제어합니다. 예를 들어 폴더 A에 폴더 C가 포함된 폴더 B가 있다고 가정해 봅시다. 그러면 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한을 갖습니다. 폴더 B는 A의 하위 폴더이고 폴더 C는 B의 하위 폴더로서 ACL을 상속합니다.
+폴더 에셋에 대한 액세스 권한은 하위 폴더의 설정에 관계없이 상위 폴더의 액세스 권한에 따라 다릅니다. AEM의 [ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)은(는) 하위 폴더가 상위 폴더에서 ACL을 상속하면서 이 동작을 제어합니다. 예를 들어 폴더 A에 폴더 C가 포함된 폴더 B가 있다고 가정해 봅시다. 그러면 폴더 A에 대한 액세스 권한이 있는 사용자 그룹(또는 사용자)도 폴더 B와 폴더 C에 대해 동일한 액세스 권한을 갖습니다. 폴더 B는 A의 하위 폴더이고 폴더 C는 B의 하위 폴더로서 ACL을 상속합니다.
 
 마찬가지로 폴더 B에만 액세스할 수 있는 권한이 있는 사용자 그룹(또는 사용자)은 폴더 C에는 동일한 액세스 권한이 있지만 폴더 A에는 액세스할 수 없습니다. Adobe에서는 가장 많이 노출된 자산이 하위 폴더에 배치되도록 콘텐츠를 구성하여 하위 폴더에서 루트 폴더까지 액세스를 제한할 수 있도록 권장합니다.
 
@@ -120,7 +126,7 @@ Brand Portal의 사용자와 폴더를 공유하려면 다음 단계를 따르�
    ![](assets/folder_properties.png)
 
 1. 기본 이름을 사용자에게 표시하지 않으려면 **[!UICONTROL 폴더 속성]** 콘솔에서 **[!UICONTROL 폴더 제목]** 필드에 폴더 제목을 지정합니다.
-1. **[!UICONTROL 사용자 추가]** 목록에서 폴더를 공유할 사용자 또는 그룹을 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 사용자 추가]** 목록에서 폴더를 공유할 사용자 또는 그룹을 선택하고 **[!UICONTROL 추가]**를 클릭합니다.
 폴더를 게스트 사용자만 공유하고 다른 사용자는 공유하지 않으려면 **[!UICONTROL 구성원]** 드롭다운에서 **[!UICONTROL 익명 사용자]**&#x200B;를 선택하십시오.
 
    ![](assets/only-anonymous.png)
@@ -147,7 +153,7 @@ Brand Portal의 사용자와 폴더를 공유하려면 다음 단계를 따르�
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 경고 메시지 상자에서 **[!UICONTROL 확인]**&#x200B;을 클릭하여 공유 취소를 확인합니다.
+1. 경고 메시지 상자에서 **[!UICONTROL 확인]**을 클릭하여 공유 취소를 확인합니다.
 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 1. 공유 목록에서 제거한 사용자의 자격 증명으로 Brand Portal에 로그인합니다. 해당 폴더는 사용자의 Brand Portal 인터페이스에서 더 이상 사용할 수 없습니다.

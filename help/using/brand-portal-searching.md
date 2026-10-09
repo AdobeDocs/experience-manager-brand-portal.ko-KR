@@ -6,26 +6,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+TQID: 'https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Content structure
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1361
+source-wordcount: '1369'
 ht-degree: 3%
-
 ---
-
 # Brand Portal에서 자산 검색 {#search-assets-on-brand-portal}
 
 Brand Portal 검색 기능을 사용하면 Omnisearch 및 필터를 사용하여 검색 범위를 좁히는 데 도움이 되는 패싯 검색을 사용하여 관련 에셋을 빠르게 검색할 수 있습니다. 파일 또는 폴더 수준에서 자산을 검색하고 검색 결과를 스마트 컬렉션으로 저장할 수 있습니다.
@@ -69,7 +76,7 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
 
 ![Brand Portal의 필터 패널](assets/file-type-search.png "Brand Portal의 필터 패널")
 
-**[!UICONTROL 필터]** 패널에는 **[!UICONTROL 경로 브라우저]**, **[!UICONTROL 파일 형식]**, **[!UICONTROL 파일 크기]**, **[!UICONTROL 상태]** 및 **[!UICONTROL 방향]**&#x200B;과 같은 몇 가지 표준 패싯이 포함되어 있습니다.
+**[!UICONTROL 필터]** 패널에는 **[!UICONTROL 경로 브라우저]**, **[!UICONTROL 파일 형식]**, **[!UICONTROL 파일 크기]**, **[!UICONTROL 상태]** 및 **[!UICONTROL 방향]**과 같은 몇 가지 표준 패싯이 포함되어 있습니다.
 그러나 [사용자 지정 검색 패싯을 추가](../using/brand-portal-search-facets.md)하거나 **[!UICONTROL 필터]** 패널에서 특정 검색 패싯을 제거할 수 있습니다. 기본 검색 양식에서 술어를 편집하기만 하면 됩니다. 사용 가능하고 사용 가능한 [Brand Portal의 검색 조건자](../using/brand-portal-search-facets.md#list-of-search-predicates) 목록을 확인하십시오.
 
 사용 가능한 [검색 패싯](../using/brand-portal-search-facets.md)을 사용하여 검색에 필터를 적용하려면:
@@ -103,7 +110,7 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
      [!UICONTROL 속성 조건자]는 다음에 대한 텍스트 검색을 지원합니다.
 
      **부분 구문**
-속성 조건부에서 부분 구문을 사용하여 자산 검색을 허용하려면 검색 양식에서 **[!UICONTROL 부분 검색]** 확인란을 활성화하십시오. 이 방법을 사용하면 에셋 메타데이터에 사용된 단어 또는 구문을 정확히 지정하지 않더라도 원하는 에셋을 검색할 수 있습니다.
+     속성 조건부에서 부분 구문을 사용하여 자산 검색을 허용하려면 검색 양식에서 **[!UICONTROL 부분 검색]** 확인란을 활성화하십시오. 이 방법을 사용하면 에셋 메타데이터에 사용된 단어 또는 구문을 정확히 지정하지 않더라도 원하는 에셋을 검색할 수 있습니다.
 
      >[!NOTE]
      >
@@ -114,15 +121,15 @@ Brand Portal에서 자산을 검색하려면 다음을 수행하십시오.
      >* `jcr:content/metadata/dc:format`
 
      다음과 같은 작업을 수행할 수 있습니다.
-      * 필터 패널에서 패싯의 검색한 구문에서 발생하는 단어를 지정합니다. 예를 들어 용어 **climb**&#x200B;을 검색하는 경우(그리고 속성 조건부가 `dc:title` 속성에 매핑됨) 제목 구문에 **climb**&#x200B;이라는 단어가 포함된 모든 자산이 반환됩니다.
-      * 검색한 구문에서 발생하는 단어의 일부와 와일드카드 문자(&#42;)를 지정하여 간격을 채웁니다.
-예를 들어 다음을 검색할 수 있습니다.
-         * **climb&#42;**&#x200B;은(는) 제목 구문에 &quot;climb&quot; 문자로 시작하는 단어가 포함된 모든 자산을 반환합니다.
-         * **&#42;climb**&#x200B;은(는) 제목 구문에 &quot;climb&quot; 문자로 끝나는 단어가 있는 모든 자산을 반환합니다.
-         * **&#42;climb&#42;**&#x200B;은(는) 제목 구문에 &quot;climb&quot; 문자가 포함된 단어가 있는 모든 자산을 반환합니다.
+     * 필터 패널에서 패싯의 검색한 구문에서 발생하는 단어를 지정합니다. 예를 들어 용어 **climb**&#x200B;을 검색하는 경우(그리고 속성 조건부가 `dc:title` 속성에 매핑됨) 제목 구문에 **climb**&#x200B;이라는 단어가 포함된 모든 자산이 반환됩니다.
+     * 검색한 구문에서 발생하는 단어의 일부와 와일드카드 문자(&#42;)를 지정하여 간격을 채웁니다.
+       예를 들어 다음을 검색할 수 있습니다.
+       * **climb&#42;**&#x200B;은(는) 제목 구문에 &quot;climb&quot; 문자로 시작하는 단어가 포함된 모든 자산을 반환합니다.
+       * **&#42;climb**&#x200B;은(는) 제목 구문에 &quot;climb&quot; 문자로 끝나는 단어가 있는 모든 자산을 반환합니다.
+       * **&#42;climb&#42;**&#x200B;은(는) 제목 구문에 &quot;climb&quot; 문자가 포함된 단어가 있는 모든 자산을 반환합니다.
 
      **대/소문자를 구분하지 않는 텍스트**
-속성 조건자에서 대소문자를 구분하지 않는 검색을 허용할 수 있습니다. 검색 양식에서 **[!UICONTROL 대소문자 구분 안 함]** 확인란을 활성화하기만 하면 됩니다. 기본적으로 속성 조건자의 텍스트 검색은 대/소문자를 구분합니다.
+     속성 조건자에서 대소문자를 구분하지 않는 검색을 허용할 수 있습니다. 검색 양식에서 **[!UICONTROL 대소문자 구분 안 함]** 확인란을 활성화하기만 하면 됩니다. 기본적으로 속성 조건자의 텍스트 검색은 대/소문자를 구분합니다.
 
    >[!NOTE]
    >
