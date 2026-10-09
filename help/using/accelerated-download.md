@@ -209,7 +209,7 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Aspera Connect 클라이언트 기본 설정 {#aspera-connect-client-preferences}
 
-아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1}을 선택하여 IBMAspera Connect 클라이언트 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
+아이콘을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 기본 설정®1&rbrace;을 선택하여 IBMAspera Connect 클라이언트 기본 설정에서 설정할 수 있는 몇 가지 유용한 기본 설정이 있습니다.]**
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
