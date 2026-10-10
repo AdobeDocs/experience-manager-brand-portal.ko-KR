@@ -5,26 +5,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+TQID: 'https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1549
-ht-degree: 14%
-
+source-wordcount: '1722'
+ht-degree: 13%
 ---
-
 # Experience Manager Assets Brand Portal 개요 {#overview-of-aem-assets-brand-portal}
 
 마케터는 채널 파트너 및 내부 비즈니스 사용자와 협력하여 관련 디지털 콘텐츠를 생성하고, 관리하고, 고객에게 신속하게 전달해야 하는 경우가 있습니다. 전체 고객 여정에서 관련 콘텐츠를 적시에 전달하는 것은 더 많은 수요, 전환, 참여 및 고객 충성도를 이끄는 데 중요합니다.
@@ -49,7 +56,7 @@ Brand Portal과 함께 Adobe Experience Manager Assets을 구성하면 Brand Por
 >[!IMPORTANT]
 >
 > * Brand Portal은 현재 유지 관리 모드입니다. 모든 신제품 혁신은 [Content Hub](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)에서 확인할 수 있습니다.
-> * Brand Portal을 활성화해야 하는 경우 Adobe 담당자에게 문의하여 사용 사례 및 기타 특정 요구 사항에 대한 세부 정보를 확인하십시오.
+> * 여전히 Brand Portal을 활성화해야 하는 경우 사용 사례 및 기타 특정 요구 사항에 대한 세부 정보와 함께 Adobe 담당자에게 문의하십시오.
 > * Brand Portal은 [Assets Prime](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-prime) 또는 [Assets Ultimate](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)와 함께 사용할 수 없습니다. 그러나 이미 Brand Portal에 액세스할 수 있는 기존 Assets as a Cloud Service 고객은 Assets Ultimate으로 전환할 때 계속 사용할 수 있습니다.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
@@ -108,7 +115,7 @@ Experience Manager Assets Brand Portal에서 [게스트가 Brand Portal에 액�
 
 [!DNL Admin Console]에서 정의되었으며 Viewer 역할로 Brand Portal에 액세스할 수 있는 Brand Portal 사용자입니다. 이 역할을 가진 사용자는 Brand Portal에 로그인하여 허용된 폴더, 컬렉션 및 에셋에 액세스할 수 있습니다. 또한 에셋(원본 또는 특정 렌디션)을 검색, 미리 보기, 다운로드 및 내보내고, 계정 설정을 구성하고, 에셋을 검색할 수 있습니다. 다음은 뷰어에서 수행할 수 있는 작업 목록입니다.
 
-* [에셋 찾아보기](browse-assets-brand-portal.md)
+* [에셋 검색](browse-assets-brand-portal.md)
 
 * [에셋 검색](brand-portal-searching.md)
 
@@ -124,7 +131,7 @@ Experience Manager Assets Brand Portal에서 [게스트가 Brand Portal에 액�
 
 * [컬렉션 공유](brand-portal-share-collection.md)
 
-* [링크로 자산 공유](brand-portal-link-share.md)
+* [링크로 에셋 공유](brand-portal-link-share.md)
 
 ### 관리자 {#administrator}
 
@@ -184,7 +191,7 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
    **시나리오 1**
 
    1. [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] 또는 [!UICONTROL Federated ID]이 있는 경우 **[!UICONTROL 로그인]**&#x200B;을 클릭하세요.
-[!UICONTROL 로그인] 페이지가 열립니다.
+      [!UICONTROL 로그인] 페이지가 열립니다.
 
    1. [!UICONTROL Adobe ID] 자격 증명을 제공하고 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
 
@@ -195,9 +202,9 @@ Brand Portal URL의 접두사만 사용자 정의할 수 있으며 전체 URL은
    **시나리오 2**
 
    1. [!UICONTROL Adobe ID]이 없는 경우 새로 만들려면 [!UICONTROL 액세스 요청] 페이지에서 **[!UICONTROL Adobe ID 가져오기]**&#x200B;를 클릭하세요.
-[!UICONTROL 로그인] 페이지가 열립니다.
+      [!UICONTROL 로그인] 페이지가 열립니다.
    1. **[!UICONTROL Adobe ID 가져오기]**&#x200B;를 클릭합니다.
-[!UICONTROL 등록] 페이지가 열립니다.
+      [!UICONTROL 등록] 페이지가 열립니다.
    1. 이름과 성, 이메일 ID 및 암호를 입력합니다.
    1. **[!UICONTROL 등록]**&#x200B;을 선택하세요.
 

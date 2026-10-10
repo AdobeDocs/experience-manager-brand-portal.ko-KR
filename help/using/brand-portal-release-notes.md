@@ -5,26 +5,34 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+TQID: 'https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+    internal-label: Smart Tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: '1633'
 ht-degree: 93%
-
 ---
-
 # 릴리스 정보 {#release-notes}
 
 Adobe Experience Manager Assets Brand Portal 2026.01.01 릴리스의 새로운 기능, 개선 사항, 해결된 중요한 문제 및 알려진 문제에 대한 인사이트를 얻으십시오.
@@ -117,7 +125,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 
 * 레이블이나 태그가 길면 검색 필터에 적절하게 표시되지 않습니다.
 * 다운로드 대화 상자에 긴 렌디션 이름을 표시할 수 없습니다.
-* 카드 보기에서 비디오 자산을 미리 볼 수 없습니다.
+* 카드 보기에서 비디오 에셋을 미리 볼 수 없습니다.
 
 ### 2023년 5월 릴리스 {#may-2023}
 
@@ -148,8 +156,8 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-* 이제 PDF 자산의 미리보기가 개선된 새로운 최신 PDF 뷰어를 사용할 수 있습니다.
-* 이제 관리자에게 보내는 자산 소싱 알림을 활성화하거나 비활성화할 수 있습니다. [!UICONTROL 일반 설정]으로 이동한 다음 [!UICONTROL `Notify Administrator of asset contribution`]을 활성화 또는 비활성화하십시오.
+* 이제 PDF 에셋의 미리보기가 개선된 새로운 최신 PDF 뷰어를 사용할 수 있습니다.
+* 이제 관리자에게 보내는 에셋 소싱 알림을 활성화하거나 비활성화할 수 있습니다. [!UICONTROL 일반 설정]으로 이동한 다음 [!UICONTROL `Notify Administrator of asset contribution`]을 활성화 또는 비활성화하십시오.
 
   ![관리자에게 자산 기여 알림](assets/notify-admin.png)
 
@@ -158,7 +166,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 
 **알려진 문제**
 
-여기에는 다음의 알려진 문제가 포함됩니다.
+이번 릴리스에는 다음의 알려진 문제가 포함됩니다.
 
 * 자산 소싱 보고서 내용이 부분적으로 현지화되었습니다.
 * 사용자 프로필의 일부 필드를 사용자 프로필에서 편집할 수 없습니다.
@@ -175,7 +183,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal의 펄스 알림은 2022년 12월 1일부터 서비스가 중단됩니다. 펄스 알림 대신, 다음과 같은 이벤트에 대해서는 계속 이메일 알림을 받게 됩니다.
+>AEM Assets Brand Portal의 펄스 알림은 2022년 12월 1일부터 중단됩니다. 펄스 알림 대신, 다음과 같은 이벤트에 대해서는 계속 이메일 알림을 받게 됩니다.
 >
 >* 링크를 통한 자산 공유
 >* 액세스 권한 요청 워크플로
@@ -190,7 +198,7 @@ Adobe Experience Manager(AEM) Assets Brand Portal을 사용하면 다양한 디�
 
 이번 릴리스에는 다음과 같은 중요한 문제에 대한 수정 사항이 포함되어 있습니다.
 
-* NUI가 Experience Manager에서 자산을 처리하지 못하면 Brand Portal에 부정확한 자산 가져오기 상태가 표시됩니다.
+* NUI가 Experience Manager에서 에셋을 처리하지 못하면 Brand Portal에 부정확한 에셋 가져오기 상태가 표시됩니다.
 * 미리 보기 작업이 실패하는 경우, 실패를 알리는 알림이 제공되지 않습니다.
 * 각 자산의 `totalUploadedSize` 속성에 대한 부정확한 값이 수정되었습니다.
 * 자산에 사용할 수 있는 렌디션이 많은 경우, **모든 항목 다운로드**&#x200B;를 클릭하면 Brand Portal이 잘못된 .ZIP 파일을 다운로드합니다.
@@ -209,7 +217,7 @@ Brand Portal은 이제 12시간마다 자동 작업을 실행하여 AEM에 게�
 * 색상 태그가 있는 자산이 포함된 폴더나 컬렉션을 다운로드하면 XML 파일도 함께 다운로드됩니다.
 * 렌디션이 포함된 비디오를 다운로드하면 Brand Portal에서 잘못된 .ZIP 파일이 생성됩니다.
 * AEM 작성자에서 사전 설정과 자산을 만든 다음 Brand Portal에 게시하면 자산을 다운로드하는 동안 동적 렌디션을 선택할 수 있습니다. 그러나 다운로드한 .ZIP 파일을 압축 해제할 수 없습니다. 이 문제로 인해 다운로드한 콘텐츠에 액세스할 수 없게 됩니다.
-* Brand Portal에서 특정 폴더의 비디오 자산을 다운로드하는 도중 문제가 발생합니다.
+* Brand Portal에서 특정 폴더의 비디오 에셋을 다운로드하는 도중 문제가 발생합니다.
 * 이메일을 사용하여 기여 폴더의 URL을 공유하면 뷰어 및 편집자 역할이 경로를 사용하여 상위 폴더에 액세스하는 도중 문제가 발생합니다.
 * 소싱 게시 보고서에 잘못된 작업 시작 시간이 표시됩니다.
 
@@ -222,11 +230,11 @@ Brand Portal은 이제 12시간마다 자동 작업을 실행하여 AEM에 게�
 * 사용자는 폴더를 검색하거나, 탐색하거나, 열 수 없습니다. 사용자 인터페이스에 `Failed to load data` 오류 메시지가 표시됩니다.
 * **[!UICONTROL 렌디션]** 패널에는 Brand Portal에 게시된 자산의 모든 정적 렌디션이 나열되지 않습니다.
 * **[!UICONTROL 렌디션]** 패널에는 자산의 스마트 자르기 렌디션이 나열되지만, 사용자는 스마트 자르기 렌디션을 미리 보거나 다운로드할 수 없습니다.
-* 다운로드 대화 상자에는 선택한 자산의 스마트 자르기 렌디션이 나열되지만, 사용자는 스마트 자르기 렌디션을 다운로드할 수 없습니다.
-* 관리자가 아닌 사용자는 자산을 다운로드할 때 원본 자산의 렌디션만 받게 됩니다. 시스템 및 사용자 정의 렌디션은 다운로드되지 않습니다.
+* 다운로드 대화 상자에는 선택한 에셋의 스마트 자르기 렌디션이 나열되지만, 사용자는 스마트 자르기 렌디션을 다운로드할 수 없습니다.
+* 관리자가 아닌 사용자는 에셋을 다운로드할 때 원본 에셋의 렌디션만 받게 됩니다. 시스템 및 사용자 정의 렌디션은 다운로드되지 않습니다.
 * 검색 필터를 적용하여 자산을 다운로드할 때, 다운로드 대화 상자에서 `Download` 버튼이 비활성화되어 있으며 사용자는 자산을 다운로드할 수 없습니다.
 * `Smart Tags` 또는 `Color Tags`가 활성화된 경우 다운로드 대화 상자에 `json` 파일이 렌디션으로 나열되고 이들 `json` 파일이 보관된 zip 폴더에 다운로드됩니다.
-* 익명 사용자는 공유 링크를 사용하여 자산을 다운로드할 수 없습니다. 링크를 클릭하면 Brand Portal 로그인 페이지로 리디렉션되기 때문입니다.
+* 익명 사용자는 공유 링크를 사용하여 에셋을 다운로드할 수 없습니다. 링크를 클릭하면 Brand Portal 로그인 페이지로 리디렉션되기 때문입니다.
 * 시스템에 동시 활성 사용자 수에 대한 올바른 값이 반영되지 않습니다.
 
 <!--

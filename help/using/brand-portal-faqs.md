@@ -5,25 +5,30 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
+discoiquuid:
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
+TQID: 'https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1513
+source-wordcount: '1519'
 ht-degree: 97%
-
 ---
-
 # 자주 묻는 질문 {#frequently-asked-questions}
 
 Brand Portal FAQ는 최종 사용자가 최신 Experience Manager Assets Brand Portal 6.4.6 릴리스 또는 이전 버전을 사용할 때 겪을 수 있는 질문과 문제에 초점을 맞춥니다.
@@ -46,16 +51,16 @@ Brand Portal FAQ는 최종 사용자가 최신 Experience Manager Assets Brand P
 
 **답변:** Experience Manager Assets 관리자에게 문의하여 구성을 확인하고 Brand Portal 테넌트가 하나의 Experience Manager Assets 작성자 인스턴스에만 구성되었는지 확인하십시오.
 
-이 문제는 여러 Experience Manager Assets 작성자 인스턴스에 Brand Portal 테넌트를 구성한 경우 발생할 수 있습니다. 예를 들어 관리자가 동일한 Brand Portal 테넌트를 스테이징 환경과 프로덕션 환경의 Experience Manager Assets 작성 인스턴스에 모두 구성한 경우입니다. 이 경우 Brand Portal에서 자산 게시가 트리거되더라도, 복제 에이전트가 요청 토큰을 수신하지 못해 Experience Manager Assets 작성자 인스턴스가 자산을 가져오지 못하게 됩니다.
+이 문제는 여러 Experience Manager Assets 작성자 인스턴스에 Brand Portal 테넌트를 구성한 경우 발생할 수 있습니다. 예를 들어 관리자가 동일한 Brand Portal 테넌트를 스테이징 환경과 프로덕션 환경의 Experience Manager Assets 작성자 인스턴스에 모두 구성한 경우입니다. 이 경우 Brand Portal에서 에셋 게시가 트리거되더라도, 복제 에이전트가 요청 토큰을 수신하지 못해 Experience Manager Assets 작성자 인스턴스가 에셋을 가져오지 못하게 됩니다.
 
 
-**질문: Experience Manager Assets의 자산을 Brand Portal에 게시할 수 없습니다. 복제 로그에는 연결 시간이 초과되었다고 기재되어 있습니다. 빠른 해결책이 있습니까?**
+**질문: Experience Manager Assets의 자산을 Brand Portal에 게시할 수 없습니다. 복제 로그에는 연결 시간 초과가 발생했다고 기재되어 있습니다. 빠른 해결책이 있습니까?**
 
 **답변:** 일반적으로 복제 대기열에 보류 중인 요청이 여러 개 있는 경우 시간 초과 오류로 인해 게시가 실패합니다. 이 문제를 해결하려면 복제 에이전트가 시간 초과를 방지하도록 구성되어 있는지 확인해야 합니다.
 
 다음 단계를 수행하여 복제 에이전트를 구성하십시오.
 
-1. AEM Experience Manager Assets 작성자 인스턴스에 로그인합니다.
+1. Experience Manager Assets 작성자 인스턴스에 로그인합니다.
 1. **도구** 패널에서 **[!UICONTROL 배포]** > **[!UICONTROL 복제]**&#x200B;로 이동합니다.
 1. 복제 페이지에서 **[!UICONTROL `Agents on author`]**&#x200B;를 클릭합니다. Brand Portal 테넌트에 대한 4개의 복제 에이전트를 확인할 수 있습니다.
 1. 복제 에이전트 URL을 클릭하면 에이전트 세부 정보가 열립니다.
@@ -95,7 +100,7 @@ Brand Portal FAQ는 최종 사용자가 최신 Experience Manager Assets Brand P
 
 **질문: Brand Portal 사용자로서 취해야 할 조치가 있습니까?**
 
-**답변:** Brand Portal 6.4.5 릴리스에는 자산 소싱이라는 새로운 기능이 추가되었습니다. 관리자는 Experience Manager Assets에서 자산 소싱 기능을 구성하여 Brand Portal 사용자에 대해 해당 기능을 활성화해야 합니다. 자세한 내용은 [자산 소싱 활성화](brand-portal-asset-sourcing.md)를 참조하십시오.
+**답변:** Brand Portal 6.4.5 릴리스에는 자산 소싱이라는 새로운 기능이 추가되었습니다. 관리자는 Experience Manager Assets에서 에셋 소싱 기능을 구성하여 Brand Portal 사용자에 대해 해당 기능을 활성화해야 합니다. 자세한 내용은 [자산 소싱 활성화](brand-portal-asset-sourcing.md)를 참조하십시오.
 
 
 
@@ -121,7 +126,7 @@ Brand Portal 사용자는 **기여** 폴더에 액세스하고 **신규** 폴더
 
 **질문: 기여와 관련된 자산 요구 사항은 무엇입니까?**
 
-**답변:** **기여** 폴더의 **간략한** 문서와 **공유됨** 폴더의 참조 콘텐츠는 Brand Portal 사용자가 기여의 요구와 기대를 이해하도록 도와줍니다. 이러한 사항을 합쳐 자산 요구사항이라고 합니다.
+**답변:** **기여** 폴더의 **간략한** 문서와 **공유됨** 폴더의 참조 콘텐츠는 Brand Portal 사용자가 기여의 요구와 기대를 이해하도록 도와줍니다. 이러한 사항을 합쳐 에셋 요구사항이라고 합니다.
 
 **질문: 허용되는 폴더에는 자산을 업로드할 수 있습니까?**
 
@@ -182,7 +187,7 @@ Brand Portal 사용자는 **기여** 폴더에 액세스하고 **신규** 폴더
 
 **질문: 변동 중인 폴더를 Experience Manager Assets에서 Brand Portal로 게시하면 어떻게 됩니까?**
 
-**답변:** Experience Manager Assets에서는 폴더가 Brand Portal에 게시될 때마다 로그가 유지됩니다. 게시 시점에 Brand Portal에 게시되지 않은 모든 자산은 복제 대기열에 추가됩니다. 게시 작업이 트리거된 후 폴더에 추가된 모든 자산은 Brand Portal에 게시되지 않습니다. Experience Manager Assets 사용자가 폴더를 다시 게시하면 이전에 게시되지 않았던 자산(복제 대기열에 있는 자산)만 Brand Portal에 게시됩니다. 이 프로세스는 Experience Manager Assets에서 Brand Portal에 게시된 모든 폴더와 기여 폴더 내의 공유됨 폴더에도 적용됩니다.
+**답변:** Experience Manager Assets에서는 폴더가 Brand Portal에 게시될 때마다 로그가 유지됩니다. 게시 시점에 Brand Portal에 게시되지 않은 모든 자산은 복제 대기열에 추가됩니다. 게시 작업이 트리거된 후 폴더에 추가된 모든 에셋은 Brand Portal에 게시되지 않습니다. Experience Manager Assets 사용자가 폴더를 다시 게시하면 이전에 게시되지 않았던 자산(복제 대기열에 있는 자산)만 Brand Portal에 게시됩니다. 이 프로세스는 Experience Manager Assets에서 Brand Portal에 게시된 모든 폴더와 기여 폴더 내의 SHARED 폴더에도 적용됩니다.
 
 **질문: 질문이 있으면 누구에게 문의해야 합니까?**
 
@@ -190,7 +195,7 @@ Brand Portal 사용자는 **기여** 폴더에 액세스하고 **신규** 폴더
 
 >[!NOTE]
 >
->릴리스 일정은 예정되어 있지 않으며 변경될 수 있습니다. 업데이트된 릴리스 일정을 알아보려면 Adobe 계정 관리자 또는 고객 지원 센터에 문의하십시오.
+>릴리스 일정은 잠정적이며 변경될 수 있습니다. 업데이트된 릴리스 일정을 알아보려면 Adobe 계정 관리자 또는 고객 지원 센터에 문의하십시오.
 
 
 ## 제품 액세스 및 지원(제한된 사이트) {#product-access-and-support-restricted-sites}

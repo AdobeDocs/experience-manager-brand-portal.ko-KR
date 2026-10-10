@@ -7,23 +7,28 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-TQID: https://experienceleague.adobe.com/-FF6IXLHoYo485vkZVBaYMrVlZZYys0shOr9OChBlao
+TQID: 'https://experienceleague.adobe.com/-FF6IXLHoYo485vkZVBaYMrVlZZYys0shOr9OChBlao'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Admin
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '413'
 ht-degree: 28%
-
 ---
-
 # Brand Portal로 Experience Manager Assets 구성 {#configure-integration}
 
 Brand Portal과 함께 Adobe Experience Manager Assets을 구성하면 Brand Portal 사용자에게 자산 게시, 자산 배포 및 자산 기여 기능이 활성화됩니다. 이를 통해 Experience Manager Assets 사용자는 Brand Portal 사용자와 함께 에셋을 게시하고 배포할 수 있습니다. Brand Portal 사용자는 새 에셋을 에셋 기여 폴더에 업로드하고 다시 Experience Manager Assets에 게시하여 공유 에셋에 액세스하고 기여할 수 있습니다.
